@@ -34,6 +34,3 @@ with os.open(catalog_path, "r") as f:
             catalog["collections"].append(key)
     catalog["collections"].append(file for file in indicator_files)
     yaml.dump(catalog, f)
-    
-    
-subprocess.Popen(["eodash_catalog" ,"-ctl","RACE"])
