@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -U pip
-          pip install eodash_catalog
+          pip install eodash_catalog pyyaml
       - name: changed-files
         id: changed-files
         uses: tj-actions/changed-files@v45
@@ -33,4 +33,4 @@ jobs:
       - name: List all changed files
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-        run: python .github/add_changed_files.py
+        run: python .github/build_changed_files.py
