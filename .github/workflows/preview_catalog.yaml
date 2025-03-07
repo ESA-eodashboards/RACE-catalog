@@ -16,14 +16,14 @@ jobs:
     runs-on: ubuntu-latest 
     name: Test changed-files
     steps:
-      - name: Get changed files
+      - name: Checkout
         uses: actions/checkout@v4
         with:
             submodules: 'true'
       - name: Install dependencies
         run: |
           pip install -U pip
-          pip install eodash_catalog==0.1.7
+          pip install eodash_catalog
       - name: changed-files
         uses: tj-actions/changed-files@v45
         # To compare changes between the current commit and the last pushed remote commit set `since_last_remote_commit: true`. e.g
@@ -32,4 +32,8 @@ jobs:
       - name: List all changed files
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-        run: python .github/add_changed_files.py
+        run: |
+          for file in ${ALL_CHANGED_FILES}; do
+            echo "$file was changed"
+          done
+          echo "Total changed files: ${ALL_CHANGED_FILES}"
