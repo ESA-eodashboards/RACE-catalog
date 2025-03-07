@@ -25,6 +25,7 @@ jobs:
           pip install -U pip
           pip install eodash_catalog
       - name: changed-files
+        id: changed-files
         uses: tj-actions/changed-files@v45
         # To compare changes between the current commit and the last pushed remote commit set `since_last_remote_commit: true`. e.g
         # with:
