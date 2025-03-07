@@ -36,4 +36,3 @@ jobs:
           for file in ${ALL_CHANGED_FILES}; do
             echo "$file was changed"
           done
-          echo "Total changed files: ${ALL_CHANGED_FILES}"
