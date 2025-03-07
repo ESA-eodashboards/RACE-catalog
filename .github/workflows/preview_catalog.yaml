@@ -1,0 +1,35 @@
+
+
+
+name: Preview catalog
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - reopened
+      - synchronize
+
+jobs:
+  preview_changed_files:
+    runs-on: ubuntu-latest 
+    name: Test changed-files
+    steps:
+      - name: Get changed files
+        uses: actions/checkout@v4
+        with:
+            submodules: 'true'
+      - name: Install dependencies
+        run: |
+          pip install -U pip
+          pip install eodash_catalog==0.1.7
+      - name: changed-files
+        uses: tj-actions/changed-files@v45
+        # To compare changes between the current commit and the last pushed remote commit set `since_last_remote_commit: true`. e.g
+        # with:
+        #   since_last_remote_commit: true 
+      - name: List all changed files
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: python ../add_changed_files.py
