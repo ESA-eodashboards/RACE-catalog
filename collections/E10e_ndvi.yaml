@@ -1,0 +1,32 @@
+Name: ndvi
+Title: Normalized Difference Vegetation Index
+EodashIdentifier: E10e
+Subtitle: Normalized Difference Vegetation Index
+Description: E10e_ndvi/E10e_ndvi.md
+Themes:
+  - biomass
+Tags:
+  - NDVI
+  - Open data
+DataSource:
+  Spaceborne:
+    Satellite:
+    - GCOM-C
+    Sensor:
+    - SGLI
+Agency:
+  - JAXA
+Legend: E10e_ndvi/E10e_legend.png
+Image: E10e_ndvi/E10e_ndvi.png
+References:
+  - Name: G-Portal
+    Url: https://gportal.jaxa.jp/
+Resources:
+  - EndPoint: https://ogcpreview2.restecmap.com/examind/api/WS/wms/default
+    Name: WMS
+    Type: Time
+    LayerId: NDVI-GCOMC-World-Monthly
+    Styles: [""]
+Provider:
+  - Name: JAXA
+    Url: https://global.jaxa.jp/

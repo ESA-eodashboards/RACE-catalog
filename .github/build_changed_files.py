@@ -36,4 +36,4 @@ with os.open(catalog_path, "r") as f:
     yaml.dump(catalog, f)
     
     
-subprocess.Popen(["eodash_catalog" ,"-ctl","race"])
+subprocess.Popen(["eodash_catalog" ,"-ctl","RACE"])
