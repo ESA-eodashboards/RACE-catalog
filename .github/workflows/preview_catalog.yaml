@@ -32,4 +32,4 @@ jobs:
       - name: List all changed files
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-        run: python ../add_changed_files.py
+        run: python .github/add_changed_files.py
