@@ -1,36 +1,46 @@
 import os
-import yaml
-import subprocess
+from yaml import load, dump
+from yaml.loader import SafeLoader
 
-collections_path = "collections"
-indicators_path = "indicators"
+collections_path = "collections/"
+indicators_path = "indicators/"
 catalog_path = "catalogs/race.yaml"
 
 ALL_CHANGED_FILES = os.environ.get("ALL_CHANGED_FILES")
 changed_files = ALL_CHANGED_FILES.split(" ")
 print("ALL_CHANGED_FILES: ", changed_files)
 
-collections_files = [ file for file in changed_files if file.startswith(collections_path) ]
-indicator_files = [ file for file in changed_files if file.startswith(indicators_path) ]
+collections_files = [
+    file for file in changed_files if file.startswith(collections_path)
+]
+indicator_files = [file for file in changed_files if file.startswith(indicators_path)]
 
 print("changed collections files: ", collections_files)
 
 is_indicator = {file: False for file in collections_files}
 
 print("changed indicator files: ", indicator_files)
-# 3. if the changed collection files doesnt exist in an indicator file, add it to the catalog
+# if the changed collection files doesnt exist in an indicator file, add it to the catalog
 for file in indicator_files:
     with open(file, "r") as f:
-        indicator = yaml.load(f)
-    ind_collections = indicator.get("Collections", [])
-    for collection in ind_collections:
+        indicator = load(f, Loader=SafeLoader)
+        if "Collections" not in indicator:
+            continue
+    for collection in indicator["Collections"]:
         if collection in collections_files:
             is_indicator[collection] = True
-with os.open(catalog_path, "r") as f:
-    catalog = yaml.load(f)      
-    catalog["collections"] = []      
+with open(catalog_path, "r") as f:
+    catalog = load(f, Loader=SafeLoader)
+    catalog["collections"] = []
     for key in is_indicator:
         if not is_indicator[key]:
+            key = key.split("/")[-1].split(".")[0]
             catalog["collections"].append(key)
-    catalog["collections"].append(file for file in indicator_files)
-    yaml.dump(catalog, f)
+
+    for file in indicator_files:
+        file = file.split("/")[-1].split(".")[0]
+        catalog["collections"].append(file)
+
+
+with open(catalog_path, "w") as f:
+    dump(catalog, f)
