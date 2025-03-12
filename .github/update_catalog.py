@@ -2,9 +2,9 @@ import os
 from yaml import load, dump
 from yaml.loader import SafeLoader
 
-collections_path = "collections/"
-indicators_path = "indicators/"
-catalog_path = "catalogs/race.yaml"
+collections_path = "catalog_submodule/collections/"
+indicators_path = "catalog_submodule/indicators/"
+catalog_path = "catalog_submodule/catalogs/race.yaml"
 
 ALL_CHANGED_FILES = os.environ.get("ALL_CHANGED_FILES")
 changed_files = ALL_CHANGED_FILES.split(" ")
