@@ -19,7 +19,7 @@ Provider:
     Url: https://murmuration-sas.com/
 Resources:
   - Name: COG source
-    Style: https://esa-eodash.github.io/race-catalog/build/assets/IDEAS1_hopi_style.json
+    Style: https://esa-eodash.github.io/race-catalog/pr-preview/pr-1/assets/IDEAS1_hopi_style.json
     Bbox: [-24, 33, 42, 71]
     Legend: https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi_b1/cm_legend.png
     TimeEntries:
