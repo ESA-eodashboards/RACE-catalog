@@ -36,9 +36,6 @@ jobs:
       - name: List all changed files
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-          COLLECIONS_PATH: catalog_submodule/collections
-          INDICATORS_PATH: catalog_submodule/indicators
-          CATALOG_PATH: catalogs/race.yaml
         run: python .github/update_catalog.py
       - name: Build
         env:
