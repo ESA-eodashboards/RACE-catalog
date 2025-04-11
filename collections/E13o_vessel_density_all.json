@@ -1,0 +1,82 @@
+{
+  "Name": "vessel_density_all",
+  "Title": "Vessel density",
+  "EodashIdentifier": "E13o",
+  "Subtitle": "Vessel density description",
+  "Description": "E13o_vessel_density_all/E13o_vessel_density_all.md",
+  "Themes": [
+    "water"
+  ],
+  "Tags": [
+    "Maritime",
+    "Traffic",
+    "Open data",
+    "Ships",
+    "Vessels",
+    "Vessel Density",
+    "Traffic"
+  ],
+  "DataSource": {
+    "InSitu": [
+      "AIS"
+    ]
+  },
+  "Agency": [
+    "ESA"
+  ],
+  "Image": "E13o_vessel_density_all/E13o_vessel_density_all.png",
+  "Legend": "E13o_vessel_density_all/E13o_legend.png",
+  "Resources": [
+    {
+      "EndPoint": "https://services.sentinel-hub.com",
+      "Name": "Sentinel Hub",
+      "Type": "byoc",
+      "CollectionId": "beee9b47-b1ab-4044-baa5-0958d3465f12",
+      "LayerId": "AWS_VIS_VESSELDENSITY_ALL"
+    }
+  ],
+  "Services": [
+    {
+      "Endpoint": "https://services.sentinel-hub.com/api/v1/statistics",
+      "Name": "Statistical API",
+      "Type": "byoc",
+      "CollectionId": "beee9b47-b1ab-4044-baa5-0958d3465f12",
+      "Script": "E13o_vessel_density_all/E13o_vessel_density_all.js"
+    }
+  ],
+  "References": [
+    {
+      "Name": "EU Vessel density map Detailed method",
+      "Key": "emodnet_map_method",
+      "Url": "https://www.emodnet-humanactivities.eu/documents/Vessel%20density%20maps_method_v1.5.pdf"
+    },
+    {
+      "Name": "Map data source",
+      "Key": "emodnet_map",
+      "Url": "https://www.emodnet-humanactivities.eu/search-results.php?dataname=Vessel+Density+"
+    }
+  ],
+  "Provider": [
+    {
+      "Name": "EMODNET",
+      "Url": "https://www.emodnet-humanactivities.eu"
+    }
+  ],
+  "Colorlegend": {
+    "domain": [
+      0.5,
+      150
+    ],
+    "range": [
+      "#009b8f",
+      "#00db00",
+      "#fffc00",
+      "#f49a00",
+      "#d01300",
+      "#a10000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "total ship presence time / 1 km\u00b2"
+  }
+}

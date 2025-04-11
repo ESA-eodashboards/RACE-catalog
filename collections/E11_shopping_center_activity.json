@@ -1,0 +1,50 @@
+{
+  "Name": "shopping_center_activity",
+  "Title": "Activity at shopping centers",
+  "EodashIdentifier": "E11",
+  "Subtitle": "Occupancy of customer parking",
+  "Description": "E11_shopping_center_activity/E11_shopping_center_activity.md",
+  "Themes": [
+    "economy"
+  ],
+  "Tags": [
+    "Copernicus",
+    "Mobility",
+    "Traffic",
+    "Open data"
+  ],
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [
+        "Sentinel-1"
+      ],
+      "Sensor": [
+        "C-SAR"
+      ]
+    },
+    "InSitu": [
+      "Mobile"
+    ]
+  },
+  "Agency": [
+    "ESA"
+  ],
+  "Provider": [
+    {
+      "Name": "Copernicus",
+      "Url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "Name": "Vodafone",
+      "Url": "https://www.vodafone.com/"
+    }
+  ],
+  "Resources": [
+    {
+      "EndPoint": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/",
+      "Name": "GeoDB",
+      "Database": "eodash",
+      "CollectionId": "E11"
+    }
+  ]
+}

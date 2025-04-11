@@ -1,0 +1,91 @@
+{
+  "Name": "temperature",
+  "Title": "Global temperature",
+  "EodashIdentifier": "CDS1_temperature",
+  "Subtitle": "Global temperature description",
+  "Description": "CDS1_temperature/CDS1_temperature.md",
+  "Themes": [
+    "air"
+  ],
+  "Tags": [
+    "Copernicus Services",
+    "C3S",
+    "CDS",
+    "Multi-sensors",
+    "Open data"
+  ],
+  "DataSource": {
+    "Other": [
+      "ERA5"
+    ]
+  },
+  "Agency": [
+    "European Commission",
+    "ECMWF"
+  ],
+  "License": [
+    {
+      "Url": "https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
+      "Type": "application/pdf",
+      "Title": "Licence to Use Copernicus Products"
+    }
+  ],
+  "Provider": [
+    {
+      "Name": "Copernicus Climate Change Service",
+      "Url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+    },
+    {
+      "Name": "Climate Data Store",
+      "Url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+    }
+  ],
+  "Citation": {
+    "Citation": "Mu\u00f1oz Sabater, J., (2019) was downloaded from the Copernicus Climate Change Service (2021).\nThe results contain modified Copernicus Climate Change Service information 2020. \nNeither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.\n",
+    "DOI": "10.24381/cds.68d2bb30",
+    "Publication": [
+      {
+        "Citation": "Zaitchik, B.F., Sweijd, N., Shumake-Guillemot, J. et al. A framework for research linking weather, climate and COVID-19. Nat Commun 11, 5730 (2020).",
+        "DOI": "10.1038/s41467-020-19546-7"
+      }
+    ]
+  },
+  "Image": "CDS1_temperature/CDS1_temperature.png",
+  "Legend": "CDS1_temperature/CDS1_legend.png",
+  "Resources": [
+    {
+      "EndPoint": "https://services.sentinel-hub.com",
+      "Name": "Sentinel Hub",
+      "Type": "byoc",
+      "CollectionId": "0b3eebec-30de-4fa6-9cd3-4b252d45d847",
+      "LayerId": "AWS_VIS_2MTEMPERATURE"
+    }
+  ],
+  "Services": [
+    {
+      "Endpoint": "https://services.sentinel-hub.com/api/v1/statistics",
+      "Name": "Statistical API",
+      "Type": "byoc",
+      "CollectionId": "0b3eebec-30de-4fa6-9cd3-4b252d45d847",
+      "Script": "CDS1_temperature/CDS1_temperature.js"
+    }
+  ],
+  "Colorlegend": {
+    "domain": [
+      210,
+      330
+    ],
+    "range": [
+      "#2c5996",
+      "#619ac3",
+      "#bcd6e6",
+      "#f6f6f6",
+      "#f2c8b0",
+      "#cc6e5a",
+      "#92242d"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Air Temperature at 2m [K]"
+  }
+}
