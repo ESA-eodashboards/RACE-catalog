@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Poland",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        19.39012835,
+        52.12759564
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    19.38012835,
+    52.117595640000005,
+    19.400128350000003,
+    52.13759564
+  ],
+  "properties": {
+    "start_datetime": "2020-05-01T00:00:00Z",
+    "end_datetime": "2020-11-01T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter cereal"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter cereal"
+    }
+  ],
+  "assets": {},
+  "collection": "E10a10_harvesting_evolution_winter_cereal"
+}

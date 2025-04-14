@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Romania",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        24.97293039,
+        45.852431271
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    24.962930389999997,
+    45.842431271,
+    24.98293039,
+    45.862431271
+  ],
+  "properties": {
+    "start_datetime": "2020-05-01T00:00:00Z",
+    "end_datetime": "2020-11-01T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter rapeseed"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter rapeseed"
+    }
+  ],
+  "assets": {},
+  "collection": "E10a10_2_harvesting_evolution_winter_rapeseed"
+}

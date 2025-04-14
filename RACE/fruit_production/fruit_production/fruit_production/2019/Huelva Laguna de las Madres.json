@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Huelva Laguna de las Madres",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -6.84888889,
+        37.18316944
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    -6.858888889999999,
+    37.17316944,
+    -6.83888889,
+    37.19316944
+  ],
+  "properties": {
+    "start_datetime": "2019-12-27T11:21:32Z",
+    "end_datetime": "2020-06-05T11:33:22Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Fruit production"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Fruit production"
+    }
+  ],
+  "assets": {},
+  "collection": "fruit_production"
+}

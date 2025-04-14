@@ -1,0 +1,117 @@
+{
+  "type": "Collection",
+  "id": "trucks_port",
+  "stac_version": "1.1.0",
+  "description": "## Commercial fluxes\n\nThe data used to compute this indicator are traffic changes extracted from mobile devices (data provided by Vodafone Spain). For each pair of months (e.g. April and February 2020) the ratio (in %) of the number of trucks from the most recent with respect to the less recent month is provided. \n\n**The following information is provided on the chart:** \n\n-\tDomestic Incoming data: represent trucks entering port of Gijon from other Spanish regions (one value per region per pair of months)\n-\tDomestic outgoing data: represent trucks exiting the port of Gijon toward other Spanish regions (one value per region per pair of months)\n-\tInternational incoming data: represent trucks entering the port of Gijon from other countries (one value per country per pair of months)\n\n**How the fluxes are computed:**\n\nFebruary 2019 has been considered as the reference period. Changes in traffic fluxes have been computed in sequence, following the diagram below, on the finest geographic granularity (regional for domestic data, national for international data). \n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13n_trucks_port/E13n-fig1.png)\n*Diagram for the computation of commercial fluxes*\n\n**Spatial data aggregation**\n\nTo obtain one value per month per flux type, data are geographically aggregated. Domestic data are computed averaging all regional data per period, while international data are computed averaging data at country level.\n\n### Visualising the lockdown measures effect on comercial fluxes:\nThe light/dark red chart background indicates whether in the respective month there were restrictions/lockdown measures in place in the respective country. This information is based on [Oxford University\u2019s coronavirus government response tracker](https://covidtracker.bsg.ox.ac.uk/).\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./trucks_port/collection.json",
+      "type": "application/json",
+      "title": "Commercial fluxes",
+      "endpointtype": "GeoDB",
+      "subtitle": "Changes in the number of trucks in ports",
+      "code": "E13n",
+      "id": "trucks_port",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Gijon"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "yAxis": "% Variation compated  to Febuary 2019",
+      "tags": [
+        "Ports",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13n",
+      "insituSources": [
+        "Mobile"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13n?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "method": "GET",
+      "id": "E13n"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Changes in the number of trucks in ports",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Ports",
+    "Traffic"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E13n",
+  "insituSources": [
+    "Mobile"
+  ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "title": "Commercial fluxes",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -5.6832899999999995,
+          43.53378,
+          -5.66329,
+          43.553779999999996
+        ],
+        [
+          -5.6832899999999995,
+          43.53378,
+          -5.66329,
+          43.553779999999996
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-02-01T00:00:00Z",
+          "2020-09-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "E13n"
+    ],
+    "themes": [
+      "economy"
+    ],
+    "cities": [
+      "Gijon"
+    ],
+    "countries": [
+      "ES"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2021-01-01T00:00:00Z",
+  "geometry": null,
+  "properties": {
+    "datetime": "2021-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "HOUHPI Minesweeper Game"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "HOUHPI Minesweeper Game"
+    }
+  ],
+  "assets": {},
+  "collection": "IDEAS1_hopi_minesweeper"
+}

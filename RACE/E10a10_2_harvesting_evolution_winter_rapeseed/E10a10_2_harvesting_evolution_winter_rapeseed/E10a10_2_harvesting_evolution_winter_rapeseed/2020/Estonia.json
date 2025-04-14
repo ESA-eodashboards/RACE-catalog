@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Estonia",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        25.54248537,
+        58.671929721
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    25.53248537,
+    58.661929721,
+    25.552485370000003,
+    58.681929720999996
+  ],
+  "properties": {
+    "start_datetime": "2020-05-01T00:00:00Z",
+    "end_datetime": "2020-10-01T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter rapeseed"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter rapeseed"
+    }
+  ],
+  "assets": {},
+  "collection": "E10a10_2_harvesting_evolution_winter_rapeseed"
+}

@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Riga",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        23.620893,
+        57.153293
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    23.610892999999997,
+    57.143293,
+    23.630893,
+    57.163292999999996
+  ],
+  "properties": {
+    "start_datetime": "2020-01-04T16:12:26Z",
+    "end_datetime": "2022-12-31T16:12:44Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    }
+  ],
+  "assets": {},
+  "collection": "vessel_density_timeseries"
+}

@@ -1,0 +1,539 @@
+{
+  "type": "Collection",
+  "id": "no2_cams",
+  "stac_version": "1.1.0",
+  "description": "## Copernicus Atmosphere Monitoring Service (CAMS) time series\nThe Copernicus Atmosphere Monitoring Service (CAMS) provides consistent and quality-controlled information related to air pollution and health, solar energy, greenhouse gases and climate forcing, everywhere in the world. CAMS is one of six services that form [Copernicus](http://www.copernicus.eu/), the European Union's Earth observation programme which looks at our planet and its environment for the ultimate benefit of all European citizens. Copernicus offers information services based on [satellite Earth observation, in situ (non-satellite) data and modelling](https://atmosphere.copernicus.eu/what-we-do). CAMS is implemented by the [European Centre for Medium-Range Weather Forecasts (ECMWF)](http://www.ecmwf.int/) on behalf of the [European Commission](http://ec.europa.eu/growth/sectors/space/copernicus/). \n\nTime series of surface concentrations of the key air pollutants (**NO2, PM2.5, PM10 and ozone**) are useful to assess their variability and to monitor possible trends in their evolution. For the capitals and the other largest cities in Europe (50 in total), a time series starting on 1 February 2020 is provided. The values are representative of areas of 10 km x 10 km and cannot reproduce local effects due to the immediate proximity of sources; they represent the \u2018urban background\u2019, which corresponds to what is measured in a quiet area (for instance a large park) in or around the respective cities. For more detailed information, please consult your local air quality agency, especially in the case of a pollution peak or a pollution alert.\n\nEach figure has two coloured lines: \n\n- a solid red line \"**<span style=\"color:red\">____</span>**\" corresponding to daily average values, and \n\n- a dashed red line \"**<span style=\"color:red\">_ _ _</span>**\", which is the seven-day running mean of the former. \n\nIn addition:\n\n- the range of daily average values for this location in the CAMS regional reanalyses on the same day of 2017, 2018 and 2019 is shown as a <span style=\"background-color:lightgrey\">grey shaded area</span>. \n\n- the dashed grey line \"**<span style=\"color:grey\">_ _ _</span>**\" corresponds to the seven-day running mean of the median of daily average values of 2017, 2018 and 2019. \n\nThe coloured and grey curves allow assessing the changes over time without the distraction of the significant normal variability related to short-term changes in emissions and weather. For each day, it is indicated whether there were restrictions or lockdown measure in place in the country where the city is located. This information is based on [Oxford University\u2019s coronavirus government response tracker](https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker). Altogether, these timeseries provide information on how background air pollution has evolved over the weeks since the beginning of the COVID-19 outbreak.\n\n\n## The impacts of COVID-19 on CAMS time series\nCAMS is continually monitoring air quality in Europe and around the world using satellite and ground-based observations and advanced numerical models. In the context of the worldwide COVID-19 crisis, there was an increased interest in changing air quality. Access to additional graphical products and animations, as well as some answers to questions related to CAMS products and their relevance in the context of the COVID-19 crisis can be found at the following website: https://atmosphere.copernicus.eu/european-air-quality-information-support-covid-19-crisis \n\nIn particular, results are presented from an \u201cemissions scenario\u201d, which uses one of the CAMS regional models to estimate the expected effects of COVID-19 related measures on surface air quality.\n\n#### Background information on the difference between images produced by Sentinel-5p Tropomi and the CAMS analyses\n\nThe CAMS analyses combine model data with observations into a complete and consistent dataset using a model of the atmosphere based on the laws of physics and chemistry and advanced mathematical methods called \u201cdata assimilation\u201d (DA). DA is commonly used by numerical weather prediction centres and air quality forecasting centres worldwide, where every so many hours (12 hours for the CAMS global analyses and 24 hours for the CAMS European analyses) a previous forecast is combined with newly available observations in an optimal way to produce a new best estimate of the state of the atmosphere. The CAMS European analyses use the regulatory air quality observations provided by EU member states, while the CAMS global analyses use satellite observations from many satellites. The assimilation system is able to estimate biases between observations and to sift good-quality data from poor data. In areas covered with good quality data, the estimates will be very close to the observed values. The atmosphere model also allows for estimates at locations where data coverage is low or for atmospheric pollutants for which no direct observations are available. However, in areas where there is a consistent lack of observations, the analyses will reflect the model information only, which can include systematic errors due to inaccurate prescribed emissions or simplifications of complicated meteorological and chemical processes.\n\nSatellite observations, on the other hand, provide a more direct measure of the current situation and are therefore important for monitoring rapidly changing conditions around the world and especially in areas where there is a lack of accurate surface observations. However, the satellite observations are limited in their spatial and temporal coverage. Current satellite observations, such as for instance from Sentinel-5p Tropomi, can measure the total column of NO2 once a day. This is due to the fact that they are embarked onboard so-called Low-Earth-Orbiting satellites that observe each location on Earth at the same mean local solar time. Besides, the measurements can only be made for areas that are not affected by significant cloud cover obstructing the field-of-view. Finally, the satellite measures the total amount of NO2 from the Earth\u2019s surface to the top of the atmosphere, which is related to - but not the same as - the concentration at the surface or the emissions.\n\n### Additional links\n- https://atmosphere.copernicus.eu/ \n\nFor answers to queries about CAMS products or to provide your feedback, please contact our [User Support service](mailto:copernicus-support@ecmwf.int).\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Tirana.json",
+      "type": "application/geo+json",
+      "id": "AL1",
+      "latlng": "41.32,19.82",
+      "country": "AL",
+      "city": "Tirana"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Vienna.json",
+      "type": "application/geo+json",
+      "id": "AT5",
+      "latlng": "48.2,16.37",
+      "country": "AT",
+      "city": "Vienna"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Sarajevo.json",
+      "type": "application/geo+json",
+      "id": "BA1",
+      "latlng": "43.87,18.42",
+      "country": "BA",
+      "city": "Sarajevo"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Brussels.json",
+      "type": "application/geo+json",
+      "id": "BE7",
+      "latlng": "50.83,4.34",
+      "country": "BE",
+      "city": "Brussels"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Sofia.json",
+      "type": "application/geo+json",
+      "id": "BG4",
+      "latlng": "42.68,23.32",
+      "country": "BG",
+      "city": "Sofia"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Bern.json",
+      "type": "application/geo+json",
+      "id": "CH2",
+      "latlng": "46.92,7.47",
+      "country": "CH",
+      "city": "Bern"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Nicosia.json",
+      "type": "application/geo+json",
+      "id": "CY2",
+      "latlng": "35.17,33.37",
+      "country": "CY",
+      "city": "Nicosia"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Prague.json",
+      "type": "application/geo+json",
+      "id": "CZ6",
+      "latlng": "50.08,14.47",
+      "country": "CZ",
+      "city": "Prague"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Cologne.json",
+      "type": "application/geo+json",
+      "id": "DE13",
+      "latlng": "50.94,6.95",
+      "country": "DE",
+      "city": "Cologne"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Berlin.json",
+      "type": "application/geo+json",
+      "id": "DE16",
+      "latlng": "52.52,13.41",
+      "country": "DE",
+      "city": "Berlin"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Hamburg.json",
+      "type": "application/geo+json",
+      "id": "DE17",
+      "latlng": "53.5488, 9.9872",
+      "country": "DE",
+      "city": "Hamburg"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Munich.json",
+      "type": "application/geo+json",
+      "id": "DE18",
+      "latlng": "48.13,11.57",
+      "country": "DE",
+      "city": "Munich"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Copenhagen.json",
+      "type": "application/geo+json",
+      "id": "DK1",
+      "latlng": "55.67,12.58",
+      "country": "DK",
+      "city": "Copenhagen"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Tallinn.json",
+      "type": "application/geo+json",
+      "id": "EE1",
+      "latlng": "59.43,24.72",
+      "country": "EE",
+      "city": "Tallinn"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Madrid.json",
+      "type": "application/geo+json",
+      "id": "ES12",
+      "latlng": "40.4,-3.68",
+      "country": "ES",
+      "city": "Madrid"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Barcelona.json",
+      "type": "application/geo+json",
+      "id": "ES63",
+      "latlng": "41.38,2.18",
+      "country": "ES",
+      "city": "Barcelona"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Valencia.json",
+      "type": "application/geo+json",
+      "id": "ES65",
+      "latlng": "39.47,-0.38",
+      "country": "ES",
+      "city": "Valencia"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Helsinki.json",
+      "type": "application/geo+json",
+      "id": "FI4",
+      "latlng": "60.17,24.93",
+      "country": "FI",
+      "city": "Helsinki"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Paris.json",
+      "type": "application/geo+json",
+      "id": "FR10",
+      "latlng": "48.87,2.33",
+      "country": "FR",
+      "city": "Paris"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Lyon.json",
+      "type": "application/geo+json",
+      "id": "FR15",
+      "latlng": "45.76,4.85",
+      "country": "FR",
+      "city": "Lyon"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Marseille.json",
+      "type": "application/geo+json",
+      "id": "FR16",
+      "latlng": "43.3,5.37",
+      "country": "FR",
+      "city": "Marseille"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Athens.json",
+      "type": "application/geo+json",
+      "id": "GR6",
+      "latlng": "37.98,23.74",
+      "country": "GR",
+      "city": "Athens"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Zagreb.json",
+      "type": "application/geo+json",
+      "id": "HR3",
+      "latlng": "45.8,16.01",
+      "country": "HR",
+      "city": "Zagreb"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Budapest.json",
+      "type": "application/geo+json",
+      "id": "HU5",
+      "latlng": "47.5,19.09",
+      "country": "HU",
+      "city": "Budapest"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Dublin.json",
+      "type": "application/geo+json",
+      "id": "IE3",
+      "latlng": "53.32,-6.23",
+      "country": "IE",
+      "city": "Dublin"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Reykjavik.json",
+      "type": "application/geo+json",
+      "id": "IS1",
+      "latlng": "64.15,-21.95",
+      "country": "IS",
+      "city": "Reykjavik"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Milan.json",
+      "type": "application/geo+json",
+      "id": "IT10",
+      "latlng": "45.47,9.18",
+      "country": "IT",
+      "city": "Milan"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Rome.json",
+      "type": "application/geo+json",
+      "id": "IT11",
+      "latlng": "41.9,12.48",
+      "country": "IT",
+      "city": "Rome"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Naples.json",
+      "type": "application/geo+json",
+      "id": "IT37",
+      "latlng": "40.86,14.25",
+      "country": "IT",
+      "city": "Naples"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Turin.json",
+      "type": "application/geo+json",
+      "id": "IT38",
+      "latlng": "45.12,7.74",
+      "country": "IT",
+      "city": "Turin"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Vilnius.json",
+      "type": "application/geo+json",
+      "id": "LT3",
+      "latlng": "54.68,25.32",
+      "country": "LT",
+      "city": "Vilnius"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Luxembourg.json",
+      "type": "application/geo+json",
+      "id": "LU2",
+      "latlng": "49.6,6.12",
+      "country": "LU",
+      "city": "Luxembourg"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Riga.json",
+      "type": "application/geo+json",
+      "id": "LV3",
+      "latlng": "56.95,24.11",
+      "country": "LV",
+      "city": "Riga"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Monaco.json",
+      "type": "application/geo+json",
+      "id": "MC1",
+      "latlng": "43.73,7.42",
+      "country": "MC",
+      "city": "Monaco"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Podgorica.json",
+      "type": "application/geo+json",
+      "id": "ME1",
+      "latlng": "42.43,19.27",
+      "country": "ME",
+      "city": "Podgorica"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Skopje.json",
+      "type": "application/geo+json",
+      "id": "MK1",
+      "latlng": "42,21.43",
+      "country": "MK",
+      "city": "Skopje"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Valletta.json",
+      "type": "application/geo+json",
+      "id": "MT2",
+      "latlng": "35.88,14.51",
+      "country": "MT",
+      "city": "Valletta"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Amsterdam.json",
+      "type": "application/geo+json",
+      "id": "NL3",
+      "latlng": "52.35,4.92",
+      "country": "NL",
+      "city": "Amsterdam"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Oslo.json",
+      "type": "application/geo+json",
+      "id": "NO2",
+      "latlng": "59.92,10.75",
+      "country": "NO",
+      "city": "Oslo"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Warsaw.json",
+      "type": "application/geo+json",
+      "id": "PL6",
+      "latlng": "52.25,21.01",
+      "country": "PL",
+      "city": "Warsaw"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Lisbon.json",
+      "type": "application/geo+json",
+      "id": "PT3",
+      "latlng": "38.72,-9.13",
+      "country": "PT",
+      "city": "Lisbon"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Bucharest.json",
+      "type": "application/geo+json",
+      "id": "RO9",
+      "latlng": "44.43,26.11",
+      "country": "RO",
+      "city": "Bucharest"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Belgrade.json",
+      "type": "application/geo+json",
+      "id": "RS1",
+      "latlng": "44.83,20.5",
+      "country": "RS",
+      "city": "Belgrade"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Stockholm.json",
+      "type": "application/geo+json",
+      "id": "SE22",
+      "latlng": "59.33,18.06",
+      "country": "SE",
+      "city": "Stockholm"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Ljubljana.json",
+      "type": "application/geo+json",
+      "id": "SI3",
+      "latlng": "46.05,14.52",
+      "country": "SI",
+      "city": "Ljubljana"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Bratislava.json",
+      "type": "application/geo+json",
+      "id": "SK4",
+      "latlng": "48.15,17.12",
+      "country": "SK",
+      "city": "Bratislava"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Ankara.json",
+      "type": "application/geo+json",
+      "id": "TR3",
+      "latlng": "39.93,32.87",
+      "country": "TR",
+      "city": "Ankara"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Birmingham.json",
+      "type": "application/geo+json",
+      "id": "UK10",
+      "latlng": "52.48,1.89",
+      "country": "GB",
+      "city": "Birmingham"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/London.json",
+      "type": "application/geo+json",
+      "id": "UK11",
+      "latlng": "51.5,-0.08",
+      "country": "GB",
+      "city": "London"
+    },
+    {
+      "rel": "item",
+      "href": "./no2_cams/2020/Pristina.json",
+      "type": "application/geo+json",
+      "id": "XK1",
+      "latlng": "42.67,21.17",
+      "country": "XK",
+      "city": "Pristina"
+    },
+    {
+      "rel": "license",
+      "href": "https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
+      "type": "application/pdf",
+      "title": "Licence to Use Copernicus Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Air Quality (NO2 concetrations) at city level (model)"
+    }
+  ],
+  "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+  "yAxis": "Nitrogen Dioxide Surface Concentration[micro g/m3]",
+  "themes": [
+    "air"
+  ],
+  "tags": [
+    "Air quality",
+    "Copernicus Services",
+    "NO2",
+    "CAMS",
+    "Multi-sensors",
+    "Open data",
+    "Air pollution"
+  ],
+  "agency": [
+    "European Commission",
+    "ECMWF"
+  ],
+  "subcode": "N1b",
+  "otherSources": [
+    "EAC4"
+  ],
+  "geoDBID": "N1b",
+  "endpointtype": "GeoDB",
+  "title": "Air Quality (NO2 concetrations) at city level (model)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -21.96,
+          35.160000000000004,
+          33.379999999999995,
+          64.16000000000001
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Copernicus Atmosphere Monitoring Service",
+      "url": "https://ads.atmosphere.copernicus.eu/#!/home"
+    }
+  ],
+  "summaries": {},
+  "assets": {
+    "reference_1": {
+      "href": "https://atmosphere.copernicus.eu/european-air-quality-information-support-covid-19-crisis",
+      "type": "text/html",
+      "title": "European Air Quality information in support of the COVID-19 crisis",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

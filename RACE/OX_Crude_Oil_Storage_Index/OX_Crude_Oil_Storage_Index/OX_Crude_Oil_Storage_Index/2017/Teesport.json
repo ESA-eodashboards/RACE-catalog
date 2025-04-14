@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Teesport",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -1.21236,
+        54.63659
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    -1.2223600000000001,
+    54.62659,
+    -1.20236,
+    54.646589999999996
+  ],
+  "properties": {
+    "start_datetime": "2017-01-09T00:00:00Z",
+    "end_datetime": "2024-01-01T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index"
+    }
+  ],
+  "assets": {},
+  "collection": "OX_Crude_Oil_Storage_Index"
+}

@@ -1,0 +1,361 @@
+{
+  "type": "Collection",
+  "id": "industrial_inventory",
+  "stac_version": "1.1.0",
+  "description": "## Automobile inventory time series\n\nThis indicator aims at showing inventory level at various motor vehicle production sites by means of Synthetic Aperture Radar satellites such as the C-band [Copernicus Sentinel-1](http://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1).\nThe indicator shows a rolling mean of the SAR backscatter signal over the logistic areas. \n\nThe Sentinel-1 GRD IW time series are extracted for each AOI (area of interest), using same orbit for the whole time series. The HV cross-polarization is used as it is more sensitive to rough surfaces. \nAn average value is computed for the AOI at each observation date.\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Ghent.json",
+      "type": "application/geo+json",
+      "id": "BE5",
+      "latlng": "51.109166,3.753448",
+      "country": "BE",
+      "city": "Ghent"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Ghent.json",
+      "type": "application/geo+json",
+      "id": "BE8",
+      "latlng": "51.092134,3.783933",
+      "country": "BE",
+      "city": "Ghent"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Ghent.json",
+      "type": "application/geo+json",
+      "id": "BE9",
+      "latlng": "51.095785,3.75482",
+      "country": "BE",
+      "city": "Ghent"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Kvasiny.json",
+      "type": "application/geo+json",
+      "id": "CZ5",
+      "latlng": "50.20009,16.257952",
+      "country": "CZ",
+      "city": "Kvasiny"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Nosovice.json",
+      "type": "application/geo+json",
+      "id": "CZ7",
+      "latlng": "49.662241,18.439066",
+      "country": "CZ",
+      "city": "Nosovice"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Leipzig.json",
+      "type": "application/geo+json",
+      "id": "DE10",
+      "latlng": "51.411051,12.286853",
+      "country": "DE",
+      "city": "Leipzig"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Bremen.json",
+      "type": "application/geo+json",
+      "id": "DE19",
+      "latlng": "53.051709,8.9178",
+      "country": "DE",
+      "city": "Bremen"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Dingolfing.json",
+      "type": "application/geo+json",
+      "id": "DE20",
+      "latlng": "48.651465,12.46187",
+      "country": "DE",
+      "city": "Dingolfing"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Koln.json",
+      "type": "application/geo+json",
+      "id": "DE21",
+      "latlng": "51.014647,6.955058",
+      "country": "DE",
+      "city": "Koln"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Neckarsulm.json",
+      "type": "application/geo+json",
+      "id": "DE22",
+      "latlng": "49.208952,9.21949",
+      "country": "DE",
+      "city": "Neckarsulm"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Eisenach.json",
+      "type": "application/geo+json",
+      "id": "DE23",
+      "latlng": "50.985712,10.266055",
+      "country": "DE",
+      "city": "Eisenach"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Regensburg.json",
+      "type": "application/geo+json",
+      "id": "DE24",
+      "latlng": "48.977906,12.177499",
+      "country": "DE",
+      "city": "Regensburg"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Sindelfingen.json",
+      "type": "application/geo+json",
+      "id": "DE25",
+      "latlng": "48.693906,8.992659",
+      "country": "DE",
+      "city": "Sindelfingen"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Wolfsburg.json",
+      "type": "application/geo+json",
+      "id": "DE26",
+      "latlng": "52.437128,10.758977",
+      "country": "DE",
+      "city": "Wolfsburg"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Zwickau.json",
+      "type": "application/geo+json",
+      "id": "DE27",
+      "latlng": "50.799896,12.488275",
+      "country": "DE",
+      "city": "Zwickau"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Saarlouis.json",
+      "type": "application/geo+json",
+      "id": "DE28",
+      "latlng": "49.345804,6.757758",
+      "country": "DE",
+      "city": "Saarlouis"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Ingolstadt.json",
+      "type": "application/geo+json",
+      "id": "DE4",
+      "latlng": "48.784331,11.426512",
+      "country": "DE",
+      "city": "Ingolstadt"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Russelsheim.json",
+      "type": "application/geo+json",
+      "id": "DE5",
+      "latlng": "49.990388,8.386432",
+      "country": "DE",
+      "city": "Russelsheim"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Emden.json",
+      "type": "application/geo+json",
+      "id": "DE9",
+      "latlng": "53.342826,7.171708",
+      "country": "DE",
+      "city": "Emden"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Martorell.json",
+      "type": "application/geo+json",
+      "id": "ES17",
+      "latlng": "41.493659,1.902436",
+      "country": "ES",
+      "city": "Martorell"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Barcelona.json",
+      "type": "application/geo+json",
+      "id": "ES18",
+      "latlng": "41.335516,2.123184",
+      "country": "ES",
+      "city": "Barcelona"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Cassino.json",
+      "type": "application/geo+json",
+      "id": "IT15",
+      "latlng": "41.488157,13.753094",
+      "country": "IT",
+      "city": "Cassino"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Craiova.json",
+      "type": "application/geo+json",
+      "id": "RO6",
+      "latlng": "44.300006,23.846534",
+      "country": "RO",
+      "city": "Craiova"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Mioveni.json",
+      "type": "application/geo+json",
+      "id": "RO7",
+      "latlng": "44.944611,24.934872",
+      "country": "RO",
+      "city": "Mioveni"
+    },
+    {
+      "rel": "item",
+      "href": "./industrial_inventory/2015/Swindon.json",
+      "type": "application/geo+json",
+      "id": "UK9",
+      "latlng": "51.592416,-1.73538",
+      "country": "GB",
+      "city": "Swindon"
+    },
+    {
+      "rel": "example",
+      "href": "https://collections.eurodatacube.com/e8-indicator/",
+      "type": "application/x-ipynb+json",
+      "title": "E8 indicator",
+      "example:language": "Jupyter Notebook",
+      "example:container": true
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Automobile inventory level"
+    }
+  ],
+  "subtitle": "Inventory level in logisitc areas of production sites",
+  "yAxis": "Normalized Radar backscatter (flattened gamma0)",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Multi-sensors"
+  ],
+  "agency": [
+    "European Commission",
+    "ESA"
+  ],
+  "subcode": "E8",
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1",
+    "ICEYE SAR"
+  ],
+  "otherSources": [
+    "Multi-sensors"
+  ],
+  "geoDBID": "E8",
+  "endpointtype": "GeoDB",
+  "title": "Automobile inventory level",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.74538,
+          41.325516,
+          24.944872,
+          53.352826
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-01T00:00:00Z",
+          "2023-10-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "EUROSTAT",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Impact_of_Covid-19_crisis_on_industrial_production#Development_by_industry"
+    },
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "name": "ICEYE",
+      "url": "https://www.iceye.com/"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "Ghent",
+      "Kvasiny",
+      "Nosovice",
+      "Leipzig",
+      "Bremen",
+      "Dingolfing",
+      "Koln",
+      "Neckarsulm",
+      "Eisenach",
+      "Regensburg",
+      "Sindelfingen",
+      "Wolfsburg",
+      "Zwickau",
+      "Saarlouis",
+      "Ingolstadt",
+      "Russelsheim",
+      "Emden",
+      "Martorell",
+      "Barcelona",
+      "Cassino",
+      "Craiova",
+      "Mioveni",
+      "Swindon"
+    ],
+    "countries": [
+      "BE",
+      "CZ",
+      "DE",
+      "ES",
+      "IT",
+      "RO",
+      "GB"
+    ]
+  },
+  "assets": {
+    "reference_1": {
+      "href": "https://ec.europa.eu/eurostat/documents/2995521/11492432/4-05112020-AP-EN.pdf/d52662ba-b163-2c48-90ab-67e6e6ba2d19",
+      "type": "text/html",
+      "title": "Volume of retail trade down by 2.0% in euro area",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "France",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.54675178,
+        46.83976635
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    2.5367517800000003,
+    46.82976635,
+    2.55675178,
+    46.849766349999996
+  ],
+  "properties": {
+    "start_datetime": "2020-05-01T00:00:00Z",
+    "end_datetime": "2020-11-01T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter cereal"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter cereal"
+    }
+  ],
+  "assets": {},
+  "collection": "E10a10_harvesting_evolution_winter_cereal"
+}

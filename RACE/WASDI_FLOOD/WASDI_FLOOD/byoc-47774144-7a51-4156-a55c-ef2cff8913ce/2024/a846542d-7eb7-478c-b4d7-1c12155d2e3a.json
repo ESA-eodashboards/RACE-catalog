@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "a846542d-7eb7-478c-b4d7-1c12155d2e3a",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          -1.700126912246239,
+          38.50010667725774
+        ],
+        [
+          0.2998822363174636,
+          38.50010667725774
+        ],
+        [
+          0.2998822363174636,
+          40.500115825821446
+        ],
+        [
+          -1.700126912246239,
+          40.500115825821446
+        ],
+        [
+          -1.700126912246239,
+          38.50010667725774
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.700126912246239,
+    38.50010667725774,
+    0.2998822363174636,
+    40.500115825821446
+  ],
+  "properties": {
+    "datetime": "2024-11-25T00:00:00Z",
+    "proj:bbox": [
+      -1.700126912246239,
+      38.50010667725774,
+      0.2998822363174636,
+      40.500115825821446
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            -1.700126912246239,
+            38.50010667725774
+          ],
+          [
+            0.2998822363174636,
+            38.50010667725774
+          ],
+          [
+            0.2998822363174636,
+            40.500115825821446
+          ],
+          [
+            -1.700126912246239,
+            40.500115825821446
+          ],
+          [
+            -1.700126912246239,
+            38.50010667725774
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:84"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Flood mapping"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "WASDI_FLOOD",
+      "wms:layers": [
+        "WASDI_FLOOD"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2024-11-25T00:00:00Z/2024-11-25T23:59:59Z"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Flood mapping"
+    }
+  ],
+  "assets": {},
+  "collection": "byoc-47774144-7a51-4156-a55c-ef2cff8913ce"
+}

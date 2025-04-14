@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Amsterdam",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.7577329757090885,
+        52.3121414741634
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    4.747732975709089,
+    52.3021414741634,
+    4.767732975709088,
+    52.322141474163395
+  ],
+  "properties": {
+    "start_datetime": "2019-01-21T10:56:37Z",
+    "end_datetime": "2022-12-16T10:56:36Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    }
+  ],
+  "assets": {},
+  "collection": "parked_planes"
+}

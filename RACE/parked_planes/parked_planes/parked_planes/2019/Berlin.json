@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Berlin",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        13.492333,
+        52.36124
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    13.482333,
+    52.351240000000004,
+    13.502333,
+    52.37124
+  ],
+  "properties": {
+    "start_datetime": "2019-01-22T10:26:11Z",
+    "end_datetime": "2022-12-27T10:26:09Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    }
+  ],
+  "assets": {},
+  "collection": "parked_planes"
+}

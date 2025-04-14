@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Oxelosund  area 2",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        17.1278144295506,
+        58.683908585861005
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    17.1178144295506,
+    58.67390858586101,
+    17.137814429550602,
+    58.693908585861
+  ],
+  "properties": {
+    "start_datetime": "2019-05-24T04:37:19Z",
+    "end_datetime": "2020-06-13T05:07:08Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    }
+  ],
+  "assets": {},
+  "collection": "steel_inventory_timeseries"
+}

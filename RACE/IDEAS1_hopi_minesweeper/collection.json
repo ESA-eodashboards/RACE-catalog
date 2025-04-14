@@ -1,0 +1,106 @@
+{
+  "type": "Collection",
+  "id": "IDEAS1_hopi_minesweeper",
+  "stac_version": "1.1.0",
+  "description": "# HOUHPI Minesweeper Game\n\nGet to learn about the risks of air pollution and urban heat by exploring the Health-Oriented Urban Heat and Pollution Index (HOUHPI) through a minesweeper game.\n\n## How-to\nOpen hexagon fields (initially transparent) by left clicking on them, mark them with a flag with right click (blue).\nOpened fields without mines will show a number which represents the number of mines adjacent to that field, by examining the numbers of fields which share adjacent fields you can identify where potential mines are.\n\nUse the visible background information about the area to guide your exploration and uncover new fields.\nBe careful not to open up a field with a mine! These fields represent areas with high health risk, can you flag them all correctly?\n\nIf finished, your score is based on the time you spend to correctly mark all high health risk areas, if you opened a mine field your score will be based on percentage of uncovered area.\n\n## Heads-up\nThe underlying data has been derived using Earth Observation data, for more information have a look at the <a href=\"./?indicator=IND1_1\">original indicator</a>.\nThe game regions changes daily, so come back tomorrow for more! ",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS1_hopi_minesweeper/collection.json",
+      "type": "application/json",
+      "title": "HOUHPI Minesweeper Game",
+      "endpointtype": "Collection-only",
+      "subtitle": "Indicator 1: HOUHPI Game mode",
+      "code": "IND1_1_minesweeper",
+      "id": "IDEAS1_hopi_minesweeper",
+      "themes": [
+        "health"
+      ],
+      "tags": [
+        "game"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "IND1_1_minesweeper"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Indicator 1: HOUHPI Game mode",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi_minesweeper.png",
+  "themes": [
+    "health"
+  ],
+  "tags": [
+    "game"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "IND1_1_minesweeper",
+  "title": "HOUHPI Minesweeper Game",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -24,
+          33,
+          42,
+          71
+        ],
+        [
+          -24,
+          33,
+          42,
+          71
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2021-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Murmuration",
+      "url": "https://murmuration-sas.com/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "IND1_1_minesweeper"
+    ],
+    "themes": [
+      "health"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi_minesweeper.png"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi_minesweeper.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

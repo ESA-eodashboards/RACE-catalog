@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Constanta",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.839589,
+        44.149405
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    28.829589,
+    44.139405000000004,
+    28.849589,
+    44.159405
+  ],
+  "properties": {
+    "start_datetime": "2020-01-04T04:12:52Z",
+    "end_datetime": "2022-12-25T04:14:04Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    }
+  ],
+  "assets": {},
+  "collection": "vessel_density_timeseries"
+}

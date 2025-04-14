@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Barcelona",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.23685,
+        41.312241
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    2.22685,
+    41.302241,
+    2.24685,
+    41.322241
+  ],
+  "properties": {
+    "start_datetime": "2020-01-03T06:01:20Z",
+    "end_datetime": "2022-12-30T06:01:38Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    }
+  ],
+  "assets": {},
+  "collection": "vessel_density_timeseries"
+}

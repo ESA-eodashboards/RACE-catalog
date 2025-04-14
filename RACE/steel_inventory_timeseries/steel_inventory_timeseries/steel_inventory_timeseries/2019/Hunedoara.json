@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Hunedoara",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        22.923231736132724,
+        45.78896311080552
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    22.913231736132722,
+    45.77896311080552,
+    22.933231736132726,
+    45.798963110805516
+  ],
+  "properties": {
+    "start_datetime": "2019-05-24T04:36:57Z",
+    "end_datetime": "2020-06-13T04:17:43Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    }
+  ],
+  "assets": {},
+  "collection": "steel_inventory_timeseries"
+}

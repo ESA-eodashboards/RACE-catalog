@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Warsaw",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        21.0139,
+        52.1756
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    21.003899999999998,
+    52.165600000000005,
+    21.0239,
+    52.1856
+  ],
+  "properties": {
+    "start_datetime": "2020-04-06T09:11:43Z",
+    "end_datetime": "2020-05-09T09:57:43Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Activity at shopping centers"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Activity at shopping centers"
+    }
+  ],
+  "assets": {},
+  "collection": "shopping_center_activity"
+}

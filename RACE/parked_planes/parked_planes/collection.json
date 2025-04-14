@@ -1,0 +1,373 @@
+{
+  "type": "Collection",
+  "id": "parked_planes",
+  "stac_version": "1.1.0",
+  "description": "## Time series of parked airplanes \r\n\r\nAir travel is a highly strategic sector, heavily contributing in Europe to employment and national GDP. It is also an obvious indicator of international mobility, and thus is closely linked to tourism economic activity, which is also crucial for most European countries. \r\nBy applying plane detection to Sentinel-2 imagery, Aerospacelab extracts the number of planes observed in time series. This enables the comparison between the number of grounded planes between different years. Aerospacelab also extracts information on aircraft storage location, operating the distinction between conventional zones and unconventional zones (taxiways and runways). While continued use of unconventional zones would indicate continuing practice, decreasing use normally indicates a return to normal level of airport activities following a disrupction on activities.  \r\n\r\n### Aircraft storage indicator\r\nThrough its airport activity monitoring indicator, Aerospacelab monitors 10 European airports, with a focus on aircraft storage. \r\n\r\n\r\n## The impacts of COVID-19 on air travel \r\nCommercial aviation is one of the sectors that has logically been hit the hardest throughout the Covid crisis. As countries closed borders and limited travel, demand plummeted, leading to a heavy decrease in air travel. Europe has been no exception, with European airline\u2019s activities almost fully coming to a halt, and estimations of [revenue losses for airlines as important as 90%](https://ec.europa.eu/commission/commissioners/2019-2024/breton/announcements/speech-commissioner-breton-marshall-plan-european-tourism_en).  \r\n\r\nThe Eurocontrol publication on number of flights shows a striking difference between 2019 and 2020.  A sharp decrease in number of flights was observed mid-March and the difference between 2019 and 2020 reached 80% by April and followed a steady trajectory under flight restrictions measures. \r\n\r\n![](eodash-data/stories/E13b_Fig1.png)\r\n\r\n*Figure 1: [Flights over Europe 2019-2020 Compared](https://www.eurocontrol.int/Economics/DailyTrafficVariation-States.html)*\r\n\r\nSuch a crippling reduction in air travel inevitably required intervention at the national and EU level. At national level, states looked for various forms of bailouts some valued at more than 10 billion Euros. Airlines industry supports 2.6 million jobs directly and generate 192 billion Euros in direct economic activity, making it a vital part of economy.\r\n  \r\nAs such monitoring the recent downturn in aircraft activity as well as its recovery, as borders gradually reopen, is of high interest, notably for European policy makers. Air travel activity can additionally be used as a proxy for economic demand recovery. \r\n\r\n\r\n\r\n\r\n#### Abnormal aircraft storage indicator\r\nThe air travel limitations led to airports becoming flooded with grounded planes. As available parking lots for planes became insufficient other paved surfaces in the airports -such as taxiways- started being used for temporary parking. Indicator results have, for the most part, been consistent with regards to expectations. \r\n\r\nThe number of planes grounded worldwide signifies that airlines lack space to store their aircrafts, as long as demand does not resume. Chateauroux airport, France, is thus [renting parking spots](https://www.reuters.com/article/us-health-coronavirus-aircraft-chateauro/grounded-jets-boost-frances-historic-chateauroux-airport-idUSKBN23M1WN), among others to Airbus and British Airways. The result is a considerable increase of the number of planes detected. A growth exceeding 800% when compared to the 2019 baseline was recorded by May. \r\n\r\n![](eodash-data/stories/E13b_Fig2.png)\r\n\r\n*Figure 2: Parked airplanes in Chateauroux-Centre airport in 2020 (compared to 2019 baseline)*\r\n\r\n![](eodash-data/stories/E13b_Fig3.png)\r\n\r\n*Figure 3: Parked airplanes in Frankfurt airport in 2020 (compared to 2019 baseline)*\r\n\r\nA drop in more recent data points, as seen in Frankfurt, indicates that the airlines most probably claimed their planes back, which is a clear sign of activity recovery. \r\n\r\nInformation on unconventional zone occupation is valuable, as it provides insights on how over-used the airport is. Data for Chateauroux and Frankfurt is this time presented in actual number of planes detected, rather than percentage relative to the year 2019. \r\n\r\n![](eodash-data/stories/E13b_Fig4.png)\r\n\r\n*Figure 4: Unconventionally parked airplanes in Chateauroux-Centre (compared to 2019)*\r\n\r\n![](eodash-data/stories/E13b_Fig5.png)\r\n\r\n*Figure 5: Unconventionally parked airplanes in Frankfurt (compared to 2019)*\r\n\r\nThese time series similarly indicate that Chateauroux airport remained, until June, overused for parking spaces. Frankfurt on the other hand seems back to pre-crisis levels of unconventional zones occupation. \r\n\r\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Vienna.json",
+      "type": "application/geo+json",
+      "id": "AT4",
+      "latlng": "48.1062,16.5685",
+      "country": "AT",
+      "city": "Vienna"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Brussels.json",
+      "type": "application/geo+json",
+      "id": "BE6",
+      "latlng": "50.9008,4.4840",
+      "country": "BE",
+      "city": "Brussels"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Zurich.json",
+      "type": "application/geo+json",
+      "id": "CH1",
+      "latlng": "47.451542,8.564572",
+      "country": "CH",
+      "city": "Zurich"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Muenchen.json",
+      "type": "application/geo+json",
+      "id": "DE12",
+      "latlng": "48.35344398201118,11.781958961375517",
+      "country": "DE",
+      "city": "Muenchen"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Dusseldorf.json",
+      "type": "application/geo+json",
+      "id": "DE14",
+      "latlng": "51.2870,6.7667",
+      "country": "DE",
+      "city": "Dusseldorf"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Berlin.json",
+      "type": "application/geo+json",
+      "id": "DE15",
+      "latlng": "52.36124,13.492333",
+      "country": "DE",
+      "city": "Berlin"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Frankfurt.json",
+      "type": "application/geo+json",
+      "id": "DE6",
+      "latlng": "50.03417529740082,8.553651954534535",
+      "country": "DE",
+      "city": "Frankfurt"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Copenhagen.json",
+      "type": "application/geo+json",
+      "id": "DK1",
+      "latlng": "55.620750,12.650462",
+      "country": "DK",
+      "city": "Copenhagen"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Madrid.json",
+      "type": "application/geo+json",
+      "id": "ES10",
+      "latlng": "40.493475736010851,-3.566288968675247",
+      "country": "ES",
+      "city": "Madrid"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Barcelona.json",
+      "type": "application/geo+json",
+      "id": "ES11",
+      "latlng": "41.296657915514594,2.0857359721622024",
+      "country": "ES",
+      "city": "Barcelona"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Malaga.json",
+      "type": "application/geo+json",
+      "id": "ES14",
+      "latlng": "36.67166398,-4.492831362",
+      "country": "ES",
+      "city": "Malaga"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Palma de Mallorca.json",
+      "type": "application/geo+json",
+      "id": "ES15",
+      "latlng": "39.5510,2.7367",
+      "country": "ES",
+      "city": "Palma de Mallorca"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Helsinki.json",
+      "type": "application/geo+json",
+      "id": "FI4",
+      "latlng": "60.3170,24.9580",
+      "country": "FI",
+      "city": "Helsinki"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Orly.json",
+      "type": "application/geo+json",
+      "id": "FR13",
+      "latlng": "48.7262,2.3652",
+      "country": "FR",
+      "city": "Orly"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Paris.json",
+      "type": "application/geo+json",
+      "id": "FR8",
+      "latlng": "49.006976345624935,2.559786183921451",
+      "country": "FR",
+      "city": "Paris"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Chateauroux.json",
+      "type": "application/geo+json",
+      "id": "FR9",
+      "latlng": "46.861263796994045,1.7288832862166452",
+      "country": "FR",
+      "city": "Chateauroux"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Athens.json",
+      "type": "application/geo+json",
+      "id": "GR2",
+      "latlng": "37.882337,23.875459",
+      "country": "GR",
+      "city": "Athens"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Dublin.json",
+      "type": "application/geo+json",
+      "id": "IE1",
+      "latlng": "53.4264,-6.2499",
+      "country": "IE",
+      "city": "Dublin"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Milan.json",
+      "type": "application/geo+json",
+      "id": "IT13",
+      "latlng": "45.62995905,8.723056",
+      "country": "IT",
+      "city": "Milan"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Rome.json",
+      "type": "application/geo+json",
+      "id": "IT9",
+      "latlng": "41.80710100142961,12.253597669510512",
+      "country": "IT",
+      "city": "Rome"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Amsterdam.json",
+      "type": "application/geo+json",
+      "id": "NL1",
+      "latlng": "52.3121414741634,4.7577329757090885",
+      "country": "NL",
+      "city": "Amsterdam"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Oslo.json",
+      "type": "application/geo+json",
+      "id": "NO1",
+      "latlng": "60.197552,11.100415",
+      "country": "NO",
+      "city": "Oslo"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Warsaw.json",
+      "type": "application/geo+json",
+      "id": "PL6",
+      "latlng": "52.1672369,20.9678911",
+      "country": "PL",
+      "city": "Warsaw"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Lisbon.json",
+      "type": "application/geo+json",
+      "id": "PT1",
+      "latlng": "38.779719863831765,-9.134743863288612",
+      "country": "PT",
+      "city": "Lisbon"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Stockholm.json",
+      "type": "application/geo+json",
+      "id": "SE23",
+      "latlng": "59.6512,17.9178",
+      "country": "SE",
+      "city": "Stockholm"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Istanbul.json",
+      "type": "application/geo+json",
+      "id": "TR1",
+      "latlng": "40.982555,28.820829",
+      "country": "TR",
+      "city": "Istanbul"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Heathrow.json",
+      "type": "application/geo+json",
+      "id": "UK4",
+      "latlng": "51.469716296645025,-0.4580423952680147",
+      "country": "GB",
+      "city": "Heathrow"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Gatwick.json",
+      "type": "application/geo+json",
+      "id": "UK5",
+      "latlng": "51.153047759076,-0.18539507371961392",
+      "country": "GB",
+      "city": "Gatwick"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/London Stansted.json",
+      "type": "application/geo+json",
+      "id": "UK6",
+      "latlng": "51.904949,0.202641",
+      "country": "UK",
+      "city": "London Stansted"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Luton.json",
+      "type": "application/geo+json",
+      "id": "UK7",
+      "latlng": "51.8715,-0.3677",
+      "country": "UK",
+      "city": "Luton"
+    },
+    {
+      "rel": "item",
+      "href": "./parked_planes/2019/Manchester.json",
+      "type": "application/geo+json",
+      "id": "UK8",
+      "latlng": "53.3523,-2.2717",
+      "country": "UK",
+      "city": "Manchester"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    }
+  ],
+  "subtitle": "Parked planes detected on Sentinel-2 data",
+  "yAxis": "Time series of airport throughput",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Mobility",
+    "Air traffic",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E13b",
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "geoDBID": "E13b",
+  "endpointtype": "GeoDB",
+  "title": "Parked plane detections",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -9.144743863288612,
+          36.66166398,
+          28.830829,
+          60.327
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-01T10:09:06Z",
+          "2022-12-31T10:54:09Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Aerospacelab",
+      "url": "https://www.aerospacelab.be/"
+    }
+  ],
+  "summaries": {
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GR",
+      "IE",
+      "IT",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "SE",
+      "TR",
+      "GB",
+      "UK"
+    ]
+  }
+}

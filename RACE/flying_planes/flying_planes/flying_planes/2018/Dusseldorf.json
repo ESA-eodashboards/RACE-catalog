@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Dusseldorf",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.7667,
+        51.287
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    6.7567,
+    51.277,
+    6.7767,
+    51.297
+  ],
+  "properties": {
+    "start_datetime": "2018-07-01T00:00:00Z",
+    "end_datetime": "2022-12-01T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Flying planes detections"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Flying planes detections"
+    }
+  ],
+  "assets": {},
+  "collection": "flying_planes"
+}

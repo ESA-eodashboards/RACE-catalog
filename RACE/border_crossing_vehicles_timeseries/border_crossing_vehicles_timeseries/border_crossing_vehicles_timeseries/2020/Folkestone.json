@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Folkestone",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1.10885,
+        51.09374
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    1.0988499999999999,
+    51.08374,
+    1.11885,
+    51.103739999999995
+  ],
+  "properties": {
+    "start_datetime": "2020-01-04T17:49:18Z",
+    "end_datetime": "2020-12-29T17:49:30Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Border crossing vehicles time series"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Border crossing vehicles time series"
+    }
+  ],
+  "assets": {},
+  "collection": "border_crossing_vehicles_timeseries"
+}

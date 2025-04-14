@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Le Havre",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -0.593896,
+        49.238328
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    -0.603896,
+    49.228328000000005,
+    -0.583896,
+    49.248328
+  ],
+  "properties": {
+    "start_datetime": "2020-01-03T17:56:41Z",
+    "end_datetime": "2022-12-31T17:49:17Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    }
+  ],
+  "assets": {},
+  "collection": "vessel_density_timeseries"
+}

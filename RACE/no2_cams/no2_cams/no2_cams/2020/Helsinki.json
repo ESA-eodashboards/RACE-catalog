@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Helsinki",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        24.93,
+        60.17
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    24.919999999999998,
+    60.160000000000004,
+    24.94,
+    60.18
+  ],
+  "properties": {
+    "start_datetime": "2020-01-01T00:00:00Z",
+    "end_datetime": "2022-12-31T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Air Quality (NO2 concetrations) at city level (model)"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Air Quality (NO2 concetrations) at city level (model)"
+    }
+  ],
+  "assets": {},
+  "collection": "no2_cams"
+}

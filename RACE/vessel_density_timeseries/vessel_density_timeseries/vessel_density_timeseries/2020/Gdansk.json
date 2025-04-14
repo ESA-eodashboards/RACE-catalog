@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Gdansk",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        18.240794,
+        54.782807
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    18.230794,
+    54.772807,
+    18.250794000000003,
+    54.792806999999996
+  ],
+  "properties": {
+    "start_datetime": "2020-01-02T16:27:57Z",
+    "end_datetime": "2022-12-29T16:28:15Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    }
+  ],
+  "assets": {},
+  "collection": "vessel_density_timeseries"
+}

@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Chateauroux",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1.7288832862166452,
+        46.861263796994045
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    1.7188832862166452,
+    46.85126379699405,
+    1.7388832862166452,
+    46.87126379699404
+  ],
+  "properties": {
+    "start_datetime": "2019-02-15T10:58:11Z",
+    "end_datetime": "2022-12-16T10:58:14Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    }
+  ],
+  "assets": {},
+  "collection": "parked_planes"
+}

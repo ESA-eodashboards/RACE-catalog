@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Sullom Voe",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -1.28454,
+        60.46923
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    -1.29454,
+    60.459230000000005,
+    -1.27454,
+    60.47923
+  ],
+  "properties": {
+    "start_datetime": "2017-01-09T00:00:00Z",
+    "end_datetime": "2024-01-01T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index"
+    }
+  ],
+  "assets": {},
+  "collection": "OX_Crude_Oil_Storage_Index"
+}

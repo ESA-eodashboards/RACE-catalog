@@ -1,0 +1,150 @@
+{
+  "type": "Collection",
+  "id": "agricultural_workers",
+  "stac_version": "1.1.0",
+  "description": "## Number of Agricultural Workers\n\nThis indicator shows the number of workers involved in tomato fields preparation and crop harvesting activities in the Apulia Region (Province of Foggia - Italy). The indicator is based on the following data sources:\n\n- High resolution optical satellite imagery (from Copernicus Sentinel-2, 2019 and 2020) and very high resolution (from Deimos, 2020) which have been used to assess time evolution of vegetation indexes and perform textural analysis to identify and classify agricultural fields.\n\n- Anonymised mobile data (from Vodafone Italy) providing aggregated information on the number of workers in the fields detected from satellite imagery. The information is presented in 3 categories:\n  - National Workers = aggregates Italian workers living in the area where they work, as well as commuting to work\n  - Foreginer Workers = aggregates foreigner workers that live in the area of work, commute to work, and have Italian or foreign SIM\n  - Unknown = workers of unknown nationality, that either live in the area of work or commute to work\n\n- Land cover classification map of the Apulia region ([source](http://www.sit.puglia.it/portal/portale_cartografie_tecniche_tematiche/Download/Cartografie)(last update: 2011)) that has been used as baseline for Vodafone cells classification.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./agricultural_workers/2019/Apulia.json",
+      "type": "application/geo+json",
+      "id": "IT_218",
+      "latlng": "41.80107,15.67134",
+      "country": "IT",
+      "city": "Apulia"
+    },
+    {
+      "rel": "item",
+      "href": "./agricultural_workers/2019/Apulia.json",
+      "type": "application/geo+json",
+      "id": "IT_219",
+      "latlng": "41.78791,15.52506",
+      "country": "IT",
+      "city": "Apulia"
+    },
+    {
+      "rel": "item",
+      "href": "./agricultural_workers/2019/Apulia.json",
+      "type": "application/geo+json",
+      "id": "IT_22",
+      "latlng": "41.71440,15.73740",
+      "country": "IT",
+      "city": "Apulia"
+    },
+    {
+      "rel": "item",
+      "href": "./agricultural_workers/2019/Apulia.json",
+      "type": "application/geo+json",
+      "id": "IT_372",
+      "latlng": "41.78245,15.54975",
+      "country": "IT",
+      "city": "Apulia"
+    },
+    {
+      "rel": "item",
+      "href": "./agricultural_workers/2019/Apulia.json",
+      "type": "application/geo+json",
+      "id": "IT_386",
+      "latlng": "41.78702,15.54060",
+      "country": "IT",
+      "city": "Apulia"
+    },
+    {
+      "rel": "item",
+      "href": "./agricultural_workers/2019/Apulia.json",
+      "type": "application/geo+json",
+      "id": "IT_492",
+      "latlng": "41.57712,15.78358",
+      "country": "IT",
+      "city": "Apulia"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Agricultural workers"
+    }
+  ],
+  "subtitle": "Availability of agricultural workers",
+  "yAxis": "/",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "Land cover",
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E10a9",
+  "sensor": [
+    "MSI",
+    "DMAC"
+  ],
+  "satellite": [
+    "Sentinel-2",
+    "Deimos-2"
+  ],
+  "insituSources": [
+    "Mobile"
+  ],
+  "geoDBID": "E10a9",
+  "endpointtype": "GeoDB",
+  "title": "Agricultural workers",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          15.51506,
+          41.56712,
+          15.79358,
+          41.81107
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-04-01T00:00:00Z",
+          "2020-08-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Geosat",
+      "url": "https://geosat.space/"
+    },
+    {
+      "name": "Vodafone",
+      "url": "https://www.vodafone.com/"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "Apulia"
+    ],
+    "countries": [
+      "IT"
+    ]
+  },
+  "assets": {
+    "reference_1": {
+      "href": "http://www.sit.puglia.it/portal/portale_cartografie_tecniche_tematiche/Download/Cartografie",
+      "type": "text/html",
+      "title": "Land cover classification map",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

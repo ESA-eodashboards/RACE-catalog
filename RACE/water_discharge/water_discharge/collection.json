@@ -1,0 +1,405 @@
+{
+  "type": "Collection",
+  "id": "water_discharge",
+  "stac_version": "1.1.0",
+  "description": "## Water Turbidity from Sentinel-2\n\n**Turbidity** represents the level of suspended sediments in water also indicating water clarity or how clear is the water. It is mainly caused by the presence of silt, algae in a water body, or industrial waste disposed in the rivers by mining activity, industrial operations, logging, etc. Traditionally, turbidity is analyzed by evaluating water samples however, a good alternative to field survey measurements is satellite remote sensing data, which can capture both spatial and temporal variations in river turbidity levels. Accordingly, the [Copernicus Sentinel-2](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2) multispectral can be employed to monitor and evaluate changes in rivers.\n\n### Case study: Monitoring Po River turbidity\nThis study examined the Po River basin, from Ferrara to the river mouth, where freshwater and saltwater mix. Sentinel-2A and 2B images (2019\u20132022) covering 3700 km\u00b2 were analyzed. Using [ACOLITE](https://github.com/acolite/acolite) algorithm, 42 cloud-free images were processed to create 10 m resolution turbidity maps. These maps correlated with Po River discharge data from [Environmental Protection Agency of the Region of Emilia Romagna (ARPA-ER)](https://www.arpae.it/it) and water levels from [AIPO](https://www.agenziapo.it/). \n\n### Interperting images:\n- Units metric: Formazin Nephelometric Unit (FNU) - are a metric to measure turbidity by the scattered light method\n- Colore range interpretation: ranging from low FNU (blue/green) to higher FNU (yelllow-red)\n\nFind more about this case study, and main conclusions about Water Connectivity and Turbidity Patterns, as well as exposed riverbeds on a [dedicated story](https://race.esa.int/story?id=po-river-discharge).\n\n\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2019/2019-02-05T10:08:28Z.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-05T10:08:28Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20190205T100828_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2019/2019-02-08T10:18:25Z.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-08T10:18:25Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20190208T101825_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2019/2019-02-18T10:18:24Z.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-18T10:18:24Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20190218T101824_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2019/2019-02-25T10:08:26Z.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-25T10:08:26Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20190225T100826_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2019/2019-03-30T10:18:26Z.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-30T10:18:26Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20190330T101826_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2019/2019-06-25T10:08:36Z.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-25T10:08:36Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20190625T100836_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2019/2019-09-16T10:18:24Z.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-16T10:18:24Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20190916T101824_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2019/2019-10-26T10:18:26Z.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-26T10:18:26Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20191026T101826_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2019/2019-12-10T10:18:21Z.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-10T10:18:21Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2A_MSI_20191210T101821_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2020/2020-02-20T10:08:24Z.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-20T10:08:24Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20200220T100824_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2020/2020-03-19T10:18:21Z.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-19T10:18:21Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2A_MSI_20200319T101821_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2020/2020-04-03T10:18:22Z.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-03T10:18:22Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20200403T101822_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2020/2020-04-08T10:18:22Z.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-08T10:18:22Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2A_MSI_20200408T101822_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2020/2020-05-25T10:08:34Z.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-25T10:08:34Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2A_MSI_20200525T100834_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2020/2020-06-29T10:08:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-29T10:08:30Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20200629T100830_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2020/2020-11-06T10:08:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-06T10:08:30Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20201106T100830_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2021/2021-01-13T10:18:25Z.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-13T10:18:25Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2A_MSI_20210113T101825_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2021/2021-02-14T10:08:26Z.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-14T10:08:26Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20210214T100826_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2021/2021-03-24T10:18:23Z.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-24T10:18:23Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2A_MSI_20210324T101823_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2021/2021-05-18T10:18:24Z.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-18T10:18:24Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20210518T101824_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2021/2021-08-11T10:18:27Z.json",
+      "type": "application/geo+json",
+      "datetime": "2021-08-11T10:18:27Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2A_MSI_20210811T101827_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2021/2021-08-16T10:18:24Z.json",
+      "type": "application/geo+json",
+      "datetime": "2021-08-16T10:18:24Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20210816T101824_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2021/2021-08-21T10:18:27Z.json",
+      "type": "application/geo+json",
+      "datetime": "2021-08-21T10:18:27Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2A_MSI_20210821T101827_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2021/2021-09-05T10:18:21Z.json",
+      "type": "application/geo+json",
+      "datetime": "2021-09-05T10:18:21Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20210905T101821_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2022/2022-01-08T10:18:26Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-01-08T10:18:26Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2A_MSI_20220108T101826_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2022/2022-02-02T10:18:19Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-02-02T10:18:19Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20220202T101819_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2022/2022-03-09T10:18:29Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-09T10:18:29Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2A_MSI_20220309T101829_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2022/2022-03-24T10:18:22Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-24T10:18:22Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20220324T101822_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2022/2022-04-18T10:18:28Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-04-18T10:18:28Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2A_MSI_20220418T101828_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2022/2022-04-28T10:18:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-04-28T10:18:30Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2A_MSI_20220428T101830_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2022/2022-06-12T10:18:27Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-06-12T10:18:27Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20220612T101827_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2022/2022-07-22T10:18:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-07-22T10:18:30Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20220722T101830_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2022/2022-08-16T10:18:37Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-08-16T10:18:37Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2A_MSI_20220816T101837_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2022/2022-08-21T10:18:26Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-08-21T10:18:26Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20220821T101826_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./water_discharge/2022/2022-09-10T10:18:27Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-09-10T10:18:27Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/S2B_MSI_20220910T101827_T32TQQ_L2W_turbidity_map.tiff"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/CNR_TUR_water_discharge/cog_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "20220910T101827"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Water turbidity"
+    }
+  ],
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Water quality",
+    "Marine",
+    "Copernicus Services",
+    "Sentinel-2",
+    "MSI",
+    "Water turbidity",
+    "Adriactic Sea",
+    "Open data",
+    "Marine monitoring",
+    "Total Suspended Sediments"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "CNR_TUR_1",
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "endpointtype": "COG source",
+  "title": "Water turbidity",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11.54,
+          44.73,
+          12.744,
+          45.113
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-02-05T10:08:28Z",
+          "2022-09-10T10:18:27Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "ESA",
+      "url": "https://sentinel.esa.int/web/sentinel/"
+    },
+    {
+      "name": "Copernicus Data Space Ecosystem",
+      "url": "https://dataspace.copernicus.eu/"
+    },
+    {
+      "name": "ONDA",
+      "url": "https://www.onda-dias.eu/cms/"
+    }
+  ]
+}

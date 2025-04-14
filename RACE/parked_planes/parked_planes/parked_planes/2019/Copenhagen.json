@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Copenhagen",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.650462,
+        55.62075
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    12.640462,
+    55.61075,
+    12.660461999999999,
+    55.63075
+  ],
+  "properties": {
+    "start_datetime": "2019-01-20T10:35:21Z",
+    "end_datetime": "2022-12-27T10:25:26Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    }
+  ],
+  "assets": {},
+  "collection": "parked_planes"
+}

@@ -1,0 +1,105 @@
+{
+  "type": "Collection",
+  "id": "crude_oil_storage",
+  "stac_version": "1.1.0",
+  "description": "## Crude oil storage monitoring\n\nThis indicator aims at showing the storage level of crude oil tanks by means of X-band [Iceye SAR imagery]((https://www.iceye.com/hubfs/Downloadables/ICEYE-SAR-Product-Guide.pdf)).\nThe storage volume can be calculated by measuring the height and perimenter of the floating tanks roof that rises and falls with the oil volume to reduce the vapor space above the liquid surface.\n\n## The impacts of COVID-19 on oil tanks storages\n\nOil sector faced a sudden decline in demand due to the COVID-19 pandemic. As oil prices dropped below zero for the first time in April 2020, storage tanks had never been so full.  In July, tanks were still very full. During the COVID-19 pandemic, oil storage filled up as demand for oil decreased due to reduced travels. \n\nFigure 1 shows crude oil tanks in Rotterdam (European leader in oil storage), The Netherlands, as seen in [X-band Iceye SAR imagery](https://www.iceye.com/)*.\nIn particular:\n###\n- 2020.02.04: 3 tanks full, 2  tanks half filled, 2 tanks empty\n- 2020.04.13: 5 tanks full, 1 tank half filled, 1 tank empty\n- 2020.07.17: 5 tanks full, 2 tanks empty\n\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E3_crude_oil_storage/NL3-E3-Fig1.png)\n\n*Fig.1. Oil storages filling up as demand for oil decreases when people are not travelling.\n\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E3_crude_oil_storage/NL3-E3-Fig2.png)\n\n*Fig.2. Crude product stocks*\n\n\n\nFurther reading: \n###\n- [The impact of Covid-19 on the global oil storage sector](https://www.offshore-technology.com/comment/oil-storage-covid-19-impact/)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c47fa011-e9cd-4076-9b2f-68a93d757e58/2020/c897072e-d549-42b9-a2d1-cee9fc74b9de.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-17T03:44:28Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c47fa011-e9cd-4076-9b2f-68a93d757e58/2020/e77a400b-6aec-49ff-931c-2e798a223a33.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-13T03:37:46Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c47fa011-e9cd-4076-9b2f-68a93d757e58/2020/2d4859d8-3498-439e-bdcf-933d6e846b69.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-04T03:38:35Z"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "crude_oil_storage",
+      "wms:layers": [
+        "AWS_ICEYE-E3"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Crude oil storage monitoring"
+    }
+  ],
+  "subtitle": "Crude Oil Storage Volume as observed by ICEYE",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E3_crude_oil_storage/E3_crude_oil_storage.png",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "SAR",
+    "Ports",
+    "Maritime"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E3",
+  "satellite": [
+    "ICEYE SAR"
+  ],
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Crude oil storage monitoring",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          4.08589,
+          51.94683,
+          4.10156,
+          51.95753
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-04T03:38:35Z",
+          "2020-07-17T03:44:28Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "ICEYE",
+      "url": "https://www.iceye.com/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E3_crude_oil_storage/E3_crude_oil_storage.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

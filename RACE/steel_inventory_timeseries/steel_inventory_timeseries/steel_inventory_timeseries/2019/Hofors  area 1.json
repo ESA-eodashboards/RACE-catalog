@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Hofors  area 1",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        16.3066200733499,
+        60.552949036489515
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    16.2966200733499,
+    60.54294903648952,
+    16.316620073349902,
+    60.56294903648951
+  ],
+  "properties": {
+    "start_datetime": "2019-05-24T04:38:09Z",
+    "end_datetime": "2020-06-17T05:22:24Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    }
+  ],
+  "assets": {},
+  "collection": "steel_inventory_timeseries"
+}

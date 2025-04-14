@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Katowice",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        19.281123931237445,
+        50.33586439415548
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    19.271123931237444,
+    50.32586439415548,
+    19.291123931237447,
+    50.34586439415548
+  ],
+  "properties": {
+    "start_datetime": "2019-05-24T04:35:14Z",
+    "end_datetime": "2020-06-15T04:53:01Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    }
+  ],
+  "assets": {},
+  "collection": "steel_inventory_timeseries"
+}

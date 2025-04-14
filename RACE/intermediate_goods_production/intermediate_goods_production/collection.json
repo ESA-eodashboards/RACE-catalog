@@ -1,0 +1,84 @@
+{
+  "type": "Collection",
+  "id": "intermediate_goods_production",
+  "stac_version": "1.1.0",
+  "description": "## Intermediate goods production\n\nThis indicator illustrates the level of intermediate goods production (steel mills/other metal, cement, chemicals/plastics) at various industrial sites by means of very high resolution optical imagery.\nThe indicator is based on the assessment of relevant areas at production sites, such as employee car park (full/empty), exhaust plumes (steam etc), thermal signature (furnace heat, cooling water etc). The status of the area is assessed based n very high resolution optical imagery and is compared to a baseline (for example the situation in the same month one year before).\n\nBelow is an example of car detection for estimating occupancy and activity status related to the site.\n<div class=\"image-caption-object\">\n        <img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E4_intermediate_goods_production/E4.png\" alt=\"Image\" style=\"width: 50%;\" />\n        <div>Hamburg industrial area: Pleiades on 2020-03-24</div>\n</div>\n\n    \n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./intermediate_goods_production/2020/Hamburg.json",
+      "type": "application/geo+json",
+      "id": "DE1",
+      "latlng": "53.532123,9.944467",
+      "country": "DE",
+      "city": "Hamburg"
+    },
+    {
+      "rel": "item",
+      "href": "./intermediate_goods_production/2019/Genoa.json",
+      "type": "application/geo+json",
+      "id": "IT3",
+      "latlng": "44.408142,8.885851",
+      "country": "IT",
+      "city": "Genoa"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Intermediate goods production"
+    }
+  ],
+  "subtitle": "Assessment of intermediate goods production sites (steel mills/other metal production, cement production, chemicals/plastics production).",
+  "yAxis": "Number of parked cars ",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E4",
+  "geoDBID": "E4",
+  "endpointtype": "GeoDB",
+  "title": "Intermediate goods production",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.875851,
+          44.398142,
+          9.954467,
+          53.542123
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-04-30T10:33:52Z",
+          "2020-04-09T10:26:12Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "cities": [
+      "Hamburg",
+      "Genoa"
+    ],
+    "countries": [
+      "DE",
+      "IT"
+    ]
+  }
+}

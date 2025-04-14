@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Hamburg",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9.944467,
+        53.532123
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    9.934467,
+    53.522123,
+    9.954467,
+    53.542123
+  ],
+  "properties": {
+    "start_datetime": "2020-02-05T10:20:06Z",
+    "end_datetime": "2020-04-09T10:26:12Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Intermediate goods production"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Intermediate goods production"
+    }
+  ],
+  "assets": {},
+  "collection": "intermediate_goods_production"
+}

@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FosLavera",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.92497,
+        43.44832
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    4.91497,
+    43.438320000000004,
+    4.93497,
+    43.45832
+  ],
+  "properties": {
+    "start_datetime": "2017-01-09T00:00:00Z",
+    "end_datetime": "2024-01-01T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index"
+    }
+  ],
+  "assets": {},
+  "collection": "OX_Crude_Oil_Storage_Index"
+}

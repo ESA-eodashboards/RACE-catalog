@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Koln",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.955058,
+        51.014647
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    6.945058,
+    51.004647,
+    6.965058,
+    51.024646999999995
+  ],
+  "properties": {
+    "start_datetime": "2015-01-03T00:00:00Z",
+    "end_datetime": "2023-10-28T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Automobile inventory level"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Automobile inventory level"
+    }
+  ],
+  "assets": {},
+  "collection": "industrial_inventory"
+}

@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "f1601ec3-d64f-4288-81fe-37456b7b577a",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          -3.121956990437157,
+          40.496357762010724
+        ],
+        [
+          9.565904944621115,
+          41.36825090311567
+        ],
+        [
+          9.476341804884813,
+          51.36793235011262
+        ],
+        [
+          -5.734580713794388,
+          50.29030672705496
+        ],
+        [
+          -3.121956990437157,
+          40.496357762010724
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -5.734580713794388,
+    40.496357762010724,
+    9.565904944621115,
+    51.36793235011262
+  ],
+  "properties": {
+    "datetime": "2021-09-15T00:00:00Z",
+    "proj:bbox": [
+      3209532.14639935,
+      2029805.9475424099,
+      4284532.14639935,
+      3139805.94754241
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:EPSG::3035"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            3209532.146283714,
+            2029805.9468205268
+          ],
+          [
+            4284532.14639571,
+            2029805.9468568729
+          ],
+          [
+            4284532.146397145,
+            3139805.947234099
+          ],
+          [
+            3209532.1463282052,
+            3139805.9472121857
+          ],
+          [
+            3209532.146283714,
+            2029805.9468205268
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:3035"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Truck detections motorways"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "truck_detections_motorways",
+      "wms:layers": [
+        "VIS_TRUCK_DETECTION_MOTORWAYS_NEW"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2021-09-15T00:00:00Z/2021-09-15T23:59:59Z"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Truck detections motorways"
+    }
+  ],
+  "assets": {},
+  "collection": "byoc-34fbfb05-c3e5-4885-9840-830ee85dddd4"
+}

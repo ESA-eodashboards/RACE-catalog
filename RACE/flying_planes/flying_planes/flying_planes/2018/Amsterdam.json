@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Amsterdam",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.757732975709088,
+        52.3121414741634
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    4.747732975709088,
+    52.3021414741634,
+    4.767732975709087,
+    52.322141474163395
+  ],
+  "properties": {
+    "start_datetime": "2018-07-01T00:00:00Z",
+    "end_datetime": "2022-12-01T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Flying planes detections"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Flying planes detections"
+    }
+  ],
+  "assets": {},
+  "collection": "flying_planes"
+}

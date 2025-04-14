@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Imatra  area 2",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.797549046048346,
+        61.14619580579931
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    28.787549046048344,
+    61.13619580579931,
+    28.807549046048347,
+    61.15619580579931
+  ],
+  "properties": {
+    "start_datetime": "2019-05-24T03:48:09Z",
+    "end_datetime": "2020-06-12T03:40:33Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    }
+  ],
+  "assets": {},
+  "collection": "steel_inventory_timeseries"
+}

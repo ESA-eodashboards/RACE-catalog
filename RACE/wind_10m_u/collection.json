@@ -1,0 +1,167 @@
+{
+  "type": "Collection",
+  "id": "wind_10m_u",
+  "stac_version": "1.1.0",
+  "description": "## Wind U Field \n\nThis indicator aims at showing the horizontal speed of air moving towards the east,\nat a height of ten metres above the surface of the Earth (Eastward component of the 10m wind).\nThe product contains one single band named \"windu10m\" expressed in [m s-1].\nThis variable can be combined with the V component of 10m wind to give the speed and direction of the horizontal 10m wind.\n \n**Note**\nCare should be taken when comparing this variable with observations, because wind observations vary\non small space and time scales and are affected by the local terrain, vegetation and buildings that\nare represented only on average in the ECMWF Integrated Forecasting System.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./wind_10m_u/collection.json",
+      "type": "application/json",
+      "title": "Wind U Field",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind U field",
+      "code": "CDS3",
+      "id": "wind_10m_u",
+      "themes": [
+        "air"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "CDS3",
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "license",
+      "href": "https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
+      "type": "application/pdf",
+      "title": "Licence to Use Copernicus Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "sci:doi": "10.24381/cds.68d2bb30",
+  "sci:citation": "Mu\u00f1oz Sabater, J., (2019) was downloaded from the Copernicus Climate Change Service (2021).\nThe results contain modified Copernicus Climate Change Service information 2020. \nNeither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.\n",
+  "sci:publications": [
+    {
+      "citation": "Zaitchik, B.F., Sweijd, N., Shumake-Guillemot, J. et al. A framework for research linking weather, climate and COVID-19. Nat Commun 11, 5730 (2020).",
+      "doi": "10.1038/s41467-020-19546-7"
+    }
+  ],
+  "subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind U field",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS3_wind_10m_u/CDS3_wind_10m_u.png",
+  "themes": [
+    "air"
+  ],
+  "tags": [
+    "Copernicus Services",
+    "C3S",
+    "CDS",
+    "Multi-sensors",
+    "Open data"
+  ],
+  "agency": [
+    "European Commission",
+    "ECMWF"
+  ],
+  "subcode": "CDS3",
+  "otherSources": [
+    "ERA5"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      -12,
+      12
+    ],
+    "range": [
+      "#0b3587",
+      "#0b74c5",
+      "#4eb5fa",
+      "#abeaf3",
+      "#f4fced",
+      "#fbd45f",
+      "#f78500",
+      "#dd1800",
+      "#a30100"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Wind field [m/s]"
+  },
+  "title": "Wind U Field",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.22495138408348,
+          180.0,
+          90.125
+        ],
+        [
+          -180.0,
+          -90.22495138408348,
+          180.0,
+          90.125
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1959-01-01T00:00:00Z",
+          "2024-03-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Copernicus Climate Change Service",
+      "url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+    },
+    {
+      "name": "Climate Data Store",
+      "url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "CDS3"
+    ],
+    "themes": [
+      "air"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS3_wind_10m_u/CDS3_wind_10m_u.png"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS3_wind_10m_u/CDS3_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS3_wind_10m_u/CDS3_wind_10m_u.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

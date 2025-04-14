@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Brussels",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.3401109,
+        50.8792741
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    4.3301109,
+    50.869274100000005,
+    4.3501109,
+    50.8892741
+  ],
+  "properties": {
+    "start_datetime": "2020-03-23T10:58:42Z",
+    "end_datetime": "2020-04-09T10:27:48Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Activity at shopping centers"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Activity at shopping centers"
+    }
+  ],
+  "assets": {},
+  "collection": "shopping_center_activity"
+}

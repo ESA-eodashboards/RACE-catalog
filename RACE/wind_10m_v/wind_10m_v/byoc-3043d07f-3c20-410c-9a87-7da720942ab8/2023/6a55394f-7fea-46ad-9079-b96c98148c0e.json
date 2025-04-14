@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "6a55394f-7fea-46ad-9079-b96c98148c0e",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          -179.99975585937491,
+          -81.2053172863625
+        ],
+        [
+          179.943681869296,
+          -81.2053172863625
+        ],
+        [
+          179.943681869296,
+          81.1125
+        ],
+        [
+          -179.99975585937491,
+          81.1125
+        ],
+        [
+          -179.99975585937491,
+          -81.2053172863625
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.99975585937491,
+    -81.2053172863625,
+    179.943681869296,
+    81.1125
+  ],
+  "properties": {
+    "datetime": "2023-03-01T00:00:00Z",
+    "proj:bbox": [
+      -179.99975585937491,
+      -81.2053172863625,
+      179.943681869296,
+      81.1125
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            -179.99975585937491,
+            -81.2053172863625
+          ],
+          [
+            179.943681869296,
+            -81.2053172863625
+          ],
+          [
+            179.943681869296,
+            81.1125
+          ],
+          [
+            -179.99975585937491,
+            81.1125
+          ],
+          [
+            -179.99975585937491,
+            -81.2053172863625
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:84"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Wind V Field"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "wind_10m_v",
+      "wms:layers": [
+        "AWS_VIS_WIND_V_10M"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2023-03-01T00:00:00Z/2023-03-01T23:59:59Z"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Wind V Field"
+    }
+  ],
+  "assets": {},
+  "collection": "byoc-3043d07f-3c20-410c-9a87-7da720942ab8"
+}

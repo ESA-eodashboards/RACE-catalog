@@ -1,0 +1,76 @@
+{
+  "type": "Collection",
+  "id": "IDEAS2_wildlife_minesweeper",
+  "stac_version": "1.1.0",
+  "description": "# Wildlife Biodiversity Minesweeper Game\n\nGet to learn about biodiversity on earth by playing this exciting game and challenge your friends to beat your score!\nOnce you finish the daily location you will get information on available species in the area, as well as their endangered status and a summary of how you did with an easy to share function.\n\n## How-to\nOpen hexagon fields (initially transparent) by left clicking on them, mark them with a flag with right click (blue).\nOpened fields without mines will show a number which represents the number of mines adjacent to that field, by examining the numbers of fields which share adjacent fields you can identify where potential mines are.\n\nUse the visible background information about the area to guide your exploration and uncover new fields.\nBe careful not to open up a field with a mine! These fields represent areas with high biodiversity, can you flag them all correctly?\n\nIf finished, your score is based on the time you spend to correctly mark all high biodiversity areas, if you opened a mine field your score will be based on percentage of uncovered area.\n\n## Heads-up\nThe underlying data has been derived using Earth Observation data, for more information have a look at the <a href=\"./?indicator=IND2_1\">original indicator</a>.\nThe game regions changes daily, so come back tomorrow for more! ",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./IDEAS2_wildlife_minesweeper/2023/2023-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-01-01T00:00:00Z",
+      "assets": [
+        "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator2/AR3_wildlife.tif"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Wildlife Biodiversity Minesweeper Game"
+    }
+  ],
+  "subtitle": "Indicator 2: Wildlife Diversity Game mode",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_minesweeper.png",
+  "themes": [
+    "agriculture"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "IND2_1_minesweeper",
+  "endpointtype": "COG source",
+  "title": "Wildlife Biodiversity Minesweeper Game",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -24,
+          33,
+          42,
+          71
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Murmuration",
+      "url": "https://murmuration-sas.com/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_minesweeper.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

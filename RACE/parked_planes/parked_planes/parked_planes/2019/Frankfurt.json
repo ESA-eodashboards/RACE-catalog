@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Frankfurt",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        8.553651954534535,
+        50.03417529740082
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    8.543651954534536,
+    50.024175297400824,
+    8.563651954534535,
+    50.04417529740082
+  ],
+  "properties": {
+    "start_datetime": "2019-01-20T10:36:59Z",
+    "end_datetime": "2022-10-11T10:37:08Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    }
+  ],
+  "assets": {},
+  "collection": "parked_planes"
+}

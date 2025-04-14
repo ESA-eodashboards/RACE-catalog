@@ -1,0 +1,48 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "id": "2023-05-20T00:00:00Z",
+  "geometry": null,
+  "properties": {
+    "datetime": "2023-05-20T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_BLK_BGC_L4_NRT_009_152/cmems_obs-oc_blk_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202207",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "OCEANCOLOUR_BLK_BGC_L4_NRT_009_152/cmems_obs-oc_blk_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202207/CHL",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "time": "2023-05-20T00:00:00Z",
+        "style": "cmap:rainbow,range:0.03/50,noClamp,logScale"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Ocean colour plankton - Black Sea"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Ocean colour plankton - Black Sea"
+    }
+  ],
+  "assets": {},
+  "collection": "ocean_colour_plankton_black_sea"
+}

@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Boxholm  area 2",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        15.040074950908355,
+        58.19317402501288
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    15.030074950908356,
+    58.18317402501288,
+    15.050074950908355,
+    58.20317402501288
+  ],
+  "properties": {
+    "start_datetime": "2019-06-04T04:44:39Z",
+    "end_datetime": "2020-06-17T05:23:14Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    }
+  ],
+  "assets": {},
+  "collection": "steel_inventory_timeseries"
+}

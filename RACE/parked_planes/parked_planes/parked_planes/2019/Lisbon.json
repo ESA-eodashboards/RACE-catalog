@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Lisbon",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.134743863288612,
+        38.779719863831765
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    -9.144743863288612,
+    38.76971986383177,
+    -9.124743863288613,
+    38.78971986383176
+  ],
+  "properties": {
+    "start_datetime": "2019-01-03T11:40:41Z",
+    "end_datetime": "2022-12-15T11:30:47Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    }
+  ],
+  "assets": {},
+  "collection": "parked_planes"
+}

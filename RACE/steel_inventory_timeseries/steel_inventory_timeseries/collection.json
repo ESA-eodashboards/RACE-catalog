@@ -1,0 +1,315 @@
+{
+  "type": "Collection",
+  "id": "steel_inventory_timeseries",
+  "stac_version": "1.1.0",
+  "description": "## Steel inventory timeseries\n\nThis indicator aims at showing steel inventory levels at different production plants by means of Sentinel-1 data.\nSteelmaking monitoring is strategic in terms of supply of its inputs (iron ore and coal) and demand from different industries (automotive, construction).\n\nThis steel products output inventory levels indicator is produced by Aerospacelab for 9 sites in Europe. \nBy defining the output zone for each steel plant and monitoring the SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data, Aerospacelab generates time series of inventory levels. \nAreas holding various forms of steel products (Coil, plate, section...) are considered in the analysis.\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_1.png)\n\n*Figure 1: Hunedoara, Romania - Output inventory levels*\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_2.png)\n\n*Figure 2: Imatra, Finland - Output inventory levels*\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_3.png)\n\n*Figure 3: Katowice, Poland - Output inventory levels*\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Imatra  area 1.json",
+      "type": "application/geo+json",
+      "id": "FI1",
+      "latlng": "61.151139685027665,28.796662998976412",
+      "country": "FI",
+      "city": "Imatra - area 1"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Imatra  area 2.json",
+      "type": "application/geo+json",
+      "id": "FI2",
+      "latlng": "61.14619580579931,28.797549046048346",
+      "country": "FI",
+      "city": "Imatra - area 2"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Imatra  area 3.json",
+      "type": "application/geo+json",
+      "id": "FI3",
+      "latlng": "61.144720499058145,28.800730740612664",
+      "country": "FI",
+      "city": "Imatra - area 3"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Katowice.json",
+      "type": "application/geo+json",
+      "id": "PL5",
+      "latlng": "50.33586439415548,19.281123931237445",
+      "country": "PL",
+      "city": "Katowice"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Hunedoara.json",
+      "type": "application/geo+json",
+      "id": "RO8",
+      "latlng": "45.78896311080552,22.923231736132724",
+      "country": "RO",
+      "city": "Hunedoara"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Borlange  area 1.json",
+      "type": "application/geo+json",
+      "id": "SE1",
+      "latlng": "60.487957276047716,15.455598401419492",
+      "country": "SE",
+      "city": "Borlange - area 1"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Boxholm  area 3.json",
+      "type": "application/geo+json",
+      "id": "SE10",
+      "latlng": "58.19536232861801,15.03918652568827",
+      "country": "SE",
+      "city": "Boxholm - area 3"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Boxholm  area 4.json",
+      "type": "application/geo+json",
+      "id": "SE11",
+      "latlng": "58.19916735034876,15.036859972223455",
+      "country": "SE",
+      "city": "Boxholm - area 4"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Hallefors  area 1.json",
+      "type": "application/geo+json",
+      "id": "SE12",
+      "latlng": "59.780774174715646,14.498200389630115",
+      "country": "SE",
+      "city": "Hallefors - area 1"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Hallefors  area 3.json",
+      "type": "application/geo+json",
+      "id": "SE13",
+      "latlng": "59.78311262981549,14.49464139817856",
+      "country": "SE",
+      "city": "Hallefors - area 3"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Hallefors  area 2.json",
+      "type": "application/geo+json",
+      "id": "SE14",
+      "latlng": "59.783645041790216,14.498034472997306",
+      "country": "SE",
+      "city": "Hallefors - area 2"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Hofors  area 1.json",
+      "type": "application/geo+json",
+      "id": "SE15",
+      "latlng": "60.552949036489515,16.3066200733499",
+      "country": "SE",
+      "city": "Hofors - area 1"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Hofors  area 2.json",
+      "type": "application/geo+json",
+      "id": "SE16",
+      "latlng": "60.54815234071482,16.308357555087376",
+      "country": "SE",
+      "city": "Hofors - area 2"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Lulea.json",
+      "type": "application/geo+json",
+      "id": "SE17",
+      "latlng": "65.55710405897864,22.227196619403227",
+      "country": "SE",
+      "city": "Lulea"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Oxelosund  area 1.json",
+      "type": "application/geo+json",
+      "id": "SE18",
+      "latlng": "58.68145017264629,17.124343027923075",
+      "country": "SE",
+      "city": "Oxelosund - area 1"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Oxelosund  area 2.json",
+      "type": "application/geo+json",
+      "id": "SE19",
+      "latlng": "58.683908585861005,17.1278144295506",
+      "country": "SE",
+      "city": "Oxelosund - area 2"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Borlange  area 2.json",
+      "type": "application/geo+json",
+      "id": "SE2",
+      "latlng": "60.490388636746225,15.4540712671587",
+      "country": "SE",
+      "city": "Borlange - area 2"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Oxelosund  area 3.json",
+      "type": "application/geo+json",
+      "id": "SE20",
+      "latlng": "58.681367690762485,17.116121839995795",
+      "country": "SE",
+      "city": "Oxelosund - area 3"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Oxelosund  area 4.json",
+      "type": "application/geo+json",
+      "id": "SE21",
+      "latlng": "58.68023677471895,17.118113709285044",
+      "country": "SE",
+      "city": "Oxelosund - area 4"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Borlange  area 3.json",
+      "type": "application/geo+json",
+      "id": "SE3",
+      "latlng": "60.48960864224798,15.44814277460824",
+      "country": "SE",
+      "city": "Borlange - area 3"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Borlange  area 4.json",
+      "type": "application/geo+json",
+      "id": "SE4",
+      "latlng": "60.4879544296906,15.449854163712011",
+      "country": "SE",
+      "city": "Borlange - area 4"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Borlange  area 5.json",
+      "type": "application/geo+json",
+      "id": "SE5",
+      "latlng": "60.494389203324104,15.460203429995094",
+      "country": "SE",
+      "city": "Borlange - area 5"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Borlange  area 6.json",
+      "type": "application/geo+json",
+      "id": "SE6",
+      "latlng": "60.493125579582625,15.453923196501634",
+      "country": "SE",
+      "city": "Borlange - area 6"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Borlange  area 7.json",
+      "type": "application/geo+json",
+      "id": "SE7",
+      "latlng": "60.48452100732772,15.452618656189557",
+      "country": "SE",
+      "city": "Borlange - area 7"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Boxholm  area 1.json",
+      "type": "application/geo+json",
+      "id": "SE8",
+      "latlng": "58.19374529056634,15.036125986675577",
+      "country": "SE",
+      "city": "Boxholm - area 1"
+    },
+    {
+      "rel": "item",
+      "href": "./steel_inventory_timeseries/2019/Boxholm  area 2.json",
+      "type": "application/geo+json",
+      "id": "SE9",
+      "latlng": "58.19317402501288,15.040074950908355",
+      "country": "SE",
+      "city": "Boxholm - area 2"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    }
+  ],
+  "subtitle": "Steel inventory monitoring in open warehouses from SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data",
+  "yAxis": "Metal Density Variation [%]",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E5",
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "geoDBID": "E5",
+  "endpointtype": "GeoDB",
+  "title": "Steel inventory timeseries",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          14.48464139817856,
+          45.77896311080552,
+          28.810730740612666,
+          65.56710405897864
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-05-23T04:45:04Z",
+          "2020-06-17T05:23:14Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "name": "Aerospacelab",
+      "url": "https://www.aerospacelab.be/"
+    }
+  ],
+  "summaries": {
+    "countries": [
+      "FI",
+      "PL",
+      "RO",
+      "SE"
+    ]
+  }
+}

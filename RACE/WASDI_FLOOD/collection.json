@@ -1,0 +1,172 @@
+{
+  "type": "Collection",
+  "id": "WASDI_FLOOD",
+  "stac_version": "1.1.0",
+  "description": "# Flood mapping \nThe Flood Mapping dataset supports the analysis and visualization of flood events using advanced algorithms and satellite imagery. This dataset integrates data from multiple sources, offering comprehensive tools for detecting and monitoring floods in both open and urban areas. \nThe dataset shows flooded areas and areas with permanent water bodies.\n\n\n## Dataset Description\n- Coverage: Maps of flood were computed for both open area (i.e. bare soil) and urban area. Two different methods were applied to detect this two complementary types of flood.\n- Metric: Flood extent and intensity derived from spatial grids and imagery analysis, with temporal layering for tracking flood evolution.\n  -   **Flood Monitoring in Open Areas**: - The method used to produce flood maps over open area is integrated in an app named SAR Flood Archive Generator 3.3.4 available in the [WASDI platform](https://www.wasdi.cloud/). It is an automated application designed to process the Sentinel-1 GRD archive for a specified Area of Interest (AoI), compiling historical flood maps in open areas. The application generates maps for every day for which a Sentinel-1 GRD image is available over the AoI. In the specific case study, about 70 Sentinel-1 GRD images were processed. Flood detection is performed by analysing intensity values. The output is an archive of maps that, according to the input parameters, can be either in binary format (flooded or not-flooded) or as a three-state classification (flooded, not-flooded, permanent water). \n  -  **Urban Flood Mapping**: Concerning urban area, a different method is applied. It relies on the information contained in the phase, rather than the intensity used for open area. Flood is detected analyzing the difference of coherence between a pair of 2 pre-event Sentinel-1 SLC images and a pair of 1 pre-event Sentinel-1 SLC image and 1 post-event Sentinel-1 SLC image. This application, named Urban Flood, available in the [WASDI platform](https://www.wasdi.cloud/), needs as a prerequisite the availability of a building map, to constrain the areas where to look for differences of coherence.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./WASDI_FLOOD/collection.json",
+      "type": "application/json",
+      "title": "Flood mapping",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Automated flood map",
+      "code": "WASDI_FLOOD",
+      "id": "WASDI_FLOOD",
+      "themes": [
+        "extremes"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "Flood",
+        "Open data",
+        "Multi-sensors",
+        "Copernicus",
+        "Climate change service",
+        "Urban area",
+        "Disasters",
+        "Sentinel"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "WASDI_FLOOD",
+      "sensor": [
+        "SAR",
+        "MSI"
+      ],
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "sci:doi": "10.3390/rs11020107",
+  "sci:citation": "Chini, M., Pelich, R., Pulvirenti, L., Pierdicca, N., Hostache, R., Matgen, P., 2019. Sentinel-1 InSAR coherence to detect floodwater in urban areas: Houston and Hurricane Harvey as a test case. Remote Sensing, 11(2), p.107.\n",
+  "subtitle": "Automated flood map",
+  "themes": [
+    "extremes"
+  ],
+  "tags": [
+    "Copernicus Services",
+    "Flood",
+    "Open data",
+    "Multi-sensors",
+    "Copernicus",
+    "Climate change service",
+    "Urban area",
+    "Disasters",
+    "Sentinel"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "WASDI_FLOOD",
+  "sensor": [
+    "SAR",
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-1",
+    "Sentinel-2"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      "Permanent water",
+      "Flooding"
+    ],
+    "range": [
+      "#0000ff",
+      "#ff0000"
+    ],
+    "scaleType": "categorical",
+    "title": "Flood events"
+  },
+  "title": "Flood mapping",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.7001745559668817,
+          38.499992303125886,
+          19.9,
+          54.6
+        ],
+        [
+          -1.7001745559668817,
+          38.499992303125886,
+          19.9,
+          54.6
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-07-01T00:00:00Z",
+          "2024-11-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "WASDI Market Place",
+      "url": "https://www.wasdi.cloud/earth-observation-application-marketplace"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "WASDI_FLOOD"
+    ],
+    "themes": [
+      "extremes"
+    ],
+    "satellite": [
+      "Sentinel-1",
+      "Sentinel-2"
+    ],
+    "sensor": [
+      "MSI",
+      "SAR"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WASDI_FLOOD/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_1": {
+      "href": "https://wasdi.readthedocs.io/en/latest/WasdiApplications/FloodMapping.html",
+      "type": "text/html",
+      "title": "WASDI Support Automated Mapping",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-1",
+      "type": "text/html",
+      "title": "Sentinel-1",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

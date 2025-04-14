@@ -1,0 +1,91 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2024-03-09T00:00:00Z",
+  "geometry": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                20.7,
+                46.23
+              ],
+              [
+                21.24,
+                46.23
+              ],
+              [
+                21.24,
+                46.6
+              ],
+              [
+                20.7,
+                46.6
+              ],
+              [
+                20.7,
+                46.23
+              ]
+            ]
+          ]
+        },
+        "properties": {}
+      }
+    ]
+  },
+  "bbox": [
+    20.7,
+    46.23,
+    21.24,
+    46.6
+  ],
+  "properties": {
+    "datetime": "2024-03-09T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/style_water_needed.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "vector_data"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Hungary Mez\u0151hegyes microregion water demand"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Hungary Mez\u0151hegyes microregion water demand"
+    }
+  ],
+  "assets": {
+    "vector_data": {
+      "href": "https://api.cropom-dev.com/crop_model/regional_forecast?region_code=HU3321",
+      "type": "application/geo+json",
+      "proj:epsg": 3035,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "crop_forecast_hu_mezohegyes_water",
+  "proj:epsg": 3035
+}

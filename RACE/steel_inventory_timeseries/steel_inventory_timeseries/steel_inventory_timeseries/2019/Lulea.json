@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Lulea",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        22.227196619403227,
+        65.55710405897864
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    22.217196619403225,
+    65.54710405897863,
+    22.23719661940323,
+    65.56710405897864
+  ],
+  "properties": {
+    "start_datetime": "2019-05-26T05:04:55Z",
+    "end_datetime": "2020-06-16T03:57:30Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    }
+  ],
+  "assets": {},
+  "collection": "steel_inventory_timeseries"
+}

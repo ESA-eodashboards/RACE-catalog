@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Rome",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.573303,
+        41.897678
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    12.563303,
+    41.887678,
+    12.583302999999999,
+    41.907678
+  ],
+  "properties": {
+    "start_datetime": "2020-03-04T10:07:58Z",
+    "end_datetime": "2020-04-24T10:15:17Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Activity at shopping centers"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Activity at shopping centers"
+    }
+  ],
+  "assets": {},
+  "collection": "shopping_center_activity"
+}

@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Madrid",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -3.566288968675247,
+        40.49347573601085
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    -3.5762889686752466,
+    40.48347573601085,
+    -3.556288968675247,
+    40.50347573601085
+  ],
+  "properties": {
+    "start_datetime": "2019-01-02T11:19:57Z",
+    "end_datetime": "2022-12-27T11:20:02Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    }
+  ],
+  "assets": {},
+  "collection": "parked_planes"
+}

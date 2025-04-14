@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Lyon",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.142,
+        45.76
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    4.132000000000001,
+    45.75,
+    4.152,
+    45.769999999999996
+  ],
+  "properties": {
+    "start_datetime": "2020-01-01T00:00:00Z",
+    "end_datetime": "2022-12-31T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Air Quality (PM25 concetrations) at city level (model)"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Air Quality (PM25 concetrations) at city level (model)"
+    }
+  ],
+  "assets": {},
+  "collection": "pm25_cams"
+}

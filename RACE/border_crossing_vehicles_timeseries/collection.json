@@ -1,0 +1,141 @@
+{
+  "type": "Collection",
+  "id": "border_crossing_vehicles_timeseries",
+  "stac_version": "1.1.0",
+  "description": "## Border crossing vehicles time series\n\nThis indicator aims at showing the increase in traffic jam observed at the border crossings. It uses the intensity of the backscatter signal from Copernicus Sentinel-1 over the highway as a proxy for the high density of vehicles. \n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./border_crossing_vehicles_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Border crossing vehicles time series",
+      "endpointtype": "GeoDB",
+      "subtitle": "Volume of highway occupancy from Sentinel-1 data",
+      "code": "E12b",
+      "id": "border_crossing_vehicles_timeseries",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Folkestone"
+      ],
+      "countries": [
+        "GB"
+      ],
+      "yAxis": "Backscatter S1 VV",
+      "tags": [
+        "Copernicus",
+        "SAR",
+        "Mobility",
+        "Traffic",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E12b",
+      "sensor": [
+        "C-SAR"
+      ],
+      "satellite": [
+        "Sentinel-1"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E12b?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "method": "GET",
+      "id": "E12b"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Volume of highway occupancy from Sentinel-1 data",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "SAR",
+    "Mobility",
+    "Traffic",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E12b",
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "title": "Border crossing vehicles time series",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          1.0988499999999999,
+          51.08374,
+          1.11885,
+          51.103739999999995
+        ],
+        [
+          1.0988499999999999,
+          51.08374,
+          1.11885,
+          51.103739999999995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-04T17:49:18Z",
+          "2020-12-29T17:49:30Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "E12b"
+    ],
+    "themes": [
+      "economy"
+    ],
+    "satellite": [
+      "Sentinel-1"
+    ],
+    "sensor": [
+      "C-SAR"
+    ],
+    "cities": [
+      "Folkestone"
+    ],
+    "countries": [
+      "GB"
+    ]
+  }
+}

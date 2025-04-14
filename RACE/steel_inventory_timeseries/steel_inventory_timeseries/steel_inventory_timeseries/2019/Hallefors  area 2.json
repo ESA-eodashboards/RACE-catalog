@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Hallefors  area 2",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        14.498034472997306,
+        59.783645041790216
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    14.488034472997306,
+    59.77364504179022,
+    14.508034472997306,
+    59.793645041790214
+  ],
+  "properties": {
+    "start_datetime": "2019-05-23T04:45:04Z",
+    "end_datetime": "2020-06-12T05:14:38Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    }
+  ],
+  "assets": {},
+  "collection": "steel_inventory_timeseries"
+}

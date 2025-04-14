@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Gijon",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -5.67329,
+        43.54378
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    -5.6832899999999995,
+    43.53378,
+    -5.66329,
+    43.553779999999996
+  ],
+  "properties": {
+    "start_datetime": "2019-02-01T00:00:00Z",
+    "end_datetime": "2020-09-01T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Commercial fluxes"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Commercial fluxes"
+    }
+  ],
+  "assets": {},
+  "collection": "trucks_port"
+}

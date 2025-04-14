@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "8dd259c3-ff78-4bf7-ad69-7c0264b99f61",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          13.9,
+          48.6
+        ],
+        [
+          19.9,
+          48.6
+        ],
+        [
+          19.9,
+          54.6
+        ],
+        [
+          13.9,
+          54.6
+        ],
+        [
+          13.9,
+          48.6
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    13.9,
+    48.6,
+    19.9,
+    54.6
+  ],
+  "properties": {
+    "datetime": "2024-10-29T00:00:00Z",
+    "proj:bbox": [
+      13.9,
+      48.6,
+      19.9,
+      54.6
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            13.9,
+            48.6
+          ],
+          [
+            19.9,
+            48.6
+          ],
+          [
+            19.9,
+            54.6
+          ],
+          [
+            13.9,
+            54.6
+          ],
+          [
+            13.9,
+            48.6
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:84"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Flood mapping"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "WASDI_FLOOD",
+      "wms:layers": [
+        "WASDI_FLOOD"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2024-10-29T00:00:00Z/2024-10-29T23:59:59Z"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Flood mapping"
+    }
+  ],
+  "assets": {},
+  "collection": "byoc-47774144-7a51-4156-a55c-ef2cff8913ce"
+}

@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "86163217-a463-491d-ba28-649952001fc0",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          18.28865053802771,
+          42.078141007980136
+        ],
+        [
+          22.69678949616472,
+          41.61426609346718
+        ],
+        [
+          23.657514555735247,
+          45.78084724499051
+        ],
+        [
+          18.92597648216287,
+          46.285622938065714
+        ],
+        [
+          18.28865053802771,
+          42.078141007980136
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    18.28865053802771,
+    41.61426609346718,
+    23.657514555735247,
+    46.285622938065714
+  ],
+  "properties": {
+    "datetime": "2020-09-15T00:00:00Z",
+    "proj:bbox": [
+      5007760.28035977,
+      2146025.13572123,
+      5377760.28035977,
+      2616025.13572123
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:EPSG::3035"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            5007760.280426227,
+            2146025.1350733573
+          ],
+          [
+            5377760.280464404,
+            2146025.135054742
+          ],
+          [
+            5377760.280445162,
+            2616025.1352398684
+          ],
+          [
+            5007760.2804137375,
+            2616025.1352557167
+          ],
+          [
+            5007760.280426227,
+            2146025.1350733573
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:3035"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Truck detections primary roads"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "truck_detections_primary_roads",
+      "wms:layers": [
+        "VIS_TRUCK_DETECTION_PRIMARY_NEW"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2020-09-15T00:00:00Z/2020-09-15T23:59:59Z"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Truck detections primary roads"
+    }
+  ],
+  "assets": {},
+  "collection": "byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c"
+}

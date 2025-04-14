@@ -1,0 +1,208 @@
+{
+  "type": "Collection",
+  "id": "vessel_density_timeseries",
+  "stac_version": "1.1.0",
+  "description": "## Ship Density Maps (Sentinel-1)\r\n\r\nThis indicator shows ships detected in the major EU ports by means of Copernicus Sentinel-1 data. It was developed by Alessandro Cimbelli within the upscaling part of the [RACE Challenges 2021](https://eo4society.esa.int/2021/08/01/rapid-action-on-coronavirus-and-eo-race-dashboard-challenge-3/).\r\n\r\nA vessel density map is produced by deriving, for each 1 km2 pixel of the masked image of the selected area, an index given by the ratio:\r\n\r\ndensity_vessels= 1000 * number_vessels / number_observations\r\n\r\nwhere the number of observations corresponds to the intersection of all the satellite footprints of the selected month.\r\n\r\nThe figures below show a comparison with the corresponding map provided by [EMODnet](https://race.esa.int/?x=1040481.31544&y=5968190.74701&z=4.29471&poi=World-E13o&search=World%3A+Vessel+density+%28all%29+%5Bh%2Fsqkm%5D) using the Structural Similarity Index (SSIM).\r\n\r\n\r\n<div style=\"display: flex;\">\r\n  <div class=\"image-caption-object\">\r\n      <img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b-img1.png\" alt=\"Image\" style=\"width: 40%;\" />\r\n      <div>Sentinel-1 based indicator</div>\r\n  </div>\r\n  \r\n  <div class=\"image-caption-object\">\r\n      <img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b-img2.png\" alt=\"Legend\" style=\"width: 40%;\" />\r\n      <div>EMODnet indicator</div>\r\n  </div>\r\n</div>\r\n\r\n\r\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series",
+      "endpointtype": "GeoDB",
+      "subtitle": "Vessel Density based on Copernicus Sentinel-1",
+      "code": "E1b",
+      "id": "vessel_density_timeseries",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Antwerpen",
+        "Hamburg",
+        "Bremerhaven, Hamburg, Wilhelmshaven",
+        "Skagen",
+        "Tallin",
+        "Algeciras",
+        "Barcelona",
+        "Bilbao",
+        "Las Palmas",
+        "Valencia",
+        "Le Havre",
+        "Dunkerque",
+        "Marseille",
+        "Peiraias",
+        "Dublin",
+        "Gioia Tauro",
+        "La Spezia",
+        "Taranto",
+        "Trieste",
+        "Genova",
+        "Klaipeda",
+        "Riga",
+        "Rotterdam",
+        "Amsterdam",
+        "Bergen",
+        "G\u00f6teborg",
+        "Gdansk",
+        "Sines",
+        "Constanta",
+        "Kaliningrad",
+        "Instanbul",
+        "Aliaga"
+      ],
+      "countries": [
+        "BE",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FR",
+        "GR",
+        "IE",
+        "IT",
+        "LT",
+        "LV",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "RU",
+        "TR"
+      ],
+      "yAxis": "/",
+      "tags": [
+        "Copernicus",
+        "Maritime",
+        "Traffic",
+        "Open data",
+        "Community"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E1b",
+      "sensor": [
+        "C-SAR"
+      ],
+      "satellite": [
+        "Sentinel-1"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_Sentinel_1_Vessel_Density_Europe_Timeseries?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "method": "GET",
+      "id": "Sentinel_1_Vessel_Density_Europe_Timeseries"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "sci:citation": "Alessandro Cimbelli, Vessel Density based on Copernicus Sentinel-1, developed for the ESA RACE Challenges March 2021",
+  "subtitle": "Vessel Density based on Copernicus Sentinel-1",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Maritime",
+    "Traffic",
+    "Open data",
+    "Community"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E1b",
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "title": "Vessel density time series",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -15.125872,
+          27.957126,
+          28.849589,
+          60.342799
+        ],
+        [
+          -15.125872,
+          27.957126,
+          28.849589,
+          60.342799
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T05:26:55Z",
+          "2022-12-31T17:49:17Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "E1b"
+    ],
+    "themes": [
+      "economy"
+    ],
+    "satellite": [
+      "Sentinel-1"
+    ],
+    "sensor": [
+      "C-SAR"
+    ],
+    "countries": [
+      "DE",
+      "LT",
+      "GR",
+      "NL",
+      "DK",
+      "FR",
+      "NO",
+      "TR",
+      "LV",
+      "RO",
+      "ES",
+      "PT",
+      "EE",
+      "PL",
+      "IT",
+      "BE",
+      "RU",
+      "IE"
+    ]
+  },
+  "assets": {
+    "notebook_vessel_density_cimbelli": {
+      "href": "https://edc-jupyter.hub.eox.at/user/fd72d739-596f-4e72-a660-0d06045e4e26/lab/tree/Vessel_count_upscale.ipynb",
+      "type": "text/html",
+      "title": "Jupyter Notebook Euro Data Cube",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

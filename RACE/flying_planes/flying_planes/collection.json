@@ -1,0 +1,408 @@
+{
+  "type": "Collection",
+  "id": "flying_planes",
+  "stac_version": "1.1.0",
+  "description": "## Airport traffic indicator based on flying airplane detection\n\nprepared by Maur\u00edcio Pamplona Segundo, Rodrigo Minetto, Cole Hill, Allan Pinto, Ricardo Da Silva Torres, and Sudeep Sarkar within the [upscaling part](https://eo4society.esa.int/2020/04/24/from-the-covid-19-custom-script-contest-to-the-euro-data-cube-european-dashboard/) of the [COVID-19 Custom Script Contest](https://www.sentinel-hub.com/contest-covid/).\n\n#### Data Acess: \nMauricio Pamplona Segundo, Allan Pinto, Rodrigo Minetto, Ricardo da Silva Torres, Sudeep Sarkar, July 2, 2021, \"A dataset for detecting flying airplanes on satellite images\", IEEE Dataport, doi: [https://dx.doi.org/10.21227/3mbt-tb11](https://dx.doi.org/10.21227/3mbt-tb11). \n\n#### Source code: \n\n[https://github.com/maups/covid19-custom-script-contest](https://github.com/maups/covid19-custom-script-contest)\n\n#### Publication:\n\nM. P. Segundo, A. Pinto, R. Minetto, R. d. S. Torres and S. Sarkar, \"Measuring Economic Activity From Space: A Case Study Using Flying Airplanes and COVID-19,\" in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 14, pp. 7213-7224, 2021, doi: [10.1109/JSTARS.2021.3094053](https://doi.org/10.1109/JSTARS.2021.3094053).\n\n---\n\n### Aircraft traffic as an indicator\n\nAir traffic is of particular interest to unveil human and economic activities (e.g., travel, [tourism](https://doi.org/10.1016/j.jairtraman.2005.09.007), [cargo](https://www.iata.org/en/programs/cargo/sustainability/benefits/)) and [track disease spread due to in-flight transmission](https://www.cidrap.umn.edu/news-perspective/2020/09/studies-trace-covid-19-spread-international-flights). This indicator is based on the detection of flying airplanes in images captured by the [Copernicus Sentinel-2](http://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2) satellites. We focused our analysis on Areas Of Interest (AOI) around the 30 busiest airports (i.e., airports with the highest number of passengers in 2019) in the EU. The chosen airports cover 26 different cities and 18 different countries. Each AOI is defined as a rectangle with 1.05\u00b0 of width and 0.7\u00b0 of height centered at the latitude and longitude coordinates of the target airport. This results in an area of about 6,000 km2 (equivalent to 840,000 soccer fields) per AOI. Airplane counts from satellite images of the same AOI are combined into monthly observations. We use a history of observations from Jul/2018 to Dec/2019 for all airports to establish reference values, which are later used to determine whether the current traffic of an airport is low, normal, or high, as illustrated in Figure 1.\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13dmap.gif)\n\n*Figure 1. Air traffic for the 30 busiest airports in the EU. Red, blue and green respectively indicate low, normal, and high traffic levels.*\n\n\n### Detecting flying airplanes in Sentinel-2 images\n\nThe [multispectral instrument design of Sentinel-2 satellites](https://earth.esa.int/documents/247904/685211/Sentinel-2_User_Handbook) makes them observe the earth's surface at different times in each spectral band. As the ground serves as a reference to merging bands, the resulting multispectral images (MSI) present inter-band measurement displacements due to parallax for objects at high altitudes and high-speed movement for objects at any elevation. Figure 2 shows how these displacements create a colored pattern for flying airplanes in the three MSI bands of visible light (red, green and blue) through real examples that allow observing both parallax and object movement effects simultaneously.\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/Fig-2_E13d.png)\n\n*Figure 2. Sentinel-2 images present a displacement in the location of flying airplanes across different spectral bands. This pattern can be explored for detection and counting purposes.*\n\nWe take advantage of the advances driven by deep learning algorithms \u2212 bio-inspired neural networks that learn representations with multiple abstraction levels and discover intricate patterns in massive data \u2212 to devise an automatic airplane detector. As we are only interested in counting airplanes, information like airplane size, speed and orientation are not relevant to us. So we can simply classify each pixel of the image as being the center of a flying airplane (green dot in Figure 2(c)) or not, which is more than enough to accomplish our task. With this setup, our detection problem can be seen as a segmentation problem, and we can use a [Fully Convolutional Network (FCN)](https://github.com/maups/covid19-custom-script-contest) to carry it out.\n\n### Results & validation\n\nOur automatic detector returns about 18 false detections per month for all 30 airports, i.e., less than one false detection per airport per month on average. We used the [OpenSky Network](https://opensky-network.org/) to obtain a reference value for the number of airplanes in each analyzed image so we could evaluate our estimates over time. Figure 3 shows monthly averages per airport for our estimates and OpenSky reference values. We observed an average deficit of about one airplane in our estimates, and an average Root Mean Squared Error (RMSE) of 2.2 between ours and OpenSky's signals. The main source of this difference is the absence of satellite data due to weather conditions (clouds and snow) or to a misalignment between the satellite visible area and the AOI. The latter is shown in Figure 4.\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/Fig-3_E13d.png)\n\n*(a),(b)*\n\n*Figure 3. Average number of airplanes per image in each month of 2020 computed using (a) our detector and (b) flight tracking data from the OpenSky Network.*\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/Fig-4_E13d.png)\n\n*Figure 4. Airplanes detected by our approach (yellow circles) and airplane locations extracted from the OpenSky Network (magenta circles). The black area shows a part of the AOI that was not captured in this satellite image, which includes four airplanes that could not be detected by our system but are still taken into account in the OpenSky's reference values.*\n\nEven though this error margin may impact the reliability of our results for individual airports, when all airports are analyzed together we obtain a stable estimate at continental level. In Figure 5 we average the observations of all considered airports and perform an Year-over-Year analysis of the obtained signal. Interestingly, our measurements of the impact of COVID-19 on air traffic were very close to the real measurements obtained from comprehensive [data released by Eurocontrol](https://www.eurocontrol.int/Economics/DailyTrafficVariation-States.html), as shown in the bottom of Figure 5.\n  \n ![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/Fig-5_E13d.png)\n \n*Figure 5. Average monthly airplane count of all considered airports (thick black line) and a Year-over-Year analysis for the last twelve months. Each circle indicates the airplane count of one airport, and its radius indicates the trustworthiness of the measurement. The impact of COVID-19 is noticeable in the last four months, for which we show the decrease in the number of flights according to our estimates and to reference values from Eurocontrol. Our estimates are based on a small observation window (about 20min per day) in at most one third of the days in a month for 30 airports, with satellite images possibly incomplete or partially occluded. Eurocontrol's data include the real number of flights per day in 41 EU countries.*\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Vienna.json",
+      "type": "application/geo+json",
+      "id": "AT4",
+      "latlng": "48.1062,16.5685",
+      "country": "AT",
+      "city": "Vienna"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Brussels.json",
+      "type": "application/geo+json",
+      "id": "BE6",
+      "latlng": "50.9008,4.4840",
+      "country": "BE",
+      "city": "Brussels"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Zurich.json",
+      "type": "application/geo+json",
+      "id": "CH1",
+      "latlng": "47.451542,8.564572",
+      "country": "CH",
+      "city": "Zurich"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Munich.json",
+      "type": "application/geo+json",
+      "id": "DE12",
+      "latlng": "48.353443982011179,11.781958961375517",
+      "country": "DE",
+      "city": "Munich"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Berlin.json",
+      "type": "application/geo+json",
+      "id": "DE13",
+      "latlng": "52.5558,13.2860",
+      "country": "DE",
+      "city": "Berlin"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Dusseldorf.json",
+      "type": "application/geo+json",
+      "id": "DE14",
+      "latlng": "51.2870,6.7667",
+      "country": "DE",
+      "city": "Dusseldorf"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Frankfurt.json",
+      "type": "application/geo+json",
+      "id": "DE15",
+      "latlng": "50.033333,8.570556",
+      "country": "DE",
+      "city": "Frankfurt"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Copenhagen.json",
+      "type": "application/geo+json",
+      "id": "DK1",
+      "latlng": "55.620750,12.650462",
+      "country": "DK",
+      "city": "Copenhagen"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Madrid.json",
+      "type": "application/geo+json",
+      "id": "ES10",
+      "latlng": "40.493475736010851,-3.566288968675247",
+      "country": "ES",
+      "city": "Madrid"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Barcelona.json",
+      "type": "application/geo+json",
+      "id": "ES11",
+      "latlng": "41.296657915514594,2.085735972162202",
+      "country": "ES",
+      "city": "Barcelona"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Malaga.json",
+      "type": "application/geo+json",
+      "id": "ES14",
+      "latlng": "36.67166398,-4.492831362",
+      "country": "ES",
+      "city": "Malaga"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Palma de Mallorca.json",
+      "type": "application/geo+json",
+      "id": "ES15",
+      "latlng": "39.5510,2.7367",
+      "country": "ES",
+      "city": "Palma de Mallorca"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2019/Helsinki.json",
+      "type": "application/geo+json",
+      "id": "FI4",
+      "latlng": "60.3170,24.9580",
+      "country": "FI",
+      "city": "Helsinki"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Paris.json",
+      "type": "application/geo+json",
+      "id": "FR13",
+      "latlng": "48.7262,2.3652",
+      "country": "FR",
+      "city": "Paris"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Paris.json",
+      "type": "application/geo+json",
+      "id": "FR8",
+      "latlng": "49.006976345624935,2.559786183921451",
+      "country": "FR",
+      "city": "Paris"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Athens.json",
+      "type": "application/geo+json",
+      "id": "GR2",
+      "latlng": "37.882337,23.875459",
+      "country": "GR",
+      "city": "Athens"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Dublin.json",
+      "type": "application/geo+json",
+      "id": "IE1",
+      "latlng": "53.4264,-6.2499",
+      "country": "IE",
+      "city": "Dublin"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Milan.json",
+      "type": "application/geo+json",
+      "id": "IT13",
+      "latlng": "45.62995905,8.723056",
+      "country": "IT",
+      "city": "Milan"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Rome.json",
+      "type": "application/geo+json",
+      "id": "IT9",
+      "latlng": "41.807101001429608,12.253597669510512",
+      "country": "IT",
+      "city": "Rome"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Amsterdam.json",
+      "type": "application/geo+json",
+      "id": "NL1",
+      "latlng": "52.312141474163397,4.757732975709088",
+      "country": "NL",
+      "city": "Amsterdam"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2019/Oslo.json",
+      "type": "application/geo+json",
+      "id": "NO1",
+      "latlng": "60.197552,11.100415",
+      "country": "NO",
+      "city": "Oslo"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Warsaw.json",
+      "type": "application/geo+json",
+      "id": "PL6",
+      "latlng": "52.1672369,20.9678911",
+      "country": "PL",
+      "city": "Warsaw"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Lisbon.json",
+      "type": "application/geo+json",
+      "id": "PT1",
+      "latlng": "38.7675,-8.8028",
+      "country": "PT",
+      "city": "Lisbon"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Stockholm.json",
+      "type": "application/geo+json",
+      "id": "SE23",
+      "latlng": "59.6512,17.9178",
+      "country": "SE",
+      "city": "Stockholm"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Istanbul.json",
+      "type": "application/geo+json",
+      "id": "TR1",
+      "latlng": "40.982555,28.820829",
+      "country": "TR",
+      "city": "Istanbul"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/London.json",
+      "type": "application/geo+json",
+      "id": "UK4",
+      "latlng": "51.469716296645025,-0.458042395268015",
+      "country": "GB",
+      "city": "London"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/London.json",
+      "type": "application/geo+json",
+      "id": "UK5",
+      "latlng": "51.153047759076003,-0.185395073719614",
+      "country": "GB",
+      "city": "London"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/London.json",
+      "type": "application/geo+json",
+      "id": "UK6",
+      "latlng": "51.904949,0.202641",
+      "country": "GB",
+      "city": "London"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/London.json",
+      "type": "application/geo+json",
+      "id": "UK7",
+      "latlng": "51.8715,-0.3677",
+      "country": "GB",
+      "city": "London"
+    },
+    {
+      "rel": "item",
+      "href": "./flying_planes/2018/Manchester.json",
+      "type": "application/geo+json",
+      "id": "UK8",
+      "latlng": "53.3523,-2.2717",
+      "country": "GB",
+      "city": "Manchester"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Flying planes detections"
+    }
+  ],
+  "sci:publications": [
+    {
+      "citation": "M. P. Segundo, A. Pinto, R. Minetto, R. d. S. Torres and S. Sarkar, \"Measuring Economic Activity From Space: A Case Study Using Flying Airplanes and COVID-19\", in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 14, pp. 7213-7224, 2021.\n",
+      "doi": "10.1109/JSTARS.2021.3094053"
+    },
+    {
+      "citation": "Mauricio Pamplona Segundo, Allan Pinto, Rodrigo Minetto, Ricardo da Silva Torres, Sudeep Sarkar, July 2, 2021, \"A dataset for detecting flying airplanes on satellite images\", IEEE Dataport.\n",
+      "doi": "10.21227/3mbt-tb11"
+    }
+  ],
+  "subtitle": "Flying planes detected on Sentinel-2 data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_2.png",
+  "yAxis": "Number of flying planes",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Mobility",
+    "Air traffic",
+    "Open data",
+    "Community"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E13d",
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "geoDBID": "E13d",
+  "endpointtype": "GeoDB",
+  "title": "Flying planes detections",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -8.8128,
+          36.66166398,
+          28.830829,
+          60.327
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-07-01T00:00:00Z",
+          "2022-12-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    }
+  ],
+  "summaries": {
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GR",
+      "IE",
+      "IT",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "SE",
+      "TR",
+      "GB"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_2.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://github.com/maups/covid19-custom-script-contest/tree/master",
+      "type": "text/html",
+      "title": "Covid19 Custom Script Contest",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://opensky-network.org/",
+      "type": "text/html",
+      "title": "OpenSky Network",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://www.eurocontrol.int/Economics/DailyTrafficVariation-States.html",
+      "type": "text/html",
+      "title": "EUROCONTROL",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

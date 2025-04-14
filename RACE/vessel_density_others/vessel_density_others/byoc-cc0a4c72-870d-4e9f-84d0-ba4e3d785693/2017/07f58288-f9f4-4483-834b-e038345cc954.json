@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "07f58288-f9f4-4483-834b-e038345cc954",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          -66.94948221476142,
+          19.222315518813993
+        ],
+        [
+          72.48195026034142,
+          19.222315518813993
+        ],
+        [
+          72.48195026034142,
+          74.65301986285093
+        ],
+        [
+          -66.94948221476142,
+          74.65301986285093
+        ],
+        [
+          -66.94948221476142,
+          19.222315518813993
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -66.94948221476142,
+    19.222315518813993,
+    72.48195026034142,
+    74.65301986285093
+  ],
+  "properties": {
+    "datetime": "2017-02-01T00:00:00Z",
+    "proj:bbox": [
+      -66.94948221476142,
+      19.222315518813993,
+      72.48195026034142,
+      74.65301986285093
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            -66.94948221476142,
+            19.222315518813993
+          ],
+          [
+            72.48195026034142,
+            19.222315518813993
+          ],
+          [
+            72.48195026034142,
+            74.65301986285093
+          ],
+          [
+            -66.94948221476142,
+            74.65301986285093
+          ],
+          [
+            -66.94948221476142,
+            19.222315518813993
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:84"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density for non tanker or cargo"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "vessel_density_others",
+      "wms:layers": [
+        "AWS_VIS_VESSELDENSITY_OTHER"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2017-02-01T00:00:00Z/2017-02-01T23:59:59Z"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density for non tanker or cargo"
+    }
+  ],
+  "assets": {},
+  "collection": "byoc-cc0a4c72-870d-4e9f-84d0-ba4e3d785693"
+}

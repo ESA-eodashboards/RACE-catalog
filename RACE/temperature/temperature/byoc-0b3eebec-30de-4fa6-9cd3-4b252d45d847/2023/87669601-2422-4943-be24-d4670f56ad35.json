@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "87669601-2422-4943-be24-d4670f56ad35",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          -179.99975585937491,
+          -81.2053172863625
+        ],
+        [
+          179.943681869296,
+          -81.2053172863625
+        ],
+        [
+          179.943681869296,
+          81.1125
+        ],
+        [
+          -179.99975585937491,
+          81.1125
+        ],
+        [
+          -179.99975585937491,
+          -81.2053172863625
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.99975585937491,
+    -81.2053172863625,
+    179.943681869296,
+    81.1125
+  ],
+  "properties": {
+    "datetime": "2023-01-01T00:00:00Z",
+    "proj:bbox": [
+      -179.99975585937491,
+      -81.2053172863625,
+      179.943681869296,
+      81.1125
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            -179.99975585937491,
+            -81.2053172863625
+          ],
+          [
+            179.943681869296,
+            -81.2053172863625
+          ],
+          [
+            179.943681869296,
+            81.1125
+          ],
+          [
+            -179.99975585937491,
+            81.1125
+          ],
+          [
+            -179.99975585937491,
+            -81.2053172863625
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:84"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Global temperature"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "temperature",
+      "wms:layers": [
+        "AWS_VIS_2MTEMPERATURE"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2023-01-01T00:00:00Z/2023-01-01T23:59:59Z"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Global temperature"
+    }
+  ],
+  "assets": {},
+  "collection": "byoc-0b3eebec-30de-4fa6-9cd3-4b252d45d847"
+}

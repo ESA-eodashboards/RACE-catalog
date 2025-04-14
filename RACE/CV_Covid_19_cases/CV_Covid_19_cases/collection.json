@@ -1,0 +1,388 @@
+{
+  "type": "Collection",
+  "id": "CV_Covid_19_cases",
+  "stac_version": "1.1.0",
+  "description": "## Data on COVID-19 (coronavirus) \n\nThe source of this data is [Our World in Data](https://ourworldindata.org/coronavirus)\n\nThe full dataset is is updated daily and includes data on confirmed cases, deaths, hospitalizations, testing, and vaccinations as well as other variables of potential interest. Here, our interactive charts show visualise the variation of the total number of cases and the evolution of vaccinations. \n\nTry interacting with the charts to visualise each variable. \n\n**References:**\n\nThis data has been collected, aggregated, and documented by Cameron Appel, Diana Beltekian, Daniel Gavrilov, Charlie Giattino, Joe Hasell, Bobbie Macdonald, Edouard Mathieu, Esteban Ortiz-Ospina, Hannah Ritchie, Lucas Rod\u00e9s-Guirao, Max Roser.\n\nHasell, J., Mathieu, E., Beltekian, D. et al. A cross-country database of COVID-19 testing. Sci Data 7, 345 (2020). https://doi.org/10.1038/s41597-020-00688-8\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/AL.json",
+      "type": "application/geo+json",
+      "id": "AL",
+      "latlng": "41.317,19.817",
+      "country": "Albania",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/AT.json",
+      "type": "application/geo+json",
+      "id": "AT",
+      "latlng": "48.2,16.367",
+      "country": "Austria",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/BA.json",
+      "type": "application/geo+json",
+      "id": "BA",
+      "latlng": "43.867,18.417",
+      "country": "Bosnia and Herzegovina",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/BE.json",
+      "type": "application/geo+json",
+      "id": "BE",
+      "latlng": "50.833,4.333",
+      "country": "Belgium",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/BG.json",
+      "type": "application/geo+json",
+      "id": "BG",
+      "latlng": "42.683,23.317",
+      "country": "Bulgaria",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/CH.json",
+      "type": "application/geo+json",
+      "id": "CH",
+      "latlng": "46.917,7.467",
+      "country": "Switzerland",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/CZ.json",
+      "type": "application/geo+json",
+      "id": "CZ",
+      "latlng": "50.083,14.467",
+      "country": "Czechia",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/DE.json",
+      "type": "application/geo+json",
+      "id": "DE",
+      "latlng": "52.517,13.4",
+      "country": "Germany",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/DK.json",
+      "type": "application/geo+json",
+      "id": "DK",
+      "latlng": "55.667,12.583",
+      "country": "Denmark",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/EE.json",
+      "type": "application/geo+json",
+      "id": "EE",
+      "latlng": "59.433,24.717",
+      "country": "Estonia",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/ES.json",
+      "type": "application/geo+json",
+      "id": "ES",
+      "latlng": "40.4,-3.683",
+      "country": "Spain",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/FI.json",
+      "type": "application/geo+json",
+      "id": "FI",
+      "latlng": "60.167,24.933",
+      "country": "Finland",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/FR.json",
+      "type": "application/geo+json",
+      "id": "FR",
+      "latlng": "48.867,2.333",
+      "country": "France",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/GB.json",
+      "type": "application/geo+json",
+      "id": "GB",
+      "latlng": "51.5,-0.083",
+      "country": "United Kingdom",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/GR.json",
+      "type": "application/geo+json",
+      "id": "GR",
+      "latlng": "37.983,23.733",
+      "country": "Greece",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/HR.json",
+      "type": "application/geo+json",
+      "id": "HR",
+      "latlng": "45.8,16.0",
+      "country": "Croatia",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/HU.json",
+      "type": "application/geo+json",
+      "id": "HU",
+      "latlng": "47.5,19.083",
+      "country": "Hungary",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/IE.json",
+      "type": "application/geo+json",
+      "id": "IE",
+      "latlng": "53.317,-6.233",
+      "country": "Ireland",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/IT.json",
+      "type": "application/geo+json",
+      "id": "IT",
+      "latlng": "41.9,12.483",
+      "country": "Italy",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/LT.json",
+      "type": "application/geo+json",
+      "id": "LT",
+      "latlng": "54.683,25.317",
+      "country": "Lithuania",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/LU.json",
+      "type": "application/geo+json",
+      "id": "LU",
+      "latlng": "49.6,6.117",
+      "country": "Luxembourg",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/LV.json",
+      "type": "application/geo+json",
+      "id": "LV",
+      "latlng": "56.95,24.1",
+      "country": "Latvia",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/MK.json",
+      "type": "application/geo+json",
+      "id": "MK",
+      "latlng": "42.0,21.433",
+      "country": "North Macedonia",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/MT.json",
+      "type": "application/geo+json",
+      "id": "MT",
+      "latlng": "35.883,14.5",
+      "country": "Malta",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/NL.json",
+      "type": "application/geo+json",
+      "id": "NL",
+      "latlng": "52.35,4.917",
+      "country": "Netherlands",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/NO.json",
+      "type": "application/geo+json",
+      "id": "NO",
+      "latlng": "59.917,10.75",
+      "country": "Norway",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/PL.json",
+      "type": "application/geo+json",
+      "id": "PL",
+      "latlng": "52.25,21.0",
+      "country": "Poland",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/PT.json",
+      "type": "application/geo+json",
+      "id": "PT",
+      "latlng": "38.717,-9.133",
+      "country": "Portugal",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/RO.json",
+      "type": "application/geo+json",
+      "id": "RO",
+      "latlng": "44.433,26.1",
+      "country": "Romania",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/RS.json",
+      "type": "application/geo+json",
+      "id": "RS",
+      "latlng": "44.833,20.5",
+      "country": "Serbia",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/SE.json",
+      "type": "application/geo+json",
+      "id": "SE",
+      "latlng": "59.333,18.05",
+      "country": "Sweden",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/SI.json",
+      "type": "application/geo+json",
+      "id": "SI",
+      "latlng": "46.05,14.517",
+      "country": "Slovenia",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/SK.json",
+      "type": "application/geo+json",
+      "id": "SK",
+      "latlng": "48.15,17.117",
+      "country": "Slovakia",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/TR.json",
+      "type": "application/geo+json",
+      "id": "TR",
+      "latlng": "39.933,32.867",
+      "country": "Turkey",
+      "city": "/"
+    },
+    {
+      "rel": "item",
+      "href": "./CV_Covid_19_cases/2020/XK.json",
+      "type": "application/geo+json",
+      "id": "XK",
+      "latlng": "42.67272,21.16688",
+      "country": "Kosovo",
+      "city": "/"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases"
+    }
+  ],
+  "sci:doi": "10.1038/s41597-020-00688-8",
+  "sci:citation": "Hasell, J., Mathieu, E., Beltekian, D. et al. A cross-country database of COVID-19 testing. Sci Data 7, 345 (2020).\n",
+  "yAxis": "/",
+  "themes": [
+    "health"
+  ],
+  "tags": [
+    "Covid-19",
+    "Human activities",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "CV",
+  "insituSources": [
+    "Other"
+  ],
+  "geoDBID": "Global_COVID_data",
+  "endpointtype": "GeoDB",
+  "title": "Covid-19 Cases",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -9.142999999999999,
+          35.873000000000005,
+          32.876999999999995,
+          60.177
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-22T00:00:00Z",
+          "2023-03-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/covid-cases"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "/"
+    ]
+  }
+}

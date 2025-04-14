@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Bucharest",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        26.084603,
+        44.510178
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    26.074603,
+    44.500178000000005,
+    26.094603000000003,
+    44.520178
+  ],
+  "properties": {
+    "start_datetime": "2017-01-01T16:07:40Z",
+    "end_datetime": "2022-01-17T16:09:17Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Activity at shopping centers"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Activity at shopping centers"
+    }
+  ],
+  "assets": {},
+  "collection": "shopping_center_activity"
+}

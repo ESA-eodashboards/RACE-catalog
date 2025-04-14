@@ -1,0 +1,140 @@
+{
+  "type": "Collection",
+  "id": "ships_detected",
+  "stac_version": "1.1.0",
+  "description": "## Ships detected in port areas (ML on Sentinel-2)\n\nThis indicator shows ships detected in industrial areas of major European ports. It is based on a Machine Learning model applied on Copernicus Sentinel-2 data with cloud-masking. The detection is performed on predefined areas of interest. \n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./ships_detected/2019/Ghent.json",
+      "type": "application/geo+json",
+      "id": "BE3",
+      "latlng": "51.091559,3.740081",
+      "country": "BE",
+      "city": "Ghent"
+    },
+    {
+      "rel": "item",
+      "href": "./ships_detected/2019/Hamburg.json",
+      "type": "application/geo+json",
+      "id": "DE1",
+      "latlng": "53.532123,9.944467",
+      "country": "DE",
+      "city": "Hamburg"
+    },
+    {
+      "rel": "item",
+      "href": "./ships_detected/2019/Suez.json",
+      "type": "application/geo+json",
+      "id": "EG1",
+      "latlng": "30.939554,32.314923",
+      "country": "EG",
+      "city": "Suez "
+    },
+    {
+      "rel": "item",
+      "href": "./ships_detected/2019/Dunkirk.json",
+      "type": "application/geo+json",
+      "id": "FR3",
+      "latlng": "51.036138,2.285374",
+      "country": "FR",
+      "city": "Dunkirk"
+    },
+    {
+      "rel": "item",
+      "href": "./ships_detected/2019/Genoa.json",
+      "type": "application/geo+json",
+      "id": "IT3",
+      "latlng": "44.408142,8.885851",
+      "country": "IT",
+      "city": "Genoa"
+    },
+    {
+      "rel": "item",
+      "href": "./ships_detected/2019/Gdynia.json",
+      "type": "application/geo+json",
+      "id": "PL1",
+      "latlng": "54.537859,18.510887",
+      "country": "PL",
+      "city": "Gdynia"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Ships detections"
+    }
+  ],
+  "subtitle": "Ships detected in Sentinel-2 data",
+  "yAxis": "Number of ships in Port",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E200",
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "geoDBID": "E200",
+  "endpointtype": "GeoDB",
+  "title": "Ships detections",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.2753740000000002,
+          30.929554,
+          32.324923,
+          54.547858999999995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-02T10:28:30Z",
+          "2022-12-29T08:41:33Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "Ghent",
+      "Hamburg",
+      "Suez ",
+      "Dunkirk",
+      "Genoa",
+      "Gdynia"
+    ],
+    "countries": [
+      "BE",
+      "DE",
+      "EG",
+      "FR",
+      "IT",
+      "PL"
+    ]
+  }
+}

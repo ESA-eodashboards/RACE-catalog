@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "e77a400b-6aec-49ff-931c-2e798a223a33",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          4.0859,
+          51.94683
+        ],
+        [
+          4.10156,
+          51.94683
+        ],
+        [
+          4.10156,
+          51.95753
+        ],
+        [
+          4.0859,
+          51.95753
+        ],
+        [
+          4.0859,
+          51.94683
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    4.0859,
+    51.94683,
+    4.10156,
+    51.95753
+  ],
+  "properties": {
+    "datetime": "2020-04-13T03:37:46Z",
+    "proj:bbox": [
+      4.0859,
+      51.94683,
+      4.10156,
+      51.95753
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            4.0859,
+            51.94683
+          ],
+          [
+            4.10156,
+            51.94683
+          ],
+          [
+            4.10156,
+            51.95753
+          ],
+          [
+            4.0859,
+            51.95753
+          ],
+          [
+            4.0859,
+            51.94683
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:84"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Crude oil storage monitoring"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "crude_oil_storage",
+      "wms:layers": [
+        "AWS_ICEYE-E3"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2020-04-13T03:37:46Z/2020-04-14T03:37:45Z"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Crude oil storage monitoring"
+    }
+  ],
+  "assets": {},
+  "collection": "byoc-c47fa011-e9cd-4076-9b2f-68a93d757e58"
+}

@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Genoa",
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        8.93364,
+        44.40572
+      ]
+    },
+    "properties": {}
+  },
+  "bbox": [
+    8.92364,
+    44.395720000000004,
+    8.94364,
+    44.41572
+  ],
+  "properties": {
+    "start_datetime": "2020-02-01T00:00:00Z",
+    "end_datetime": "2020-05-15T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Cargo boats in ports"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Cargo boats in ports"
+    }
+  ],
+  "assets": {},
+  "collection": "cargo_boats_port"
+}
