@@ -1,0 +1,93 @@
+{
+  "Name": "wind_10m_v",
+  "Title": "Wind V Field",
+  "EodashIdentifier": "CDS4",
+  "Subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind V field",
+  "Description": "CDS4_wind_10m_v/CDS4_wind_10m_v.md",
+  "Themes": [
+    "air"
+  ],
+  "Tags": [
+    "Copernicus Services",
+    "C3S",
+    "CDS",
+    "Multi-sensors",
+    "Open data"
+  ],
+  "DataSource": {
+    "Other": [
+      "ERA5"
+    ]
+  },
+  "Agency": [
+    "European Commission",
+    "ECMWF"
+  ],
+  "License": [
+    {
+      "Url": "https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
+      "Type": "application/pdf",
+      "Title": "Licence to Use Copernicus Products"
+    }
+  ],
+  "Provider": [
+    {
+      "Name": "Copernicus Climate Change Service",
+      "Url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+    },
+    {
+      "Name": "Climate Data Store",
+      "Url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+    }
+  ],
+  "Citation": {
+    "Citation": "Mu\u00f1oz Sabater, J., (2019) was downloaded from the Copernicus Climate Change Service (2021).\nThe results contain modified Copernicus Climate Change Service information 2020. \nNeither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.\n",
+    "DOI": "10.24381/cds.68d2bb30",
+    "Publication": [
+      {
+        "Citation": "Zaitchik, B.F., Sweijd, N., Shumake-Guillemot, J. et al. A framework for research linking weather, climate and COVID-19. Nat Commun 11, 5730 (2020).",
+        "DOI": "10.1038/s41467-020-19546-7"
+      }
+    ]
+  },
+  "Image": "CDS4_wind_10m_v/CDS4_wind_10m_v.png",
+  "Legend": "CDS4_wind_10m_v/CDS4_legend.png",
+  "Resources": [
+    {
+      "EndPoint": "https://services.sentinel-hub.com",
+      "Name": "Sentinel Hub",
+      "Type": "byoc",
+      "CollectionId": "3043d07f-3c20-410c-9a87-7da720942ab8",
+      "LayerId": "AWS_VIS_WIND_V_10M"
+    }
+  ],
+  "Services": [
+    {
+      "Endpoint": "https://services.sentinel-hub.com/api/v1/statistics",
+      "Name": "Statistical API",
+      "Type": "byoc",
+      "CollectionId": "3043d07f-3c20-410c-9a87-7da720942ab8",
+      "Script": "CDS4_wind_10m_v/CDS4_wind_10m_v.js"
+    }
+  ],
+  "Colorlegend": {
+    "domain": [
+      -12,
+      12
+    ],
+    "range": [
+      "#0b3587",
+      "#0b74c5",
+      "#4eb5fa",
+      "#abeaf3",
+      "#f4fced",
+      "#fbd45f",
+      "#f78500",
+      "#dd1800",
+      "#a30100"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Wind field [m/s]"
+  }
+}

@@ -1,9 +1,10 @@
 import os
 from yaml import load, dump
 from yaml.loader import SafeLoader
+import json
 
-collections_path =  "catalog_submodule/collections/"
-indicators_path = "catalog_submodule/indicators/"
+collections_path = "collections/"
+indicators_path = "indicators/"
 catalog_path = "catalogs/race.yaml"
 
 ALL_CHANGED_FILES = os.environ.get("ALL_CHANGED_FILES")
@@ -23,7 +24,7 @@ print("changed indicator files: ", indicator_files)
 # if the changed collection files doesnt exist in an indicator file, add it to the catalog
 for file in indicator_files:
     with open(file, "r") as f:
-        indicator = load(f, Loader=SafeLoader)
+        indicator = json.load(f)
         if "Collections" not in indicator:
             continue
     for collection in indicator["Collections"]:

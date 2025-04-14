@@ -6,36 +6,84 @@ assets_endpoint: "https://raw.githubusercontent.com/eurodatacube/eodash-assets/m
 geodb_default_form: "https://santilland.github.io/process_example/definitions/geodbform.json"
 geodb_default_vega: "https://santilland.github.io/process_example/definitions/geodbvega.json"
 collections:
-  - C3S_meteorological_variables
+  - CDS1_temperature
+  - CDS2_relative_humidity
+  - CDS3_wind_10m_u
+  - CDS4_wind_10m_v
   - E11_shopping_center_activity
   - E12b_border_crossing_vehicles_timeseries
   - E12c_truck_detections_motorways
   - E12d_truck_detections_primary_roads
   - E13b_parked_planes
   - E13d_flying_planes
-  - VED_vessel_density
+  - E13o_vessel_density_all
+  - E1b_vessel_density_timeseries
+  - E13q_vessel_density_tanker
+  - E13r_vessel_density_others
+  - E13p_vessel_density_cargo
   - E200_ships_detected
   - E3_crude_oil_storage
   - E4_intermediate_goods_production
   - E5_steel_inventory_timeseries
-  - GLP_global_parameters
-  - OCVA_ocean_variables
-  - WAQ_water_quality
+  - N1_CO
+  - N1_methane_monitoring
+  - N1_SO2
+  - N3c_ocean_colour_plankton_atlantic
+  - N3c_ocean_colour_plankton_black_sea
+  - N3c_ocean_colour_plankton_mediterranean
+  - N3a2_chl_concentration
+  - N3_regional_water_quality_timeseries
+  - N3a2_total_suspended_matter
+  - SST_sea_surface_temperature
+  - N3a2_sea_surface_temperature
   - NASAPopulation
   - WSF_world_settlement_footprint
-  - CAQ_ports_air_quality
+  - C1_ports_shipping_aq
+  - C2_ports_people_aq
+  - C3_ports_cars_aq
   - E8_industrial_inventory
-  - APRO_agricultural_production
-  - AQEL_air_quality_european_level
-  - BIPS_boats_in_ports
+  - E10a2_agricultural_production_area
+  - E10a3_agricultural_production_area_change
+  - E10a1_agricultural_production_productive_area
+  - E10a9_agricultural_workers
+  - E10a5_fruit_production
+  - E10a6_harvested_parcels_evolution
+  - E10a10_harvesting_evolution_winter_cereal
+  - E10a10_2_harvesting_evolution_winter_rapeseed
+  - E10a8_winter_cereals
+  - N1b_NO2
+  - N1b_no2_cams
+  - N1d_o3_cams
+  - N1b_O3
+  - N1c_pm10_cams
+  - N1b_PM10
+  - N1b_PM25
+  - N1a_pm25_cams
+  - N1_NO2
+  - N1_city_no2
+  - E13f_fishing_boats_port
+  - E13h_maritime_traffic_tug
+  - E13e_cargo_boats_port
+  - E13g_tanker_boats_port
+  - E13m_maritime_traffic_passenger
+  - E13l_maritime_traffic_pleasure_craft
+  - E13i_maritime_traffic_search_rescue
   - E13n_trucks_port
   - E13c_ship_detections_algorithm
   - GHS_BUILT-S-R2023A
   - OX_Crude_Oil_Storage_Index
   - OX_EU_Crude_Oil_Storage_Index
   - GG_people_mobility_reports
-  - CV19_covid_19_indicators
-  - crop_forecast_CropOM
+  - CV_Covid_19_cases
+  - OW_Covid_19_vaccinations
+  - CROPOMAT1_crop_forecast_at
+  - CROPOMAT2_crop_forecast_at_water
+  - CROPOMHU1_crop_forecast_hu
+  - CROPOMHU2_crop_forecast_hu_water
+  - CROPOMHUMR1_crop_forecast_hu_mezohegyes
+  - CROPOMHUMR2_crop_forecast_hu_mezohegyes_water
+  - CROPOMHUSC1_crop_forecast_hu_bekes
+  - CROPOMHUSC2_crop_forecast_hu_bekes_water
   - ESDL_Hydrology_SM
   - ESDL_Hydrology_Precipitation
   - IDEAS1_hopi_minesweeper
@@ -44,4 +92,4 @@ collections:
   - IDEAS2_wildlife
   - IDEAS5_real_estate
   - WASDI_FLOOD
-  
+  - CNR_TUR_1_water_discharge

@@ -1,0 +1,40 @@
+{
+  "Name": "ships_detected",
+  "Title": "Ships detections",
+  "EodashIdentifier": "E200",
+  "Subtitle": "Ships detected in Sentinel-2 data",
+  "Description": "E200_ships_detected/E200_ships_detected.md",
+  "Themes": [
+    "economy"
+  ],
+  "Tags": [
+    "Multi-sensors"
+  ],
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [
+        "Sentinel-2"
+      ],
+      "Sensor": [
+        "MSI"
+      ]
+    }
+  },
+  "Agency": [
+    "ESA"
+  ],
+  "Resources": [
+    {
+      "EndPoint": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/",
+      "Name": "GeoDB",
+      "Database": "eodash",
+      "CollectionId": "E200"
+    }
+  ],
+  "Provider": [
+    {
+      "Name": "Copernicus",
+      "Url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "Name": "vessel_density_others",
+  "Title": "Vessel density for non tanker or cargo",
+  "EodashIdentifier": "E13r",
+  "Subtitle": "Vessel density for non tanker or cargo vessels",
+  "Description": "E13r_vessel_density_others/E13r_vessel_density_others.md",
+  "Themes": [
+    "water"
+  ],
+  "Tags": [
+    "Maritime",
+    "Traffic",
+    "Open data",
+    "Ships",
+    "Vessels",
+    "Vessel Density",
+    "Traffic"
+  ],
+  "DataSource": {
+    "InSitu": [
+      "AIS"
+    ]
+  },
+  "Agency": [
+    "ESA"
+  ],
+  "Image": "E13r_vessel_density_others/E13r_vessel_density_others.png",
+  "Legend": "E13r_vessel_density_others/E13r_legend.png",
+  "Resources": [
+    {
+      "EndPoint": "https://services.sentinel-hub.com",
+      "Name": "Sentinel Hub",
+      "Type": "byoc",
+      "CollectionId": "cc0a4c72-870d-4e9f-84d0-ba4e3d785693",
+      "LayerId": "AWS_VIS_VESSELDENSITY_OTHER"
+    }
+  ],
+  "Services": [
+    {
+      "Endpoint": "https://services.sentinel-hub.com/api/v1/statistics",
+      "Name": "Statistical API",
+      "Type": "byoc",
+      "CollectionId": "cc0a4c72-870d-4e9f-84d0-ba4e3d785693",
+      "Script": "E13r_vessel_density_others/E13r_vessel_density_others.js"
+    }
+  ],
+  "References": [
+    {
+      "Name": "EU Vessel density map Detailed method",
+      "Key": "emodnet_map_method",
+      "Url": "https://www.emodnet-humanactivities.eu/documents/Vessel%20density%20maps_method_v1.5.pdf"
+    },
+    {
+      "Name": "Map data source",
+      "Key": "emodnet_map",
+      "Url": "https://www.emodnet-humanactivities.eu/search-results.php?dataname=Vessel+Density+"
+    }
+  ],
+  "Provider": [
+    {
+      "Name": "EMODNET",
+      "Url": "https://www.emodnet-humanactivities.eu"
+    }
+  ],
+  "Colorlegend": {
+    "domain": [
+      0.5,
+      150
+    ],
+    "range": [
+      "#009b8f",
+      "#00db00",
+      "#fffc00",
+      "#f49a00",
+      "#d01300",
+      "#a10000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "total ship presence time / 1 km\u00b2"
+  }
+}
