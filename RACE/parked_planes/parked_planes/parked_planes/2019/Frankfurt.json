@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Frankfurt",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        8.553651954534535,
-        50.03417529740082
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      8.553651954534535,
+      50.03417529740082
+    ]
   },
   "bbox": [
     8.543651954534536,

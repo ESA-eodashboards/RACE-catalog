@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Dunkirk",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        2.285374,
-        51.036138
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      2.285374,
+      51.036138
+    ]
   },
   "bbox": [
     2.2753740000000002,

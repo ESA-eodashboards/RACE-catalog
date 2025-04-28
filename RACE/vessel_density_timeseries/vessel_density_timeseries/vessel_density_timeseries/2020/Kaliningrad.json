@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Kaliningrad",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        19.823546,
-        54.729095
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      19.823546,
+      54.729095
+    ]
   },
   "bbox": [
     19.813546,

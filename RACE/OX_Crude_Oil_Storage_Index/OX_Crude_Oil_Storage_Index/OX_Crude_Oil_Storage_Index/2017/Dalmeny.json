@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Dalmeny",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -3.36825,
-        55.97601
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -3.36825,
+      55.97601
+    ]
   },
   "bbox": [
     -3.37825,

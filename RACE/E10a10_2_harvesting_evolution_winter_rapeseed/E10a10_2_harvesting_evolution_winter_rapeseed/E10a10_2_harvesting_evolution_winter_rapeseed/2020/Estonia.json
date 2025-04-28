@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Estonia",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        25.54248537,
-        58.671929721
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      25.54248537,
+      58.671929721
+    ]
   },
   "bbox": [
     25.53248537,

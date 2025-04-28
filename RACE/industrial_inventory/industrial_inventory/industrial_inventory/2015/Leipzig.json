@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Leipzig",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        12.286853,
-        51.411051
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      12.286853,
+      51.411051
+    ]
   },
   "bbox": [
     12.276853000000001,

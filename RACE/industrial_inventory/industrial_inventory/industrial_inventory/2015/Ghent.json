@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Ghent",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        3.75482,
-        51.095785
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      3.75482,
+      51.095785
+    ]
   },
   "bbox": [
     3.7448200000000003,

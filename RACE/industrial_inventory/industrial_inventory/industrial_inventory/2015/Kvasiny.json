@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Kvasiny",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        16.257952,
-        50.20009
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      16.257952,
+      50.20009
+    ]
   },
   "bbox": [
     16.247951999999998,

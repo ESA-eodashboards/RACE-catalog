@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Palma de Mallorca",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        2.7367,
-        39.551
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      2.7367,
+      39.551
+    ]
   },
   "bbox": [
     2.7267,

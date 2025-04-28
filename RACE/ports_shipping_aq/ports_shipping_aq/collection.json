@@ -129,7 +129,7 @@
     "reference_3": {
       "href": "https://covidtracker.bsg.ox.ac.uk/",
       "type": "text/html",
-      "title": "Oxford University\u2019s coronavirus government response tracker",
+      "title": "Oxford University’s coronavirus government response tracker",
       "roles": [
         "metadata"
       ]

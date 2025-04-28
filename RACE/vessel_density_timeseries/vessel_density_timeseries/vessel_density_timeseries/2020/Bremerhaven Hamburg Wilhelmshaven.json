@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Bremerhaven Hamburg Wilhelmshaven",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        7.63401,
-        54.0588
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      7.63401,
+      54.0588
+    ]
   },
   "bbox": [
     7.62401,

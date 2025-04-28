@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Dublin",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -6.23,
-        53.32
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -6.23,
+      53.32
+    ]
   },
   "bbox": [
     -6.24,

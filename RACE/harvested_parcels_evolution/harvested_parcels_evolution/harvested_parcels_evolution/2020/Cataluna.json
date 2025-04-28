@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Cataluna",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        1.486,
-        41.8591
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      1.486,
+      41.8591
+    ]
   },
   "bbox": [
     1.476,

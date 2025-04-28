@@ -81,7 +81,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "[persons/km\u00b2]"
+    "title": "[persons/km²]"
   },
   "title": "Population density",
   "extent": {

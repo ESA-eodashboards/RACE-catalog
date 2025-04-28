@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Hamburg",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        9.9872,
-        53.5488
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      9.9872,
+      53.5488
+    ]
   },
   "bbox": [
     9.9772,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Dingolfing",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        12.46187,
-        48.651465
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      12.46187,
+      48.651465
+    ]
   },
   "bbox": [
     12.45187,

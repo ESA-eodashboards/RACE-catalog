@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Vienna",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        16.94,
-        48.2
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      16.94,
+      48.2
+    ]
   },
   "bbox": [
     16.93,

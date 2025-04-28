@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Reykjavik",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -21.152,
-        64.15
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -21.152,
+      64.15
+    ]
   },
   "bbox": [
     -21.162000000000003,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Genoa",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        8.93364,
-        44.40572
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      8.93364,
+      44.40572
+    ]
   },
   "bbox": [
     8.92364,

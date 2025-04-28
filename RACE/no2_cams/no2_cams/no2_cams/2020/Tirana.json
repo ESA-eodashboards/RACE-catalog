@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Tirana",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        19.82,
-        41.32
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      19.82,
+      41.32
+    ]
   },
   "bbox": [
     19.81,

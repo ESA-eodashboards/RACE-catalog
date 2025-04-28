@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "United Kingdom",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -1.77396816,
-        52.98939775
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -1.77396816,
+      52.98939775
+    ]
   },
   "bbox": [
     -1.78396816,

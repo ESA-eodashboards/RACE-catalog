@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Gijon",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -5.67329,
-        43.54378
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -5.67329,
+      43.54378
+    ]
   },
   "bbox": [
     -5.6832899999999995,

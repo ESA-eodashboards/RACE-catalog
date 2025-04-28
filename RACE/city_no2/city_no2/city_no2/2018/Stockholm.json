@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Stockholm",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        18.05,
-        59.33333333
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      18.05,
+      59.33333333
+    ]
   },
   "bbox": [
     18.04,

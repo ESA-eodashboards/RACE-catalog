@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Dunkerque",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        2.205416,
-        51.216776
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      2.205416,
+      51.216776
+    ]
   },
   "bbox": [
     2.1954160000000003,

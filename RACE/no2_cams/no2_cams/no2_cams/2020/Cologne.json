@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Cologne",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        6.95,
-        50.94
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      6.95,
+      50.94
+    ]
   },
   "bbox": [
     6.94,

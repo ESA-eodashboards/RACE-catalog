@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Riga",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        23.620893,
-        57.153293
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      23.620893,
+      57.153293
+    ]
   },
   "bbox": [
     23.610892999999997,

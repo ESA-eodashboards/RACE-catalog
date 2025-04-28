@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Podgorica",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        19.84,
-        42.43
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      19.84,
+      42.43
+    ]
   },
   "bbox": [
     19.83,

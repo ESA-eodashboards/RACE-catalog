@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Russelsheim",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        8.386432,
-        49.990388
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      8.386432,
+      49.990388
+    ]
   },
   "bbox": [
     8.376432,

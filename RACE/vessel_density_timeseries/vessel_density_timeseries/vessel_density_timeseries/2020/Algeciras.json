@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Algeciras",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -5.259355,
-        35.957077
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -5.259355,
+      35.957077
+    ]
   },
   "bbox": [
     -5.269355,

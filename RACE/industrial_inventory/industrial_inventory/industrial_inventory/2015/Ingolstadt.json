@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Ingolstadt",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        11.426512,
-        48.784331
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      11.426512,
+      48.784331
+    ]
   },
   "bbox": [
     11.416512,

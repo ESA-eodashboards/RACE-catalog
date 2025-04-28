@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Lithuania",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        23.88719355,
-        55.326109841
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      23.88719355,
+      55.326109841
+    ]
   },
   "bbox": [
     23.877193549999998,

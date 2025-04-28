@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Tallin",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        24.805019,
-        59.667699
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      24.805019,
+      59.667699
+    ]
   },
   "bbox": [
     24.795019,

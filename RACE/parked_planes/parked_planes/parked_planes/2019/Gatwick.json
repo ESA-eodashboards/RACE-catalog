@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Gatwick",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -0.18539507371961392,
-        51.153047759076
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -0.18539507371961392,
+      51.153047759076
+    ]
   },
   "bbox": [
     -0.19539507371961393,

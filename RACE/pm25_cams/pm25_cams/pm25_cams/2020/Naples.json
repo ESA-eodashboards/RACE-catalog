@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Naples",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        14.82,
-        40.86
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      14.82,
+      40.86
+    ]
   },
   "bbox": [
     14.81,

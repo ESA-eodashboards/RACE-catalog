@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "CastillaLa Mancha",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -3.125,
-        39.7431
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -3.125,
+      39.7431
+    ]
   },
   "bbox": [
     -3.135,

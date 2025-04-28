@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "HU",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        19.083,
-        47.5
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      19.083,
+      47.5
+    ]
   },
   "bbox": [
     19.072999999999997,

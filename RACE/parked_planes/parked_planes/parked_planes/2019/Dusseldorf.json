@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Dusseldorf",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        6.7667,
-        51.287
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      6.7667,
+      51.287
+    ]
   },
   "bbox": [
     6.7567,

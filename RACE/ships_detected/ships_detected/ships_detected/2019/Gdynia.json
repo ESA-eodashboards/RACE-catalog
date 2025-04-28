@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Gdynia",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        18.510887,
-        54.537859
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      18.510887,
+      54.537859
+    ]
   },
   "bbox": [
     18.500887,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Sarajevo",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        18.42,
-        43.87
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      18.42,
+      43.87
+    ]
   },
   "bbox": [
     18.41,

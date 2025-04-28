@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Bremen",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        8.9178,
-        53.051709
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      8.9178,
+      53.051709
+    ]
   },
   "bbox": [
     8.9078,

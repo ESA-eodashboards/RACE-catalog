@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Klaipeda",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        21.140029,
-        55.684278
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      21.140029,
+      55.684278
+    ]
   },
   "bbox": [
     21.130028999999997,

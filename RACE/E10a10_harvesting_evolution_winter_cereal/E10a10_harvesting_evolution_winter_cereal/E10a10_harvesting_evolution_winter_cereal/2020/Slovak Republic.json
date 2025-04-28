@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Slovak Republic",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        19.47905218,
-        48.70547528
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      19.47905218,
+      48.70547528
+    ]
   },
   "bbox": [
     19.46905218,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Sarroch",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        9.01789,
-        39.07651
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      9.01789,
+      39.07651
+    ]
   },
   "bbox": [
     9.00789,

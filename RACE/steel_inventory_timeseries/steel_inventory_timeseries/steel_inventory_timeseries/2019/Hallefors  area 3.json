@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Hallefors  area 3",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        14.49464139817856,
-        59.78311262981549
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      14.49464139817856,
+      59.78311262981549
+    ]
   },
   "bbox": [
     14.48464139817856,

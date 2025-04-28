@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Poland",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        19.39012835,
-        52.127595641
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      19.39012835,
+      52.127595641
+    ]
   },
   "bbox": [
     19.38012835,

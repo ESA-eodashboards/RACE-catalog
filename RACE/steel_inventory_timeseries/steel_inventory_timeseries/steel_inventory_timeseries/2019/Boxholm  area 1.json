@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Boxholm  area 1",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        15.036125986675577,
-        58.19374529056634
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      15.036125986675577,
+      58.19374529056634
+    ]
   },
   "bbox": [
     15.026125986675577,

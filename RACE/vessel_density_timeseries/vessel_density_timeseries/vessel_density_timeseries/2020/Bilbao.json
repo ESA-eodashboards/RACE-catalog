@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Bilbao",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -3.349436,
-        43.460472
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -3.349436,
+      43.460472
+    ]
   },
   "bbox": [
     -3.3594359999999996,

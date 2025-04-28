@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Athens",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        23.875459,
-        37.882337
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      23.875459,
+      37.882337
+    ]
   },
   "bbox": [
     23.865458999999998,

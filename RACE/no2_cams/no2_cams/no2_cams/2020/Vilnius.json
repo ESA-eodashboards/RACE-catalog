@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Vilnius",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        25.32,
-        54.68
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      25.32,
+      54.68
+    ]
   },
   "bbox": [
     25.31,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Grangemouth",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -3.683518,
-        56.018632
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -3.683518,
+      56.018632
+    ]
   },
   "bbox": [
     -3.6935179999999996,

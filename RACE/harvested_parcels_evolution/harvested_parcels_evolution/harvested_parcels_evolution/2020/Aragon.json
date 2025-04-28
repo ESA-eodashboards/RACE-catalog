@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Aragon",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -0.646,
-        41.4445
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -0.646,
+      41.4445
+    ]
   },
   "bbox": [
     -0.656,

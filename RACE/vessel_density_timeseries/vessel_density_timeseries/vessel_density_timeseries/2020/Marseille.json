@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Marseille",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        5.144744,
-        43.209346
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      5.144744,
+      43.209346
+    ]
   },
   "bbox": [
     5.134744,

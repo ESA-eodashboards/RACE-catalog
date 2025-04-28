@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Emden",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        7.171708,
-        53.342826
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      7.171708,
+      53.342826
+    ]
   },
   "bbox": [
     7.161708,

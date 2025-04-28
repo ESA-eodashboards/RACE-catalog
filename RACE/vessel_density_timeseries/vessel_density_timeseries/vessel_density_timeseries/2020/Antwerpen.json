@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Antwerpen",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        2.983308,
-        51.475911
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      2.983308,
+      51.475911
+    ]
   },
   "bbox": [
     2.9733080000000003,

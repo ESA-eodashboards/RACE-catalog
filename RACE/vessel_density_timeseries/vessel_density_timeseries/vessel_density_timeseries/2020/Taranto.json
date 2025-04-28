@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Taranto",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        17.160124,
-        40.228814
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      17.160124,
+      40.228814
+    ]
   },
   "bbox": [
     17.150123999999998,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Swindon",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -1.73538,
-        51.592416
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -1.73538,
+      51.592416
+    ]
   },
   "bbox": [
     -1.74538,

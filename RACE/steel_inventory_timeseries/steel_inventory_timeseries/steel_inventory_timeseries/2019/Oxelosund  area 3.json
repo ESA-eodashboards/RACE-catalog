@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Oxelosund  area 3",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        17.116121839995795,
-        58.681367690762485
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      17.116121839995795,
+      58.681367690762485
+    ]
   },
   "bbox": [
     17.106121839995794,

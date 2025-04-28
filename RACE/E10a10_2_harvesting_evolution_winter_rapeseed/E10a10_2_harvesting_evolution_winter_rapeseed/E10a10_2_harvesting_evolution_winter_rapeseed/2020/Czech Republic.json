@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Czech Republic",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        15.31240163,
-        49.733412331
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      15.31240163,
+      49.733412331
+    ]
   },
   "bbox": [
     15.30240163,

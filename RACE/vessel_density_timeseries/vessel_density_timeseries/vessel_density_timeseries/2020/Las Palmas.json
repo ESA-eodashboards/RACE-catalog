@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Las Palmas",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -15.115872,
-        27.967126
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -15.115872,
+      27.967126
+    ]
   },
   "bbox": [
     -15.125872,

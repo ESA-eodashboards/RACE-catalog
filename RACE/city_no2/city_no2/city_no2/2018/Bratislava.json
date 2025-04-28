@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Bratislava",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        17.116667,
-        48.15
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      17.116667,
+      48.15
+    ]
   },
   "bbox": [
     17.106666999999998,

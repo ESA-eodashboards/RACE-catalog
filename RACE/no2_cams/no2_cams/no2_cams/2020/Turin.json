@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Turin",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        7.74,
-        45.12
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      7.74,
+      45.12
+    ]
   },
   "bbox": [
     7.73,

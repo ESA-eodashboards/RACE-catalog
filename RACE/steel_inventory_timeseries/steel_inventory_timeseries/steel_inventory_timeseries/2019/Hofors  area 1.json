@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Hofors  area 1",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        16.3066200733499,
-        60.552949036489515
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      16.3066200733499,
+      60.552949036489515
+    ]
   },
   "bbox": [
     16.2966200733499,

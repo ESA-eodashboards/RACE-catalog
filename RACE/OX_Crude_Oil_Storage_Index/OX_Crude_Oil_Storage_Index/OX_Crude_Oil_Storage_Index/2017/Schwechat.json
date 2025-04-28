@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Schwechat",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        16.504681,
-        48.144818
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      16.504681,
+      48.144818
+    ]
   },
   "bbox": [
     16.494681,

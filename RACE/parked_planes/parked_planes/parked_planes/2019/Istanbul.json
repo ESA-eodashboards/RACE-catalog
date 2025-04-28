@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Istanbul",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        28.820829,
-        40.982555
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      28.820829,
+      40.982555
+    ]
   },
   "bbox": [
     28.810829,

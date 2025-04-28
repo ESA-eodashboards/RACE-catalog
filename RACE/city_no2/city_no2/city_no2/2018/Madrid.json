@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Madrid",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -3.70379,
-        40.416775
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -3.70379,
+      40.416775
+    ]
   },
   "bbox": [
     -3.71379,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Milan",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        8.723056,
-        45.62995905
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      8.723056,
+      45.62995905
+    ]
   },
   "bbox": [
     8.713056,

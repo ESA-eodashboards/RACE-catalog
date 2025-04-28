@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Lyon",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        4.85,
-        45.76
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      4.85,
+      45.76
+    ]
   },
   "bbox": [
     4.84,

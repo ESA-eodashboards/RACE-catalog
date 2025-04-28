@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Sweden",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        14.4552277,
-        57.98490795
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      14.4552277,
+      57.98490795
+    ]
   },
   "bbox": [
     14.4452277,

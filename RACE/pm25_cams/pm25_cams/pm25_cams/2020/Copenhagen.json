@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Copenhagen",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        12.115,
-        55.67
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      12.115,
+      55.67
+    ]
   },
   "bbox": [
     12.105,

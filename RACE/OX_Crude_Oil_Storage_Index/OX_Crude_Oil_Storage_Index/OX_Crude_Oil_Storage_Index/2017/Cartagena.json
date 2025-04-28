@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Cartagena",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -0.932927,
-        37.573845
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -0.932927,
+      37.573845
+    ]
   },
   "bbox": [
     -0.942927,

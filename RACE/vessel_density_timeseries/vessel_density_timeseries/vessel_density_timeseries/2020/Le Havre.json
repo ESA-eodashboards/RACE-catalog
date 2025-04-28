@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Le Havre",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -0.593896,
-        49.238328
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -0.593896,
+      49.238328
+    ]
   },
   "bbox": [
     -0.603896,

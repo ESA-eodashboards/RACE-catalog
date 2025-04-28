@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Constanta",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        28.839589,
-        44.149405
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      28.839589,
+      44.149405
+    ]
   },
   "bbox": [
     28.829589,

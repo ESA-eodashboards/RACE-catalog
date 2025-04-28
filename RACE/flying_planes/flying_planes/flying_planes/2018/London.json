@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "London",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -0.3677,
-        51.8715
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -0.3677,
+      51.8715
+    ]
   },
   "bbox": [
     -0.37770000000000004,

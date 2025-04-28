@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Wolfsburg",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        10.758977,
-        52.437128
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      10.758977,
+      52.437128
+    ]
   },
   "bbox": [
     10.748977,

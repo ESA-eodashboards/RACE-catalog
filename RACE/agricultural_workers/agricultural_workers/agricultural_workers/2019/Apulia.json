@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Apulia",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        15.78358,
-        41.57712
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      15.78358,
+      41.57712
+    ]
   },
   "bbox": [
     15.77358,

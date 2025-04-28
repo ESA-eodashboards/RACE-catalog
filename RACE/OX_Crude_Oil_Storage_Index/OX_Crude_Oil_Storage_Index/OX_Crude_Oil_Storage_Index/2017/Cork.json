@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Cork",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -8.248062,
-        51.820466
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -8.248062,
+      51.820466
+    ]
   },
   "bbox": [
     -8.258061999999999,

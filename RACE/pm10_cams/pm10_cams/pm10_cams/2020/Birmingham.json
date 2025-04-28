@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Birmingham",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        1.146,
-        52.48
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      1.146,
+      52.48
+    ]
   },
   "bbox": [
     1.136,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Borlange  area 1",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        15.455598401419492,
-        60.487957276047716
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      15.455598401419492,
+      60.487957276047716
+    ]
   },
   "bbox": [
     15.445598401419492,

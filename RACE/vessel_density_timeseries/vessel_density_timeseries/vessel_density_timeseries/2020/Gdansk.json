@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Gdansk",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        18.240794,
-        54.782807
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      18.240794,
+      54.782807
+    ]
   },
   "bbox": [
     18.230794,

@@ -2,17 +2,13 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "G\u00f6teborg",
+  "id": "Göteborg",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        12.010657,
-        57.722237
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      12.010657,
+      57.722237
+    ]
   },
   "bbox": [
     12.000657,

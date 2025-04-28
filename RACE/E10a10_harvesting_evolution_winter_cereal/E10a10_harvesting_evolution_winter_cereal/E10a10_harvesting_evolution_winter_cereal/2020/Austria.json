@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Austria",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        14.1264761,
-        47.58549439
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      14.1264761,
+      47.58549439
+    ]
   },
   "bbox": [
     14.1164761,

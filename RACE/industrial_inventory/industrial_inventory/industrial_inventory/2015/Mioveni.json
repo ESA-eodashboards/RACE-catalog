@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Mioveni",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        24.934872,
-        44.944611
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      24.934872,
+      44.944611
+    ]
   },
   "bbox": [
     24.924871999999997,

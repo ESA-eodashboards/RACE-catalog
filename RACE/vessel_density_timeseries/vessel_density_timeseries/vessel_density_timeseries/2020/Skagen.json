@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Skagen",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        10.680737,
-        57.707289
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      10.680737,
+      57.707289
+    ]
   },
   "bbox": [
     10.670737,

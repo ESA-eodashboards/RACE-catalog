@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Latvia",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        24.91235983,
-        56.85085163
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      24.91235983,
+      56.85085163
+    ]
   },
   "bbox": [
     24.902359829999998,

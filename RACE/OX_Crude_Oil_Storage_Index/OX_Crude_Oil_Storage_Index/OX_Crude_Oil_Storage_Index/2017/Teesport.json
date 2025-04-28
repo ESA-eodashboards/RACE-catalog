@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Teesport",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -1.21236,
-        54.63659
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -1.21236,
+      54.63659
+    ]
   },
   "bbox": [
     -1.2223600000000001,

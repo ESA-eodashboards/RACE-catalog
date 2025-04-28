@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Andalucia",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -4.872,
-        37.5491
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -4.872,
+      37.5491
+    ]
   },
   "bbox": [
     -4.882,

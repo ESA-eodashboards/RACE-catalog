@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Berlin",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        13.492333,
-        52.36124
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      13.492333,
+      52.36124
+    ]
   },
   "bbox": [
     13.482333,

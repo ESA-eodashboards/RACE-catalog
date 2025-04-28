@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "La Rioja",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -2.505,
-        42.313
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -2.505,
+      42.313
+    ]
   },
   "bbox": [
     -2.5149999999999997,

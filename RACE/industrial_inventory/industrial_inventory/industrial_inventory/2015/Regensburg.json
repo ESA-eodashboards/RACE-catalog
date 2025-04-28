@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Regensburg",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        12.177499,
-        48.977906
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      12.177499,
+      48.977906
+    ]
   },
   "bbox": [
     12.167499,

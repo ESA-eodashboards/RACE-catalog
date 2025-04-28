@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "CZ",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        14.467,
-        50.083
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      14.467,
+      50.083
+    ]
   },
   "bbox": [
     14.457,

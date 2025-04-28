@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Craiova",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        23.846534,
-        44.300006
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      23.846534,
+      44.300006
+    ]
   },
   "bbox": [
     23.836533999999997,

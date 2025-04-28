@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Saarlouis",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        6.757758,
-        49.345804
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      6.757758,
+      49.345804
+    ]
   },
   "bbox": [
     6.747758,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Venice Lagoon",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        12.5081,
-        45.3142
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      12.5081,
+      45.3142
+    ]
   },
   "bbox": [
     12.4981,

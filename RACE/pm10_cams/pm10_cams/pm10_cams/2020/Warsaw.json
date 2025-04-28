@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Warsaw",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        21.58,
-        52.25
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      21.58,
+      52.25
+    ]
   },
   "bbox": [
     21.569999999999997,

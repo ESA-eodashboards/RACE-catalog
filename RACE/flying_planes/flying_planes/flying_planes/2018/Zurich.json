@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Zurich",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        8.564572,
-        47.451542
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      8.564572,
+      47.451542
+    ]
   },
   "bbox": [
     8.554572,

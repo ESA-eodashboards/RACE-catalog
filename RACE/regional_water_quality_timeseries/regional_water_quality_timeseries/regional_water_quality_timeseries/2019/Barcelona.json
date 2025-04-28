@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Barcelona",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        1.358,
-        40.717
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      1.358,
+      40.717
+    ]
   },
   "bbox": [
     1.348,

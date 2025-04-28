@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Prague",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        14.466667,
-        50.08333333
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      14.466667,
+      50.08333333
+    ]
   },
   "bbox": [
     14.456667,

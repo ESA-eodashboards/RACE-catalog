@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Sullom Voe",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -1.28454,
-        60.46923
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -1.28454,
+      60.46923
+    ]
   },
   "bbox": [
     -1.29454,

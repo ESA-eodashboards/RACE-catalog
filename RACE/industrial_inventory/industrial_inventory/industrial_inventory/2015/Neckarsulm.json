@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Neckarsulm",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        9.21949,
-        49.208952
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      9.21949,
+      49.208952
+    ]
   },
   "bbox": [
     9.20949,

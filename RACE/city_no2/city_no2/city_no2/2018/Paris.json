@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Paris",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        2.349014,
-        48.864716
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      2.349014,
+      48.864716
+    ]
   },
   "bbox": [
     2.339014,

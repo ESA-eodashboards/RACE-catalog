@@ -237,12 +237,12 @@
     },
     {
       "rel": "item",
-      "href": "./vessel_density_timeseries/2020/G\u00f6teborg.json",
+      "href": "./vessel_density_timeseries/2020/Göteborg.json",
       "type": "application/geo+json",
       "id": "NO4",
       "latlng": "57.722237, 12.010657",
       "country": "NO",
-      "city": "G\u00f6teborg"
+      "city": "Göteborg"
     },
     {
       "rel": "item",

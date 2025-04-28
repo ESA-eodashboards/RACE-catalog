@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Spain",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -4.457,
-        40.044
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -4.457,
+      40.044
+    ]
   },
   "bbox": [
     -4.467,

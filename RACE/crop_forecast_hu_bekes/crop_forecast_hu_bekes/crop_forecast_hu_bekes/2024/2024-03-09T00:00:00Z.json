@@ -4,39 +4,30 @@
   "stac_extensions": [],
   "id": "2024-03-09T00:00:00Z",
   "geometry": {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [
-              [
-                20.4,
-                46.2
-              ],
-              [
-                21.7,
-                46.2
-              ],
-              [
-                21.7,
-                47.37
-              ],
-              [
-                20.4,
-                47.37
-              ],
-              [
-                20.4,
-                46.2
-              ]
-            ]
-          ]
-        },
-        "properties": {}
-      }
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          20.4,
+          46.2
+        ],
+        [
+          21.7,
+          46.2
+        ],
+        [
+          21.7,
+          47.37
+        ],
+        [
+          20.4,
+          47.37
+        ],
+        [
+          20.4,
+          46.2
+        ]
+      ]
     ]
   },
   "bbox": [
@@ -67,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Hungary B\u00e9k\u00e9s subcounty yield"
+      "title": "Hungary Békés subcounty yield"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Hungary B\u00e9k\u00e9s subcounty yield"
+      "title": "Hungary Békés subcounty yield"
     }
   ],
   "assets": {

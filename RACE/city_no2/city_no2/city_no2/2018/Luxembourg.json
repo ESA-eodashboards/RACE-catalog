@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Luxembourg",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        6.116667,
-        49.6
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      6.116667,
+      49.6
+    ]
   },
   "bbox": [
     6.106667,

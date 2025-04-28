@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Sindelfingen",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        8.992659,
-        48.693906
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      8.992659,
+      48.693906
+    ]
   },
   "bbox": [
     8.982659,

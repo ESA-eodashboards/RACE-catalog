@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Omisalj",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        14.53257,
-        45.22142
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      14.53257,
+      45.22142
+    ]
   },
   "bbox": [
     14.52257,

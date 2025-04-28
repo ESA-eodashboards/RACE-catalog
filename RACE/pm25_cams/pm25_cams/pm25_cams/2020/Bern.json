@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Bern",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        7.104,
-        46.92
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      7.104,
+      46.92
+    ]
   },
   "bbox": [
     7.094,

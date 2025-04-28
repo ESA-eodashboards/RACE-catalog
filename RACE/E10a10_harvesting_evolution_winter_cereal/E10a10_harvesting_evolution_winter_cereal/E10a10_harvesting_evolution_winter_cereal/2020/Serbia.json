@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Serbia",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        20.78958334,
-        44.2215032
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      20.78958334,
+      44.2215032
+    ]
   },
   "bbox": [
     20.77958334,

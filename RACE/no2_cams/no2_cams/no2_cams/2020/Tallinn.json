@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Tallinn",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        24.72,
-        59.43
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      24.72,
+      59.43
+    ]
   },
   "bbox": [
     24.709999999999997,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Malaga",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -4.492831362,
-        36.67166398
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -4.492831362,
+      36.67166398
+    ]
   },
   "bbox": [
     -4.502831362,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Zagreb",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        16.58,
-        45.8
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      16.58,
+      45.8
+    ]
   },
   "bbox": [
     16.569999999999997,

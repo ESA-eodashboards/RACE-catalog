@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Rotterdam",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        4.21532,
-        51.90973
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      4.21532,
+      51.90973
+    ]
   },
   "bbox": [
     4.20532,

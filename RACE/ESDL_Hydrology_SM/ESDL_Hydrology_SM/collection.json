@@ -12,7 +12,7 @@
     },
     {
       "rel": "xyz",
-      "href": "https://api.earthsystemdatalab.net/api/tiles/hydrology/SM/{z}/{y}/{x}?crs=EPSG:3857&time={{time}}&vmin=0&vmax=1&cbar=plasma_r",
+      "href": "https://api.earthsystemdatalab.net/api/tiles/hydrology/SM/{z}/{y}/{x}?crs=EPSG:3857&time={time}&vmin=0&vmax=1&cbar=plasma_r",
       "type": "image/png",
       "title": "xcube tiles"
     },
@@ -12069,7 +12069,7 @@
   ],
   "sci:publications": [
     {
-      "citation": "Raphael Quast, Wolfgang Wagner, Bernhard Bauer-Marschallinger, Mariette Vreugdenhil Soil moisture retrieval from Sentinel-1 using a first-order radiative transfer model\u2014A case-study over the Po-Valley, Remote Sensing of Environment Volume 295, 1 September 2023, 113651",
+      "citation": "Raphael Quast, Wolfgang Wagner, Bernhard Bauer-Marschallinger, Mariette Vreugdenhil Soil moisture retrieval from Sentinel-1 using a first-order radiative transfer model—A case-study over the Po-Valley, Remote Sensing of Environment Volume 295, 1 September 2023, 113651",
       "doi": "https://doi.org/10.1016/j.rse.2023.113651"
     }
   ],

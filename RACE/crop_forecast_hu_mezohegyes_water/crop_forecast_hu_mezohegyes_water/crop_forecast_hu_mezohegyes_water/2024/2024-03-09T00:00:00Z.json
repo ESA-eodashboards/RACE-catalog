@@ -4,39 +4,30 @@
   "stac_extensions": [],
   "id": "2024-03-09T00:00:00Z",
   "geometry": {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [
-              [
-                20.7,
-                46.23
-              ],
-              [
-                21.24,
-                46.23
-              ],
-              [
-                21.24,
-                46.6
-              ],
-              [
-                20.7,
-                46.6
-              ],
-              [
-                20.7,
-                46.23
-              ]
-            ]
-          ]
-        },
-        "properties": {}
-      }
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          20.7,
+          46.23
+        ],
+        [
+          21.24,
+          46.23
+        ],
+        [
+          21.24,
+          46.6
+        ],
+        [
+          20.7,
+          46.6
+        ],
+        [
+          20.7,
+          46.23
+        ]
+      ]
     ]
   },
   "bbox": [
@@ -67,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Hungary Mez\u0151hegyes microregion water demand"
+      "title": "Hungary Mezőhegyes microregion water demand"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Hungary Mez\u0151hegyes microregion water demand"
+      "title": "Hungary Mezőhegyes microregion water demand"
     }
   ],
   "assets": {

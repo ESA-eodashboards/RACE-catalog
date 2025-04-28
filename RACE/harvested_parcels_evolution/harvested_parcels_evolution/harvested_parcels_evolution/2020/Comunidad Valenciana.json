@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Comunidad Valenciana",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -0.632,
-        39.5311
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -0.632,
+      39.5311
+    ]
   },
   "bbox": [
     -0.642,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Region de Murcia",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -1.334,
-        37.919
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -1.334,
+      37.919
+    ]
   },
   "bbox": [
     -1.344,

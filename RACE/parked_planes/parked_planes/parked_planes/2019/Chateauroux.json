@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Chateauroux",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        1.7288832862166452,
-        46.861263796994045
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      1.7288832862166452,
+      46.861263796994045
+    ]
   },
   "bbox": [
     1.7188832862166452,

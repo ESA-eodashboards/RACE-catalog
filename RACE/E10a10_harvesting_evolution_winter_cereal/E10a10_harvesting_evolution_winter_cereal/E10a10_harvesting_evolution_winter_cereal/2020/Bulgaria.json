@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Bulgaria",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        25.21552909,
-        42.76890318
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      25.21552909,
+      42.76890318
+    ]
   },
   "bbox": [
     25.20552909,

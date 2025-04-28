@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Rome",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        12.573303,
-        41.897678
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      12.573303,
+      41.897678
+    ]
   },
   "bbox": [
     12.563303,

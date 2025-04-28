@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Aliaga",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        26.466613,
-        39.16878
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      26.466613,
+      39.16878
+    ]
   },
   "bbox": [
     26.456612999999997,

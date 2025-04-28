@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Valencia",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -0.38,
-        39.47
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -0.38,
+      39.47
+    ]
   },
   "bbox": [
     -0.39,

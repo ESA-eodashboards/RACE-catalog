@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Comunidad de Madrid",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -3.729,
-        40.4095
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -3.729,
+      40.4095
+    ]
   },
   "bbox": [
     -3.739,

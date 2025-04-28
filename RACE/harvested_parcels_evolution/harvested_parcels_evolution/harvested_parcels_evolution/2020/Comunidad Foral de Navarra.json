@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Comunidad Foral de Navarra",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -1.648,
-        42.644
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -1.648,
+      42.644
+    ]
   },
   "bbox": [
     -1.658,

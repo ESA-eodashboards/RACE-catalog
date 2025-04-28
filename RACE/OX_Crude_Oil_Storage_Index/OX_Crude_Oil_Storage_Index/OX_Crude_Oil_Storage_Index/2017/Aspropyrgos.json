@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Aspropyrgos",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        23.60571,
-        38.03386
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      23.60571,
+      38.03386
+    ]
   },
   "bbox": [
     23.595709999999997,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Brussels",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        4.34,
-        50.83
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      4.34,
+      50.83
+    ]
   },
   "bbox": [
     4.33,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "La Spezia",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        9.989117,
-        43.988387
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      9.989117,
+      43.988387
+    ]
   },
   "bbox": [
     9.979117,

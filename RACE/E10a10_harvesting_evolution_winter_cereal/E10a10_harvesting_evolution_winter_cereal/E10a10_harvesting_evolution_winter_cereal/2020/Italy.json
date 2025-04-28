@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Italy",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        12.07001339,
-        42.79662641
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      12.07001339,
+      42.79662641
+    ]
   },
   "bbox": [
     12.06001339,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Budapest",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        19.66,
-        47.5
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      19.66,
+      47.5
+    ]
   },
   "bbox": [
     19.65,

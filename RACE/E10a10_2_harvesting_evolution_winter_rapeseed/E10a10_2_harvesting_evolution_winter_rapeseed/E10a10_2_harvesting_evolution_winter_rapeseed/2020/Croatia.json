@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Croatia",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        16.21904979,
-        45.695288081
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      16.21904979,
+      45.695288081
+    ]
   },
   "bbox": [
     16.209049789999998,

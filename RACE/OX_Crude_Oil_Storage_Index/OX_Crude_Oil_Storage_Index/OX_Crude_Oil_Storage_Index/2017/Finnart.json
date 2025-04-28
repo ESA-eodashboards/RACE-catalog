@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Finnart",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -4.83506,
-        56.11333
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -4.83506,
+      56.11333
+    ]
   },
   "bbox": [
     -4.84506,

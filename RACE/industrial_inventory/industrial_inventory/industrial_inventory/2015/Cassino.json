@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Cassino",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        13.753094,
-        41.488157
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      13.753094,
+      41.488157
+    ]
   },
   "bbox": [
     13.743094000000001,

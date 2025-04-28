@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "France",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        2.54675178,
-        46.839766351
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      2.54675178,
+      46.839766351
+    ]
   },
   "bbox": [
     2.5367517800000003,

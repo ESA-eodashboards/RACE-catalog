@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Romania",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        24.97293039,
-        45.852431271
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      24.97293039,
+      45.852431271
+    ]
   },
   "bbox": [
     24.962930389999997,

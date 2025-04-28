@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "IE",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -6.233,
-        53.317
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -6.233,
+      53.317
+    ]
   },
   "bbox": [
     -6.242999999999999,

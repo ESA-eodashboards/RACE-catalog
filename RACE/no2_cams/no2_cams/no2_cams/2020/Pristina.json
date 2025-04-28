@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Pristina",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        21.17,
-        42.67
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      21.17,
+      42.67
+    ]
   },
   "bbox": [
     21.16,

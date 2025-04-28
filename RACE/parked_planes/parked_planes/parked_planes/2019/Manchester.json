@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Manchester",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -2.2717,
-        53.3523
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -2.2717,
+      53.3523
+    ]
   },
   "bbox": [
     -2.2817,

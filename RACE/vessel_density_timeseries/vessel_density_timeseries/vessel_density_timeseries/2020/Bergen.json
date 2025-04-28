@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Bergen",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        4.983069,
-        60.332799
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      4.983069,
+      60.332799
+    ]
   },
   "bbox": [
     4.973069000000001,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Imatra  area 1",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        28.796662998976412,
-        61.151139685027665
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      28.796662998976412,
+      61.151139685027665
+    ]
   },
   "bbox": [
     28.78666299897641,

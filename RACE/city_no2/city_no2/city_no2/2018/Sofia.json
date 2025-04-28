@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Sofia",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        23.316667,
-        42.68333333
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      23.316667,
+      42.68333333
+    ]
   },
   "bbox": [
     23.306666999999997,

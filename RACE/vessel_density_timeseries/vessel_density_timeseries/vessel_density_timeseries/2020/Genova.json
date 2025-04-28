@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Genova",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        8.956082,
-        44.137695
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      8.956082,
+      44.137695
+    ]
   },
   "bbox": [
     8.946082,

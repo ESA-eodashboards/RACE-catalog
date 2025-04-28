@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Oslo",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        11.100415,
-        60.197552
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      11.100415,
+      60.197552
+    ]
   },
   "bbox": [
     11.090415,

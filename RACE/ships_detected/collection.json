@@ -134,20 +134,20 @@
       "MSI"
     ],
     "cities": [
-      "Genoa",
       "Hamburg",
-      "Ghent",
-      "Gdynia",
+      "Genoa",
       "Suez ",
+      "Gdynia",
+      "Ghent",
       "Dunkirk"
     ],
     "countries": [
       "DE",
       "FR",
-      "EG",
-      "PL",
       "IT",
-      "BE"
+      "PL",
+      "BE",
+      "EG"
     ]
   }
 }

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Zwickau",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        12.488275,
-        50.799896
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      12.488275,
+      50.799896
+    ]
   },
   "bbox": [
     12.478275,

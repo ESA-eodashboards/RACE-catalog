@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Helsinki",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        24.93,
-        60.17
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      24.93,
+      60.17
+    ]
   },
   "bbox": [
     24.919999999999998,

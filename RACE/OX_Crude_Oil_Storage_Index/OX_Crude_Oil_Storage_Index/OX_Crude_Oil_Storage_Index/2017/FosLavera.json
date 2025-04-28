@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "FosLavera",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        4.92497,
-        43.44832
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      4.92497,
+      43.44832
+    ]
   },
   "bbox": [
     4.91497,

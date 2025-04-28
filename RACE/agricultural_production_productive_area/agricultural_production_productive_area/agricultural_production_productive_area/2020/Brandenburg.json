@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Brandenburg",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        13.09063,
-        52.13141
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      13.09063,
+      52.13141
+    ]
   },
   "bbox": [
     13.080630000000001,

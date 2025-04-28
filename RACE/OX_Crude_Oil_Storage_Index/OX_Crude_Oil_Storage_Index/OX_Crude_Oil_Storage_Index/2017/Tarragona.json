@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Tarragona",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        1.220632,
-        41.168348
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      1.220632,
+      41.168348
+    ]
   },
   "bbox": [
     1.210632,

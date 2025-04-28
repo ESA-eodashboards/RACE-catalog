@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Germany",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        10.38578051,
-        51.10698181
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      10.38578051,
+      51.10698181
+    ]
   },
   "bbox": [
     10.37578051,

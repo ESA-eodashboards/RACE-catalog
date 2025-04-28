@@ -505,7 +505,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "total ship presence time / 1 km\u00b2"
+    "title": "total ship presence time / 1 km²"
   },
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Vessel density for non tanker or cargo",

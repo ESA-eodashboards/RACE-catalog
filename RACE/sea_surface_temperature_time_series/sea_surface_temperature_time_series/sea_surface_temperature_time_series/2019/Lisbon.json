@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Lisbon",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -9.4367,
-        38.6667
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -9.4367,
+      38.6667
+    ]
   },
   "bbox": [
     -9.4467,

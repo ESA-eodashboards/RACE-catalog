@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Denmark",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        9.19078239,
-        56.00508703
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      9.19078239,
+      56.00508703
+    ]
   },
   "bbox": [
     9.180782390000001,

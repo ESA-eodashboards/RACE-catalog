@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Trieste",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        13.700997,
-        45.63555
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      13.700997,
+      45.63555
+    ]
   },
   "bbox": [
     13.690997,

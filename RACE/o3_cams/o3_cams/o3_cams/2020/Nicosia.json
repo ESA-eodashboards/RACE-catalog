@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Nicosia",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        33.94,
-        35.17
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      33.94,
+      35.17
+    ]
   },
   "bbox": [
     33.93,

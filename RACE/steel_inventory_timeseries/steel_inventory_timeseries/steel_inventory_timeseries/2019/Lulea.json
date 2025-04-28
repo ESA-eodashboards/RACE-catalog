@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Lulea",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        22.227196619403227,
-        65.55710405897864
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      22.227196619403227,
+      65.55710405897864
+    ]
   },
   "bbox": [
     22.217196619403225,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Heathrow",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -0.4580423952680147,
-        51.469716296645025
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -0.4580423952680147,
+      51.469716296645025
+    ]
   },
   "bbox": [
     -0.4680423952680147,

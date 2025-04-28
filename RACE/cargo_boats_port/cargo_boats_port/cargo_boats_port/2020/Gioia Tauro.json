@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Gioia Tauro",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        15.9024,
-        38.45339
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      15.9024,
+      38.45339
+    ]
   },
   "bbox": [
     15.8924,

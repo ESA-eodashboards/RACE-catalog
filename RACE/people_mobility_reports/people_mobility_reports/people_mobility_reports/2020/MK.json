@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "MK",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        21.433,
-        42.0
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      21.433,
+      42.0
+    ]
   },
   "bbox": [
     21.423,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Muenchen",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        11.781958961375517,
-        48.35344398201118
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      11.781958961375517,
+      48.35344398201118
+    ]
   },
   "bbox": [
     11.771958961375518,

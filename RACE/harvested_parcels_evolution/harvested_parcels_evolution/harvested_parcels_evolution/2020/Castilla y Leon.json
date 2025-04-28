@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Castilla y Leon",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -4.3976,
-        41.8376
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -4.3976,
+      41.8376
+    ]
   },
   "bbox": [
     -4.4075999999999995,

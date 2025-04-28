@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Katowice",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        19.281123931237445,
-        50.33586439415548
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      19.281123931237445,
+      50.33586439415548
+    ]
   },
   "bbox": [
     19.271123931237444,

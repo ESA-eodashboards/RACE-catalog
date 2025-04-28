@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Extremadura",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -6.138,
-        39.166
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -6.138,
+      39.166
+    ]
   },
   "bbox": [
     -6.148,

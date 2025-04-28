@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Suez",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        32.314923,
-        30.939554
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      32.314923,
+      30.939554
+    ]
   },
   "bbox": [
     32.304923,

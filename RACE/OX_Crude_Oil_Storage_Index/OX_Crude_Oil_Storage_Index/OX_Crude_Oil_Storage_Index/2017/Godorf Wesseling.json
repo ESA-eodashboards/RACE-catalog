@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Godorf Wesseling",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        6.983921,
-        50.860509
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      6.983921,
+      50.860509
+    ]
   },
   "bbox": [
     6.973921,

@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Huelva Lagunas de las Madres",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -6.84888,
-        37.18316
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -6.84888,
+      37.18316
+    ]
   },
   "bbox": [
     -6.85888,

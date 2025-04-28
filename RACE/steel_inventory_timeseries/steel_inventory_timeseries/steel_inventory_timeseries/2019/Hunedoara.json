@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Hunedoara",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        22.923231736132724,
-        45.78896311080552
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      22.923231736132724,
+      45.78896311080552
+    ]
   },
   "bbox": [
     22.913231736132722,

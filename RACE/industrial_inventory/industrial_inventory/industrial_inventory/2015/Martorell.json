@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Martorell",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        1.902436,
-        41.493659
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      1.902436,
+      41.493659
+    ]
   },
   "bbox": [
     1.892436,

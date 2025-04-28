@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "London Stansted",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        0.202641,
-        51.904949
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      0.202641,
+      51.904949
+    ]
   },
   "bbox": [
     0.19264099999999998,

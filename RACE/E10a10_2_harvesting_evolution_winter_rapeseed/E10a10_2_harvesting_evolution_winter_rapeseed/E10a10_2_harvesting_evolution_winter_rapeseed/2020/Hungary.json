@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Hungary",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        19.39559116,
-        47.162775061
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      19.39559116,
+      47.162775061
+    ]
   },
   "bbox": [
     19.385591159999997,

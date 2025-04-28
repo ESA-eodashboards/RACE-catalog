@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Sines",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -9.015926,
-        37.886931
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      -9.015926,
+      37.886931
+    ]
   },
   "bbox": [
     -9.025926,

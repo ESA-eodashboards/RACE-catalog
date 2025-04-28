@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Bucharest",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        26.68,
-        44.43
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      26.68,
+      44.43
+    ]
   },
   "bbox": [
     26.669999999999998,

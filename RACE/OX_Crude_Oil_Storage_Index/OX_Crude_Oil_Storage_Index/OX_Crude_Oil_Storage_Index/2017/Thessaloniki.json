@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Thessaloniki",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        22.88263,
-        40.68152
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      22.88263,
+      40.68152
+    ]
   },
   "bbox": [
     22.872629999999997,

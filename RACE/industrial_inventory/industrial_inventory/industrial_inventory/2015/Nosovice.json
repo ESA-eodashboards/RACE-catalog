@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Nosovice",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        18.439066,
-        49.662241
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      18.439066,
+      49.662241
+    ]
   },
   "bbox": [
     18.429066,

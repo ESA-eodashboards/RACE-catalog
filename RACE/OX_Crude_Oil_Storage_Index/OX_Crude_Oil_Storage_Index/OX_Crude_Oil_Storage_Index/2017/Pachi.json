@@ -4,15 +4,11 @@
   "stac_extensions": [],
   "id": "Pachi",
   "geometry": {
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        23.40814,
-        37.99102
-      ]
-    },
-    "properties": {}
+    "type": "Point",
+    "coordinates": [
+      23.40814,
+      37.99102
+    ]
   },
   "bbox": [
     23.398139999999998,
