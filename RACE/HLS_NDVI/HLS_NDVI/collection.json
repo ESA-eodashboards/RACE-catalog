@@ -12,7 +12,7 @@
     },
     {
       "rel": "item",
-      "href": "./HLS_NDVI/1970/9f6e2414-2a7e-4f41-ba7c-3a4f6f8cdf2a.json",
+      "href": "./HLS_NDVI/1970/32ed0757-e671-4143-afd3-b58652f078e9.json",
       "type": "application/geo+json"
     },
     {
@@ -58,7 +58,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-04-28T11:33:35.287274Z",
+          "2025-05-05T07:37:59.986062Z",
           null
         ]
       ]
