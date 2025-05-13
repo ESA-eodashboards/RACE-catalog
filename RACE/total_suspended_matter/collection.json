@@ -22,7 +22,6 @@
       "themes": [
         "water"
       ],
-      "locations": true,
       "tags": [
         "Water quality",
         "Copernicus Services",
@@ -47,6 +46,14 @@
       "href": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
       "type": "text/html",
       "title": "Licence to Use Copernicus Products"
+    },
+    {
+      "rel": "service",
+      "href": "./total_suspended_matter/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
     },
     {
       "rel": "parent",
@@ -95,6 +102,7 @@
     "tickFormat": ".0f",
     "title": "Total suspended matter anomaly [%]"
   },
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Total suspended matter maps",
   "extent": {
     "spatial": {
