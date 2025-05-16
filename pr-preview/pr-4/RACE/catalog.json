@@ -12,6 +12,120 @@
     },
     {
       "rel": "child",
+      "href": "./IDEAS1_hopi_b1/collection.json",
+      "type": "application/json",
+      "title": "Health-Oriented Urban Heat and Pollution Index",
+      "subtitle": "Indicator 1: HOUHPI",
+      "code": "IND1_1_b1",
+      "id": "IDEAS1_hopi_b1",
+      "themes": [
+        "health"
+      ],
+      "subcode": "IND1_1_b1",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png"
+      ],
+      "tags": [
+        "heat",
+        "pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS1_hopi_b3/collection.json",
+      "type": "application/json",
+      "title": "HOUHPI Distance to nearest hospital or clinic [km]",
+      "subtitle": "Distance to nearest hospital or clinic [km]",
+      "code": "IND1_1_b3",
+      "id": "IDEAS1_hopi_b3",
+      "themes": [
+        "health"
+      ],
+      "subcode": "IND1_1_b3",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png"
+      ],
+      "tags": [
+        "heat",
+        "pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS1_hopi_b4/collection.json",
+      "type": "application/json",
+      "title": "HOUHPI Number of days where air pollution exceeded WHO threshold",
+      "subtitle": "Number of days where air pollution exceeded WHO threshold",
+      "code": "IND1_1_b4",
+      "id": "IDEAS1_hopi_b4",
+      "themes": [
+        "health"
+      ],
+      "subcode": "IND1_1_b4",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png"
+      ],
+      "tags": [
+        "heat",
+        "pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS1_hopi_b5/collection.json",
+      "type": "application/json",
+      "title": "HOUHPI Land Surface Temperature",
+      "subtitle": "Land Surface Temperature",
+      "code": "IND1_1_b5",
+      "id": "IDEAS1_hopi_b5",
+      "themes": [
+        "health"
+      ],
+      "subcode": "IND1_1_b5",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png"
+      ],
+      "tags": [
+        "heat",
+        "pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS1_hopi_minesweeper/collection.json",
+      "type": "application/json",
+      "title": "HOUHPI Minesweeper Game",
+      "subtitle": "Indicator 1: HOUHPI Game mode",
+      "code": "IND1_1_minesweeper",
+      "id": "IDEAS1_hopi_minesweeper",
+      "themes": [
+        "health"
+      ],
+      "subcode": "IND1_1_minesweeper",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi_minesweeper.png"
+      ],
+      "tags": [
+        "game"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./city_no2/collection.json",
       "type": "application/json",
       "title": "Air Quality (tropospheric NO2 concetrations) at city level",
@@ -29,62 +143,62 @@
         "TROPOMI"
       ],
       "cities": [
-        "Zagreb",
-        "Valletta",
-        "Athens",
-        "Stockholm",
-        "Vilnius",
-        "Rome",
-        "Bucharest",
-        "Sofia",
-        "Luxembourg",
-        "Prague",
-        "Vienna",
-        "Ljubljana",
-        "Berlin",
-        "Lisbon",
-        "Riga",
-        "Budapest",
-        "Warsaw",
-        "Tallinn",
-        "Brussels",
-        "Bratislava",
-        "Madrid",
         "Nicosia",
-        "Helsinki",
+        "Bratislava",
+        "Brussels",
+        "Prague",
+        "Berlin",
+        "Athens",
+        "Budapest",
+        "Tallinn",
         "Copenhagen",
-        "Dublin",
+        "Warsaw",
+        "Zagreb",
         "Amsterdam",
-        "Paris"
+        "Paris",
+        "Bucharest",
+        "Luxembourg",
+        "Dublin",
+        "Vilnius",
+        "Riga",
+        "Vienna",
+        "Madrid",
+        "Rome",
+        "Ljubljana",
+        "Sofia",
+        "Stockholm",
+        "Lisbon",
+        "Helsinki",
+        "Valletta"
       ],
       "countries": [
-        "BG",
-        "PL",
-        "BE",
-        "SK",
+        "CZ",
         "FR",
-        "IT",
         "IE",
         "GR",
-        "LV",
-        "SE",
-        "ES",
-        "NL",
-        "SI",
-        "AT",
-        "LT",
-        "CY",
-        "FI",
-        "RO",
-        "MT",
-        "HU",
-        "CZ",
         "PT",
-        "DK",
-        "HR",
+        "IT",
         "DE",
+        "BG",
+        "SE",
+        "RO",
+        "NL",
+        "HR",
+        "SI",
+        "DK",
+        "FI",
+        "SK",
+        "BE",
+        "MT",
+        "ES",
+        "LU",
         "EE",
-        "LU"
+        "LT",
+        "LV",
+        "CY",
+        "PL",
+        "HU",
+        "AT"
       ],
       "tags": [
         "Air quality",
@@ -223,6 +337,51 @@
       ],
       "otherSources": [
         "EAC4"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS1_hopi_b2/collection.json",
+      "type": "application/json",
+      "title": "HOUHPI Number of people of age > 60 or <5",
+      "subtitle": "Number of people of age > 60 or <5",
+      "code": "IND1_1_b2",
+      "id": "IDEAS1_hopi_b2",
+      "themes": [
+        "health"
+      ],
+      "subcode": "IND1_1_b2",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png"
+      ],
+      "tags": [
+        "heat",
+        "pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS1_hopi_ind/collection.json",
+      "type": "application/json",
+      "title": "Health-Oriented Urban Heat and Pollution Index and Auxiliary layers",
+      "code": "IND1_1",
+      "id": "IDEAS1_hopi_ind",
+      "themes": [
+        "health"
+      ],
+      "subcode": "IND1_1",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png"
+      ],
+      "tags": [
+        "heat",
+        "pollution"
+      ],
+      "agency": [
+        "ESA"
       ]
     },
     {

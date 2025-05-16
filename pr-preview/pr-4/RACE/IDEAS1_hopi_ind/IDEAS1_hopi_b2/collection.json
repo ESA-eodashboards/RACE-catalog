@@ -1,0 +1,113 @@
+{
+  "type": "Collection",
+  "id": "IDEAS1_hopi_b2",
+  "stac_version": "1.1.0",
+  "description": "# Health-Oriented Urban Heat and Pollution Index\n\nAnthropic-induced pollution and climate change consequences as extreme heat waves, makes it essential to develop efficient health indicators.\nThe Health Oriented Urban Heat and air Pollution Indicator (HOUHPI) indicator is produced by combining four inputs:\n* Air pollution\n* Urban heat\n* Vulnerable population\n* Distance to healthcare\n\nOn the map white and yellow mean low risk on health , dark red means high risk on health.\nIn the Analysis panel below you ca use the range slider to filter out values displayed.\n\nFollowing layers are available to further explore the data:\n- **Land surface temperature**: maximum monthly-average land surface temperature per season between 2019\nand 2023. We consider that there is a risk for human health above an average 25°C.\n- **Number of days per season where air pollution exceeded the WHO threshold** : The indicator takes into account PM2.5,PM10, Ozone and NO2 from CAMS (between 2021 and 2023). If one of the pollutants exceeds the daily threshold, it is considered a polluted day.\n- **Distance to nearest hospital or clinic (km)** : computed from the Healthcare Infrastructures indicator with bird's-eye distances.\n- **Number of people of age >60 or < 5** : extraction from HDX data and gives information about the number of elderly or children in an area.\n- **Health-Oriented Urban Heat and Pollution Index** : sum of the normalized healthcare access and vulnerable population indicators multiplied by the risk factor. The risk factor is computed using\nthe following knowledge [1] :\n    - Air Pollution Risk (APR): Increment of 5% mortality risk when air pollution exceeds WHO thresholds.\n    - Urban Heat Risk (UHR): Increment of 6% mortality risk with LST (Land Surface Temperature) above 25°C.\n    - Combined Risk (CR): Increment of 21% mortality risk when both conditions are met.\nThe score goes from 0 for a non existing risk to 2 for a high risk.\n\nCoverage:\n- **Spatial coverage:** Europe\n- **Temporal coverage:** 3 years (2021 – 2023)\n- **Spatial resolution:** 6 km\n- **Temporal resolution** : seasonally\n\nV2 - 2024/07/19\n\n[1] https://www.eea.europa.eu/en/newsroom/editorial/combined-effects-of-air-pollution-and-heat-exposure#:~:text=Another%20recent%20study%20identified%20that,exposure%20to%20either%20factor%20on\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./IDEAS1_hopi_b2/2021/2021-04-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-01T00:00:00Z",
+      "assets": [
+        "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Winter_europe_3857_b2.tif"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/ideas-assets/collections/IDEAS1_hopi/flatstyle_b2.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "winter"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Health-Oriented Urban Heat and Pollution Index and Auxiliary layers"
+    }
+  ],
+  "subtitle": "Number of people of age > 60 or <5",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png",
+  "themes": [
+    "health"
+  ],
+  "tags": [
+    "heat",
+    "pollution"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "IND1_1_b2",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      10000
+    ],
+    "range": [
+      "#ffffff",
+      "#ffffb2",
+      "#ffff65",
+      "#ffff17",
+      "#ffdb00",
+      "#ffa800",
+      "#ff7400",
+      "#ff4100",
+      "#ff0d00",
+      "#d90000",
+      "#a50000",
+      "#720000",
+      "#3e0000",
+      "#0b0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "[people]"
+  },
+  "endpointtype": "COG source",
+  "title": "HOUHPI Number of people of age > 60 or <5",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -24,
+          33,
+          42,
+          71
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-04-01T00:00:00Z",
+          "2021-04-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Murmuration",
+      "url": "https://murmuration-sas.com/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
