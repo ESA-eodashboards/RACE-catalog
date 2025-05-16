@@ -1,0 +1,235 @@
+{
+  "type": "Catalog",
+  "id": "RACE",
+  "stac_version": "1.1.0",
+  "description": "Rapid Action for Citizens with Earth Observation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./city_no2/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (tropospheric NO2 concetrations) at city level",
+      "subtitle": "NO2 detected at cities based on Sentinel-5P data",
+      "code": "N1",
+      "id": "city_no2",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "cities": [
+        "Zagreb",
+        "Valletta",
+        "Athens",
+        "Stockholm",
+        "Vilnius",
+        "Rome",
+        "Bucharest",
+        "Sofia",
+        "Luxembourg",
+        "Prague",
+        "Vienna",
+        "Ljubljana",
+        "Berlin",
+        "Lisbon",
+        "Riga",
+        "Budapest",
+        "Warsaw",
+        "Tallinn",
+        "Brussels",
+        "Bratislava",
+        "Madrid",
+        "Nicosia",
+        "Helsinki",
+        "Copenhagen",
+        "Dublin",
+        "Amsterdam",
+        "Paris"
+      ],
+      "countries": [
+        "BG",
+        "PL",
+        "BE",
+        "SK",
+        "FR",
+        "IT",
+        "IE",
+        "GR",
+        "LV",
+        "SE",
+        "ES",
+        "NL",
+        "SI",
+        "AT",
+        "LT",
+        "CY",
+        "FI",
+        "RO",
+        "MT",
+        "HU",
+        "CZ",
+        "PT",
+        "DK",
+        "HR",
+        "DE",
+        "EE",
+        "LU"
+      ],
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Open data",
+        "Nitrogen dioxide",
+        "Air pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NO2/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (NO2 concetrations) map",
+      "subtitle": "Nitrogen dioxide in Europe - daily average",
+      "code": "N1b_NO2",
+      "id": "NO2",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1b_NO2",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_NO2/N1b_NO2.png"
+      ],
+      "tags": [
+        "Air quality",
+        "Copernicus Services",
+        "NO2",
+        "CAMS",
+        "Multi-sensors",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "EAC4"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./O3/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (O3 concetrations) map",
+      "subtitle": "Ozone at global level - daily average",
+      "code": "N1b_O3",
+      "id": "O3",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1b_O3",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_O3/N1b_O3.png"
+      ],
+      "tags": [
+        "Air quality",
+        "Copernicus Services",
+        "O3",
+        "CAMS",
+        "Multi-sensors",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "EAC4"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./PM10/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (PM10 concetrations) map",
+      "subtitle": "Particulate matter 10µm in Europe - daily average",
+      "code": "N1b_PM10",
+      "id": "PM10",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1b_PM10",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM10/N1b_PM10.png"
+      ],
+      "tags": [
+        "Air quality",
+        "Copernicus Services",
+        "PM10",
+        "CAMS",
+        "Multi-sensors",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "EAC4"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./PM25/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (PM2.5 concetrations) map",
+      "subtitle": "Particulate matter 2.5µm in Europe - daily average",
+      "code": "N1b_PM25",
+      "id": "PM25",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1b_PM25",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM25/N1b_PM25.png"
+      ],
+      "tags": [
+        "Air quality",
+        "Copernicus Services",
+        "PM25",
+        "CAMS",
+        "Multi-sensors",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "EAC4"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://eurodatacube.github.io/eodash-catalog/RACE/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "RACE"
+}
