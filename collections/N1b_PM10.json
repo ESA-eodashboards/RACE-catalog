@@ -74,6 +74,7 @@
       "#00441b"
     ],
     "scaleType": "discrete",
+    "tickFormat": ".0f",
     "title": "PM10 [\u00b5g/m\u00b3]"
   }
 }

@@ -74,6 +74,7 @@
       "#3f007d"
     ],
     "scaleType": "discrete",
+    "tickFormat": ".0f",
     "title": "PM2.5 [\u00b5g/m\u00b3]"
   }
 }
