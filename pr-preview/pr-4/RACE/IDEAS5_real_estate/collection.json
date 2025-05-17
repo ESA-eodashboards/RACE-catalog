@@ -90,6 +90,7 @@
     }
   ],
   "subtitle": "Highest-risk areas, characterized by poor insulation or LST and a vulnerable population (elderly and economically disadvantaged)",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png",
   "themes": [
     "economy"
   ],
@@ -160,11 +161,20 @@
       "economy"
     ],
     "satellite": [
-      "Landsat 8",
-      "Landsat 9"
+      "Landsat 9",
+      "Landsat 8"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

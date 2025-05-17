@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "IDEAS5_real_estate_b1",
   "stac_version": "1.1.0",
-  "description": "Highest-risk areas, characterized by poor insulation or LST and a vulnerable population (elderly and economically disadvantaged)",
+  "description": "## Heat Risk Indicator\n\nThis indicator is a combination of satellite and field data.\n\n* For satellite data, the land surface temperature measured from Landsat 8/9 is used. It allows to identify the warmer areas in the city.\n* For field data, the French National Database of Buildings is used. It gather information about thousands of building in France. It includes the energy efficiency report, which provides information on the quality of insulation in homes, and economic statistics such as the price per m², which is used as an indicator to classify areas into rich and poor categories.\n\nFor data interpretation, the values range from 1 to 6, with 6 representing the highest-risk areas, characterized by poor insulation or LST and a vulnerable population (elderly and economically disadvantaged). The shown values can be filtered using the range slider in the Analysis panel.\n\nFurther information can be found [here](https://github.com/sistemagmbh/IDEAS-IDEAS-Libraries/blob/main/indicator5/Sorytelling_RealEstate.md).\n\nIncludes the following layers:\n\n- **Land Surface Temperature Indicator**: sub-layers of the indicator, representing the combination of data on population age, social status, and building insulation (or LST depending on the file).\n- **Indicator for population age, social status, and building insulation**: sub-layers of the indicator, representing the combination of data on\npopulation age, social status, and building insulation (or LST depending on the file).\n- **Heat Risk Indicator**: the intersection of these two sub-layers. It highlights areas where the classifications match in both sub-layers.\n\n\n- **Spatial coverage : France**\n- **Temporal coverage : 1 time**\n- **Spatial resolution : 30m**\n- **Format : COG product**\n\nV1 - 2024/09/25",
   "links": [
     {
       "rel": "root",
@@ -124,8 +124,8 @@
       "economy"
     ],
     "satellite": [
-      "Landsat 8",
-      "Landsat 9"
+      "Landsat 9",
+      "Landsat 8"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"

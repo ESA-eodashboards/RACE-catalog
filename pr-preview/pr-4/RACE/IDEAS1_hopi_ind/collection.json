@@ -122,6 +122,7 @@
       "title": "RACE"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png",
   "themes": [
     "health"
   ],
@@ -193,10 +194,10 @@
   ],
   "summaries": {
     "subcode": [
-      "IND1_1_b3",
       "IND1_1_b2",
-      "IND1_1_b4",
       "IND1_1_b5",
+      "IND1_1_b3",
+      "IND1_1_b4",
       "IND1_1_b1"
     ],
     "themes": [
@@ -205,5 +206,14 @@
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

@@ -21,7 +21,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/ideas-assets/collections/IDEAS1_hopi/flatstyle_b2.json",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS1_hopi/flatstyle_b2.json",
       "type": "text/cog-styles",
       "asset:keys": [
         "winter"
