@@ -1,0 +1,150 @@
+{
+  "type": "Collection",
+  "id": "IDEAS5_real_estate_b1",
+  "stac_version": "1.1.0",
+  "description": "Highest-risk areas, characterized by poor insulation or LST and a vulnerable population (elderly and economically disadvantaged)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS5_real_estate_b1/collection.json",
+      "type": "application/json",
+      "title": "Heat Risk Indicator",
+      "endpointtype": "COG source",
+      "subtitle": "Highest-risk areas, characterized by poor insulation or LST and a vulnerable population (elderly and economically disadvantaged)",
+      "code": "IND5_1_b1",
+      "id": "IDEAS5_real_estate_b1",
+      "themes": [
+        "economy"
+      ],
+      "tags": [
+        "real estate"
+      ],
+      "satellite": [
+        "Landsat 8",
+        "Landsat 9"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "IND5_1_b1"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Highest-risk areas, characterized by poor insulation or LST and a vulnerable population (elderly and economically disadvantaged)",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "real estate"
+  ],
+  "satellite": [
+    "Landsat 8",
+    "Landsat 9"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "IND5_1_b1",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      6
+    ],
+    "range": [
+      "#ffffff",
+      "#ffffb2",
+      "#ffff65",
+      "#ffff17",
+      "#ffdb00",
+      "#ffa800",
+      "#ff7400",
+      "#ff4100",
+      "#ff0d00",
+      "#d90000",
+      "#a50000",
+      "#720000",
+      "#3e0000",
+      "#0b0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "[0 is best, 6 is worst]"
+  },
+  "title": "Heat Risk Indicator",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -5.5,
+          41.2,
+          10.7,
+          51.1
+        ],
+        [
+          -5.5,
+          41.2,
+          10.7,
+          51.1
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Murmuration",
+      "url": "https://murmuration-sas.com/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "IND5_1_b1"
+    ],
+    "themes": [
+      "economy"
+    ],
+    "satellite": [
+      "Landsat 8",
+      "Landsat 9"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

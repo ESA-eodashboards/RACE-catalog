@@ -104,6 +104,58 @@
     },
     {
       "rel": "child",
+      "href": "./IDEAS5_real_estate_b1/collection.json",
+      "type": "application/json",
+      "title": "Heat Risk Indicator",
+      "subtitle": "Highest-risk areas, characterized by poor insulation or LST and a vulnerable population (elderly and economically disadvantaged)",
+      "code": "IND5_1_b1",
+      "id": "IDEAS5_real_estate_b1",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "IND5_1_b1",
+      "satellite": [
+        "Landsat 8",
+        "Landsat 9"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"
+      ],
+      "tags": [
+        "real estate"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS5_real_estate_b2/collection.json",
+      "type": "application/json",
+      "title": "Indicator for population age, social status, and building insulation",
+      "subtitle": "",
+      "code": "IND5_1_b2",
+      "id": "IDEAS5_real_estate_b2",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "IND5_1_b2",
+      "satellite": [
+        "Landsat 8",
+        "Landsat 9"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"
+      ],
+      "tags": [
+        "real estate"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./IDEAS1_hopi_minesweeper/collection.json",
       "type": "application/json",
       "title": "HOUHPI Minesweeper Game",
@@ -126,6 +178,72 @@
     },
     {
       "rel": "child",
+      "href": "./IDEAS2_wildlife/collection.json",
+      "type": "application/json",
+      "title": "Wildlife Biodiversity Indicator",
+      "subtitle": "Identify areas of high biodiversity",
+      "code": "IND2_1",
+      "id": "IDEAS2_wildlife",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "IND2_1",
+      "satellite": [
+        "MODIS",
+        "Sentinel-3"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife.png"
+      ],
+      "tags": [
+        "GBIF",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "GBIF"
+      ],
+      "otherSources": [
+        "Open Data Soft"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS2_wildlife_minesweeper/collection.json",
+      "type": "application/json",
+      "title": "Wildlife Biodiversity Minesweeper Game",
+      "subtitle": "Indicator 2: Wildlife Diversity Game mode",
+      "code": "IND2_1_minesweeper",
+      "id": "IDEAS2_wildlife_minesweeper",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "IND2_1_minesweeper",
+      "satellite": [
+        "MODIS",
+        "Sentinel-3"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_minesweeper.png"
+      ],
+      "tags": [
+        "GBIF",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "GBIF"
+      ],
+      "otherSources": [
+        "Open Data Soft"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./city_no2/collection.json",
       "type": "application/json",
       "title": "Air Quality (tropospheric NO2 concetrations) at city level",
@@ -143,62 +261,62 @@
         "TROPOMI"
       ],
       "cities": [
-        "Nicosia",
-        "Bratislava",
-        "Brussels",
-        "Prague",
-        "Berlin",
-        "Athens",
-        "Budapest",
-        "Tallinn",
-        "Copenhagen",
-        "Warsaw",
-        "Zagreb",
-        "Amsterdam",
-        "Paris",
-        "Bucharest",
-        "Luxembourg",
-        "Dublin",
-        "Vilnius",
-        "Riga",
-        "Vienna",
-        "Madrid",
-        "Rome",
-        "Ljubljana",
-        "Sofia",
-        "Stockholm",
         "Lisbon",
+        "Bucharest",
+        "Berlin",
+        "Vilnius",
+        "Madrid",
+        "Tallinn",
+        "Ljubljana",
+        "Budapest",
+        "Valletta",
+        "Zagreb",
+        "Athens",
         "Helsinki",
-        "Valletta"
+        "Luxembourg",
+        "Brussels",
+        "Paris",
+        "Riga",
+        "Prague",
+        "Vienna",
+        "Sofia",
+        "Copenhagen",
+        "Amsterdam",
+        "Warsaw",
+        "Rome",
+        "Nicosia",
+        "Dublin",
+        "Bratislava",
+        "Stockholm"
       ],
       "countries": [
-        "CZ",
-        "FR",
-        "IE",
-        "GR",
-        "PT",
-        "IT",
-        "DE",
-        "BG",
         "SE",
-        "RO",
-        "NL",
-        "HR",
-        "SI",
-        "DK",
-        "FI",
-        "SK",
+        "FR",
+        "HU",
+        "DE",
+        "EE",
         "BE",
         "MT",
-        "ES",
-        "LU",
-        "EE",
-        "LT",
-        "LV",
+        "RO",
         "CY",
+        "GR",
+        "ES",
+        "AT",
+        "LV",
+        "FI",
+        "IT",
+        "IE",
+        "DK",
         "PL",
-        "HU",
-        "AT"
+        "PT",
+        "SK",
+        "CZ",
+        "NL",
+        "LU",
+        "LT",
+        "SI",
+        "BG",
+        "HR"
       ],
       "tags": [
         "Air quality",
@@ -364,6 +482,32 @@
     },
     {
       "rel": "child",
+      "href": "./IDEAS5_real_estate_b3/collection.json",
+      "type": "application/json",
+      "title": "Land Surface Temperature Indicator",
+      "subtitle": "",
+      "code": "IND5_1_b3",
+      "id": "IDEAS5_real_estate_b3",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "IND5_1_b3",
+      "satellite": [
+        "Landsat 8",
+        "Landsat 9"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"
+      ],
+      "tags": [
+        "real estate"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./IDEAS1_hopi_ind/collection.json",
       "type": "application/json",
       "title": "Health-Oriented Urban Heat and Pollution Index and Auxiliary layers",
@@ -379,6 +523,32 @@
       "tags": [
         "heat",
         "pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS5_real_estate/collection.json",
+      "type": "application/json",
+      "title": "Heat Risk Indicator and Auxiliary Layers",
+      "subtitle": "Highest-risk areas, characterized by poor insulation or LST and a vulnerable population (elderly and economically disadvantaged)",
+      "code": "IND5_1",
+      "id": "IDEAS5_real_estate",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "IND5_1",
+      "satellite": [
+        "Landsat 8",
+        "Landsat 9"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"
+      ],
+      "tags": [
+        "real estate"
       ],
       "agency": [
         "ESA"
