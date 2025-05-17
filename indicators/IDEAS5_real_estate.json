@@ -26,5 +26,6 @@
       "Url": "https://murmuration-sas.com/"
     }
   ],
-  "Collections": ["IDEAS5_real_estate_b1","IDEAS5_real_estate_b2","IDEAS5_real_estate_b3"]
+  "Collections": ["IDEAS5_real_estate_b1","IDEAS5_real_estate_b2","IDEAS5_real_estate_b3"],
+  "Image": "IDEAS5_real_estate/IDEAS5_real_estate.png"
 }

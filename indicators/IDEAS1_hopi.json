@@ -24,5 +24,6 @@
       "Url": "https://murmuration-sas.com/"
     }
   ],
-  "Collections": ["IDEAS1_hopi_b1","IDEAS1_hopi_b2","IDEAS1_hopi_b3","IDEAS1_hopi_b4","IDEAS1_hopi_b5"]
+  "Collections": ["IDEAS1_hopi_b1","IDEAS1_hopi_b2","IDEAS1_hopi_b3","IDEAS1_hopi_b4","IDEAS1_hopi_b5"],
+  "Image": "IDEAS1_hopi/IDEAS1_hopi.png"
 }

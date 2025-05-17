@@ -28,7 +28,7 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/ideas-assets/collections/IDEAS1_hopi/flatstyle_b1.json",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS1_hopi/flatstyle_b1.json",
       "Bbox": [
         -24,
         33,

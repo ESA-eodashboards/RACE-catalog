@@ -29,7 +29,7 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/ideas-assets/collections/IDEAS5_real_estate/cog_style.json",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS5_real_estate/cog_style.json",
       "Bbox": [
         -5.5,
         41.2,
