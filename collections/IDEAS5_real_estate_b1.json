@@ -1,8 +1,8 @@
 {
-  "Name": "IDEAS5_real_estate",
+  "Name": "IDEAS5_real_estate_b1",
   "Title": "Heat Risk Indicator",
-  "EodashIdentifier": "IND5_1",
-  "Subtitle": "",
+  "EodashIdentifier": "IND5_1_b1",
+  "Subtitle": "Highest-risk areas, characterized by poor insulation or LST and a vulnerable population (elderly and economically disadvantaged)",
   "Description": "IDEAS5_real_estate/IDEAS5_real_estate.md",
   "Themes": [
     "economy"
@@ -28,16 +28,24 @@
   ],
   "Resources": [
     {
-      "Name": "Collection-only",
-      "EndPoint": "Collection-only",
-      "OverwriteBBox": [
-        -24,
-        33,
-        42,
-        71
+      "Name": "COG source",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/ideas-assets/collections/IDEAS5_real_estate/cog_style.json",
+      "Bbox": [
+        -5.5,
+        41.2,
+        10.7,
+        51.1
       ],
-      "Times": [
-        "2022"
+      "TimeEntries": [
+        {
+          "Time": "20220101T0000",
+          "Assets": [
+            {
+              "Identifier": "spring",
+              "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator5/final_Real-Estate_output_France_4326_calc_COG.tif"
+            }
+          ]
+        }
       ]
     }
   ],
