@@ -134,14 +134,14 @@
       "agriculture"
     ],
     "satellite": [
+      "Sentinel-2",
       "Landsat-8",
-      "Sentinel-1",
-      "Sentinel-2"
+      "Sentinel-1"
     ],
     "sensor": [
+      "OLI",
       "MSI",
-      "C-SAR",
-      "OLI"
+      "C-SAR"
     ],
     "cities": [
       "Spain"

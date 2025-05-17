@@ -1,0 +1,80 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2022-01-01T00:00:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -5.5,
+          41.2
+        ],
+        [
+          10.7,
+          41.2
+        ],
+        [
+          10.7,
+          51.1
+        ],
+        [
+          -5.5,
+          51.1
+        ],
+        [
+          -5.5,
+          41.2
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -5.5,
+    41.2,
+    10.7,
+    51.1
+  ],
+  "properties": {
+    "datetime": "2022-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS5_real_estate/cog_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "spring"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Land Surface Temperature Indicator"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Land Surface Temperature Indicator"
+    }
+  ],
+  "assets": {
+    "spring": {
+      "href": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator5/final_lst_output_France_4326_calc_COG.tif",
+      "type": "image/tiff",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "IDEAS5_real_estate_b3"
+}

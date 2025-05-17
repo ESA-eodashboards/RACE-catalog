@@ -22,10 +22,24 @@
       "themes": [
         "agriculture"
       ],
+      "tags": [
+        "GBIF",
+        "Open data"
+      ],
       "agency": [
         "ESA"
       ],
-      "subcode": "IND2_1_minesweeper"
+      "subcode": "IND2_1_minesweeper",
+      "satellite": [
+        "MODIS",
+        "Sentinel-3"
+      ],
+      "insituSources": [
+        "GBIF"
+      ],
+      "otherSources": [
+        "Open Data Soft"
+      ]
     },
     {
       "rel": "parent",
@@ -39,10 +53,38 @@
   "themes": [
     "agriculture"
   ],
+  "tags": [
+    "GBIF",
+    "Open data"
+  ],
   "agency": [
     "ESA"
   ],
   "subcode": "IND2_1_minesweeper",
+  "satellite": [
+    "MODIS",
+    "Sentinel-3"
+  ],
+  "insituSources": [
+    "GBIF"
+  ],
+  "otherSources": [
+    "Open Data Soft"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "range": [
+      "#fde725",
+      "#2f918c",
+      "#440154"
+    ],
+    "scaleType": "categorical",
+    "title": "[wildlife biodiversity index]"
+  },
   "title": "Wildlife Biodiversity Minesweeper Game",
   "extent": {
     "spatial": {
@@ -83,6 +125,10 @@
     ],
     "themes": [
       "agriculture"
+    ],
+    "satellite": [
+      "MODIS",
+      "Sentinel-3"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_minesweeper.png"

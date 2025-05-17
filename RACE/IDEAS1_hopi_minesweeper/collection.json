@@ -15,7 +15,7 @@
       "href": "./IDEAS1_hopi_minesweeper/collection.json",
       "type": "application/json",
       "title": "HOUHPI Minesweeper Game",
-      "endpointtype": "Collection-only",
+      "endpointtype": "COG source",
       "subtitle": "Indicator 1: HOUHPI Game mode",
       "code": "IND1_1_minesweeper",
       "id": "IDEAS1_hopi_minesweeper",
@@ -49,6 +49,31 @@
     "ESA"
   ],
   "subcode": "IND1_1_minesweeper",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      85
+    ],
+    "range": [
+      "#ffffff",
+      "#ffffb2",
+      "#ffff65",
+      "#ffff17",
+      "#ffdb00",
+      "#ffa800",
+      "#ff7400",
+      "#ff4100",
+      "#ff0d00",
+      "#d90000",
+      "#a50000",
+      "#720000",
+      "#3e0000",
+      "#0b0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "[Days where air pollution exceeded WHO threshold]"
+  },
   "title": "HOUHPI Minesweeper Game",
   "extent": {
     "spatial": {
@@ -70,8 +95,8 @@
     "temporal": {
       "interval": [
         [
-          "2021-01-01T00:00:00Z",
-          "2021-01-01T00:00:00Z"
+          "2021-04-01T00:00:00Z",
+          "2021-04-01T00:00:00Z"
         ]
       ]
     }

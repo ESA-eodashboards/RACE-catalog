@@ -157,8 +157,8 @@
       "economy"
     ],
     "satellite": [
-      "CLMS HR-VPP Seasonal Trajectory",
       "Sentinel-2",
+      "CLMS HR-VPP Seasonal Trajectory",
       "CLMS HR-VPP Vegetation Indices"
     ]
   },

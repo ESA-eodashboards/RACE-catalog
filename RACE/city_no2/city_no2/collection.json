@@ -298,6 +298,7 @@
       "#7f2704"
     ],
     "scaleType": "discrete",
+    "tickFormat": ".0f",
     "title": "Tropospheric NO2 [µg/m³]"
   },
   "geoDBID": "N1",

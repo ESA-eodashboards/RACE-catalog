@@ -74,10 +74,12 @@
   "eox:colorlegend": {
     "domain": [
       "low",
+      "medium",
       "high"
     ],
     "range": [
       "#fde725",
+      "#2f918c",
       "#440154"
     ],
     "scaleType": "categorical",

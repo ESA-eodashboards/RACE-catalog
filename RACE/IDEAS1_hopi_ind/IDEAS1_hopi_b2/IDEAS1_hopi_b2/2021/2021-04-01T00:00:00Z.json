@@ -1,0 +1,80 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2021-04-01T00:00:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -24,
+          33
+        ],
+        [
+          42,
+          33
+        ],
+        [
+          42,
+          71
+        ],
+        [
+          -24,
+          71
+        ],
+        [
+          -24,
+          33
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -24,
+    33,
+    42,
+    71
+  ],
+  "properties": {
+    "datetime": "2021-04-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS1_hopi/flatstyle_b2.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "winter"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "HOUHPI Number of people of age > 60 or <5"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "HOUHPI Number of people of age > 60 or <5"
+    }
+  ],
+  "assets": {
+    "winter": {
+      "href": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Winter_europe_3857_b2.tif",
+      "type": "image/tiff",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "IDEAS1_hopi_b2"
+}

@@ -12,9 +12,20 @@
     },
     {
       "rel": "item",
-      "href": "./IDEAS1_hopi_minesweeper/2021/2021-01-01T00:00:00Z.json",
+      "href": "./IDEAS1_hopi_minesweeper/2021/2021-04-01T00:00:00Z.json",
       "type": "application/geo+json",
-      "datetime": "2021-01-01T00:00:00Z"
+      "datetime": "2021-04-01T00:00:00Z",
+      "assets": [
+        "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Winter_europe_3857_b4.tif"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS1_hopi/flatstyle_b4.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "spring"
+      ]
     },
     {
       "rel": "parent",
@@ -35,7 +46,32 @@
     "ESA"
   ],
   "subcode": "IND1_1_minesweeper",
-  "endpointtype": "Collection-only",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      85
+    ],
+    "range": [
+      "#ffffff",
+      "#ffffb2",
+      "#ffff65",
+      "#ffff17",
+      "#ffdb00",
+      "#ffa800",
+      "#ff7400",
+      "#ff4100",
+      "#ff0d00",
+      "#d90000",
+      "#a50000",
+      "#720000",
+      "#3e0000",
+      "#0b0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "[Days where air pollution exceeded WHO threshold]"
+  },
+  "endpointtype": "COG source",
   "title": "HOUHPI Minesweeper Game",
   "extent": {
     "spatial": {
@@ -51,8 +87,8 @@
     "temporal": {
       "interval": [
         [
-          "2021-01-01T00:00:00Z",
-          "2021-01-01T00:00:00Z"
+          "2021-04-01T00:00:00Z",
+          "2021-04-01T00:00:00Z"
         ]
       ]
     }

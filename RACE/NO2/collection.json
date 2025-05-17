@@ -91,6 +91,7 @@
       "#7f2704"
     ],
     "scaleType": "discrete",
+    "tickFormat": ".0f",
     "title": "Tropospheric NO2 [µg/m³]"
   },
   "title": "Air Quality (NO2 concetrations) map",

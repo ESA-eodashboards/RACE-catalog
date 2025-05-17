@@ -91,6 +91,7 @@
       "#3f007d"
     ],
     "scaleType": "discrete",
+    "tickFormat": ".0f",
     "title": "PM2.5 [µg/m³]"
   },
   "title": "Air Quality (PM2.5 concetrations) map",

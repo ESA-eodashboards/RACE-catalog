@@ -91,6 +91,7 @@
       "#7f2704"
     ],
     "scaleType": "discrete",
+    "tickFormat": ".0f",
     "title": "O3 [µg/m³]"
   },
   "title": "Air Quality (O3 concetrations) map",

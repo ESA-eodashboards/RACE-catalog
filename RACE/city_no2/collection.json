@@ -150,6 +150,7 @@
       "#7f2704"
     ],
     "scaleType": "discrete",
+    "tickFormat": ".0f",
     "title": "Tropospheric NO2 [µg/m³]"
   },
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",

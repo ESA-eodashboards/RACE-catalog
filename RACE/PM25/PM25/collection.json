@@ -2263,6 +2263,7 @@
       "#3f007d"
     ],
     "scaleType": "discrete",
+    "tickFormat": ".0f",
     "title": "PM2.5 [µg/m³]"
   },
   "endpointtype": "WMS_Time",

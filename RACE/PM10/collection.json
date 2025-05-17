@@ -91,6 +91,7 @@
       "#00441b"
     ],
     "scaleType": "discrete",
+    "tickFormat": ".0f",
     "title": "PM10 [µg/m³]"
   },
   "title": "Air Quality (PM10 concetrations) map",
