@@ -37,6 +37,7 @@
   "Resources": [
     {
       "Name": "COG source",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/ideas-assets/collections/IDEAS2_wildlife/flatstyle.json",
       "Bbox": [
         -24,
         33,
@@ -61,10 +62,12 @@
   "Colorlegend": {
     "domain": [
       "low",
+      "medium",
       "high"
     ],
     "range": [
       "#fde725",
+      "#2f918c",
       "#440154"
     ],
     "scaleType": "categorical",
