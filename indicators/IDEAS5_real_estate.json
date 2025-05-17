@@ -1,0 +1,31 @@
+{
+  "Name": "IDEAS5_real_estate",
+  "Title": "Heat Risk Indicator and Auxiliary Layers",
+  "EodashIdentifier": "IND5_1",
+  "Subtitle": "Highest-risk areas, characterized by poor insulation or LST and a vulnerable population (elderly and economically disadvantaged)",
+  "Description": "IDEAS5_real_estate/IDEAS5_real_estate.md",
+  "Themes": [
+    "economy"
+  ],
+  "Satellite": [
+    "Landsat 8",
+    "Landsat 9"
+  ],
+  "Others": [
+    "French National Database of Buildings"
+  ],
+  "Tags": [
+    "real estate"
+  ],
+  "Agency": [
+    "ESA"
+  ],
+  "Provider": [
+    {
+      "Name": "Murmuration",
+      "Url": "https://murmuration-sas.com/"
+    }
+  ],
+  "Collections": ["IDEAS5_real_estate_b1","IDEAS5_real_estate_b2","IDEAS5_real_estate_b3"],
+  "Image": "IDEAS5_real_estate/IDEAS5_real_estate.png"
+}

@@ -7,6 +7,24 @@
   "Themes": [
     "agriculture"
   ],
+  "Tags": [
+    "GBIF",
+    "Open data"
+  ],
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [
+        "MODIS",
+        "Sentinel-3"
+      ]
+    },
+    "InSitu": [
+      "GBIF"
+    ],
+    "Other": [
+      "Open Data Soft"
+    ]
+  },
   "Agency": [
     "ESA"
   ],
@@ -19,6 +37,7 @@
   "Resources": [
     {
       "Name": "COG source",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS2_wildlife/flatstyle_b1.json",
       "Bbox": [
         -24,
         33,
@@ -38,5 +57,19 @@
       ]
     }
   ],
+  "Colorlegend": {
+    "domain": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "range": [
+      "#fde725",
+      "#2f918c",
+      "#440154"
+    ],
+    "scaleType": "categorical",
+    "title": "[wildlife biodiversity index]"
+  },
   "Image": "IDEAS2_wildlife/IDEAS2_wildlife_minesweeper.png"
 }

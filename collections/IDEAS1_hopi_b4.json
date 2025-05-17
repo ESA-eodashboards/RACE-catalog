@@ -1,14 +1,20 @@
 {
-  "Name": "IDEAS1_hopi_minesweeper",
-  "Title": "HOUHPI Minesweeper Game",
-  "EodashIdentifier": "IND1_1_minesweeper",
-  "Subtitle": "Indicator 1: HOUHPI Game mode",
-  "Description": "IDEAS1_hopi/IDEAS1_hopi_minesweeper.md",
+  "Name": "IDEAS1_hopi_b4",
+  "Title": "HOUHPI Number of days where air pollution exceeded WHO threshold",
+  "EodashIdentifier": "IND1_1_b4",
+  "Subtitle": "Number of days where air pollution exceeded WHO threshold",
+  "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
   "Themes": [
     "health"
   ],
   "Tags": [
-    "game"
+    "heat",
+    "pollution"
+  ],
+  "Other": [
+    "multiple",
+    "HDX",
+    "CAMS"
   ],
   "Agency": [
     "ESA"
@@ -34,7 +40,7 @@
           "Time": "20210401T0000",
           "Assets": [
             {
-              "Identifier": "spring",
+              "Identifier": "winter",
               "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Winter_europe_3857_b4.tif"
             }
           ]
@@ -42,7 +48,7 @@
       ]
     }
   ],
-  "Image": "IDEAS1_hopi/IDEAS1_hopi_minesweeper.png",
+  "Image": "IDEAS1_hopi/IDEAS1_hopi.png",
   "Colorlegend": {
     "domain": [
       0,
@@ -66,6 +72,6 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "[Days where air pollution exceeded WHO threshold]"
+    "title": "[days]"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "Name": "IDEAS1_hopi_ind",
+  "Title": "Health-Oriented Urban Heat and Pollution Index and Auxiliary layers",
+  "EodashIdentifier": "IND1_1",
+  "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
+  "Themes": [
+    "health"
+  ],
+  "Tags": [
+    "heat",
+    "pollution"
+  ],
+  "Other": [
+    "multiple",
+    "HDX",
+    "CAMS"
+  ],
+  "Agency": [
+    "ESA"
+  ],
+  "Provider": [
+    {
+      "Name": "Murmuration",
+      "Url": "https://murmuration-sas.com/"
+    }
+  ],
+  "Collections": ["IDEAS1_hopi_b1","IDEAS1_hopi_b2","IDEAS1_hopi_b3","IDEAS1_hopi_b4","IDEAS1_hopi_b5"],
+  "Image": "IDEAS1_hopi/IDEAS1_hopi.png"
+}

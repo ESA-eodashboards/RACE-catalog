@@ -83,6 +83,7 @@
       "#7f2704"
     ],
     "scaleType": "discrete",
+    "tickFormat": ".0f",
     "title": "Tropospheric NO2 [\u00b5g/m\u00b3]"
   }
 }

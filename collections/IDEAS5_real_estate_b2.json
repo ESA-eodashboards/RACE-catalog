@@ -1,0 +1,79 @@
+{
+  "Name": "IDEAS5_real_estate_b2",
+  "Title": "Indicator for population age, social status, and building insulation",
+  "EodashIdentifier": "IND5_1_b2",
+  "Subtitle": "",
+  "Description": "IDEAS5_real_estate/IDEAS5_real_estate.md",
+  "Themes": [
+    "economy"
+  ],
+  "Satellite": [
+    "Landsat 8",
+    "Landsat 9"
+  ],
+  "Others": [
+    "French National Database of Buildings"
+  ],
+  "Tags": [
+    "real estate"
+  ],
+  "Agency": [
+    "ESA"
+  ],
+  "Provider": [
+    {
+      "Name": "Murmuration",
+      "Url": "https://murmuration-sas.com/"
+    }
+  ],
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS5_real_estate/cog_style.json",
+      "Bbox": [
+        -5.5,
+        41.2,
+        10.7,
+        51.1
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20220101T0000",
+          "Assets": [
+            {
+              "Identifier": "spring",
+              "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator5/final_dpe_output_France_4326_calc_COG.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Legend": "IDEAS5_real_estate/cm_legend.png",
+  "Image": "IDEAS5_real_estate/IDEAS5_real_estate.png",
+  "Colorlegend": {
+    "domain": [
+      0,
+      6
+    ],
+    "range": [
+      "#ffffff",
+      "#ffffb2",
+      "#ffff65",
+      "#ffff17",
+      "#ffdb00",
+      "#ffa800",
+      "#ff7400",
+      "#ff4100",
+      "#ff0d00",
+      "#d90000",
+      "#a50000",
+      "#720000",
+      "#3e0000",
+      "#0b0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "[0 is best, 6 is worst]"
+  }
+}

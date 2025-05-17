@@ -1,14 +1,20 @@
 {
-  "Name": "IDEAS1_hopi_minesweeper",
-  "Title": "HOUHPI Minesweeper Game",
-  "EodashIdentifier": "IND1_1_minesweeper",
-  "Subtitle": "Indicator 1: HOUHPI Game mode",
-  "Description": "IDEAS1_hopi/IDEAS1_hopi_minesweeper.md",
+  "Name": "IDEAS1_hopi_b3",
+  "Title": "HOUHPI Distance to nearest hospital or clinic [km]",
+  "EodashIdentifier": "IND1_1_b3",
+  "Subtitle": "Distance to nearest hospital or clinic [km]",
+  "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
   "Themes": [
     "health"
   ],
   "Tags": [
-    "game"
+    "heat",
+    "pollution"
+  ],
+  "Other": [
+    "multiple",
+    "HDX",
+    "CAMS"
   ],
   "Agency": [
     "ESA"
@@ -22,7 +28,7 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS1_hopi/flatstyle_b4.json",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS1_hopi/flatstyle_b3.json",
       "Bbox": [
         -24,
         33,
@@ -34,19 +40,19 @@
           "Time": "20210401T0000",
           "Assets": [
             {
-              "Identifier": "spring",
-              "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Winter_europe_3857_b4.tif"
+              "Identifier": "winter",
+              "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Winter_europe_3857_b3.tif"
             }
           ]
         }
       ]
     }
   ],
-  "Image": "IDEAS1_hopi/IDEAS1_hopi_minesweeper.png",
+  "Image": "IDEAS1_hopi/IDEAS1_hopi.png",
   "Colorlegend": {
     "domain": [
       0,
-      85
+      200
     ],
     "range": [
       "#ffffff",
@@ -66,6 +72,6 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "[Days where air pollution exceeded WHO threshold]"
+    "title": "[km]"
   }
 }
