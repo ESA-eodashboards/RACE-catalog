@@ -153,13 +153,13 @@
       "CROPOMHUMR2"
     ],
     "themes": [
-      "agriculture",
-      "economy"
+      "economy",
+      "agriculture"
     ],
     "satellite": [
+      "CLMS HR-VPP Vegetation Indices",
       "Sentinel-2",
-      "CLMS HR-VPP Seasonal Trajectory",
-      "CLMS HR-VPP Vegetation Indices"
+      "CLMS HR-VPP Seasonal Trajectory"
     ]
   },
   "assets": {

@@ -12,36 +12,6 @@
     },
     {
       "rel": "item",
-      "href": "./ocean_colour_plankton_atlantic/2025/2025-04-28T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-04-28T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./ocean_colour_plankton_atlantic/2025/2025-04-29T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-04-29T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./ocean_colour_plankton_atlantic/2025/2025-04-30T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-04-30T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./ocean_colour_plankton_atlantic/2025/2025-05-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./ocean_colour_plankton_atlantic/2025/2025-05-02T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-02T00:00:00Z"
-    },
-    {
-      "rel": "item",
       "href": "./ocean_colour_plankton_atlantic/2025/2025-05-03T00:00:00Z.json",
       "type": "application/geo+json",
       "datetime": "2025-05-03T00:00:00Z"
@@ -125,6 +95,12 @@
       "datetime": "2025-05-16T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_atlantic/2025/2025-05-17T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-17T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_ATL_BGC_L4_NRT_009_116/cmems_obs-oc_atl_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202311",
       "type": "image/png",
@@ -189,8 +165,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-04-28T00:00:00Z",
-          "2025-05-16T00:00:00Z"
+          "2025-05-03T00:00:00Z",
+          "2025-05-17T00:00:00Z"
         ]
       ]
     }
