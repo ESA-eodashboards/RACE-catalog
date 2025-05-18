@@ -1,41 +1,56 @@
 {
-  "Name": "HLS_NDVI",
+  "Name": "Sentinel-2 with Ships detections",
   "Title": "Sentinel-2 Ships-detection on-the-fly",
   "EodashIdentifier": "E13c_ship_detections",
   "Description": "E13c_ship_detections_algorithm/E13c_ship_detections_algorithm.md",
-  "Themes": [
-    "economy"
-  ],
-  "Tags": [
-    "Ports",
-    "Maritime",
-    "Traffic",
-    "Multi-sensors"
-  ],
+  "Themes": ["economy"],
+  "Tags": ["Ports", "Maritime", "Traffic", "Multi-sensors"],
   "DataSource": {
     "Spaceborne": {
-      "Satellite": [
-        "Sentinel-2"
-      ],
-      "Sensor": [
-        "MSI"
-      ]
+      "Satellite": ["Sentinel-2"],
+      "Sensor": ["MSI"]
     }
   },
+  "Agency": ["European Commission", "ESA"],
+  "Image": "E13c_ship_detections_algorithm/thumbnail.png",
   "Provider": [
     {
       "Name": "Copernicus",
       "Url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "Name": "Sentinel-Hub"
     }
   ],
-  "Agency": [
-    "ESA"
+  "References": [
+    {
+      "Name": "GitHub repository of vessel detection model",
+      "Key": "draft_inference",
+      "Url": "https://github.com/ShipDetectionExperts/draft_inference"
+    }
   ],
   "Resources": [
     {
-      "Name": "Collection-only",
-      "EndPoint": "Collection-only"
+      "EndPoint": "https://services.sentinel-hub.com/ogc/wms/{SH_INSTANCE_ID}",
+      "Name": "Sentinel Hub WMS",
+      "LayerId": "SENTINEL-2-L2A-TRUE-COLOR",
+      "DateTimeInterval": {
+        "Start": "2024-01-01T00:00:00Z",
+        "End": "today"
+      }
     }
   ],
-  "Image": "E13c_ship_detections_algorithm/thumbnail.png"
+  "Process": {
+    "Name": "E13c_ship_detections_algorithm",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13c_ship_detections_algorithm/jsonform.json",
+    "EndPoints": [
+      {
+        "rel": "service",
+        "Identifier": "E13c_ship_detections",
+        "Url": "https://gtif-backend.hub.eox.at/ship_detection?lon_min={{bbox.0}}&lat_min={{bbox.1}}&lon_max={{bbox.2}}&lat_max={{bbox.3}}&start_date={{start_date}}&end_date={{start_date}}&threshold={{threshold}}",
+        "Type": "application/geo+json",
+        "Flatstyle": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13c_ship_detections_algorithm/flatsyle.json"
+      }
+    ]
+  }
 }
