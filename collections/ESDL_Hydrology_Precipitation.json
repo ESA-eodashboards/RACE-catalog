@@ -76,12 +76,6 @@
       ]
     }
   ],
-  "References": [
-    {
-      "Name": "Daily precipitation product",
-      "Url": "https://stac.eurac.edu:8080/collections/rainfall_all_domain"
-    }
-  ],
   "Resources": [
     {
       "EndPoint": "https://api.earthsystemdatalab.net/api",
