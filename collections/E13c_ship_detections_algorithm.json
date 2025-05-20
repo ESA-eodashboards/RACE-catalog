@@ -49,7 +49,7 @@
         "Identifier": "E13c_ship_detections",
         "Url": "https://gtif-backend.hub.eox.at/ship_detection?lon_min={{bbox.0}}&lat_min={{bbox.1}}&lon_max={{bbox.2}}&lat_max={{bbox.3}}&start_date={{start_date}}&end_date={{start_date}}&threshold={{threshold}}",
         "Type": "application/geo+json",
-        "Flatstyle": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13c_ship_detections_algorithm/flatsyle.json"
+        "Flatstyle": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13c_ship_detections_algorithm/flatstyle.json"
       }
     ]
   }
