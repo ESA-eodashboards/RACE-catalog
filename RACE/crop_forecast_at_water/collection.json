@@ -153,12 +153,12 @@
       "CROPOMAT2"
     ],
     "themes": [
-      "economy",
-      "agriculture"
+      "agriculture",
+      "economy"
     ],
     "satellite": [
-      "CLMS HR-VPP Vegetation Indices",
       "Sentinel-2",
+      "CLMS HR-VPP Vegetation Indices",
       "CLMS HR-VPP Seasonal Trajectory"
     ]
   },

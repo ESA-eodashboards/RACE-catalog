@@ -140,8 +140,8 @@
       "Sentinel-1"
     ],
     "sensor": [
-      "MSI",
-      "SAR"
+      "SAR",
+      "MSI"
     ]
   },
   "assets": {

@@ -45,7 +45,7 @@
       "type": "application/geo+json",
       "id": "E13c_ship_detections",
       "method": "GET",
-      "eox:flatstyle": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13c_ship_detections_algorithm/flatsyle.json"
+      "eox:flatstyle": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13c_ship_detections_algorithm/flatstyle.json"
     },
     {
       "rel": "parent",
@@ -98,7 +98,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-05-18T00:00:00Z"
+          "2025-05-21T00:00:00Z"
         ]
       ]
     }

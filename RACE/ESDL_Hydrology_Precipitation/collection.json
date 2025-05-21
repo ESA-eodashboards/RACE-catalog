@@ -173,8 +173,8 @@
       "ESDL_Hydrology_Precipitation"
     ],
     "themes": [
-      "agriculture",
-      "water"
+      "water",
+      "agriculture"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.png"
@@ -193,14 +193,6 @@
       "type": "image/png",
       "roles": [
         "thumbnail"
-      ]
-    },
-    "reference_1": {
-      "href": "https://stac.eurac.edu:8080/collections/rainfall_all_domain",
-      "type": "text/html",
-      "title": "Daily precipitation product",
-      "roles": [
-        "metadata"
       ]
     }
   }
