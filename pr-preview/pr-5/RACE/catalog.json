@@ -273,58 +273,58 @@
         "C-SAR"
       ],
       "cities": [
-        "Trieste",
-        "Tallin",
-        "Constanta",
-        "Rotterdam",
-        "Bergen",
-        "Hamburg",
-        "Marseille",
-        "Peiraias",
-        "Genova",
-        "Dunkerque",
-        "Barcelona",
-        "Valencia",
-        "Le Havre",
-        "Klaipeda",
-        "Dublin",
-        "Bilbao",
-        "La Spezia",
-        "Algeciras",
-        "Riga",
         "Aliaga",
-        "Skagen",
-        "Kaliningrad",
-        "Sines",
-        "Gioia Tauro",
-        "Antwerpen",
-        "Las Palmas",
-        "Bremerhaven, Hamburg, Wilhelmshaven",
+        "Marseille",
+        "Algeciras",
+        "Bilbao",
         "Taranto",
-        "Gdansk",
+        "Gioia Tauro",
+        "Amsterdam",
+        "Dunkerque",
+        "Bremerhaven, Hamburg, Wilhelmshaven",
+        "Kaliningrad",
+        "Valencia",
+        "Peiraias",
         "Göteborg",
+        "Skagen",
+        "Dublin",
+        "Las Palmas",
+        "Bergen",
+        "Trieste",
+        "Antwerpen",
         "Instanbul",
-        "Amsterdam"
+        "Constanta",
+        "Sines",
+        "Le Havre",
+        "Hamburg",
+        "Rotterdam",
+        "Klaipeda",
+        "Genova",
+        "Riga",
+        "Barcelona",
+        "Gdansk",
+        "Tallin",
+        "La Spezia"
       ],
       "countries": [
-        "DE",
+        "RO",
+        "BE",
         "EE",
         "PT",
-        "IT",
-        "ES",
-        "NL",
-        "DK",
-        "TR",
-        "RO",
         "PL",
-        "LT",
-        "RU",
-        "LV",
-        "IE",
-        "BE",
         "GR",
+        "ES",
         "NO",
-        "FR"
+        "TR",
+        "RU",
+        "IT",
+        "LV",
+        "FR",
+        "LT",
+        "DK",
+        "DE",
+        "IE",
+        "NL"
       ],
       "tags": [
         "Copernicus",
@@ -335,6 +335,270 @@
       ],
       "agency": [
         "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./GHS-BUILT-S-R2023A/collection.json",
+      "type": "application/json",
+      "title": "GHS-BUILT-S-R2023A",
+      "subtitle": "GHS built-up surface dataset GHS-BUILT-S_GLOBE_R2023A",
+      "code": "GHSBUILT",
+      "id": "GHS-BUILT-S-R2023A",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "GHSBUILT",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GHS-BUILT-S-R2023A/GHS-BUILT-S-R2023A.png"
+      ],
+      "tags": [
+        "Copernicus",
+        "Human settlement",
+        "Human activities",
+        "EMS",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./CO_3_daily/collection.json",
+      "type": "application/json",
+      "title": "Carbon Monoxide observed by Sentinel-5p TROPOMI",
+      "subtitle": "Global 3-daily Carbon monoxide",
+      "code": "N1_CO",
+      "id": "CO_3_daily",
+      "themes": [
+        "air",
+        "extreme-events"
+      ],
+      "subcode": "N1_CO",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.png"
+      ],
+      "tags": [
+        "Air quality",
+        "CO",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NO2_daily/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (tropospheric NO2 concetrations)",
+      "subtitle": "Daily Nitrogen Dioxide",
+      "code": "N1_NO2",
+      "id": "NO2_daily",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1_NO2",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.png"
+      ],
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./so2_daily/collection.json",
+      "type": "application/json",
+      "title": "Sulfur Dioxide observed by Sentinel-5p TROPOMI",
+      "subtitle": "Global daily SO2",
+      "code": "N1_SO2",
+      "id": "so2_daily",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1_SO2",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/N1_SO2.png"
+      ],
+      "tags": [
+        "Air quality",
+        "SO2",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./methane_monitoring/collection.json",
+      "type": "application/json",
+      "title": "Methane monitoring",
+      "subtitle": "Daily Methane Monitoring",
+      "code": "N1_CH4",
+      "id": "methane_monitoring",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1_CH4",
+      "satellite": [
+        "Sentinel-5P",
+        "GOSAT"
+      ],
+      "sensor": [
+        "TROPOMI",
+        "TANSO"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.png"
+      ],
+      "tags": [
+        "Air quality",
+        "CH4",
+        "Multi-sensors",
+        "Open data"
+      ],
+      "agency": [
+        "ESA",
+        "JAXA",
+        "NASA",
+        "NIWA"
+      ],
+      "insituSources": [
+        "TCCON"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./chl_concentration/collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration maps",
+      "subtitle": "Chlorophyll-a concentration description",
+      "code": "N3a2",
+      "id": "chl_concentration",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "N3a2",
+      "satellite": [
+        "Sentinel-3"
+      ],
+      "sensor": [
+        "OLCI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration/N3a2_chl_concentration.png"
+      ],
+      "tags": [
+        "Water quality",
+        "Copernicus Services",
+        "CHL",
+        "CMEMS",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./sea_surface_temperature_maps/collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature maps",
+      "subtitle": "Sea surface temperature description",
+      "code": "N3a2_SST",
+      "id": "sea_surface_temperature_maps",
+      "themes": [
+        "water"
+      ],
+      "subcode": "N3a2_SST",
+      "satellite": [
+        "Sentinel-3"
+      ],
+      "sensor": [
+        "OLCI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_sea_surface_temperature/N3a2_sea_surface_temperature.png"
+      ],
+      "tags": [
+        "Water quality",
+        "Copernicus Services",
+        "Surface temperature",
+        "CMEMS",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./total_suspended_matter/collection.json",
+      "type": "application/json",
+      "title": "Total suspended matter maps",
+      "subtitle": "Total suspended matter description",
+      "code": "N3a2_TSM",
+      "id": "total_suspended_matter",
+      "themes": [
+        "water"
+      ],
+      "subcode": "N3a2_TSM",
+      "satellite": [
+        "Sentinel-3"
+      ],
+      "sensor": [
+        "OLCI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter/N3a2_total_suspended_matter.png"
+      ],
+      "tags": [
+        "Water quality",
+        "Copernicus Services",
+        "Suspended matter",
+        "CMEMS",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
       ]
     },
     {

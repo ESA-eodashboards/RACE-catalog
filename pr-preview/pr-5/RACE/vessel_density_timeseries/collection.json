@@ -175,24 +175,24 @@
       "C-SAR"
     ],
     "countries": [
-      "DE",
+      "RO",
+      "BE",
       "EE",
       "PT",
-      "IT",
-      "ES",
-      "NL",
-      "DK",
-      "TR",
-      "RO",
       "PL",
-      "LT",
-      "RU",
-      "LV",
-      "IE",
-      "BE",
       "GR",
+      "ES",
       "NO",
-      "FR"
+      "TR",
+      "RU",
+      "IT",
+      "LV",
+      "FR",
+      "LT",
+      "DK",
+      "DE",
+      "IE",
+      "NL"
     ]
   },
   "assets": {

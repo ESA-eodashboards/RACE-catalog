@@ -1,0 +1,177 @@
+{
+  "type": "Collection",
+  "id": "total_suspended_matter",
+  "stac_version": "1.1.0",
+  "description": "## Water Quality Regional Maps: Total suspended Matter\n\nTotal Suspended Matter (TSM) i.e, the concentration of organic and inorganic materials suspended in the water, is another proxy for water quality as different contaminants, including nutrients, trace metals, semi-volatile organic compounds, and numerous pesticides, can aggregate to these solids and brought in suspension. This can alter the state of the aquatic ecosystem and the use of freshwater resources. For instance, excessive suspended material might condition primary productivity. TSM concentration can be very high near the coasts due to the resuspension of terrestrial or submarine particulate matter by tides, waves, and currents.\n\n### Dataset algorithm developemnt\n- TSM data are specifically produced by CNR-ISMAR-GOS for the ESA-RACE Dashboard starting from Sentinel3-OLCI L2 data distributed by EUMETSAT (https://data.eumetsat.int) OLCI data from 2016 concur with the production of the weekly climatology, which is then used as reference for the analysis. \n- Daily time series  products are turned into weekly time series by averaging on a pixel-by-pixel basis:\n  -  For each pixel the average and standard deviation is computed from a data cube of 3 pixels x 3 pixels x 7 days.\n  -  This averaging reduces the impact of possible noise, common at these small scales, and increases spatial coverage mined by lack of data mostly due to clouds.\n  -  Finally, it's considered the difference between the “present” weekly observations and the weekly climatology at the scale of the pixel. This difference was judged against the climatology in order to obtain a relative, dimensionless value.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./total_suspended_matter/collection.json",
+      "type": "application/json",
+      "title": "Total suspended matter maps",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Total suspended matter description",
+      "code": "N3a2_TSM",
+      "id": "total_suspended_matter",
+      "themes": [
+        "water"
+      ],
+      "tags": [
+        "Water quality",
+        "Copernicus Services",
+        "Suspended matter",
+        "CMEMS",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "N3a2_TSM",
+      "sensor": [
+        "OLCI"
+      ],
+      "satellite": [
+        "Sentinel-3"
+      ]
+    },
+    {
+      "rel": "license",
+      "href": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
+      "type": "text/html",
+      "title": "Licence to Use Copernicus Products"
+    },
+    {
+      "rel": "service",
+      "href": "./total_suspended_matter/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Total suspended matter description",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter/N3a2_total_suspended_matter.png",
+  "themes": [
+    "water"
+  ],
+  "locations": true,
+  "tags": [
+    "Water quality",
+    "Copernicus Services",
+    "Suspended matter",
+    "CMEMS",
+    "Open data"
+  ],
+  "agency": [
+    "European Commission",
+    "ECMWF"
+  ],
+  "subcode": "N3a2_TSM",
+  "sensor": [
+    "OLCI"
+  ],
+  "satellite": [
+    "Sentinel-3"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      -100,
+      100
+    ],
+    "range": [
+      "#000000",
+      "#0000ff",
+      "#009a57",
+      "#fbd063",
+      "#d68231"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Total suspended matter anomaly [%]"
+  },
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "title": "Total suspended matter maps",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          0.49828179185742777,
+          40.49733319888819,
+          30.602052688598633,
+          45.8014030456543
+        ],
+        [
+          0.49828179185742777,
+          40.49733319888819,
+          30.602052688598633,
+          45.8014030456543
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-05T00:00:00Z",
+          "2025-01-04T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Copernicus Marine Service",
+      "url": "https://marine.copernicus.eu/access-data"
+    },
+    {
+      "name": "CNR ISMAR",
+      "url": "https://www.ismar.cnr.it/istituto/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "N3a2_TSM"
+    ],
+    "themes": [
+      "water"
+    ],
+    "satellite": [
+      "Sentinel-3"
+    ],
+    "sensor": [
+      "OLCI"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter/N3a2_total_suspended_matter.png"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter/N3a2_TSM_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter/N3a2_total_suspended_matter.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
