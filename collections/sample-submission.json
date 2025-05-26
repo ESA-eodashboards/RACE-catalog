@@ -1,3 +1,20 @@
 {
-  "Name": "sample-submission"
+  "Name": "sample-submission",
+  "Title": "test_1",
+  "EodashIdentifier": "test_1",
+  "Subtitle": "test_1",
+  "Description": "test_1",
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": ""
 }
