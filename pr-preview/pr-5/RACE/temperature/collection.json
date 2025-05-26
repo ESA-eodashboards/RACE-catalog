@@ -1,0 +1,179 @@
+{
+  "type": "Collection",
+  "id": "temperature",
+  "stac_version": "1.1.0",
+  "description": "## Global temperature \n\nThis indicator shows the air temperature at 2m above the surface of land, sea and inland waters. \n2m temperature is calculated by interpolating between the lowest model level and the Earth's surface, taking account of the atmospheric conditions. \n \n**Note**\nThis indicator is expressed in kelvin (K). \nConversion to degrees Celsius (°C) can be done by subtracting 273.15.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./temperature/collection.json",
+      "type": "application/json",
+      "title": "Global temperature",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Global temperature description",
+      "code": "CDS1_temperature",
+      "id": "temperature",
+      "themes": [
+        "air"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "CDS1_temperature",
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "license",
+      "href": "https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
+      "type": "application/pdf",
+      "title": "Licence to Use Copernicus Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "sci:doi": "10.24381/cds.68d2bb30",
+  "sci:citation": "Muñoz Sabater, J., (2019) was downloaded from the Copernicus Climate Change Service (2021).\nThe results contain modified Copernicus Climate Change Service information 2020. \nNeither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.\n",
+  "sci:publications": [
+    {
+      "citation": "Zaitchik, B.F., Sweijd, N., Shumake-Guillemot, J. et al. A framework for research linking weather, climate and COVID-19. Nat Commun 11, 5730 (2020).",
+      "doi": "10.1038/s41467-020-19546-7"
+    }
+  ],
+  "subtitle": "Global temperature description",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png",
+  "themes": [
+    "air"
+  ],
+  "tags": [
+    "Copernicus Services",
+    "C3S",
+    "CDS",
+    "Multi-sensors",
+    "Open data"
+  ],
+  "agency": [
+    "European Commission",
+    "ECMWF"
+  ],
+  "subcode": "CDS1_temperature",
+  "otherSources": [
+    "ERA5"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      210,
+      330
+    ],
+    "range": [
+      "#2c5996",
+      "#619ac3",
+      "#bcd6e6",
+      "#f6f6f6",
+      "#f2c8b0",
+      "#cc6e5a",
+      "#92242d"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Air Temperature at 2m [K]",
+    "Process": {
+      "Name": "Sentinel Hub Statistics",
+      "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
+      "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
+      "EndPoints": [
+        {
+          "Identifier": "sentinelhub-statistics",
+          "Url": "https://services.sentinel-hub.com/api/v1/statistics",
+          "Method": "POST",
+          "EndPoint": "sentinelhub",
+          "Type": "application/json"
+        }
+      ]
+    }
+  },
+  "title": "Global temperature",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.22495138408348,
+          180.0,
+          90.125
+        ],
+        [
+          -180.0,
+          -90.22495138408348,
+          180.0,
+          90.125
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1959-01-01T00:00:00Z",
+          "2024-03-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Copernicus Climate Change Service",
+      "url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+    },
+    {
+      "name": "Climate Data Store",
+      "url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "CDS1_temperature"
+    ],
+    "themes": [
+      "air"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

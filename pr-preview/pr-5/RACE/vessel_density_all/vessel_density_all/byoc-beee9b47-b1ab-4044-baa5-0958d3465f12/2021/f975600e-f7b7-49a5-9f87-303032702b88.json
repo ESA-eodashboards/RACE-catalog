@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "f975600e-f7b7-49a5-9f87-303032702b88",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          -87.7064839294012,
+          14.964836415804399
+        ],
+        [
+          97.63454783078976,
+          14.964836415804399
+        ],
+        [
+          97.63454783078976,
+          86.8413005718512
+        ],
+        [
+          -87.7064839294012,
+          86.8413005718512
+        ],
+        [
+          -87.7064839294012,
+          14.964836415804399
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -87.7064839294012,
+    14.964836415804399,
+    97.63454783078976,
+    86.8413005718512
+  ],
+  "properties": {
+    "datetime": "2021-09-01T00:00:00Z",
+    "proj:bbox": [
+      -87.7064839294012,
+      14.964836415804399,
+      97.63454783078976,
+      86.8413005718512
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            -87.7064839294012,
+            14.964836415804399
+          ],
+          [
+            97.63454783078976,
+            14.964836415804399
+          ],
+          [
+            97.63454783078976,
+            86.8413005718512
+          ],
+          [
+            -87.7064839294012,
+            86.8413005718512
+          ],
+          [
+            -87.7064839294012,
+            14.964836415804399
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:84"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "vessel_density_all",
+      "wms:layers": [
+        "AWS_VIS_VESSELDENSITY_ALL"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2021-09-01T00:00:00Z/2021-09-01T23:59:59Z"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density"
+    }
+  ],
+  "assets": {},
+  "collection": "byoc-beee9b47-b1ab-4044-baa5-0958d3465f12"
+}

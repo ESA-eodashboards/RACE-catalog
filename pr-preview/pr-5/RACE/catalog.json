@@ -1,0 +1,347 @@
+{
+  "type": "Catalog",
+  "id": "RACE",
+  "stac_version": "1.1.0",
+  "description": "Rapid Action for Citizens with Earth Observation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./temperature/collection.json",
+      "type": "application/json",
+      "title": "Global temperature",
+      "subtitle": "Global temperature description",
+      "code": "CDS1_temperature",
+      "id": "temperature",
+      "themes": [
+        "air"
+      ],
+      "subcode": "CDS1_temperature",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./relative_humidity/collection.json",
+      "type": "application/json",
+      "title": "Relative humidity",
+      "subtitle": "Global relative humidity",
+      "code": "CDS2_relative_humidity",
+      "id": "relative_humidity",
+      "themes": [
+        "air"
+      ],
+      "subcode": "CDS2_relative_humidity",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS2_relative_humidity/CDS2_relative_humidity.png"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./wind_10m_u/collection.json",
+      "type": "application/json",
+      "title": "Wind U Field",
+      "subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind U field",
+      "code": "CDS3",
+      "id": "wind_10m_u",
+      "themes": [
+        "air"
+      ],
+      "subcode": "CDS3",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS3_wind_10m_u/CDS3_wind_10m_u.png"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./wind_10m_v/collection.json",
+      "type": "application/json",
+      "title": "Wind V Field",
+      "subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind V field",
+      "code": "CDS4",
+      "id": "wind_10m_v",
+      "themes": [
+        "air"
+      ],
+      "subcode": "CDS4",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS4_wind_10m_v/CDS4_wind_10m_v.png"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_all/collection.json",
+      "type": "application/json",
+      "title": "Vessel density",
+      "subtitle": "Vessel density description",
+      "code": "E13o",
+      "id": "vessel_density_all",
+      "themes": [
+        "water"
+      ],
+      "subcode": "E13o",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png"
+      ],
+      "tags": [
+        "Maritime",
+        "Traffic",
+        "Open data",
+        "Ships",
+        "Vessels",
+        "Vessel Density",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_cargo/collection.json",
+      "type": "application/json",
+      "title": "Vessel density for cargo",
+      "subtitle": "Vessel density for cargo description",
+      "code": "E13p",
+      "id": "vessel_density_cargo",
+      "themes": [
+        "water"
+      ],
+      "subcode": "E13p",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_vessel_density_cargo.png"
+      ],
+      "tags": [
+        "Maritime",
+        "Traffic",
+        "Open data",
+        "Ships",
+        "Vessels",
+        "Vessel Density",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_tanker/collection.json",
+      "type": "application/json",
+      "title": "Vessel density for tanker",
+      "subtitle": "Vessel density for tanker description",
+      "code": "E13q",
+      "id": "vessel_density_tanker",
+      "themes": [
+        "water"
+      ],
+      "subcode": "E13q",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13q_vessel_density_tanker/E13q_vessel_density_tanker.png"
+      ],
+      "tags": [
+        "Maritime",
+        "Traffic",
+        "Open data",
+        "Ships",
+        "Vessels",
+        "Vessel Density",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_others/collection.json",
+      "type": "application/json",
+      "title": "Vessel density for non tanker or cargo",
+      "subtitle": "Vessel density for non tanker or cargo vessels",
+      "code": "E13r",
+      "id": "vessel_density_others",
+      "themes": [
+        "water"
+      ],
+      "subcode": "E13r",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13r_vessel_density_others/E13r_vessel_density_others.png"
+      ],
+      "tags": [
+        "Maritime",
+        "Traffic",
+        "Open data",
+        "Ships",
+        "Vessels",
+        "Vessel Density",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series",
+      "subtitle": "Vessel Density based on Copernicus Sentinel-1",
+      "code": "E1b",
+      "id": "vessel_density_timeseries",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E1b",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "cities": [
+        "La Spezia",
+        "Instanbul",
+        "Kaliningrad",
+        "Bremerhaven, Hamburg, Wilhelmshaven",
+        "Valencia",
+        "Amsterdam",
+        "Constanta",
+        "Algeciras",
+        "Rotterdam",
+        "Sines",
+        "Marseille",
+        "Gdansk",
+        "Dunkerque",
+        "Riga",
+        "Peiraias",
+        "Taranto",
+        "Las Palmas",
+        "Klaipeda",
+        "Hamburg",
+        "Dublin",
+        "Göteborg",
+        "Le Havre",
+        "Bergen",
+        "Tallin",
+        "Bilbao",
+        "Skagen",
+        "Genova",
+        "Trieste",
+        "Gioia Tauro",
+        "Aliaga",
+        "Antwerpen",
+        "Barcelona"
+      ],
+      "countries": [
+        "PT",
+        "RO",
+        "IT",
+        "ES",
+        "GR",
+        "PL",
+        "EE",
+        "DE",
+        "BE",
+        "IE",
+        "LT",
+        "NL",
+        "NO",
+        "RU",
+        "TR",
+        "LV",
+        "FR",
+        "DK"
+      ],
+      "tags": [
+        "Copernicus",
+        "Maritime",
+        "Traffic",
+        "Open data",
+        "Community"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://eurodatacube.github.io/eodash-catalog/RACE/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "RACE"
+}
