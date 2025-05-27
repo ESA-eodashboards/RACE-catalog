@@ -45,6 +45,14 @@
       "title": "Licence to Use Copernicus Products"
     },
     {
+      "rel": "service",
+      "href": "https://services.sentinel-hub.com/api/v1/statistics",
+      "type": "application/json",
+      "id": "sentinelhub-statistics",
+      "method": "POST",
+      "endpoint": "sentinelhub"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -97,6 +105,8 @@
     "tickFormat": ".0f",
     "title": "Air Temperature at 2m [K]"
   },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
   "title": "Global temperature",
   "extent": {
     "spatial": {

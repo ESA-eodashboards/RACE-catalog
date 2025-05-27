@@ -48,6 +48,14 @@
       ]
     },
     {
+      "rel": "service",
+      "href": "https://services.sentinel-hub.com/api/v1/statistics",
+      "type": "application/json",
+      "id": "sentinelhub-statistics",
+      "method": "POST",
+      "endpoint": "sentinelhub"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -103,6 +111,8 @@
     "tickFormat": ".0f",
     "title": "CH4 volume mixing ratio [ppbv]"
   },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
   "title": "Methane monitoring",
   "extent": {
     "spatial": {
@@ -153,8 +163,8 @@
       "air"
     ],
     "satellite": [
-      "Sentinel-5P",
-      "GOSAT"
+      "GOSAT",
+      "Sentinel-5P"
     ],
     "sensor": [
       "TROPOMI",

@@ -40,6 +40,14 @@
       ]
     },
     {
+      "rel": "service",
+      "href": "https://services.sentinel-hub.com/api/v1/statistics",
+      "type": "application/json",
+      "id": "sentinelhub-statistics",
+      "method": "POST",
+      "endpoint": "sentinelhub"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -87,6 +95,8 @@
     "tickFormat": ".0f",
     "title": "SO2 column number density [DU]"
   },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
   "title": "Sulfur Dioxide observed by Sentinel-5p TROPOMI",
   "extent": {
     "spatial": {

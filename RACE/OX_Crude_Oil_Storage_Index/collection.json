@@ -179,51 +179,51 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-2",
-      "Sentinel-1"
+      "Sentinel-1",
+      "Sentinel-2"
     ],
     "sensor": [
-      "C-SAR",
-      "MSI"
+      "MSI",
+      "C-SAR"
     ],
     "cities": [
-      "Omisalj",
-      "Godorf Wesseling",
-      "Trieste",
-      "Wilhelmshaven",
-      "Fos-Lavera",
       "Aspropyrgos",
-      "Dalmeny",
-      "Teesport",
-      "Cartagena",
-      "Pachi",
-      "Thessaloniki",
-      "Antwerp",
-      "Corinth",
-      "Rotterdam",
-      "Tarragona",
-      "Finnart",
-      "Elefsina",
-      "Cork",
-      "Grangemouth",
       "Le Havre",
+      "Thessaloniki",
+      "Teesport",
+      "Corinth",
+      "Algeciras",
+      "Schwechat",
+      "Godorf Wesseling",
+      "Rotterdam",
+      "Wilhelmshaven",
+      "Tarragona",
       "Sullom Voe",
       "Sarroch",
-      "Schwechat",
-      "Algeciras"
+      "Dalmeny",
+      "Omisalj",
+      "Antwerp",
+      "Trieste",
+      "Finnart",
+      "Cartagena",
+      "Grangemouth",
+      "Pachi",
+      "Fos-Lavera",
+      "Elefsina",
+      "Cork"
     ],
     "countries": [
-      "GR",
-      "DE",
+      "IE",
       "IT",
       "ES",
-      "AT",
-      "HR",
-      "BE",
       "FR",
-      "IE",
+      "BE",
+      "HR",
+      "DE",
+      "GR",
       "GB",
-      "NL"
+      "NL",
+      "AT"
     ]
   },
   "assets": {
