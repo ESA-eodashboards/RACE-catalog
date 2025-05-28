@@ -94,6 +94,50 @@
       "id": "Crude_Oil_Storage_Index"
     },
     {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -179,50 +223,50 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-1",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Sentinel-1"
     ],
     "sensor": [
       "MSI",
       "C-SAR"
     ],
     "cities": [
-      "Aspropyrgos",
-      "Le Havre",
-      "Thessaloniki",
       "Teesport",
-      "Corinth",
+      "Godorf Wesseling",
+      "Finnart",
       "Algeciras",
       "Schwechat",
-      "Godorf Wesseling",
-      "Rotterdam",
-      "Wilhelmshaven",
-      "Tarragona",
-      "Sullom Voe",
+      "Cork",
       "Sarroch",
-      "Dalmeny",
-      "Omisalj",
-      "Antwerp",
+      "Tarragona",
+      "Wilhelmshaven",
       "Trieste",
-      "Finnart",
-      "Cartagena",
+      "Le Havre",
       "Grangemouth",
-      "Pachi",
-      "Fos-Lavera",
+      "Rotterdam",
+      "Dalmeny",
+      "Thessaloniki",
+      "Sullom Voe",
+      "Corinth",
       "Elefsina",
-      "Cork"
+      "Pachi",
+      "Cartagena",
+      "Fos-Lavera",
+      "Aspropyrgos",
+      "Antwerp",
+      "Omisalj"
     ],
     "countries": [
-      "IE",
-      "IT",
-      "ES",
-      "FR",
       "BE",
       "HR",
+      "ES",
+      "FR",
+      "IE",
+      "IT",
       "DE",
+      "NL",
       "GR",
       "GB",
-      "NL",
       "AT"
     ]
   },
