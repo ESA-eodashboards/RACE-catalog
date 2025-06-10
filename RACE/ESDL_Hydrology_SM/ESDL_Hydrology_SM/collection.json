@@ -12053,14 +12053,6 @@
       "datetime": "2022-06-29T00:00:00Z"
     },
     {
-      "rel": "example",
-      "href": "https://api.earthsystemdatalab.net/api/timeseries/hydrology/SM?aggMethods=median",
-      "type": "application/json",
-      "title": "xcube analytics",
-      "example:language": "JSON",
-      "example:method": "POST"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

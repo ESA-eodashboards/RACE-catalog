@@ -4571,6 +4571,84 @@
       "datetime": "2025-05-27T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-05-28T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-28T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-05-29T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-29T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-05-30T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-30T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-05-31T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-31T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-06-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-06-02T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-02T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-06-03T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-03T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-06-04T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-04T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-06-05T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-05T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-06-06T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-06T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-06-07T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-07T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-06-08T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-08T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-06-09T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-09T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_MED_BGC_L3_NRT_009_141/cmems_obs-oc_med_bgc-plankton_nrt_l3-multi-1km_P1D_202211",
       "type": "image/png",
@@ -4636,7 +4714,7 @@
       "interval": [
         [
           "2023-04-29T00:00:00Z",
-          "2025-05-27T00:00:00Z"
+          "2025-06-09T00:00:00Z"
         ]
       ]
     }

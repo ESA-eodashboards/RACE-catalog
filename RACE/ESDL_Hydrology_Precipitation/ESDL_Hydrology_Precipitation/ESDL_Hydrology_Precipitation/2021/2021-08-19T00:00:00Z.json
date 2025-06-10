@@ -106,7 +106,7 @@
   "links": [
     {
       "rel": "xyz",
-      "href": "https://api.earthsystemdatalab.net/api/tiles/hydrology/precip/{z}/{y}/{x}?crs=EPSG:3857&time=2021-08-19 00:00:00+00:00&vmin=0&vmax=50&cbar=viridis_alpha",
+      "href": "https://api.earthsystemdatalab.net/api/tiles/hydrology/precip/{z}/{y}/{x}?crs=EPSG:3857&time=2021-08-19T00:00:00Z&vmin=0&vmax=50&cbar=viridis_alpha",
       "type": "image/png",
       "title": "xcube tiles"
     },

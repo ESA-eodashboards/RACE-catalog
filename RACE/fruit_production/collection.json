@@ -178,8 +178,8 @@
       "agriculture"
     ],
     "satellite": [
-      "Sentinel-2",
-      "Pleiades"
+      "Pleiades",
+      "Sentinel-2"
     ],
     "sensor": [
       "HiRI",

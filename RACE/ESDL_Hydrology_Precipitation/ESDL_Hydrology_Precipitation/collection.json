@@ -10967,14 +10967,6 @@
       "datetime": "2021-12-30T00:00:00Z"
     },
     {
-      "rel": "example",
-      "href": "https://api.earthsystemdatalab.net/api/timeseries/hydrology/precip?aggMethods=median",
-      "type": "application/json",
-      "title": "xcube analytics",
-      "example:language": "JSON",
-      "example:method": "POST"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

@@ -40,6 +40,14 @@
       ]
     },
     {
+      "rel": "service",
+      "href": "https://api.earthsystemdatalab.net/api/timeseries/hydrology/SM?aggMethods=median",
+      "type": "application/json",
+      "id": "xcube_statistics",
+      "method": "POST",
+      "body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_body.json"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -141,6 +149,8 @@
     "tickFormat": ".0f",
     "title": "[% relative saturation]"
   },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
   "title": "Surface Soil Moisture",
   "extent": {
     "spatial": {
