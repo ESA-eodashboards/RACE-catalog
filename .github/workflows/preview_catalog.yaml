@@ -53,12 +53,10 @@ jobs:
         # To compare changes between the current commit and the last pushed remote commit set `since_last_remote_commit: true`. e.g
         # with:
         #   since_last_remote_commit: true 
-      - 
-        if: github.event.action != 'closed' # skip the build if the PR has been closed, just  for cleanup
-        name: List all changed files
+      - name: Update Preview Catalog
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-        run: python .github/update_catalog.py
+        run: python .github/update_preview_catalog.py
       -
         if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Build

@@ -8,6 +8,10 @@ indicators_path = "indicators/"
 catalog_path = "catalogs/race.json"
 
 ALL_CHANGED_FILES = os.environ.get("ALL_CHANGED_FILES")
+if not ALL_CHANGED_FILES:
+    print("No changed files detected.")
+    exit(0)
+
 changed_files = ALL_CHANGED_FILES.split(" ")
 print("ALL_CHANGED_FILES: ", changed_files)
 
@@ -19,7 +23,7 @@ indicator_files = [file for file in changed_files if file.startswith(indicators_
 print("changed collections files: ", collections_files)
 print("changed indicator files: ", indicator_files)
 
-is_indicator = {file: False for file in collections_files}
+is_indicator = {file: True for file in collections_files}
 
 # if the changed collection files doesnt exist in an indicator file, add it to the catalog
 for file in indicator_files:
@@ -29,13 +33,13 @@ for file in indicator_files:
             continue
     for collection in indicator["Collections"]:
         if collection in collections_files:
-            is_indicator[collection] = True
+            is_indicator[collection] = False
 
 with open(catalog_path, "r") as f:
     catalog = json.load(f)
     catalog["collections"] = []
     for key in is_indicator:
-        if not is_indicator[key]:
+        if is_indicator[key]:
             key = key.split("/")[-1].split(".")[0]
             catalog["collections"].append(key)
 
