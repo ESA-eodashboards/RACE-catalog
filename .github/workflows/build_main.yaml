@@ -35,6 +35,7 @@ jobs:
       - name: Update Catalog
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+          DELETED_FILES: ${{ steps.changed-files.outputs.deleted_files }}
         run: python .github/update_build_catalog.py
       - name: Build
         env:
