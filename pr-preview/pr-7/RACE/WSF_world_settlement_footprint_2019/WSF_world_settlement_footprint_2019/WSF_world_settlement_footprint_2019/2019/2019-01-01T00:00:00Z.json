@@ -1,0 +1,49 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "id": "2019-01-01T00:00:00Z",
+  "geometry": null,
+  "properties": {
+    "datetime": "2019-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://a.geoservice.dlr.de/eoc/land/wms/",
+      "type": "image/jpeg",
+      "title": "WSF_world_settlement_footprint_2019",
+      "wms:layers": [
+        "WSF_2019"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2019-01-01T00:00:00Z"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "World settlement footprint 2019"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "World settlement footprint 2019"
+    }
+  ],
+  "assets": {},
+  "collection": "WSF_world_settlement_footprint_2019"
+}

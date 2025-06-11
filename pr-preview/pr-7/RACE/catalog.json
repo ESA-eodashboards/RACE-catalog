@@ -1,0 +1,105 @@
+{
+  "type": "Catalog",
+  "id": "RACE",
+  "stac_version": "1.1.0",
+  "description": "Rapid Action for Citizens with Earth Observation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./WSF_world_settlement_footprint_2019/collection.json",
+      "type": "application/json",
+      "title": "World settlement footprint 2019",
+      "code": "WSF",
+      "id": "WSF_world_settlement_footprint_2019",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "WSF",
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "C-SAR",
+        "MSI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.png"
+      ],
+      "tags": [
+        "Human settlement",
+        "Human activities",
+        "Open data"
+      ],
+      "agency": [
+        "DLR"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./world_settlement_footprint/collection.json",
+      "type": "application/json",
+      "title": "World settlement footprint",
+      "code": "WSF",
+      "id": "world_settlement_footprint",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "WSF",
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "C-SAR",
+        "MSI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.png"
+      ],
+      "tags": [
+        "Human settlement",
+        "Human activities",
+        "Open data"
+      ],
+      "agency": [
+        "DLR"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./WSF_world_settlement_footprint_ind/collection.json",
+      "type": "application/json",
+      "title": "World settlement footprint",
+      "code": "WSF_world_settlement_footprint_ind",
+      "id": "WSF_world_settlement_footprint_ind",
+      "subcode": "WSF_world_settlement_footprint_ind",
+      "themes": [
+        "economy"
+      ],
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "C-SAR",
+        "MSI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.png"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://eurodatacube.github.io/eodash-catalog/RACE/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "RACE"
+}
