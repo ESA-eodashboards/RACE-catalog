@@ -222,25 +222,25 @@
       "MSI"
     ],
     "countries": [
-      "IE",
-      "AT",
-      "FI",
-      "FR",
-      "DK",
-      "NO",
-      "GR",
-      "ES",
-      "NL",
-      "TR",
       "GB",
-      "DE",
+      "ES",
+      "NO",
+      "FR",
+      "PT",
       "PL",
       "SE",
-      "PT",
       "CH",
+      "IE",
       "IT",
+      "FI",
+      "GR",
+      "DK",
+      "AT",
       "BE",
-      "UK"
+      "UK",
+      "NL",
+      "DE",
+      "TR"
     ]
   }
 }

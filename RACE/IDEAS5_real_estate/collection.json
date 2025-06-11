@@ -40,7 +40,6 @@
       "type": "application/json",
       "title": "Indicator for population age, social status, and building insulation",
       "endpointtype": "COG source",
-      "subtitle": "",
       "code": "IND5_1_b2",
       "id": "IDEAS5_real_estate_b2",
       "themes": [
@@ -64,7 +63,6 @@
       "type": "application/json",
       "title": "Land Surface Temperature Indicator",
       "endpointtype": "COG source",
-      "subtitle": "",
       "code": "IND5_1_b3",
       "id": "IDEAS5_real_estate_b3",
       "themes": [
@@ -197,16 +195,16 @@
   ],
   "summaries": {
     "subcode": [
-      "IND5_1_b1",
       "IND5_1_b2",
+      "IND5_1_b1",
       "IND5_1_b3"
     ],
     "themes": [
       "economy"
     ],
     "satellite": [
-      "Landsat 9",
-      "Landsat 8"
+      "Landsat 8",
+      "Landsat 9"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"

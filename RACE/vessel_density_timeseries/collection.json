@@ -219,24 +219,24 @@
       "C-SAR"
     ],
     "countries": [
-      "IE",
-      "IT",
-      "DE",
-      "PL",
       "BE",
-      "LV",
-      "DK",
-      "NO",
+      "TR",
       "EE",
-      "FR",
-      "GR",
-      "ES",
+      "IT",
       "LT",
       "NL",
       "PT",
+      "DE",
+      "PL",
+      "ES",
+      "IE",
+      "GR",
+      "LV",
       "RU",
-      "TR",
-      "RO"
+      "RO",
+      "DK",
+      "NO",
+      "FR"
     ]
   },
   "assets": {
