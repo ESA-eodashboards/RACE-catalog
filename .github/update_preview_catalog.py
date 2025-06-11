@@ -1,5 +1,6 @@
 import os
 import json
+import glob
 
 collections_path = "collections/"
 
@@ -19,14 +20,14 @@ collections_files = [
     file for file in changed_files if file.startswith(collections_path)
 ]
 indicator_files = [file for file in changed_files if file.startswith(indicators_path)]
-
+all_indator_files = glob.glob(indicators_path + "*.json")
 print("changed collections files: ", collections_files)
 print("changed indicator files: ", indicator_files)
 
 is_indicator = {file: True for file in collections_files}
 
 # if the changed collection files doesnt exist in an indicator file, add it to the catalog
-for file in indicator_files:
+for file in all_indator_files:
     with open(file, "r") as f:
         indicator = json.load(f)
         if "Collections" not in indicator:
