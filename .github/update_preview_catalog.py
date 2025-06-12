@@ -3,9 +3,7 @@ import json
 import glob
 
 collections_path = "collections/"
-
 indicators_path = "indicators/"
-
 catalog_path = "catalogs/race.json"
 
 ALL_CHANGED_FILES = os.environ.get("ALL_CHANGED_FILES")
@@ -16,41 +14,51 @@ if not ALL_CHANGED_FILES:
 changed_files = ALL_CHANGED_FILES.split(" ")
 print("ALL_CHANGED_FILES: ", changed_files)
 
-collections_files = [
-    file for file in changed_files if file.startswith(collections_path)
+indicator_ids = [
+    file.split("/")[-1].split(".")[0]
+    for file in changed_files
+    if file.startswith(indicators_path)
 ]
-indicator_files = [file for file in changed_files if file.startswith(indicators_path)]
-all_indator_files = glob.glob(indicators_path + "*.json")
-print("changed collections files: ", collections_files)
-print("changed indicator files: ", indicator_files)
+collection_ids = [
+    file.split("/")[-1].split(".")[0]
+    for file in changed_files
+    if file.startswith(collections_path)
+]
+all_indicator_files = glob.glob(indicators_path + "*.json")
+print("changed collections files: ", collection_ids)
+print("changed indicator files: ", indicator_ids)
 
-is_indicator = {file: True for file in collections_files}
+is_indicator = {collection: True for collection in collection_ids}
 
-# if the changed collection files doesnt exist in an indicator file, add it to the catalog
-for file in all_indator_files:
+# Check if changed collection files are referenced in indicator files
+for file in all_indicator_files:
     with open(file, "r") as f:
         indicator = json.load(f)
         if "Collections" not in indicator:
             continue
-    for collection in indicator["Collections"]:
-        if collection in collections_files:
-            is_indicator[collection] = False
+        for collection in indicator["Collections"]:
+            if collection in collection_ids:
+                is_indicator[collection] = False
 
+# Load existing catalog
 with open(catalog_path, "r") as f:
     catalog = json.load(f)
-    catalog["collections"] = []
-    for key in is_indicator:
-        if is_indicator[key]:
-            key = key.split("/")[-1].split(".")[0]
-            catalog["collections"].append(key)
 
-    for file in indicator_files:
-        file = file.split("/")[-1].split(".")[0]
-        catalog["collections"].append(file)
+# Reset collections list
+catalog["collections"] = []
 
+# Add standalone collections
+for collection_id in is_indicator:
+    if is_indicator[collection_id]:
+        catalog["collections"].append(collection_id)
+
+# Add changed indicators
+catalog["collections"].extend(indicator_ids)
+
+# Write updated catalog
 with open(catalog_path, "w") as f:
     print(
-        "adding the following as indicators to the catalog: ",
+        "Adding the following to the catalog: ",
         catalog["collections"],
     )
     json.dump(catalog, f)

@@ -11,9 +11,11 @@
     "Multi-sensors"
   ],
   "DataSource": {
-    "Spaceborne": [
-      "Multi-sensors"
-    ]
+    "Spaceborne": {
+      "Other": [
+        "Multi-sensors"
+      ]
+    }
   },
   "Agency": [
     "ESA"
