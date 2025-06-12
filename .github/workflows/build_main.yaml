@@ -1,17 +1,13 @@
 # This is a basic workflow takes care of building and deploying
 # catalog when pushing to main branch
-
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
-
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
 jobs:
   deploy:
     runs-on: ubuntu-22.04
@@ -25,18 +21,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: gather changed-files
-        id: changed-files
-        uses: tj-actions/changed-files@v45
-      - name: Update Catalog
-        env:
-          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-          DELETED_FILES: ${{ steps.changed-files.outputs.deleted_files }}
-        run: python .github/update_build_catalog.py
       - name: Build
         env:
           SH_INSTANCE_ID: ${{ secrets.SH_INSTANCE_ID }}
@@ -52,5 +36,3 @@ jobs:
           branch: gh-pages
           clean-exclude: pr-preview
           force: false
-
-
