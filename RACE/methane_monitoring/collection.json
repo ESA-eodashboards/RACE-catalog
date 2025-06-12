@@ -179,7 +179,7 @@
       "interval": [
         [
           "2018-04-30T00:00:00Z",
-          "2025-02-24T00:00:00Z"
+          "2025-06-02T00:00:00Z"
         ]
       ]
     }
@@ -207,8 +207,8 @@
       "air"
     ],
     "satellite": [
-      "GOSAT",
-      "Sentinel-5P"
+      "Sentinel-5P",
+      "GOSAT"
     ],
     "sensor": [
       "TANSO",
