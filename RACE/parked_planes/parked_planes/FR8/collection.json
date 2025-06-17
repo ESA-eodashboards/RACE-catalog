@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "FR8",
+  "stac_version": "1.1.0",
+  "description": "Paris - FR",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    }
+  ],
+  "subcode": "FR8",
+  "title": "Paris",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

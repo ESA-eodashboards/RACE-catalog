@@ -11,292 +11,324 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Antwerpen.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BE1/collection.json",
+      "type": "application/json",
+      "title": "Antwerpen",
       "id": "BE1",
       "latlng": "51.475911, 2.983308",
       "country": "BE",
-      "city": "Antwerpen"
+      "name": "Antwerpen"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Hamburg.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE1/collection.json",
+      "type": "application/json",
+      "title": "Hamburg",
       "id": "DE1",
       "latlng": "54.017878, 8.551366",
       "country": "DE",
-      "city": "Hamburg"
+      "name": "Hamburg"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Bremerhaven Hamburg Wilhelmshaven.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE2/collection.json",
+      "type": "application/json",
+      "title": "Bremerhaven, Hamburg, Wilhelmshaven",
       "id": "DE2",
       "latlng": "54.0588, 7.63401",
       "country": "DE",
-      "city": "Bremerhaven, Hamburg, Wilhelmshaven"
+      "name": "Bremerhaven, Hamburg, Wilhelmshaven"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Skagen.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DK2/collection.json",
+      "type": "application/json",
+      "title": "Skagen",
       "id": "DK2",
       "latlng": "57.707289, 10.680737",
       "country": "DK",
-      "city": "Skagen"
+      "name": "Skagen"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Tallin.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./EE1/collection.json",
+      "type": "application/json",
+      "title": "Tallin",
       "id": "EE1",
       "latlng": "59.667699, 24.805019",
       "country": "EE",
-      "city": "Tallin"
+      "name": "Tallin"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Algeciras.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES1/collection.json",
+      "type": "application/json",
+      "title": "Algeciras",
       "id": "ES1",
       "latlng": "35.957077, -5.259355",
       "country": "ES",
-      "city": "Algeciras"
+      "name": "Algeciras"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Barcelona.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES18/collection.json",
+      "type": "application/json",
+      "title": "Barcelona",
       "id": "ES18",
       "latlng": "41.312241, 2.23685",
       "country": "ES",
-      "city": "Barcelona"
+      "name": "Barcelona"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Bilbao.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES3/collection.json",
+      "type": "application/json",
+      "title": "Bilbao",
       "id": "ES3",
       "latlng": "43.460472, -3.349436",
       "country": "ES",
-      "city": "Bilbao"
+      "name": "Bilbao"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Las Palmas.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES4/collection.json",
+      "type": "application/json",
+      "title": "Las Palmas",
       "id": "ES4",
       "latlng": "27.967126, -15.115872",
       "country": "ES",
-      "city": "Las Palmas"
+      "name": "Las Palmas"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Valencia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES5/collection.json",
+      "type": "application/json",
+      "title": "Valencia",
       "id": "ES5",
       "latlng": "39.404982, -0.251362",
       "country": "ES",
-      "city": "Valencia"
+      "name": "Valencia"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Le Havre.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FR2/collection.json",
+      "type": "application/json",
+      "title": "Le Havre",
       "id": "FR2",
       "latlng": "49.238328, -0.593896",
       "country": "FR",
-      "city": "Le Havre"
+      "name": "Le Havre"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Dunkerque.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FR3/collection.json",
+      "type": "application/json",
+      "title": "Dunkerque",
       "id": "FR3",
       "latlng": "51.216776, 2.205416",
       "country": "FR",
-      "city": "Dunkerque"
+      "name": "Dunkerque"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Marseille.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FR4/collection.json",
+      "type": "application/json",
+      "title": "Marseille",
       "id": "FR4",
       "latlng": "43.209346, 5.144744",
       "country": "FR",
-      "city": "Marseille"
+      "name": "Marseille"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Peiraias.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./GR7/collection.json",
+      "type": "application/json",
+      "title": "Peiraias",
       "id": "GR7",
       "latlng": "37.775969, 23.671019",
       "country": "GR",
-      "city": "Peiraias"
+      "name": "Peiraias"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Dublin.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IE2/collection.json",
+      "type": "application/json",
+      "title": "Dublin",
       "id": "IE2",
       "latlng": "53.296626, -5.911193",
       "country": "IE",
-      "city": "Dublin"
+      "name": "Dublin"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Gioia Tauro.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT16/collection.json",
+      "type": "application/json",
+      "title": "Gioia Tauro",
       "id": "IT16",
       "latlng": "38.453601, 15.793779",
       "country": "IT",
-      "city": "Gioia Tauro"
+      "name": "Gioia Tauro"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/La Spezia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT17/collection.json",
+      "type": "application/json",
+      "title": "La Spezia",
       "id": "IT17",
       "latlng": "43.988387, 9.989117",
       "country": "IT",
-      "city": "La Spezia"
+      "name": "La Spezia"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Taranto.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT18/collection.json",
+      "type": "application/json",
+      "title": "Taranto",
       "id": "IT18",
       "latlng": "40.228814, 17.160124",
       "country": "IT",
-      "city": "Taranto"
+      "name": "Taranto"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Trieste.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT19/collection.json",
+      "type": "application/json",
+      "title": "Trieste",
       "id": "IT19",
       "latlng": "45.63555, 13.700997",
       "country": "IT",
-      "city": "Trieste"
+      "name": "Trieste"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Genova.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT3/collection.json",
+      "type": "application/json",
+      "title": "Genova",
       "id": "IT3",
       "latlng": "44.137695, 8.956082",
       "country": "IT",
-      "city": "Genova"
+      "name": "Genova"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Klaipeda.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LT1/collection.json",
+      "type": "application/json",
+      "title": "Klaipeda",
       "id": "LT1",
       "latlng": "55.684278, 21.140029",
       "country": "LT",
-      "city": "Klaipeda"
+      "name": "Klaipeda"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Riga.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LV1/collection.json",
+      "type": "application/json",
+      "title": "Riga",
       "id": "LV1",
       "latlng": "57.153293, 23.620893",
       "country": "LV",
-      "city": "Riga"
+      "name": "Riga"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Rotterdam.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./NL3/collection.json",
+      "type": "application/json",
+      "title": "Rotterdam",
       "id": "NL3",
       "latlng": "52.059558, 3.196759",
       "country": "NL",
-      "city": "Rotterdam"
+      "name": "Rotterdam"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Amsterdam.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./NL4/collection.json",
+      "type": "application/json",
+      "title": "Amsterdam",
       "id": "NL4",
       "latlng": "52.398692, 4.318951",
       "country": "NL",
-      "city": "Amsterdam"
+      "name": "Amsterdam"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Bergen.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./NO3/collection.json",
+      "type": "application/json",
+      "title": "Bergen",
       "id": "NO3",
       "latlng": "60.332799, 4.983069",
       "country": "NO",
-      "city": "Bergen"
+      "name": "Bergen"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Göteborg.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./NO4/collection.json",
+      "type": "application/json",
+      "title": "Göteborg",
       "id": "NO4",
       "latlng": "57.722237, 12.010657",
       "country": "NO",
-      "city": "Göteborg"
+      "name": "Göteborg"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Gdansk.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PL1/collection.json",
+      "type": "application/json",
+      "title": "Gdansk",
       "id": "PL1",
       "latlng": "54.782807, 18.240794",
       "country": "PL",
-      "city": "Gdansk"
+      "name": "Gdansk"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Sines.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PT2/collection.json",
+      "type": "application/json",
+      "title": "Sines",
       "id": "PT2",
       "latlng": "37.886931, -9.015926",
       "country": "PT",
-      "city": "Sines"
+      "name": "Sines"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Constanta.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./RO1/collection.json",
+      "type": "application/json",
+      "title": "Constanta",
       "id": "RO1",
       "latlng": "44.149405, 28.839589",
       "country": "RO",
-      "city": "Constanta"
+      "name": "Constanta"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Kaliningrad.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./RU1/collection.json",
+      "type": "application/json",
+      "title": "Kaliningrad",
       "id": "RU1",
       "latlng": "54.729095, 19.823546",
       "country": "RU",
-      "city": "Kaliningrad"
+      "name": "Kaliningrad"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Instanbul.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./TR1/collection.json",
+      "type": "application/json",
+      "title": "Instanbul",
       "id": "TR1",
       "latlng": "40.722472, 28.542998",
       "country": "TR",
-      "city": "Instanbul"
+      "name": "Instanbul"
     },
     {
-      "rel": "item",
-      "href": "./vessel_density_timeseries/2020/Aliaga.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./TR2/collection.json",
+      "type": "application/json",
+      "title": "Aliaga",
       "id": "TR2",
       "latlng": "39.16878, 26.466613",
       "country": "TR",
-      "city": "Aliaga"
+      "name": "Aliaga"
     },
     {
       "rel": "parent",
@@ -328,25 +360,25 @@
   "satellite": [
     "Sentinel-1"
   ],
-  "geoDBID": "Sentinel_1_Vessel_Density_Europe_Timeseries",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Vessel density time series",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -15.125872,
-          27.957126,
-          28.849589,
-          60.342799
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-01-01T05:26:55Z",
-          "2022-12-31T17:49:17Z"
+          null,
+          null
         ]
       ]
     }

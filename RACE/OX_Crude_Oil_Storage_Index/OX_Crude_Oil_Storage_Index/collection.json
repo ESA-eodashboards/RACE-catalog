@@ -11,220 +11,244 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Cork.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100006/collection.json",
+      "type": "application/json",
+      "title": "Cork",
       "id": "100006",
       "latlng": "51.820466,-8.248062",
       "country": "IE",
-      "city": "Cork"
+      "name": "Cork"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Dalmeny.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100008/collection.json",
+      "type": "application/json",
+      "title": "Dalmeny",
       "id": "100008",
       "latlng": "55.97601,-3.36825",
       "country": "GB",
-      "city": "Dalmeny"
+      "name": "Dalmeny"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Finnart.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100010/collection.json",
+      "type": "application/json",
+      "title": "Finnart",
       "id": "100010",
       "latlng": "56.11333,-4.83506",
       "country": "GB",
-      "city": "Finnart"
+      "name": "Finnart"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Grangemouth.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100011/collection.json",
+      "type": "application/json",
+      "title": "Grangemouth",
       "id": "100011",
       "latlng": "56.018632,-3.683518",
       "country": "GB",
-      "city": "Grangemouth"
+      "name": "Grangemouth"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Rotterdam.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100024/collection.json",
+      "type": "application/json",
+      "title": "Rotterdam",
       "id": "100024",
       "latlng": "51.90973,4.21532",
       "country": "NL",
-      "city": "Rotterdam"
+      "name": "Rotterdam"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Sarroch.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100025/collection.json",
+      "type": "application/json",
+      "title": "Sarroch",
       "id": "100025",
       "latlng": "39.07651,9.01789",
       "country": "IT",
-      "city": "Sarroch"
+      "name": "Sarroch"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Schwechat.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100026/collection.json",
+      "type": "application/json",
+      "title": "Schwechat",
       "id": "100026",
       "latlng": "48.144818,16.504681",
       "country": "AT",
-      "city": "Schwechat"
+      "name": "Schwechat"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Antwerp.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100042/collection.json",
+      "type": "application/json",
+      "title": "Antwerp",
       "id": "100042",
       "latlng": "51.2639,4.32055",
       "country": "BE",
-      "city": "Antwerp"
+      "name": "Antwerp"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Omisalj.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100043/collection.json",
+      "type": "application/json",
+      "title": "Omisalj",
       "id": "100043",
       "latlng": "45.22142,14.53257",
       "country": "HR",
-      "city": "Omisalj"
+      "name": "Omisalj"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Wilhelmshaven.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100044/collection.json",
+      "type": "application/json",
+      "title": "Wilhelmshaven",
       "id": "100044",
       "latlng": "53.55336,8.14958",
       "country": "DE",
-      "city": "Wilhelmshaven"
+      "name": "Wilhelmshaven"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Aspropyrgos.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100045/collection.json",
+      "type": "application/json",
+      "title": "Aspropyrgos",
       "id": "100045",
       "latlng": "38.03386,23.60571",
       "country": "GR",
-      "city": "Aspropyrgos"
+      "name": "Aspropyrgos"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Corinth.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100046/collection.json",
+      "type": "application/json",
+      "title": "Corinth",
       "id": "100046",
       "latlng": "37.922751,23.074264",
       "country": "GR",
-      "city": "Corinth"
+      "name": "Corinth"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Elefsina.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100047/collection.json",
+      "type": "application/json",
+      "title": "Elefsina",
       "id": "100047",
       "latlng": "38.04375,23.50868",
       "country": "GR",
-      "city": "Elefsina"
+      "name": "Elefsina"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Pachi.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100048/collection.json",
+      "type": "application/json",
+      "title": "Pachi",
       "id": "100048",
       "latlng": "37.99102,23.40814",
       "country": "GR",
-      "city": "Pachi"
+      "name": "Pachi"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Thessaloniki.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100049/collection.json",
+      "type": "application/json",
+      "title": "Thessaloniki",
       "id": "100049",
       "latlng": "40.68152,22.88263",
       "country": "GR",
-      "city": "Thessaloniki"
+      "name": "Thessaloniki"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Teesport.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100054/collection.json",
+      "type": "application/json",
+      "title": "Teesport",
       "id": "100054",
       "latlng": "54.63659,-1.21236",
       "country": "GB",
-      "city": "Teesport"
+      "name": "Teesport"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Trieste.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100057/collection.json",
+      "type": "application/json",
+      "title": "Trieste",
       "id": "100057",
       "latlng": "45.60048,13.83722",
       "country": "IT",
-      "city": "Trieste"
+      "name": "Trieste"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Sullom Voe.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100058/collection.json",
+      "type": "application/json",
+      "title": "Sullom Voe",
       "id": "100058",
       "latlng": "60.46923,-1.28454",
       "country": "GB",
-      "city": "Sullom Voe"
+      "name": "Sullom Voe"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Algeciras.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100113/collection.json",
+      "type": "application/json",
+      "title": "Algeciras",
       "id": "100113",
       "latlng": "36.187573,-5.400008",
       "country": "ES",
-      "city": "Algeciras"
+      "name": "Algeciras"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Cartagena.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100114/collection.json",
+      "type": "application/json",
+      "title": "Cartagena",
       "id": "100114",
       "latlng": "37.573845,-0.932927",
       "country": "ES",
-      "city": "Cartagena"
+      "name": "Cartagena"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Tarragona.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100115/collection.json",
+      "type": "application/json",
+      "title": "Tarragona",
       "id": "100115",
       "latlng": "41.168348,1.220632",
       "country": "ES",
-      "city": "Tarragona"
+      "name": "Tarragona"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/FosLavera.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100116/collection.json",
+      "type": "application/json",
+      "title": "Fos-Lavera",
       "id": "100116",
       "latlng": "43.44832,4.92497",
       "country": "FR",
-      "city": "Fos-Lavera"
+      "name": "Fos-Lavera"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Le Havre.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100117/collection.json",
+      "type": "application/json",
+      "title": "Le Havre",
       "id": "100117",
       "latlng": "49.483983,0.233957",
       "country": "FR",
-      "city": "Le Havre"
+      "name": "Le Havre"
     },
     {
-      "rel": "item",
-      "href": "./OX_Crude_Oil_Storage_Index/2017/Godorf Wesseling.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./100118/collection.json",
+      "type": "application/json",
+      "title": "Godorf Wesseling",
       "id": "100118",
       "latlng": "50.860509,6.983921",
       "country": "DE",
-      "city": "Godorf Wesseling"
+      "name": "Godorf Wesseling"
     },
     {
       "rel": "parent",
@@ -261,25 +285,25 @@
     "AIS",
     "Other"
   ],
-  "geoDBID": "Crude_Oil_Storage_Index",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Crude Oil Storage Index",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -8.258061999999999,
-          36.177573,
-          23.61571,
-          60.47923
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2017-01-09T00:00:00Z",
-          "2024-01-01T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

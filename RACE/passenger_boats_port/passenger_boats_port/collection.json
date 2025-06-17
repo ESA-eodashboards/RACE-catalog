@@ -11,13 +11,14 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./passenger_boats_port/2020/Genoa.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT3/collection.json",
+      "type": "application/json",
+      "title": "Genoa",
       "id": "IT3",
       "latlng": "44.405723, 8.933642",
       "country": "IT",
-      "city": "Genoa"
+      "name": "Genoa"
     },
     {
       "rel": "parent",
@@ -44,25 +45,25 @@
   "insituSources": [
     "AIS"
   ],
-  "geoDBID": "E13m",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Passenger boats in ports",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          8.923642000000001,
-          44.395723000000004,
-          8.943642,
-          44.415723
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-02-01T00:00:00Z",
-          "2020-05-15T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

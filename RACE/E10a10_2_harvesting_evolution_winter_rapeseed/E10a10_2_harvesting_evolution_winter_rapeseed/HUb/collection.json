@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "HUb",
+  "stac_version": "1.1.0",
+  "description": "Hungary - HU",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter rapeseed"
+    }
+  ],
+  "subcode": "HUb",
+  "title": "Hungary",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

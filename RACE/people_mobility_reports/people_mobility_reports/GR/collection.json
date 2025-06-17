@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "GR",
+  "stac_version": "1.1.0",
+  "description": "/ - Greece",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports"
+    }
+  ],
+  "subcode": "GR",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

@@ -11,148 +11,164 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/Austria.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ATb/collection.json",
+      "type": "application/json",
+      "title": "Austria",
       "id": "ATb",
       "latlng": "47.585494391, 14.1264761",
       "country": "AT",
-      "city": "Austria"
+      "name": "Austria"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/Bulgaria.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BGb/collection.json",
+      "type": "application/json",
+      "title": "Bulgaria",
       "id": "BGb",
       "latlng": "42.768903181, 25.21552909",
       "country": "BG",
-      "city": "Bulgaria"
+      "name": "Bulgaria"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/Czech Republic.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CZb/collection.json",
+      "type": "application/json",
+      "title": "Czech Republic",
       "id": "CZb",
       "latlng": "49.733412331, 15.31240163",
       "country": "CZ",
-      "city": "Czech Republic"
+      "name": "Czech Republic"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/Germany.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DEb/collection.json",
+      "type": "application/json",
+      "title": "Germany",
       "id": "DEb",
       "latlng": "51.106981811, 10.38578051",
       "country": "DE",
-      "city": "Germany"
+      "name": "Germany"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/Denmark.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DKb/collection.json",
+      "type": "application/json",
+      "title": "Denmark",
       "id": "DKb",
       "latlng": "56.005087031, 9.19078239",
       "country": "DK",
-      "city": "Denmark"
+      "name": "Denmark"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/Estonia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./EEb/collection.json",
+      "type": "application/json",
+      "title": "Estonia",
       "id": "EEb",
       "latlng": "58.671929721, 25.54248537",
       "country": "EE",
-      "city": "Estonia"
+      "name": "Estonia"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/France.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FRb/collection.json",
+      "type": "application/json",
+      "title": "France",
       "id": "FRb",
       "latlng": "46.839766351, 2.54675178",
       "country": "FR",
-      "city": "France"
+      "name": "France"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/Croatia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./HRb/collection.json",
+      "type": "application/json",
+      "title": "Croatia",
       "id": "HRb",
       "latlng": "45.695288081, 16.21904979",
       "country": "HR",
-      "city": "Croatia"
+      "name": "Croatia"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/Hungary.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./HUb/collection.json",
+      "type": "application/json",
+      "title": "Hungary",
       "id": "HUb",
       "latlng": "47.162775061, 19.39559116",
       "country": "HU",
-      "city": "Hungary"
+      "name": "Hungary"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/Lithuania.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LTb/collection.json",
+      "type": "application/json",
+      "title": "Lithuania",
       "id": "LTb",
       "latlng": "55.326109841, 23.88719355",
       "country": "LT",
-      "city": "Lithuania"
+      "name": "Lithuania"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/Latvia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LVb/collection.json",
+      "type": "application/json",
+      "title": "Latvia",
       "id": "LVb",
       "latlng": "56.850851631, 24.91235983",
       "country": "LV",
-      "city": "Latvia"
+      "name": "Latvia"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/Poland.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PLb/collection.json",
+      "type": "application/json",
+      "title": "Poland",
       "id": "PLb",
       "latlng": "52.127595641, 19.39012835",
       "country": "PL",
-      "city": "Poland"
+      "name": "Poland"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/Romania.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ROb/collection.json",
+      "type": "application/json",
+      "title": "Romania",
       "id": "ROb",
       "latlng": "45.852431271, 24.97293039",
       "country": "RO",
-      "city": "Romania"
+      "name": "Romania"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/Sweden.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./SEb/collection.json",
+      "type": "application/json",
+      "title": "Sweden",
       "id": "SEb",
       "latlng": "57.984907951, 14.4552277",
       "country": "SE",
-      "city": "Sweden"
+      "name": "Sweden"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/Slovak Republic.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./SKb/collection.json",
+      "type": "application/json",
+      "title": "Slovak Republic",
       "id": "SKb",
       "latlng": "48.705475281, 19.47905218",
       "country": "SK",
-      "city": "Slovak Republic"
+      "name": "Slovak Republic"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/2020/United Kingdom.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./UKb/collection.json",
+      "type": "application/json",
+      "title": "United Kingdom",
       "id": "UKb",
       "latlng": "52.989397751, -1.77396816",
       "country": "GB",
-      "city": "United Kingdom"
+      "name": "United Kingdom"
     },
     {
       "rel": "parent",
@@ -180,25 +196,25 @@
   "satellite": [
     "Sentinel-1"
   ],
-  "geoDBID": "E10a10",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Harvesting evolution winter rapeseed",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -1.78396816,
-          42.758903181,
-          25.552485370000003,
-          58.681929720999996
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-05-01T00:00:00Z",
-          "2020-11-01T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

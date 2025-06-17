@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "AT5",
+  "stac_version": "1.1.0",
+  "description": "Vienna - AT",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Air Quality (PM25 concetrations) at city level (model)"
+    }
+  ],
+  "subcode": "AT5",
+  "title": "Vienna",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

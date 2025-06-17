@@ -4751,6 +4751,36 @@
       "datetime": "2025-06-11T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-06-12T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-12T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-06-13T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-13T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-06-14T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-14T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-06-15T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-15T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-06-16T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-16T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_BLK_BGC_L4_NRT_009_152/cmems_obs-oc_blk_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202207",
       "type": "image/png",
@@ -4816,7 +4846,7 @@
       "interval": [
         [
           "2023-04-14T00:00:00Z",
-          "2025-06-11T00:00:00Z"
+          "2025-06-16T00:00:00Z"
         ]
       ]
     }

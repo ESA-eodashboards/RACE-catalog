@@ -165,24 +165,24 @@
     "spatial": {
       "bbox": [
         [
-          -1.74538,
-          41.325516,
-          24.944872,
-          53.352826
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ],
         [
-          -1.74538,
-          41.325516,
-          24.944872,
-          53.352826
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2015-01-01T00:00:00Z",
-          "2023-10-30T00:00:00Z"
+          "2025-06-17T10:09:45.725943Z",
+          null
         ]
       ]
     }
@@ -210,44 +210,44 @@
       "economy"
     ],
     "satellite": [
-      "ICEYE SAR",
-      "Sentinel-1"
+      "Sentinel-1",
+      "ICEYE SAR"
     ],
     "sensor": [
       "C-SAR"
     ],
     "cities": [
-      "Dingolfing",
-      "Swindon",
-      "Koln",
-      "Barcelona",
-      "Kvasiny",
-      "Russelsheim",
-      "Cassino",
-      "Craiova",
-      "Regensburg",
-      "Martorell",
-      "Nosovice",
+      "Ghent",
       "Saarlouis",
       "Ingolstadt",
-      "Sindelfingen",
-      "Emden",
-      "Neckarsulm",
+      "Koln",
       "Leipzig",
+      "Nosovice",
       "Wolfsburg",
-      "Bremen",
-      "Mioveni",
-      "Eisenach",
       "Zwickau",
-      "Ghent"
+      "Russelsheim",
+      "Dingolfing",
+      "Cassino",
+      "Swindon",
+      "Regensburg",
+      "Barcelona",
+      "Mioveni",
+      "Bremen",
+      "Emden",
+      "Martorell",
+      "Neckarsulm",
+      "Kvasiny",
+      "Craiova",
+      "Eisenach",
+      "Sindelfingen"
     ],
     "countries": [
       "IT",
       "BE",
-      "CZ",
-      "ES",
-      "GB",
       "RO",
+      "GB",
+      "ES",
+      "CZ",
       "DE"
     ]
   },

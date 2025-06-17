@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "100116",
+  "stac_version": "1.1.0",
+  "description": "Fos-Lavera - FR",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index"
+    }
+  ],
+  "subcode": "100116",
+  "title": "Fos-Lavera",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

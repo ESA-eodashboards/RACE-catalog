@@ -11,58 +11,64 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./agricultural_workers/2019/Apulia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT_218/collection.json",
+      "type": "application/json",
+      "title": "Apulia",
       "id": "IT_218",
       "latlng": "41.80107,15.67134",
       "country": "IT",
-      "city": "Apulia"
+      "name": "Apulia"
     },
     {
-      "rel": "item",
-      "href": "./agricultural_workers/2019/Apulia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT_219/collection.json",
+      "type": "application/json",
+      "title": "Apulia",
       "id": "IT_219",
       "latlng": "41.78791,15.52506",
       "country": "IT",
-      "city": "Apulia"
+      "name": "Apulia"
     },
     {
-      "rel": "item",
-      "href": "./agricultural_workers/2019/Apulia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT_22/collection.json",
+      "type": "application/json",
+      "title": "Apulia",
       "id": "IT_22",
       "latlng": "41.71440,15.73740",
       "country": "IT",
-      "city": "Apulia"
+      "name": "Apulia"
     },
     {
-      "rel": "item",
-      "href": "./agricultural_workers/2019/Apulia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT_372/collection.json",
+      "type": "application/json",
+      "title": "Apulia",
       "id": "IT_372",
       "latlng": "41.78245,15.54975",
       "country": "IT",
-      "city": "Apulia"
+      "name": "Apulia"
     },
     {
-      "rel": "item",
-      "href": "./agricultural_workers/2019/Apulia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT_386/collection.json",
+      "type": "application/json",
+      "title": "Apulia",
       "id": "IT_386",
       "latlng": "41.78702,15.54060",
       "country": "IT",
-      "city": "Apulia"
+      "name": "Apulia"
     },
     {
-      "rel": "item",
-      "href": "./agricultural_workers/2019/Apulia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT_492/collection.json",
+      "type": "application/json",
+      "title": "Apulia",
       "id": "IT_492",
       "latlng": "41.57712,15.78358",
       "country": "IT",
-      "city": "Apulia"
+      "name": "Apulia"
     },
     {
       "rel": "parent",
@@ -95,25 +101,25 @@
   "insituSources": [
     "Mobile"
   ],
-  "geoDBID": "E10a9",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Agricultural workers",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          15.51506,
-          41.56712,
-          15.79358,
-          41.81107
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-04-01T00:00:00Z",
-          "2020-08-31T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

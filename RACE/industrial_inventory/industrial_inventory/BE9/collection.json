@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "BE9",
+  "stac_version": "1.1.0",
+  "description": "Ghent - BE",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Automobile inventory level"
+    }
+  ],
+  "subcode": "BE9",
+  "title": "Ghent",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

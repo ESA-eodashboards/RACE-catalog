@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "CY",
+  "stac_version": "1.1.0",
+  "description": "Nicosia - CY",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Air Quality (tropospheric NO2 concetrations) at city level"
+    }
+  ],
+  "subcode": "CY",
+  "title": "Nicosia",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

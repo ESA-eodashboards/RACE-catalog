@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "UK12",
+  "stac_version": "1.1.0",
+  "description": "Folkestone - GB",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Border crossing vehicles time series"
+    }
+  ],
+  "subcode": "UK12",
+  "title": "Folkestone",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

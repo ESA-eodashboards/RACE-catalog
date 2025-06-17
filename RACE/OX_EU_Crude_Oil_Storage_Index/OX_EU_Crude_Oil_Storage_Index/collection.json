@@ -11,13 +11,14 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./OX_EU_Crude_Oil_Storage_Index/2017/EU.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./EU/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "EU",
       "latlng": "48.13,11.57",
       "country": "/",
-      "city": "/"
+      "name": "/"
     },
     {
       "rel": "parent",
@@ -54,25 +55,25 @@
     "AIS",
     "Other"
   ],
-  "geoDBID": "Crude_Oil_Storage_Index-Europe",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Crude Oil Storage Index Europe",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          11.56,
-          48.120000000000005,
-          11.58,
-          48.14
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2017-01-09T00:00:00Z",
-          "2024-01-01T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

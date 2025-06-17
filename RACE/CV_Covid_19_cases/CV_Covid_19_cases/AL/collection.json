@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "AL",
+  "stac_version": "1.1.0",
+  "description": "/ - Albania",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases"
+    }
+  ],
+  "subcode": "AL",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

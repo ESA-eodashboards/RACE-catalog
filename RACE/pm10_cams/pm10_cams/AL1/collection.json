@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "AL1",
+  "stac_version": "1.1.0",
+  "description": "Tirana - AL",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Air Quality (PM10 concetrations) at city level (model)"
+    }
+  ],
+  "subcode": "AL1",
+  "title": "Tirana",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

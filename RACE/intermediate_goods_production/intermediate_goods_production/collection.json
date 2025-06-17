@@ -11,22 +11,24 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./intermediate_goods_production/2020/Hamburg.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE1/collection.json",
+      "type": "application/json",
+      "title": "Hamburg",
       "id": "DE1",
       "latlng": "53.532123,9.944467",
       "country": "DE",
-      "city": "Hamburg"
+      "name": "Hamburg"
     },
     {
-      "rel": "item",
-      "href": "./intermediate_goods_production/2019/Genoa.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT3/collection.json",
+      "type": "application/json",
+      "title": "Genoa",
       "id": "IT3",
       "latlng": "44.408142,8.885851",
       "country": "IT",
-      "city": "Genoa"
+      "name": "Genoa"
     },
     {
       "rel": "parent",
@@ -47,25 +49,25 @@
     "ESA"
   ],
   "subcode": "E4",
-  "geoDBID": "E4",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Intermediate goods production",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          8.875851,
-          44.398142,
-          9.954467,
-          53.542123
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-04-30T10:33:52Z",
-          "2020-04-09T10:26:12Z"
+          null,
+          null
         ]
       ]
     }

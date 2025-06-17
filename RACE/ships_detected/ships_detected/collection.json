@@ -11,58 +11,64 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./ships_detected/2019/Ghent.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BE3/collection.json",
+      "type": "application/json",
+      "title": "Ghent",
       "id": "BE3",
       "latlng": "51.091559,3.740081",
       "country": "BE",
-      "city": "Ghent"
+      "name": "Ghent"
     },
     {
-      "rel": "item",
-      "href": "./ships_detected/2019/Hamburg.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE1/collection.json",
+      "type": "application/json",
+      "title": "Hamburg",
       "id": "DE1",
       "latlng": "53.532123,9.944467",
       "country": "DE",
-      "city": "Hamburg"
+      "name": "Hamburg"
     },
     {
-      "rel": "item",
-      "href": "./ships_detected/2019/Suez.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./EG1/collection.json",
+      "type": "application/json",
+      "title": "Suez ",
       "id": "EG1",
       "latlng": "30.939554,32.314923",
       "country": "EG",
-      "city": "Suez "
+      "name": "Suez "
     },
     {
-      "rel": "item",
-      "href": "./ships_detected/2019/Dunkirk.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FR3/collection.json",
+      "type": "application/json",
+      "title": "Dunkirk",
       "id": "FR3",
       "latlng": "51.036138,2.285374",
       "country": "FR",
-      "city": "Dunkirk"
+      "name": "Dunkirk"
     },
     {
-      "rel": "item",
-      "href": "./ships_detected/2019/Genoa.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT3/collection.json",
+      "type": "application/json",
+      "title": "Genoa",
       "id": "IT3",
       "latlng": "44.408142,8.885851",
       "country": "IT",
-      "city": "Genoa"
+      "name": "Genoa"
     },
     {
-      "rel": "item",
-      "href": "./ships_detected/2019/Gdynia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PL1/collection.json",
+      "type": "application/json",
+      "title": "Gdynia",
       "id": "PL1",
       "latlng": "54.537859,18.510887",
       "country": "PL",
-      "city": "Gdynia"
+      "name": "Gdynia"
     },
     {
       "rel": "parent",
@@ -89,25 +95,25 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "geoDBID": "E200",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Ships detections",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          2.2753740000000002,
-          30.929554,
-          32.324923,
-          54.547858999999995
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-01-02T10:28:30Z",
-          "2022-12-29T08:41:33Z"
+          null,
+          null
         ]
       ]
     }

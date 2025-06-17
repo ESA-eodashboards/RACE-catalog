@@ -11,247 +11,274 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Vienna.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./AT/collection.json",
+      "type": "application/json",
+      "title": "Vienna",
       "id": "AT",
       "latlng": "48.2,16.366667",
       "country": "AT",
-      "city": "Vienna"
+      "name": "Vienna"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Brussels.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BE/collection.json",
+      "type": "application/json",
+      "title": "Brussels",
       "id": "BE",
       "latlng": "50.83333333,4.333333",
       "country": "BE",
-      "city": "Brussels"
+      "name": "Brussels"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Sofia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BG/collection.json",
+      "type": "application/json",
+      "title": "Sofia",
       "id": "BG",
       "latlng": "42.68333333,23.316667",
       "country": "BG",
-      "city": "Sofia"
+      "name": "Sofia"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Nicosia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CY/collection.json",
+      "type": "application/json",
+      "title": "Nicosia",
       "id": "CY",
       "latlng": "35.16666667,33.366667",
       "country": "CY",
-      "city": "Nicosia"
+      "name": "Nicosia"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Prague.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CZ/collection.json",
+      "type": "application/json",
+      "title": "Prague",
       "id": "CZ",
       "latlng": "50.08333333,14.466667",
       "country": "CZ",
-      "city": "Prague"
+      "name": "Prague"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Berlin.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE/collection.json",
+      "type": "application/json",
+      "title": "Berlin",
       "id": "DE",
       "latlng": "52.51666667,13.4",
       "country": "DE",
-      "city": "Berlin"
+      "name": "Berlin"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Copenhagen.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DK/collection.json",
+      "type": "application/json",
+      "title": "Copenhagen",
       "id": "DK",
       "latlng": "55.66666667,12.583333",
       "country": "DK",
-      "city": "Copenhagen"
+      "name": "Copenhagen"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Tallinn.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./EE/collection.json",
+      "type": "application/json",
+      "title": "Tallinn",
       "id": "EE",
       "latlng": "59.43333333,24.716667",
       "country": "EE",
-      "city": "Tallinn"
+      "name": "Tallinn"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Madrid.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES/collection.json",
+      "type": "application/json",
+      "title": "Madrid",
       "id": "ES",
       "latlng": "40.416775,-3.70379",
       "country": "ES",
-      "city": "Madrid"
+      "name": "Madrid"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Helsinki.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FI/collection.json",
+      "type": "application/json",
+      "title": "Helsinki",
       "id": "FI",
       "latlng": "60.16666667,24.933333",
       "country": "FI",
-      "city": "Helsinki"
+      "name": "Helsinki"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Paris.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FR/collection.json",
+      "type": "application/json",
+      "title": "Paris",
       "id": "FR",
       "latlng": "48.864716,2.349014",
       "country": "FR",
-      "city": "Paris"
+      "name": "Paris"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Athens.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./GR/collection.json",
+      "type": "application/json",
+      "title": "Athens",
       "id": "GR",
       "latlng": "37.98333333,23.733333",
       "country": "GR",
-      "city": "Athens"
+      "name": "Athens"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Zagreb.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./HR/collection.json",
+      "type": "application/json",
+      "title": "Zagreb",
       "id": "HR",
       "latlng": "45.8,16.0",
       "country": "HR",
-      "city": "Zagreb"
+      "name": "Zagreb"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Budapest.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./HU/collection.json",
+      "type": "application/json",
+      "title": "Budapest",
       "id": "HU",
       "latlng": "47.5,19.083333",
       "country": "HU",
-      "city": "Budapest"
+      "name": "Budapest"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Dublin.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IE/collection.json",
+      "type": "application/json",
+      "title": "Dublin",
       "id": "IE",
       "latlng": "53.31666667,-6.233333",
       "country": "IE",
-      "city": "Dublin"
+      "name": "Dublin"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Rome.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT/collection.json",
+      "type": "application/json",
+      "title": "Rome",
       "id": "IT",
       "latlng": "41.902782,12.496366",
       "country": "IT",
-      "city": "Rome"
+      "name": "Rome"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Vilnius.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LT/collection.json",
+      "type": "application/json",
+      "title": "Vilnius",
       "id": "LT",
       "latlng": "54.68333333,25.316667",
       "country": "LT",
-      "city": "Vilnius"
+      "name": "Vilnius"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Luxembourg.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LU/collection.json",
+      "type": "application/json",
+      "title": "Luxembourg",
       "id": "LU",
       "latlng": "49.6,6.116667",
       "country": "LU",
-      "city": "Luxembourg"
+      "name": "Luxembourg"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Riga.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LV/collection.json",
+      "type": "application/json",
+      "title": "Riga",
       "id": "LV",
       "latlng": "56.95,24.1",
       "country": "LV",
-      "city": "Riga"
+      "name": "Riga"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Valletta.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./MT/collection.json",
+      "type": "application/json",
+      "title": "Valletta",
       "id": "MT",
       "latlng": "35.88333333,14.5",
       "country": "MT",
-      "city": "Valletta"
+      "name": "Valletta"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Amsterdam.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./NL/collection.json",
+      "type": "application/json",
+      "title": "Amsterdam",
       "id": "NL",
       "latlng": "52.35,4.916667",
       "country": "NL",
-      "city": "Amsterdam"
+      "name": "Amsterdam"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Warsaw.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PL/collection.json",
+      "type": "application/json",
+      "title": "Warsaw",
       "id": "PL",
       "latlng": "52.25,21.0",
       "country": "PL",
-      "city": "Warsaw"
+      "name": "Warsaw"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Lisbon.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PT/collection.json",
+      "type": "application/json",
+      "title": "Lisbon",
       "id": "PT",
       "latlng": "38.71666667,-9.133333",
       "country": "PT",
-      "city": "Lisbon"
+      "name": "Lisbon"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Bucharest.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./RO/collection.json",
+      "type": "application/json",
+      "title": "Bucharest",
       "id": "RO",
       "latlng": "44.43333333,26.1",
       "country": "RO",
-      "city": "Bucharest"
+      "name": "Bucharest"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Stockholm.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./SE/collection.json",
+      "type": "application/json",
+      "title": "Stockholm",
       "id": "SE",
       "latlng": "59.33333333,18.05",
       "country": "SE",
-      "city": "Stockholm"
+      "name": "Stockholm"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Ljubljana.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./SI/collection.json",
+      "type": "application/json",
+      "title": "Ljubljana",
       "id": "SI",
       "latlng": "46.05,14.516667",
       "country": "SI",
-      "city": "Ljubljana"
+      "name": "Ljubljana"
     },
     {
-      "rel": "item",
-      "href": "./city_no2/2018/Bratislava.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./SK/collection.json",
+      "type": "application/json",
+      "title": "Bratislava",
       "id": "SK",
       "latlng": "48.15,17.116667",
       "country": "SK",
-      "city": "Bratislava"
+      "name": "Bratislava"
     },
     {
       "rel": "parent",
@@ -301,25 +328,25 @@
     "tickFormat": ".0f",
     "title": "Tropospheric NO2 [µg/m³]"
   },
-  "geoDBID": "N1",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Air Quality (tropospheric NO2 concetrations) at city level",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -9.143333,
-          35.15666667,
-          33.376667,
-          60.176666669999996
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-05-07T00:00:00Z",
-          "2025-02-03T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

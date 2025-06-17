@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "IT6",
+  "stac_version": "1.1.0",
+  "description": "Venice Lagoon - IT",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature time series"
+    }
+  ],
+  "subcode": "IT6",
+  "title": "Venice Lagoon",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

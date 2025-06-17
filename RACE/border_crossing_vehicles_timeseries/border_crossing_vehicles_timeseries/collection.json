@@ -11,13 +11,14 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./border_crossing_vehicles_timeseries/2020/Folkestone.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./UK12/collection.json",
+      "type": "application/json",
+      "title": "Folkestone",
       "id": "UK12",
       "latlng": "51.09374, 1.10885",
       "country": "GB",
-      "city": "Folkestone"
+      "name": "Folkestone"
     },
     {
       "rel": "parent",
@@ -48,25 +49,25 @@
   "satellite": [
     "Sentinel-1"
   ],
-  "geoDBID": "E12b",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Border crossing vehicles time series",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          1.0988499999999999,
-          51.08374,
-          1.11885,
-          51.103739999999995
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-01-04T17:49:18Z",
-          "2020-12-29T17:49:30Z"
+          null,
+          null
         ]
       ]
     }

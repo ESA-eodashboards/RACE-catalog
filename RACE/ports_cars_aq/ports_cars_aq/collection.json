@@ -11,22 +11,24 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./ports_cars_aq/2019/Gioia Tauro.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT16/collection.json",
+      "type": "application/json",
+      "title": "Gioia Tauro",
       "id": "IT16",
       "latlng": "38.45339,15.9024",
       "country": "IT",
-      "city": "Gioia Tauro"
+      "name": "Gioia Tauro"
     },
     {
-      "rel": "item",
-      "href": "./ports_cars_aq/2019/Genoa.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT3/collection.json",
+      "type": "application/json",
+      "title": "Genoa",
       "id": "IT3",
       "latlng": "44.40572,8.93364",
       "country": "IT",
-      "city": "Genoa"
+      "name": "Genoa"
     },
     {
       "rel": "parent",
@@ -62,25 +64,25 @@
     "AIS",
     "Mobile"
   ],
-  "geoDBID": "C3",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Car sources",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          8.92364,
-          38.44339,
-          15.9124,
-          44.41572
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-02-01T00:00:00Z",
-          "2020-05-01T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "ES5",
+  "stac_version": "1.1.0",
+  "description": "Valencia - ES",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    }
+  ],
+  "subcode": "ES5",
+  "title": "Valencia",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

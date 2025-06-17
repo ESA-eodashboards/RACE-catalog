@@ -11,319 +11,354 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/AL.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./AL/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "AL",
       "latlng": "41.317,19.817",
       "country": "Albania",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/AT.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./AT/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "AT",
       "latlng": "48.2,16.367",
       "country": "Austria",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/BA.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BA/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "BA",
       "latlng": "43.867,18.417",
       "country": "Bosnia and Herzegovina",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/BE.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BE/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "BE",
       "latlng": "50.833,4.333",
       "country": "Belgium",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/BG.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BG/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "BG",
       "latlng": "42.683,23.317",
       "country": "Bulgaria",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/CH.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CH/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "CH",
       "latlng": "46.917,7.467",
       "country": "Switzerland",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/CZ.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CZ/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "CZ",
       "latlng": "50.083,14.467",
       "country": "Czechia",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/DE.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "DE",
       "latlng": "52.517,13.4",
       "country": "Germany",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/DK.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DK/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "DK",
       "latlng": "55.667,12.583",
       "country": "Denmark",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/EE.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./EE/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "EE",
       "latlng": "59.433,24.717",
       "country": "Estonia",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/ES.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "ES",
       "latlng": "40.4,-3.683",
       "country": "Spain",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/FI.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FI/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "FI",
       "latlng": "60.167,24.933",
       "country": "Finland",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/FR.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FR/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "FR",
       "latlng": "48.867,2.333",
       "country": "France",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/GB.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./GB/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "GB",
       "latlng": "51.5,-0.083",
       "country": "United Kingdom",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/GR.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./GR/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "GR",
       "latlng": "37.983,23.733",
       "country": "Greece",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/HR.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./HR/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "HR",
       "latlng": "45.8,16.0",
       "country": "Croatia",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/HU.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./HU/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "HU",
       "latlng": "47.5,19.083",
       "country": "Hungary",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/IE.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IE/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "IE",
       "latlng": "53.317,-6.233",
       "country": "Ireland",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/IT.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "IT",
       "latlng": "41.9,12.483",
       "country": "Italy",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/LT.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LT/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "LT",
       "latlng": "54.683,25.317",
       "country": "Lithuania",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/LU.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LU/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "LU",
       "latlng": "49.6,6.117",
       "country": "Luxembourg",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/LV.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LV/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "LV",
       "latlng": "56.95,24.1",
       "country": "Latvia",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/MK.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./MK/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "MK",
       "latlng": "42.0,21.433",
       "country": "North Macedonia",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/MT.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./MT/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "MT",
       "latlng": "35.883,14.5",
       "country": "Malta",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/NL.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./NL/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "NL",
       "latlng": "52.35,4.917",
       "country": "Netherlands",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/NO.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./NO/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "NO",
       "latlng": "59.917,10.75",
       "country": "Norway",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/PL.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PL/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "PL",
       "latlng": "52.25,21.0",
       "country": "Poland",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/PT.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PT/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "PT",
       "latlng": "38.717,-9.133",
       "country": "Portugal",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/RO.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./RO/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "RO",
       "latlng": "44.433,26.1",
       "country": "Romania",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/RS.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./RS/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "RS",
       "latlng": "44.833,20.5",
       "country": "Serbia",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/SE.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./SE/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "SE",
       "latlng": "59.333,18.05",
       "country": "Sweden",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/SI.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./SI/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "SI",
       "latlng": "46.05,14.517",
       "country": "Slovenia",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/SK.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./SK/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "SK",
       "latlng": "48.15,17.117",
       "country": "Slovakia",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/TR.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./TR/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "TR",
       "latlng": "39.933,32.867",
       "country": "Turkey",
-      "city": "/"
+      "name": "/"
     },
     {
-      "rel": "item",
-      "href": "./CV_Covid_19_cases/2020/XK.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./XK/collection.json",
+      "type": "application/json",
+      "title": "/",
       "id": "XK",
       "latlng": "42.67272,21.16688",
       "country": "Kosovo",
-      "city": "/"
+      "name": "/"
     },
     {
       "rel": "parent",
@@ -350,25 +385,25 @@
   "insituSources": [
     "Other"
   ],
-  "geoDBID": "Global_COVID_data",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Covid-19 Cases",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -9.142999999999999,
-          35.873000000000005,
-          32.876999999999995,
-          60.177
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-01-22T00:00:00Z",
-          "2023-03-09T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

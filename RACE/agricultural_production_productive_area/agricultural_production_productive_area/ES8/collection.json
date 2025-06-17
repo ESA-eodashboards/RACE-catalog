@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "ES8",
+  "stac_version": "1.1.0",
+  "description": "Huelva (Lagunas de las Madres) - ES",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - productive area"
+    }
+  ],
+  "subcode": "ES8",
+  "title": "Huelva (Lagunas de las Madres)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

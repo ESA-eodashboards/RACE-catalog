@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "SE21",
+  "stac_version": "1.1.0",
+  "description": "Oxelosund - area 4 - SE",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    }
+  ],
+  "subcode": "SE21",
+  "title": "Oxelosund - area 4",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

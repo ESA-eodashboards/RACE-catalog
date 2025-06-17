@@ -11,13 +11,14 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./trucks_port/2019/Gijon.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES7/collection.json",
+      "type": "application/json",
+      "title": "Gijon",
       "id": "ES7",
       "latlng": "43.54378,-5.67329",
       "country": "ES",
-      "city": "Gijon"
+      "name": "Gijon"
     },
     {
       "rel": "parent",
@@ -42,25 +43,25 @@
   "insituSources": [
     "Mobile"
   ],
-  "geoDBID": "E13n",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Commercial fluxes",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -5.6832899999999995,
-          43.53378,
-          -5.66329,
-          43.553779999999996
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-02-01T00:00:00Z",
-          "2020-09-01T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

@@ -151,24 +151,24 @@
     "spatial": {
       "bbox": [
         [
-          -9.4467,
-          38.6567,
-          29.4566,
-          54.161699999999996
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ],
         [
-          -9.4467,
-          38.6567,
-          29.4566,
-          54.161699999999996
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-01-05T00:00:00Z",
-          "2025-01-04T00:00:00Z"
+          "2025-06-17T10:08:59.805165Z",
+          null
         ]
       ]
     }
@@ -202,20 +202,20 @@
       "OLCI"
     ],
     "cities": [
-      "Hamburg",
-      "Constanta",
-      "Lisbon",
+      "Barcelona",
       "Marseilles",
+      "Hamburg",
       "Venice Lagoon",
-      "Barcelona"
+      "Constanta",
+      "Lisbon"
     ],
     "countries": [
-      "IT",
       "FR",
-      "GE",
       "PT",
-      "ES",
-      "RO"
+      "IT",
+      "RO",
+      "GE",
+      "ES"
     ]
   },
   "assets": {

@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "HU",
+  "stac_version": "1.1.0",
+  "description": "Budapest - HU",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Air Quality (tropospheric NO2 concetrations) at city level"
+    }
+  ],
+  "subcode": "HU",
+  "title": "Budapest",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

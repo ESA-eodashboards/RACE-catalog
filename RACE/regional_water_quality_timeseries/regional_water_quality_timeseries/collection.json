@@ -11,58 +11,64 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./regional_water_quality_timeseries/2019/Hamburg.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE29/collection.json",
+      "type": "application/json",
+      "title": "Hamburg",
       "id": "DE29",
       "latlng": "54.1517,7.89169",
       "country": "GE",
-      "city": "Hamburg"
+      "name": "Hamburg"
     },
     {
-      "rel": "item",
-      "href": "./regional_water_quality_timeseries/2019/Barcelona.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES19/collection.json",
+      "type": "application/json",
+      "title": "Barcelona",
       "id": "ES19",
       "latlng": "40.7170,1.35800",
       "country": "ES",
-      "city": "Barcelona"
+      "name": "Barcelona"
     },
     {
-      "rel": "item",
-      "href": "./regional_water_quality_timeseries/2019/Marseilles.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FR11/collection.json",
+      "type": "application/json",
+      "title": "Marseilles",
       "id": "FR11",
       "latlng": "43.4000,4.94000",
       "country": "FR",
-      "city": "Marseilles"
+      "name": "Marseilles"
     },
     {
-      "rel": "item",
-      "href": "./regional_water_quality_timeseries/2019/Venice Lagoon.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT6/collection.json",
+      "type": "application/json",
+      "title": "Venice Lagoon",
       "id": "IT6",
       "latlng": "45.3142,12.5081",
       "country": "IT",
-      "city": "Venice Lagoon"
+      "name": "Venice Lagoon"
     },
     {
-      "rel": "item",
-      "href": "./regional_water_quality_timeseries/2019/Lisbon.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PT4/collection.json",
+      "type": "application/json",
+      "title": "Lisbon",
       "id": "PT4",
       "latlng": "38.6667,-9.43670",
       "country": "PT",
-      "city": "Lisbon"
+      "name": "Lisbon"
     },
     {
-      "rel": "item",
-      "href": "./regional_water_quality_timeseries/2019/Constanta.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./RO1/collection.json",
+      "type": "application/json",
+      "title": "Constanta",
       "id": "RO1",
       "latlng": "44.5458,29.4466",
       "country": "RO",
-      "city": "Constanta"
+      "name": "Constanta"
     },
     {
       "rel": "license",
@@ -100,25 +106,25 @@
   "satellite": [
     "Sentinel-3"
   ],
-  "geoDBID": "Regional_Water_Quality_Europe_timeseries",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Regional water quality time series",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -9.4467,
-          38.6567,
-          29.4566,
-          54.161699999999996
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-01-05T00:00:00Z",
-          "2025-01-04T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

@@ -151,24 +151,24 @@
     "spatial": {
       "bbox": [
         [
-          -6.148,
-          37.539,
-          1.496,
-          42.653999999999996
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ],
         [
-          -6.148,
-          37.539,
-          1.496,
-          42.653999999999996
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-05-17T00:00:00Z",
-          "2020-08-02T00:00:00Z"
+          "2025-06-17T10:09:55.059031Z",
+          null
         ]
       ]
     }
@@ -193,21 +193,21 @@
       "Landsat-8"
     ],
     "sensor": [
-      "MSI",
       "C-SAR",
-      "OLI"
+      "OLI",
+      "MSI"
     ],
     "cities": [
-      "Andalucia",
+      "Castilla-La Mancha",
+      "Comunidad Foral de Navarra",
+      "Region de Murcia",
+      "Comunidad de Madrid",
+      "Aragon",
       "Castilla y Leon",
       "Comunidad Valenciana",
+      "Andalucia",
       "Extremadura",
-      "Comunidad Foral de Navarra",
-      "Aragon",
-      "Comunidad de Madrid",
-      "Castilla-La Mancha",
       "La Rioja",
-      "Region de Murcia",
       "Cataluna"
     ],
     "countries": [

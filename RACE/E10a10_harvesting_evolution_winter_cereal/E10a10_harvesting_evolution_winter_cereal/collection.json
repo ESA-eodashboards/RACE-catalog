@@ -11,175 +11,194 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Austria.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ATa/collection.json",
+      "type": "application/json",
+      "title": "Austria",
       "id": "ATa",
       "latlng": "47.58549439, 14.1264761",
       "country": "AT",
-      "city": "Austria"
+      "name": "Austria"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Bulgaria.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BGa/collection.json",
+      "type": "application/json",
+      "title": "Bulgaria",
       "id": "BGa",
       "latlng": "42.76890318, 25.21552909",
       "country": "BG",
-      "city": "Bulgaria"
+      "name": "Bulgaria"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Czech Republic.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CZa/collection.json",
+      "type": "application/json",
+      "title": "Czech Republic",
       "id": "CZa",
       "latlng": "49.73341233, 15.31240163",
       "country": "CZ",
-      "city": "Czech Republic"
+      "name": "Czech Republic"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Germany.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DEa/collection.json",
+      "type": "application/json",
+      "title": "Germany",
       "id": "DEa",
       "latlng": "51.10698181, 10.38578051",
       "country": "DE",
-      "city": "Germany"
+      "name": "Germany"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Denmark.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DKa/collection.json",
+      "type": "application/json",
+      "title": "Denmark",
       "id": "DKa",
       "latlng": "56.00508703, 9.19078239",
       "country": "DK",
-      "city": "Denmark"
+      "name": "Denmark"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Estonia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./EEa/collection.json",
+      "type": "application/json",
+      "title": "Estonia",
       "id": "EEa",
       "latlng": "58.67192972, 25.54248537",
       "country": "EE",
-      "city": "Estonia"
+      "name": "Estonia"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Spain.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ESa/collection.json",
+      "type": "application/json",
+      "title": "Spain",
       "id": "ESa",
       "latlng": "40.24448698, -3.64755047",
       "country": "ES",
-      "city": "Spain"
+      "name": "Spain"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/France.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FRa/collection.json",
+      "type": "application/json",
+      "title": "France",
       "id": "FRa",
       "latlng": "46.83976635, 2.54675178",
       "country": "FR",
-      "city": "France"
+      "name": "France"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Croatia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./HRa/collection.json",
+      "type": "application/json",
+      "title": "Croatia",
       "id": "HRa",
       "latlng": "45.69528808, 16.21904979",
       "country": "HR",
-      "city": "Croatia"
+      "name": "Croatia"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Hungary.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./HUa/collection.json",
+      "type": "application/json",
+      "title": "Hungary",
       "id": "HUa",
       "latlng": "47.16277506, 19.39559116",
       "country": "HU",
-      "city": "Hungary"
+      "name": "Hungary"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Italy.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ITa/collection.json",
+      "type": "application/json",
+      "title": "Italy",
       "id": "ITa",
       "latlng": "42.79662641, 12.07001339",
       "country": "IT",
-      "city": "Italy"
+      "name": "Italy"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Lithuania.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LTa/collection.json",
+      "type": "application/json",
+      "title": "Lithuania",
       "id": "LTa",
       "latlng": "55.32610984, 23.88719355",
       "country": "LT",
-      "city": "Lithuania"
+      "name": "Lithuania"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Latvia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LVa/collection.json",
+      "type": "application/json",
+      "title": "Latvia",
       "id": "LVa",
       "latlng": "56.85085163, 24.91235983",
       "country": "LV",
-      "city": "Latvia"
+      "name": "Latvia"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Poland.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PLa/collection.json",
+      "type": "application/json",
+      "title": "Poland",
       "id": "PLa",
       "latlng": "52.12759564, 19.39012835",
       "country": "PL",
-      "city": "Poland"
+      "name": "Poland"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Romania.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ROa/collection.json",
+      "type": "application/json",
+      "title": "Romania",
       "id": "ROa",
       "latlng": "45.85243127, 24.97293039",
       "country": "RO",
-      "city": "Romania"
+      "name": "Romania"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Serbia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./RSa/collection.json",
+      "type": "application/json",
+      "title": "Serbia",
       "id": "RSa",
       "latlng": "44.2215032, 20.78958334",
       "country": "RS",
-      "city": "Serbia"
+      "name": "Serbia"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Sweden.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./SEa/collection.json",
+      "type": "application/json",
+      "title": "Sweden",
       "id": "SEa",
       "latlng": "57.98490795, 14.4552277",
       "country": "SE",
-      "city": "Sweden"
+      "name": "Sweden"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/Slovak Republic.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./SKa/collection.json",
+      "type": "application/json",
+      "title": "Slovak Republic",
       "id": "SKa",
       "latlng": "48.70547528, 19.47905218",
       "country": "SK",
-      "city": "Slovak Republic"
+      "name": "Slovak Republic"
     },
     {
-      "rel": "item",
-      "href": "./E10a10_harvesting_evolution_winter_cereal/2020/United Kingdom.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./UKa/collection.json",
+      "type": "application/json",
+      "title": "United Kingdom",
       "id": "UKa",
       "latlng": "52.98939775, -1.77396816",
       "country": "GB",
-      "city": "United Kingdom"
+      "name": "United Kingdom"
     },
     {
       "rel": "parent",
@@ -207,25 +226,25 @@
   "satellite": [
     "Sentinel-1"
   ],
-  "geoDBID": "E10a10",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Harvesting evolution winter cereal",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -3.65755047,
-          40.23448698,
-          25.552485370000003,
-          58.68192972
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-05-01T00:00:00Z",
-          "2020-11-01T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

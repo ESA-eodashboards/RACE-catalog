@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "DEa",
+  "stac_version": "1.1.0",
+  "description": "Germany - DE",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter cereal"
+    }
+  ],
+  "subcode": "DEa",
+  "title": "Germany",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

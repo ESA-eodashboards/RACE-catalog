@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "ES61b",
+  "stac_version": "1.1.0",
+  "description": "Andalucia - ES",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harvested parcels"
+    }
+  ],
+  "subcode": "ES61b",
+  "title": "Andalucia",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

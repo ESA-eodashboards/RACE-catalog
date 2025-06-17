@@ -186,24 +186,24 @@
     "spatial": {
       "bbox": [
         [
-          -8.8128,
-          36.66166398,
-          28.830829,
-          60.327
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ],
         [
-          -8.8128,
-          36.66166398,
-          28.830829,
-          60.327
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-07-01T00:00:00Z",
-          "2022-12-01T00:00:00Z"
+          "2025-06-17T10:07:04.767462Z",
+          null
         ]
       ]
     }
@@ -229,24 +229,24 @@
       "MSI"
     ],
     "countries": [
-      "DK",
-      "IT",
-      "IE",
       "FR",
       "GR",
-      "TR",
-      "NO",
-      "BE",
-      "SE",
-      "GB",
-      "ES",
-      "CH",
-      "PT",
-      "FI",
-      "AT",
       "NL",
+      "PT",
+      "IE",
+      "SE",
+      "DK",
+      "FI",
+      "IT",
+      "BE",
+      "GB",
+      "CH",
+      "ES",
+      "TR",
+      "DE",
       "PL",
-      "DE"
+      "NO",
+      "AT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_2.png"

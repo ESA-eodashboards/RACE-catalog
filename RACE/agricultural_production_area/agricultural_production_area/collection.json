@@ -11,13 +11,14 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./agricultural_production_area/2020/Brandenburg Region.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE11/collection.json",
+      "type": "application/json",
+      "title": "Brandenburg Region",
       "id": "DE11",
       "latlng": "52.131413,13.090632",
       "country": "DE",
-      "city": "Brandenburg Region"
+      "name": "Brandenburg Region"
     },
     {
       "rel": "parent",
@@ -45,25 +46,25 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "geoDBID": "E10a2_tri",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Agricultural production - area",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          13.080632,
-          52.121413000000004,
-          13.100632,
-          52.141413
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-03-14T10:10:19Z",
-          "2020-06-27T10:10:31Z"
+          null,
+          null
         ]
       ]
     }

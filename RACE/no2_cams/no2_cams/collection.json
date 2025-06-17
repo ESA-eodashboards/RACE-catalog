@@ -11,454 +11,504 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Tirana.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./AL1/collection.json",
+      "type": "application/json",
+      "title": "Tirana",
       "id": "AL1",
       "latlng": "41.32,19.82",
       "country": "AL",
-      "city": "Tirana"
+      "name": "Tirana"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Vienna.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./AT5/collection.json",
+      "type": "application/json",
+      "title": "Vienna",
       "id": "AT5",
       "latlng": "48.2,16.37",
       "country": "AT",
-      "city": "Vienna"
+      "name": "Vienna"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Sarajevo.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BA1/collection.json",
+      "type": "application/json",
+      "title": "Sarajevo",
       "id": "BA1",
       "latlng": "43.87,18.42",
       "country": "BA",
-      "city": "Sarajevo"
+      "name": "Sarajevo"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Brussels.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BE7/collection.json",
+      "type": "application/json",
+      "title": "Brussels",
       "id": "BE7",
       "latlng": "50.83,4.34",
       "country": "BE",
-      "city": "Brussels"
+      "name": "Brussels"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Sofia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BG4/collection.json",
+      "type": "application/json",
+      "title": "Sofia",
       "id": "BG4",
       "latlng": "42.68,23.32",
       "country": "BG",
-      "city": "Sofia"
+      "name": "Sofia"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Bern.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CH2/collection.json",
+      "type": "application/json",
+      "title": "Bern",
       "id": "CH2",
       "latlng": "46.92,7.47",
       "country": "CH",
-      "city": "Bern"
+      "name": "Bern"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Nicosia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CY2/collection.json",
+      "type": "application/json",
+      "title": "Nicosia",
       "id": "CY2",
       "latlng": "35.17,33.37",
       "country": "CY",
-      "city": "Nicosia"
+      "name": "Nicosia"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Prague.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CZ6/collection.json",
+      "type": "application/json",
+      "title": "Prague",
       "id": "CZ6",
       "latlng": "50.08,14.47",
       "country": "CZ",
-      "city": "Prague"
+      "name": "Prague"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Cologne.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE13/collection.json",
+      "type": "application/json",
+      "title": "Cologne",
       "id": "DE13",
       "latlng": "50.94,6.95",
       "country": "DE",
-      "city": "Cologne"
+      "name": "Cologne"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Berlin.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE16/collection.json",
+      "type": "application/json",
+      "title": "Berlin",
       "id": "DE16",
       "latlng": "52.52,13.41",
       "country": "DE",
-      "city": "Berlin"
+      "name": "Berlin"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Hamburg.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE17/collection.json",
+      "type": "application/json",
+      "title": "Hamburg",
       "id": "DE17",
       "latlng": "53.5488, 9.9872",
       "country": "DE",
-      "city": "Hamburg"
+      "name": "Hamburg"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Munich.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE18/collection.json",
+      "type": "application/json",
+      "title": "Munich",
       "id": "DE18",
       "latlng": "48.13,11.57",
       "country": "DE",
-      "city": "Munich"
+      "name": "Munich"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Copenhagen.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DK1/collection.json",
+      "type": "application/json",
+      "title": "Copenhagen",
       "id": "DK1",
       "latlng": "55.67,12.58",
       "country": "DK",
-      "city": "Copenhagen"
+      "name": "Copenhagen"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Tallinn.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./EE1/collection.json",
+      "type": "application/json",
+      "title": "Tallinn",
       "id": "EE1",
       "latlng": "59.43,24.72",
       "country": "EE",
-      "city": "Tallinn"
+      "name": "Tallinn"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Madrid.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES12/collection.json",
+      "type": "application/json",
+      "title": "Madrid",
       "id": "ES12",
       "latlng": "40.4,-3.68",
       "country": "ES",
-      "city": "Madrid"
+      "name": "Madrid"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Barcelona.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES63/collection.json",
+      "type": "application/json",
+      "title": "Barcelona",
       "id": "ES63",
       "latlng": "41.38,2.18",
       "country": "ES",
-      "city": "Barcelona"
+      "name": "Barcelona"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Valencia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES65/collection.json",
+      "type": "application/json",
+      "title": "Valencia",
       "id": "ES65",
       "latlng": "39.47,-0.38",
       "country": "ES",
-      "city": "Valencia"
+      "name": "Valencia"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Helsinki.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FI4/collection.json",
+      "type": "application/json",
+      "title": "Helsinki",
       "id": "FI4",
       "latlng": "60.17,24.93",
       "country": "FI",
-      "city": "Helsinki"
+      "name": "Helsinki"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Paris.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FR10/collection.json",
+      "type": "application/json",
+      "title": "Paris",
       "id": "FR10",
       "latlng": "48.87,2.33",
       "country": "FR",
-      "city": "Paris"
+      "name": "Paris"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Lyon.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FR15/collection.json",
+      "type": "application/json",
+      "title": "Lyon",
       "id": "FR15",
       "latlng": "45.76,4.85",
       "country": "FR",
-      "city": "Lyon"
+      "name": "Lyon"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Marseille.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FR16/collection.json",
+      "type": "application/json",
+      "title": "Marseille",
       "id": "FR16",
       "latlng": "43.3,5.37",
       "country": "FR",
-      "city": "Marseille"
+      "name": "Marseille"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Athens.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./GR6/collection.json",
+      "type": "application/json",
+      "title": "Athens",
       "id": "GR6",
       "latlng": "37.98,23.74",
       "country": "GR",
-      "city": "Athens"
+      "name": "Athens"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Zagreb.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./HR3/collection.json",
+      "type": "application/json",
+      "title": "Zagreb",
       "id": "HR3",
       "latlng": "45.8,16.01",
       "country": "HR",
-      "city": "Zagreb"
+      "name": "Zagreb"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Budapest.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./HU5/collection.json",
+      "type": "application/json",
+      "title": "Budapest",
       "id": "HU5",
       "latlng": "47.5,19.09",
       "country": "HU",
-      "city": "Budapest"
+      "name": "Budapest"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Dublin.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IE3/collection.json",
+      "type": "application/json",
+      "title": "Dublin",
       "id": "IE3",
       "latlng": "53.32,-6.23",
       "country": "IE",
-      "city": "Dublin"
+      "name": "Dublin"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Reykjavik.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IS1/collection.json",
+      "type": "application/json",
+      "title": "Reykjavik",
       "id": "IS1",
       "latlng": "64.15,-21.95",
       "country": "IS",
-      "city": "Reykjavik"
+      "name": "Reykjavik"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Milan.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT10/collection.json",
+      "type": "application/json",
+      "title": "Milan",
       "id": "IT10",
       "latlng": "45.47,9.18",
       "country": "IT",
-      "city": "Milan"
+      "name": "Milan"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Rome.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT11/collection.json",
+      "type": "application/json",
+      "title": "Rome",
       "id": "IT11",
       "latlng": "41.9,12.48",
       "country": "IT",
-      "city": "Rome"
+      "name": "Rome"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Naples.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT37/collection.json",
+      "type": "application/json",
+      "title": "Naples",
       "id": "IT37",
       "latlng": "40.86,14.25",
       "country": "IT",
-      "city": "Naples"
+      "name": "Naples"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Turin.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT38/collection.json",
+      "type": "application/json",
+      "title": "Turin",
       "id": "IT38",
       "latlng": "45.12,7.74",
       "country": "IT",
-      "city": "Turin"
+      "name": "Turin"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Vilnius.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LT3/collection.json",
+      "type": "application/json",
+      "title": "Vilnius",
       "id": "LT3",
       "latlng": "54.68,25.32",
       "country": "LT",
-      "city": "Vilnius"
+      "name": "Vilnius"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Luxembourg.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LU2/collection.json",
+      "type": "application/json",
+      "title": "Luxembourg",
       "id": "LU2",
       "latlng": "49.6,6.12",
       "country": "LU",
-      "city": "Luxembourg"
+      "name": "Luxembourg"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Riga.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./LV3/collection.json",
+      "type": "application/json",
+      "title": "Riga",
       "id": "LV3",
       "latlng": "56.95,24.11",
       "country": "LV",
-      "city": "Riga"
+      "name": "Riga"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Monaco.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./MC1/collection.json",
+      "type": "application/json",
+      "title": "Monaco",
       "id": "MC1",
       "latlng": "43.73,7.42",
       "country": "MC",
-      "city": "Monaco"
+      "name": "Monaco"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Podgorica.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ME1/collection.json",
+      "type": "application/json",
+      "title": "Podgorica",
       "id": "ME1",
       "latlng": "42.43,19.27",
       "country": "ME",
-      "city": "Podgorica"
+      "name": "Podgorica"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Skopje.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./MK1/collection.json",
+      "type": "application/json",
+      "title": "Skopje",
       "id": "MK1",
       "latlng": "42,21.43",
       "country": "MK",
-      "city": "Skopje"
+      "name": "Skopje"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Valletta.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./MT2/collection.json",
+      "type": "application/json",
+      "title": "Valletta",
       "id": "MT2",
       "latlng": "35.88,14.51",
       "country": "MT",
-      "city": "Valletta"
+      "name": "Valletta"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Amsterdam.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./NL3/collection.json",
+      "type": "application/json",
+      "title": "Amsterdam",
       "id": "NL3",
       "latlng": "52.35,4.92",
       "country": "NL",
-      "city": "Amsterdam"
+      "name": "Amsterdam"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Oslo.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./NO2/collection.json",
+      "type": "application/json",
+      "title": "Oslo",
       "id": "NO2",
       "latlng": "59.92,10.75",
       "country": "NO",
-      "city": "Oslo"
+      "name": "Oslo"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Warsaw.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PL6/collection.json",
+      "type": "application/json",
+      "title": "Warsaw",
       "id": "PL6",
       "latlng": "52.25,21.01",
       "country": "PL",
-      "city": "Warsaw"
+      "name": "Warsaw"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Lisbon.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PT3/collection.json",
+      "type": "application/json",
+      "title": "Lisbon",
       "id": "PT3",
       "latlng": "38.72,-9.13",
       "country": "PT",
-      "city": "Lisbon"
+      "name": "Lisbon"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Bucharest.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./RO9/collection.json",
+      "type": "application/json",
+      "title": "Bucharest",
       "id": "RO9",
       "latlng": "44.43,26.11",
       "country": "RO",
-      "city": "Bucharest"
+      "name": "Bucharest"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Belgrade.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./RS1/collection.json",
+      "type": "application/json",
+      "title": "Belgrade",
       "id": "RS1",
       "latlng": "44.83,20.5",
       "country": "RS",
-      "city": "Belgrade"
+      "name": "Belgrade"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Stockholm.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./SE22/collection.json",
+      "type": "application/json",
+      "title": "Stockholm",
       "id": "SE22",
       "latlng": "59.33,18.06",
       "country": "SE",
-      "city": "Stockholm"
+      "name": "Stockholm"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Ljubljana.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./SI3/collection.json",
+      "type": "application/json",
+      "title": "Ljubljana",
       "id": "SI3",
       "latlng": "46.05,14.52",
       "country": "SI",
-      "city": "Ljubljana"
+      "name": "Ljubljana"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Bratislava.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./SK4/collection.json",
+      "type": "application/json",
+      "title": "Bratislava",
       "id": "SK4",
       "latlng": "48.15,17.12",
       "country": "SK",
-      "city": "Bratislava"
+      "name": "Bratislava"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Ankara.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./TR3/collection.json",
+      "type": "application/json",
+      "title": "Ankara",
       "id": "TR3",
       "latlng": "39.93,32.87",
       "country": "TR",
-      "city": "Ankara"
+      "name": "Ankara"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Birmingham.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./UK10/collection.json",
+      "type": "application/json",
+      "title": "Birmingham",
       "id": "UK10",
       "latlng": "52.48,1.89",
       "country": "GB",
-      "city": "Birmingham"
+      "name": "Birmingham"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/London.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./UK11/collection.json",
+      "type": "application/json",
+      "title": "London",
       "id": "UK11",
       "latlng": "51.5,-0.08",
       "country": "GB",
-      "city": "London"
+      "name": "London"
     },
     {
-      "rel": "item",
-      "href": "./no2_cams/2020/Pristina.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./XK1/collection.json",
+      "type": "application/json",
+      "title": "Pristina",
       "id": "XK1",
       "latlng": "42.67,21.17",
       "country": "XK",
-      "city": "Pristina"
+      "name": "Pristina"
     },
     {
       "rel": "license",
@@ -495,25 +545,25 @@
   "otherSources": [
     "EAC4"
   ],
-  "geoDBID": "N1b",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Air Quality (NO2 concetrations) at city level (model)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -21.96,
-          35.160000000000004,
-          33.379999999999995,
-          64.16000000000001
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-01-01T00:00:00Z",
-          "2022-12-31T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

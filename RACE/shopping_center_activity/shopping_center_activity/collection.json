@@ -11,58 +11,64 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./shopping_center_activity/2020/Brussels.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BE4/collection.json",
+      "type": "application/json",
+      "title": "Brussels",
       "id": "BE4",
       "latlng": "50.8792741,4.3401109",
       "country": "BE",
-      "city": "Brussels"
+      "name": "Brussels"
     },
     {
-      "rel": "item",
-      "href": "./shopping_center_activity/2020/Athens.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./GR3/collection.json",
+      "type": "application/json",
+      "title": "Athens",
       "id": "GR3",
       "latlng": "37.975333,23.69534",
       "country": "GR",
-      "city": "Athens"
+      "name": "Athens"
     },
     {
-      "rel": "item",
-      "href": "./shopping_center_activity/2020/Rome.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT4/collection.json",
+      "type": "application/json",
+      "title": "Rome",
       "id": "IT4",
       "latlng": "41.897678,12.573303",
       "country": "IT",
-      "city": "Rome"
+      "name": "Rome"
     },
     {
-      "rel": "item",
-      "href": "./shopping_center_activity/2020/Milan.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT5/collection.json",
+      "type": "application/json",
+      "title": "Milan",
       "id": "IT5",
       "latlng": "45.43371,9.12225",
       "country": "IT",
-      "city": "Milan"
+      "name": "Milan"
     },
     {
-      "rel": "item",
-      "href": "./shopping_center_activity/2020/Warsaw.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PL4/collection.json",
+      "type": "application/json",
+      "title": "Warsaw",
       "id": "PL4",
       "latlng": "52.1756,21.0139",
       "country": "PL",
-      "city": "Warsaw"
+      "name": "Warsaw"
     },
     {
-      "rel": "item",
-      "href": "./shopping_center_activity/2017/Bucharest.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./RO3/collection.json",
+      "type": "application/json",
+      "title": "Bucharest",
       "id": "RO3",
       "latlng": "44.510178, 26.084603",
       "country": "RO",
-      "city": "Bucharest"
+      "name": "Bucharest"
     },
     {
       "rel": "parent",
@@ -95,25 +101,25 @@
   "insituSources": [
     "Mobile"
   ],
-  "geoDBID": "E11",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Activity at shopping centers",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          4.3301109,
-          37.965333,
-          26.094603000000003,
-          52.1856
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2017-01-01T16:07:40Z",
-          "2022-01-17T16:09:17Z"
+          null,
+          null
         ]
       ]
     }

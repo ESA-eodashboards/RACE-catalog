@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "UK4",
+  "stac_version": "1.1.0",
+  "description": "Heathrow - GB",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    }
+  ],
+  "subcode": "UK4",
+  "title": "Heathrow",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

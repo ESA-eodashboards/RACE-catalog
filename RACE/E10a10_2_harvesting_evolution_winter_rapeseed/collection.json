@@ -157,24 +157,24 @@
     "spatial": {
       "bbox": [
         [
-          -1.78396816,
-          42.758903181,
-          25.552485370000003,
-          58.681929720999996
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ],
         [
-          -1.78396816,
-          42.758903181,
-          25.552485370000003,
-          58.681929720999996
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-05-01T00:00:00Z",
-          "2020-11-01T00:00:00Z"
+          "2025-06-17T10:10:04.794392Z",
+          null
         ]
       ]
     }
@@ -200,40 +200,40 @@
       "C-SAR"
     ],
     "cities": [
-      "Austria",
-      "Slovak Republic",
-      "France",
       "Estonia",
-      "Croatia",
-      "Poland",
-      "Denmark",
-      "Romania",
-      "United Kingdom",
-      "Bulgaria",
-      "Germany",
-      "Hungary",
-      "Lithuania",
-      "Czech Republic",
+      "Slovak Republic",
       "Sweden",
-      "Latvia"
+      "United Kingdom",
+      "Hungary",
+      "Germany",
+      "Poland",
+      "Austria",
+      "Denmark",
+      "France",
+      "Lithuania",
+      "Bulgaria",
+      "Latvia",
+      "Romania",
+      "Czech Republic",
+      "Croatia"
     ],
     "countries": [
-      "DK",
-      "SK",
-      "EE",
       "FR",
-      "RO",
-      "CZ",
-      "SE",
-      "GB",
-      "BG",
       "HU",
-      "LV",
-      "AT",
+      "EE",
+      "BG",
+      "SE",
+      "SK",
+      "DK",
       "HR",
+      "LV",
+      "RO",
+      "GB",
+      "CZ",
+      "DE",
       "LT",
       "PL",
-      "DE"
+      "AT"
     ]
   },
   "assets": {

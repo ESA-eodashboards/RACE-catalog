@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "PL6",
+  "stac_version": "1.1.0",
+  "description": "Warsaw - PL",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    }
+  ],
+  "subcode": "PL6",
+  "title": "Warsaw",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

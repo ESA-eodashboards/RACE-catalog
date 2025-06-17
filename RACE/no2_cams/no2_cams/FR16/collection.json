@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "FR16",
+  "stac_version": "1.1.0",
+  "description": "Marseille - FR",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Air Quality (NO2 concetrations) at city level (model)"
+    }
+  ],
+  "subcode": "FR16",
+  "title": "Marseille",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

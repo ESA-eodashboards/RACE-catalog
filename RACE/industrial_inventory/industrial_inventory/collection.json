@@ -11,229 +11,254 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Ghent.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BE5/collection.json",
+      "type": "application/json",
+      "title": "Ghent",
       "id": "BE5",
       "latlng": "51.109166,3.753448",
       "country": "BE",
-      "city": "Ghent"
+      "name": "Ghent"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Ghent.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BE8/collection.json",
+      "type": "application/json",
+      "title": "Ghent",
       "id": "BE8",
       "latlng": "51.092134,3.783933",
       "country": "BE",
-      "city": "Ghent"
+      "name": "Ghent"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Ghent.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BE9/collection.json",
+      "type": "application/json",
+      "title": "Ghent",
       "id": "BE9",
       "latlng": "51.095785,3.75482",
       "country": "BE",
-      "city": "Ghent"
+      "name": "Ghent"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Kvasiny.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CZ5/collection.json",
+      "type": "application/json",
+      "title": "Kvasiny",
       "id": "CZ5",
       "latlng": "50.20009,16.257952",
       "country": "CZ",
-      "city": "Kvasiny"
+      "name": "Kvasiny"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Nosovice.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CZ7/collection.json",
+      "type": "application/json",
+      "title": "Nosovice",
       "id": "CZ7",
       "latlng": "49.662241,18.439066",
       "country": "CZ",
-      "city": "Nosovice"
+      "name": "Nosovice"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Leipzig.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE10/collection.json",
+      "type": "application/json",
+      "title": "Leipzig",
       "id": "DE10",
       "latlng": "51.411051,12.286853",
       "country": "DE",
-      "city": "Leipzig"
+      "name": "Leipzig"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Bremen.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE19/collection.json",
+      "type": "application/json",
+      "title": "Bremen",
       "id": "DE19",
       "latlng": "53.051709,8.9178",
       "country": "DE",
-      "city": "Bremen"
+      "name": "Bremen"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Dingolfing.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE20/collection.json",
+      "type": "application/json",
+      "title": "Dingolfing",
       "id": "DE20",
       "latlng": "48.651465,12.46187",
       "country": "DE",
-      "city": "Dingolfing"
+      "name": "Dingolfing"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Koln.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE21/collection.json",
+      "type": "application/json",
+      "title": "Koln",
       "id": "DE21",
       "latlng": "51.014647,6.955058",
       "country": "DE",
-      "city": "Koln"
+      "name": "Koln"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Neckarsulm.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE22/collection.json",
+      "type": "application/json",
+      "title": "Neckarsulm",
       "id": "DE22",
       "latlng": "49.208952,9.21949",
       "country": "DE",
-      "city": "Neckarsulm"
+      "name": "Neckarsulm"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Eisenach.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE23/collection.json",
+      "type": "application/json",
+      "title": "Eisenach",
       "id": "DE23",
       "latlng": "50.985712,10.266055",
       "country": "DE",
-      "city": "Eisenach"
+      "name": "Eisenach"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Regensburg.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE24/collection.json",
+      "type": "application/json",
+      "title": "Regensburg",
       "id": "DE24",
       "latlng": "48.977906,12.177499",
       "country": "DE",
-      "city": "Regensburg"
+      "name": "Regensburg"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Sindelfingen.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE25/collection.json",
+      "type": "application/json",
+      "title": "Sindelfingen",
       "id": "DE25",
       "latlng": "48.693906,8.992659",
       "country": "DE",
-      "city": "Sindelfingen"
+      "name": "Sindelfingen"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Wolfsburg.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE26/collection.json",
+      "type": "application/json",
+      "title": "Wolfsburg",
       "id": "DE26",
       "latlng": "52.437128,10.758977",
       "country": "DE",
-      "city": "Wolfsburg"
+      "name": "Wolfsburg"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Zwickau.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE27/collection.json",
+      "type": "application/json",
+      "title": "Zwickau",
       "id": "DE27",
       "latlng": "50.799896,12.488275",
       "country": "DE",
-      "city": "Zwickau"
+      "name": "Zwickau"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Saarlouis.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE28/collection.json",
+      "type": "application/json",
+      "title": "Saarlouis",
       "id": "DE28",
       "latlng": "49.345804,6.757758",
       "country": "DE",
-      "city": "Saarlouis"
+      "name": "Saarlouis"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Ingolstadt.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE4/collection.json",
+      "type": "application/json",
+      "title": "Ingolstadt",
       "id": "DE4",
       "latlng": "48.784331,11.426512",
       "country": "DE",
-      "city": "Ingolstadt"
+      "name": "Ingolstadt"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Russelsheim.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE5/collection.json",
+      "type": "application/json",
+      "title": "Russelsheim",
       "id": "DE5",
       "latlng": "49.990388,8.386432",
       "country": "DE",
-      "city": "Russelsheim"
+      "name": "Russelsheim"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Emden.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE9/collection.json",
+      "type": "application/json",
+      "title": "Emden",
       "id": "DE9",
       "latlng": "53.342826,7.171708",
       "country": "DE",
-      "city": "Emden"
+      "name": "Emden"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Martorell.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES17/collection.json",
+      "type": "application/json",
+      "title": "Martorell",
       "id": "ES17",
       "latlng": "41.493659,1.902436",
       "country": "ES",
-      "city": "Martorell"
+      "name": "Martorell"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Barcelona.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES18/collection.json",
+      "type": "application/json",
+      "title": "Barcelona",
       "id": "ES18",
       "latlng": "41.335516,2.123184",
       "country": "ES",
-      "city": "Barcelona"
+      "name": "Barcelona"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Cassino.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT15/collection.json",
+      "type": "application/json",
+      "title": "Cassino",
       "id": "IT15",
       "latlng": "41.488157,13.753094",
       "country": "IT",
-      "city": "Cassino"
+      "name": "Cassino"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Craiova.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./RO6/collection.json",
+      "type": "application/json",
+      "title": "Craiova",
       "id": "RO6",
       "latlng": "44.300006,23.846534",
       "country": "RO",
-      "city": "Craiova"
+      "name": "Craiova"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Mioveni.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./RO7/collection.json",
+      "type": "application/json",
+      "title": "Mioveni",
       "id": "RO7",
       "latlng": "44.944611,24.934872",
       "country": "RO",
-      "city": "Mioveni"
+      "name": "Mioveni"
     },
     {
-      "rel": "item",
-      "href": "./industrial_inventory/2015/Swindon.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./UK9/collection.json",
+      "type": "application/json",
+      "title": "Swindon",
       "id": "UK9",
       "latlng": "51.592416,-1.73538",
       "country": "GB",
-      "city": "Swindon"
+      "name": "Swindon"
     },
     {
       "rel": "example",
@@ -274,25 +299,25 @@
   "otherSources": [
     "Multi-sensors"
   ],
-  "geoDBID": "E8",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Automobile inventory level",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -1.74538,
-          41.325516,
-          24.944872,
-          53.352826
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2015-01-01T00:00:00Z",
-          "2023-10-30T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

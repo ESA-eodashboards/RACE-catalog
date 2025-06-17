@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "HRb",
+  "stac_version": "1.1.0",
+  "description": "Croatia - HR",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter rapeseed"
+    }
+  ],
+  "subcode": "HRb",
+  "title": "Croatia",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

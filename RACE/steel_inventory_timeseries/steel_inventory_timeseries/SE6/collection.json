@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "SE6",
+  "stac_version": "1.1.0",
+  "description": "Borlange - area 6 - SE",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    }
+  ],
+  "subcode": "SE6",
+  "title": "Borlange - area 6",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

@@ -11,13 +11,14 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./winter_cereals/2020/Spain.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES41/collection.json",
+      "type": "application/json",
+      "title": "Spain",
       "id": "ES41",
       "latlng": "40.044,-4.457",
       "country": "ES",
-      "city": "Spain"
+      "name": "Spain"
     },
     {
       "rel": "parent",
@@ -52,25 +53,25 @@
     "Sentinel-2",
     "Landsat-8"
   ],
-  "geoDBID": "E10a8",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Winter cereals",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -4.467,
-          40.034,
-          -4.447,
-          40.053999999999995
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-05-17T00:00:00Z",
-          "2020-08-02T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

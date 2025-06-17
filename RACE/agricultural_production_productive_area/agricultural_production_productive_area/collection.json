@@ -11,22 +11,24 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./agricultural_production_productive_area/2020/Brandenburg.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE11/collection.json",
+      "type": "application/json",
+      "title": "Brandenburg",
       "id": "DE11",
       "latlng": "52.13141,13.09063",
       "country": "DE",
-      "city": "Brandenburg"
+      "name": "Brandenburg"
     },
     {
-      "rel": "item",
-      "href": "./agricultural_production_productive_area/2019/Huelva Lagunas de las Madres.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES8/collection.json",
+      "type": "application/json",
+      "title": "Huelva (Lagunas de las Madres)",
       "id": "ES8",
       "latlng": "37.18316,-6.84888",
       "country": "ES",
-      "city": "Huelva (Lagunas de las Madres)"
+      "name": "Huelva (Lagunas de las Madres)"
     },
     {
       "rel": "parent",
@@ -54,25 +56,25 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "geoDBID": "E10a1_tri",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Agricultural production - productive area",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -6.85888,
-          37.17316,
-          13.10063,
-          52.14141
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-12-27T11:21:32Z",
-          "2020-07-31T00:00:00Z"
+          null,
+          null
         ]
       ]
     }
