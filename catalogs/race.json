@@ -9,15 +9,16 @@
   "default_base_layers": "layers/baselayers",
   "default_overlay_layers": "layers/overlays",
   "default_xcube_process": {
-      "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-      "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
-      "EndPoints": [
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
+    "EndPoints": [
       {
-          "Identifier": "xcube_statistics",
-          "Method": "POST",
-          "Body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_body.json",
-          "Type": "application/json"
-      }]
+        "Identifier": "xcube_statistics",
+        "Method": "POST",
+        "Body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_body.json",
+        "Type": "application/json"
+      }
+    ]
   },
   "collections": [
     "CDS1_temperature",
@@ -106,6 +107,7 @@
     "IDEAS2_wildlife",
     "IDEAS5_real_estate",
     "WASDI_FLOOD",
-    "CNR_TUR_1_water_discharge"
+    "CNR_TUR_1_water_discharge",
+    "demo-data"
   ]
 }
