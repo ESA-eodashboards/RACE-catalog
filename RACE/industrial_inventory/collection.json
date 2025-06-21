@@ -165,24 +165,18 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
-        ],
-        [
-          null,
-          null,
-          null,
-          null
+          -1.74538,
+          41.325516,
+          24.944872,
+          53.352826
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-17T10:09:45.725943Z",
-          null
+          "2015-01-01T00:00:00Z",
+          "2023-10-30T00:00:00Z"
         ]
       ]
     }
@@ -217,37 +211,37 @@
       "C-SAR"
     ],
     "cities": [
-      "Ghent",
-      "Saarlouis",
-      "Ingolstadt",
-      "Koln",
-      "Leipzig",
-      "Nosovice",
-      "Wolfsburg",
-      "Zwickau",
-      "Russelsheim",
-      "Dingolfing",
-      "Cassino",
-      "Swindon",
-      "Regensburg",
-      "Barcelona",
-      "Mioveni",
-      "Bremen",
-      "Emden",
-      "Martorell",
-      "Neckarsulm",
-      "Kvasiny",
       "Craiova",
+      "Nosovice",
+      "Sindelfingen",
+      "Neckarsulm",
+      "Zwickau",
+      "Ingolstadt",
+      "Wolfsburg",
+      "Saarlouis",
+      "Leipzig",
+      "Barcelona",
+      "Emden",
+      "Bremen",
+      "Swindon",
+      "Kvasiny",
+      "Ghent",
+      "Dingolfing",
       "Eisenach",
-      "Sindelfingen"
+      "Martorell",
+      "Cassino",
+      "Koln",
+      "Mioveni",
+      "Regensburg",
+      "Russelsheim"
     ],
     "countries": [
       "IT",
-      "BE",
       "RO",
-      "GB",
-      "ES",
+      "BE",
       "CZ",
+      "ES",
+      "GB",
       "DE"
     ]
   },

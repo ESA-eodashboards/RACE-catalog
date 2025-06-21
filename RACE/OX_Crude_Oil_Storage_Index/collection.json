@@ -178,24 +178,18 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
-        ],
-        [
-          null,
-          null,
-          null,
-          null
+          -8.258061999999999,
+          36.177573,
+          23.61571,
+          60.47923
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-17T10:10:48.359651Z",
-          null
+          "2017-01-09T00:00:00Z",
+          "2024-01-01T00:00:00Z"
         ]
       ]
     }
@@ -223,51 +217,51 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-2",
-      "Sentinel-1"
+      "Sentinel-1",
+      "Sentinel-2"
     ],
     "sensor": [
       "C-SAR",
       "MSI"
     ],
     "cities": [
-      "Finnart",
-      "Dalmeny",
-      "Elefsina",
-      "Pachi",
-      "Sullom Voe",
-      "Sarroch",
-      "Rotterdam",
-      "Cartagena",
-      "Cork",
-      "Thessaloniki",
-      "Omisalj",
       "Fos-Lavera",
-      "Tarragona",
-      "Le Havre",
       "Schwechat",
-      "Aspropyrgos",
       "Grangemouth",
-      "Corinth",
-      "Teesport",
-      "Godorf Wesseling",
-      "Antwerp",
-      "Wilhelmshaven",
+      "Aspropyrgos",
+      "Cartagena",
+      "Sarroch",
+      "Dalmeny",
+      "Tarragona",
+      "Rotterdam",
       "Algeciras",
-      "Trieste"
+      "Pachi",
+      "Godorf Wesseling",
+      "Thessaloniki",
+      "Teesport",
+      "Wilhelmshaven",
+      "Omisalj",
+      "Trieste",
+      "Elefsina",
+      "Cork",
+      "Corinth",
+      "Finnart",
+      "Le Havre",
+      "Antwerp",
+      "Sullom Voe"
     ],
     "countries": [
-      "NL",
-      "GR",
-      "FR",
       "IE",
-      "HR",
       "IT",
+      "HR",
       "BE",
-      "GB",
+      "FR",
+      "NL",
       "ES",
-      "DE",
-      "AT"
+      "AT",
+      "GR",
+      "GB",
+      "DE"
     ]
   },
   "assets": {

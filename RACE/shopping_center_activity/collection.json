@@ -146,24 +146,18 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
-        ],
-        [
-          null,
-          null,
-          null,
-          null
+          4.3301109,
+          37.965333,
+          26.094603000000003,
+          52.1856
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-17T10:06:38.081334Z",
-          null
+          "2017-01-01T16:07:40Z",
+          "2022-01-17T16:09:17Z"
         ]
       ]
     }
@@ -193,19 +187,19 @@
       "C-SAR"
     ],
     "cities": [
+      "Milan",
       "Bucharest",
+      "Warsaw",
       "Rome",
       "Brussels",
-      "Athens",
-      "Warsaw",
-      "Milan"
+      "Athens"
     ],
     "countries": [
-      "GR",
       "IT",
-      "BE",
       "RO",
-      "PL"
+      "BE",
+      "PL",
+      "GR"
     ]
   }
 }

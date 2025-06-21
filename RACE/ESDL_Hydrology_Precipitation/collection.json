@@ -159,12 +159,6 @@
           28.339799316406264,
           37.76919997024536,
           48.17579931640626
-        ],
-        [
-          -5.70080002975464,
-          28.339799316406264,
-          37.76919997024536,
-          48.17579931640626
         ]
       ]
     },
@@ -227,8 +221,8 @@
       "ESDL_Hydrology_Precipitation"
     ],
     "themes": [
-      "water",
-      "agriculture"
+      "agriculture",
+      "water"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.png"

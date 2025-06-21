@@ -141,24 +141,18 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
-        ],
-        [
-          null,
-          null,
-          null,
-          null
+          -4.467,
+          40.034,
+          -4.447,
+          40.053999999999995
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-17T10:10:11.568667Z",
-          null
+          "2020-05-17T00:00:00Z",
+          "2020-08-02T00:00:00Z"
         ]
       ]
     }
@@ -178,14 +172,14 @@
       "agriculture"
     ],
     "satellite": [
-      "Sentinel-2",
       "Sentinel-1",
-      "Landsat-8"
+      "Landsat-8",
+      "Sentinel-2"
     ],
     "sensor": [
       "C-SAR",
-      "OLI",
-      "MSI"
+      "MSI",
+      "OLI"
     ],
     "cities": [
       "Spain"

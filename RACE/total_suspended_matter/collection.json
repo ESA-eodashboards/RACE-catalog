@@ -56,14 +56,6 @@
       "endpoint": "STAC"
     },
     {
-      "rel": "service",
-      "href": "https://services.sentinel-hub.com/api/v1/statistics",
-      "type": "application/json",
-      "id": "sentinelhub-statistics",
-      "method": "POST",
-      "endpoint": "sentinelhub"
-    },
-    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -155,17 +147,10 @@
     "title": "Total suspended matter anomaly [%]"
   },
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
   "title": "Total suspended matter maps",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          0.49828179185742777,
-          40.49733319888819,
-          30.602052688598633,
-          45.8014030456543
-        ],
         [
           0.49828179185742777,
           40.49733319888819,
