@@ -3239,6 +3239,66 @@
       "datetime": "2025-06-21T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./Sentinel-2 with Ships detections/2025/2025-06-22T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-22T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-2 with Ships detections/2025/2025-06-23T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-23T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-2 with Ships detections/2025/2025-06-24T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-24T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-2 with Ships detections/2025/2025-06-25T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-25T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-2 with Ships detections/2025/2025-06-26T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-26T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-2 with Ships detections/2025/2025-06-27T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-27T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-2 with Ships detections/2025/2025-06-28T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-28T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-2 with Ships detections/2025/2025-06-29T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-29T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-2 with Ships detections/2025/2025-06-30T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-30T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-2 with Ships detections/2025/2025-07-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-01T00:00:00Z"
+    },
+    {
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
@@ -3295,7 +3355,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-06-21T00:00:00Z"
+          "2025-07-01T00:00:00Z"
         ]
       ]
     }
