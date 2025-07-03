@@ -121,7 +121,7 @@
     "Sentinel-2"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a1_agricultural_production_productive_area/chart.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a2_agricultural_production_area/chart.json",
   "title": "Agricultural production - area",
   "extent": {
     "spatial": {
