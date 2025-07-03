@@ -197,31 +197,31 @@
     ],
     "satellite": [
       "Sentinel-3",
-      "Suomi NPP",
+      "Metop-B",
       "Other",
       "JPSS-1",
-      "Metop-B"
+      "Suomi NPP"
     ],
     "sensor": [
-      "VIIRS",
       "SLSTR",
-      "AVHRR"
+      "AVHRR",
+      "VIIRS"
     ],
     "cities": [
-      "Hamburg",
-      "Barcelona",
       "Constanta",
-      "Lisbon",
+      "Barcelona",
       "Marseilles",
-      "Venice Lagoon"
+      "Venice Lagoon",
+      "Lisbon",
+      "Hamburg"
     ],
     "countries": [
-      "RO",
-      "FR",
       "IT",
-      "ES",
       "GE",
-      "PT"
+      "FR",
+      "ES",
+      "PT",
+      "RO"
     ]
   },
   "assets": {
