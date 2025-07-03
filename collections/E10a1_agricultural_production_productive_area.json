@@ -45,7 +45,7 @@
   "Process": {
     "Name": "GeoDB Statistics",
     "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
-    "VegaDefinition": "https://api.npoint.io/706bd72c6baae3229d28",
+    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a1_agricultural_production_productive_area/chart.json",
     "EndPoints": [
       {
         "Identifier": "process_geodb",
