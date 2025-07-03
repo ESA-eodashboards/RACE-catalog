@@ -123,7 +123,7 @@
     "Sentinel-2"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://api.npoint.io/706bd72c6baae3229d28",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a1_agricultural_production_productive_area/chart.json",
   "title": "Agricultural production - productive area",
   "extent": {
     "spatial": {
@@ -170,8 +170,8 @@
       "MSI"
     ],
     "cities": [
-      "Brandenburg",
-      "Huelva (Lagunas de las Madres)"
+      "Huelva (Lagunas de las Madres)",
+      "Brandenburg"
     ],
     "countries": [
       "ES",
