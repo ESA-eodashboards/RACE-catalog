@@ -4787,6 +4787,12 @@
       "datetime": "2025-07-02T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-07-03T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-03T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_MED_BGC_L3_NRT_009_141/cmems_obs-oc_med_bgc-plankton_nrt_l3-multi-1km_P1D_202211",
       "type": "image/png",
@@ -4852,7 +4858,7 @@
       "interval": [
         [
           "2023-04-29T00:00:00Z",
-          "2025-07-02T00:00:00Z"
+          "2025-07-03T00:00:00Z"
         ]
       ]
     }

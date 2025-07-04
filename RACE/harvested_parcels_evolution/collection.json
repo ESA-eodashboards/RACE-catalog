@@ -188,21 +188,21 @@
     ],
     "sensor": [
       "C-SAR",
-      "MSI",
-      "OLI"
+      "OLI",
+      "MSI"
     ],
     "cities": [
-      "Cataluna",
-      "Castilla y Leon",
-      "Comunidad de Madrid",
-      "Castilla-La Mancha",
-      "Comunidad Valenciana",
-      "Andalucia",
       "Extremadura",
-      "La Rioja",
-      "Aragon",
       "Region de Murcia",
-      "Comunidad Foral de Navarra"
+      "La Rioja",
+      "Comunidad Foral de Navarra",
+      "Cataluna",
+      "Aragon",
+      "Comunidad Valenciana",
+      "Castilla y Leon",
+      "Andalucia",
+      "Castilla-La Mancha",
+      "Comunidad de Madrid"
     ],
     "countries": [
       "ES"
