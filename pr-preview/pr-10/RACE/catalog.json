@@ -42,6 +42,98 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./fishing_boats_port/collection.json",
+      "type": "application/json",
+      "title": "Fishing boats in ports",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13f",
+      "id": "fishing_boats_port",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13f",
+      "cities": [
+        "Gioia Tauro",
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "tags": [
+        "Ports",
+        "Maritime",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./tanker_boats_port/collection.json",
+      "type": "application/json",
+      "title": "Tankers boats in ports",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13g",
+      "id": "tanker_boats_port",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13g",
+      "cities": [
+        "Gioia Tauro",
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "tags": [
+        "Ports",
+        "Maritime",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./tug_boats_port/collection.json",
+      "type": "application/json",
+      "title": "Tug boats in ports",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13h",
+      "id": "tug_boats_port",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13h",
+      "cities": [
+        "Gioia Tauro"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "tags": [
+        "Ports",
+        "Maritime",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://eurodatacube.github.io/eodash-catalog/RACE/catalog.json",
       "type": "application/json"

@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "cargo_boats_port",
+  "id": "tanker_boats_port",
   "stac_version": "1.1.0",
   "description": "## Changes in the number of boats in ports\n\n### Cargo, Fishing, Tanker, Tug & Tow, Search & Rescue, Cruises and Pleasure Boats\nThis indicator shows how the number of different types of boats have changed between 2019 and 2020. The type of boats selected varies for different ports, in order to show the most relevant changes. In fact, for some ports, ad Port of Genova, a great source of income is related with pleasure boats and its passengers, while for other ports, as Port of Gioia Tauro, the highest source of income is related with worldwide cargo boats commerce. The indicators thus report the number of boats for each kind in the port area for 2019 and 2020 in different colors. \n\n## The impacts of COVID-19 on the number of boats in ports\nThe COVID-19 pandemic applied a strong pressure on global production capacities and global supply chains. In fact, it was reported that the sanitary crisis has created a supply shock across the markets, causing severe supply chain disruption. In particular, the global maritime industry has been impacted directly by the preventive and containment measures imposed by government that have blocked many port activities and workers, and indirectly by the decreased demand for commodities and raw materials. The economy lockdown and the slowdowns, due to increased border control and sanitary measures across regions, have made road transportation and distribution services more difficult and have induced a labor’s and workers’ shortage. \n\nIt is interesting understand the percentage decrease of the number of boats, because it shows clearly how much the COVID-19 virus and the related national restriction impacted on the transit of boats. In the first image it is reported the percentage decrease of the fishing boats for the port of Genova. It is evident that, because of the restrictions after the end of February, the number of boats in the port dropped in 2020, with respect to 2019. The same trend is evident also for pleasure boats.\n\n\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13e_cargo_boats_port/E13x-Fig1.png\" alt=\"decrease fishing boats Genoa\" style=\"display: block; margin: 0 auto; width: 600px;\" />\n</p>\n\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13e_cargo_boats_port/E13x-Fig2.png\" alt=\"decrease leisure boats Genoa\" style=\"display: block; margin: 0 auto; width: 600px;\" />\n</p>\n\n\n\nThe port of Gioia Tauro, instead, showed in 2020 an increase in the number of cargo boats, although the COVID-19 still impacted the very positive trend which characterized the first two months of 2020. \n\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13e_cargo_boats_port/E13x-Fig3.png\" alt=\"decrease cargo boats Gioia Tauro\" style=\"display: block; margin: 0 auto; width: 600px;\" />\n</p>\n\n### Visualising the lockdown measures effect on the number of boats in ports\nFor each day, the light/dark red chart background indicates whether there were **restrictions or lockdown** measure in place in the country where the city is located. This information is based on [Oxford University’s coronavirus government response tracker](https://covidtracker.bsg.ox.ac.uk/). \n",
   "links": [
@@ -12,13 +12,13 @@
     },
     {
       "rel": "child",
-      "href": "./cargo_boats_port/collection.json",
+      "href": "./tanker_boats_port/collection.json",
       "type": "application/json",
-      "title": "Cargo boats in ports",
+      "title": "Tankers boats in ports",
       "endpointtype": "GeoDB",
       "subtitle": "Changes in the number of boats in ports",
-      "code": "E13e",
-      "id": "cargo_boats_port",
+      "code": "E13g",
+      "id": "tanker_boats_port",
       "themes": [
         "economy"
       ],
@@ -38,14 +38,14 @@
       "agency": [
         "ESA"
       ],
-      "subcode": "E13e",
+      "subcode": "E13g",
       "insituSources": [
         "AIS"
       ]
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13e?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13g?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
       "id": "process_geodb",
       "method": "GET"
@@ -113,21 +113,21 @@
   "agency": [
     "ESA"
   ],
-  "subcode": "E13e",
+  "subcode": "E13g",
   "insituSources": [
     "AIS"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13e_cargo_boats_port/chart.json",
-  "title": "Cargo boats in ports",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13g_tanker_boats_port/chart.json",
+  "title": "Tankers boats in ports",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          8.92364,
-          38.44339,
-          15.9124,
-          44.41572
+          8.923642000000001,
+          38.443396,
+          15.912403,
+          44.415723
         ]
       ]
     },
@@ -149,7 +149,7 @@
   ],
   "summaries": {
     "subcode": [
-      "E13e"
+      "E13g"
     ],
     "themes": [
       "economy"
