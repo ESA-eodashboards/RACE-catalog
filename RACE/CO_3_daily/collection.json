@@ -180,8 +180,8 @@
       "N1_CO"
     ],
     "themes": [
-      "extreme-events",
-      "air"
+      "air",
+      "extreme-events"
     ],
     "satellite": [
       "Sentinel-5P"

@@ -198,18 +198,18 @@
     "cities": [
       "Venice Lagoon",
       "Marseilles",
-      "Lisbon",
       "Barcelona",
-      "Constanta",
-      "Hamburg"
+      "Lisbon",
+      "Hamburg",
+      "Constanta"
     ],
     "countries": [
-      "PT",
-      "FR",
+      "GE",
       "ES",
-      "RO",
+      "FR",
       "IT",
-      "GE"
+      "PT",
+      "RO"
     ]
   },
   "assets": {
