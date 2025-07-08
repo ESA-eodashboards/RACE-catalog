@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "ES7",
+  "stac_version": "1.1.0",
+  "description": "Gijon - ES",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Commercial fluxes"
+    }
+  ],
+  "subcode": "ES7",
+  "title": "Gijon",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -5.6832899999999995,
+          43.53378,
+          -5.66329,
+          43.553779999999996
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-02-01T00:00:00Z",
+          "2020-09-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
