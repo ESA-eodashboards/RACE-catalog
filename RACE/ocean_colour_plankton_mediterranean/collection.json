@@ -163,9 +163,9 @@
       "water"
     ],
     "satellite": [
-      "Sentinel-3",
       "JPSS-1",
       "Suomi NPP",
+      "Sentinel-3",
       "Aqua"
     ],
     "sensor": [

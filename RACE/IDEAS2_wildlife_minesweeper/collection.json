@@ -165,8 +165,8 @@
       "agriculture"
     ],
     "satellite": [
-      "Sentinel-3",
-      "MODIS"
+      "MODIS",
+      "Sentinel-3"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_minesweeper.png"
