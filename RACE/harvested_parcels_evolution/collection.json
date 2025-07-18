@@ -65,8 +65,8 @@
       "rel": "service",
       "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a6?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
-      "method": "GET",
-      "id": "E10a6"
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -145,7 +145,7 @@
     "Landsat-8"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a6_harvested_parcels_evolution/chart.json",
   "title": "Harvested parcels",
   "extent": {
     "spatial": {
@@ -183,26 +183,26 @@
     ],
     "satellite": [
       "Sentinel-2",
-      "Landsat-8",
-      "Sentinel-1"
+      "Sentinel-1",
+      "Landsat-8"
     ],
     "sensor": [
-      "C-SAR",
+      "OLI",
       "MSI",
-      "OLI"
+      "C-SAR"
     ],
     "cities": [
       "Aragon",
-      "Comunidad Foral de Navarra",
-      "Andalucia",
-      "Extremadura",
-      "Comunidad Valenciana",
-      "Comunidad de Madrid",
-      "La Rioja",
-      "Cataluna",
-      "Region de Murcia",
       "Castilla-La Mancha",
-      "Castilla y Leon"
+      "Castilla y Leon",
+      "Comunidad Foral de Navarra",
+      "Cataluna",
+      "La Rioja",
+      "Extremadura",
+      "Andalucia",
+      "Comunidad de Madrid",
+      "Comunidad Valenciana",
+      "Region de Murcia"
     ],
     "countries": [
       "ES"

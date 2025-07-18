@@ -204,45 +204,45 @@
       "economy"
     ],
     "satellite": [
-      "ICEYE SAR",
-      "Sentinel-1"
+      "Sentinel-1",
+      "ICEYE SAR"
     ],
     "sensor": [
       "C-SAR"
     ],
     "cities": [
+      "Barcelona",
+      "Regensburg",
+      "Sindelfingen",
+      "Martorell",
+      "Russelsheim",
+      "Dingolfing",
+      "Mioveni",
+      "Eisenach",
+      "Swindon",
+      "Neckarsulm",
+      "Cassino",
+      "Ghent",
+      "Bremen",
+      "Saarlouis",
+      "Zwickau",
+      "Wolfsburg",
+      "Kvasiny",
+      "Ingolstadt",
+      "Nosovice",
+      "Emden",
       "Craiova",
       "Koln",
-      "Saarlouis",
-      "Eisenach",
-      "Neckarsulm",
-      "Swindon",
-      "Ghent",
-      "Leipzig",
-      "Ingolstadt",
-      "Russelsheim",
-      "Bremen",
-      "Dingolfing",
-      "Sindelfingen",
-      "Mioveni",
-      "Zwickau",
-      "Kvasiny",
-      "Wolfsburg",
-      "Regensburg",
-      "Barcelona",
-      "Martorell",
-      "Cassino",
-      "Nosovice",
-      "Emden"
+      "Leipzig"
     ],
     "countries": [
-      "ES",
-      "RO",
       "CZ",
-      "GB",
-      "DE",
+      "IT",
       "BE",
-      "IT"
+      "DE",
+      "GB",
+      "ES",
+      "RO"
     ]
   },
   "assets": {
