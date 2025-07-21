@@ -4967,6 +4967,24 @@
       "datetime": "2025-07-17T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-07-18T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-18T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-07-19T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-19T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-07-20T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-20T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_BLK_BGC_L4_NRT_009_152/cmems_obs-oc_blk_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202207",
       "type": "image/png",
@@ -4996,7 +5014,7 @@
     "Copernicus Services",
     "Plankton",
     "CMEMS",
-    "Multisensor",
+    "Multi-sensors",
     "Open data"
   ],
   "agency": [
@@ -5032,7 +5050,7 @@
       "interval": [
         [
           "2023-04-14T00:00:00Z",
-          "2025-07-17T00:00:00Z"
+          "2025-07-20T00:00:00Z"
         ]
       ]
     }

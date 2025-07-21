@@ -196,20 +196,20 @@
       "OLCI"
     ],
     "cities": [
-      "Barcelona",
-      "Marseilles",
-      "Venice Lagoon",
-      "Lisbon",
       "Constanta",
-      "Hamburg"
+      "Lisbon",
+      "Marseilles",
+      "Hamburg",
+      "Venice Lagoon",
+      "Barcelona"
     ],
     "countries": [
+      "ES",
+      "RO",
+      "FR",
       "IT",
       "GE",
-      "FR",
-      "ES",
-      "PT",
-      "RO"
+      "PT"
     ]
   },
   "assets": {

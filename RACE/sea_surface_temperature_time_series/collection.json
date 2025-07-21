@@ -44,7 +44,7 @@
         "Copernicus Services",
         "Surface temperature",
         "CMEMS",
-        "Multisensor",
+        "Multi-sensors",
         "Open data"
       ],
       "agency": [
@@ -138,7 +138,7 @@
     "Copernicus Services",
     "Surface temperature",
     "CMEMS",
-    "Multisensor",
+    "Multi-sensors",
     "Open data"
   ],
   "agency": [
@@ -196,11 +196,11 @@
       "water"
     ],
     "satellite": [
-      "Sentinel-3",
       "Metop-B",
       "Other",
-      "JPSS-1",
-      "Suomi NPP"
+      "Sentinel-3",
+      "Suomi NPP",
+      "JPSS-1"
     ],
     "sensor": [
       "SLSTR",
@@ -208,20 +208,20 @@
       "VIIRS"
     ],
     "cities": [
-      "Barcelona",
-      "Marseilles",
-      "Venice Lagoon",
-      "Lisbon",
       "Constanta",
-      "Hamburg"
+      "Lisbon",
+      "Marseilles",
+      "Hamburg",
+      "Venice Lagoon",
+      "Barcelona"
     ],
     "countries": [
+      "ES",
+      "RO",
+      "FR",
       "IT",
       "GE",
-      "FR",
-      "ES",
-      "PT",
-      "RO"
+      "PT"
     ]
   },
   "assets": {

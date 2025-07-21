@@ -20,7 +20,7 @@
       "code": "N3a2",
       "id": "chl_concentration",
       "themes": [
-        "oceans"
+        "water"
       ],
       "tags": [
         "Water quality",
@@ -109,7 +109,7 @@
   "subtitle": "Chlorophyll-a concentration description",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration/N3a2_chl_concentration.png",
   "themes": [
-    "oceans"
+    "water"
   ],
   "locations": true,
   "tags": [
@@ -184,7 +184,7 @@
       "N3a2"
     ],
     "themes": [
-      "oceans"
+      "water"
     ],
     "satellite": [
       "Sentinel-3"

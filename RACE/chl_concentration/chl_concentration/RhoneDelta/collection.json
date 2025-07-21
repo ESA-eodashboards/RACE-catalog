@@ -1932,7 +1932,7 @@
   "subtitle": "Chlorophyll-a concentration description",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration/N3a2_chl_concentration.png",
   "themes": [
-    "oceans"
+    "water"
   ],
   "tags": [
     "Water quality",

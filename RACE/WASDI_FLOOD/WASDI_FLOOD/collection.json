@@ -531,7 +531,7 @@
   "sci:citation": "Chini, M., Pelich, R., Pulvirenti, L., Pierdicca, N., Hostache, R., Matgen, P., 2019. Sentinel-1 InSAR coherence to detect floodwater in urban areas: Houston and Hurricane Harvey as a test case. Remote Sensing, 11(2), p.107.\n",
   "subtitle": "Automated flood map",
   "themes": [
-    "extremes"
+    "extreme-events"
   ],
   "tags": [
     "Copernicus Services",
