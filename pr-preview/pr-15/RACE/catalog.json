@@ -1,0 +1,63 @@
+{
+  "type": "Catalog",
+  "id": "RACE",
+  "stac_version": "1.1.0",
+  "description": "Rapid Action for Citizens with Earth Observation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./Water_Discharge_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Water Discharge Timeseries",
+      "subtitle": "Variability of coastal and inland waters",
+      "code": "Water_Discharge_timeseries",
+      "id": "Water_Discharge_timeseries",
+      "themes": [
+        "water"
+      ],
+      "subcode": "Water_Discharge_timeseries",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "cities": [
+        "Pontelagoscuro"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Water_Discharge_timeseries/Water_Discharge_timeseries.png"
+      ],
+      "tags": [
+        "Water quality",
+        "Marine",
+        "Copernicus Services",
+        "Sentinel-2",
+        "MSI",
+        "Water turbidity",
+        "Adriactic Sea",
+        "Open data",
+        "Marine monitoring",
+        "Total Suspended Sediments"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://eurodatacube.github.io/eodash-catalog/RACE/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "RACE"
+}
