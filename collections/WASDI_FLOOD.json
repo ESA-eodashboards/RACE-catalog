@@ -4,9 +4,7 @@
   "EodashIdentifier": "WASDI_FLOOD",
   "Subtitle": "Automated flood map",
   "Description": "WASDI_FLOOD/WASDI_FLOOD.md",
-  "Themes": [
-    "extreme-events"
-  ],
+  "Themes": ["extremes"],
   "Tags": [
     "Copernicus Services",
     "Flood",
@@ -20,19 +18,11 @@
   ],
   "DataSource": {
     "Spaceborne": {
-      "Satellite": [
-        "Sentinel-1",
-        "Sentinel-2"
-      ],
-      "Sensor": [
-        "SAR",
-        "MSI"
-      ]
+      "Satellite": ["Sentinel-1", "Sentinel-2"],
+      "Sensor": ["SAR", "MSI"]
     }
   },
-  "Agency": [
-    "ESA"
-  ],
+  "Agency": ["ESA"],
   "References": [
     {
       "Name": "WASDI Support Automated Mapping",
@@ -64,15 +54,29 @@
     }
   ],
   "Colorlegend": {
-    "domain": [
-      "Permanent water",
-      "Flooding"
-    ],
-    "range": [
-      "#0000ff",
-      "#ff0000"
-    ],
+    "domain": ["Permanent water", "Flooding"],
+    "range": ["#0000ff", "#ff0000"],
     "scaleType": "categorical",
     "title": "Flood events"
-  }
+  },
+  "Locations": [
+    {
+      "Identifier": "Valencia_Spain",
+      "Name": "Flooding in Valencia",
+      "Point": [-0.327193, 39.309451],
+      "Bbox": [-0.39, 39.17, -0.18, 39.32]
+    },
+    {
+      "Identifier": "St_Polten_Vienna",
+      "Name": "Flooding in St Pölten",
+      "Point": [15.7, 48.2],
+      "Bbox": [15.74, 48.28, 16.35, 48.48]
+    },
+    {
+      "Identifier": "Germany",
+      "Name": "Flooding in Luxembourg & Germany",
+      "Point": [11.33, 52.31],
+      "Bbox": [6.042480,47.628380,18.303223,54.052939]
+    }
+  ]
 }
