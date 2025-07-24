@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "0fa249be-44d5-4d38-bf5e-b7d49675c308",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          -1.7001601227947405,
+          38.500094421736456
+        ],
+        [
+          0.2998490257689621,
+          38.500094421736456
+        ],
+        [
+          0.2998490257689621,
+          40.50010357030016
+        ],
+        [
+          -1.7001601227947405,
+          40.50010357030016
+        ],
+        [
+          -1.7001601227947405,
+          38.500094421736456
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.7001601227947405,
+    38.500094421736456,
+    0.2998490257689621,
+    40.50010357030016
+  ],
+  "properties": {
+    "datetime": "2024-10-26T00:00:00Z",
+    "proj:bbox": [
+      -1.7001601227947405,
+      38.500094421736456,
+      0.2998490257689621,
+      40.50010357030016
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            -1.7001601227947405,
+            38.500094421736456
+          ],
+          [
+            0.2998490257689621,
+            38.500094421736456
+          ],
+          [
+            0.2998490257689621,
+            40.50010357030016
+          ],
+          [
+            -1.7001601227947405,
+            40.50010357030016
+          ],
+          [
+            -1.7001601227947405,
+            38.500094421736456
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:84"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "WASDI_FLOOD",
+      "wms:layers": [
+        "WASDI_FLOOD"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2024-10-26T00:00:00Z/2024-10-26T23:59:59Z"
+      }
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Flood mapping"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Flooding in Valencia"
+    }
+  ],
+  "assets": {},
+  "collection": "WASDI_FLOOD"
+}

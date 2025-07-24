@@ -20,7 +20,7 @@
       "code": "WASDI_FLOOD",
       "id": "WASDI_FLOOD",
       "themes": [
-        "extreme-events"
+        "extremes"
       ],
       "tags": [
         "Copernicus Services",
@@ -45,6 +45,14 @@
         "Sentinel-1",
         "Sentinel-2"
       ]
+    },
+    {
+      "rel": "service",
+      "href": "./WASDI_FLOOD/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
     },
     {
       "rel": "xyz",
@@ -101,8 +109,9 @@
   "sci:citation": "Chini, M., Pelich, R., Pulvirenti, L., Pierdicca, N., Hostache, R., Matgen, P., 2019. Sentinel-1 InSAR coherence to detect floodwater in urban areas: Houston and Hurricane Harvey as a test case. Remote Sensing, 11(2), p.107.\n",
   "subtitle": "Automated flood map",
   "themes": [
-    "extreme-events"
+    "extremes"
   ],
+  "locations": true,
   "tags": [
     "Copernicus Services",
     "Flood",
@@ -138,6 +147,7 @@
     "scaleType": "categorical",
     "title": "Flood events"
   },
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Flood mapping",
   "extent": {
     "spatial": {
@@ -171,7 +181,7 @@
       "WASDI_FLOOD"
     ],
     "themes": [
-      "extreme-events"
+      "extremes"
     ],
     "satellite": [
       "Sentinel-2",

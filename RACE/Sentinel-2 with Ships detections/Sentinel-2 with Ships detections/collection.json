@@ -3419,6 +3419,24 @@
       "datetime": "2025-07-21T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./Sentinel-2 with Ships detections/2025/2025-07-22T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-22T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-2 with Ships detections/2025/2025-07-23T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-23T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-2 with Ships detections/2025/2025-07-24T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-24T00:00:00Z"
+    },
+    {
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
@@ -3475,7 +3493,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-07-21T00:00:00Z"
+          "2025-07-24T00:00:00Z"
         ]
       ]
     }

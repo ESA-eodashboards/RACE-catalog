@@ -21,7 +21,7 @@
       "id": "CO_3_daily",
       "themes": [
         "air",
-        "extreme-events"
+        "extremes"
       ],
       "tags": [
         "Air quality",
@@ -103,7 +103,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.png",
   "themes": [
     "air",
-    "extreme-events"
+    "extremes"
   ],
   "tags": [
     "Air quality",
@@ -181,7 +181,7 @@
     ],
     "themes": [
       "air",
-      "extreme-events"
+      "extremes"
     ],
     "satellite": [
       "Sentinel-5P"

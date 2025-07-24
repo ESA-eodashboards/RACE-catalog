@@ -1,0 +1,132 @@
+{
+  "type": "Collection",
+  "id": "St_Polten_Vienna",
+  "stac_version": "1.1.0",
+  "description": "Flooding in St Pölten",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./WASDI_FLOOD/2024/3b91e786-3bdb-4a96-b07c-e6ddefa21022.json",
+      "type": "application/geo+json",
+      "datetime": "2024-10-01T00:00:00Z"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "WASDI_FLOOD",
+      "wms:layers": [
+        "WASDI_FLOOD"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Flood mapping"
+    }
+  ],
+  "sci:doi": "10.3390/rs11020107",
+  "sci:citation": "Chini, M., Pelich, R., Pulvirenti, L., Pierdicca, N., Hostache, R., Matgen, P., 2019. Sentinel-1 InSAR coherence to detect floodwater in urban areas: Houston and Hurricane Harvey as a test case. Remote Sensing, 11(2), p.107.\n",
+  "subtitle": "Automated flood map",
+  "themes": [
+    "extremes"
+  ],
+  "tags": [
+    "Copernicus Services",
+    "Flood",
+    "Open data",
+    "Multi-sensors",
+    "Copernicus",
+    "Climate change service",
+    "Urban area",
+    "Disasters",
+    "Sentinel"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "WASDI_FLOOD",
+  "sensor": [
+    "SAR",
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-1",
+    "Sentinel-2"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      "Permanent water",
+      "Flooding"
+    ],
+    "range": [
+      "#0000ff",
+      "#ff0000"
+    ],
+    "scaleType": "categorical",
+    "title": "Flood events"
+  },
+  "title": "Flooding in St Pölten",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          15.567,
+          48.062,
+          16.624,
+          48.5
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-01T00:00:00Z",
+          "2024-10-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "WASDI Market Place",
+      "url": "https://www.wasdi.cloud/earth-observation-application-marketplace"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WASDI_FLOOD/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_1": {
+      "href": "https://wasdi.readthedocs.io/en/latest/WasdiApplications/FloodMapping.html",
+      "type": "text/html",
+      "title": "WASDI Support Automated Mapping",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-1",
+      "type": "text/html",
+      "title": "Sentinel-1",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

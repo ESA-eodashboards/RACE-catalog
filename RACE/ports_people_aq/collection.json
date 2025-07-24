@@ -180,8 +180,8 @@
       "C2"
     ],
     "themes": [
-      "economy",
-      "air"
+      "air",
+      "economy"
     ],
     "satellite": [
       "GNSS",
@@ -191,8 +191,8 @@
       "TROPOMI"
     ],
     "cities": [
-      "Gioia Tauro",
-      "Genoa"
+      "Genoa",
+      "Gioia Tauro"
     ],
     "countries": [
       "IT"
