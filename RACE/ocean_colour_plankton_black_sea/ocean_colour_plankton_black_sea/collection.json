@@ -5003,6 +5003,114 @@
       "datetime": "2025-07-23T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-07-24T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-24T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-07-25T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-25T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-07-26T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-26T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-07-27T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-27T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-07-28T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-28T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-07-29T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-29T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-07-30T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-30T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-07-31T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-31T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-08-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-08-02T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-02T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-08-03T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-03T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-08-04T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-04T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-08-05T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-05T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-08-06T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-06T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-08-07T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-07T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-08-08T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-08T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-08-09T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-09T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_black_sea/2025/2025-08-10T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-10T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_BLK_BGC_L4_NRT_009_152/cmems_obs-oc_blk_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202207",
       "type": "image/png",
@@ -5068,7 +5176,7 @@
       "interval": [
         [
           "2023-04-14T00:00:00Z",
-          "2025-07-23T00:00:00Z"
+          "2025-08-10T00:00:00Z"
         ]
       ]
     }

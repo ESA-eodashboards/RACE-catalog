@@ -86,14 +86,14 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2023",
+      "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2023"
+      "id": "cloudless-2024"
     },
     {
       "rel": "xyz",
@@ -204,45 +204,45 @@
       "economy"
     ],
     "satellite": [
-      "ICEYE SAR",
-      "Sentinel-1"
+      "Sentinel-1",
+      "ICEYE SAR"
     ],
     "sensor": [
       "C-SAR"
     ],
     "cities": [
-      "Mioveni",
-      "Nosovice",
-      "Russelsheim",
-      "Eisenach",
-      "Regensburg",
-      "Ingolstadt",
       "Barcelona",
-      "Neckarsulm",
-      "Craiova",
-      "Zwickau",
-      "Saarlouis",
-      "Kvasiny",
-      "Emden",
-      "Wolfsburg",
-      "Cassino",
-      "Leipzig",
-      "Martorell",
-      "Sindelfingen",
-      "Koln",
-      "Ghent",
       "Swindon",
       "Dingolfing",
-      "Bremen"
+      "Ghent",
+      "Cassino",
+      "Emden",
+      "Wolfsburg",
+      "Zwickau",
+      "Sindelfingen",
+      "Martorell",
+      "Nosovice",
+      "Saarlouis",
+      "Bremen",
+      "Kvasiny",
+      "Craiova",
+      "Russelsheim",
+      "Koln",
+      "Neckarsulm",
+      "Leipzig",
+      "Mioveni",
+      "Regensburg",
+      "Ingolstadt",
+      "Eisenach"
     ],
     "countries": [
-      "CZ",
-      "DE",
+      "BE",
+      "IT",
+      "RO",
       "ES",
       "GB",
-      "RO",
-      "IT",
-      "BE"
+      "CZ",
+      "DE"
     ]
   },
   "assets": {

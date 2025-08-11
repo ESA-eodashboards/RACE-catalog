@@ -83,14 +83,14 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2023",
+      "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2023"
+      "id": "cloudless-2024"
     },
     {
       "rel": "xyz",
@@ -194,40 +194,40 @@
       "C-SAR"
     ],
     "cities": [
-      "Croatia",
-      "Bulgaria",
-      "France",
-      "Poland",
-      "Czech Republic",
       "Hungary",
-      "United Kingdom",
-      "Latvia",
-      "Austria",
-      "Denmark",
-      "Estonia",
-      "Romania",
-      "Slovak Republic",
       "Sweden",
+      "United Kingdom",
+      "Poland",
+      "Austria",
+      "Lithuania",
+      "Romania",
+      "France",
+      "Latvia",
+      "Denmark",
+      "Bulgaria",
+      "Czech Republic",
       "Germany",
-      "Lithuania"
+      "Estonia",
+      "Slovak Republic",
+      "Croatia"
     ],
     "countries": [
-      "FR",
-      "HR",
-      "DE",
-      "CZ",
-      "PL",
-      "SK",
-      "DK",
-      "LT",
-      "EE",
       "HU",
-      "SE",
+      "BG",
+      "EE",
+      "DK",
       "AT",
+      "HR",
       "LV",
-      "GB",
       "RO",
-      "BG"
+      "FR",
+      "LT",
+      "SE",
+      "CZ",
+      "GB",
+      "SK",
+      "DE",
+      "PL"
     ]
   },
   "assets": {

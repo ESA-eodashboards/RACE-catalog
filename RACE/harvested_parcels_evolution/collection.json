@@ -70,14 +70,14 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2023",
+      "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2023"
+      "id": "cloudless-2024"
     },
     {
       "rel": "xyz",
@@ -182,27 +182,27 @@
       "agriculture"
     ],
     "satellite": [
-      "Sentinel-2",
       "Sentinel-1",
+      "Sentinel-2",
       "Landsat-8"
     ],
     "sensor": [
-      "OLI",
+      "MSI",
       "C-SAR",
-      "MSI"
+      "OLI"
     ],
     "cities": [
-      "Extremadura",
-      "Andalucia",
-      "Comunidad Foral de Navarra",
-      "Aragon",
-      "La Rioja",
-      "Castilla y Leon",
-      "Comunidad de Madrid",
       "Region de Murcia",
+      "Aragon",
       "Castilla-La Mancha",
+      "Cataluna",
+      "Andalucia",
+      "Comunidad de Madrid",
+      "Extremadura",
+      "La Rioja",
       "Comunidad Valenciana",
-      "Cataluna"
+      "Comunidad Foral de Navarra",
+      "Castilla y Leon"
     ],
     "countries": [
       "ES"

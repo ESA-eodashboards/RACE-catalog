@@ -12,7 +12,55 @@
     },
     {
       "rel": "item",
-      "href": "./byoc-0ecb4a55-5ce2-4525-bdcb-a333d37d46ef/2025/e9b958d3-7353-4e5e-ae61-f94d28ffe51e.json",
+      "href": "./byoc-0ecb4a55-5ce2-4525-bdcb-a333d37d46ef/2025/66ba239d-e11f-40da-b534-48319b74ac93.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-28T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-0ecb4a55-5ce2-4525-bdcb-a333d37d46ef/2025/b8b491d7-1cf0-41c6-a8e7-e84c4f4699d8.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-21T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-0ecb4a55-5ce2-4525-bdcb-a333d37d46ef/2025/8869c59b-3de0-49a0-bb44-0e352dbe6f36.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-14T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-0ecb4a55-5ce2-4525-bdcb-a333d37d46ef/2025/1ca5e4ae-e4c1-40e2-994d-ea68b393146f.json",
+      "type": "application/geo+json",
+      "datetime": "2025-07-07T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-0ecb4a55-5ce2-4525-bdcb-a333d37d46ef/2025/7705ee18-58d8-4dc5-a5e0-16011593ceaf.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-30T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-0ecb4a55-5ce2-4525-bdcb-a333d37d46ef/2025/3ddede97-6fa6-4125-9e48-bbe696cb84e6.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-23T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-0ecb4a55-5ce2-4525-bdcb-a333d37d46ef/2025/0414b417-bf8c-4a4a-a185-8ed34eb78a8f.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-16T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-0ecb4a55-5ce2-4525-bdcb-a333d37d46ef/2025/71fcc779-5f65-4113-98a6-33dc9964a8d4.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-09T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-0ecb4a55-5ce2-4525-bdcb-a333d37d46ef/2025/35793920-4b4d-4fa4-af9e-729791c74e02.json",
       "type": "application/geo+json",
       "datetime": "2025-06-02T00:00:00Z"
     },
@@ -2305,7 +2353,7 @@
       "interval": [
         [
           "2018-04-30T00:00:00Z",
-          "2025-06-02T00:00:00Z"
+          "2025-07-28T00:00:00Z"
         ]
       ]
     }

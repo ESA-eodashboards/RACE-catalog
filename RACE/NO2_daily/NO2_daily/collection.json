@@ -12,6 +12,36 @@
     },
     {
       "rel": "item",
+      "href": "./byoc-972e67a7-2ca8-4bf6-964a-11fe772e3ac2/2025/10a0b9e3-6c77-408f-a200-a7fcf2a637b1.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-23T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-972e67a7-2ca8-4bf6-964a-11fe772e3ac2/2025/1c1b596c-14fe-472b-88f3-301a6e3aa26d.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-16T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-972e67a7-2ca8-4bf6-964a-11fe772e3ac2/2025/04b51d7e-4587-4c92-82f4-6d40afd142a1.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-09T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-972e67a7-2ca8-4bf6-964a-11fe772e3ac2/2025/654666c3-fb53-474a-959c-c153552eff12.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-02T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-972e67a7-2ca8-4bf6-964a-11fe772e3ac2/2025/5bc9f467-b294-455b-9b86-03029b1926dd.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-26T00:00:00Z"
+    },
+    {
+      "rel": "item",
       "href": "./byoc-972e67a7-2ca8-4bf6-964a-11fe772e3ac2/2025/afb3df8e-e8f0-42f9-8452-e41cad3ea123.json",
       "type": "application/geo+json",
       "datetime": "2025-05-19T00:00:00Z"
@@ -2314,7 +2344,7 @@
       "interval": [
         [
           "2018-04-30T00:00:00Z",
-          "2025-05-19T00:00:00Z"
+          "2025-06-23T00:00:00Z"
         ]
       ]
     }
