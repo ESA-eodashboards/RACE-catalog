@@ -1,6 +1,6 @@
 {
   "Name": "ports_people_aq",
-  "Title": "People sources",
+  "Title": "People sources of pollution and NO2 levels",
   "EodashIdentifier": "C2",
   "Subtitle": "Port Activities, sources of pollution and NO2 levels",
   "Description": "C2_ports_people_aq/C2_ports_people_aq.md",
@@ -67,5 +67,17 @@
       "Database": "eodash",
       "CollectionId": "C2"
     }
-  ]
+  ],
+  "Process": {
+    "Name": "GeoDB Statistics",
+    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/C2_ports_people_aq/chart.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_geodb",
+        "Url": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_C2?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+        "Type": "application/json"
+      }
+    ]
+  }
 }
