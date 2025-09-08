@@ -5021,6 +5021,120 @@
       "datetime": "2025-08-10T00:00:00Z"
     },
     {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-11T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-11T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-12T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-12T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-13T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-13T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-14T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-14T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-15T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-15T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-16T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-16T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-17T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-17T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-18T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-18T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-19T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-19T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-20T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-20T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-21T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-21T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-22T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-22T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-23T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-23T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-24T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-24T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-25T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-25T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-26T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-26T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-27T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-27T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-28T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-28T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./ocean_colour_plankton_mediterranean/2025/2025-08-29T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-08-29T00:00:00Z"
+    },
+    {
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_MED_BGC_L3_NRT_009_141/cmems_obs-oc_med_bgc-plankton_nrt_l3-multi-1km_P1D_202211",
       "type": "image/png",
@@ -5086,7 +5200,7 @@
       "interval": [
         [
           "2023-04-29T00:00:00Z",
-          "2025-08-10T00:00:00Z"
+          "2025-08-29T00:00:00Z"
         ]
       ]
     }

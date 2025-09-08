@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "People sources"
+      "title": "People sources of pollution and NO2 levels"
     }
   ],
   "subcode": "IT16",

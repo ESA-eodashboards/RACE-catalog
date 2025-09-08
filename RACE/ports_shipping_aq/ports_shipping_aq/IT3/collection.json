@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Shipping sources"
+      "title": "Shipping sources of pollution and NO2 levels"
     }
   ],
   "subcode": "IT3",
