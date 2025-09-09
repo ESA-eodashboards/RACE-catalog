@@ -188,18 +188,18 @@
     ],
     "cities": [
       "Brussels",
-      "Warsaw",
-      "Rome",
-      "Bucharest",
+      "Milan",
       "Athens",
-      "Milan"
+      "Warsaw",
+      "Bucharest",
+      "Rome"
     ],
     "countries": [
+      "BE",
       "IT",
       "RO",
-      "GR",
-      "BE",
-      "PL"
+      "PL",
+      "GR"
     ]
   }
 }
