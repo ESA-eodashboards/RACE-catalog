@@ -58,6 +58,7 @@
       ]
     }
   ],
+  "Locations": true,
   "Provider": [
     {
       "Name": "Copernicus",
