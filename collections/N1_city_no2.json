@@ -47,7 +47,15 @@
       "EndPoint": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/",
       "Name": "GeoDB",
       "Database": "eodash",
-      "CollectionId": "N1"
+      "CollectionId": "N1",
+      "InputData": [
+        {
+          "Identifier": "Sentinel-5p Level-3 NO2",
+          "Url": "https://services.sentinel-hub.com/ogc/wms/",
+          "Type": "WMS",
+          "Layers": "AWS_NO2-VISUALISATION"
+        }
+      ]
     }
   ],
   "Provider": [
@@ -74,5 +82,17 @@
     "scaleType": "discrete",
     "tickFormat": ".0f",
     "title": "Tropospheric NO2 [\u00b5g/m\u00b3]"
+  },
+  "Process": {
+    "Name": "GeoDB Statistics",
+    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N1_city_no2/chart.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_geodb",
+        "Url": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_N1?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+        "Type": "application/json"
+      }
+    ]
   }
 }
