@@ -1,0 +1,79 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2021-12-27T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -6.533333,
+          53.01666667
+        ],
+        [
+          -5.933333,
+          53.01666667
+        ],
+        [
+          -5.933333,
+          53.616666669999994
+        ],
+        [
+          -6.533333,
+          53.616666669999994
+        ],
+        [
+          -6.533333,
+          53.01666667
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -6.243333,
+    53.30666667,
+    -6.223333,
+    53.326666669999994
+  ],
+  "properties": {
+    "datetime": "2021-12-27T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "city_no2",
+      "wms:layers": [
+        "AWS_NO2-VISUALISATION"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2021-12-27T00:00:00/2021-12-27T23:59:59"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Dublin"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Dublin"
+    }
+  ],
+  "assets": {},
+  "collection": "IE"
+}

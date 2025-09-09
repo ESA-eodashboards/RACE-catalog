@@ -1,0 +1,79 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2019-09-09T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          24.633333,
+          59.86666667
+        ],
+        [
+          25.233333000000002,
+          59.86666667
+        ],
+        [
+          25.233333000000002,
+          60.466666669999995
+        ],
+        [
+          24.633333,
+          60.466666669999995
+        ],
+        [
+          24.633333,
+          59.86666667
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    24.923333,
+    60.15666667,
+    24.943333000000003,
+    60.176666669999996
+  ],
+  "properties": {
+    "datetime": "2019-09-09T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "city_no2",
+      "wms:layers": [
+        "AWS_NO2-VISUALISATION"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2019-09-09T00:00:00/2019-09-09T23:59:59"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Helsinki"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Helsinki"
+    }
+  ],
+  "assets": {},
+  "collection": "FI"
+}

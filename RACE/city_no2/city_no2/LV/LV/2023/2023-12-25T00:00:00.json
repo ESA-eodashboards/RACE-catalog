@@ -1,0 +1,79 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2023-12-25T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          23.8,
+          56.650000000000006
+        ],
+        [
+          24.400000000000002,
+          56.650000000000006
+        ],
+        [
+          24.400000000000002,
+          57.25
+        ],
+        [
+          23.8,
+          57.25
+        ],
+        [
+          23.8,
+          56.650000000000006
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    24.09,
+    56.940000000000005,
+    24.110000000000003,
+    56.96
+  ],
+  "properties": {
+    "datetime": "2023-12-25T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "city_no2",
+      "wms:layers": [
+        "AWS_NO2-VISUALISATION"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2023-12-25T00:00:00/2023-12-25T23:59:59"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Riga"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Riga"
+    }
+  ],
+  "assets": {},
+  "collection": "LV"
+}

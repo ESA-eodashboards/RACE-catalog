@@ -1,0 +1,79 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2020-10-05T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.816667,
+          49.300000000000004
+        ],
+        [
+          6.4166669999999995,
+          49.300000000000004
+        ],
+        [
+          6.4166669999999995,
+          49.9
+        ],
+        [
+          5.816667,
+          49.9
+        ],
+        [
+          5.816667,
+          49.300000000000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    6.106667,
+    49.59,
+    6.126666999999999,
+    49.61
+  ],
+  "properties": {
+    "datetime": "2020-10-05T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "city_no2",
+      "wms:layers": [
+        "AWS_NO2-VISUALISATION"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2020-10-05T00:00:00/2020-10-05T23:59:59"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Luxembourg"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Luxembourg"
+    }
+  ],
+  "assets": {},
+  "collection": "LU"
+}

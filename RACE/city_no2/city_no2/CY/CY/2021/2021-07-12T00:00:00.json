@@ -1,0 +1,79 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2021-07-12T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.066667,
+          34.86666667
+        ],
+        [
+          33.666667,
+          34.86666667
+        ],
+        [
+          33.666667,
+          35.466666669999995
+        ],
+        [
+          33.066667,
+          35.466666669999995
+        ],
+        [
+          33.066667,
+          34.86666667
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    33.356667,
+    35.15666667,
+    33.376667,
+    35.176666669999996
+  ],
+  "properties": {
+    "datetime": "2021-07-12T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "city_no2",
+      "wms:layers": [
+        "AWS_NO2-VISUALISATION"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2021-07-12T00:00:00/2021-07-12T23:59:59"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Nicosia"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Nicosia"
+    }
+  ],
+  "assets": {},
+  "collection": "CY"
+}

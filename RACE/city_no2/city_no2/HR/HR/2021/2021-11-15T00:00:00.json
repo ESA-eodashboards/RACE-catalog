@@ -1,0 +1,79 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2021-11-15T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          15.7,
+          45.5
+        ],
+        [
+          16.3,
+          45.5
+        ],
+        [
+          16.3,
+          46.099999999999994
+        ],
+        [
+          15.7,
+          46.099999999999994
+        ],
+        [
+          15.7,
+          45.5
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    15.99,
+    45.79,
+    16.01,
+    45.809999999999995
+  ],
+  "properties": {
+    "datetime": "2021-11-15T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "city_no2",
+      "wms:layers": [
+        "AWS_NO2-VISUALISATION"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2021-11-15T00:00:00/2021-11-15T23:59:59"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Zagreb"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Zagreb"
+    }
+  ],
+  "assets": {},
+  "collection": "HR"
+}

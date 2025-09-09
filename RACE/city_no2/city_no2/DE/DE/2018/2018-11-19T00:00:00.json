@@ -1,0 +1,79 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2018-11-19T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          13.1,
+          52.21666667
+        ],
+        [
+          13.700000000000001,
+          52.21666667
+        ],
+        [
+          13.700000000000001,
+          52.81666667
+        ],
+        [
+          13.1,
+          52.81666667
+        ],
+        [
+          13.1,
+          52.21666667
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    13.39,
+    52.50666667,
+    13.41,
+    52.52666667
+  ],
+  "properties": {
+    "datetime": "2018-11-19T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "city_no2",
+      "wms:layers": [
+        "AWS_NO2-VISUALISATION"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2018-11-19T00:00:00/2018-11-19T23:59:59"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Berlin"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Berlin"
+    }
+  ],
+  "assets": {},
+  "collection": "DE"
+}

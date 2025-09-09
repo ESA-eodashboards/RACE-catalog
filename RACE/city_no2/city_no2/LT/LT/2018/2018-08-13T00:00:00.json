@@ -1,0 +1,79 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2018-08-13T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.016666999999998,
+          54.383333330000006
+        ],
+        [
+          25.616667,
+          54.383333330000006
+        ],
+        [
+          25.616667,
+          54.98333333
+        ],
+        [
+          25.016666999999998,
+          54.98333333
+        ],
+        [
+          25.016666999999998,
+          54.383333330000006
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    25.306666999999997,
+    54.673333330000006,
+    25.326667,
+    54.69333333
+  ],
+  "properties": {
+    "datetime": "2018-08-13T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "city_no2",
+      "wms:layers": [
+        "AWS_NO2-VISUALISATION"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2018-08-13T00:00:00/2018-08-13T23:59:59"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vilnius"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vilnius"
+    }
+  ],
+  "assets": {},
+  "collection": "LT"
+}
