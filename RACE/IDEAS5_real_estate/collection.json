@@ -178,15 +178,15 @@
   "summaries": {
     "subcode": [
       "IND5_1_b3",
-      "IND5_1_b2",
-      "IND5_1_b1"
+      "IND5_1_b1",
+      "IND5_1_b2"
     ],
     "themes": [
       "economy"
     ],
     "satellite": [
-      "Landsat 9",
-      "Landsat 8"
+      "Landsat 8",
+      "Landsat 9"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"

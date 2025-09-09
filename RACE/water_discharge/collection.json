@@ -127,7 +127,7 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/CNR_TUR_1_water_discharge/jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/CNR_TUR_1_water_discharge/chart.json",
   "title": "Water turbidity",
   "extent": {

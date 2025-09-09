@@ -76,10 +76,10 @@
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a10?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a10?aoi_id=in.(\"SEb\",\"ATb\",\"BGb\",\"CZb\",\"DEb\",\"DKb\",\"EEb\",\"FRb\",\"UKb\",\"HRb\",\"HUb\",\"LTb\",\"LVb\",\"PLb\",\"SKb\",\"ROb\")&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
-      "method": "GET",
-      "id": "E10a10"
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -151,7 +151,7 @@
     "Sentinel-1"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a10_harvesting_evolution/chart.json",
   "title": "Harvesting evolution winter rapeseed",
   "extent": {
     "spatial": {
@@ -194,40 +194,40 @@
       "C-SAR"
     ],
     "cities": [
-      "Latvia",
-      "Poland",
-      "Sweden",
-      "Slovak Republic",
-      "United Kingdom",
-      "Estonia",
-      "Germany",
+      "Bulgaria",
       "Austria",
+      "Latvia",
+      "Slovak Republic",
+      "Hungary",
       "Lithuania",
       "Romania",
-      "France",
-      "Bulgaria",
+      "Estonia",
+      "Germany",
       "Croatia",
-      "Hungary",
-      "Czech Republic",
-      "Denmark"
+      "Sweden",
+      "United Kingdom",
+      "Denmark",
+      "France",
+      "Poland",
+      "Czech Republic"
     ],
     "countries": [
-      "LT",
-      "CZ",
+      "BG",
+      "FR",
       "RO",
-      "PL",
-      "LV",
-      "HR",
-      "SE",
-      "AT",
       "DE",
-      "DK",
       "SK",
       "GB",
-      "FR",
+      "PL",
+      "CZ",
+      "LT",
       "HU",
-      "BG",
-      "EE"
+      "LV",
+      "DK",
+      "HR",
+      "EE",
+      "SE",
+      "AT"
     ]
   },
   "assets": {

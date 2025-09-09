@@ -51,8 +51,8 @@
       "rel": "service",
       "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a5?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
-      "method": "GET",
-      "id": "E10a5"
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -127,7 +127,7 @@
     "Pleiades"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a5_fruit_production/chart.json",
   "title": "Fruit production",
   "extent": {
     "spatial": {
@@ -176,8 +176,8 @@
       "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
-      "HiRI"
+      "HiRI",
+      "MSI"
     ],
     "cities": [
       "Huelva Laguna de las Madres"
