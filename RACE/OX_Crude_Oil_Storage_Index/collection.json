@@ -90,8 +90,8 @@
       "rel": "service",
       "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_Crude_Oil_Storage_Index?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
-      "method": "GET",
-      "id": "Crude_Oil_Storage_Index"
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -172,7 +172,7 @@
     "Other"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/OX_Crude_Oil_Storage_Index/chart.json",
   "title": "Crude Oil Storage Index",
   "extent": {
     "spatial": {
@@ -225,43 +225,43 @@
       "C-SAR"
     ],
     "cities": [
-      "Fos-Lavera",
-      "Dalmeny",
-      "Pachi",
-      "Thessaloniki",
-      "Aspropyrgos",
-      "Omisalj",
-      "Rotterdam",
-      "Sarroch",
-      "Trieste",
-      "Teesport",
       "Corinth",
-      "Le Havre",
-      "Tarragona",
-      "Elefsina",
+      "Sullom Voe",
+      "Omisalj",
+      "Teesport",
+      "Wilhelmshaven",
+      "Trieste",
       "Finnart",
-      "Algeciras",
+      "Fos-Lavera",
+      "Le Havre",
       "Godorf Wesseling",
       "Cork",
-      "Wilhelmshaven",
-      "Antwerp",
-      "Cartagena",
-      "Grangemouth",
       "Schwechat",
-      "Sullom Voe"
+      "Thessaloniki",
+      "Pachi",
+      "Cartagena",
+      "Aspropyrgos",
+      "Antwerp",
+      "Algeciras",
+      "Tarragona",
+      "Rotterdam",
+      "Grangemouth",
+      "Dalmeny",
+      "Sarroch",
+      "Elefsina"
     ],
     "countries": [
-      "GR",
-      "BE",
-      "DE",
-      "IE",
-      "IT",
-      "GB",
-      "FR",
       "ES",
-      "AT",
+      "GR",
+      "IE",
+      "FR",
       "NL",
-      "HR"
+      "IT",
+      "AT",
+      "GB",
+      "HR",
+      "DE",
+      "BE"
     ]
   },
   "assets": {

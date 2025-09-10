@@ -196,8 +196,8 @@
     ],
     "satellite": [
       "CLMS HR-VPP Seasonal Trajectory",
-      "Sentinel-2",
-      "CLMS HR-VPP Vegetation Indices"
+      "CLMS HR-VPP Vegetation Indices",
+      "Sentinel-2"
     ]
   },
   "assets": {

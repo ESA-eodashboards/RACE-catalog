@@ -187,19 +187,19 @@
       "C-SAR"
     ],
     "cities": [
-      "Brussels",
-      "Milan",
-      "Athens",
       "Warsaw",
-      "Bucharest",
-      "Rome"
+      "Athens",
+      "Brussels",
+      "Rome",
+      "Milan",
+      "Bucharest"
     ],
     "countries": [
-      "BE",
       "IT",
       "RO",
-      "PL",
-      "GR"
+      "GR",
+      "BE",
+      "PL"
     ]
   }
 }

@@ -192,17 +192,17 @@
       "OLI"
     ],
     "cities": [
+      "Comunidad Valenciana",
+      "Castilla-La Mancha",
       "Comunidad Foral de Navarra",
+      "Castilla y Leon",
       "Extremadura",
       "Cataluna",
-      "La Rioja",
-      "Comunidad Valenciana",
-      "Aragon",
-      "Castilla-La Mancha",
-      "Andalucia",
-      "Region de Murcia",
       "Comunidad de Madrid",
-      "Castilla y Leon"
+      "Andalucia",
+      "Aragon",
+      "La Rioja",
+      "Region de Murcia"
     ],
     "countries": [
       "ES"
