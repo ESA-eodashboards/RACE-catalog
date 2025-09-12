@@ -222,24 +222,24 @@
       "C-SAR"
     ],
     "countries": [
+      "LV",
+      "IT",
+      "PL",
+      "NO",
+      "NL",
       "EE",
       "BE",
-      "GR",
-      "LT",
-      "FR",
-      "PT",
-      "PL",
-      "RO",
-      "DK",
-      "NL",
-      "NO",
-      "LV",
-      "TR",
-      "IE",
       "RU",
-      "IT",
+      "DE",
+      "DK",
+      "GR",
+      "PT",
+      "FR",
+      "TR",
+      "RO",
       "ES",
-      "DE"
+      "IE",
+      "LT"
     ]
   },
   "assets": {

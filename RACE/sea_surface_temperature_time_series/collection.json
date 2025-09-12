@@ -196,32 +196,32 @@
       "water"
     ],
     "satellite": [
-      "Suomi NPP",
-      "Other",
       "Metop-B",
+      "Suomi NPP",
       "JPSS-1",
+      "Other",
       "Sentinel-3"
     ],
     "sensor": [
-      "SLSTR",
       "VIIRS",
-      "AVHRR"
+      "AVHRR",
+      "SLSTR"
     ],
     "cities": [
-      "Constanta",
       "Lisbon",
+      "Hamburg",
       "Venice Lagoon",
+      "Constanta",
       "Marseilles",
-      "Barcelona",
-      "Hamburg"
+      "Barcelona"
     ],
     "countries": [
+      "IT",
       "PT",
       "FR",
       "RO",
-      "IT",
-      "GE",
-      "ES"
+      "ES",
+      "GE"
     ]
   },
   "assets": {
