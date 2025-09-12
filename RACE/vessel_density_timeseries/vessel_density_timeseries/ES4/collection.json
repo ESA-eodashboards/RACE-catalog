@@ -17,16 +17,37 @@
       "title": "Vessel density time series"
     }
   ],
-  "subcode": "ES4",
+  "subcode": "E1b",
+  "sci:citation": "Alessandro Cimbelli, Vessel Density based on Copernicus Sentinel-1, developed for the ESA RACE Challenges March 2021",
+  "subtitle": "Vessel Density based on Copernicus Sentinel-1",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Maritime",
+    "Traffic",
+    "Open data",
+    "Community"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
   "title": "Las Palmas",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -15.125872,
-          27.957126,
-          -15.105872,
-          27.977126000000002
+          -15.625766323402658,
+          27.48468148911183,
+          -14.609103883331436,
+          28.44988428278547
         ]
       ]
     },
@@ -39,5 +60,23 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "notebook_vessel_density_cimbelli": {
+      "href": "https://edc-jupyter.hub.eox.at/user/fd72d739-596f-4e72-a660-0d06045e4e26/lab/tree/Vessel_count_upscale.ipynb",
+      "type": "text/html",
+      "title": "Jupyter Notebook Euro Data Cube",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

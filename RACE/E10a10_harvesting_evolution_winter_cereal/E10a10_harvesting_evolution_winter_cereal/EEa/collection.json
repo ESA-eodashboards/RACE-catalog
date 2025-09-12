@@ -17,7 +17,24 @@
       "title": "Harvesting evolution winter cereal"
     }
   ],
-  "subcode": "EEa",
+  "subcode": "E10a10",
+  "subtitle": "Monitoring row crop harvesting with satellite data",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "Copernicus",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
   "title": "Estonia",
   "extent": {
     "spatial": {
@@ -39,5 +56,37 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "Vista",
+      "url": "https://www.vista-geo.de/"
+    }
+  ],
+  "assets": {
+    "reference_1": {
+      "href": "https://eo4society.esa.int/projects/impact-of-covid-19-on-harvest-of-row-crop/",
+      "type": "text/html",
+      "title": "Impact of COVID-19 on harvest of row crop",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://ypsilon.services/#news",
+      "type": "text/html",
+      "title": "YPSILON",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://foodsecurity-tep.net/node/291",
+      "type": "text/html",
+      "title": "Food Security TEP",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

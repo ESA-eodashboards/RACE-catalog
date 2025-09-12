@@ -11,13 +11,47 @@
       "title": "RACE"
     },
     {
+      "rel": "license",
+      "href": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
+      "type": "text/html",
+      "title": "Licence to Use Copernicus Products"
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Sea surface temperature time series"
     }
   ],
-  "subcode": "RO1",
+  "subcode": "SST",
+  "subtitle": "Key ocean monitoring indicator",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Water quality",
+    "Copernicus Services",
+    "Surface temperature",
+    "CMEMS",
+    "Multi-sensors",
+    "Open data"
+  ],
+  "agency": [
+    "European Commission",
+    "ECMWF"
+  ],
+  "sensor": [
+    "AVHRR",
+    "VIIRS",
+    "SLSTR"
+  ],
+  "satellite": [
+    "Metop-B",
+    "JPSS-1",
+    "Suomi NPP",
+    "Sentinel-3",
+    "Other"
+  ],
   "title": "Constanta",
   "extent": {
     "spatial": {
@@ -39,5 +73,45 @@
       ]
     }
   },
-  "license": "other"
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Copernicus Marine Service",
+      "url": "https://marine.copernicus.eu/access-data"
+    }
+  ],
+  "assets": {
+    "reference_1": {
+      "href": "https://data.marine.copernicus.eu/product/SST_MED_SST_L4_NRT_OBSERVATIONS_010_004/description",
+      "type": "text/html",
+      "title": "Mediterranean Sea High Resolution and Ultra High Resolution Sea Surface Temperature Analysis",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://data.marine.copernicus.eu/product/SST_BS_SST_L4_NRT_OBSERVATIONS_010_006/description",
+      "type": "text/html",
+      "title": "Black Sea High Resolution and Ultra High Resolution Sea Surface Temperature Analysis",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://data.marine.copernicus.eu/product/SST_MED_SST_L4_REP_OBSERVATIONS_010_021/description",
+      "type": "text/html",
+      "title": "Mediterranean Sea - High Resolution L4 Sea Surface Temperature Reprocessed",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_4": {
+      "href": "https://data.marine.copernicus.eu/product/SST_BS_SST_L4_REP_OBSERVATIONS_010_022/description",
+      "type": "text/html",
+      "title": "Black Sea - High Resolution L4 Sea Surface Temperature Reprocessed",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

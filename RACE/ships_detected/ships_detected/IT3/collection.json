@@ -17,7 +17,23 @@
       "title": "Ships detections"
     }
   ],
-  "subcode": "IT3",
+  "subcode": "E200",
+  "subtitle": "Ships detected in Sentinel-2 data",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
   "title": "Genoa",
   "extent": {
     "spatial": {
@@ -39,5 +55,11 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    }
+  ]
 }

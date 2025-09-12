@@ -11,196 +11,39 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./DE11/2020/2020-03-14T10:10:19.json",
-      "type": "application/geo+json",
-      "datetime": "2020-03-14T10:10:19Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-03-22T10:20:21.json",
-      "type": "application/geo+json",
-      "datetime": "2020-03-22T10:20:21Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-03-24T10:06:49.json",
-      "type": "application/geo+json",
-      "datetime": "2020-03-24T10:06:49Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-03-26T10:00:21.json",
-      "type": "application/geo+json",
-      "datetime": "2020-03-26T10:00:21Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-03-27T10:16:29.json",
-      "type": "application/geo+json",
-      "datetime": "2020-03-27T10:16:29Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-04-01T10:20:21.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-01T10:20:21Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-04-06T10:15:59.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-06T10:15:59Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-04-08T10:10:21.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-08T10:10:21Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-04-11T10:20:21.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-11T10:20:21Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-04-16T10:15:49.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-16T10:15:49Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-04-18T10:10:31.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-18T10:10:31Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-04-20T10:00:19.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-20T10:00:19Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-04-21T10:20:21.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-21T10:20:21Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-04-23T10:05:49.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-23T10:05:49Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-04-28T10:10:31.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-28T10:10:31Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-05-06T10:15:59.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-06T10:15:59Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-05-08T10:10:31.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-08T10:10:31Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-05-13T10:05:59.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-13T10:05:59Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-05-16T10:15:59.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-16T10:15:59Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-05-21T10:26:10.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-21T10:26:10Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-05-26T10:15:59.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-26T10:15:59Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-05-28T10:10:31.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-28T10:10:31Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-05-30T10:00:29.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-30T10:00:29Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-05-31T10:20:31.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-31T10:20:31Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-06-02T10:05:59.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-02T10:05:59Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-06-15T10:15:59.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-15T10:15:59Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-06-17T10:10:31.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-17T10:10:31Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-06-22T10:05:59.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-22T10:05:59Z"
-    },
-    {
-      "rel": "item",
-      "href": "./DE11/2020/2020-06-27T10:10:31.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-27T10:10:31Z"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Agricultural production - area"
     }
   ],
-  "subcode": "DE11",
+  "subcode": "E10a2",
+  "subtitle": "Agricultural production in Europe",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "Copernicus",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
   "title": "Brandenburg Region",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          13.080632,
-          52.121413000000004,
-          13.100632,
-          52.141413
+          11.26573,
+          51.36071,
+          14.76504,
+          53.5587
         ]
       ]
     },
@@ -213,5 +56,25 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "Université catholique de Louvain",
+      "url": "https://uclouvain.be/en/index.html"
+    },
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }

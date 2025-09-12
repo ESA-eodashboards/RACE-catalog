@@ -11,15 +11,6 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./IDEAS1_hopi_b4/2021/2021-04-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2021-04-01T00:00:00Z",
-      "assets": [
-        "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Winter_europe_3857_b4.tif"
-      ]
-    },
-    {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS1_hopi/flatstyle_b4.json",
       "type": "text/cog-styles",
@@ -78,10 +69,10 @@
     "spatial": {
       "bbox": [
         [
-          -24,
-          33,
-          42,
-          71
+          -24.0,
+          33.0,
+          42.0,
+          71.0
         ]
       ]
     },
@@ -102,6 +93,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png",
       "type": "image/png",

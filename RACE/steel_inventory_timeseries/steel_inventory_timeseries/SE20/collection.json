@@ -17,16 +17,33 @@
       "title": "Steel inventory timeseries"
     }
   ],
-  "subcode": "SE20",
+  "subcode": "E5",
+  "subtitle": "Steel inventory monitoring in open warehouses from SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
   "title": "Oxelosund - area 3",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          17.106121839995794,
-          58.67136769076249,
-          17.126121839995797,
-          58.69136769076248
+          17.11292937376722,
+          58.68015193123194,
+          17.11934788325442,
+          58.68233649494479
         ]
       ]
     },
@@ -39,5 +56,25 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "name": "Aerospacelab",
+      "url": "https://www.aerospacelab.be/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }

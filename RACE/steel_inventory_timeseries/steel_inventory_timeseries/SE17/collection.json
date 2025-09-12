@@ -17,16 +17,33 @@
       "title": "Steel inventory timeseries"
     }
   ],
-  "subcode": "SE17",
+  "subcode": "E5",
+  "subtitle": "Steel inventory monitoring in open warehouses from SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
   "title": "Lulea",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          22.217196619403225,
-          65.54710405897863,
-          22.23719661940323,
-          65.56710405897864
+          22.22249650080407,
+          65.55576812102181,
+          22.2307429829853,
+          65.55902654614368
         ]
       ]
     },
@@ -39,5 +56,25 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "name": "Aerospacelab",
+      "url": "https://www.aerospacelab.be/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }

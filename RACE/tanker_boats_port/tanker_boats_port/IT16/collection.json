@@ -17,7 +17,22 @@
       "title": "Tankers boats in ports"
     }
   ],
-  "subcode": "IT16",
+  "subcode": "E13g",
+  "subtitle": "Changes in the number of boats in ports",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Ports",
+    "Maritime",
+    "Traffic"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "insituSources": [
+    "AIS"
+  ],
   "title": "Gioia Tauro",
   "extent": {
     "spatial": {
@@ -39,5 +54,21 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "e-GEOS",
+      "url": "https://www.e-geos.it/"
+    }
+  ],
+  "assets": {
+    "reference_1": {
+      "href": "https://www.imo.org/en/OurWork/Safety/Pages/AIS.aspx",
+      "type": "text/html",
+      "title": "AIS data",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

@@ -17,7 +17,17 @@
       "title": "Intermediate goods production"
     }
   ],
-  "subcode": "IT3",
+  "subcode": "E4",
+  "subtitle": "Assessment of intermediate goods production sites (steel mills/other metal production, cement production, chemicals/plastics production).",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA"
+  ],
   "title": "Genoa",
   "extent": {
     "spatial": {

@@ -17,7 +17,32 @@
       "title": "Car sourcesof pollution and NO2 levels"
     }
   ],
-  "subcode": "IT3",
+  "subcode": "C3",
+  "subtitle": "Port Activities, sources of pollution and NO2 levels",
+  "themes": [
+    "economy",
+    "air"
+  ],
+  "tags": [
+    "Air quality",
+    "NO2",
+    "Ports",
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "TROPOMI"
+  ],
+  "satellite": [
+    "Sentinel-5P",
+    "GNSS"
+  ],
+  "insituSources": [
+    "AIS",
+    "Mobile"
+  ],
   "title": "Genoa",
   "extent": {
     "spatial": {
@@ -39,5 +64,45 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "e-GEOS",
+      "url": "https://www.e-geos.it/#/"
+    },
+    {
+      "name": "ExpertLab",
+      "url": "http://www.expertlab.it/"
+    },
+    {
+      "name": "CherryData",
+      "url": "https://www.cherry-data.com/"
+    }
+  ],
+  "assets": {
+    "reference_1": {
+      "href": "https://www.imo.org/en/OurWork/Safety/Pages/AIS.aspx",
+      "type": "text/html",
+      "title": "AIS data",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://www.tomtom.com/products/traffic-and-travel-information/",
+      "type": "text/html",
+      "title": "TomTom data",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://covidtracker.bsg.ox.ac.uk/",
+      "type": "text/html",
+      "title": "Oxford University’s coronavirus government response tracker",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

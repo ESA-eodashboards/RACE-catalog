@@ -17,7 +17,21 @@
       "title": "People Mobility Reports"
     }
   ],
-  "subcode": "CZ",
+  "subcode": "GG",
+  "subtitle": "People mobility data showing the impact of COVID-19 lockdown restrictions",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Mobility",
+    "Traffic"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "insituSources": [
+    "Mobile"
+  ],
   "title": "/",
   "extent": {
     "spatial": {
@@ -39,5 +53,11 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "Google",
+      "url": "https://www.google.com/covid19/mobility/"
+    }
+  ]
 }

@@ -17,16 +17,37 @@
       "title": "Vessel density time series"
     }
   ],
-  "subcode": "IT3",
+  "subcode": "E1b",
+  "sci:citation": "Alessandro Cimbelli, Vessel Density based on Copernicus Sentinel-1, developed for the ESA RACE Challenges March 2021",
+  "subtitle": "Vessel Density based on Copernicus Sentinel-1",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Maritime",
+    "Traffic",
+    "Open data",
+    "Community"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
   "title": "Genova",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          8.946082,
-          44.127695,
-          8.966082,
-          44.147695
+          8.49573917708847,
+          43.80700970783738,
+          9.409311250600036,
+          44.466734838206094
         ]
       ]
     },
@@ -39,5 +60,23 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "notebook_vessel_density_cimbelli": {
+      "href": "https://edc-jupyter.hub.eox.at/user/fd72d739-596f-4e72-a660-0d06045e4e26/lab/tree/Vessel_count_upscale.ipynb",
+      "type": "text/html",
+      "title": "Jupyter Notebook Euro Data Cube",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

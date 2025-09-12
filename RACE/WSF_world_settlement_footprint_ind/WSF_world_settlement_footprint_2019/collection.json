@@ -11,12 +11,6 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./WSF_world_settlement_footprint_2019/2019/2019-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2019-01-01T00:00:00Z"
-    },
-    {
       "rel": "wms",
       "href": "https://a.geoservice.dlr.de/eoc/land/wms/",
       "type": "image/jpeg",
@@ -103,6 +97,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.png",
       "type": "image/png",

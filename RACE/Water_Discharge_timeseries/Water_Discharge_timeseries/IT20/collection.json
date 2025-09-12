@@ -17,7 +17,33 @@
       "title": "Water Discharge Timeseries"
     }
   ],
-  "subcode": "IT20",
+  "subcode": "Water_Discharge_timeseries",
+  "subtitle": "Variability of coastal and inland waters",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Water_Discharge_timeseries/Water_Discharge_timeseries.png",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Water quality",
+    "Marine",
+    "Copernicus Services",
+    "Sentinel-2",
+    "MSI",
+    "Water turbidity",
+    "Adriactic Sea",
+    "Open data",
+    "Marine monitoring",
+    "Total Suspended Sediments"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
   "title": "Pontelagoscuro",
   "extent": {
     "spatial": {
@@ -39,5 +65,28 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "ESA",
+      "url": "https://sentinel.esa.int/web/sentinel/"
+    },
+    {
+      "name": "Copernicus Data Space Ecosystem",
+      "url": "https://dataspace.copernicus.eu/"
+    },
+    {
+      "name": "ONDA",
+      "url": "https://www.onda-dias.eu/cms/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Water_Discharge_timeseries/Water_Discharge_timeseries.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

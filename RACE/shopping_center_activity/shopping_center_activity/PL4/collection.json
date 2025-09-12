@@ -17,7 +17,29 @@
       "title": "Activity at shopping centers"
     }
   ],
-  "subcode": "PL4",
+  "subcode": "E11",
+  "subtitle": "Occupancy of customer parking",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Mobility",
+    "Traffic",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "insituSources": [
+    "Mobile"
+  ],
   "title": "Warsaw",
   "extent": {
     "spatial": {
@@ -39,5 +61,15 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "name": "Vodafone",
+      "url": "https://www.vodafone.com/"
+    }
+  ]
 }

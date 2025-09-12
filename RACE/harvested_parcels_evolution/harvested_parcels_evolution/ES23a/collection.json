@@ -17,7 +17,31 @@
       "title": "Harvested parcels"
     }
   ],
-  "subcode": "ES23a",
+  "subcode": "E10a6",
+  "subtitle": "Evolution of harvested parcels in percentage",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "Copernicus",
+    "Sen4CAP",
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA",
+    "NASA",
+    "USGS"
+  ],
+  "sensor": [
+    "C-SAR",
+    "MSI",
+    "OLI"
+  ],
+  "satellite": [
+    "Sentinel-1",
+    "Sentinel-2",
+    "Landsat-8"
+  ],
   "title": "La Rioja",
   "extent": {
     "spatial": {
@@ -39,5 +63,11 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "FEGA",
+      "url": "https://www.fega.gob.es/en"
+    }
+  ]
 }

@@ -17,16 +17,37 @@
       "title": "Vessel density time series"
     }
   ],
-  "subcode": "FR2",
+  "subcode": "E1b",
+  "sci:citation": "Alessandro Cimbelli, Vessel Density based on Copernicus Sentinel-1, developed for the ESA RACE Challenges March 2021",
+  "subtitle": "Vessel Density based on Copernicus Sentinel-1",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Maritime",
+    "Traffic",
+    "Open data",
+    "Community"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
   "title": "Le Havre",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -0.603896,
-          49.228328000000005,
-          -0.583896,
-          49.248328
+          -1.233280885210758,
+          48.821714949725,
+          0.036094662831766,
+          49.65389684240294
         ]
       ]
     },
@@ -39,5 +60,23 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "notebook_vessel_density_cimbelli": {
+      "href": "https://edc-jupyter.hub.eox.at/user/fd72d739-596f-4e72-a660-0d06045e4e26/lab/tree/Vessel_count_upscale.ipynb",
+      "type": "text/html",
+      "title": "Jupyter Notebook Euro Data Cube",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

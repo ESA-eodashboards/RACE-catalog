@@ -136,6 +136,12 @@
           20.005207061767578,
           12.994793891906738,
           65.99478912353516
+        ],
+        [
+          -45.99479293823242,
+          20.005207061767578,
+          12.994793891906738,
+          65.99478912353516
         ]
       ]
     },
@@ -143,7 +149,7 @@
       "interval": [
         [
           "2025-08-26T00:00:00Z",
-          "2025-09-09T00:00:00Z"
+          "2025-09-11T00:00:00Z"
         ]
       ]
     }
@@ -163,15 +169,15 @@
       "water"
     ],
     "satellite": [
-      "Sentinel-3",
       "JPSS-1",
       "Aqua",
-      "Suomi NPP"
+      "Suomi NPP",
+      "Sentinel-3"
     ],
     "sensor": [
       "VIIRS",
-      "OLCI",
-      "MODIS"
+      "MODIS",
+      "OLCI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_atlantic/N3c_ocean_colour_plankton_atlantic.png"

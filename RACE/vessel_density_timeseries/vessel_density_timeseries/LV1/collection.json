@@ -17,16 +17,37 @@
       "title": "Vessel density time series"
     }
   ],
-  "subcode": "LV1",
+  "subcode": "E1b",
+  "sci:citation": "Alessandro Cimbelli, Vessel Density based on Copernicus Sentinel-1, developed for the ESA RACE Challenges March 2021",
+  "subtitle": "Vessel Density based on Copernicus Sentinel-1",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Maritime",
+    "Traffic",
+    "Open data",
+    "Community"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
   "title": "Riga",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          23.610892999999997,
-          57.143293,
-          23.630893,
-          57.163292999999996
+          22.89509360022091,
+          56.75683034534616,
+          24.35947457127975,
+          57.54898172047735
         ]
       ]
     },
@@ -39,5 +60,23 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "notebook_vessel_density_cimbelli": {
+      "href": "https://edc-jupyter.hub.eox.at/user/fd72d739-596f-4e72-a660-0d06045e4e26/lab/tree/Vessel_count_upscale.ipynb",
+      "type": "text/html",
+      "title": "Jupyter Notebook Euro Data Cube",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

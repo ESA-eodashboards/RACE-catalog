@@ -17,7 +17,27 @@
       "title": "Fruit production"
     }
   ],
-  "subcode": "ES8",
+  "subcode": "E10a5",
+  "subtitle": "Monitoring fruit production (Berries) in Huelva, Spain",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "Copernicus",
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA",
+    "CNES"
+  ],
+  "sensor": [
+    "MSI",
+    "HiRI"
+  ],
+  "satellite": [
+    "Sentinel-2",
+    "Pleiades"
+  ],
   "title": "Huelva Laguna de las Madres",
   "extent": {
     "spatial": {
@@ -39,5 +59,19 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "Université catholique de Louvain",
+      "url": "https://uclouvain.be/en/index.html"
+    },
+    {
+      "name": "ESA",
+      "url": "https://earth.esa.int/eogateway/missions/pleiades"
+    },
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    }
+  ]
 }

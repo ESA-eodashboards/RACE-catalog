@@ -11,13 +11,40 @@
       "title": "RACE"
     },
     {
+      "rel": "license",
+      "href": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
+      "type": "text/html",
+      "title": "Licence to Use Copernicus Products"
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Regional water quality time series"
     }
   ],
-  "subcode": "DE29",
+  "subcode": "N3",
+  "subtitle": "Regional water quality time series",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Water quality",
+    "Copernicus Services",
+    "CHL",
+    "CMEMS",
+    "Open data"
+  ],
+  "agency": [
+    "European Commission",
+    "ECMWF"
+  ],
+  "sensor": [
+    "OLCI"
+  ],
+  "satellite": [
+    "Sentinel-3"
+  ],
   "title": "Hamburg",
   "extent": {
     "spatial": {
@@ -39,5 +66,37 @@
       ]
     }
   },
-  "license": "other"
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Copernicus Marine Service",
+      "url": "https://marine.copernicus.eu/access-data"
+    },
+    {
+      "name": "EUMETSAT",
+      "url": "https://data.eumetsat.int/search?query="
+    },
+    {
+      "name": "CNR ISMAR",
+      "url": "https://www.ismar.cnr.it/istituto/"
+    }
+  ],
+  "assets": {
+    "reference_1": {
+      "href": "https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-3-olci/level-2/imt-neural-net",
+      "type": "text/html",
+      "title": "IMT Neural Net",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://www.sciencedirect.com/science/article/pii/S0048969722000912?via%3Dihub",
+      "type": "text/html",
+      "title": "COVID-19 lockdown effects on a coastal marine environment - Disentangling perception versus reality",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

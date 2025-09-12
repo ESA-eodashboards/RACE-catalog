@@ -97,10 +97,18 @@
     },
     {
       "rel": "service",
+      "href": "./vessel_density_timeseries/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
+    },
+    {
+      "rel": "service",
       "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_Sentinel_1_Vessel_Density_Europe_Timeseries?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
-      "method": "GET",
-      "id": "Sentinel_1_Vessel_Density_Europe_Timeseries"
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -158,6 +166,7 @@
   "themes": [
     "economy"
   ],
+  "locations": true,
   "tags": [
     "Copernicus",
     "Maritime",
@@ -176,16 +185,16 @@
     "Sentinel-1"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E1b_vessel_density_timeseries/chart.json",
   "title": "Vessel density time series",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -15.125872,
-          27.957126,
-          28.849589,
-          60.342799
+          -15.625766323402658,
+          27.48468148911183,
+          29.044757418407514,
+          60.78406621243956
         ]
       ]
     },
@@ -213,24 +222,24 @@
       "C-SAR"
     ],
     "countries": [
-      "ES",
+      "EE",
+      "BE",
+      "GR",
       "LT",
+      "FR",
+      "PT",
+      "PL",
       "RO",
       "DK",
-      "GR",
-      "PT",
-      "RU",
-      "EE",
-      "IE",
-      "FR",
-      "TR",
       "NL",
-      "IT",
-      "LV",
       "NO",
-      "DE",
-      "BE",
-      "PL"
+      "LV",
+      "TR",
+      "IE",
+      "RU",
+      "IT",
+      "ES",
+      "DE"
     ]
   },
   "assets": {

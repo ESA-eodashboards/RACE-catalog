@@ -17,7 +17,29 @@
       "title": "Agricultural workers"
     }
   ],
-  "subcode": "IT_22",
+  "subcode": "E10a9",
+  "subtitle": "Availability of agricultural workers",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "Land cover",
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "MSI",
+    "DMAC"
+  ],
+  "satellite": [
+    "Sentinel-2",
+    "Deimos-2"
+  ],
+  "insituSources": [
+    "Mobile"
+  ],
   "title": "Apulia",
   "extent": {
     "spatial": {
@@ -39,5 +61,25 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "Geosat",
+      "url": "https://geosat.space/"
+    },
+    {
+      "name": "Vodafone",
+      "url": "https://www.vodafone.com/"
+    }
+  ],
+  "assets": {
+    "reference_1": {
+      "href": "http://www.sit.puglia.it/portal/portale_cartografie_tecniche_tematiche/Download/Cartografie",
+      "type": "text/html",
+      "title": "Land cover classification map",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

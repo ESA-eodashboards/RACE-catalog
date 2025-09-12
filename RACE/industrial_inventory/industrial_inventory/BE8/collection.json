@@ -17,7 +17,29 @@
       "title": "Automobile inventory level"
     }
   ],
-  "subcode": "BE8",
+  "subcode": "E8",
+  "subtitle": "Inventory level in logisitc areas of production sites",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Multi-sensors"
+  ],
+  "agency": [
+    "European Commission",
+    "ESA"
+  ],
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1",
+    "ICEYE SAR"
+  ],
+  "otherSources": [
+    "Multi-sensors"
+  ],
   "title": "Ghent",
   "extent": {
     "spatial": {
@@ -39,5 +61,29 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "EUROSTAT",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Impact_of_Covid-19_crisis_on_industrial_production#Development_by_industry"
+    },
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "name": "ICEYE",
+      "url": "https://www.iceye.com/"
+    }
+  ],
+  "assets": {
+    "reference_1": {
+      "href": "https://ec.europa.eu/eurostat/documents/2995521/11492432/4-05112020-AP-EN.pdf/d52662ba-b163-2c48-90ab-67e6e6ba2d19",
+      "type": "text/html",
+      "title": "Volume of retail trade down by 2.0% in euro area",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

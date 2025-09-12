@@ -11,15 +11,6 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./crop_forecast_hu_water/2024/2024-03-09T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-03-09T00:00:00Z",
-      "assets": [
-        "https://api.cropom-dev.com/crop_model/regional_forecast?country_code=HU"
-      ]
-    },
-    {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/style_water_needed.json",
       "type": "text/vector-styles",
@@ -94,7 +85,7 @@
     "spatial": {
       "bbox": [
         [
-          16,
+          16.0,
           45.5,
           23.4,
           48.7
@@ -130,6 +121,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/cm_legend.png",
       "type": "image/png",

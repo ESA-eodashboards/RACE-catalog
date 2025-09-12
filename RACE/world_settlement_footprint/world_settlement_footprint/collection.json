@@ -11,192 +11,6 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1985/1985-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1985-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1986/1986-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1986-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1987/1987-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1987-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1988/1988-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1988-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1989/1989-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1989-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1990/1990-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1990-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1991/1991-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1991-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1992/1992-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1992-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1993/1993-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1993-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1994/1994-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1994-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1995/1995-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1995-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1996/1996-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1996-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1997/1997-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1997-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1998/1998-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1998-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/1999/1999-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "1999-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2000/2000-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2000-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2001/2001-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2001-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2002/2002-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2002-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2003/2003-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2003-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2004/2004-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2004-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2005/2005-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2005-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2006/2006-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2006-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2007/2007-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2007-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2008/2008-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2008-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2009/2009-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2009-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2010/2010-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2010-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2011/2011-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2011-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2012/2012-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2012-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2013/2013-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2013-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2014/2014-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2014-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./world_settlement_footprint/2015/2015-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2015-01-01T00:00:00Z"
-    },
-    {
       "rel": "wms",
       "href": "https://a.geoservice.dlr.de/eoc/land/wms/",
       "type": "image/jpeg",
@@ -346,6 +160,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint_legend.png",
       "type": "image/png",

@@ -11,12 +11,6 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./WASDI_FLOOD/2024/3b91e786-3bdb-4a96-b07c-e6ddefa21022.json",
-      "type": "application/geo+json",
-      "datetime": "2024-10-01T00:00:00Z"
-    },
-    {
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
@@ -105,6 +99,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WASDI_FLOOD/cm_legend.png",
       "type": "image/png",

@@ -17,7 +17,21 @@
       "title": "Commercial fluxes"
     }
   ],
-  "subcode": "ES7",
+  "subcode": "E13n",
+  "subtitle": "Changes in the number of trucks in ports",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Ports",
+    "Traffic"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "insituSources": [
+    "Mobile"
+  ],
   "title": "Gijon",
   "extent": {
     "spatial": {

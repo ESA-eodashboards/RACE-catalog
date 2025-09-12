@@ -17,7 +17,33 @@
       "title": "Crude Oil Storage Index"
     }
   ],
-  "subcode": "100045",
+  "subcode": "OX",
+  "subtitle": "Level of oil in tanks based on SAR and optical data",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Human activities",
+    "Ports",
+    "Maritime",
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "C-SAR",
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-1",
+    "Sentinel-2"
+  ],
+  "insituSources": [
+    "AIS",
+    "Other"
+  ],
   "title": "Aspropyrgos",
   "extent": {
     "spatial": {
@@ -39,5 +65,37 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "name": "OILX",
+      "url": "https://www.oilx.co/"
+    },
+    {
+      "name": "ARESYS",
+      "url": "https://www.aresys.it/"
+    }
+  ],
+  "assets": {
+    "reference_1": {
+      "href": "https://business.esa.int/projects/otam",
+      "type": "text/html",
+      "title": "OTAM",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://www.eia.gov/international/overview/world",
+      "type": "text/html",
+      "title": "U.S. Energy Information Administration",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

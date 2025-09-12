@@ -17,7 +17,22 @@
       "title": "Covid-19 Vaccinations"
     }
   ],
-  "subcode": "GR",
+  "subcode": "OW",
+  "sci:citation": "Edouard Mathieu, Hannah Ritchie, Lucas Rodés-Guirao, Cameron Appel, Charlie Giattino, Joe Hasell, Bobbie Macdonald, Saloni Dattani, Diana Beltekian, Esteban Ortiz-Ospina and Max Roser (2020) - \"Coronavirus Pandemic (COVID-19)\". \nPublished online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/coronavirus' [Online Resource]\n",
+  "themes": [
+    "health"
+  ],
+  "tags": [
+    "Covid-19",
+    "Human activities",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "insituSources": [
+    "Other"
+  ],
   "title": "/",
   "extent": {
     "spatial": {
@@ -39,5 +54,11 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/covid-vaccinations"
+    }
+  ]
 }

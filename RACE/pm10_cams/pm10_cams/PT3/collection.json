@@ -11,13 +11,40 @@
       "title": "RACE"
     },
     {
+      "rel": "license",
+      "href": "https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
+      "type": "application/pdf",
+      "title": "Licence to Use Copernicus Products"
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Air Quality (PM10 concetrations) at city level (model)"
     }
   ],
-  "subcode": "PT3",
+  "subcode": "N1c",
+  "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+  "themes": [
+    "air"
+  ],
+  "tags": [
+    "Air quality",
+    "Copernicus Services",
+    "PM10",
+    "CAMS",
+    "Multi-sensors",
+    "Open data",
+    "Air pollution",
+    "Particulate matter"
+  ],
+  "agency": [
+    "European Commission",
+    "ECMWF"
+  ],
+  "otherSources": [
+    "EAC4"
+  ],
   "title": "Lisbon",
   "extent": {
     "spatial": {
@@ -39,5 +66,21 @@
       ]
     }
   },
-  "license": "other"
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Copernicus Atmosphere Monitoring Service",
+      "url": "https://ads.atmosphere.copernicus.eu/#!/home"
+    }
+  ],
+  "assets": {
+    "reference_1": {
+      "href": "https://atmosphere.copernicus.eu/european-air-quality-information-support-covid-19-crisis",
+      "type": "text/html",
+      "title": "European Air Quality information in support of the COVID-19 crisis",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

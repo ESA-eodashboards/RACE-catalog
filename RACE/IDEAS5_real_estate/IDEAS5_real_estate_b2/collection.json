@@ -11,15 +11,6 @@
       "title": "RACE"
     },
     {
-      "rel": "item",
-      "href": "./IDEAS5_real_estate_b2/2022/2022-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2022-01-01T00:00:00Z",
-      "assets": [
-        "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator5/final_dpe_output_France_4326_calc_COG.tif"
-      ]
-    },
-    {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS5_real_estate/cog_style.json",
       "type": "text/cog-styles",
@@ -104,6 +95,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/cm_legend.png",
       "type": "image/png",
