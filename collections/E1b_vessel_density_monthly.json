@@ -1,0 +1,61 @@
+{
+  "Name": "vessel_density_monthly",
+  "Title": "Vessel density monthly density",
+  "EodashIdentifier": "E1b_ts",
+  "Subtitle": "Vessel Density based on Copernicus Sentinel-1",
+  "Description": "E1b_vessel_density_timeseries/E1b_vessel_density_timeseries.md",
+  "Themes": [
+    "economy"
+  ],
+  "Tags": [
+    "Copernicus",
+    "Maritime",
+    "Traffic",
+    "Open data",
+    "Community"
+  ],
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [
+        "Sentinel-1"
+      ],
+      "Sensor": [
+        "C-SAR"
+      ]
+    }
+  },
+  "Agency": [
+    "ESA"
+  ],
+  "Resources": [
+    {
+      "EndPoint": "https://services.sentinel-hub.com/ogc/wms/{SH_INSTANCE_ID}",
+      "Name": "WMS",
+      "Type": "OverwriteTimes",
+      "LayerId": "VIS_SENTINEL_1_VESSEL_DENSITY_EUROPE",
+      "OverwriteBBox": [
+        35.149109,
+        -18.451538,
+        61.821150,
+        27.910767
+      ],
+      "DateTimeInterval": {
+        "Start": "2020-01-01T00:00:00Z",
+        "End": "2023-01-01T00:00:00Z",
+        "Timedelta": {
+          "days": 30
+        }
+      }
+    }
+  ],
+  "References": [
+    {
+      "Name": "Jupyter Notebook Euro Data Cube",
+      "Key": "notebook_vessel_density_cimbelli",
+      "Url": "https://edc-jupyter.hub.eox.at/user/fd72d739-596f-4e72-a660-0d06045e4e26/lab/tree/Vessel_count_upscale.ipynb"
+    }
+  ],
+  "Citation": {
+    "Citation": "Alessandro Cimbelli, Vessel Density based on Copernicus Sentinel-1, developed for the ESA RACE Challenges March 2021"
+  }
+}
