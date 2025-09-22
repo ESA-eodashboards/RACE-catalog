@@ -49,10 +49,18 @@
     },
     {
       "rel": "service",
+      "href": "./border_crossing_vehicles_timeseries/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
+    },
+    {
+      "rel": "service",
       "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E12b?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
-      "method": "GET",
-      "id": "E12b"
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -109,6 +117,7 @@
   "themes": [
     "economy"
   ],
+  "locations": true,
   "tags": [
     "Copernicus",
     "SAR",
@@ -127,16 +136,16 @@
     "Sentinel-1"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12b_border_crossing_vehicles_timeseries/chart.json",
   "title": "Border crossing vehicles time series",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          1.0988499999999999,
-          51.08374,
-          1.11885,
-          51.103739999999995
+          1.0475785268560456,
+          51.091360476271944,
+          1.1124665273443268,
+          51.096589312240724
         ]
       ]
     },

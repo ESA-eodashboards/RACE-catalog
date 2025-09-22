@@ -182,19 +182,19 @@
     ],
     "cities": [
       "Dunkirk",
+      "Suez ",
       "Gdynia",
       "Genoa",
-      "Suez ",
-      "Hamburg",
-      "Ghent"
+      "Ghent",
+      "Hamburg"
     ],
     "countries": [
-      "PL",
       "BE",
-      "EG",
+      "FR",
       "IT",
+      "EG",
       "DE",
-      "FR"
+      "PL"
     ]
   }
 }
