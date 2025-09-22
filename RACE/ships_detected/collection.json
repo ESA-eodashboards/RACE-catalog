@@ -55,10 +55,18 @@
     },
     {
       "rel": "service",
+      "href": "./ships_detected/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
+    },
+    {
+      "rel": "service",
       "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E200?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
-      "method": "GET",
-      "id": "E200"
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -115,6 +123,7 @@
   "themes": [
     "economy"
   ],
+  "locations": true,
   "tags": [
     "Multi-sensors"
   ],
@@ -129,16 +138,16 @@
     "Sentinel-2"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E1b_vessel_density_timeseries/chart.json",
   "title": "Ships detections",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          2.2753740000000002,
-          30.929554,
-          32.324923,
-          54.547858999999995
+          2.1499827079701284,
+          30.280507019845714,
+          32.608860698996025,
+          54.54650770491618
         ]
       ]
     },
@@ -172,18 +181,18 @@
       "MSI"
     ],
     "cities": [
-      "Ghent",
-      "Hamburg",
       "Dunkirk",
       "Gdynia",
       "Genoa",
-      "Suez "
+      "Suez ",
+      "Hamburg",
+      "Ghent"
     ],
     "countries": [
-      "IT",
       "PL",
-      "EG",
       "BE",
+      "EG",
+      "IT",
       "DE",
       "FR"
     ]

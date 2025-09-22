@@ -39,10 +39,10 @@
     "spatial": {
       "bbox": [
         [
-          2.2753740000000002,
-          51.026138,
-          2.295374,
-          51.046138
+          2.1499827079701284,
+          50.99338910334727,
+          2.373359656966887,
+          51.0604166784717
         ]
       ]
     },
@@ -61,5 +61,15 @@
       "name": "Copernicus",
       "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
     }
-  ]
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }
