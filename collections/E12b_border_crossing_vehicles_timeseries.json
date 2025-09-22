@@ -33,12 +33,33 @@
       "Url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
     }
   ],
+  "Locations": true,
   "Resources": [
     {
       "EndPoint": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/",
       "Name": "GeoDB",
       "Database": "eodash",
-      "CollectionId": "E12b"
+      "CollectionId": "E12b",
+      "InputData": [
+        {
+          "Identifier": "S1A - GRD",
+          "Url": "https://services.sentinel-hub.com/ogc/wms/",
+          "Type": "WMS",
+          "Layers": "E8_SENTINEL1"
+        }
+      ]
     }
-  ]
+  ],
+  "Process": {
+    "Name": "GeoDB Statistics",
+    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12b_border_crossing_vehicles_timeseries/chart.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_geodb",
+        "Url": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E12b?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+        "Type": "application/json"
+      }
+    ]
+  }
 }
