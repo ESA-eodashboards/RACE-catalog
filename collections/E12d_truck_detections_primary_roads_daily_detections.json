@@ -1,8 +1,8 @@
 {
-  "Name": "Truck_daily_sentinel_2",
-  "Title": "Truck detections daily S2 L2A",
-  "EodashIdentifier": "E12c_detections",
-  "Description": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.md",
+  "Name": "Truck_daily_detections",
+  "Title": "Truck detections geometries",
+  "EodashIdentifier": "E12d_daily",
+  "Description": "E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.md",
   "Themes": [
     "economy"
   ],
@@ -40,27 +40,22 @@
       "Url": "https://wiki.openstreetmap.org/wiki/Key:highway"
     }
   ],
-  "Image": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.png",
+  "Image": "E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.png",
   "Resources": [
     {
-      "EndPoint": "https://services.sentinel-hub.com/ogc/wms/{SH_INSTANCE_ID}",
-      "Name": "WMS",
-      "Type": "OverwriteTimes",
-      "LayerId": "SENTINEL-2-L2A-TRUE-COLOR",
+      "Name": "GeoDB Features",
+      "EndPoint": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/",
+      "Database": "eodash",
+      "TimeParameter": "time",
+      "CollectionId": "E12c-detections",
+      "Query": "select=geometry,time&time=eq.{{date_time}}",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12c_truck_detections_motorways/features_style.json",
       "OverwriteBBox": [
         35.149109,
         -18.451538,
         61.821150,
         27.910767
-      ],
-      "WMSIntervalsBetweenDates": true,
-      "DateTimeInterval": {
-        "Start": "2020-01-01T00:00:00Z",
-        "End": "2021-12-31T00:00:00Z",
-        "Timedelta": {
-          "days": 1
-        }
-      }
+      ]
     }
   ],
   "Services": [

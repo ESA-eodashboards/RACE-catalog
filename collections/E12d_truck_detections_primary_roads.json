@@ -1,8 +1,7 @@
 {
-  "Name": "truck_detections_primary_roads",
-  "Title": "Truck detections primary roads",
-  "EodashIdentifier": "E12d",
-  "Subtitle": "Truck detections on primary roads description",
+  "Name": "Monthly_Truck_Aggregated_Traffic_10km",
+  "Title": "Monthly truck aggregated traffic 10km",
+  "EodashIdentifier": "E12d_monthly",
   "Description": "E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.md",
   "Themes": [
     "economy"
@@ -43,6 +42,22 @@
   ],
   "Image": "E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.png",
   "Legend": "E12d_truck_detections_primary_roads/E12d_legend.png",
+  "Resources": [
+    {
+      "EndPoint": "https://services.sentinel-hub.com",
+      "Name": "Sentinel Hub",
+      "Type": "byoc",
+      "CollectionId": "34fbfb05-c3e5-4885-9840-830ee85dddd4",
+      "LayerId": "VIS_TRUCK_DETECTION_PRIMARY_NEW"
+    }
+  ],
+  "Services": [
+    {
+      "Name": "EOxHub Notebook",
+      "Title": "Detect Trucks using Sentinel-2 data",
+      "Url": "https://eurodatacube.com/notebooks/contributions/Detect_Trucks_Sentinel2.ipynb"
+    }
+  ],
   "References": [
     {
       "Name": "Eurostat",
@@ -59,15 +74,6 @@
     {
       "Name": "Jupyter Notebook - Euro Data Cube",
       "Url": "https://eurodatacube.com/notebooks/contributions/Detect_Trucks_Sentinel2.ipynb"
-    }
-  ],
-  "Resources": [
-    {
-      "EndPoint": "https://services.sentinel-hub.com",
-      "Name": "Sentinel Hub",
-      "Type": "byoc",
-      "CollectionId": "81201dac-c408-4cf8-b9a5-ca8349e4ab6c",
-      "LayerId": "VIS_TRUCK_DETECTION_PRIMARY_NEW"
     }
   ],
   "Colorlegend": {

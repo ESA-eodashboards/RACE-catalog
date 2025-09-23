@@ -1,8 +1,8 @@
 {
-  "Name": "Truck_daily_sentinel_2",
-  "Title": "Truck detections daily S2 L2A",
-  "EodashIdentifier": "E12c_detections",
-  "Description": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.md",
+  "Name": "E12d_truck_detections_primary_roads_indicator",
+  "Title": "Truck detections primary roads indicator",
+  "EodashIdentifier": "E12d",
+  "Description": "E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.md",
   "Themes": [
     "economy"
   ],
@@ -40,29 +40,7 @@
       "Url": "https://wiki.openstreetmap.org/wiki/Key:highway"
     }
   ],
-  "Image": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.png",
-  "Resources": [
-    {
-      "EndPoint": "https://services.sentinel-hub.com/ogc/wms/{SH_INSTANCE_ID}",
-      "Name": "WMS",
-      "Type": "OverwriteTimes",
-      "LayerId": "SENTINEL-2-L2A-TRUE-COLOR",
-      "OverwriteBBox": [
-        35.149109,
-        -18.451538,
-        61.821150,
-        27.910767
-      ],
-      "WMSIntervalsBetweenDates": true,
-      "DateTimeInterval": {
-        "Start": "2020-01-01T00:00:00Z",
-        "End": "2021-12-31T00:00:00Z",
-        "Timedelta": {
-          "days": 1
-        }
-      }
-    }
-  ],
+  "Image": "E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.png",
   "Services": [
     {
       "Name": "EOxHub Notebook",
@@ -87,5 +65,24 @@
       "Name": "Jupyter Notebook - Euro Data Cube",
       "Url": "https://eurodatacube.com/notebooks/contributions/Detect_Trucks_Sentinel2.ipynb"
     }
-  ]
+  ],
+  "Collections": [
+    "E12d_truck_detections_primary_roads_daily_detections",
+    "E12d_truck_detections_primary_roads",
+    "E12d_truck_detections_primary_roads_daily_sentinel"
+  ],
+  "Process": {
+    "Name": "timeseries",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12c_truck_detections_motorways/form.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12c_truck_detections_motorways/timeseries_chart.json",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/rpc/geodb_get_pg",
+        "Type": "application/json",
+        "Method": "POST",
+        "Body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12d_truck_detections_primary_roads/body_timeseries.json"
+      }
+    ]
+  }
 }

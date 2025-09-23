@@ -1,8 +1,8 @@
 {
   "Name": "Truck_daily_sentinel_2",
   "Title": "Truck detections daily S2 L2A",
-  "EodashIdentifier": "E12c_detections",
-  "Description": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.md",
+  "EodashIdentifier": "E12d_detections",
+  "Description": "E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.md",
   "Themes": [
     "economy"
   ],
@@ -40,7 +40,7 @@
       "Url": "https://wiki.openstreetmap.org/wiki/Key:highway"
     }
   ],
-  "Image": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.png",
+  "Image": "E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.png",
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com/ogc/wms/{SH_INSTANCE_ID}",
