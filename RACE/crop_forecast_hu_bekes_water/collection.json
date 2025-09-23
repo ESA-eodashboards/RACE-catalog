@@ -197,13 +197,13 @@
       "CROPOMHUSC2"
     ],
     "themes": [
-      "economy",
-      "agriculture"
+      "agriculture",
+      "economy"
     ],
     "satellite": [
       "CLMS HR-VPP Vegetation Indices",
-      "Sentinel-2",
-      "CLMS HR-VPP Seasonal Trajectory"
+      "CLMS HR-VPP Seasonal Trajectory",
+      "Sentinel-2"
     ]
   },
   "assets": {

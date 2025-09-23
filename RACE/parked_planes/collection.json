@@ -226,24 +226,24 @@
     ],
     "countries": [
       "NL",
-      "IT",
-      "DK",
+      "SE",
       "GB",
-      "DE",
-      "IE",
       "GR",
       "ES",
-      "SE",
-      "PT",
-      "CH",
-      "AT",
       "TR",
-      "PL",
-      "BE",
+      "UK",
       "FR",
-      "NO",
+      "BE",
       "FI",
-      "UK"
+      "IE",
+      "NO",
+      "DK",
+      "CH",
+      "DE",
+      "IT",
+      "PL",
+      "AT",
+      "PT"
     ]
   }
 }
