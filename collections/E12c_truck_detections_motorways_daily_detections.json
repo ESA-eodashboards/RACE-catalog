@@ -1,7 +1,7 @@
 {
-  "Name": "Monthly_Truck_Aggregated_Traffic_10km",
-  "Title": "Monthly truck aggregated traffic 10km",
-  "EodashIdentifier": "E12c_monthly",
+  "Name": "Truck_daily_detections",
+  "Title": "Truck detections geometries",
+  "EodashIdentifier": "E12c_daily",
   "Description": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.md",
   "Themes": [
     "economy"
@@ -41,14 +41,21 @@
     }
   ],
   "Image": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.png",
-  "Legend": "E12c_truck_detections_motorways/E12c_legend.png",
   "Resources": [
     {
-      "EndPoint": "https://services.sentinel-hub.com",
-      "Name": "Sentinel Hub",
-      "Type": "byoc",
-      "CollectionId": "34fbfb05-c3e5-4885-9840-830ee85dddd4",
-      "LayerId": "VIS_TRUCK_DETECTION_MOTORWAYS_NEW"
+      "Name": "GeoDB Features",
+      "EndPoint": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/",
+      "Database": "eodash",
+      "TimeParameter": "time",
+      "CollectionId": "E12c-detections",
+      "Query": "select=geometry,time&time=eq.{{date_time}}",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12c_truck_detections_motorways/features_style.json",
+      "OverwriteBBox": [
+        35.149109,
+        -18.451538,
+        61.821150,
+        27.910767
+      ]
     }
   ],
   "Services": [
@@ -75,21 +82,5 @@
       "Name": "Jupyter Notebook - Euro Data Cube",
       "Url": "https://eurodatacube.com/notebooks/contributions/Detect_Trucks_Sentinel2.ipynb"
     }
-  ],
-  "Colorlegend": {
-    "domain": [
-      0,
-      90
-    ],
-    "range": [
-      "#000000",
-      "#9acd32",
-      "#32cd32",
-      "#ffa500",
-      "#ff0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Monthly average count of trucks"
-  }
+  ]
 }

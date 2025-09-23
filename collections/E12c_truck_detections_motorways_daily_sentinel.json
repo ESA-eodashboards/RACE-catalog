@@ -1,7 +1,7 @@
 {
-  "Name": "Monthly_Truck_Aggregated_Traffic_10km",
-  "Title": "Monthly truck aggregated traffic 10km",
-  "EodashIdentifier": "E12c_monthly",
+  "Name": "Truck_daily_sentinel_2",
+  "Title": "Truck detections motorways daily S2 L2A",
+  "EodashIdentifier": "E12c_detections",
   "Description": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.md",
   "Themes": [
     "economy"
@@ -41,14 +41,26 @@
     }
   ],
   "Image": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.png",
-  "Legend": "E12c_truck_detections_motorways/E12c_legend.png",
   "Resources": [
     {
-      "EndPoint": "https://services.sentinel-hub.com",
-      "Name": "Sentinel Hub",
-      "Type": "byoc",
-      "CollectionId": "34fbfb05-c3e5-4885-9840-830ee85dddd4",
-      "LayerId": "VIS_TRUCK_DETECTION_MOTORWAYS_NEW"
+      "EndPoint": "https://services.sentinel-hub.com/ogc/wms/{SH_INSTANCE_ID}",
+      "Name": "WMS",
+      "Type": "OverwriteTimes",
+      "LayerId": "SENTINEL-2-L2A-TRUE-COLOR",
+      "OverwriteBBox": [
+        35.149109,
+        -18.451538,
+        61.821150,
+        27.910767
+      ],
+      "WMSIntervalsBetweenDates": true,
+      "DateTimeInterval": {
+        "Start": "2020-01-01T00:00:00Z",
+        "End": "2021-12-31T00:00:00Z",
+        "Timedelta": {
+          "days": 1
+        }
+      }
     }
   ],
   "Services": [
@@ -75,21 +87,5 @@
       "Name": "Jupyter Notebook - Euro Data Cube",
       "Url": "https://eurodatacube.com/notebooks/contributions/Detect_Trucks_Sentinel2.ipynb"
     }
-  ],
-  "Colorlegend": {
-    "domain": [
-      0,
-      90
-    ],
-    "range": [
-      "#000000",
-      "#9acd32",
-      "#32cd32",
-      "#ffa500",
-      "#ff0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Monthly average count of trucks"
-  }
+  ]
 }

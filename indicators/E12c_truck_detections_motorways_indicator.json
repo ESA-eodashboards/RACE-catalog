@@ -1,7 +1,7 @@
 {
-  "Name": "Monthly_Truck_Aggregated_Traffic_10km",
-  "Title": "Monthly truck aggregated traffic 10km",
-  "EodashIdentifier": "E12c_monthly",
+  "Name": "E12c_truck_detections_motorways_indicator",
+  "Title": "Truck detections motorways indicator",
+  "EodashIdentifier": "E12c",
   "Description": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.md",
   "Themes": [
     "economy"
@@ -41,16 +41,6 @@
     }
   ],
   "Image": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.png",
-  "Legend": "E12c_truck_detections_motorways/E12c_legend.png",
-  "Resources": [
-    {
-      "EndPoint": "https://services.sentinel-hub.com",
-      "Name": "Sentinel Hub",
-      "Type": "byoc",
-      "CollectionId": "34fbfb05-c3e5-4885-9840-830ee85dddd4",
-      "LayerId": "VIS_TRUCK_DETECTION_MOTORWAYS_NEW"
-    }
-  ],
   "Services": [
     {
       "Name": "EOxHub Notebook",
@@ -76,20 +66,23 @@
       "Url": "https://eurodatacube.com/notebooks/contributions/Detect_Trucks_Sentinel2.ipynb"
     }
   ],
-  "Colorlegend": {
-    "domain": [
-      0,
-      90
-    ],
-    "range": [
-      "#000000",
-      "#9acd32",
-      "#32cd32",
-      "#ffa500",
-      "#ff0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Monthly average count of trucks"
+  "Collections": [
+    "E12c_truck_detections_motorways_daily_detections",
+    "E12c_truck_detections_motorways",
+    "E12c_truck_detections_motorways_daily_sentinel"
+  ],
+  "Process": {
+    "Name": "timeseries",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12c_truck_detections_motorways/form.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12c_truck_detections_motorways/timeseries_chart.json",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/rpc/geodb_get_pg",
+        "Type": "application/json",
+        "Method": "POST",
+        "Body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12c_truck_detections_motorways/body_timeseries.json"
+      }
+    ]
   }
 }
