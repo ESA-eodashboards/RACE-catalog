@@ -172,12 +172,12 @@
       "agriculture"
     ],
     "satellite": [
-      "Sentinel-2",
-      "Deimos-2"
+      "Deimos-2",
+      "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
-      "DMAC"
+      "DMAC",
+      "MSI"
     ],
     "cities": [
       "Apulia"

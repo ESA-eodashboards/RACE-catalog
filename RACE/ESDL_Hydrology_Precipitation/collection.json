@@ -227,8 +227,8 @@
       "ESDL_Hydrology_Precipitation"
     ],
     "themes": [
-      "agriculture",
-      "water"
+      "water",
+      "agriculture"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.png"

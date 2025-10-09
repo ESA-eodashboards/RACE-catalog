@@ -225,25 +225,25 @@
       "MSI"
     ],
     "countries": [
-      "GB",
-      "UK",
-      "IE",
-      "DE",
-      "NO",
-      "IT",
-      "BE",
-      "GR",
-      "PL",
-      "SE",
-      "FR",
-      "DK",
       "CH",
+      "DE",
+      "IT",
+      "SE",
+      "GR",
+      "IE",
+      "PL",
       "NL",
-      "ES",
-      "AT",
+      "UK",
       "FI",
+      "AT",
+      "FR",
+      "GB",
+      "ES",
+      "TR",
+      "DK",
       "PT",
-      "TR"
+      "NO",
+      "BE"
     ]
   }
 }
