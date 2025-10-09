@@ -1,0 +1,51 @@
+{
+  "type": "Catalog",
+  "id": "RACE",
+  "stac_version": "1.1.0",
+  "description": "Rapid Action for Citizens with Earth Observation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./crop_forecast_at/collection.json",
+      "type": "application/json",
+      "title": "Austria yield",
+      "subtitle": "Yield forecast under \"what-if\" scenarios",
+      "code": "CROPOMAT1",
+      "id": "crop_forecast_at",
+      "themes": [
+        "agriculture",
+        "economy"
+      ],
+      "subcode": "CROPOMAT1",
+      "satellite": [
+        "Sentinel-2",
+        "CLMS HR-VPP Vegetation Indices",
+        "CLMS HR-VPP Seasonal Trajectory"
+      ],
+      "tags": [
+        "Crop",
+        "Yield",
+        "Water",
+        "Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "Meteorological data from local Meteorological offices (AT)"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://eurodatacube.github.io/eodash-catalog/RACE/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "RACE"
+}
