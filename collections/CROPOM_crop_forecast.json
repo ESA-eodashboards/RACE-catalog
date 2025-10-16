@@ -1,7 +1,7 @@
 {
-  "Name": "crop_forecast_at",
-  "Title": "Austria yield",
-  "EodashIdentifier": "CROPOMAT1",
+  "Name": "crop_forecast_yield",
+  "Title": "Crop yield",
+  "EodashIdentifier": "CROPOM_crop",
   "Subtitle": "Yield forecast under \"what-if\" scenarios",
   "Description": "crop_forecast_CropOM/crop_forecast_CropOM.md",
   "Themes": [
