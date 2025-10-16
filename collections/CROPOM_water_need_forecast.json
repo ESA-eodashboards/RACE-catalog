@@ -1,5 +1,5 @@
 {
-  "Name": "crop_forecast_water_need",
+  "Name": "CROPOM_water_need",
   "Title": "Water demand",
   "EodashIdentifier": "CROPOM_water_need",
   "Subtitle": "Yield forecast under \"what-if\" scenarios",

@@ -1,7 +1,7 @@
 {
-  "Name": "crop_forecast_yield",
+  "Name": "CROPOM_yield",
   "Title": "Crop yield",
-  "EodashIdentifier": "CROPOM_crop",
+  "EodashIdentifier": "CROPOM_yield",
   "Subtitle": "Yield forecast under \"what-if\" scenarios",
   "Description": "crop_forecast_CropOM/crop_forecast_CropOM.md",
   "Themes": [
