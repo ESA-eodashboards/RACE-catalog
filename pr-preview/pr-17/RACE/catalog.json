@@ -12,17 +12,17 @@
     },
     {
       "rel": "child",
-      "href": "./crop_forecast_yield/collection.json",
+      "href": "./CROPOM_yield/collection.json",
       "type": "application/json",
       "title": "Crop yield",
       "subtitle": "Yield forecast under \"what-if\" scenarios",
-      "code": "CROPOM_crop",
-      "id": "crop_forecast_yield",
+      "code": "CROPOM_yield",
+      "id": "CROPOM_yield",
       "themes": [
         "agriculture",
         "economy"
       ],
-      "subcode": "CROPOM_crop",
+      "subcode": "CROPOM_yield",
       "satellite": [
         "Sentinel-2",
         "CLMS HR-VPP Vegetation Indices",
@@ -43,12 +43,12 @@
     },
     {
       "rel": "child",
-      "href": "./crop_forecast_water_need/collection.json",
+      "href": "./CROPOM_water_need/collection.json",
       "type": "application/json",
       "title": "Water demand",
       "subtitle": "Yield forecast under \"what-if\" scenarios",
       "code": "CROPOM_water_need",
-      "id": "crop_forecast_water_need",
+      "id": "CROPOM_water_need",
       "themes": [
         "agriculture",
         "economy"

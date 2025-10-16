@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "crop_forecast_water_need",
+  "id": "CROPOM_yield",
   "stac_version": "1.1.0",
   "description": "This indicator is provided as a service by CropOM. The data presented on this dashboard is a demonstration of the “Crop Model API” service over selected countries and regions.\n\nTo discover the full service offering please visit [ESA’s Network of Resources](https://portfolio.nor-discover.org/?textSearch=cropom&filterServiceType=Any&filterSource=Any&filterGeographicalCoverage=Any&filterTemporalPeriodStart=&filterTemporalPeriodEnd=).\n\nThe DDC (Dynamic Data Cube) Crop Model API is a web-based implementation of the state-of-the-art crop modelling algorithm, [AquaCrop](https://www.fao.org/aquacrop/en/), created by FAO.\nCrop Model API model measures the actual crop development instead of purely modelling it. Combining crop development time series, high-precision meteorological data, and soil conditions from DDC with the modelling processes of AquaCrop results in a precise crop model specific to a location.\n\nThe API takes location, crop type, crop variety, sowing date, and irrigation water application data as user inputs, HR-VPP data from [Copernicus Land Services](https://land.copernicus.eu/en), Meteorological and Soil data from DDC data sources, and retrieves daily crop development (phenology), biomass, water need, and predicted yield data.\n\n**CropOM** is a technology company (SME) that develops data integration platform services and integrated software for agriculture, insurance, and education. Read more about this technology on a [dedicated online story](https://race.esa.int/story?id=yield-forecast-crop-water-demand#section-crop-yield) for more information or go to [cropom.com](https://cropom.com/).\n",
   "links": [
@@ -12,7 +12,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/style_water_needed_v2.json",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/style_yield_v2.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "at",
@@ -29,7 +29,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Water demand"
+      "title": "Crop yield"
     }
   ],
   "subtitle": "Yield forecast under \"what-if\" scenarios",
@@ -46,7 +46,7 @@
   "agency": [
     "ESA"
   ],
-  "subcode": "CROPOM_water_need",
+  "subcode": "CROPOM_yield",
   "satellite": [
     "Sentinel-2",
     "CLMS HR-VPP Vegetation Indices",
@@ -56,7 +56,7 @@
     "Meteorological data from local Meteorological offices (AT)"
   ],
   "endpointtype": "GeoJSON source",
-  "title": "Water demand",
+  "title": "Crop yield",
   "extent": {
     "spatial": {
       "bbox": [
