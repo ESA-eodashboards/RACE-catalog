@@ -29,6 +29,7 @@
   "Agency": [
     "ESA"
   ],
+  "Image": "crop_forecast_CropOM/CROPOM_water_need.png",
   "Provider": [
     {
       "Name": "CropOM",
