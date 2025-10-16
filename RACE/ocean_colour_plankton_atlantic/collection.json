@@ -148,8 +148,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-09-20T00:00:00Z",
-          "2025-10-08T00:00:00Z"
+          "2025-09-30T00:00:00Z",
+          "2025-10-14T00:00:00Z"
         ]
       ]
     }
@@ -169,15 +169,15 @@
       "water"
     ],
     "satellite": [
-      "Suomi NPP",
-      "Sentinel-3",
+      "Aqua",
       "JPSS-1",
-      "Aqua"
+      "Suomi NPP",
+      "Sentinel-3"
     ],
     "sensor": [
+      "VIIRS",
       "MODIS",
-      "OLCI",
-      "VIIRS"
+      "OLCI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_atlantic/N3c_ocean_colour_plankton_atlantic.png"

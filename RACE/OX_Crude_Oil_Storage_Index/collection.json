@@ -217,51 +217,51 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-2",
-      "Sentinel-1"
+      "Sentinel-1",
+      "Sentinel-2"
     ],
     "sensor": [
       "C-SAR",
       "MSI"
     ],
     "cities": [
-      "Pachi",
-      "Finnart",
-      "Le Havre",
-      "Grangemouth",
-      "Fos-Lavera",
-      "Godorf Wesseling",
-      "Sarroch",
-      "Trieste",
-      "Omisalj",
-      "Dalmeny",
-      "Cartagena",
-      "Cork",
+      "Sullom Voe",
       "Schwechat",
-      "Elefsina",
+      "Fos-Lavera",
+      "Grangemouth",
+      "Omisalj",
+      "Aspropyrgos",
       "Rotterdam",
       "Thessaloniki",
-      "Sullom Voe",
-      "Algeciras",
-      "Aspropyrgos",
+      "Cartagena",
+      "Trieste",
+      "Antwerp",
+      "Sarroch",
       "Teesport",
+      "Dalmeny",
+      "Le Havre",
+      "Elefsina",
+      "Cork",
       "Corinth",
+      "Pachi",
+      "Finnart",
+      "Godorf Wesseling",
       "Wilhelmshaven",
-      "Tarragona",
-      "Antwerp"
+      "Algeciras",
+      "Tarragona"
     ],
     "countries": [
-      "DE",
+      "IE",
+      "GB",
       "NL",
-      "HR",
+      "GR",
+      "DE",
+      "BE",
+      "IT",
       "AT",
       "FR",
-      "GB",
-      "IT",
-      "BE",
       "ES",
-      "GR",
-      "IE"
+      "HR"
     ]
   },
   "assets": {

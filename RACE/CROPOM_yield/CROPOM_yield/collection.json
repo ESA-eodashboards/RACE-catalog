@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "crop_forecast_hu",
+  "id": "CROPOM_yield",
   "stac_version": "1.1.0",
   "description": "This indicator is provided as a service by CropOM. The data presented on this dashboard is a demonstration of the “Crop Model API” service over selected countries and regions.\n\nTo discover the full service offering please visit [ESA’s Network of Resources](https://portfolio.nor-discover.org/?textSearch=cropom&filterServiceType=Any&filterSource=Any&filterGeographicalCoverage=Any&filterTemporalPeriodStart=&filterTemporalPeriodEnd=).\n\nThe DDC (Dynamic Data Cube) Crop Model API is a web-based implementation of the state-of-the-art crop modelling algorithm, [AquaCrop](https://www.fao.org/aquacrop/en/), created by FAO.\nCrop Model API model measures the actual crop development instead of purely modelling it. Combining crop development time series, high-precision meteorological data, and soil conditions from DDC with the modelling processes of AquaCrop results in a precise crop model specific to a location.\n\nThe API takes location, crop type, crop variety, sowing date, and irrigation water application data as user inputs, HR-VPP data from [Copernicus Land Services](https://land.copernicus.eu/en), Meteorological and Soil data from DDC data sources, and retrieves daily crop development (phenology), biomass, water need, and predicted yield data.\n\n**CropOM** is a technology company (SME) that develops data integration platform services and integrated software for agriculture, insurance, and education. Read more about this technology on a [dedicated online story](https://race.esa.int/story?id=yield-forecast-crop-water-demand#section-crop-yield) for more information or go to [cropom.com](https://cropom.com/).\n",
   "links": [
@@ -12,10 +12,12 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/style_yield.json",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/style_yield_v2.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "vector_data"
+        "at",
+        "hu",
+        "ro"
       ]
     },
     {
@@ -27,7 +29,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Hungary yield"
+      "title": "Crop yield"
     }
   ],
   "subtitle": "Yield forecast under \"what-if\" scenarios",
@@ -44,51 +46,25 @@
   "agency": [
     "ESA"
   ],
-  "subcode": "CROPOMHU1",
+  "subcode": "CROPOM_yield",
   "satellite": [
     "Sentinel-2",
     "CLMS HR-VPP Vegetation Indices",
     "CLMS HR-VPP Seasonal Trajectory"
   ],
   "insituSources": [
-    "Meteorological data from local Meteorological offices (HU)"
+    "Meteorological data from local Meteorological offices (AT)"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      1
-    ],
-    "range": [
-      "#440154",
-      "#481c6e",
-      "#453581",
-      "#3d4d8a",
-      "#34618d",
-      "#2b748e",
-      "#24878e",
-      "#1f998a",
-      "#25ac82",
-      "#40bd72",
-      "#67cc5c",
-      "#98d83e",
-      "#cde11d",
-      "#fde725"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": ""
-  },
-  "proj:epsg": 3035,
   "endpointtype": "GeoJSON source",
-  "title": "Hungary yield",
+  "title": "Crop yield",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          16.0,
-          45.5,
-          23.4,
-          48.7
+          9.27,
+          46.2,
+          23.3,
+          53.2
         ]
       ]
     },
@@ -127,13 +103,6 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
-      ]
-    },
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/cm_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
       ]
     },
     "reference_1": {
