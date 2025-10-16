@@ -1,8 +1,8 @@
 {
-  "Name": "crop_forecast_hu_mezohegyes_water",
-  "Title": "Hungary Mez\u0151hegyes microregion water demand",
-  "EodashIdentifier": "CROPOMHUMR2",
-  "Subtitle": "Water demand forecast under \"what-if\" scenarios",
+  "Name": "CROPOM_water_need",
+  "Title": "Water demand",
+  "EodashIdentifier": "CROPOM_water_need",
+  "Subtitle": "Yield forecast under \"what-if\" scenarios",
   "Description": "crop_forecast_CropOM/crop_forecast_CropOM.md",
   "Themes": [
     "agriculture",
@@ -23,7 +23,7 @@
       ]
     },
     "InSitu": [
-      "Meteorological data from local Meteorological offices (HU)"
+      "Meteorological data from local Meteorological offices (AT)"
     ]
   },
   "Agency": [
@@ -66,51 +66,32 @@
   "Resources": [
     {
       "Name": "GeoJSON source",
-      "Style": "crop_forecast_CropOM/style_water_needed.json",
+      "Style": "crop_forecast_CropOM/style_water_needed_v2.json",
       "Bbox": [
-        20.7,
-        46.23,
-        21.24,
-        46.6
+        9.27,
+        46.2,
+        23.3,
+        53.2
       ],
-      "DataProjection": 3035,
       "TimeEntries": [
         {
           "Time": "20240309",
           "Assets": [
             {
-              "Identifier": "vector_data",
-              "File": "https://api.cropom-dev.com/crop_model/regional_forecast?region_code=HU3321"
+              "Identifier": "at",
+              "File": "https://api.cropom-dev.com/crop_model/regional_forecast_v2?country_code=AT&crs=4326"
+            },
+            {
+              "Identifier": "hu",
+              "File": "https://api.cropom-dev.com/crop_model/regional_forecast_v2?country_code=HU&crs=4326"
+            },
+            {
+              "Identifier": "ro",
+              "File": "https://api.cropom-dev.com/crop_model/regional_forecast_v2?country_code=RO&crs=4326"
             }
           ]
         }
       ]
     }
-  ],
-  "Legend": "crop_forecast_CropOM/cm_legend.png",
-  "Colorlegend": {
-    "domain": [
-      0,
-      1
-    ],
-    "range": [
-      "#440154",
-      "#481c6e",
-      "#453581",
-      "#3d4d8a",
-      "#34618d",
-      "#2b748e",
-      "#24878e",
-      "#1f998a",
-      "#25ac82",
-      "#40bd72",
-      "#67cc5c",
-      "#98d83e",
-      "#cde11d",
-      "#fde725"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": ""
-  }
+  ]
 }
