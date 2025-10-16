@@ -33,6 +33,7 @@
     }
   ],
   "subtitle": "Yield forecast under \"what-if\" scenarios",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_yield.png",
   "themes": [
     "agriculture",
     "economy"
@@ -103,6 +104,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_yield.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     },
     "reference_1": {

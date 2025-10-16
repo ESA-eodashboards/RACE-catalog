@@ -99,6 +99,7 @@
     }
   ],
   "subtitle": "Yield forecast under \"what-if\" scenarios",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_water_need.png",
   "themes": [
     "agriculture",
     "economy"
@@ -179,9 +180,19 @@
       "CLMS HR-VPP Vegetation Indices",
       "CLMS HR-VPP Seasonal Trajectory",
       "Sentinel-2"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_water_need.png"
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_water_need.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://doc.cropom.com",
       "type": "text/html",
