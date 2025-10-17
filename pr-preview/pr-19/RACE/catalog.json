@@ -12,6 +12,43 @@
     },
     {
       "rel": "child",
+      "href": "./agricultural_production_productive_area/collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - productive area",
+      "subtitle": "Agricultural production in Europe",
+      "code": "E10a1",
+      "id": "agricultural_production_productive_area",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a1",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "cities": [
+        "Huelva (Lagunas de las Madres)",
+        "Brandenburg"
+      ],
+      "countries": [
+        "ES",
+        "DE"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg"
+      ],
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./agricultural_production_area/collection.json",
       "type": "application/json",
       "title": "Agricultural production - area",
@@ -99,19 +136,19 @@
         "C-SAR"
       ],
       "cities": [
-        "Rome",
-        "Brussels",
+        "Warsaw",
+        "Bucharest",
         "Athens",
         "Milan",
-        "Bucharest",
-        "Warsaw"
+        "Brussels",
+        "Rome"
       ],
       "countries": [
-        "GR",
-        "PL",
         "IT",
-        "RO",
-        "BE"
+        "PL",
+        "GR",
+        "BE",
+        "RO"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity.png"
