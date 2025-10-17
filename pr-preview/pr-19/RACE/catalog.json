@@ -47,6 +47,41 @@
     },
     {
       "rel": "child",
+      "href": "./agricultural_production_area_change/collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - area change",
+      "subtitle": "Agricultural production in Europe",
+      "code": "E10a3",
+      "id": "agricultural_production_area_change",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a3",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "cities": [
+        "Brandenburg"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a3_agricultural_production_area_change/E10a3_agricultural_production_area_change.jpg"
+      ],
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./shopping_center_activity/collection.json",
       "type": "application/json",
       "title": "Activity at shopping centers",
@@ -64,19 +99,19 @@
         "C-SAR"
       ],
       "cities": [
-        "Milan",
-        "Bucharest",
+        "Rome",
         "Brussels",
         "Athens",
-        "Rome",
+        "Milan",
+        "Bucharest",
         "Warsaw"
       ],
       "countries": [
+        "GR",
         "PL",
         "IT",
         "RO",
-        "BE",
-        "GR"
+        "BE"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity.png"
