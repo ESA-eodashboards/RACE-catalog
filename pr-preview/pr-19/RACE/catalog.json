@@ -33,8 +33,8 @@
         "Brandenburg"
       ],
       "countries": [
-        "ES",
-        "DE"
+        "DE",
+        "ES"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg"
@@ -119,6 +119,43 @@
     },
     {
       "rel": "child",
+      "href": "./agricultural_workers/collection.json",
+      "type": "application/json",
+      "title": "Agricultural workers",
+      "subtitle": "Availability of agricultural workers",
+      "code": "E10a9",
+      "id": "agricultural_workers",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a9",
+      "satellite": [
+        "Sentinel-2",
+        "Deimos-2"
+      ],
+      "sensor": [
+        "MSI",
+        "DMAC"
+      ],
+      "cities": [
+        "Apulia"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "tags": [
+        "Land cover",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "Mobile"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./shopping_center_activity/collection.json",
       "type": "application/json",
       "title": "Activity at shopping centers",
@@ -136,17 +173,17 @@
         "C-SAR"
       ],
       "cities": [
-        "Warsaw",
-        "Bucharest",
         "Athens",
         "Milan",
+        "Rome",
         "Brussels",
-        "Rome"
+        "Warsaw",
+        "Bucharest"
       ],
       "countries": [
+        "GR",
         "IT",
         "PL",
-        "GR",
         "BE",
         "RO"
       ],
