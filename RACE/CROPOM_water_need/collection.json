@@ -48,6 +48,13 @@
       "type": "text/html"
     },
     {
+      "rel": "service",
+      "href": "data:application/json,[{\"year\":\"2021\",\"crop\":\"Maize\",\"yield\":{{feature.2021.Maize}}},{\"year\":\"2022\",\"crop\":\"Maize\",\"yield\":{{feature.2022.Maize}}},{\"year\":\"2023\",\"crop\":\"Maize\",\"yield\":{{feature.2023.Maize}}},{\"year\":\"2024\",\"crop\":\"Maize\",\"yield\":{{feature.2024.Maize}}},{\"year\":\"2021\",\"crop\":\"Soybean\",\"yield\":{{feature.2021.Soybean}}},{\"year\":\"2022\",\"crop\":\"Soybean\",\"yield\":{{feature.2022.Soybean}}},{\"year\":\"2023\",\"crop\":\"Soybean\",\"yield\":{{feature.2023.Soybean}}},{\"year\":\"2024\",\"crop\":\"Soybean\",\"yield\":{{feature.2024.Soybean}}},{\"year\":\"2021\",\"crop\":\"Sunflower\",\"yield\":{{feature.2021.Sunflower}}},{\"year\":\"2022\",\"crop\":\"Sunflower\",\"yield\":{{feature.2022.Sunflower}}},{\"year\":\"2023\",\"crop\":\"Sunflower\",\"yield\":{{feature.2023.Sunflower}}},{\"year\":\"2024\",\"crop\":\"Sunflower\",\"yield\":{{feature.2024.Sunflower}}},{\"year\":\"2021\",\"crop\":\"Wheat\",\"yield\":{{feature.2021.Wheat}}},{\"year\":\"2022\",\"crop\":\"Wheat\",\"yield\":{{feature.2022.Wheat}}},{\"year\":\"2023\",\"crop\":\"Wheat\",\"yield\":{{feature.2023.Wheat}}},{\"year\":\"2024\",\"crop\":\"Wheat\",\"yield\":{{feature.2024.Wheat}}}]",
+      "type": "application/json",
+      "id": "show_historic",
+      "method": "GET"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -122,6 +129,8 @@
   "insituSources": [
     "Meteorological data from local Meteorological offices (AT)"
   ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/crop_forecast_CropOM/form_water_need.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/crop_forecast_CropOM/chart.json",
   "title": "Water demand",
   "extent": {
     "spatial": {
@@ -173,13 +182,13 @@
       "CROPOM_water_need"
     ],
     "themes": [
-      "economy",
-      "agriculture"
+      "agriculture",
+      "economy"
     ],
     "satellite": [
       "CLMS HR-VPP Vegetation Indices",
-      "CLMS HR-VPP Seasonal Trajectory",
-      "Sentinel-2"
+      "Sentinel-2",
+      "CLMS HR-VPP Seasonal Trajectory"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_water_need.png"
