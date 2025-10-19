@@ -29,8 +29,8 @@
         "MSI"
       ],
       "cities": [
-        "Brandenburg",
-        "Huelva (Lagunas de las Madres)"
+        "Huelva (Lagunas de las Madres)",
+        "Brandenburg"
       ],
       "countries": [
         "DE",
@@ -173,19 +173,19 @@
         "C-SAR"
       ],
       "cities": [
-        "Brussels",
-        "Milan",
         "Bucharest",
-        "Rome",
+        "Warsaw",
         "Athens",
-        "Warsaw"
+        "Brussels",
+        "Rome",
+        "Milan"
       ],
       "countries": [
         "PL",
+        "IT",
         "BE",
         "RO",
-        "GR",
-        "IT"
+        "GR"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity.png"
@@ -201,6 +201,74 @@
       ],
       "insituSources": [
         "Mobile"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./industrial_inventory/collection.json",
+      "type": "application/json",
+      "title": "Automobile inventory level",
+      "subtitle": "Inventory level in logisitc areas of production sites",
+      "code": "E8",
+      "id": "industrial_inventory",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E8",
+      "satellite": [
+        "Sentinel-1",
+        "ICEYE SAR"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "cities": [
+        "Koln",
+        "Barcelona",
+        "Craiova",
+        "Kvasiny",
+        "Saarlouis",
+        "Wolfsburg",
+        "Ghent",
+        "Mioveni",
+        "Martorell",
+        "Bremen",
+        "Regensburg",
+        "Russelsheim",
+        "Nosovice",
+        "Cassino",
+        "Leipzig",
+        "Swindon",
+        "Eisenach",
+        "Sindelfingen",
+        "Emden",
+        "Ingolstadt",
+        "Zwickau",
+        "Neckarsulm",
+        "Dingolfing"
+      ],
+      "countries": [
+        "DE",
+        "ES",
+        "IT",
+        "CZ",
+        "BE",
+        "RO",
+        "GB"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory.png"
+      ],
+      "tags": [
+        "Copernicus",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "European Commission",
+        "ESA"
+      ],
+      "otherSources": [
+        "Multi-sensors"
       ]
     },
     {
