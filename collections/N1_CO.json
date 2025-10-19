@@ -1,4 +1,5 @@
 {
+  "Image": "N1_CO/CO_Figure.png",
   "Name": "CO_3_daily",
   "Title": "Carbon Monoxide observed by Sentinel-5p TROPOMI",
   "EodashIdentifier": "N1_CO",
