@@ -1,5 +1,4 @@
 {
-  "Image": "N1_NO2/N1_NO2.jpg",
   "Name": "NO2_daily",
   "Title": "Air Quality (tropospheric NO2 concetrations)",
   "EodashIdentifier": "N1_NO2",
@@ -27,7 +26,7 @@
   "Agency": [
     "ESA"
   ],
-  "Image": "N1_NO2/N1_NO2.png",
+  "Image": "N1_NO2/N1_NO2.jpg",
   "Legend": "N1_NO2/N1_NO2_legend.png",
   "References": [
     {
