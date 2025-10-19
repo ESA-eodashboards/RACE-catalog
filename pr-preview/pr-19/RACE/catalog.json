@@ -29,8 +29,8 @@
         "MSI"
       ],
       "cities": [
-        "Huelva (Lagunas de las Madres)",
-        "Brandenburg"
+        "Brandenburg",
+        "Huelva (Lagunas de las Madres)"
       ],
       "countries": [
         "DE",
@@ -173,19 +173,19 @@
         "C-SAR"
       ],
       "cities": [
-        "Athens",
-        "Milan",
-        "Rome",
         "Brussels",
-        "Warsaw",
-        "Bucharest"
+        "Milan",
+        "Bucharest",
+        "Rome",
+        "Athens",
+        "Warsaw"
       ],
       "countries": [
-        "GR",
-        "IT",
         "PL",
         "BE",
-        "RO"
+        "RO",
+        "GR",
+        "IT"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity.png"
@@ -201,6 +201,37 @@
       ],
       "insituSources": [
         "Mobile"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NO2_daily/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (tropospheric NO2 concetrations)",
+      "subtitle": "Daily Nitrogen Dioxide",
+      "code": "N1_NO2",
+      "id": "NO2_daily",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1_NO2",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.png"
+      ],
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "ESA"
       ]
     },
     {
