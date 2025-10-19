@@ -1,0 +1,129 @@
+{
+  "type": "Collection",
+  "id": "IT_219",
+  "stac_version": "1.1.0",
+  "description": "Apulia - IT",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Agricultural workers"
+    }
+  ],
+  "subcode": "E10a9",
+  "subtitle": "Availability of agricultural workers",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "Land cover",
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "MSI",
+    "DMAC"
+  ],
+  "satellite": [
+    "Sentinel-2",
+    "Deimos-2"
+  ],
+  "insituSources": [
+    "Mobile"
+  ],
+  "title": "Apulia",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          15.51506,
+          41.77791,
+          15.53506,
+          41.797909999999995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-04-01T00:00:00Z",
+          "2020-08-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Geosat",
+      "url": "https://geosat.space/"
+    },
+    {
+      "name": "Vodafone",
+      "url": "https://www.vodafone.com/"
+    }
+  ],
+  "assets": {
+    "reference_1": {
+      "href": "http://www.sit.puglia.it/portal/portale_cartografie_tecniche_tematiche/Download/Cartografie",
+      "type": "text/html",
+      "title": "Land cover classification map",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

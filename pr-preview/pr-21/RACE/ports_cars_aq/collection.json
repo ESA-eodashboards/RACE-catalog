@@ -1,0 +1,238 @@
+{
+  "type": "Collection",
+  "id": "ports_cars_aq",
+  "stac_version": "1.1.0",
+  "description": "## Ports and cars - impact on air quality \n\nThis indicator aims at assessing ports pollution levels over the time interval 2019-2020 by correlating:\n- normalized NO2 data from the TROPOMI sensor onboard Sentinel-5P satellite (daily observations)\n- Automatic Identification Systems (AIS) data from all the boats coming to the ports\n- GNSS data (TomTom) quantifying the mean daily number of cars accessing the main street to the ports\n- Anonymised cellular data (Vodafone) providing the total number of people present in the port area (2020 observations)   \n\nThis integrated analysis shows:\n- **high correlation** between NO2 levels and boat traffic\n- **low correlation** between NO2 levels and car traffic\n\nOn the indicator chart, for each day, the light/dark red-colored background indicates whether there were \nCOVID-19 restrictions or lockdown measure in place in the country where the city is located.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./ports_cars_aq/collection.json",
+      "type": "application/json",
+      "title": "Car sourcesof pollution and NO2 levels",
+      "endpointtype": "GeoDB",
+      "subtitle": "Port Activities, sources of pollution and NO2 levels",
+      "code": "C3",
+      "id": "ports_cars_aq",
+      "themes": [
+        "economy",
+        "air"
+      ],
+      "cities": [
+        "Gioia Tauro",
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "yAxis": "Normalized NO2 concentration & mean monthly car number",
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Ports",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "C3",
+      "sensor": [
+        "TROPOMI"
+      ],
+      "satellite": [
+        "Sentinel-5P",
+        "GNSS"
+      ],
+      "insituSources": [
+        "AIS",
+        "Mobile"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_C3?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Port Activities, sources of pollution and NO2 levels",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3.png",
+  "themes": [
+    "economy",
+    "air"
+  ],
+  "tags": [
+    "Air quality",
+    "NO2",
+    "Ports",
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "C3",
+  "sensor": [
+    "TROPOMI"
+  ],
+  "satellite": [
+    "Sentinel-5P",
+    "GNSS"
+  ],
+  "insituSources": [
+    "AIS",
+    "Mobile"
+  ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/C3_ports_cars_aq/chart.json",
+  "title": "Car sourcesof pollution and NO2 levels",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.92364,
+          38.44339,
+          15.9124,
+          44.41572
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-02-01T00:00:00Z",
+          "2020-05-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "e-GEOS",
+      "url": "https://www.e-geos.it/#/"
+    },
+    {
+      "name": "ExpertLab",
+      "url": "http://www.expertlab.it/"
+    },
+    {
+      "name": "CherryData",
+      "url": "https://www.cherry-data.com/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "C3"
+    ],
+    "themes": [
+      "air",
+      "economy"
+    ],
+    "satellite": [
+      "Sentinel-5P",
+      "GNSS"
+    ],
+    "sensor": [
+      "TROPOMI"
+    ],
+    "cities": [
+      "Genoa",
+      "Gioia Tauro"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3.png"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://www.imo.org/en/OurWork/Safety/Pages/AIS.aspx",
+      "type": "text/html",
+      "title": "AIS data",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://www.tomtom.com/products/traffic-and-travel-information/",
+      "type": "text/html",
+      "title": "TomTom data",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://covidtracker.bsg.ox.ac.uk/",
+      "type": "text/html",
+      "title": "Oxford University’s coronavirus government response tracker",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
