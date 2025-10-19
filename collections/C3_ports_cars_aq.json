@@ -1,4 +1,5 @@
 {
+  "Image": "C3_ports_cars_aq/C3.png",
   "Name": "ports_cars_aq",
   "Title": "Car sourcesof pollution and NO2 levels",
   "EodashIdentifier": "C3",
