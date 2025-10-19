@@ -31,8 +31,8 @@
         "TROPOMI"
       ],
       "cities": [
-        "Genoa",
-        "Gioia Tauro"
+        "Gioia Tauro",
+        "Genoa"
       ],
       "countries": [
         "IT"
@@ -73,12 +73,12 @@
         "MSI"
       ],
       "cities": [
-        "Huelva (Lagunas de las Madres)",
-        "Brandenburg"
+        "Brandenburg",
+        "Huelva (Lagunas de las Madres)"
       ],
       "countries": [
-        "DE",
-        "ES"
+        "ES",
+        "DE"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg"
@@ -222,17 +222,17 @@
       "cities": [
         "Warsaw",
         "Rome",
-        "Milan",
         "Bucharest",
-        "Athens",
-        "Brussels"
+        "Milan",
+        "Brussels",
+        "Athens"
       ],
       "countries": [
-        "RO",
-        "GR",
-        "BE",
+        "PL",
         "IT",
-        "PL"
+        "BE",
+        "RO",
+        "GR"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity.png"
@@ -308,37 +308,37 @@
         "C-SAR"
       ],
       "cities": [
-        "Emden",
-        "Nosovice",
-        "Cassino",
+        "Ingolstadt",
         "Wolfsburg",
+        "Mioveni",
+        "Koln",
+        "Nosovice",
+        "Bremen",
+        "Russelsheim",
+        "Kvasiny",
+        "Emden",
+        "Zwickau",
+        "Saarlouis",
+        "Martorell",
+        "Dingolfing",
+        "Neckarsulm",
+        "Swindon",
+        "Ghent",
+        "Regensburg",
+        "Cassino",
+        "Leipzig",
+        "Eisenach",
         "Craiova",
         "Sindelfingen",
-        "Eisenach",
-        "Koln",
-        "Russelsheim",
-        "Neckarsulm",
-        "Dingolfing",
-        "Mioveni",
-        "Ghent",
-        "Swindon",
-        "Regensburg",
-        "Ingolstadt",
-        "Kvasiny",
-        "Saarlouis",
-        "Leipzig",
-        "Martorell",
-        "Bremen",
-        "Barcelona",
-        "Zwickau"
+        "Barcelona"
       ],
       "countries": [
-        "DE",
-        "GB",
-        "RO",
         "ES",
-        "BE",
         "IT",
+        "GB",
+        "BE",
+        "DE",
+        "RO",
         "CZ"
       ],
       "thumbnail": [
@@ -375,7 +375,7 @@
         "TROPOMI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.jpg"
       ],
       "tags": [
         "Air quality",
