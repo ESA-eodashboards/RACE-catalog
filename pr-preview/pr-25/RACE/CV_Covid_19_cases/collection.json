@@ -1,0 +1,207 @@
+{
+  "type": "Collection",
+  "id": "CV_Covid_19_cases",
+  "stac_version": "1.1.0",
+  "description": "## Data on COVID-19 (coronavirus) \n\nThe source of this data is [Our World in Data](https://ourworldindata.org/coronavirus)\n\nThe full dataset is is updated daily and includes data on confirmed cases, deaths, hospitalizations, testing, and vaccinations as well as other variables of potential interest. Here, our interactive charts show visualise the variation of the total number of cases and the evolution of vaccinations. \n\nTry interacting with the charts to visualise each variable. \n\n**References:**\n\nThis data has been collected, aggregated, and documented by Cameron Appel, Diana Beltekian, Daniel Gavrilov, Charlie Giattino, Joe Hasell, Bobbie Macdonald, Edouard Mathieu, Esteban Ortiz-Ospina, Hannah Ritchie, Lucas Rodés-Guirao, Max Roser.\n\nHasell, J., Mathieu, E., Beltekian, D. et al. A cross-country database of COVID-19 testing. Sci Data 7, 345 (2020). https://doi.org/10.1038/s41597-020-00688-8\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./CV_Covid_19_cases/collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases",
+      "endpointtype": "GeoDB",
+      "code": "CV",
+      "id": "CV_Covid_19_cases",
+      "themes": [
+        "health"
+      ],
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "Albania",
+        "Austria",
+        "Bosnia and Herzegovina",
+        "Belgium",
+        "Bulgaria",
+        "Switzerland",
+        "Czechia",
+        "Germany",
+        "Denmark",
+        "Estonia",
+        "Spain",
+        "Finland",
+        "France",
+        "United Kingdom",
+        "Greece",
+        "Croatia",
+        "Hungary",
+        "Ireland",
+        "Italy",
+        "Lithuania",
+        "Luxembourg",
+        "Latvia",
+        "North Macedonia",
+        "Malta",
+        "Netherlands",
+        "Norway",
+        "Poland",
+        "Portugal",
+        "Romania",
+        "Serbia",
+        "Sweden",
+        "Slovenia",
+        "Slovakia",
+        "Turkey",
+        "Kosovo"
+      ],
+      "yAxis": "/",
+      "tags": [
+        "Covid-19",
+        "Human activities",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "CV",
+      "insituSources": [
+        "Other"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_Global_COVID_data?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "method": "GET",
+      "id": "Global_COVID_data"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "sci:doi": "10.1038/s41597-020-00688-8",
+  "sci:citation": "Hasell, J., Mathieu, E., Beltekian, D. et al. A cross-country database of COVID-19 testing. Sci Data 7, 345 (2020).\n",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CV_Covid_19_cases/CV_Covid_19_cases.jpg",
+  "themes": [
+    "health"
+  ],
+  "tags": [
+    "Covid-19",
+    "Human activities",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "CV",
+  "insituSources": [
+    "Other"
+  ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "title": "Covid-19 Cases",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -9.142999999999999,
+          35.873000000000005,
+          32.876999999999995,
+          60.177
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-22T00:00:00Z",
+          "2023-03-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/covid-cases"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "CV"
+    ],
+    "themes": [
+      "health"
+    ],
+    "cities": [
+      "/"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CV_Covid_19_cases/CV_Covid_19_cases.jpg"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CV_Covid_19_cases/CV_Covid_19_cases.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

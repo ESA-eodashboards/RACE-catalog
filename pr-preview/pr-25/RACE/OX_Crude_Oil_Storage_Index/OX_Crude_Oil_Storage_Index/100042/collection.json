@@ -1,0 +1,153 @@
+{
+  "type": "Collection",
+  "id": "100042",
+  "stac_version": "1.1.0",
+  "description": "Antwerp - BE",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index"
+    }
+  ],
+  "subcode": "OX",
+  "subtitle": "Level of oil in tanks based on SAR and optical data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index.png",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Human activities",
+    "Ports",
+    "Maritime",
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "C-SAR",
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-1",
+    "Sentinel-2"
+  ],
+  "insituSources": [
+    "AIS",
+    "Other"
+  ],
+  "title": "Antwerp",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          4.31055,
+          51.2539,
+          4.33055,
+          51.2739
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-09T00:00:00Z",
+          "2024-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "name": "OILX",
+      "url": "https://www.oilx.co/"
+    },
+    {
+      "name": "ARESYS",
+      "url": "https://www.aresys.it/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://business.esa.int/projects/otam",
+      "type": "text/html",
+      "title": "OTAM",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://www.eia.gov/international/overview/world",
+      "type": "text/html",
+      "title": "U.S. Energy Information Administration",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "type": "Collection",
+  "id": "shopping_center_activity",
+  "stac_version": "1.1.0",
+  "description": "## Customer Parking Occupancy\n\nThis indicator describes the occupancy of customer parking areas based on information provided by Copernicus Sentinel-1 and Copernicus Sentinel-2. The indicator is presented differently depending on the informaiton source:\n\n- When the indicator is computed from Sentinel-1 data, the information is presented as \"percentage of occupancy of customer parking\" and represents the area detected as occupied (typically by cars) relative to the total parking area, at a given date.\n- When the indicator is computed from Sentinel-2 data, the information is presented as \"number of parked cars\" and represents the absolute number of cars detectable in the Sentinel-2 image at a given date. \n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./BE4/collection.json",
+      "type": "application/json",
+      "title": "Brussels",
+      "id": "BE4",
+      "latlng": "50.8792741,4.3401109",
+      "country": "BE",
+      "name": "Brussels"
+    },
+    {
+      "rel": "child",
+      "href": "./GR3/collection.json",
+      "type": "application/json",
+      "title": "Athens",
+      "id": "GR3",
+      "latlng": "37.975333,23.69534",
+      "country": "GR",
+      "name": "Athens"
+    },
+    {
+      "rel": "child",
+      "href": "./IT4/collection.json",
+      "type": "application/json",
+      "title": "Rome",
+      "id": "IT4",
+      "latlng": "41.897678,12.573303",
+      "country": "IT",
+      "name": "Rome"
+    },
+    {
+      "rel": "child",
+      "href": "./IT5/collection.json",
+      "type": "application/json",
+      "title": "Milan",
+      "id": "IT5",
+      "latlng": "45.43371,9.12225",
+      "country": "IT",
+      "name": "Milan"
+    },
+    {
+      "rel": "child",
+      "href": "./PL4/collection.json",
+      "type": "application/json",
+      "title": "Warsaw",
+      "id": "PL4",
+      "latlng": "52.1756,21.0139",
+      "country": "PL",
+      "name": "Warsaw"
+    },
+    {
+      "rel": "child",
+      "href": "./RO3/collection.json",
+      "type": "application/json",
+      "title": "Bucharest",
+      "id": "RO3",
+      "latlng": "44.510178, 26.084603",
+      "country": "RO",
+      "name": "Bucharest"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Activity at shopping centers"
+    }
+  ],
+  "subtitle": "Occupancy of customer parking",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity.png",
+  "yAxis": "Number of parked cars",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Mobility",
+    "Traffic",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E11",
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "insituSources": [
+    "Mobile"
+  ],
+  "locations": true,
+  "endpointtype": "GeoDB",
+  "title": "Activity at shopping centers",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          4.3301109,
+          37.965333,
+          26.094603000000003,
+          52.1856
+        ],
+        [
+          4.3301109,
+          50.869274100000005,
+          4.3501109,
+          50.8892741
+        ],
+        [
+          23.68534,
+          37.965333,
+          23.705340000000003,
+          37.985333
+        ],
+        [
+          12.563303,
+          41.887678,
+          12.583302999999999,
+          41.907678
+        ],
+        [
+          9.11225,
+          45.42371,
+          9.132249999999999,
+          45.443709999999996
+        ],
+        [
+          21.003899999999998,
+          52.165600000000005,
+          21.0239,
+          52.1856
+        ],
+        [
+          26.074603,
+          44.500178000000005,
+          26.094603000000003,
+          44.520178
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-01T16:07:40Z",
+          "2022-01-17T16:09:17Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "name": "Vodafone",
+      "url": "https://www.vodafone.com/"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "Brussels",
+      "Athens",
+      "Rome",
+      "Milan",
+      "Warsaw",
+      "Bucharest"
+    ],
+    "countries": [
+      "BE",
+      "GR",
+      "IT",
+      "PL",
+      "RO"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
