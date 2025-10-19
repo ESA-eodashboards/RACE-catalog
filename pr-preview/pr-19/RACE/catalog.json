@@ -12,6 +12,50 @@
     },
     {
       "rel": "child",
+      "href": "./ports_cars_aq/collection.json",
+      "type": "application/json",
+      "title": "Car sourcesof pollution and NO2 levels",
+      "subtitle": "Port Activities, sources of pollution and NO2 levels",
+      "code": "C3",
+      "id": "ports_cars_aq",
+      "themes": [
+        "economy",
+        "air"
+      ],
+      "subcode": "C3",
+      "satellite": [
+        "Sentinel-5P",
+        "GNSS"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "cities": [
+        "Gioia Tauro",
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3.png"
+      ],
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Ports",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "AIS",
+        "Mobile"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./agricultural_production_productive_area/collection.json",
       "type": "application/json",
       "title": "Agricultural production - productive area",
@@ -33,8 +77,8 @@
         "Brandenburg"
       ],
       "countries": [
-        "ES",
-        "DE"
+        "DE",
+        "ES"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg"
@@ -173,19 +217,19 @@
         "C-SAR"
       ],
       "cities": [
-        "Athens",
         "Warsaw",
-        "Bucharest",
         "Brussels",
-        "Milan",
-        "Rome"
+        "Athens",
+        "Rome",
+        "Bucharest",
+        "Milan"
       ],
       "countries": [
-        "IT",
         "PL",
         "BE",
-        "RO",
-        "GR"
+        "IT",
+        "GR",
+        "RO"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity.png"
@@ -261,37 +305,37 @@
         "C-SAR"
       ],
       "cities": [
-        "Bremen",
-        "Zwickau",
-        "Cassino",
-        "Leipzig",
-        "Regensburg",
-        "Emden",
-        "Barcelona",
-        "Mioveni",
+        "Eisenach",
+        "Ghent",
+        "Wolfsburg",
         "Nosovice",
+        "Dingolfing",
+        "Regensburg",
+        "Leipzig",
+        "Bremen",
+        "Craiova",
+        "Swindon",
+        "Cassino",
+        "Russelsheim",
         "Koln",
-        "Sindelfingen",
+        "Neckarsulm",
         "Martorell",
         "Ingolstadt",
-        "Neckarsulm",
-        "Russelsheim",
-        "Ghent",
-        "Eisenach",
-        "Kvasiny",
+        "Emden",
+        "Barcelona",
+        "Zwickau",
+        "Sindelfingen",
         "Saarlouis",
-        "Swindon",
-        "Craiova",
-        "Wolfsburg",
-        "Dingolfing"
+        "Mioveni",
+        "Kvasiny"
       ],
       "countries": [
         "GB",
-        "CZ",
         "DE",
+        "BE",
         "IT",
         "ES",
-        "BE",
+        "CZ",
         "RO"
       ],
       "thumbnail": [
