@@ -1,5 +1,4 @@
 {
-  "Image": "N1_CO/CO_Figure.png",
   "Name": "CO_3_daily",
   "Title": "Carbon Monoxide observed by Sentinel-5p TROPOMI",
   "EodashIdentifier": "N1_CO",
@@ -28,7 +27,7 @@
   "Agency": [
     "ESA"
   ],
-  "Image": "N1_CO/N1_CO.png",
+  "Image": "N1_CO/CO_Figure.png",
   "Legend": "N1_CO/N1_CO_legend.png",
   "Resources": [
     {
