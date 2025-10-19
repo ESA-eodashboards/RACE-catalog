@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "shopping_center_activity",
+  "id": "border_crossing_vehicles_timeseries",
   "stac_version": "1.1.0",
-  "description": "## Customer Parking Occupancy\n\nThis indicator describes the occupancy of customer parking areas based on information provided by Copernicus Sentinel-1 and Copernicus Sentinel-2. The indicator is presented differently depending on the informaiton source:\n\n- When the indicator is computed from Sentinel-1 data, the information is presented as \"percentage of occupancy of customer parking\" and represents the area detected as occupied (typically by cars) relative to the total parking area, at a given date.\n- When the indicator is computed from Sentinel-2 data, the information is presented as \"number of parked cars\" and represents the absolute number of cars detectable in the Sentinel-2 image at a given date. \n",
+  "description": "## Border crossing vehicles time series\n\nThis indicator aims at showing the increase in traffic jam observed at the border crossings. It uses the intensity of the backscatter signal from Copernicus Sentinel-1 over the highway as a proxy for the high density of vehicles. \n",
   "links": [
     {
       "rel": "root",
@@ -12,34 +12,26 @@
     },
     {
       "rel": "child",
-      "href": "./shopping_center_activity/collection.json",
+      "href": "./border_crossing_vehicles_timeseries/collection.json",
       "type": "application/json",
-      "title": "Activity at shopping centers",
+      "title": "Border crossing vehicles time series",
       "endpointtype": "GeoDB",
-      "subtitle": "Occupancy of customer parking",
-      "code": "E11",
-      "id": "shopping_center_activity",
+      "subtitle": "Volume of highway occupancy from Sentinel-1 data",
+      "code": "E12b",
+      "id": "border_crossing_vehicles_timeseries",
       "themes": [
         "economy"
       ],
       "cities": [
-        "Brussels",
-        "Athens",
-        "Rome",
-        "Milan",
-        "Warsaw",
-        "Bucharest"
+        "Folkestone"
       ],
       "countries": [
-        "BE",
-        "GR",
-        "IT",
-        "PL",
-        "RO"
+        "GB"
       ],
-      "yAxis": "Number of parked cars",
+      "yAxis": "Backscatter S1 VV",
       "tags": [
         "Copernicus",
+        "SAR",
         "Mobility",
         "Traffic",
         "Open data"
@@ -47,23 +39,28 @@
       "agency": [
         "ESA"
       ],
-      "subcode": "E11",
+      "subcode": "E12b",
       "sensor": [
         "C-SAR"
       ],
       "satellite": [
         "Sentinel-1"
-      ],
-      "insituSources": [
-        "Mobile"
       ]
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E11?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
-      "type": "application/json",
+      "href": "./border_crossing_vehicles_timeseries/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
       "method": "GET",
-      "id": "E11"
+      "endpoint": "STAC"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E12b?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -116,13 +113,15 @@
       "title": "RACE"
     }
   ],
-  "subtitle": "Occupancy of customer parking",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity.png",
+  "subtitle": "Volume of highway occupancy from Sentinel-1 data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12b_border_crossing_vehicles_timeseries/E12b_border_crossing_vehicles_timeseries_2.png",
   "themes": [
     "economy"
   ],
+  "locations": true,
   "tags": [
     "Copernicus",
+    "SAR",
     "Mobility",
     "Traffic",
     "Open data"
@@ -130,35 +129,32 @@
   "agency": [
     "ESA"
   ],
-  "subcode": "E11",
+  "subcode": "E12b",
   "sensor": [
     "C-SAR"
   ],
   "satellite": [
     "Sentinel-1"
   ],
-  "insituSources": [
-    "Mobile"
-  ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
-  "title": "Activity at shopping centers",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12b_border_crossing_vehicles_timeseries/chart.json",
+  "title": "Border crossing vehicles time series",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          4.3301109,
-          37.965333,
-          26.094603000000003,
-          52.1856
+          1.0475785268560456,
+          51.091360476271944,
+          1.1124665273443268,
+          51.096589312240724
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2017-01-01T16:07:40Z",
-          "2022-01-17T16:09:17Z"
+          "2020-01-04T17:49:18Z",
+          "2020-12-29T17:49:30Z"
         ]
       ]
     }
@@ -168,15 +164,11 @@
     {
       "name": "Copernicus",
       "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
-    },
-    {
-      "name": "Vodafone",
-      "url": "https://www.vodafone.com/"
     }
   ],
   "summaries": {
     "subcode": [
-      "E11"
+      "E12b"
     ],
     "themes": [
       "economy"
@@ -188,27 +180,18 @@
       "C-SAR"
     ],
     "cities": [
-      "Athens",
-      "Warsaw",
-      "Bucharest",
-      "Brussels",
-      "Milan",
-      "Rome"
+      "Folkestone"
     ],
     "countries": [
-      "IT",
-      "PL",
-      "BE",
-      "RO",
-      "GR"
+      "GB"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12b_border_crossing_vehicles_timeseries/E12b_border_crossing_vehicles_timeseries_2.png"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12b_border_crossing_vehicles_timeseries/E12b_border_crossing_vehicles_timeseries_2.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

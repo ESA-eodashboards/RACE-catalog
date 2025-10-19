@@ -33,8 +33,8 @@
         "Brandenburg"
       ],
       "countries": [
-        "DE",
-        "ES"
+        "ES",
+        "DE"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg"
@@ -173,16 +173,16 @@
         "C-SAR"
       ],
       "cities": [
-        "Bucharest",
-        "Warsaw",
         "Athens",
+        "Warsaw",
+        "Bucharest",
         "Brussels",
-        "Rome",
-        "Milan"
+        "Milan",
+        "Rome"
       ],
       "countries": [
-        "PL",
         "IT",
+        "PL",
         "BE",
         "RO",
         "GR"
@@ -205,6 +205,44 @@
     },
     {
       "rel": "child",
+      "href": "./border_crossing_vehicles_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Border crossing vehicles time series",
+      "subtitle": "Volume of highway occupancy from Sentinel-1 data",
+      "code": "E12b",
+      "id": "border_crossing_vehicles_timeseries",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E12b",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "cities": [
+        "Folkestone"
+      ],
+      "countries": [
+        "GB"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12b_border_crossing_vehicles_timeseries/E12b_border_crossing_vehicles_timeseries_2.png"
+      ],
+      "tags": [
+        "Copernicus",
+        "SAR",
+        "Mobility",
+        "Traffic",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./industrial_inventory/collection.json",
       "type": "application/json",
       "title": "Automobile inventory level",
@@ -223,38 +261,38 @@
         "C-SAR"
       ],
       "cities": [
-        "Koln",
-        "Barcelona",
-        "Craiova",
-        "Kvasiny",
-        "Saarlouis",
-        "Wolfsburg",
-        "Ghent",
-        "Mioveni",
-        "Martorell",
         "Bremen",
-        "Regensburg",
-        "Russelsheim",
-        "Nosovice",
+        "Zwickau",
         "Cassino",
         "Leipzig",
-        "Swindon",
-        "Eisenach",
-        "Sindelfingen",
+        "Regensburg",
         "Emden",
+        "Barcelona",
+        "Mioveni",
+        "Nosovice",
+        "Koln",
+        "Sindelfingen",
+        "Martorell",
         "Ingolstadt",
-        "Zwickau",
         "Neckarsulm",
+        "Russelsheim",
+        "Ghent",
+        "Eisenach",
+        "Kvasiny",
+        "Saarlouis",
+        "Swindon",
+        "Craiova",
+        "Wolfsburg",
         "Dingolfing"
       ],
       "countries": [
-        "DE",
-        "ES",
-        "IT",
+        "GB",
         "CZ",
+        "DE",
+        "IT",
+        "ES",
         "BE",
-        "RO",
-        "GB"
+        "RO"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory.png"
