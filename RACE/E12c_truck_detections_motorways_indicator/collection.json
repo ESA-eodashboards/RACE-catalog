@@ -235,9 +235,9 @@
   ],
   "summaries": {
     "subcode": [
+      "E12c_daily",
       "E12c_detections",
-      "E12c_monthly",
-      "E12c_daily"
+      "E12c_monthly"
     ],
     "themes": [
       "economy"
