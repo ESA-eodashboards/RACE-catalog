@@ -28,7 +28,7 @@
     }
   ],
   "subtitle": "Agricultural production in Europe",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a3_agricultural_production_area_change/E10a3_agricultural_production_area_change.jpg",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a3_agricultural_production_area_change/E10a3_agricultural_production_area_change_photo.jpg",
   "yAxis": "Cultivated area 2020-2019 / Cultivated area 2019",
   "themes": [
     "agriculture"
@@ -91,7 +91,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a3_agricultural_production_area_change/E10a3_agricultural_production_area_change.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a3_agricultural_production_area_change/E10a3_agricultural_production_area_change_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
