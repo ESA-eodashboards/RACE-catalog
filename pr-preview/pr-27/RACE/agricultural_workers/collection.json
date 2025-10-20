@@ -108,7 +108,7 @@
     }
   ],
   "subtitle": "Availability of agricultural workers",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a9_agricultural_workers/E10a9_agricultural_workers.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a9_agricultural_workers/E10a9_agricultural_workers_photo.jpg",
   "themes": [
     "agriculture"
   ],
@@ -173,12 +173,12 @@
       "agriculture"
     ],
     "satellite": [
-      "Deimos-2",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Deimos-2"
     ],
     "sensor": [
-      "MSI",
-      "DMAC"
+      "DMAC",
+      "MSI"
     ],
     "cities": [
       "Apulia"
@@ -187,12 +187,12 @@
       "IT"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a9_agricultural_workers/E10a9_agricultural_workers.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a9_agricultural_workers/E10a9_agricultural_workers_photo.jpg"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a9_agricultural_workers/E10a9_agricultural_workers.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a9_agricultural_workers/E10a9_agricultural_workers_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
