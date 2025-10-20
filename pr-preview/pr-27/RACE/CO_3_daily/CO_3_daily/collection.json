@@ -38,7 +38,7 @@
     }
   ],
   "subtitle": "Global 3-daily Carbon monoxide",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/CO_Figure.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.jpg",
   "themes": [
     "air",
     "extremes"
@@ -129,7 +129,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/CO_Figure.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
