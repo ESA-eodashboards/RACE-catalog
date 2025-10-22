@@ -100,7 +100,7 @@
     }
   ],
   "subtitle": "Changes in the number of trucks in ports",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13n_trucks_port/E13n_trucks_port.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13n_trucks_port/E13n_trucks_port_photo.jpg",
   "themes": [
     "economy"
   ],
@@ -153,12 +153,12 @@
       "ES"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13n_trucks_port/E13n_trucks_port.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13n_trucks_port/E13n_trucks_port_photo.jpg"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13n_trucks_port/E13n_trucks_port.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13n_trucks_port/E13n_trucks_port_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
