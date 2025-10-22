@@ -112,7 +112,7 @@
     }
   ],
   "subtitle": "Level of oil in tanks based on SAR and optical data Europe",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_EU_Crude_Oil_Storage_Index.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_EU_Crude_Oil_Storage_Index_photo.jpg",
   "themes": [
     "economy"
   ],
@@ -189,8 +189,8 @@
       "Sentinel-1"
     ],
     "sensor": [
-      "MSI",
-      "C-SAR"
+      "C-SAR",
+      "MSI"
     ],
     "cities": [
       "/"
@@ -199,12 +199,12 @@
       "/"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_EU_Crude_Oil_Storage_Index.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_EU_Crude_Oil_Storage_Index_photo.jpg"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_EU_Crude_Oil_Storage_Index.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_EU_Crude_Oil_Storage_Index_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
