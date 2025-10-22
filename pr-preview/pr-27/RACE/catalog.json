@@ -31,8 +31,8 @@
         "TROPOMI"
       ],
       "cities": [
-        "Genoa",
-        "Gioia Tauro"
+        "Gioia Tauro",
+        "Genoa"
       ],
       "countries": [
         "IT"
@@ -69,41 +69,41 @@
         "/"
       ],
       "countries": [
-        "Malta",
-        "Albania",
-        "Czechia",
-        "Latvia",
+        "North Macedonia",
+        "Norway",
         "Poland",
-        "Italy",
+        "Luxembourg",
+        "Sweden",
+        "Ireland",
+        "Switzerland",
+        "Latvia",
+        "Netherlands",
+        "Greece",
         "Kosovo",
         "France",
-        "United Kingdom",
-        "Portugal",
         "Belgium",
-        "Estonia",
-        "Switzerland",
         "Austria",
-        "Ireland",
-        "Spain",
         "Slovenia",
-        "Bulgaria",
-        "Norway",
         "Turkey",
-        "Croatia",
-        "Sweden",
+        "United Kingdom",
         "Lithuania",
-        "North Macedonia",
-        "Finland",
-        "Luxembourg",
-        "Slovakia",
-        "Denmark",
-        "Serbia",
         "Germany",
-        "Netherlands",
+        "Spain",
+        "Malta",
+        "Bosnia and Herzegovina",
+        "Bulgaria",
+        "Croatia",
+        "Czechia",
+        "Estonia",
+        "Albania",
+        "Serbia",
+        "Slovakia",
         "Romania",
         "Hungary",
-        "Greece",
-        "Bosnia and Herzegovina"
+        "Denmark",
+        "Italy",
+        "Finland",
+        "Portugal"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CV_Covid_19_cases/CV_Covid_19_cases_photo.jpg"
@@ -139,12 +139,12 @@
         "MSI"
       ],
       "cities": [
-        "Brandenburg",
-        "Huelva (Lagunas de las Madres)"
+        "Huelva (Lagunas de las Madres)",
+        "Brandenburg"
       ],
       "countries": [
-        "ES",
-        "DE"
+        "DE",
+        "ES"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area_photo.jpg"
@@ -286,18 +286,18 @@
         "C-SAR"
       ],
       "cities": [
-        "Rome",
-        "Warsaw",
-        "Brussels",
         "Athens",
+        "Bucharest",
         "Milan",
-        "Bucharest"
+        "Rome",
+        "Brussels",
+        "Warsaw"
       ],
       "countries": [
-        "GR",
-        "BE",
         "PL",
         "IT",
+        "BE",
+        "GR",
         "RO"
       ],
       "thumbnail": [
@@ -341,7 +341,7 @@
         "GB"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12b_border_crossing_vehicles_timeseries/E12b_border_crossing_vehicles_timeseries_2.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12b_border_crossing_vehicles_timeseries/E12b_border_crossing_vehicles_timeseries_photo.jpg"
       ],
       "tags": [
         "Copernicus",
@@ -367,8 +367,8 @@
       ],
       "subcode": "E13e",
       "cities": [
-        "Genoa",
-        "Gioia Tauro"
+        "Gioia Tauro",
+        "Genoa"
       ],
       "countries": [
         "IT"
@@ -440,37 +440,37 @@
         "C-SAR"
       ],
       "cities": [
-        "Swindon",
-        "Nosovice",
-        "Martorell",
-        "Cassino",
-        "Zwickau",
         "Kvasiny",
-        "Mioveni",
-        "Koln",
-        "Ghent",
-        "Russelsheim",
-        "Regensburg",
-        "Sindelfingen",
-        "Emden",
-        "Bremen",
-        "Wolfsburg",
-        "Eisenach",
-        "Leipzig",
-        "Dingolfing",
         "Craiova",
+        "Zwickau",
+        "Martorell",
+        "Ghent",
+        "Koln",
+        "Bremen",
+        "Russelsheim",
+        "Eisenach",
+        "Wolfsburg",
+        "Swindon",
+        "Emden",
+        "Regensburg",
+        "Cassino",
+        "Nosovice",
         "Neckarsulm",
-        "Saarlouis",
+        "Dingolfing",
+        "Barcelona",
+        "Sindelfingen",
+        "Leipzig",
         "Ingolstadt",
-        "Barcelona"
+        "Mioveni",
+        "Saarlouis"
       ],
       "countries": [
         "ES",
-        "CZ",
-        "BE",
-        "DE",
-        "GB",
         "IT",
+        "GB",
+        "DE",
+        "BE",
+        "CZ",
         "RO"
       ],
       "thumbnail": [
@@ -566,41 +566,41 @@
         "/"
       ],
       "countries": [
-        "Malta",
-        "Albania",
-        "Czechia",
-        "Latvia",
+        "North Macedonia",
+        "Norway",
         "Poland",
-        "Italy",
+        "Luxembourg",
+        "Sweden",
+        "Ireland",
+        "Switzerland",
+        "Latvia",
+        "Netherlands",
+        "Greece",
         "Kosovo",
         "France",
-        "United Kingdom",
-        "Portugal",
         "Belgium",
-        "Estonia",
-        "Switzerland",
         "Austria",
-        "Ireland",
-        "Spain",
         "Slovenia",
-        "Bulgaria",
-        "Norway",
         "Turkey",
-        "Croatia",
-        "Sweden",
+        "United Kingdom",
         "Lithuania",
-        "North Macedonia",
-        "Finland",
-        "Luxembourg",
-        "Slovakia",
-        "Denmark",
-        "Serbia",
         "Germany",
-        "Netherlands",
+        "Spain",
+        "Malta",
+        "Bosnia and Herzegovina",
+        "Bulgaria",
+        "Croatia",
+        "Czechia",
+        "Estonia",
+        "Albania",
+        "Serbia",
+        "Slovakia",
         "Romania",
         "Hungary",
-        "Greece",
-        "Bosnia and Herzegovina"
+        "Denmark",
+        "Italy",
+        "Finland",
+        "Portugal"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OW_Covid_19_vaccinations/OW_Covid_19_vaccinations_photo.jpg"
@@ -638,43 +638,43 @@
         "MSI"
       ],
       "cities": [
-        "Tarragona",
-        "Sarroch",
-        "Finnart",
-        "Teesport",
-        "Cork",
-        "Corinth",
-        "Antwerp",
-        "Aspropyrgos",
-        "Wilhelmshaven",
-        "Rotterdam",
-        "Cartagena",
-        "Pachi",
-        "Omisalj",
         "Trieste",
+        "Le Havre",
+        "Finnart",
+        "Omisalj",
+        "Thessaloniki",
+        "Schwechat",
+        "Teesport",
+        "Sarroch",
+        "Grangemouth",
+        "Fos-Lavera",
         "Algeciras",
         "Dalmeny",
-        "Schwechat",
-        "Thessaloniki",
-        "Le Havre",
-        "Godorf Wesseling",
+        "Antwerp",
+        "Cork",
         "Sullom Voe",
         "Elefsina",
-        "Fos-Lavera",
-        "Grangemouth"
+        "Aspropyrgos",
+        "Wilhelmshaven",
+        "Pachi",
+        "Tarragona",
+        "Corinth",
+        "Godorf Wesseling",
+        "Cartagena",
+        "Rotterdam"
       ],
       "countries": [
         "GR",
         "ES",
-        "NL",
-        "FR",
+        "IT",
+        "AT",
         "HR",
         "IE",
+        "FR",
+        "GB",
         "BE",
         "DE",
-        "GB",
-        "IT",
-        "AT"
+        "NL"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index.png"
