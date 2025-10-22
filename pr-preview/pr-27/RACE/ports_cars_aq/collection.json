@@ -112,7 +112,7 @@
     }
   ],
   "subtitle": "Port Activities, sources of pollution and NO2 levels",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3_ports_cars_aq.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3_ports_cars_aq_photo.jpg",
   "themes": [
     "economy",
     "air"
@@ -181,8 +181,8 @@
       "C3"
     ],
     "themes": [
-      "air",
-      "economy"
+      "economy",
+      "air"
     ],
     "satellite": [
       "GNSS",
@@ -192,19 +192,19 @@
       "TROPOMI"
     ],
     "cities": [
-      "Gioia Tauro",
-      "Genoa"
+      "Genoa",
+      "Gioia Tauro"
     ],
     "countries": [
       "IT"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3_ports_cars_aq.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3_ports_cars_aq_photo.jpg"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3_ports_cars_aq.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3_ports_cars_aq_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

@@ -63,7 +63,7 @@
   ],
   "subcode": "C3",
   "subtitle": "Port Activities, sources of pollution and NO2 levels",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3_ports_cars_aq.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3_ports_cars_aq_photo.jpg",
   "themes": [
     "economy",
     "air"
@@ -126,7 +126,7 @@
   ],
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3_ports_cars_aq.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3_ports_cars_aq_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
