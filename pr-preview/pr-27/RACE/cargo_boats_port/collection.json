@@ -102,7 +102,7 @@
     }
   ],
   "subtitle": "Changes in the number of boats in ports",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13e_cargo_boats_port/E13e_cargo_boats_port.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13e_cargo_boats_port/E13e_cargo_boats_port_photo.jpg",
   "themes": [
     "economy"
   ],
@@ -163,12 +163,12 @@
       "IT"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13e_cargo_boats_port/E13e_cargo_boats_port.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13e_cargo_boats_port/E13e_cargo_boats_port_photo.jpg"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13e_cargo_boats_port/E13e_cargo_boats_port.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13e_cargo_boats_port/E13e_cargo_boats_port_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
