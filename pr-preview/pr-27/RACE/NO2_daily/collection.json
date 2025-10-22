@@ -99,7 +99,7 @@
     }
   ],
   "subtitle": "Daily Nitrogen Dioxide",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.jpg",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2_photo.png",
   "themes": [
     "air"
   ],
@@ -194,7 +194,7 @@
       "TROPOMI"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.jpg"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2_photo.png"
     ]
   },
   "assets": {
@@ -206,7 +206,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2_photo.png",
       "type": "image/png",
       "roles": [
         "thumbnail"
