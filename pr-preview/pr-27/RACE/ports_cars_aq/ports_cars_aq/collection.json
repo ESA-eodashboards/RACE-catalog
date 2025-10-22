@@ -34,7 +34,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Car sourcesof pollution and NO2 levels"
+      "title": "Car sources of pollution and NO2 levels"
     }
   ],
   "subtitle": "Port Activities, sources of pollution and NO2 levels",
@@ -67,7 +67,7 @@
   ],
   "locations": true,
   "endpointtype": "GeoDB",
-  "title": "Car sourcesof pollution and NO2 levels",
+  "title": "Car sources of pollution and NO2 levels",
   "extent": {
     "spatial": {
       "bbox": [
