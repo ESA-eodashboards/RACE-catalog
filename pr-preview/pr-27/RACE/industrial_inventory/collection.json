@@ -136,7 +136,7 @@
     }
   ],
   "subtitle": "Inventory level in logisitc areas of production sites",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg",
   "themes": [
     "economy"
   ],
@@ -205,53 +205,53 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-1",
-      "ICEYE SAR"
+      "ICEYE SAR",
+      "Sentinel-1"
     ],
     "sensor": [
       "C-SAR"
     ],
     "cities": [
-      "Regensburg",
-      "Dingolfing",
       "Swindon",
-      "Ghent",
-      "Mioveni",
-      "Zwickau",
       "Nosovice",
-      "Bremen",
-      "Ingolstadt",
-      "Neckarsulm",
-      "Cassino",
-      "Wolfsburg",
-      "Kvasiny",
-      "Craiova",
-      "Russelsheim",
-      "Koln",
-      "Sindelfingen",
-      "Saarlouis",
-      "Barcelona",
-      "Eisenach",
-      "Emden",
       "Martorell",
-      "Leipzig"
+      "Cassino",
+      "Zwickau",
+      "Kvasiny",
+      "Mioveni",
+      "Koln",
+      "Ghent",
+      "Russelsheim",
+      "Regensburg",
+      "Sindelfingen",
+      "Emden",
+      "Bremen",
+      "Wolfsburg",
+      "Eisenach",
+      "Leipzig",
+      "Dingolfing",
+      "Craiova",
+      "Neckarsulm",
+      "Saarlouis",
+      "Ingolstadt",
+      "Barcelona"
     ],
     "countries": [
-      "GB",
-      "RO",
-      "BE",
-      "DE",
       "ES",
       "CZ",
-      "IT"
+      "BE",
+      "DE",
+      "GB",
+      "IT",
+      "RO"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

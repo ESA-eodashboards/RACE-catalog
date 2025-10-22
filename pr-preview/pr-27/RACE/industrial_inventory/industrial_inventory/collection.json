@@ -276,7 +276,7 @@
     }
   ],
   "subtitle": "Inventory level in logisitc areas of production sites",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg",
   "yAxis": "Normalized Radar backscatter (flattened gamma0)",
   "themes": [
     "economy"
@@ -526,7 +526,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
