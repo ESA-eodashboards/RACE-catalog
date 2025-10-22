@@ -145,7 +145,7 @@
     }
   ],
   "subtitle": "Level of oil in tanks based on SAR and optical data",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg",
   "themes": [
     "economy"
   ],
@@ -222,55 +222,55 @@
       "Sentinel-1"
     ],
     "sensor": [
-      "C-SAR",
-      "MSI"
+      "MSI",
+      "C-SAR"
     ],
     "cities": [
-      "Antwerp",
-      "Tarragona",
-      "Finnart",
-      "Schwechat",
-      "Thessaloniki",
-      "Pachi",
-      "Cartagena",
-      "Omisalj",
-      "Teesport",
-      "Le Havre",
-      "Sarroch",
-      "Algeciras",
-      "Corinth",
-      "Elefsina",
-      "Cork",
-      "Rotterdam",
       "Godorf Wesseling",
+      "Pachi",
+      "Algeciras",
+      "Omisalj",
       "Dalmeny",
+      "Corinth",
+      "Teesport",
+      "Sullom Voe",
+      "Cartagena",
       "Grangemouth",
+      "Finnart",
+      "Rotterdam",
       "Trieste",
+      "Cork",
+      "Le Havre",
+      "Thessaloniki",
+      "Elefsina",
       "Aspropyrgos",
-      "Wilhelmshaven",
       "Fos-Lavera",
-      "Sullom Voe"
+      "Antwerp",
+      "Wilhelmshaven",
+      "Tarragona",
+      "Sarroch",
+      "Schwechat"
     ],
     "countries": [
       "NL",
-      "GR",
       "BE",
-      "DE",
-      "AT",
-      "FR",
-      "HR",
       "IT",
       "GB",
+      "GR",
+      "ES",
+      "AT",
+      "DE",
       "IE",
-      "ES"
+      "HR",
+      "FR"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
