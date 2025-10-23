@@ -166,7 +166,7 @@
     }
   ],
   "subtitle": "Flying planes detected on Sentinel-2 data",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_2.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg",
   "themes": [
     "economy"
   ],
@@ -232,32 +232,32 @@
       "MSI"
     ],
     "countries": [
-      "BE",
-      "GR",
-      "DK",
-      "FI",
-      "IE",
-      "SE",
-      "TR",
-      "FR",
+      "IT",
       "NL",
-      "ES",
-      "PT",
+      "FI",
+      "GR",
+      "SE",
       "GB",
+      "ES",
+      "DK",
       "DE",
+      "BE",
+      "CH",
+      "FR",
+      "NO",
+      "TR",
+      "IE",
       "AT",
       "PL",
-      "NO",
-      "IT",
-      "CH"
+      "PT"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_2.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_2.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

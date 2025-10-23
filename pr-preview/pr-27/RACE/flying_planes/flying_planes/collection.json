@@ -328,7 +328,7 @@
     }
   ],
   "subtitle": "Flying planes detected on Sentinel-2 data",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_2.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg",
   "yAxis": "Number of flying planes",
   "themes": [
     "economy"
@@ -584,7 +584,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_2.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
