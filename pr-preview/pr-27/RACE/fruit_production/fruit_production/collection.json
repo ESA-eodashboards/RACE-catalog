@@ -1,0 +1,108 @@
+{
+  "type": "Collection",
+  "id": "fruit_production",
+  "stac_version": "1.1.0",
+  "description": "## Agricultural production - Detected Harvesting Trucks\r\n\r\nThis indicator compares the total number of harvesting trucks (absolute value and percentage) in the vicinity of greenhouses in the 2020 season to the same months in 2019. It aims to show the impact of the lack of seasonal workers during the Covid-19 pandemic.\r\nThe indicator is based on high resolution optical data from the [Pléiades constellation](https://earth.esa.int/eogateway/missions/pleiades) and is produced for the region Laguna de las Madres (Province of Huelva - Spain), that is responsible for 97.5% of the national red berries production. \r\n\r\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./ES8/collection.json",
+      "type": "application/json",
+      "title": "Huelva Laguna de las Madres",
+      "id": "ES8",
+      "latlng": "37.18316944,-6.84888889",
+      "country": "ES",
+      "name": "Huelva Laguna de las Madres"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Fruit production"
+    }
+  ],
+  "subtitle": "Monitoring fruit production (Berries) in Huelva, Spain",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a5_fruit_production/E10a5_fruit_production.jpg",
+  "yAxis": "Number of trucks in the greenhouse area (absolute value and %)",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "Copernicus",
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA",
+    "CNES"
+  ],
+  "subcode": "E10a5",
+  "sensor": [
+    "MSI",
+    "HiRI"
+  ],
+  "satellite": [
+    "Sentinel-2",
+    "Pleiades"
+  ],
+  "locations": true,
+  "endpointtype": "GeoDB",
+  "title": "Fruit production",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -6.858888889999999,
+          37.17316944,
+          -6.83888889,
+          37.19316944
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-12-27T11:21:32Z",
+          "2020-06-05T11:33:22Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Université catholique de Louvain",
+      "url": "https://uclouvain.be/en/index.html"
+    },
+    {
+      "name": "ESA",
+      "url": "https://earth.esa.int/eogateway/missions/pleiades"
+    },
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "Huelva Laguna de las Madres"
+    ],
+    "countries": [
+      "ES"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a5_fruit_production/E10a5_fruit_production.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
