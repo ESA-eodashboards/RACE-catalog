@@ -1,0 +1,186 @@
+{
+  "type": "Collection",
+  "id": "Valencia_Spain",
+  "stac_version": "1.1.0",
+  "description": "Flooding in Valencia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "WASDI_FLOOD",
+      "wms:layers": [
+        "WASDI_FLOOD"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Flood mapping"
+    }
+  ],
+  "sci:doi": "10.3390/rs11020107",
+  "sci:citation": "Chini, M., Pelich, R., Pulvirenti, L., Pierdicca, N., Hostache, R., Matgen, P., 2019. Sentinel-1 InSAR coherence to detect floodwater in urban areas: Houston and Hurricane Harvey as a test case. Remote Sensing, 11(2), p.107.\n",
+  "subtitle": "Automated flood map",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WASDI_FLOOD/WASDI_FLOOD.jpg",
+  "themes": [
+    "extremes"
+  ],
+  "tags": [
+    "Copernicus Services",
+    "Flood",
+    "Open data",
+    "Multi-sensors",
+    "Copernicus",
+    "Climate change service",
+    "Urban area",
+    "Disasters",
+    "Sentinel"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "WASDI_FLOOD",
+  "sensor": [
+    "SAR",
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-1",
+    "Sentinel-2"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      "Permanent water",
+      "Flooding"
+    ],
+    "range": [
+      "#0000ff",
+      "#ff0000"
+    ],
+    "scaleType": "categorical",
+    "title": "Flood events"
+  },
+  "title": "Flooding in Valencia",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.7001745559668817,
+          38.499992303125886,
+          0.3000063438261322,
+          40.50016704028197
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-09-13T00:00:00Z",
+          "2024-11-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "WASDI Market Place",
+      "url": "https://www.wasdi.cloud/earth-observation-application-marketplace"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WASDI_FLOOD/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WASDI_FLOOD/WASDI_FLOOD.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://wasdi.readthedocs.io/en/latest/WasdiApplications/FloodMapping.html",
+      "type": "text/html",
+      "title": "WASDI Support Automated Mapping",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-1",
+      "type": "text/html",
+      "title": "Sentinel-1",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

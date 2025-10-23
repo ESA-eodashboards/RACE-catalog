@@ -189,18 +189,18 @@
     ],
     "cities": [
       "Athens",
-      "Warsaw",
       "Rome",
       "Milan",
+      "Warsaw",
       "Brussels",
       "Bucharest"
     ],
     "countries": [
-      "BE",
       "RO",
-      "PL",
       "GR",
-      "IT"
+      "BE",
+      "IT",
+      "PL"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg"
