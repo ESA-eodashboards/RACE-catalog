@@ -177,8 +177,8 @@
       "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
-      "DMAC"
+      "DMAC",
+      "MSI"
     ],
     "cities": [
       "Apulia"
