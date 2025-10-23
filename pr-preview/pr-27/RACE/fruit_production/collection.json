@@ -173,12 +173,12 @@
       "agriculture"
     ],
     "satellite": [
-      "Pleiades",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Pleiades"
     ],
     "sensor": [
-      "HiRI",
-      "MSI"
+      "MSI",
+      "HiRI"
     ],
     "cities": [
       "Huelva Laguna de las Madres"

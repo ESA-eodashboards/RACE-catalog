@@ -188,19 +188,19 @@
       "C-SAR"
     ],
     "cities": [
+      "Rome",
+      "Athens",
       "Bucharest",
       "Brussels",
-      "Athens",
-      "Warsaw",
       "Milan",
-      "Rome"
+      "Warsaw"
     ],
     "countries": [
-      "RO",
       "BE",
       "GR",
-      "PL",
-      "IT"
+      "RO",
+      "IT",
+      "PL"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg"
