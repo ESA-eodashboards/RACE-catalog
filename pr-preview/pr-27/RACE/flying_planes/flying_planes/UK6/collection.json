@@ -1,0 +1,165 @@
+{
+  "type": "Collection",
+  "id": "UK6",
+  "stac_version": "1.1.0",
+  "description": "London - GB",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Flying planes detections"
+    }
+  ],
+  "subcode": "E13d",
+  "sci:publications": [
+    {
+      "citation": "M. P. Segundo, A. Pinto, R. Minetto, R. d. S. Torres and S. Sarkar, \"Measuring Economic Activity From Space: A Case Study Using Flying Airplanes and COVID-19\", in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 14, pp. 7213-7224, 2021.\n",
+      "doi": "10.1109/JSTARS.2021.3094053"
+    },
+    {
+      "citation": "Mauricio Pamplona Segundo, Allan Pinto, Rodrigo Minetto, Ricardo da Silva Torres, Sudeep Sarkar, July 2, 2021, \"A dataset for detecting flying airplanes on satellite images\", IEEE Dataport.\n",
+      "doi": "10.21227/3mbt-tb11"
+    }
+  ],
+  "subtitle": "Flying planes detected on Sentinel-2 data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_2.png",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Mobility",
+    "Air traffic",
+    "Open data",
+    "Community"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "title": "London",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -0.281966,
+          51.536968,
+          0.768034,
+          52.236968
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-07-01T11:11:00Z",
+          "2022-12-29T11:06:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_2.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://github.com/maups/covid19-custom-script-contest/tree/master",
+      "type": "text/html",
+      "title": "Covid19 Custom Script Contest",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://opensky-network.org/",
+      "type": "text/html",
+      "title": "OpenSky Network",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://www.eurocontrol.int/Economics/DailyTrafficVariation-States.html",
+      "type": "text/html",
+      "title": "EUROCONTROL",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
