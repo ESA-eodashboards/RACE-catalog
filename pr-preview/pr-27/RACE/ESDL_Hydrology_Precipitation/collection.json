@@ -1,0 +1,253 @@
+{
+  "type": "Collection",
+  "id": "ESDL_Hydrology_Precipitation",
+  "stac_version": "1.1.0",
+  "description": "# Daily precipitation product\nDaily precipitation (P) data at 1 km spatial resolution - Data are obtained by downscaling CPC and GPM-LR data to 1 km spatial resolution using CHELSA climatology and merging them through a triple collocation technique on CPC GPM and ERA5\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./ESDL_Hydrology_Precipitation/collection.json",
+      "type": "application/json",
+      "title": "Daily precipitation product",
+      "endpointtype": "xcube_zarr",
+      "code": "ESDL_Hydrology_Precipitation",
+      "id": "ESDL_Hydrology_Precipitation",
+      "themes": [
+        "agriculture",
+        "water"
+      ],
+      "yAxis": "mm/day",
+      "tags": [
+        "Open data",
+        "precipitation",
+        "CPC",
+        "GPM",
+        "CHELSA Climatology"
+      ],
+      "agency": [
+        "EURAC"
+      ],
+      "subcode": "ESDL_Hydrology_Precipitation",
+      "otherSources": [
+        "GPM",
+        "CPC",
+        "model",
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://api.earthsystemdatalab.net/api/timeseries/hydrology/precip?aggMethods=median",
+      "type": "application/json",
+      "id": "xcube_statistics",
+      "method": "POST",
+      "body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_body.json"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.png",
+  "yAxis": "mm/day",
+  "themes": [
+    "agriculture",
+    "water"
+  ],
+  "tags": [
+    "Open data",
+    "precipitation",
+    "CPC",
+    "GPM",
+    "CHELSA Climatology"
+  ],
+  "agency": [
+    "EURAC"
+  ],
+  "subcode": "ESDL_Hydrology_Precipitation",
+  "otherSources": [
+    "GPM",
+    "CPC",
+    "model",
+    "ERA5"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      50
+    ],
+    "range": [
+      "#440154",
+      "#481c6e",
+      "#453581",
+      "#3d4d8a",
+      "#34618d",
+      "#2b748e",
+      "#24878e",
+      "#1f998a",
+      "#25ac82",
+      "#40bd72",
+      "#67cc5c",
+      "#98d83e",
+      "#cde11d",
+      "#fde725"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "[mm/day]"
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
+  "title": "Daily precipitation product",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -5.70080002975464,
+          28.339799316406264,
+          37.76919997024536,
+          48.17579931640626
+        ],
+        [
+          -5.70080002975464,
+          28.339799316406264,
+          37.76919997024536,
+          48.17579931640626
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-01T00:00:00Z",
+          "2021-12-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "NOAA",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://psl.noaa.gov/data/gridded/data.cpc.globalprecip.html"
+    },
+    {
+      "name": "NASA",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://gpm.nasa.gov/taxonomy/term/1415"
+    },
+    {
+      "name": "ECMWF",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://www.ecmwf.int/"
+    },
+    {
+      "name": "WLS",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://www.wsl.ch/en/index.html"
+    },
+    {
+      "name": "CNR IRPI",
+      "roles": [
+        "processor"
+      ],
+      "url": "http://hydrology.irpi.cnr.it/"
+    },
+    {
+      "name": "EURAC",
+      "roles": [
+        "host"
+      ],
+      "url": "http://www.eurac.edu/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "ESDL_Hydrology_Precipitation"
+    ],
+    "themes": [
+      "water",
+      "agriculture"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.png"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

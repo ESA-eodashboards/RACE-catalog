@@ -31,8 +31,8 @@
         "TROPOMI"
       ],
       "cities": [
-        "Genoa",
-        "Gioia Tauro"
+        "Gioia Tauro",
+        "Genoa"
       ],
       "countries": [
         "IT"
@@ -69,41 +69,41 @@
         "/"
       ],
       "countries": [
-        "Romania",
-        "Denmark",
-        "Turkey",
         "Luxembourg",
-        "Germany",
-        "Estonia",
-        "Switzerland",
-        "Greece",
-        "Finland",
-        "France",
-        "Austria",
-        "Serbia",
-        "Belgium",
-        "Latvia",
-        "United Kingdom",
-        "Czechia",
-        "Malta",
-        "Lithuania",
         "Norway",
-        "Poland",
-        "Ireland",
-        "Italy",
-        "Spain",
-        "North Macedonia",
-        "Slovakia",
-        "Sweden",
+        "Serbia",
+        "Turkey",
         "Bulgaria",
-        "Kosovo",
-        "Albania",
         "Netherlands",
-        "Slovenia",
+        "Greece",
         "Hungary",
+        "Ireland",
+        "France",
+        "Slovakia",
+        "Portugal",
+        "Latvia",
+        "Romania",
+        "Kosovo",
+        "Denmark",
+        "Belgium",
+        "Switzerland",
         "Croatia",
+        "Albania",
+        "Lithuania",
+        "Germany",
+        "Poland",
+        "Malta",
+        "Spain",
+        "Czechia",
+        "United Kingdom",
+        "Austria",
+        "Slovenia",
         "Bosnia and Herzegovina",
-        "Portugal"
+        "North Macedonia",
+        "Italy",
+        "Sweden",
+        "Estonia",
+        "Finland"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CV_Covid_19_cases/CV_Covid_19_cases_photo.jpg"
@@ -143,8 +143,8 @@
         "Huelva (Lagunas de las Madres)"
       ],
       "countries": [
-        "DE",
-        "ES"
+        "ES",
+        "DE"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area_photo.jpg"
@@ -286,18 +286,18 @@
         "C-SAR"
       ],
       "cities": [
-        "Bucharest",
-        "Brussels",
-        "Milan",
-        "Rome",
+        "Warsaw",
         "Athens",
-        "Warsaw"
+        "Milan",
+        "Bucharest",
+        "Rome",
+        "Brussels"
       ],
       "countries": [
         "GR",
+        "RO",
         "BE",
         "IT",
-        "RO",
         "PL"
       ],
       "thumbnail": [
@@ -367,8 +367,8 @@
       ],
       "subcode": "E13e",
       "cities": [
-        "Genoa",
-        "Gioia Tauro"
+        "Gioia Tauro",
+        "Genoa"
       ],
       "countries": [
         "IT"
@@ -440,38 +440,38 @@
         "C-SAR"
       ],
       "cities": [
-        "Kvasiny",
-        "Sindelfingen",
-        "Leipzig",
-        "Emden",
-        "Ingolstadt",
-        "Dingolfing",
+        "Ghent",
+        "Neckarsulm",
+        "Martorell",
+        "Craiova",
         "Regensburg",
         "Russelsheim",
-        "Ghent",
-        "Bremen",
         "Swindon",
-        "Eisenach",
-        "Koln",
-        "Nosovice",
-        "Martorell",
         "Zwickau",
-        "Mioveni",
-        "Barcelona",
-        "Wolfsburg",
+        "Nosovice",
+        "Sindelfingen",
         "Cassino",
+        "Koln",
+        "Wolfsburg",
+        "Emden",
         "Saarlouis",
-        "Craiova",
-        "Neckarsulm"
+        "Ingolstadt",
+        "Leipzig",
+        "Dingolfing",
+        "Bremen",
+        "Barcelona",
+        "Kvasiny",
+        "Eisenach",
+        "Mioveni"
       ],
       "countries": [
-        "ES",
-        "CZ",
+        "GB",
+        "RO",
         "DE",
         "BE",
-        "IT",
-        "GB",
-        "RO"
+        "CZ",
+        "ES",
+        "IT"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg"
@@ -486,6 +486,39 @@
       ],
       "otherSources": [
         "Multi-sensors"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./ESDL_Hydrology_Precipitation/collection.json",
+      "type": "application/json",
+      "title": "Daily precipitation product",
+      "code": "ESDL_Hydrology_Precipitation",
+      "id": "ESDL_Hydrology_Precipitation",
+      "themes": [
+        "agriculture",
+        "water"
+      ],
+      "subcode": "ESDL_Hydrology_Precipitation",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.png"
+      ],
+      "yAxis": "mm/day",
+      "tags": [
+        "Open data",
+        "precipitation",
+        "CPC",
+        "GPM",
+        "CHELSA Climatology"
+      ],
+      "agency": [
+        "EURAC"
+      ],
+      "otherSources": [
+        "GPM",
+        "CPC",
+        "model",
+        "ERA5"
       ]
     },
     {
@@ -566,41 +599,41 @@
         "/"
       ],
       "countries": [
-        "Romania",
-        "Denmark",
-        "Turkey",
         "Luxembourg",
-        "Germany",
-        "Estonia",
-        "Switzerland",
-        "Greece",
-        "Finland",
-        "France",
-        "Austria",
-        "Serbia",
-        "Belgium",
-        "Latvia",
-        "United Kingdom",
-        "Czechia",
-        "Malta",
-        "Lithuania",
         "Norway",
-        "Poland",
-        "Ireland",
-        "Italy",
-        "Spain",
-        "North Macedonia",
-        "Slovakia",
-        "Sweden",
+        "Serbia",
+        "Turkey",
         "Bulgaria",
-        "Kosovo",
-        "Albania",
         "Netherlands",
-        "Slovenia",
+        "Greece",
         "Hungary",
+        "Ireland",
+        "France",
+        "Slovakia",
+        "Portugal",
+        "Latvia",
+        "Romania",
+        "Kosovo",
+        "Denmark",
+        "Belgium",
+        "Switzerland",
         "Croatia",
+        "Albania",
+        "Lithuania",
+        "Germany",
+        "Poland",
+        "Malta",
+        "Spain",
+        "Czechia",
+        "United Kingdom",
+        "Austria",
+        "Slovenia",
         "Bosnia and Herzegovina",
-        "Portugal"
+        "North Macedonia",
+        "Italy",
+        "Sweden",
+        "Estonia",
+        "Finland"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OW_Covid_19_vaccinations/OW_Covid_19_vaccinations_photo.jpg"
@@ -638,43 +671,43 @@
         "MSI"
       ],
       "cities": [
-        "Elefsina",
-        "Cork",
+        "Schwechat",
+        "Cartagena",
         "Antwerp",
-        "Sarroch",
-        "Wilhelmshaven",
-        "Algeciras",
-        "Fos-Lavera",
-        "Le Havre",
-        "Godorf Wesseling",
+        "Grangemouth",
+        "Rotterdam",
+        "Tarragona",
         "Pachi",
-        "Dalmeny",
         "Finnart",
+        "Corinth",
+        "Dalmeny",
+        "Fos-Lavera",
+        "Thessaloniki",
+        "Cork",
+        "Elefsina",
+        "Aspropyrgos",
+        "Wilhelmshaven",
+        "Sullom Voe",
         "Trieste",
         "Teesport",
-        "Cartagena",
+        "Le Havre",
         "Omisalj",
-        "Tarragona",
-        "Thessaloniki",
-        "Aspropyrgos",
-        "Schwechat",
-        "Sullom Voe",
-        "Grangemouth",
-        "Corinth",
-        "Rotterdam"
+        "Godorf Wesseling",
+        "Algeciras",
+        "Sarroch"
       ],
       "countries": [
-        "ES",
         "AT",
-        "HR",
-        "GR",
         "GB",
-        "BE",
+        "NL",
+        "GR",
+        "HR",
         "DE",
         "FR",
         "IE",
-        "IT",
-        "NL"
+        "BE",
+        "ES",
+        "IT"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"

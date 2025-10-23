@@ -218,51 +218,51 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-1",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Sentinel-1"
     ],
     "sensor": [
-      "C-SAR",
-      "MSI"
+      "MSI",
+      "C-SAR"
     ],
     "cities": [
-      "Elefsina",
-      "Cork",
+      "Schwechat",
+      "Cartagena",
       "Antwerp",
-      "Sarroch",
-      "Wilhelmshaven",
-      "Algeciras",
-      "Fos-Lavera",
-      "Le Havre",
-      "Godorf Wesseling",
+      "Grangemouth",
+      "Rotterdam",
+      "Tarragona",
       "Pachi",
-      "Dalmeny",
       "Finnart",
+      "Corinth",
+      "Dalmeny",
+      "Fos-Lavera",
+      "Thessaloniki",
+      "Cork",
+      "Elefsina",
+      "Aspropyrgos",
+      "Wilhelmshaven",
+      "Sullom Voe",
       "Trieste",
       "Teesport",
-      "Cartagena",
+      "Le Havre",
       "Omisalj",
-      "Tarragona",
-      "Thessaloniki",
-      "Aspropyrgos",
-      "Schwechat",
-      "Sullom Voe",
-      "Grangemouth",
-      "Corinth",
-      "Rotterdam"
+      "Godorf Wesseling",
+      "Algeciras",
+      "Sarroch"
     ],
     "countries": [
-      "ES",
       "AT",
-      "HR",
-      "GR",
       "GB",
-      "BE",
+      "NL",
+      "GR",
+      "HR",
       "DE",
       "FR",
       "IE",
-      "IT",
-      "NL"
+      "BE",
+      "ES",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"
