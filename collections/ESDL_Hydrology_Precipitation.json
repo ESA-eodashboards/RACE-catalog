@@ -1,5 +1,4 @@
 {
-  "Image": "ESDL_Hydrology_Precipitation/ESDL_Hydrology_Precipitation.jpg",
   "Name": "ESDL_Hydrology_Precipitation",
   "Title": "Daily precipitation product",
   "EodashIdentifier": "ESDL_Hydrology_Precipitation",
@@ -97,7 +96,7 @@
     }
   ],
   "Legend": "ESDL_Hydrology_Precipitation/cm_legend.png",
-  "Image": "ESDL_Hydrology_Precipitation/image.png",
+  "Image": "ESDL_Hydrology_Precipitation/ESDL_Hydrology_Precipitation.jpg",
   "yAxis": "mm/day",
   "Colorlegend": {
     "domain": [
