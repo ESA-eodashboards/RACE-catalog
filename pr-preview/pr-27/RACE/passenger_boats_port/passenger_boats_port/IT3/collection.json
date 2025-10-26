@@ -1,0 +1,127 @@
+{
+  "type": "Collection",
+  "id": "IT3",
+  "stac_version": "1.1.0",
+  "description": "Genoa - IT",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Passenger boats in ports"
+    }
+  ],
+  "subcode": "E13m",
+  "subtitle": "Changes in the number of boats in ports",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13m_maritime_traffic_passenger/E13m_maritime_traffic_passenger_photo.jpg",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Ports",
+    "Maritime",
+    "Traffic",
+    "Ships"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "insituSources": [
+    "AIS"
+  ],
+  "title": "Genoa",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.923642000000001,
+          44.395723000000004,
+          8.943642,
+          44.415723
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-01T00:00:00Z",
+          "2020-05-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "e-GEOS",
+      "url": "https://www.e-geos.it/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13m_maritime_traffic_passenger/E13m_maritime_traffic_passenger_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://www.imo.org/en/OurWork/Safety/Pages/AIS.aspx",
+      "type": "text/html",
+      "title": "AIS data",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
