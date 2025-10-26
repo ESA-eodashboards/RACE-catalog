@@ -1,0 +1,446 @@
+{
+  "type": "Collection",
+  "id": "harvested_parcels_evolution",
+  "stac_version": "1.1.0",
+  "description": "## Winter Cereals Growth and Harvest - Spain\n\nThis indicator aims at showing the winter cereals (e.g. winter wheat and barley) harvest evolution at parcel-level over the Spanish autonomous regions [Castilla y León, Andalucia, Castilla-la-Mancha, Aragón](https://agridata.ec.europa.eu/extensions/DashboardCereals/CerealsProduction.html?selections=MS%20Name%20(Production)-Spain) by means of Sentinel-1, Sentinel-2 and Landsat-8 data with 10 meters resolution and 2-3 days revisit time.\n\nTime series of Sentinel-2 vegetation indices and Sentinel-1 backscatter and coherence values have been processed and analyzed using the open source Sen4CAP (and upcoming Sen4Stat) processing systems. \n\nParcels dataset have been kindly shared by the national Paying Agency “Fondo Español de Garantía Agraria O.A.” (FEGA).\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./ES22a/collection.json",
+      "type": "application/json",
+      "title": "Comunidad Foral de Navarra",
+      "id": "ES22a",
+      "latlng": "42.643,-1.648",
+      "country": "ES",
+      "name": "Comunidad Foral de Navarra"
+    },
+    {
+      "rel": "child",
+      "href": "./ES22b/collection.json",
+      "type": "application/json",
+      "title": "Comunidad Foral de Navarra",
+      "id": "ES22b",
+      "latlng": "42.644,-1.648",
+      "country": "ES",
+      "name": "Comunidad Foral de Navarra"
+    },
+    {
+      "rel": "child",
+      "href": "./ES23a/collection.json",
+      "type": "application/json",
+      "title": "La Rioja",
+      "id": "ES23a",
+      "latlng": "42.312,-2.505",
+      "country": "ES",
+      "name": "La Rioja"
+    },
+    {
+      "rel": "child",
+      "href": "./ES23b/collection.json",
+      "type": "application/json",
+      "title": "La Rioja",
+      "id": "ES23b",
+      "latlng": "42.313,-2.505",
+      "country": "ES",
+      "name": "La Rioja"
+    },
+    {
+      "rel": "child",
+      "href": "./ES24a/collection.json",
+      "type": "application/json",
+      "title": "Aragon",
+      "id": "ES24a",
+      "latlng": "41.445,-0.646",
+      "country": "ES",
+      "name": "Aragon"
+    },
+    {
+      "rel": "child",
+      "href": "./ES24b/collection.json",
+      "type": "application/json",
+      "title": "Aragon",
+      "id": "ES24b",
+      "latlng": "41.4445,-0.646",
+      "country": "ES",
+      "name": "Aragon"
+    },
+    {
+      "rel": "child",
+      "href": "./ES30a/collection.json",
+      "type": "application/json",
+      "title": "Comunidad de Madrid",
+      "id": "ES30a",
+      "latlng": "40.409,-3.729",
+      "country": "ES",
+      "name": "Comunidad de Madrid"
+    },
+    {
+      "rel": "child",
+      "href": "./ES30b/collection.json",
+      "type": "application/json",
+      "title": "Comunidad de Madrid",
+      "id": "ES30b",
+      "latlng": "40.4095,-3.729",
+      "country": "ES",
+      "name": "Comunidad de Madrid"
+    },
+    {
+      "rel": "child",
+      "href": "./ES41a/collection.json",
+      "type": "application/json",
+      "title": "Castilla y Leon",
+      "id": "ES41a",
+      "latlng": "41.8375,-4.3976",
+      "country": "ES",
+      "name": "Castilla y Leon"
+    },
+    {
+      "rel": "child",
+      "href": "./ES41b/collection.json",
+      "type": "application/json",
+      "title": "Castilla y Leon",
+      "id": "ES41b",
+      "latlng": "41.8376,-4.3976",
+      "country": "ES",
+      "name": "Castilla y Leon"
+    },
+    {
+      "rel": "child",
+      "href": "./ES42a/collection.json",
+      "type": "application/json",
+      "title": "Castilla-La Mancha",
+      "id": "ES42a",
+      "latlng": "39.743,-3.125",
+      "country": "ES",
+      "name": "Castilla-La Mancha"
+    },
+    {
+      "rel": "child",
+      "href": "./ES42b/collection.json",
+      "type": "application/json",
+      "title": "Castilla-La Mancha",
+      "id": "ES42b",
+      "latlng": "39.7431,-3.125",
+      "country": "ES",
+      "name": "Castilla-La Mancha"
+    },
+    {
+      "rel": "child",
+      "href": "./ES43a/collection.json",
+      "type": "application/json",
+      "title": "Extremadura",
+      "id": "ES43a",
+      "latlng": "39.165,-6.138",
+      "country": "ES",
+      "name": "Extremadura"
+    },
+    {
+      "rel": "child",
+      "href": "./ES43b/collection.json",
+      "type": "application/json",
+      "title": "Extremadura",
+      "id": "ES43b",
+      "latlng": "39.166,-6.138",
+      "country": "ES",
+      "name": "Extremadura"
+    },
+    {
+      "rel": "child",
+      "href": "./ES51a/collection.json",
+      "type": "application/json",
+      "title": "Cataluna",
+      "id": "ES51a",
+      "latlng": "41.859,1.486",
+      "country": "ES",
+      "name": "Cataluna"
+    },
+    {
+      "rel": "child",
+      "href": "./ES51b/collection.json",
+      "type": "application/json",
+      "title": "Cataluna",
+      "id": "ES51b",
+      "latlng": "41.8591,1.486",
+      "country": "ES",
+      "name": "Cataluna"
+    },
+    {
+      "rel": "child",
+      "href": "./ES52a/collection.json",
+      "type": "application/json",
+      "title": "Comunidad Valenciana",
+      "id": "ES52a",
+      "latlng": "39.531,-0.632",
+      "country": "ES",
+      "name": "Comunidad Valenciana"
+    },
+    {
+      "rel": "child",
+      "href": "./ES52b/collection.json",
+      "type": "application/json",
+      "title": "Comunidad Valenciana",
+      "id": "ES52b",
+      "latlng": "39.5311,-0.632",
+      "country": "ES",
+      "name": "Comunidad Valenciana"
+    },
+    {
+      "rel": "child",
+      "href": "./ES61a/collection.json",
+      "type": "application/json",
+      "title": "Andalucia",
+      "id": "ES61a",
+      "latlng": "37.549,-4.872",
+      "country": "ES",
+      "name": "Andalucia"
+    },
+    {
+      "rel": "child",
+      "href": "./ES61b/collection.json",
+      "type": "application/json",
+      "title": "Andalucia",
+      "id": "ES61b",
+      "latlng": "37.5491,-4.872",
+      "country": "ES",
+      "name": "Andalucia"
+    },
+    {
+      "rel": "child",
+      "href": "./ES62a/collection.json",
+      "type": "application/json",
+      "title": "Region de Murcia",
+      "id": "ES62a",
+      "latlng": "37.918,-1.334",
+      "country": "ES",
+      "name": "Region de Murcia"
+    },
+    {
+      "rel": "child",
+      "href": "./ES62b/collection.json",
+      "type": "application/json",
+      "title": "Region de Murcia",
+      "id": "ES62b",
+      "latlng": "37.919,-1.334",
+      "country": "ES",
+      "name": "Region de Murcia"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harvested parcels"
+    }
+  ],
+  "subtitle": "Evolution of harvested parcels in percentage",
+  "yAxis": "Cumulative (%)",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "Copernicus",
+    "Sen4CAP",
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA",
+    "NASA",
+    "USGS"
+  ],
+  "subcode": "E10a6",
+  "sensor": [
+    "C-SAR",
+    "MSI",
+    "OLI"
+  ],
+  "satellite": [
+    "Sentinel-1",
+    "Sentinel-2",
+    "Landsat-8"
+  ],
+  "locations": true,
+  "endpointtype": "GeoDB",
+  "title": "Harvested parcels",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -6.148,
+          37.539,
+          1.496,
+          42.653999999999996
+        ],
+        [
+          -1.658,
+          42.633,
+          -1.638,
+          42.653
+        ],
+        [
+          -1.658,
+          42.634,
+          -1.638,
+          42.653999999999996
+        ],
+        [
+          -2.5149999999999997,
+          42.302,
+          -2.495,
+          42.321999999999996
+        ],
+        [
+          -2.5149999999999997,
+          42.303000000000004,
+          -2.495,
+          42.323
+        ],
+        [
+          -0.656,
+          41.435,
+          -0.636,
+          41.455
+        ],
+        [
+          -0.656,
+          41.4345,
+          -0.636,
+          41.454499999999996
+        ],
+        [
+          -3.739,
+          40.399,
+          -3.7190000000000003,
+          40.419
+        ],
+        [
+          -3.739,
+          40.3995,
+          -3.7190000000000003,
+          40.4195
+        ],
+        [
+          -4.4075999999999995,
+          41.8275,
+          -4.3876,
+          41.8475
+        ],
+        [
+          -4.4075999999999995,
+          41.827600000000004,
+          -4.3876,
+          41.8476
+        ],
+        [
+          -3.135,
+          39.733000000000004,
+          -3.115,
+          39.753
+        ],
+        [
+          -3.135,
+          39.7331,
+          -3.115,
+          39.753099999999996
+        ],
+        [
+          -6.148,
+          39.155,
+          -6.128,
+          39.175
+        ],
+        [
+          -6.148,
+          39.156,
+          -6.128,
+          39.175999999999995
+        ],
+        [
+          1.476,
+          41.849000000000004,
+          1.496,
+          41.869
+        ],
+        [
+          1.476,
+          41.8491,
+          1.496,
+          41.869099999999996
+        ],
+        [
+          -0.642,
+          39.521,
+          -0.622,
+          39.541
+        ],
+        [
+          -0.642,
+          39.521100000000004,
+          -0.622,
+          39.5411
+        ],
+        [
+          -4.882,
+          37.539,
+          -4.862,
+          37.559
+        ],
+        [
+          -4.882,
+          37.539100000000005,
+          -4.862,
+          37.5591
+        ],
+        [
+          -1.344,
+          37.908,
+          -1.324,
+          37.928
+        ],
+        [
+          -1.344,
+          37.909,
+          -1.324,
+          37.928999999999995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-05-17T00:00:00Z",
+          "2020-08-02T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "FEGA",
+      "url": "https://www.fega.gob.es/en"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "Comunidad Foral de Navarra",
+      "La Rioja",
+      "Aragon",
+      "Comunidad de Madrid",
+      "Castilla y Leon",
+      "Castilla-La Mancha",
+      "Extremadura",
+      "Cataluna",
+      "Comunidad Valenciana",
+      "Andalucia",
+      "Region de Murcia"
+    ],
+    "countries": [
+      "ES"
+    ]
+  }
+}
