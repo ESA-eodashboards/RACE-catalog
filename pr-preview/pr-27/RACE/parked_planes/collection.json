@@ -161,7 +161,7 @@
     }
   ],
   "subtitle": "Parked planes detected on Sentinel-2 data",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/13b_parked_planes/E13b_parked_planes_photo.jpg",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg",
   "themes": [
     "economy"
   ],
@@ -226,33 +226,33 @@
       "MSI"
     ],
     "countries": [
+      "GR",
+      "NL",
+      "IT",
+      "SE",
+      "AT",
+      "ES",
+      "BE",
       "FR",
+      "PL",
+      "CH",
+      "IE",
+      "FI",
+      "GB",
+      "DE",
       "PT",
       "DK",
-      "IE",
       "UK",
-      "PL",
-      "SE",
-      "ES",
       "NO",
-      "GB",
-      "NL",
-      "GR",
-      "FI",
-      "BE",
-      "AT",
-      "TR",
-      "DE",
-      "IT",
-      "CH"
+      "TR"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/13b_parked_planes/E13b_parked_planes_photo.jpg"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/13b_parked_planes/E13b_parked_planes_photo.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

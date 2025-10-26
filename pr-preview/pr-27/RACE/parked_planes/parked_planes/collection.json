@@ -328,7 +328,7 @@
     }
   ],
   "subtitle": "Parked planes detected on Sentinel-2 data",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/13b_parked_planes/E13b_parked_planes_photo.jpg",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg",
   "yAxis": "Time series of airport throughput",
   "themes": [
     "economy"
@@ -590,7 +590,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/13b_parked_planes/E13b_parked_planes_photo.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
