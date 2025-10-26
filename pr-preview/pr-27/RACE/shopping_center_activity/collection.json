@@ -189,17 +189,17 @@
     ],
     "cities": [
       "Bucharest",
+      "Athens",
+      "Rome",
       "Brussels",
       "Warsaw",
-      "Milan",
-      "Athens",
-      "Rome"
+      "Milan"
     ],
     "countries": [
-      "BE",
-      "GR",
-      "PL",
       "IT",
+      "PL",
+      "GR",
+      "BE",
       "RO"
     ],
     "thumbnail": [
