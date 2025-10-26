@@ -1,0 +1,443 @@
+{
+  "type": "Collection",
+  "id": "E10a10_harvesting_evolution_winter_cereal",
+  "stac_version": "1.1.0",
+  "description": "## Monitoring row crops harvesting with SAR data\n\nThis dataset illustrates monitoring of row crops harvesting activities by means of [Copernicus Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) \nbackscatter and coherence time series for the 2020 season. It is evaluated for winter rapeseed and winter cereals. \nThe indicator was produced in the frame of the ESA-funded study “Impact of COVID-19 on Harvest of Row Crops” conducted by [VISTA Remote Sensing in Geosciences GmbH](https://www.vista-geo.de/) that attempted to quantify whether there were any significant delays in harvesting due to COVID-19. The indicator compares the harvest dates observed from Sentinel-1 data to the expected harvest progress simulated with VISTA’s YPSILON® yield prediction service which is based on an advanced physically-based crop growth model that considers natural environmental conditions (e.g., meteorological information), as well as the crop ripening process information from optical Copernicus Sentinel-2 data to estimate an expected harvest date.\n\nA significant delay of the observed harvest to the modelled harvest could indicate that the COVID-19 pandemic had disruptive effects on the agricultural service chain and harvesting measures, but no conclusive statement can be made.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./ATa/collection.json",
+      "type": "application/json",
+      "title": "Austria",
+      "id": "ATa",
+      "latlng": "47.58549439, 14.1264761",
+      "country": "AT",
+      "name": "Austria"
+    },
+    {
+      "rel": "child",
+      "href": "./BGa/collection.json",
+      "type": "application/json",
+      "title": "Bulgaria",
+      "id": "BGa",
+      "latlng": "42.76890318, 25.21552909",
+      "country": "BG",
+      "name": "Bulgaria"
+    },
+    {
+      "rel": "child",
+      "href": "./CZa/collection.json",
+      "type": "application/json",
+      "title": "Czech Republic",
+      "id": "CZa",
+      "latlng": "49.73341233, 15.31240163",
+      "country": "CZ",
+      "name": "Czech Republic"
+    },
+    {
+      "rel": "child",
+      "href": "./DEa/collection.json",
+      "type": "application/json",
+      "title": "Germany",
+      "id": "DEa",
+      "latlng": "51.10698181, 10.38578051",
+      "country": "DE",
+      "name": "Germany"
+    },
+    {
+      "rel": "child",
+      "href": "./DKa/collection.json",
+      "type": "application/json",
+      "title": "Denmark",
+      "id": "DKa",
+      "latlng": "56.00508703, 9.19078239",
+      "country": "DK",
+      "name": "Denmark"
+    },
+    {
+      "rel": "child",
+      "href": "./EEa/collection.json",
+      "type": "application/json",
+      "title": "Estonia",
+      "id": "EEa",
+      "latlng": "58.67192972, 25.54248537",
+      "country": "EE",
+      "name": "Estonia"
+    },
+    {
+      "rel": "child",
+      "href": "./ESa/collection.json",
+      "type": "application/json",
+      "title": "Spain",
+      "id": "ESa",
+      "latlng": "40.24448698, -3.64755047",
+      "country": "ES",
+      "name": "Spain"
+    },
+    {
+      "rel": "child",
+      "href": "./FRa/collection.json",
+      "type": "application/json",
+      "title": "France",
+      "id": "FRa",
+      "latlng": "46.83976635, 2.54675178",
+      "country": "FR",
+      "name": "France"
+    },
+    {
+      "rel": "child",
+      "href": "./HRa/collection.json",
+      "type": "application/json",
+      "title": "Croatia",
+      "id": "HRa",
+      "latlng": "45.69528808, 16.21904979",
+      "country": "HR",
+      "name": "Croatia"
+    },
+    {
+      "rel": "child",
+      "href": "./HUa/collection.json",
+      "type": "application/json",
+      "title": "Hungary",
+      "id": "HUa",
+      "latlng": "47.16277506, 19.39559116",
+      "country": "HU",
+      "name": "Hungary"
+    },
+    {
+      "rel": "child",
+      "href": "./ITa/collection.json",
+      "type": "application/json",
+      "title": "Italy",
+      "id": "ITa",
+      "latlng": "42.79662641, 12.07001339",
+      "country": "IT",
+      "name": "Italy"
+    },
+    {
+      "rel": "child",
+      "href": "./LTa/collection.json",
+      "type": "application/json",
+      "title": "Lithuania",
+      "id": "LTa",
+      "latlng": "55.32610984, 23.88719355",
+      "country": "LT",
+      "name": "Lithuania"
+    },
+    {
+      "rel": "child",
+      "href": "./LVa/collection.json",
+      "type": "application/json",
+      "title": "Latvia",
+      "id": "LVa",
+      "latlng": "56.85085163, 24.91235983",
+      "country": "LV",
+      "name": "Latvia"
+    },
+    {
+      "rel": "child",
+      "href": "./PLa/collection.json",
+      "type": "application/json",
+      "title": "Poland",
+      "id": "PLa",
+      "latlng": "52.12759564, 19.39012835",
+      "country": "PL",
+      "name": "Poland"
+    },
+    {
+      "rel": "child",
+      "href": "./ROa/collection.json",
+      "type": "application/json",
+      "title": "Romania",
+      "id": "ROa",
+      "latlng": "45.85243127, 24.97293039",
+      "country": "RO",
+      "name": "Romania"
+    },
+    {
+      "rel": "child",
+      "href": "./RSa/collection.json",
+      "type": "application/json",
+      "title": "Serbia",
+      "id": "RSa",
+      "latlng": "44.2215032, 20.78958334",
+      "country": "RS",
+      "name": "Serbia"
+    },
+    {
+      "rel": "child",
+      "href": "./SEa/collection.json",
+      "type": "application/json",
+      "title": "Sweden",
+      "id": "SEa",
+      "latlng": "57.98490795, 14.4552277",
+      "country": "SE",
+      "name": "Sweden"
+    },
+    {
+      "rel": "child",
+      "href": "./SKa/collection.json",
+      "type": "application/json",
+      "title": "Slovak Republic",
+      "id": "SKa",
+      "latlng": "48.70547528, 19.47905218",
+      "country": "SK",
+      "name": "Slovak Republic"
+    },
+    {
+      "rel": "child",
+      "href": "./UKa/collection.json",
+      "type": "application/json",
+      "title": "United Kingdom",
+      "id": "UKa",
+      "latlng": "52.98939775, -1.77396816",
+      "country": "GB",
+      "name": "United Kingdom"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter cereal"
+    }
+  ],
+  "subtitle": "Monitoring row crop harvesting with satellite data",
+  "yAxis": "Cumulative (%)",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "Copernicus",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E10a10",
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "locations": true,
+  "endpointtype": "GeoDB",
+  "title": "Harvesting evolution winter cereal",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -3.65755047,
+          40.23448698,
+          25.552485370000003,
+          58.68192972
+        ],
+        [
+          14.1164761,
+          47.57549439,
+          14.1364761,
+          47.59549439
+        ],
+        [
+          25.20552909,
+          42.758903180000004,
+          25.225529090000002,
+          42.77890318
+        ],
+        [
+          15.30240163,
+          49.72341233,
+          15.32240163,
+          49.74341233
+        ],
+        [
+          10.37578051,
+          51.09698181,
+          10.39578051,
+          51.11698181
+        ],
+        [
+          9.180782390000001,
+          55.99508703,
+          9.20078239,
+          56.01508703
+        ],
+        [
+          25.53248537,
+          58.66192972,
+          25.552485370000003,
+          58.68192972
+        ],
+        [
+          -3.65755047,
+          40.23448698,
+          -3.6375504700000003,
+          40.254486979999996
+        ],
+        [
+          2.5367517800000003,
+          46.82976635,
+          2.55675178,
+          46.849766349999996
+        ],
+        [
+          16.209049789999998,
+          45.68528808,
+          16.22904979,
+          45.705288079999995
+        ],
+        [
+          19.385591159999997,
+          47.15277506,
+          19.40559116,
+          47.17277506
+        ],
+        [
+          12.06001339,
+          42.786626410000004,
+          12.08001339,
+          42.80662641
+        ],
+        [
+          23.877193549999998,
+          55.31610984,
+          23.89719355,
+          55.33610984
+        ],
+        [
+          24.902359829999998,
+          56.84085163,
+          24.92235983,
+          56.86085163
+        ],
+        [
+          19.38012835,
+          52.117595640000005,
+          19.400128350000003,
+          52.13759564
+        ],
+        [
+          24.962930389999997,
+          45.84243127,
+          24.98293039,
+          45.862431269999995
+        ],
+        [
+          20.77958334,
+          44.2115032,
+          20.79958334,
+          44.2315032
+        ],
+        [
+          14.4452277,
+          57.97490795,
+          14.4652277,
+          57.99490795
+        ],
+        [
+          19.46905218,
+          48.695475280000004,
+          19.48905218,
+          48.71547528
+        ],
+        [
+          -1.78396816,
+          52.979397750000004,
+          -1.76396816,
+          52.99939775
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-05-01T00:00:00Z",
+          "2020-11-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Vista",
+      "url": "https://www.vista-geo.de/"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "Austria",
+      "Bulgaria",
+      "Czech Republic",
+      "Germany",
+      "Denmark",
+      "Estonia",
+      "Spain",
+      "France",
+      "Croatia",
+      "Hungary",
+      "Italy",
+      "Lithuania",
+      "Latvia",
+      "Poland",
+      "Romania",
+      "Serbia",
+      "Sweden",
+      "Slovak Republic",
+      "United Kingdom"
+    ],
+    "countries": [
+      "AT",
+      "BG",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FR",
+      "HR",
+      "HU",
+      "IT",
+      "LT",
+      "LV",
+      "PL",
+      "RO",
+      "RS",
+      "SE",
+      "SK",
+      "GB"
+    ]
+  },
+  "assets": {
+    "reference_1": {
+      "href": "https://eo4society.esa.int/projects/impact-of-covid-19-on-harvest-of-row-crop/",
+      "type": "text/html",
+      "title": "Impact of COVID-19 on harvest of row crop",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://ypsilon.services/#news",
+      "type": "text/html",
+      "title": "YPSILON",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://foodsecurity-tep.net/node/291",
+      "type": "text/html",
+      "title": "Food Security TEP",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

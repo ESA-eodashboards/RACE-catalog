@@ -31,8 +31,8 @@
         "TROPOMI"
       ],
       "cities": [
-        "Genoa",
-        "Gioia Tauro"
+        "Gioia Tauro",
+        "Genoa"
       ],
       "countries": [
         "IT"
@@ -69,41 +69,41 @@
         "/"
       ],
       "countries": [
-        "Sweden",
-        "Bulgaria",
-        "Albania",
-        "Netherlands",
-        "Romania",
-        "Spain",
-        "United Kingdom",
-        "Belgium",
+        "North Macedonia",
         "Czechia",
-        "Poland",
-        "Croatia",
-        "Greece",
-        "Hungary",
+        "Spain",
+        "Slovakia",
         "Latvia",
-        "Estonia",
         "Norway",
+        "Austria",
+        "Romania",
+        "Kosovo",
+        "Croatia",
         "Switzerland",
-        "Bosnia and Herzegovina",
+        "Bulgaria",
+        "Ireland",
+        "Poland",
         "Portugal",
-        "France",
+        "Luxembourg",
         "Lithuania",
         "Turkey",
-        "Germany",
-        "North Macedonia",
-        "Luxembourg",
-        "Ireland",
-        "Slovakia",
-        "Finland",
+        "France",
+        "United Kingdom",
+        "Netherlands",
+        "Hungary",
+        "Bosnia and Herzegovina",
+        "Greece",
+        "Italy",
+        "Albania",
         "Serbia",
-        "Austria",
-        "Kosovo",
+        "Slovenia",
+        "Estonia",
+        "Belgium",
         "Denmark",
         "Malta",
-        "Slovenia",
-        "Italy"
+        "Germany",
+        "Sweden",
+        "Finland"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CV_Covid_19_cases/CV_Covid_19_cases_photo.jpg"
@@ -118,6 +118,74 @@
       ],
       "insituSources": [
         "Other"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./E10a10_harvesting_evolution_winter_cereal/collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter cereal",
+      "subtitle": "Monitoring row crop harvesting with satellite data",
+      "code": "E10a10",
+      "id": "E10a10_harvesting_evolution_winter_cereal",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a10",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "cities": [
+        "Spain",
+        "Latvia",
+        "Slovak Republic",
+        "Austria",
+        "Romania",
+        "Croatia",
+        "Bulgaria",
+        "Poland",
+        "Lithuania",
+        "France",
+        "Czech Republic",
+        "United Kingdom",
+        "Hungary",
+        "Italy",
+        "Serbia",
+        "Estonia",
+        "Denmark",
+        "Germany",
+        "Sweden"
+      ],
+      "countries": [
+        "DK",
+        "CZ",
+        "DE",
+        "LV",
+        "SK",
+        "LT",
+        "PL",
+        "EE",
+        "FR",
+        "BG",
+        "GB",
+        "HR",
+        "HU",
+        "RO",
+        "AT",
+        "ES",
+        "SE",
+        "IT",
+        "RS"
+      ],
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
       ]
     },
     {
@@ -139,8 +207,8 @@
         "MSI"
       ],
       "cities": [
-        "Huelva (Lagunas de las Madres)",
-        "Brandenburg"
+        "Brandenburg",
+        "Huelva (Lagunas de las Madres)"
       ],
       "countries": [
         "DE",
@@ -288,17 +356,17 @@
         "OLI"
       ],
       "cities": [
-        "Comunidad Foral de Navarra",
-        "Cataluna",
-        "Comunidad Valenciana",
-        "Comunidad de Madrid",
-        "Extremadura",
         "Aragon",
-        "Castilla y Leon",
-        "Andalucia",
-        "La Rioja",
+        "Comunidad de Madrid",
         "Region de Murcia",
-        "Castilla-La Mancha"
+        "La Rioja",
+        "Comunidad Foral de Navarra",
+        "Extremadura",
+        "Cataluna",
+        "Castilla y Leon",
+        "Castilla-La Mancha",
+        "Andalucia",
+        "Comunidad Valenciana"
       ],
       "countries": [
         "ES"
@@ -373,18 +441,18 @@
         "C-SAR"
       ],
       "cities": [
-        "Bucharest",
         "Brussels",
-        "Rome",
+        "Bucharest",
         "Warsaw",
-        "Milan",
-        "Athens"
+        "Rome",
+        "Athens",
+        "Milan"
       ],
       "countries": [
+        "GR",
         "BE",
         "RO",
         "IT",
-        "GR",
         "PL"
       ],
       "thumbnail": [
@@ -460,52 +528,52 @@
         "MSI"
       ],
       "cities": [
+        "Brussels",
+        "Vienna",
+        "Zurich",
+        "Athens",
+        "Helsinki",
+        "Barcelona",
+        "Paris",
+        "Munich",
+        "Dusseldorf",
+        "Copenhagen",
+        "Malaga",
         "Lisbon",
-        "Oslo",
         "Istanbul",
+        "Rome",
         "Berlin",
         "Amsterdam",
-        "Warsaw",
-        "Helsinki",
-        "Paris",
-        "Malaga",
-        "London",
-        "Frankfurt",
-        "Munich",
-        "Brussels",
-        "Dusseldorf",
         "Palma de Mallorca",
-        "Manchester",
-        "Milan",
-        "Copenhagen",
         "Madrid",
-        "Barcelona",
-        "Zurich",
-        "Stockholm",
-        "Rome",
+        "London",
+        "Oslo",
+        "Manchester",
+        "Frankfurt",
         "Dublin",
-        "Athens",
-        "Vienna"
+        "Warsaw",
+        "Milan",
+        "Stockholm"
       ],
       "countries": [
-        "FR",
         "DE",
+        "TR",
+        "PT",
+        "NO",
+        "GR",
+        "BE",
+        "FR",
+        "AT",
+        "IE",
+        "ES",
+        "SE",
+        "IT",
         "GB",
         "PL",
-        "NL",
-        "ES",
-        "TR",
-        "FI",
-        "DK",
-        "GR",
-        "PT",
-        "IT",
-        "AT",
-        "BE",
-        "NO",
         "CH",
-        "IE",
-        "SE"
+        "FI",
+        "NL",
+        "DK"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg"
@@ -534,8 +602,8 @@
       ],
       "subcode": "E13e",
       "cities": [
-        "Genoa",
-        "Gioia Tauro"
+        "Gioia Tauro",
+        "Genoa"
       ],
       "countries": [
         "IT"
@@ -568,8 +636,8 @@
       ],
       "subcode": "E13f",
       "cities": [
-        "Genoa",
-        "Gioia Tauro"
+        "Gioia Tauro",
+        "Genoa"
       ],
       "countries": [
         "IT"
@@ -641,38 +709,38 @@
         "C-SAR"
       ],
       "cities": [
-        "Dingolfing",
-        "Nosovice",
-        "Mioveni",
         "Saarlouis",
-        "Emden",
-        "Sindelfingen",
-        "Craiova",
-        "Russelsheim",
-        "Martorell",
         "Kvasiny",
         "Zwickau",
-        "Leipzig",
-        "Koln",
-        "Neckarsulm",
-        "Ghent",
-        "Ingolstadt",
-        "Wolfsburg",
-        "Eisenach",
-        "Regensburg",
-        "Bremen",
         "Swindon",
+        "Russelsheim",
+        "Wolfsburg",
+        "Ghent",
+        "Barcelona",
+        "Leipzig",
+        "Dingolfing",
+        "Ingolstadt",
+        "Eisenach",
+        "Sindelfingen",
+        "Mioveni",
+        "Koln",
+        "Bremen",
+        "Regensburg",
+        "Craiova",
         "Cassino",
-        "Barcelona"
+        "Emden",
+        "Nosovice",
+        "Martorell",
+        "Neckarsulm"
       ],
       "countries": [
+        "CZ",
         "DE",
-        "GB",
-        "ES",
+        "BE",
         "RO",
         "IT",
-        "CZ",
-        "BE"
+        "GB",
+        "ES"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg"
@@ -832,41 +900,41 @@
         "/"
       ],
       "countries": [
-        "Sweden",
-        "Bulgaria",
-        "Albania",
-        "Netherlands",
-        "Romania",
-        "Spain",
-        "United Kingdom",
-        "Belgium",
+        "North Macedonia",
         "Czechia",
-        "Poland",
-        "Croatia",
-        "Greece",
-        "Hungary",
+        "Spain",
+        "Slovakia",
         "Latvia",
-        "Estonia",
         "Norway",
+        "Austria",
+        "Romania",
+        "Kosovo",
+        "Croatia",
         "Switzerland",
-        "Bosnia and Herzegovina",
+        "Bulgaria",
+        "Ireland",
+        "Poland",
         "Portugal",
-        "France",
+        "Luxembourg",
         "Lithuania",
         "Turkey",
-        "Germany",
-        "North Macedonia",
-        "Luxembourg",
-        "Ireland",
-        "Slovakia",
-        "Finland",
+        "France",
+        "United Kingdom",
+        "Netherlands",
+        "Hungary",
+        "Bosnia and Herzegovina",
+        "Greece",
+        "Italy",
+        "Albania",
         "Serbia",
-        "Austria",
-        "Kosovo",
+        "Slovenia",
+        "Estonia",
+        "Belgium",
         "Denmark",
         "Malta",
-        "Slovenia",
-        "Italy"
+        "Germany",
+        "Sweden",
+        "Finland"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OW_Covid_19_vaccinations/OW_Covid_19_vaccinations_photo.jpg"
@@ -904,43 +972,43 @@
         "MSI"
       ],
       "cities": [
-        "Omisalj",
-        "Sarroch",
-        "Corinth",
-        "Teesport",
-        "Wilhelmshaven",
-        "Cartagena",
-        "Tarragona",
-        "Grangemouth",
-        "Schwechat",
-        "Antwerp",
-        "Elefsina",
         "Trieste",
+        "Elefsina",
+        "Thessaloniki",
+        "Cork",
+        "Pachi",
+        "Fos-Lavera",
+        "Rotterdam",
+        "Antwerp",
+        "Sarroch",
+        "Wilhelmshaven",
+        "Finnart",
+        "Algeciras",
+        "Tarragona",
+        "Sullom Voe",
+        "Grangemouth",
+        "Le Havre",
         "Godorf Wesseling",
+        "Schwechat",
+        "Corinth",
         "Dalmeny",
         "Aspropyrgos",
-        "Le Havre",
-        "Fos-Lavera",
-        "Sullom Voe",
-        "Cork",
-        "Algeciras",
-        "Finnart",
-        "Thessaloniki",
-        "Rotterdam",
-        "Pachi"
+        "Teesport",
+        "Cartagena",
+        "Omisalj"
       ],
       "countries": [
-        "FR",
-        "HR",
         "DE",
-        "GB",
-        "NL",
-        "ES",
         "GR",
-        "IT",
-        "AT",
         "BE",
-        "IE"
+        "FR",
+        "AT",
+        "IE",
+        "IT",
+        "GB",
+        "HR",
+        "ES",
+        "NL"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"
