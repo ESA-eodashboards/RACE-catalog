@@ -1,0 +1,151 @@
+{
+  "type": "Collection",
+  "id": "intermediate_goods_production",
+  "stac_version": "1.1.0",
+  "description": "## Intermediate goods production\n\nThis indicator illustrates the level of intermediate goods production (steel mills/other metal, cement, chemicals/plastics) at various industrial sites by means of very high resolution optical imagery.\nThe indicator is based on the assessment of relevant areas at production sites, such as employee car park (full/empty), exhaust plumes (steam etc), thermal signature (furnace heat, cooling water etc). The status of the area is assessed based n very high resolution optical imagery and is compared to a baseline (for example the situation in the same month one year before).\n\nBelow is an example of car detection for estimating occupancy and activity status related to the site.\n<div class=\"image-caption-object\">\n        <img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E4_intermediate_goods_production/E4.png\" alt=\"Image\" style=\"width: 50%;\" />\n        <div>Hamburg industrial area: Pleiades on 2020-03-24</div>\n</div>\n\n    \n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./intermediate_goods_production/collection.json",
+      "type": "application/json",
+      "title": "Intermediate goods production",
+      "endpointtype": "GeoDB",
+      "subtitle": "Assessment of intermediate goods production sites (steel mills/other metal production, cement production, chemicals/plastics production).",
+      "code": "E4",
+      "id": "intermediate_goods_production",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Hamburg",
+        "Genoa"
+      ],
+      "countries": [
+        "DE",
+        "IT"
+      ],
+      "yAxis": "Number of parked cars ",
+      "tags": [
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E4"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E4?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "method": "GET",
+      "id": "E4"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Assessment of intermediate goods production sites (steel mills/other metal production, cement production, chemicals/plastics production).",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E4",
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "title": "Intermediate goods production",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.875851,
+          44.398142,
+          9.954467,
+          53.542123
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-04-30T10:33:52Z",
+          "2020-04-09T10:26:12Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "E4"
+    ],
+    "themes": [
+      "economy"
+    ],
+    "cities": [
+      "Genoa",
+      "Hamburg"
+    ],
+    "countries": [
+      "DE",
+      "IT"
+    ]
+  }
+}
