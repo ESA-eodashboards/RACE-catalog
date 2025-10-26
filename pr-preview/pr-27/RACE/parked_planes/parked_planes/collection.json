@@ -1,0 +1,600 @@
+{
+  "type": "Collection",
+  "id": "parked_planes",
+  "stac_version": "1.1.0",
+  "description": "## Time series of parked airplanes \r\n\r\nAir travel is a highly strategic sector, heavily contributing in Europe to employment and national GDP. It is also an obvious indicator of international mobility, and thus is closely linked to tourism economic activity, which is also crucial for most European countries. \r\nBy applying plane detection to Sentinel-2 imagery, Aerospacelab extracts the number of planes observed in time series. This enables the comparison between the number of grounded planes between different years. Aerospacelab also extracts information on aircraft storage location, operating the distinction between conventional zones and unconventional zones (taxiways and runways). While continued use of unconventional zones would indicate continuing practice, decreasing use normally indicates a return to normal level of airport activities following a disrupction on activities.  \r\n\r\n### Aircraft storage indicator\r\nThrough its airport activity monitoring indicator, Aerospacelab monitors 10 European airports, with a focus on aircraft storage. \r\n\r\n\r\n## The impacts of COVID-19 on air travel \r\nCommercial aviation is one of the sectors that has logically been hit the hardest throughout the Covid crisis. As countries closed borders and limited travel, demand plummeted, leading to a heavy decrease in air travel. Europe has been no exception, with European airline’s activities almost fully coming to a halt, and estimations of [revenue losses for airlines as important as 90%](https://ec.europa.eu/commission/commissioners/2019-2024/breton/announcements/speech-commissioner-breton-marshall-plan-european-tourism_en).  \r\n\r\nThe Eurocontrol publication on number of flights shows a striking difference between 2019 and 2020.  A sharp decrease in number of flights was observed mid-March and the difference between 2019 and 2020 reached 80% by April and followed a steady trajectory under flight restrictions measures. \r\n\r\n![](eodash-data/stories/E13b_Fig1.png)\r\n\r\n*Figure 1: [Flights over Europe 2019-2020 Compared](https://www.eurocontrol.int/Economics/DailyTrafficVariation-States.html)*\r\n\r\nSuch a crippling reduction in air travel inevitably required intervention at the national and EU level. At national level, states looked for various forms of bailouts some valued at more than 10 billion Euros. Airlines industry supports 2.6 million jobs directly and generate 192 billion Euros in direct economic activity, making it a vital part of economy.\r\n  \r\nAs such monitoring the recent downturn in aircraft activity as well as its recovery, as borders gradually reopen, is of high interest, notably for European policy makers. Air travel activity can additionally be used as a proxy for economic demand recovery. \r\n\r\n\r\n\r\n\r\n#### Abnormal aircraft storage indicator\r\nThe air travel limitations led to airports becoming flooded with grounded planes. As available parking lots for planes became insufficient other paved surfaces in the airports -such as taxiways- started being used for temporary parking. Indicator results have, for the most part, been consistent with regards to expectations. \r\n\r\nThe number of planes grounded worldwide signifies that airlines lack space to store their aircrafts, as long as demand does not resume. Chateauroux airport, France, is thus [renting parking spots](https://www.reuters.com/article/us-health-coronavirus-aircraft-chateauro/grounded-jets-boost-frances-historic-chateauroux-airport-idUSKBN23M1WN), among others to Airbus and British Airways. The result is a considerable increase of the number of planes detected. A growth exceeding 800% when compared to the 2019 baseline was recorded by May. \r\n\r\n![](eodash-data/stories/E13b_Fig2.png)\r\n\r\n*Figure 2: Parked airplanes in Chateauroux-Centre airport in 2020 (compared to 2019 baseline)*\r\n\r\n![](eodash-data/stories/E13b_Fig3.png)\r\n\r\n*Figure 3: Parked airplanes in Frankfurt airport in 2020 (compared to 2019 baseline)*\r\n\r\nA drop in more recent data points, as seen in Frankfurt, indicates that the airlines most probably claimed their planes back, which is a clear sign of activity recovery. \r\n\r\nInformation on unconventional zone occupation is valuable, as it provides insights on how over-used the airport is. Data for Chateauroux and Frankfurt is this time presented in actual number of planes detected, rather than percentage relative to the year 2019. \r\n\r\n![](eodash-data/stories/E13b_Fig4.png)\r\n\r\n*Figure 4: Unconventionally parked airplanes in Chateauroux-Centre (compared to 2019)*\r\n\r\n![](eodash-data/stories/E13b_Fig5.png)\r\n\r\n*Figure 5: Unconventionally parked airplanes in Frankfurt (compared to 2019)*\r\n\r\nThese time series similarly indicate that Chateauroux airport remained, until June, overused for parking spaces. Frankfurt on the other hand seems back to pre-crisis levels of unconventional zones occupation. \r\n\r\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./AT4/collection.json",
+      "type": "application/json",
+      "title": "Vienna",
+      "id": "AT4",
+      "latlng": "48.1062,16.5685",
+      "country": "AT",
+      "name": "Vienna"
+    },
+    {
+      "rel": "child",
+      "href": "./BE6/collection.json",
+      "type": "application/json",
+      "title": "Brussels",
+      "id": "BE6",
+      "latlng": "50.9008,4.4840",
+      "country": "BE",
+      "name": "Brussels"
+    },
+    {
+      "rel": "child",
+      "href": "./CH1/collection.json",
+      "type": "application/json",
+      "title": "Zurich",
+      "id": "CH1",
+      "latlng": "47.451542,8.564572",
+      "country": "CH",
+      "name": "Zurich"
+    },
+    {
+      "rel": "child",
+      "href": "./DE12/collection.json",
+      "type": "application/json",
+      "title": "Muenchen",
+      "id": "DE12",
+      "latlng": "48.35344398201118,11.781958961375517",
+      "country": "DE",
+      "name": "Muenchen"
+    },
+    {
+      "rel": "child",
+      "href": "./DE14/collection.json",
+      "type": "application/json",
+      "title": "Dusseldorf",
+      "id": "DE14",
+      "latlng": "51.2870,6.7667",
+      "country": "DE",
+      "name": "Dusseldorf"
+    },
+    {
+      "rel": "child",
+      "href": "./DE15/collection.json",
+      "type": "application/json",
+      "title": "Berlin",
+      "id": "DE15",
+      "latlng": "52.36124,13.492333",
+      "country": "DE",
+      "name": "Berlin"
+    },
+    {
+      "rel": "child",
+      "href": "./DE6/collection.json",
+      "type": "application/json",
+      "title": "Frankfurt",
+      "id": "DE6",
+      "latlng": "50.03417529740082,8.553651954534535",
+      "country": "DE",
+      "name": "Frankfurt"
+    },
+    {
+      "rel": "child",
+      "href": "./DK1/collection.json",
+      "type": "application/json",
+      "title": "Copenhagen",
+      "id": "DK1",
+      "latlng": "55.620750,12.650462",
+      "country": "DK",
+      "name": "Copenhagen"
+    },
+    {
+      "rel": "child",
+      "href": "./ES10/collection.json",
+      "type": "application/json",
+      "title": "Madrid",
+      "id": "ES10",
+      "latlng": "40.493475736010851,-3.566288968675247",
+      "country": "ES",
+      "name": "Madrid"
+    },
+    {
+      "rel": "child",
+      "href": "./ES11/collection.json",
+      "type": "application/json",
+      "title": "Barcelona",
+      "id": "ES11",
+      "latlng": "41.296657915514594,2.0857359721622024",
+      "country": "ES",
+      "name": "Barcelona"
+    },
+    {
+      "rel": "child",
+      "href": "./ES14/collection.json",
+      "type": "application/json",
+      "title": "Malaga",
+      "id": "ES14",
+      "latlng": "36.67166398,-4.492831362",
+      "country": "ES",
+      "name": "Malaga"
+    },
+    {
+      "rel": "child",
+      "href": "./ES15/collection.json",
+      "type": "application/json",
+      "title": "Palma de Mallorca",
+      "id": "ES15",
+      "latlng": "39.5510,2.7367",
+      "country": "ES",
+      "name": "Palma de Mallorca"
+    },
+    {
+      "rel": "child",
+      "href": "./FI4/collection.json",
+      "type": "application/json",
+      "title": "Helsinki",
+      "id": "FI4",
+      "latlng": "60.3170,24.9580",
+      "country": "FI",
+      "name": "Helsinki"
+    },
+    {
+      "rel": "child",
+      "href": "./FR13/collection.json",
+      "type": "application/json",
+      "title": "Orly",
+      "id": "FR13",
+      "latlng": "48.7262,2.3652",
+      "country": "FR",
+      "name": "Orly"
+    },
+    {
+      "rel": "child",
+      "href": "./FR8/collection.json",
+      "type": "application/json",
+      "title": "Paris",
+      "id": "FR8",
+      "latlng": "49.006976345624935,2.559786183921451",
+      "country": "FR",
+      "name": "Paris"
+    },
+    {
+      "rel": "child",
+      "href": "./FR9/collection.json",
+      "type": "application/json",
+      "title": "Chateauroux",
+      "id": "FR9",
+      "latlng": "46.861263796994045,1.7288832862166452",
+      "country": "FR",
+      "name": "Chateauroux"
+    },
+    {
+      "rel": "child",
+      "href": "./GR2/collection.json",
+      "type": "application/json",
+      "title": "Athens",
+      "id": "GR2",
+      "latlng": "37.882337,23.875459",
+      "country": "GR",
+      "name": "Athens"
+    },
+    {
+      "rel": "child",
+      "href": "./IE1/collection.json",
+      "type": "application/json",
+      "title": "Dublin",
+      "id": "IE1",
+      "latlng": "53.4264,-6.2499",
+      "country": "IE",
+      "name": "Dublin"
+    },
+    {
+      "rel": "child",
+      "href": "./IT13/collection.json",
+      "type": "application/json",
+      "title": "Milan",
+      "id": "IT13",
+      "latlng": "45.62995905,8.723056",
+      "country": "IT",
+      "name": "Milan"
+    },
+    {
+      "rel": "child",
+      "href": "./IT9/collection.json",
+      "type": "application/json",
+      "title": "Rome",
+      "id": "IT9",
+      "latlng": "41.80710100142961,12.253597669510512",
+      "country": "IT",
+      "name": "Rome"
+    },
+    {
+      "rel": "child",
+      "href": "./NL1/collection.json",
+      "type": "application/json",
+      "title": "Amsterdam",
+      "id": "NL1",
+      "latlng": "52.3121414741634,4.7577329757090885",
+      "country": "NL",
+      "name": "Amsterdam"
+    },
+    {
+      "rel": "child",
+      "href": "./NO1/collection.json",
+      "type": "application/json",
+      "title": "Oslo",
+      "id": "NO1",
+      "latlng": "60.197552,11.100415",
+      "country": "NO",
+      "name": "Oslo"
+    },
+    {
+      "rel": "child",
+      "href": "./PL6/collection.json",
+      "type": "application/json",
+      "title": "Warsaw",
+      "id": "PL6",
+      "latlng": "52.1672369,20.9678911",
+      "country": "PL",
+      "name": "Warsaw"
+    },
+    {
+      "rel": "child",
+      "href": "./PT1/collection.json",
+      "type": "application/json",
+      "title": "Lisbon",
+      "id": "PT1",
+      "latlng": "38.779719863831765,-9.134743863288612",
+      "country": "PT",
+      "name": "Lisbon"
+    },
+    {
+      "rel": "child",
+      "href": "./SE23/collection.json",
+      "type": "application/json",
+      "title": "Stockholm",
+      "id": "SE23",
+      "latlng": "59.6512,17.9178",
+      "country": "SE",
+      "name": "Stockholm"
+    },
+    {
+      "rel": "child",
+      "href": "./TR1/collection.json",
+      "type": "application/json",
+      "title": "Istanbul",
+      "id": "TR1",
+      "latlng": "40.982555,28.820829",
+      "country": "TR",
+      "name": "Istanbul"
+    },
+    {
+      "rel": "child",
+      "href": "./UK4/collection.json",
+      "type": "application/json",
+      "title": "Heathrow",
+      "id": "UK4",
+      "latlng": "51.469716296645025,-0.4580423952680147",
+      "country": "GB",
+      "name": "Heathrow"
+    },
+    {
+      "rel": "child",
+      "href": "./UK5/collection.json",
+      "type": "application/json",
+      "title": "Gatwick",
+      "id": "UK5",
+      "latlng": "51.153047759076,-0.18539507371961392",
+      "country": "GB",
+      "name": "Gatwick"
+    },
+    {
+      "rel": "child",
+      "href": "./UK6/collection.json",
+      "type": "application/json",
+      "title": "London Stansted",
+      "id": "UK6",
+      "latlng": "51.904949,0.202641",
+      "country": "UK",
+      "name": "London Stansted"
+    },
+    {
+      "rel": "child",
+      "href": "./UK7/collection.json",
+      "type": "application/json",
+      "title": "Luton",
+      "id": "UK7",
+      "latlng": "51.8715,-0.3677",
+      "country": "UK",
+      "name": "Luton"
+    },
+    {
+      "rel": "child",
+      "href": "./UK8/collection.json",
+      "type": "application/json",
+      "title": "Manchester",
+      "id": "UK8",
+      "latlng": "53.3523,-2.2717",
+      "country": "UK",
+      "name": "Manchester"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections"
+    }
+  ],
+  "subtitle": "Parked planes detected on Sentinel-2 data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/13b_parked_planes/E13b_parked_planes_photo.jpg",
+  "yAxis": "Time series of airport throughput",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Mobility",
+    "Air traffic",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E13b",
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "locations": true,
+  "endpointtype": "GeoDB",
+  "title": "Parked plane detections",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -9.145942514259218,
+          36.663196608594276,
+          28.838574710896786,
+          60.335378899749976
+        ],
+        [
+          16.5204605,
+          48.0780036,
+          16.597969,
+          48.1311484
+        ],
+        [
+          4.4338651,
+          50.4533633,
+          4.484775,
+          50.4739266
+        ],
+        [
+          8.528402270582358,
+          47.44138876684842,
+          8.575952471998374,
+          47.486649121598205
+        ],
+        [
+          11.736366,
+          48.3369355,
+          11.8356841,
+          48.3705121
+        ],
+        [
+          6.7420121,
+          51.2723209,
+          6.7947528,
+          51.3017676
+        ],
+        [
+          13.462864246647909,
+          52.34369556198061,
+          13.532328204168124,
+          52.388833657361936
+        ],
+        [
+          8.4875016,
+          49.9928084,
+          8.6016967,
+          50.0530793
+        ],
+        [
+          12.599995349237396,
+          55.59110955921722,
+          12.672679173993169,
+          55.63055016845845
+        ],
+        [
+          -3.5974108,
+          40.4478158,
+          -3.5264541,
+          40.5421384
+        ],
+        [
+          2.0556573,
+          41.2801518,
+          2.109721,
+          41.3135601
+        ],
+        [
+          -4.5152933591156215,
+          36.663196608594276,
+          -4.4750626495091,
+          36.69243070113628
+        ],
+        [
+          2.7061554,
+          39.5376817,
+          2.7668027,
+          39.5656427
+        ],
+        [
+          24.896424368802926,
+          60.30457143184564,
+          24.994019537757243,
+          60.335378899749976
+        ],
+        [
+          2.3147948533240115,
+          48.71528994170404,
+          2.4056625528482334,
+          48.74504224472586
+        ],
+        [
+          2.4911452,
+          48.9828244,
+          2.6499404,
+          49.0305805
+        ],
+        [
+          1.7123178,
+          46.8458781,
+          1.7502952,
+          46.8830782
+        ],
+        [
+          23.9136062,
+          37.9152596,
+          23.9864322,
+          37.959498
+        ],
+        [
+          -6.292168147539645,
+          53.41939858515509,
+          -6.2319799175973785,
+          53.43820205823679
+        ],
+        [
+          8.7071511,
+          45.6047877,
+          8.7436956,
+          45.6551304
+        ],
+        [
+          12.2200814,
+          41.7759028,
+          12.2813191,
+          41.8542539
+        ],
+        [
+          4.7061543,
+          52.2846584,
+          4.809458,
+          52.3678943
+        ],
+        [
+          11.069842726753674,
+          60.17122188577572,
+          11.127986600081945,
+          60.220547145457346
+        ],
+        [
+          20.944730045230106,
+          52.14730912310821,
+          20.98558545294495,
+          52.181109514896384
+        ],
+        [
+          -9.145942514259218,
+          38.7635184095529,
+          -9.126888101417421,
+          38.79797663711064
+        ],
+        [
+          17.9053301,
+          59.6231845,
+          17.9850347,
+          59.6702872
+        ],
+        [
+          28.799781994911683,
+          40.96436012555866,
+          28.838574710896786,
+          40.998844511071304
+        ],
+        [
+          -0.4943776,
+          51.4560987,
+          -0.4151697,
+          51.4794056
+        ],
+        [
+          -0.2154936,
+          51.1436186,
+          -0.161261,
+          51.1645649
+        ],
+        [
+          0.21418717454190883,
+          51.87253876661977,
+          0.2695595625542957,
+          51.89990836076419
+        ],
+        [
+          -0.3863392885232275,
+          51.870782717260006,
+          -0.3514837640982016,
+          51.88474141041509
+        ],
+        [
+          -2.314244388205904,
+          53.33058590561749,
+          -2.252566503474216,
+          53.369836604039676
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-01T10:09:06Z",
+          "2022-12-31T10:54:09Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Aerospacelab",
+      "url": "https://www.aerospacelab.be/"
+    }
+  ],
+  "summaries": {
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GR",
+      "IE",
+      "IT",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "SE",
+      "TR",
+      "GB",
+      "UK"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/13b_parked_planes/E13b_parked_planes_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
