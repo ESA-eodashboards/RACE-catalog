@@ -238,6 +238,7 @@
     }
   ],
   "subtitle": "Evolution of harvested parcels in percentage",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution_photo.jpg",
   "yAxis": "Cumulative (%)",
   "themes": [
     "agriculture"
@@ -442,5 +443,14 @@
     "countries": [
       "ES"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

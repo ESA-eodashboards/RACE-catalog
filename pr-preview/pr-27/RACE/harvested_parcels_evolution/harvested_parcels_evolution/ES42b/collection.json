@@ -63,6 +63,7 @@
   ],
   "subcode": "E10a6",
   "subtitle": "Evolution of harvested parcels in percentage",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution_photo.jpg",
   "themes": [
     "agriculture"
   ],
@@ -113,5 +114,14 @@
       "name": "FEGA",
       "url": "https://www.fega.gob.es/en"
     }
-  ]
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

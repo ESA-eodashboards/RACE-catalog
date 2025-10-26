@@ -120,6 +120,7 @@
     }
   ],
   "subtitle": "Evolution of harvested parcels in percentage",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution_photo.jpg",
   "themes": [
     "agriculture"
   ],
@@ -182,30 +183,42 @@
       "agriculture"
     ],
     "satellite": [
-      "Sentinel-2",
       "Sentinel-1",
-      "Landsat-8"
+      "Landsat-8",
+      "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
       "C-SAR",
+      "MSI",
       "OLI"
     ],
     "cities": [
+      "Extremadura",
       "Castilla-La Mancha",
+      "Comunidad Valenciana",
+      "Region de Murcia",
       "Comunidad de Madrid",
       "Cataluna",
-      "Comunidad Foral de Navarra",
+      "Castilla y Leon",
       "Aragon",
-      "Region de Murcia",
       "La Rioja",
       "Andalucia",
-      "Castilla y Leon",
-      "Comunidad Valenciana",
-      "Extremadura"
+      "Comunidad Foral de Navarra"
     ],
     "countries": [
       "ES"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution_photo.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }
