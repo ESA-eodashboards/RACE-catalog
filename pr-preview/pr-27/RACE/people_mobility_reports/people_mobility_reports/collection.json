@@ -1,0 +1,609 @@
+{
+  "type": "Collection",
+  "id": "people_mobility_reports",
+  "stac_version": "1.1.0",
+  "description": "### People Mobility Reports \n\nThis indicator shows the impact of COVID-19 lockdown restrictions on the movement of people and is based on  [Google LLC \"Google COVID-19 Community Mobility Reports\"](https://www.google.com/covid19/mobility/).\nEach datasets shows the daily variation of visits and length of stay at 6 place categories:\n\n- **Grocery & pharmacy** = Mobility trends for places like grocery markets, food warehouses, farmers markets, specialty food shops, drug stores, and pharmacies.\n\n- **Parks** = Mobility trends for places like local parks, national parks, public beaches, marinas, dog parks, plazas, and public gardens.\n\n- **Transit stations** = Mobility trends for places like public transport hubs such as subway, bus, and train stations.\n\n- **Retail & recreation** = Mobility trends for places like restaurants, cafes, shopping centers, theme parks, museums, libraries, and movie theaters.\n\n- **Residential** = Mobility trends for places of residence.\n\n- **Workplaces** = Mobility trends for places of work.\n\n\nThe median value for the corresponding day of the week during the 5-week period Jan 3–Feb 6, 2020 has been considered as a baseline value.\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./AT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AT",
+      "latlng": "48.2,16.367",
+      "country": "Austria",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BA",
+      "latlng": "43.867,18.417",
+      "country": "Bosnia and Herzegovina",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BE",
+      "latlng": "50.833,4.333",
+      "country": "Belgium",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BG",
+      "latlng": "42.683,23.317",
+      "country": "Bulgaria",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CH/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CH",
+      "latlng": "46.917,7.467",
+      "country": "Switzerland",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CZ",
+      "latlng": "50.083,14.467",
+      "country": "Czech Republic",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./DE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "DE",
+      "latlng": "52.517,13.4",
+      "country": "Germany",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./DK/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "DK",
+      "latlng": "55.667,12.583",
+      "country": "Denmark",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./EE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "EE",
+      "latlng": "59.433,24.717",
+      "country": "Estonia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ES/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ES",
+      "latlng": "40.4,-3.683",
+      "country": "Spain",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./FI/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "FI",
+      "latlng": "60.167,24.933",
+      "country": "Finland",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./FR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "FR",
+      "latlng": "48.867,2.333",
+      "country": "France",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GB/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GB",
+      "latlng": "51.5,-0.083",
+      "country": "United Kingdom",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GR",
+      "latlng": "37.983,23.733",
+      "country": "Greece",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./HR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "HR",
+      "latlng": "45.8,16.0",
+      "country": "Croatia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./HU/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "HU",
+      "latlng": "47.5,19.083",
+      "country": "Hungary",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./IE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "IE",
+      "latlng": "53.317,-6.233",
+      "country": "Ireland",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./IT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "IT",
+      "latlng": "41.9,12.483",
+      "country": "Italy",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LT",
+      "latlng": "54.683,25.317",
+      "country": "Lithuania",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LU/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LU",
+      "latlng": "49.6,6.117",
+      "country": "Luxembourg",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LV/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LV",
+      "latlng": "56.95,24.1",
+      "country": "Latvia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MK/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MK",
+      "latlng": "42.0,21.433",
+      "country": "Macedonia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MT",
+      "latlng": "35.883,14.5",
+      "country": "Malta",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NL/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NL",
+      "latlng": "52.35,4.917",
+      "country": "Netherlands",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NO",
+      "latlng": "59.917,10.75",
+      "country": "Norway",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PL/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PL",
+      "latlng": "52.25,21.0",
+      "country": "Poland",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PT",
+      "latlng": "38.717,-9.133",
+      "country": "Portugal",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./RO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "RO",
+      "latlng": "44.433,26.1",
+      "country": "Romania",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./RS/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "RS",
+      "latlng": "44.833,20.5",
+      "country": "Serbia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SE",
+      "latlng": "59.333,18.05",
+      "country": "Sweden",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SI/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SI",
+      "latlng": "46.05,14.517",
+      "country": "Slovenia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SK/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SK",
+      "latlng": "48.15,17.117",
+      "country": "Slovakia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TR",
+      "latlng": "39.933,32.867",
+      "country": "Turkey",
+      "name": "/"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports"
+    }
+  ],
+  "subtitle": "People mobility data showing the impact of COVID-19 lockdown restrictions",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports_photo.jpg",
+  "yAxis": "/",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Mobility",
+    "Traffic"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "GG",
+  "insituSources": [
+    "Mobile"
+  ],
+  "locations": true,
+  "endpointtype": "GeoDB",
+  "title": "People Mobility Reports",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -9.142999999999999,
+          35.873000000000005,
+          32.876999999999995,
+          60.177
+        ],
+        [
+          16.357,
+          48.190000000000005,
+          16.377000000000002,
+          48.21
+        ],
+        [
+          18.407,
+          43.857,
+          18.427000000000003,
+          43.876999999999995
+        ],
+        [
+          4.323,
+          50.823,
+          4.343,
+          50.842999999999996
+        ],
+        [
+          23.307,
+          42.673,
+          23.327,
+          42.693
+        ],
+        [
+          7.457,
+          46.907000000000004,
+          7.476999999999999,
+          46.927
+        ],
+        [
+          14.457,
+          50.073,
+          14.477,
+          50.092999999999996
+        ],
+        [
+          13.39,
+          52.507000000000005,
+          13.41,
+          52.527
+        ],
+        [
+          12.573,
+          55.657000000000004,
+          12.593,
+          55.677
+        ],
+        [
+          24.706999999999997,
+          59.423,
+          24.727,
+          59.443
+        ],
+        [
+          -3.6929999999999996,
+          40.39,
+          -3.673,
+          40.41
+        ],
+        [
+          24.923,
+          60.157000000000004,
+          24.943,
+          60.177
+        ],
+        [
+          2.3230000000000004,
+          48.857,
+          2.343,
+          48.876999999999995
+        ],
+        [
+          -0.093,
+          51.49,
+          -0.07300000000000001,
+          51.51
+        ],
+        [
+          23.723,
+          37.973,
+          23.743000000000002,
+          37.992999999999995
+        ],
+        [
+          15.99,
+          45.79,
+          16.01,
+          45.809999999999995
+        ],
+        [
+          19.072999999999997,
+          47.49,
+          19.093,
+          47.51
+        ],
+        [
+          -6.242999999999999,
+          53.307,
+          -6.223,
+          53.327
+        ],
+        [
+          12.473,
+          41.89,
+          12.493,
+          41.91
+        ],
+        [
+          25.307,
+          54.673,
+          25.327,
+          54.693
+        ],
+        [
+          6.107,
+          49.59,
+          6.127,
+          49.61
+        ],
+        [
+          24.09,
+          56.940000000000005,
+          24.110000000000003,
+          56.96
+        ],
+        [
+          21.423,
+          41.99,
+          21.443,
+          42.01
+        ],
+        [
+          14.49,
+          35.873000000000005,
+          14.51,
+          35.893
+        ],
+        [
+          4.907,
+          52.34,
+          4.927,
+          52.36
+        ],
+        [
+          10.74,
+          59.907000000000004,
+          10.76,
+          59.927
+        ],
+        [
+          20.99,
+          52.24,
+          21.01,
+          52.26
+        ],
+        [
+          -9.142999999999999,
+          38.707,
+          -9.123,
+          38.727
+        ],
+        [
+          26.09,
+          44.423,
+          26.110000000000003,
+          44.443
+        ],
+        [
+          20.49,
+          44.823,
+          20.51,
+          44.842999999999996
+        ],
+        [
+          18.04,
+          59.323,
+          18.060000000000002,
+          59.342999999999996
+        ],
+        [
+          14.507,
+          46.04,
+          14.527,
+          46.059999999999995
+        ],
+        [
+          17.107,
+          48.14,
+          17.127000000000002,
+          48.16
+        ],
+        [
+          32.857,
+          39.923,
+          32.876999999999995,
+          39.943
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-15T00:00:00Z",
+          "2022-10-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Google",
+      "url": "https://www.google.com/covid19/mobility/"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "/"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
