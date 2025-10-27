@@ -1,4 +1,5 @@
 {
+  "Image": "SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png",
   "Name": "sea_surface_temperature_time_series",
   "Title": "Sea surface temperature time series",
   "EodashIdentifier": "SST",
