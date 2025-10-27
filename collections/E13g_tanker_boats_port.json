@@ -1,6 +1,7 @@
 {
+  "Image": "E13g_tanker_boats_port/E13g_tanker_boats_port_photo.jpg",
   "Name": "tanker_boats_port",
-  "Title": "Tankers boats in ports",
+  "Title": "Tanker boats in ports",
   "EodashIdentifier": "E13g",
   "Subtitle": "Changes in the number of boats in ports",
   "Description": "E13g_tanker_boats_port/E13g_tanker_boats_port.md",
