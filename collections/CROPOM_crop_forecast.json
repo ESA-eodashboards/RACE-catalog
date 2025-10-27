@@ -92,15 +92,15 @@
           "Assets": [
             {
               "Identifier": "at",
-              "File": "https://api.cropom-dev.com/crop_model/regional_forecast_v2?country_code=AT&crs=4326"
+              "File": "https://api-staging.cropom-dev.com/proxy/crop-model/regional-forecast?country_code=AT&crs=4326"
             },
             {
               "Identifier": "hu",
-              "File": "https://api.cropom-dev.com/crop_model/regional_forecast_v2?country_code=HU&crs=4326"
+              "File": "https://api-staging.cropom-dev.com/proxy/crop-model/regional-forecast?country_code=HU&crs=4326"
             },
             {
               "Identifier": "ro",
-              "File": "https://api.cropom-dev.com/crop_model/regional_forecast_v2?country_code=RO&crs=4326"
+              "File": "https://api-staging.cropom-dev.com/proxy/crop-model/regional-forecast?country_code=RO&crs=4326"
             }
           ]
         }
