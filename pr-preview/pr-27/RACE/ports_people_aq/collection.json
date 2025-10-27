@@ -185,8 +185,8 @@
       "air"
     ],
     "satellite": [
-      "GNSS",
-      "Sentinel-5P"
+      "Sentinel-5P",
+      "GNSS"
     ],
     "sensor": [
       "TROPOMI"
