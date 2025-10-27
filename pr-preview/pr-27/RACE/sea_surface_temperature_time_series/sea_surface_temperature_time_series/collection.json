@@ -1,0 +1,242 @@
+{
+  "type": "Collection",
+  "id": "sea_surface_temperature_time_series",
+  "stac_version": "1.1.0",
+  "description": "# Sea surface temperature (SST)\n\nSea surface temperature (SST) is a key ocean monitoring indicator that allows to track the health of our marine environment. This essential variable is indeed at the base of many physical and bio-geochemical processes: it modulates the flow of heat in and out the upper ocean, contributes in regulating marine ecosystems and responds to climate variability and change. Monitoring of long-term modifications in SST (i.e., trends) is crucial for evaluating the present state of the oceans and to correctly assess the impact of climate change at regional scales. Also, routinely SST observation is increasingly needed to identify anomalously seawater warm events, known as marine heatwaves, that have been intensifying during recent years and can have profound impact on marine ecosystems. \n\nHere, SST data are derived from the Copernicus Marine Service Mediterranean Sea (MED) and Black Sea (BS) near real-time (NRT) SST products. Both these products provide daily optimally interpolated gap-free (level-4, L4) estimates of the foundation SST (the temperature free, or nearly-free, of any diurnal cycle) over the Mediterranean Sea and Black Sea at ultra-high (UHR, namely 1/100°) grid resolution, covering the period from 2008 to present (1 day before real time), and representative of nighttime SST values (centered at 00:00 UTC). \n\n## Algorithm\n\nThe Copernicus Marine [MED-NRT-L4](https://doi.org/10.48670/moi-00172) and [BS-NRT-L4](https://doi.org/10.48670/moi-00159) products are operationally produced in near-real time by the CNR-ISMAR-GOS (Italian National Research Council – Institute of Marine Sciences – Group of Satellite Oceanography). \n\nThese products are based on the nighttime images collected by different satellite infrared sensors, currently including e.g. SLSTR-3A/3B on board Sentinel-3, AVHRR on board Metop-B, and VIIRS on board the NOAA-20 and SUOMI satellites. The whole processing chain is composed by different modules and it is common to both MED and BS products. The first module (M1) downloads the L2 data from external data providers (e.g., EUMETSAT and NASA), while the second one (M2) performs a remapping over the MED and BS grids and applies specific quality control (QC) procedures. QC is an essential pre-processing step to select the highest quality SST values and remove residual cloudy pixels. \n\nThe third module (M3) performs a blending of the selected L2 data providing a daily merged multi-sensor SST field (L3S). The merging is based on a bias adjustment procedure, which currently uses SLSTR-3A as reference sensor, and it is needed to reduce the differences in SST coming from the different types of sensors. The fourth module (M4) performs a classical optimal interpolation (OI) method that allows to obtain (from the L3S image) the gap-free (L4) product.\n\nThe SST L4 is then obtained at 1/16° resolution as a linear combination of the observations, weighted directly with their correlation to the interpolation point and inversely with their cross-correlation and measurement error. For the ultra-high resolution product, the lower resolution L4 map, properly rebinned on the UHR grid (through a simple bilinear algorithm), is used as first guess for a second interpolation step, where the SST anomalies, estimated now at 1 km, only contain the small scale signals.\n\nThe climatology was built by using the Copernicus MED and BS reprocessed (REP) products (https://doi.org/10.48670/moi-00173 and https://doi.org/10.48670/moi-00160, respectively). These products provide long-term (1982-present), stable and consistent daily gap-free SST datasets at about 5 km grid resolution, particularly useful for climate applications. Specifically, both MED and BS REP SST products are built by optimal interpolation of the lower-level (merged single-sensor, L3C) SST climate data record provided by the ESA Climate Change Initiative (CCI) (Merchant et al., 2019) and the Copernicus Climate Change Service (C3S) initiatives. In order to obtain a consistent dataset with the NRT products, the reprocessed datasets were properly remapped through a bilinear interpolation over a 0.01° regular grid and then cropped to match the four selected areas. RMSD and mean bias for the reprocessed products have been quantified in 0.456 ± 0.001 K and 0.036 ± 0.001 K, respectively, for the Mediterranean Sea and 0.50 ± 0.01 K and 0.11 ± 0.01 K, respectively, for the Black Sea.\n\nDaily time series of both SST products are turned into weekly time series by averaging on a pixel-by-pixel basis. For each pixel the average and standard deviation is computed from a data cube of 3 pixels x 3 pixels x 7 days. This averaging reduces the impact of possible noise, common at these small scales, and increases spatial coverage mined by lack of data mostly due to clouds. Finally, we consider the difference between the “present” weekly observations and the weekly climatology at the scale of the pixel. This difference was judged against the climatology in order to obtain a relative, dimensionless value.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./DE29/collection.json",
+      "type": "application/json",
+      "title": "Hamburg",
+      "id": "DE29",
+      "latlng": "54.1517,7.89169",
+      "country": "GE",
+      "name": "Hamburg"
+    },
+    {
+      "rel": "child",
+      "href": "./ES19/collection.json",
+      "type": "application/json",
+      "title": "Barcelona",
+      "id": "ES19",
+      "latlng": "40.7170,1.35800",
+      "country": "ES",
+      "name": "Barcelona"
+    },
+    {
+      "rel": "child",
+      "href": "./FR11/collection.json",
+      "type": "application/json",
+      "title": "Marseilles",
+      "id": "FR11",
+      "latlng": "43.4000,4.94000",
+      "country": "FR",
+      "name": "Marseilles"
+    },
+    {
+      "rel": "child",
+      "href": "./IT6/collection.json",
+      "type": "application/json",
+      "title": "Venice Lagoon",
+      "id": "IT6",
+      "latlng": "45.3142,12.5081",
+      "country": "IT",
+      "name": "Venice Lagoon"
+    },
+    {
+      "rel": "child",
+      "href": "./PT4/collection.json",
+      "type": "application/json",
+      "title": "Lisbon",
+      "id": "PT4",
+      "latlng": "38.6667,-9.43670",
+      "country": "PT",
+      "name": "Lisbon"
+    },
+    {
+      "rel": "child",
+      "href": "./RO1/collection.json",
+      "type": "application/json",
+      "title": "Constanta",
+      "id": "RO1",
+      "latlng": "44.5458,29.4466",
+      "country": "RO",
+      "name": "Constanta"
+    },
+    {
+      "rel": "license",
+      "href": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
+      "type": "text/html",
+      "title": "Licence to Use Copernicus Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature time series"
+    }
+  ],
+  "subtitle": "Key ocean monitoring indicator",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png",
+  "yAxis": "Sea Surface Temperature [Celsius Degree]",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Water quality",
+    "Copernicus Services",
+    "Surface temperature",
+    "CMEMS",
+    "Multi-sensors",
+    "Open data"
+  ],
+  "agency": [
+    "European Commission",
+    "ECMWF"
+  ],
+  "subcode": "SST",
+  "sensor": [
+    "AVHRR",
+    "VIIRS",
+    "SLSTR"
+  ],
+  "satellite": [
+    "Metop-B",
+    "JPSS-1",
+    "Suomi NPP",
+    "Sentinel-3",
+    "Other"
+  ],
+  "locations": true,
+  "endpointtype": "GeoDB",
+  "title": "Sea surface temperature time series",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -9.4467,
+          38.6567,
+          29.4566,
+          54.161699999999996
+        ],
+        [
+          7.88169,
+          54.1417,
+          7.901689999999999,
+          54.161699999999996
+        ],
+        [
+          1.348,
+          40.707,
+          1.368,
+          40.727
+        ],
+        [
+          4.930000000000001,
+          43.39,
+          4.95,
+          43.41
+        ],
+        [
+          12.4981,
+          45.3042,
+          12.5181,
+          45.3242
+        ],
+        [
+          -9.4467,
+          38.6567,
+          -9.4267,
+          38.6767
+        ],
+        [
+          29.4366,
+          44.5358,
+          29.4566,
+          44.5558
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-05T00:00:00Z",
+          "2025-01-04T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Copernicus Marine Service",
+      "url": "https://marine.copernicus.eu/access-data"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "Hamburg",
+      "Barcelona",
+      "Marseilles",
+      "Venice Lagoon",
+      "Lisbon",
+      "Constanta"
+    ],
+    "countries": [
+      "GE",
+      "ES",
+      "FR",
+      "IT",
+      "PT",
+      "RO"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://data.marine.copernicus.eu/product/SST_MED_SST_L4_NRT_OBSERVATIONS_010_004/description",
+      "type": "text/html",
+      "title": "Mediterranean Sea High Resolution and Ultra High Resolution Sea Surface Temperature Analysis",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://data.marine.copernicus.eu/product/SST_BS_SST_L4_NRT_OBSERVATIONS_010_006/description",
+      "type": "text/html",
+      "title": "Black Sea High Resolution and Ultra High Resolution Sea Surface Temperature Analysis",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://data.marine.copernicus.eu/product/SST_MED_SST_L4_REP_OBSERVATIONS_010_021/description",
+      "type": "text/html",
+      "title": "Mediterranean Sea - High Resolution L4 Sea Surface Temperature Reprocessed",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_4": {
+      "href": "https://data.marine.copernicus.eu/product/SST_BS_SST_L4_REP_OBSERVATIONS_010_022/description",
+      "type": "text/html",
+      "title": "Black Sea - High Resolution L4 Sea Surface Temperature Reprocessed",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

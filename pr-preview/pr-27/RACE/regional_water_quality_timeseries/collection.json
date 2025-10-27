@@ -199,18 +199,18 @@
     "cities": [
       "Hamburg",
       "Barcelona",
-      "Venice Lagoon",
-      "Lisbon",
       "Marseilles",
-      "Constanta"
+      "Constanta",
+      "Lisbon",
+      "Venice Lagoon"
     ],
     "countries": [
-      "ES",
-      "GE",
       "PT",
       "RO",
       "IT",
-      "FR"
+      "FR",
+      "GE",
+      "ES"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg"
