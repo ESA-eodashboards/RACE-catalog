@@ -182,19 +182,19 @@
       "MSI"
     ],
     "cities": [
-      "Dunkirk",
-      "Hamburg",
-      "Genoa",
       "Suez ",
+      "Hamburg",
+      "Gdynia",
       "Ghent",
-      "Gdynia"
+      "Dunkirk",
+      "Genoa"
     ],
     "countries": [
-      "DE",
       "FR",
-      "IT",
+      "DE",
       "BE",
       "PL",
+      "IT",
       "EG"
     ],
     "thumbnail": [
