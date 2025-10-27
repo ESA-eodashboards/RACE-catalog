@@ -197,32 +197,32 @@
       "water"
     ],
     "satellite": [
-      "Other",
-      "Sentinel-3",
+      "JPSS-1",
       "Suomi NPP",
       "Metop-B",
-      "JPSS-1"
+      "Sentinel-3",
+      "Other"
     ],
     "sensor": [
+      "AVHRR",
       "SLSTR",
-      "VIIRS",
-      "AVHRR"
+      "VIIRS"
     ],
     "cities": [
-      "Lisbon",
       "Constanta",
+      "Hamburg",
       "Barcelona",
-      "Marseilles",
       "Venice Lagoon",
-      "Hamburg"
+      "Lisbon",
+      "Marseilles"
     ],
     "countries": [
-      "ES",
       "RO",
-      "PT",
-      "IT",
+      "FR",
       "GE",
-      "FR"
+      "IT",
+      "PT",
+      "ES"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png"
