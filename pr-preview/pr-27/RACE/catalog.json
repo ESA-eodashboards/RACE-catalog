@@ -31,8 +31,8 @@
         "TROPOMI"
       ],
       "cities": [
-        "Gioia Tauro",
-        "Genoa"
+        "Genoa",
+        "Gioia Tauro"
       ],
       "countries": [
         "IT"
@@ -75,8 +75,8 @@
         "TROPOMI"
       ],
       "cities": [
-        "Gioia Tauro",
-        "Genoa"
+        "Genoa",
+        "Gioia Tauro"
       ],
       "countries": [
         "IT"
@@ -119,8 +119,8 @@
         "TROPOMI"
       ],
       "cities": [
-        "Gioia Tauro",
-        "Genoa"
+        "Genoa",
+        "Gioia Tauro"
       ],
       "countries": [
         "IT"
@@ -157,41 +157,41 @@
         "/"
       ],
       "countries": [
-        "Austria",
+        "Norway",
+        "Turkey",
         "Denmark",
-        "Czechia",
-        "Slovenia",
-        "Albania",
-        "Germany",
-        "France",
-        "Greece",
-        "Bosnia and Herzegovina",
-        "Hungary",
         "Malta",
-        "Lithuania",
-        "Bulgaria",
-        "Ireland",
-        "Romania",
-        "Spain",
-        "Finland",
-        "Switzerland",
+        "Portugal",
         "Italy",
+        "Austria",
+        "Germany",
+        "Bulgaria",
+        "Finland",
+        "France",
+        "Ireland",
+        "Croatia",
+        "Poland",
+        "Kosovo",
+        "Estonia",
+        "Slovenia",
         "Serbia",
+        "Albania",
+        "Netherlands",
+        "Hungary",
+        "Luxembourg",
+        "Sweden",
+        "Czechia",
+        "North Macedonia",
+        "Romania",
+        "Switzerland",
+        "Latvia",
+        "Greece",
         "Slovakia",
         "Belgium",
+        "Lithuania",
         "United Kingdom",
-        "Latvia",
-        "Luxembourg",
-        "Poland",
-        "North Macedonia",
-        "Sweden",
-        "Norway",
-        "Croatia",
-        "Turkey",
-        "Kosovo",
-        "Portugal",
-        "Estonia",
-        "Netherlands"
+        "Bosnia and Herzegovina",
+        "Spain"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CV_Covid_19_cases/CV_Covid_19_cases_photo.jpg"
@@ -227,40 +227,40 @@
         "C-SAR"
       ],
       "cities": [
-        "Austria",
-        "Poland",
-        "Denmark",
-        "Sweden",
-        "Hungary",
-        "Croatia",
         "Germany",
+        "Denmark",
         "Bulgaria",
+        "Hungary",
+        "Sweden",
+        "Czech Republic",
         "Lithuania",
         "France",
         "Romania",
-        "Slovak Republic",
+        "Croatia",
+        "Latvia",
+        "Poland",
         "Estonia",
-        "Czech Republic",
         "United Kingdom",
-        "Latvia"
+        "Slovak Republic",
+        "Austria"
       ],
       "countries": [
-        "EE",
-        "FR",
-        "GB",
-        "LV",
-        "DK",
-        "SK",
-        "RO",
-        "CZ",
-        "HR",
         "HU",
+        "LT",
         "DE",
+        "DK",
+        "PL",
+        "SK",
+        "LV",
+        "GB",
+        "CZ",
         "BG",
+        "EE",
+        "RO",
+        "HR",
         "AT",
         "SE",
-        "PL",
-        "LT"
+        "FR"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg"
@@ -292,45 +292,45 @@
         "C-SAR"
       ],
       "cities": [
-        "Austria",
         "Denmark",
-        "Germany",
-        "France",
-        "Hungary",
-        "Lithuania",
-        "Bulgaria",
-        "Romania",
-        "Spain",
-        "Czech Republic",
-        "Serbia",
         "Italy",
-        "Slovak Republic",
-        "United Kingdom",
-        "Poland",
-        "Latvia",
-        "Sweden",
+        "Austria",
+        "Germany",
+        "Bulgaria",
+        "France",
         "Croatia",
-        "Estonia"
+        "Poland",
+        "Estonia",
+        "Serbia",
+        "Sweden",
+        "Hungary",
+        "Romania",
+        "Latvia",
+        "Czech Republic",
+        "Lithuania",
+        "United Kingdom",
+        "Spain",
+        "Slovak Republic"
       ],
       "countries": [
-        "CZ",
-        "AT",
-        "LT",
-        "DK",
-        "PL",
-        "EE",
-        "FR",
-        "SK",
-        "RO",
-        "RS",
-        "IT",
-        "DE",
-        "GB",
-        "LV",
-        "HR",
         "HU",
+        "DK",
+        "SK",
+        "IT",
+        "HR",
+        "DE",
+        "RS",
+        "CZ",
+        "PL",
+        "LT",
         "ES",
+        "LV",
+        "RO",
+        "FR",
+        "GB",
         "BG",
+        "EE",
+        "AT",
         "SE"
       ],
       "thumbnail": [
@@ -363,12 +363,12 @@
         "MSI"
       ],
       "cities": [
-        "Huelva (Lagunas de las Madres)",
-        "Brandenburg"
+        "Brandenburg",
+        "Huelva (Lagunas de las Madres)"
       ],
       "countries": [
-        "ES",
-        "DE"
+        "DE",
+        "ES"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area_photo.jpg"
@@ -512,17 +512,17 @@
         "OLI"
       ],
       "cities": [
-        "Andalucia",
-        "Region de Murcia",
+        "Comunidad de Madrid",
+        "Castilla-La Mancha",
         "Castilla y Leon",
+        "Andalucia",
+        "Comunidad Foral de Navarra",
+        "Aragon",
+        "Region de Murcia",
+        "Cataluna",
         "La Rioja",
         "Extremadura",
-        "Comunidad Valenciana",
-        "Aragon",
-        "Cataluna",
-        "Castilla-La Mancha",
-        "Comunidad de Madrid",
-        "Comunidad Foral de Navarra"
+        "Comunidad Valenciana"
       ],
       "countries": [
         "ES"
@@ -600,19 +600,19 @@
         "C-SAR"
       ],
       "cities": [
-        "Milan",
-        "Warsaw",
         "Brussels",
+        "Milan",
         "Rome",
+        "Bucharest",
         "Athens",
-        "Bucharest"
+        "Warsaw"
       ],
       "countries": [
-        "RO",
-        "IT",
-        "PL",
         "BE",
-        "GR"
+        "GR",
+        "RO",
+        "PL",
+        "IT"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg"
@@ -687,57 +687,57 @@
         "MSI"
       ],
       "cities": [
-        "Muenchen",
-        "Madrid",
-        "Warsaw",
-        "Berlin",
-        "Paris",
         "Rome",
-        "Helsinki",
-        "Stockholm",
-        "Barcelona",
-        "Oslo",
-        "Orly",
-        "Manchester",
+        "Muenchen",
         "Copenhagen",
-        "Palma de Mallorca",
-        "Brussels",
-        "London Stansted",
-        "Frankfurt",
-        "Athens",
-        "Luton",
-        "Dublin",
+        "Stockholm",
         "Lisbon",
-        "Zurich",
-        "Amsterdam",
         "Istanbul",
-        "Chateauroux",
-        "Gatwick",
-        "Heathrow",
-        "Milan",
+        "Madrid",
+        "Vienna",
         "Dusseldorf",
         "Malaga",
-        "Vienna"
+        "Amsterdam",
+        "Palma de Mallorca",
+        "Gatwick",
+        "Orly",
+        "Paris",
+        "Athens",
+        "Heathrow",
+        "Milan",
+        "Berlin",
+        "Barcelona",
+        "Dublin",
+        "Warsaw",
+        "Manchester",
+        "Oslo",
+        "Luton",
+        "Helsinki",
+        "Brussels",
+        "Chateauroux",
+        "London Stansted",
+        "Frankfurt",
+        "Zurich"
       ],
       "countries": [
-        "NO",
-        "IE",
-        "AT",
         "BE",
         "DK",
-        "FI",
-        "PL",
-        "UK",
-        "FR",
+        "PT",
         "IT",
         "NL",
         "DE",
-        "PT",
-        "GB",
+        "IE",
+        "NO",
+        "PL",
         "CH",
         "ES",
-        "TR",
         "GR",
+        "UK",
+        "FR",
+        "FI",
+        "TR",
+        "GB",
+        "AT",
         "SE"
       ],
       "thumbnail": [
@@ -772,52 +772,52 @@
         "MSI"
       ],
       "cities": [
-        "Madrid",
-        "Warsaw",
-        "Berlin",
-        "Paris",
         "Rome",
-        "London",
-        "Helsinki",
-        "Stockholm",
-        "Barcelona",
-        "Oslo",
-        "Manchester",
         "Copenhagen",
-        "Palma de Mallorca",
-        "Brussels",
-        "Frankfurt",
-        "Athens",
-        "Dublin",
-        "Lisbon",
-        "Zurich",
-        "Amsterdam",
-        "Istanbul",
+        "Stockholm",
         "Munich",
-        "Milan",
+        "Lisbon",
+        "Istanbul",
+        "Madrid",
+        "Vienna",
         "Dusseldorf",
         "Malaga",
-        "Vienna"
+        "Amsterdam",
+        "Palma de Mallorca",
+        "Paris",
+        "Athens",
+        "Milan",
+        "Berlin",
+        "Barcelona",
+        "Dublin",
+        "Warsaw",
+        "Manchester",
+        "Oslo",
+        "London",
+        "Helsinki",
+        "Brussels",
+        "Frankfurt",
+        "Zurich"
       ],
       "countries": [
-        "FR",
-        "GB",
-        "NO",
-        "DK",
-        "FI",
-        "IE",
-        "IT",
-        "NL",
         "CH",
-        "ES",
         "DE",
-        "AT",
-        "TR",
-        "PT",
-        "PL",
         "BE",
+        "PT",
+        "IE",
+        "DK",
+        "NO",
+        "NL",
+        "ES",
+        "TR",
+        "GB",
         "GR",
-        "SE"
+        "PL",
+        "IT",
+        "FR",
+        "AT",
+        "SE",
+        "FI"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg"
@@ -846,8 +846,8 @@
       ],
       "subcode": "E13e",
       "cities": [
-        "Gioia Tauro",
-        "Genoa"
+        "Genoa",
+        "Gioia Tauro"
       ],
       "countries": [
         "IT"
@@ -880,8 +880,8 @@
       ],
       "subcode": "E13f",
       "cities": [
-        "Gioia Tauro",
-        "Genoa"
+        "Genoa",
+        "Gioia Tauro"
       ],
       "countries": [
         "IT"
@@ -1052,20 +1052,20 @@
         "MSI"
       ],
       "cities": [
-        "Dunkirk",
         "Genoa",
+        "Ghent",
+        "Dunkirk",
         "Suez ",
         "Hamburg",
-        "Ghent",
         "Gdynia"
       ],
       "countries": [
-        "FR",
-        "IT",
         "DE",
-        "PL",
         "BE",
-        "EG"
+        "PL",
+        "IT",
+        "EG",
+        "FR"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg"
@@ -1090,12 +1090,12 @@
       ],
       "subcode": "E4",
       "cities": [
-        "Hamburg",
-        "Genoa"
+        "Genoa",
+        "Hamburg"
       ],
       "countries": [
-        "DE",
-        "IT"
+        "IT",
+        "DE"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E4_intermediate_goods_production/E4_intermediate_goods_production_photo.jpg"
@@ -1126,38 +1126,38 @@
         "C-SAR"
       ],
       "cities": [
-        "Borlange - area 2",
         "Imatra - area 1",
-        "Borlange - area 7",
-        "Boxholm - area 3",
-        "Borlange - area 3",
-        "Imatra - area 3",
-        "Hallefors - area 1",
-        "Borlange - area 4",
-        "Imatra - area 2",
-        "Oxelosund - area 1",
-        "Boxholm - area 2",
-        "Borlange - area 6",
-        "Hofors - area 1",
-        "Lulea",
-        "Katowice",
-        "Borlange - area 5",
-        "Hofors - area 2",
-        "Oxelosund - area 3",
-        "Oxelosund - area 4",
-        "Borlange - area 1",
-        "Hallefors - area 2",
-        "Boxholm - area 1",
-        "Boxholm - area 4",
         "Hallefors - area 3",
+        "Boxholm - area 4",
+        "Borlange - area 2",
+        "Borlange - area 1",
+        "Imatra - area 3",
+        "Oxelosund - area 1",
+        "Hofors - area 2",
+        "Hallefors - area 1",
+        "Borlange - area 5",
+        "Borlange - area 6",
+        "Boxholm - area 1",
+        "Oxelosund - area 3",
+        "Hallefors - area 2",
+        "Borlange - area 3",
+        "Hofors - area 1",
         "Oxelosund - area 2",
-        "Hunedoara"
+        "Boxholm - area 2",
+        "Borlange - area 4",
+        "Hunedoara",
+        "Borlange - area 7",
+        "Katowice",
+        "Imatra - area 2",
+        "Lulea",
+        "Oxelosund - area 4",
+        "Boxholm - area 3"
       ],
       "countries": [
-        "PL",
-        "FI",
         "RO",
-        "SE"
+        "PL",
+        "SE",
+        "FI"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg"
@@ -1191,37 +1191,37 @@
       ],
       "cities": [
         "Bremen",
-        "Martorell",
+        "Ghent",
+        "Neckarsulm",
+        "Emden",
+        "Eisenach",
+        "Nosovice",
+        "Koln",
+        "Regensburg",
         "Kvasiny",
         "Sindelfingen",
-        "Mioveni",
-        "Barcelona",
-        "Eisenach",
-        "Koln",
-        "Zwickau",
+        "Martorell",
         "Saarlouis",
-        "Ghent",
-        "Craiova",
-        "Wolfsburg",
-        "Swindon",
-        "Nosovice",
-        "Regensburg",
-        "Ingolstadt",
-        "Dingolfing",
-        "Leipzig",
         "Russelsheim",
+        "Barcelona",
+        "Craiova",
+        "Leipzig",
+        "Zwickau",
+        "Wolfsburg",
+        "Mioveni",
         "Cassino",
-        "Emden",
-        "Neckarsulm"
+        "Dingolfing",
+        "Swindon",
+        "Ingolstadt"
       ],
       "countries": [
+        "DE",
+        "BE",
+        "ES",
         "GB",
         "RO",
         "CZ",
-        "IT",
-        "ES",
-        "DE",
-        "BE"
+        "IT"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg"
@@ -1273,6 +1273,36 @@
     },
     {
       "rel": "child",
+      "href": "./ESDL_Hydrology_SM/collection.json",
+      "type": "application/json",
+      "title": "Surface Soil Moisture",
+      "code": "ESDL_Hydrology_SM",
+      "id": "ESDL_Hydrology_SM",
+      "themes": [
+        "agriculture",
+        "water"
+      ],
+      "subcode": "ESDL_Hydrology_SM",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/image.jpg"
+      ],
+      "tags": [
+        "Open data",
+        "surface soil moisture",
+        "radiative transfer"
+      ],
+      "agency": [
+        "EURAC"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./people_mobility_reports/collection.json",
       "type": "application/json",
       "title": "People Mobility Reports",
@@ -1287,39 +1317,39 @@
         "/"
       ],
       "countries": [
-        "Austria",
+        "Norway",
+        "Turkey",
         "Denmark",
-        "Slovenia",
-        "Germany",
-        "France",
-        "Greece",
-        "Bosnia and Herzegovina",
-        "Hungary",
         "Malta",
-        "Lithuania",
-        "Bulgaria",
-        "Ireland",
-        "Romania",
-        "Spain",
-        "Czech Republic",
-        "Finland",
-        "Switzerland",
+        "Portugal",
         "Italy",
+        "Austria",
+        "Germany",
+        "Bulgaria",
+        "Finland",
+        "France",
+        "Ireland",
+        "Croatia",
+        "Poland",
+        "Estonia",
+        "Slovenia",
         "Serbia",
+        "Netherlands",
+        "Hungary",
+        "Luxembourg",
+        "Sweden",
+        "Romania",
+        "Switzerland",
+        "Latvia",
+        "Greece",
         "Slovakia",
         "Belgium",
+        "Czech Republic",
+        "Lithuania",
         "United Kingdom",
-        "Latvia",
-        "Luxembourg",
-        "Poland",
+        "Bosnia and Herzegovina",
         "Macedonia",
-        "Norway",
-        "Sweden",
-        "Croatia",
-        "Turkey",
-        "Portugal",
-        "Estonia",
-        "Netherlands"
+        "Spain"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports_photo.jpg"
@@ -1519,20 +1549,20 @@
         "OLCI"
       ],
       "cities": [
-        "Marseilles",
         "Lisbon",
-        "Hamburg",
         "Constanta",
         "Barcelona",
-        "Venice Lagoon"
+        "Marseilles",
+        "Venice Lagoon",
+        "Hamburg"
       ],
       "countries": [
-        "FR",
-        "GE",
-        "RO",
-        "IT",
         "ES",
-        "PT"
+        "RO",
+        "PT",
+        "IT",
+        "GE",
+        "FR"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg"
@@ -1624,41 +1654,41 @@
         "/"
       ],
       "countries": [
-        "Austria",
+        "Norway",
+        "Turkey",
         "Denmark",
-        "Czechia",
-        "Slovenia",
-        "Albania",
-        "Germany",
-        "France",
-        "Greece",
-        "Bosnia and Herzegovina",
-        "Hungary",
         "Malta",
-        "Lithuania",
-        "Bulgaria",
-        "Ireland",
-        "Romania",
-        "Spain",
-        "Finland",
-        "Switzerland",
+        "Portugal",
         "Italy",
+        "Austria",
+        "Germany",
+        "Bulgaria",
+        "Finland",
+        "France",
+        "Ireland",
+        "Croatia",
+        "Poland",
+        "Kosovo",
+        "Estonia",
+        "Slovenia",
         "Serbia",
+        "Albania",
+        "Netherlands",
+        "Hungary",
+        "Luxembourg",
+        "Sweden",
+        "Czechia",
+        "North Macedonia",
+        "Romania",
+        "Switzerland",
+        "Latvia",
+        "Greece",
         "Slovakia",
         "Belgium",
+        "Lithuania",
         "United Kingdom",
-        "Latvia",
-        "Luxembourg",
-        "Poland",
-        "North Macedonia",
-        "Sweden",
-        "Norway",
-        "Croatia",
-        "Turkey",
-        "Kosovo",
-        "Portugal",
-        "Estonia",
-        "Netherlands"
+        "Bosnia and Herzegovina",
+        "Spain"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OW_Covid_19_vaccinations/OW_Covid_19_vaccinations_photo.jpg"
@@ -1697,42 +1727,42 @@
       ],
       "cities": [
         "Godorf Wesseling",
-        "Le Havre",
-        "Dalmeny",
-        "Cartagena",
-        "Corinth",
+        "Antwerp",
         "Sullom Voe",
-        "Algeciras",
-        "Rotterdam",
-        "Schwechat",
+        "Teesport",
+        "Dalmeny",
+        "Finnart",
+        "Grangemouth",
+        "Trieste",
+        "Omisalj",
         "Elefsina",
+        "Rotterdam",
+        "Fos-Lavera",
+        "Wilhelmshaven",
+        "Pachi",
+        "Cartagena",
+        "Sarroch",
+        "Schwechat",
+        "Corinth",
+        "Aspropyrgos",
+        "Tarragona",
+        "Algeciras",
         "Thessaloniki",
         "Cork",
-        "Aspropyrgos",
-        "Grangemouth",
-        "Sarroch",
-        "Antwerp",
-        "Trieste",
-        "Tarragona",
-        "Teesport",
-        "Wilhelmshaven",
-        "Finnart",
-        "Pachi",
-        "Fos-Lavera",
-        "Omisalj"
+        "Le Havre"
       ],
       "countries": [
-        "FR",
-        "GB",
+        "DE",
+        "BE",
         "IE",
+        "ES",
+        "GB",
+        "GR",
         "IT",
         "HR",
-        "NL",
-        "ES",
-        "DE",
+        "FR",
         "AT",
-        "BE",
-        "GR"
+        "NL"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"
@@ -1821,20 +1851,20 @@
         "SLSTR"
       ],
       "cities": [
-        "Marseilles",
         "Lisbon",
-        "Hamburg",
         "Constanta",
         "Barcelona",
-        "Venice Lagoon"
+        "Marseilles",
+        "Venice Lagoon",
+        "Hamburg"
       ],
       "countries": [
-        "FR",
-        "GE",
-        "RO",
-        "IT",
         "ES",
-        "PT"
+        "RO",
+        "PT",
+        "IT",
+        "GE",
+        "FR"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png"
