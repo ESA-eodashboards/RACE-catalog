@@ -1,0 +1,227 @@
+{
+  "type": "Collection",
+  "id": "steel_inventory_timeseries",
+  "stac_version": "1.1.0",
+  "description": "## Steel inventory timeseries\n\nThis indicator aims at showing steel inventory levels at different production plants by means of Sentinel-1 data.\nSteelmaking monitoring is strategic in terms of supply of its inputs (iron ore and coal) and demand from different industries (automotive, construction).\n\nThis steel products output inventory levels indicator is produced by Aerospacelab for 9 sites in Europe. \nBy defining the output zone for each steel plant and monitoring the SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data, Aerospacelab generates time series of inventory levels. \nAreas holding various forms of steel products (Coil, plate, section...) are considered in the analysis.\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_1.png)\n\n*Figure 1: Hunedoara, Romania - Output inventory levels*\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_2.png)\n\n*Figure 2: Imatra, Finland - Output inventory levels*\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_3.png)\n\n*Figure 3: Katowice, Poland - Output inventory levels*\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./steel_inventory_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries",
+      "endpointtype": "GeoDB",
+      "subtitle": "Steel inventory monitoring in open warehouses from SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data",
+      "code": "E5",
+      "id": "steel_inventory_timeseries",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Imatra - area 1",
+        "Imatra - area 2",
+        "Imatra - area 3",
+        "Katowice",
+        "Hunedoara",
+        "Borlange - area 1",
+        "Boxholm - area 3",
+        "Boxholm - area 4",
+        "Hallefors - area 1",
+        "Hallefors - area 3",
+        "Hallefors - area 2",
+        "Hofors - area 1",
+        "Hofors - area 2",
+        "Lulea",
+        "Oxelosund - area 1",
+        "Oxelosund - area 2",
+        "Borlange - area 2",
+        "Oxelosund - area 3",
+        "Oxelosund - area 4",
+        "Borlange - area 3",
+        "Borlange - area 4",
+        "Borlange - area 5",
+        "Borlange - area 6",
+        "Borlange - area 7",
+        "Boxholm - area 1",
+        "Boxholm - area 2"
+      ],
+      "countries": [
+        "FI",
+        "PL",
+        "RO",
+        "SE"
+      ],
+      "yAxis": "Metal Density Variation [%]",
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E5",
+      "sensor": [
+        "C-SAR"
+      ],
+      "satellite": [
+        "Sentinel-1"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "./steel_inventory_timeseries/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E5?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Steel inventory monitoring in open warehouses from SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg",
+  "themes": [
+    "economy"
+  ],
+  "locations": true,
+  "tags": [
+    "Copernicus",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E5",
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E5_steel_inventory_timeseries/chart.json",
+  "title": "Steel inventory timeseries",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          14.49180323252394,
+          45.78665347566703,
+          28.80280863057794,
+          65.55902654614368
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-05-23T04:45:04Z",
+          "2020-06-17T05:23:14Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "name": "Aerospacelab",
+      "url": "https://www.aerospacelab.be/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "E5"
+    ],
+    "themes": [
+      "economy"
+    ],
+    "satellite": [
+      "Sentinel-1"
+    ],
+    "sensor": [
+      "C-SAR"
+    ],
+    "countries": [
+      "PL",
+      "FI",
+      "RO",
+      "SE"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

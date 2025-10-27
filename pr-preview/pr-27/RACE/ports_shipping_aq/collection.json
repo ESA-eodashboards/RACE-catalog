@@ -181,8 +181,8 @@
       "C1"
     ],
     "themes": [
-      "economy",
-      "air"
+      "air",
+      "economy"
     ],
     "satellite": [
       "Sentinel-5P",
@@ -192,8 +192,8 @@
       "TROPOMI"
     ],
     "cities": [
-      "Genoa",
-      "Gioia Tauro"
+      "Gioia Tauro",
+      "Genoa"
     ],
     "countries": [
       "IT"

@@ -1,0 +1,132 @@
+{
+  "type": "Collection",
+  "id": "SE1",
+  "stac_version": "1.1.0",
+  "description": "Borlange - area 1 - SE",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    }
+  ],
+  "subcode": "E5",
+  "subtitle": "Steel inventory monitoring in open warehouses from SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "title": "Borlange - area 1",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          15.45449967425414,
+          60.48716328426411,
+          15.45662486901549,
+          60.48877077379414
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-05-24T04:38:09Z",
+          "2020-06-17T05:22:24Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "name": "Aerospacelab",
+      "url": "https://www.aerospacelab.be/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
