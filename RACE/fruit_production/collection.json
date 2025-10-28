@@ -176,8 +176,8 @@
       "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
-      "HiRI"
+      "HiRI",
+      "MSI"
     ],
     "cities": [
       "Huelva Laguna de las Madres"

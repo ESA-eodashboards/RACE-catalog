@@ -34,20 +34,21 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Shipping sources of pollution and NO2 levels"
+      "title": "NO2 level vs Number of Ships"
     }
   ],
   "subtitle": "Port Activities, sources of pollution and NO2 levels",
   "yAxis": "Normalized NO2 concentration & Mean monthly boat number",
   "themes": [
     "economy",
-    "air"
+    "atmosphere"
   ],
   "tags": [
     "Air quality",
     "NO2",
     "Ports",
-    "Multi-sensors"
+    "Multi-sensors",
+    "Pollution"
   ],
   "agency": [
     "ESA"
@@ -66,7 +67,7 @@
   ],
   "locations": true,
   "endpointtype": "GeoDB",
-  "title": "Shipping sources of pollution and NO2 levels",
+  "title": "NO2 level vs Number of Ships",
   "extent": {
     "spatial": {
       "bbox": [

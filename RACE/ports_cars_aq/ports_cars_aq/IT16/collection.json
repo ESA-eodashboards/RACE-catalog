@@ -58,20 +58,21 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Car sourcesof pollution and NO2 levels"
+      "title": "NO2 level vs Number of Cars"
     }
   ],
   "subcode": "C3",
   "subtitle": "Port Activities, sources of pollution and NO2 levels",
   "themes": [
     "economy",
-    "air"
+    "atmosphere"
   ],
   "tags": [
     "Air quality",
     "NO2",
     "Ports",
-    "Multi-sensors"
+    "Multi-sensors",
+    "Pollution"
   ],
   "agency": [
     "ESA"

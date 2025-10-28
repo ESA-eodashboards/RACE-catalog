@@ -14,20 +14,21 @@
       "rel": "child",
       "href": "./relative_humidity/collection.json",
       "type": "application/json",
-      "title": "Relative humidity",
+      "title": "Relative humidity - ERA5",
       "endpointtype": "Sentinel Hub_byoc",
       "subtitle": "Global relative humidity",
       "code": "CDS2_relative_humidity",
       "id": "relative_humidity",
       "themes": [
-        "air"
+        "atmosphere"
       ],
       "tags": [
         "Copernicus Services",
         "C3S",
         "CDS",
         "Multi-sensors",
-        "Open data"
+        "Open data",
+        "ERA5"
       ],
       "agency": [
         "European Commission",
@@ -114,14 +115,15 @@
   "subtitle": "Global relative humidity",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS2_relative_humidity/CDS2_relative_humidity.png",
   "themes": [
-    "air"
+    "atmosphere"
   ],
   "tags": [
     "Copernicus Services",
     "C3S",
     "CDS",
     "Multi-sensors",
-    "Open data"
+    "Open data",
+    "ERA5"
   ],
   "agency": [
     "European Commission",
@@ -149,7 +151,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
-  "title": "Relative humidity",
+  "title": "Relative humidity - ERA5",
   "extent": {
     "spatial": {
       "bbox": [
@@ -192,7 +194,7 @@
       "CDS2_relative_humidity"
     ],
     "themes": [
-      "air"
+      "atmosphere"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS2_relative_humidity/CDS2_relative_humidity.png"
