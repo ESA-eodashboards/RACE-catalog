@@ -4,7 +4,9 @@
   "EodashIdentifier": "E12c_monthly",
   "Description": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.md",
   "Themes": [
-    "economy"
+    "economy",
+    "commerce",
+    "transport"
   ],
   "Tags": [
     "Copernicus",
