@@ -1,11 +1,11 @@
 {
   "Name": "relative_humidity",
-  "Title": "Relative humidity",
+  "Title": "Relative humidity - ERA5",
   "EodashIdentifier": "CDS2_relative_humidity",
   "Subtitle": "Global relative humidity",
   "Description": "CDS2_relative_humidity/CDS2_relative_humidity.md",
   "Themes": [
-    "air"
+    "atmosphere"
   ],
   "Tags": [
     "Copernicus Services",
