@@ -80,7 +80,8 @@
   "subtitle": "Availability of agricultural workers",
   "yAxis": "/",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Land cover",

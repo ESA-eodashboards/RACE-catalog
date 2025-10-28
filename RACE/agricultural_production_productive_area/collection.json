@@ -20,7 +20,8 @@
       "code": "E10a1",
       "id": "agricultural_production_productive_area",
       "themes": [
-        "agriculture"
+        "agriculture",
+        "land"
       ],
       "cities": [
         "Brandenburg",
@@ -106,7 +107,8 @@
   ],
   "subtitle": "Agricultural production in Europe",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",
@@ -161,7 +163,8 @@
       "E10a1"
     ],
     "themes": [
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
       "Sentinel-2"

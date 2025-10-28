@@ -30,7 +30,8 @@
   "subtitle": "Monitoring fruit production (Berries) in Huelva, Spain",
   "yAxis": "Number of trucks in the greenhouse area (absolute value and %)",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",

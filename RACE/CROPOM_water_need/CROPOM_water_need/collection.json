@@ -36,7 +36,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_water_need.png",
   "themes": [
     "agriculture",
-    "economy"
+    "land"
   ],
   "tags": [
     "Crop",

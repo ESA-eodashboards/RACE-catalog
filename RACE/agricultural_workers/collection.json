@@ -20,7 +20,8 @@
       "code": "E10a9",
       "id": "agricultural_workers",
       "themes": [
-        "agriculture"
+        "agriculture",
+        "land"
       ],
       "cities": [
         "Apulia"
@@ -109,7 +110,8 @@
   ],
   "subtitle": "Availability of agricultural workers",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Land cover",
@@ -169,15 +171,16 @@
       "E10a9"
     ],
     "themes": [
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
-      "Sentinel-2",
-      "Deimos-2"
+      "Deimos-2",
+      "Sentinel-2"
     ],
     "sensor": [
-      "DMAC",
-      "MSI"
+      "MSI",
+      "DMAC"
     ],
     "cities": [
       "Apulia"

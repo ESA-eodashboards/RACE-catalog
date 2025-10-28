@@ -184,12 +184,12 @@
       "extremes"
     ],
     "satellite": [
-      "Sentinel-1",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Sentinel-1"
     ],
     "sensor": [
-      "MSI",
-      "SAR"
+      "SAR",
+      "MSI"
     ]
   },
   "assets": {

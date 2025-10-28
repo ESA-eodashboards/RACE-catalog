@@ -20,7 +20,8 @@
       "code": "E10a2",
       "id": "agricultural_production_area",
       "themes": [
-        "agriculture"
+        "agriculture",
+        "land"
       ],
       "cities": [
         "Brandenburg Region"
@@ -112,7 +113,8 @@
   ],
   "subtitle": "Agricultural production in Europe",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "locations": true,
   "tags": [
@@ -168,7 +170,8 @@
       "E10a2"
     ],
     "themes": [
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
       "Sentinel-2"

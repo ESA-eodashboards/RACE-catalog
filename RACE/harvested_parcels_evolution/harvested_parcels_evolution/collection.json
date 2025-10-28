@@ -240,7 +240,8 @@
   "subtitle": "Evolution of harvested parcels in percentage",
   "yAxis": "Cumulative (%)",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",

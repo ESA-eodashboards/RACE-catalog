@@ -30,7 +30,8 @@
   "subtitle": "Agricultural production in Europe",
   "yAxis": "Cumulative Proportion of total areas under active management",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",

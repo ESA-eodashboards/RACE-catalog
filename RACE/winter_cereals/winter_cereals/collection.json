@@ -30,7 +30,8 @@
   "subtitle": "Winter cereals growth and harvest – Spain",
   "yAxis": "(%) of Harvested and non-Harvested areas",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",

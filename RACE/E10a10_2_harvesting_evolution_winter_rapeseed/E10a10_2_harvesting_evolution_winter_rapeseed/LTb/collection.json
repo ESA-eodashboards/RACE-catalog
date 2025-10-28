@@ -64,7 +64,8 @@
   "subcode": "E10a10_2",
   "subtitle": "Monitoring row crop harvesting with satellite data",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",

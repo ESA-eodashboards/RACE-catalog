@@ -30,7 +30,8 @@
   "subtitle": "Agricultural production in Europe",
   "yAxis": "Cultivated area 2020-2019 / Cultivated area 2019",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",

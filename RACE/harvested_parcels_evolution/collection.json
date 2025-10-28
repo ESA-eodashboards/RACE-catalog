@@ -20,7 +20,8 @@
       "code": "E10a6",
       "id": "harvested_parcels_evolution",
       "themes": [
-        "agriculture"
+        "agriculture",
+        "land"
       ],
       "cities": [
         "Comunidad Foral de Navarra",
@@ -121,7 +122,8 @@
   ],
   "subtitle": "Evolution of harvested parcels in percentage",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",
@@ -179,30 +181,31 @@
       "E10a6"
     ],
     "themes": [
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
-      "Sentinel-1",
+      "Landsat-8",
       "Sentinel-2",
-      "Landsat-8"
+      "Sentinel-1"
     ],
     "sensor": [
-      "OLI",
+      "MSI",
       "C-SAR",
-      "MSI"
+      "OLI"
     ],
     "cities": [
-      "Cataluna",
-      "Andalucia",
-      "La Rioja",
-      "Region de Murcia",
+      "Extremadura",
+      "Castilla y Leon",
       "Aragon",
       "Comunidad de Madrid",
-      "Castilla y Leon",
-      "Comunidad Foral de Navarra",
-      "Extremadura",
+      "Comunidad Valenciana",
+      "Andalucia",
+      "Cataluna",
+      "La Rioja",
+      "Region de Murcia",
       "Castilla-La Mancha",
-      "Comunidad Valenciana"
+      "Comunidad Foral de Navarra"
     ],
     "countries": [
       "ES"

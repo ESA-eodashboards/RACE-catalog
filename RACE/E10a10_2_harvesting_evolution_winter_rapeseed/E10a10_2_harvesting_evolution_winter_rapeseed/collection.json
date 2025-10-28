@@ -180,7 +180,8 @@
   "subtitle": "Monitoring row crop harvesting with satellite data",
   "yAxis": "Cumulative (%)",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",

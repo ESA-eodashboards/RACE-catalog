@@ -40,7 +40,8 @@
   "subtitle": "Agricultural production in Europe",
   "yAxis": "Total area [ha]",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",

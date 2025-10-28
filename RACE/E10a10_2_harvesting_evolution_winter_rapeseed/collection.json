@@ -20,7 +20,8 @@
       "code": "E10a10_2",
       "id": "E10a10_2_harvesting_evolution_winter_rapeseed",
       "themes": [
-        "agriculture"
+        "agriculture",
+        "land"
       ],
       "cities": [
         "Austria",
@@ -134,7 +135,8 @@
   ],
   "subtitle": "Monitoring row crop harvesting with satellite data",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",
@@ -185,7 +187,8 @@
       "E10a10_2"
     ],
     "themes": [
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
       "Sentinel-1"
@@ -194,40 +197,40 @@
       "C-SAR"
     ],
     "cities": [
-      "United Kingdom",
-      "Austria",
-      "Hungary",
-      "Poland",
-      "France",
-      "Latvia",
-      "Czech Republic",
-      "Bulgaria",
+      "Slovak Republic",
       "Sweden",
       "Croatia",
       "Lithuania",
-      "Germany",
-      "Slovak Republic",
-      "Estonia",
       "Denmark",
-      "Romania"
+      "United Kingdom",
+      "Romania",
+      "Bulgaria",
+      "Austria",
+      "Germany",
+      "Czech Republic",
+      "Hungary",
+      "Latvia",
+      "France",
+      "Estonia",
+      "Poland"
     ],
     "countries": [
-      "DK",
-      "SE",
-      "AT",
-      "HR",
-      "HU",
-      "LT",
-      "FR",
-      "GB",
-      "PL",
-      "RO",
-      "CZ",
-      "SK",
       "DE",
+      "SK",
+      "LV",
+      "CZ",
       "BG",
       "EE",
-      "LV"
+      "HR",
+      "PL",
+      "AT",
+      "SE",
+      "HU",
+      "RO",
+      "GB",
+      "FR",
+      "LT",
+      "DK"
     ]
   },
   "assets": {

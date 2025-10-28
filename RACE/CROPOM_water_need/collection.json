@@ -21,7 +21,7 @@
       "id": "CROPOM_water_need",
       "themes": [
         "agriculture",
-        "economy"
+        "land"
       ],
       "tags": [
         "Crop",
@@ -109,7 +109,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_water_need.png",
   "themes": [
     "agriculture",
-    "economy"
+    "land"
   ],
   "tags": [
     "Crop",
@@ -182,13 +182,13 @@
       "CROPOM_water_need"
     ],
     "themes": [
-      "economy",
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
+      "CLMS HR-VPP Vegetation Indices",
       "Sentinel-2",
-      "CLMS HR-VPP Seasonal Trajectory",
-      "CLMS HR-VPP Vegetation Indices"
+      "CLMS HR-VPP Seasonal Trajectory"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_water_need.png"

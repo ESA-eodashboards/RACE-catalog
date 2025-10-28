@@ -20,7 +20,8 @@
       "code": "E10a8",
       "id": "winter_cereals",
       "themes": [
-        "agriculture"
+        "agriculture",
+        "land"
       ],
       "cities": [
         "Spain"
@@ -111,7 +112,8 @@
   ],
   "subtitle": "Winter cereals growth and harvest – Spain",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",
@@ -169,17 +171,18 @@
       "E10a8"
     ],
     "themes": [
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
-      "Sentinel-1",
+      "Landsat-8",
       "Sentinel-2",
-      "Landsat-8"
+      "Sentinel-1"
     ],
     "sensor": [
-      "OLI",
+      "MSI",
       "C-SAR",
-      "MSI"
+      "OLI"
     ],
     "cities": [
       "Spain"

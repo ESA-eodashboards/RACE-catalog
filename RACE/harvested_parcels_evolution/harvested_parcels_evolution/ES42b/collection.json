@@ -64,7 +64,8 @@
   "subcode": "E10a6",
   "subtitle": "Evolution of harvested parcels in percentage",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",

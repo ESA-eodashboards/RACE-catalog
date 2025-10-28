@@ -60,14 +60,15 @@
   "subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind V field",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS4_wind_10m_v/CDS4_wind_10m_v.png",
   "themes": [
-    "air"
+    "atmosphere"
   ],
   "tags": [
     "Copernicus Services",
     "C3S",
     "CDS",
     "Multi-sensors",
-    "Open data"
+    "Open data",
+    "ERA5"
   ],
   "agency": [
     "European Commission",

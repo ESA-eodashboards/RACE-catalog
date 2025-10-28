@@ -20,7 +20,8 @@
       "code": "E10a10",
       "id": "E10a10_harvesting_evolution_winter_cereal",
       "themes": [
-        "agriculture"
+        "agriculture",
+        "land"
       ],
       "cities": [
         "Austria",
@@ -140,7 +141,8 @@
   ],
   "subtitle": "Monitoring row crop harvesting with satellite data",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",
@@ -191,7 +193,8 @@
       "E10a10"
     ],
     "themes": [
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
       "Sentinel-1"
@@ -200,46 +203,46 @@
       "C-SAR"
     ],
     "cities": [
-      "Poland",
-      "Italy",
-      "Serbia",
-      "Sweden",
-      "Austria",
-      "France",
-      "Czech Republic",
-      "Bulgaria",
-      "Croatia",
       "Denmark",
+      "Austria",
+      "Czech Republic",
+      "Latvia",
+      "France",
       "Spain",
       "United Kingdom",
-      "Lithuania",
-      "Germany",
-      "Latvia",
-      "Romania",
-      "Hungary",
+      "Estonia",
+      "Serbia",
+      "Poland",
+      "Sweden",
+      "Croatia",
       "Slovak Republic",
-      "Estonia"
+      "Lithuania",
+      "Romania",
+      "Bulgaria",
+      "Germany",
+      "Hungary",
+      "Italy"
     ],
     "countries": [
-      "RS",
-      "DK",
-      "ES",
-      "LT",
-      "FR",
+      "LV",
       "CZ",
-      "DE",
-      "PL",
-      "EE",
-      "SE",
-      "GB",
-      "RO",
       "BG",
+      "IT",
       "AT",
+      "GB",
+      "FR",
+      "LT",
+      "SK",
+      "SE",
       "HR",
       "HU",
-      "IT",
-      "SK",
-      "LV"
+      "RS",
+      "DK",
+      "DE",
+      "ES",
+      "EE",
+      "PL",
+      "RO"
     ]
   },
   "assets": {

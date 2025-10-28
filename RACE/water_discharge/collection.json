@@ -19,7 +19,7 @@
       "code": "CNR_TUR_1",
       "id": "water_discharge",
       "themes": [
-        "water"
+        "inland water"
       ],
       "tags": [
         "Water quality",
@@ -103,7 +103,7 @@
     }
   ],
   "themes": [
-    "water"
+    "inland water"
   ],
   "tags": [
     "Water quality",
@@ -176,7 +176,7 @@
       "CNR_TUR_1"
     ],
     "themes": [
-      "water"
+      "inland water"
     ],
     "satellite": [
       "Sentinel-2"

@@ -20,7 +20,8 @@
       "code": "E10a5",
       "id": "fruit_production",
       "themes": [
-        "agriculture"
+        "agriculture",
+        "land"
       ],
       "cities": [
         "Huelva Laguna de las Madres"
@@ -107,7 +108,8 @@
   ],
   "subtitle": "Monitoring fruit production (Berries) in Huelva, Spain",
   "themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "tags": [
     "Copernicus",
@@ -169,15 +171,16 @@
       "E10a5"
     ],
     "themes": [
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
-      "Pleiades",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Pleiades"
     ],
     "sensor": [
-      "HiRI",
-      "MSI"
+      "MSI",
+      "HiRI"
     ],
     "cities": [
       "Huelva Laguna de las Madres"
