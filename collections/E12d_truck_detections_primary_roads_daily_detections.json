@@ -4,7 +4,9 @@
   "EodashIdentifier": "E12d_daily",
   "Description": "E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.md",
   "Themes": [
-    "economy"
+    "economy",
+    "commerce",
+    "transport"
   ],
   "Tags": [
     "Copernicus",
