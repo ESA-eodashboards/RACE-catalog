@@ -5,7 +5,9 @@
   "Subtitle": "Vessel density for tanker description",
   "Description": "E13q_vessel_density_tanker/E13q_vessel_density_tanker.md",
   "Themes": [
-    "water"
+    "economy",
+    "transport",
+    "commerce"
   ],
   "Tags": [
     "Maritime",
