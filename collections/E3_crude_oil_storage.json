@@ -1,11 +1,14 @@
 {
   "Name": "crude_oil_storage",
-  "Title": "Crude oil storage monitoring",
+  "Title": "Crude oil storage - ICEYE",
   "EodashIdentifier": "E3",
   "Subtitle": "Crude Oil Storage Volume as observed by ICEYE",
   "Description": "E3_crude_oil_storage/E3_crude_oil_storage.md",
   "Themes": [
-    "economy"
+    "economy",
+    "resources",
+    "energy",
+    "industry"
   ],
   "Tags": [
     "SAR",
