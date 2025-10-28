@@ -5,7 +5,9 @@
   "Subtitle": "Parked planes detected on Sentinel-2 data",
   "Description": "E13b_parked_planes/E13b_parked_planes.md",
   "Themes": [
-    "economy"
+    "economy",
+    "transport",
+    "tourism"
   ],
   "Tags": [
     "Copernicus",
