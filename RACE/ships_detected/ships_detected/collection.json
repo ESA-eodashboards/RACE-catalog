@@ -74,13 +74,14 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Ships detections"
+      "title": "Ships detected in Sentinel-2"
     }
   ],
   "subtitle": "Ships detected in Sentinel-2 data",
   "yAxis": "Number of ships in Port",
   "themes": [
-    "economy"
+    "economy",
+    "transport"
   ],
   "tags": [
     "Multi-sensors"
@@ -97,7 +98,7 @@
   ],
   "locations": true,
   "endpointtype": "GeoDB",
-  "title": "Ships detections",
+  "title": "Ships detected in Sentinel-2",
   "extent": {
     "spatial": {
       "bbox": [

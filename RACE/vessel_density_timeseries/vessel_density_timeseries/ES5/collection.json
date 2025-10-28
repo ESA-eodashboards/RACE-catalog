@@ -65,7 +65,8 @@
   "sci:citation": "Alessandro Cimbelli, Vessel Density based on Copernicus Sentinel-1, developed for the ESA RACE Challenges March 2021",
   "subtitle": "Vessel Density based on Copernicus Sentinel-1",
   "themes": [
-    "economy"
+    "economy",
+    "transport"
   ],
   "tags": [
     "Copernicus",

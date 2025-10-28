@@ -242,13 +242,13 @@
   "summaries": {
     "subcode": [
       "E12d_detections",
-      "E12d_monthly",
-      "E12d_daily"
+      "E12d_daily",
+      "E12d_monthly"
     ],
     "themes": [
-      "commerce",
+      "economy",
       "transport",
-      "economy"
+      "commerce"
     ],
     "satellite": [
       "Sentinel-2"

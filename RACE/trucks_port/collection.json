@@ -20,7 +20,9 @@
       "code": "E13n",
       "id": "trucks_port",
       "themes": [
-        "economy"
+        "economy",
+        "transport",
+        "commerce"
       ],
       "cities": [
         "Gijon"
@@ -101,7 +103,9 @@
   ],
   "subtitle": "Changes in the number of trucks in ports",
   "themes": [
-    "economy"
+    "economy",
+    "transport",
+    "commerce"
   ],
   "tags": [
     "Ports",
@@ -143,7 +147,9 @@
       "E13n"
     ],
     "themes": [
-      "economy"
+      "economy",
+      "transport",
+      "commerce"
     ],
     "cities": [
       "Gijon"

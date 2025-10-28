@@ -64,7 +64,9 @@
   "subcode": "E13n",
   "subtitle": "Changes in the number of trucks in ports",
   "themes": [
-    "economy"
+    "economy",
+    "transport",
+    "commerce"
   ],
   "tags": [
     "Ports",

@@ -30,7 +30,9 @@
   "subtitle": "Changes in the number of trucks in ports",
   "yAxis": "% Variation compated  to Febuary 2019",
   "themes": [
-    "economy"
+    "economy",
+    "transport",
+    "commerce"
   ],
   "tags": [
     "Ports",

@@ -20,7 +20,10 @@
       "code": "E13l",
       "id": "pleasure_craft_port",
       "themes": [
-        "economy"
+        "economy",
+        "transport",
+        "tourism",
+        "sports"
       ],
       "cities": [
         "Genoa"
@@ -102,7 +105,10 @@
   ],
   "subtitle": "Changes in the number of boats in ports",
   "themes": [
-    "economy"
+    "economy",
+    "transport",
+    "tourism",
+    "sports"
   ],
   "tags": [
     "Ports",
@@ -151,7 +157,10 @@
       "E13l"
     ],
     "themes": [
-      "economy"
+      "sports",
+      "economy",
+      "transport",
+      "tourism"
     ],
     "cities": [
       "Genoa"

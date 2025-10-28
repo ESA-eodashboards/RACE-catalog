@@ -180,8 +180,8 @@
       "Sentinel-1"
     ],
     "sensor": [
-      "C-SAR",
       "OLI",
+      "C-SAR",
       "MSI"
     ],
     "cities": [

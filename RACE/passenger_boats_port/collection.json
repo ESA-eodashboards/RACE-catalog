@@ -20,7 +20,9 @@
       "code": "E13m",
       "id": "passenger_boats_port",
       "themes": [
-        "economy"
+        "economy",
+        "transport",
+        "tourism"
       ],
       "cities": [
         "Genoa"
@@ -103,7 +105,9 @@
   ],
   "subtitle": "Changes in the number of boats in ports",
   "themes": [
-    "economy"
+    "economy",
+    "transport",
+    "tourism"
   ],
   "tags": [
     "Ports",
@@ -153,7 +157,9 @@
       "E13m"
     ],
     "themes": [
-      "economy"
+      "economy",
+      "transport",
+      "tourism"
     ],
     "cities": [
       "Genoa"

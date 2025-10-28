@@ -341,7 +341,8 @@
   "subtitle": "Vessel Density based on Copernicus Sentinel-1",
   "yAxis": "/",
   "themes": [
-    "economy"
+    "economy",
+    "transport"
   ],
   "tags": [
     "Copernicus",

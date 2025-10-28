@@ -14,13 +14,14 @@
       "rel": "child",
       "href": "./ships_detected/collection.json",
       "type": "application/json",
-      "title": "Ships detections",
+      "title": "Ships detected in Sentinel-2",
       "endpointtype": "GeoDB",
       "subtitle": "Ships detected in Sentinel-2 data",
       "code": "E200",
       "id": "ships_detected",
       "themes": [
-        "economy"
+        "economy",
+        "transport"
       ],
       "cities": [
         "Ghent",
@@ -121,7 +122,8 @@
   ],
   "subtitle": "Ships detected in Sentinel-2 data",
   "themes": [
-    "economy"
+    "economy",
+    "transport"
   ],
   "locations": true,
   "tags": [
@@ -139,7 +141,7 @@
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E1b_vessel_density_timeseries/chart.json",
-  "title": "Ships detections",
+  "title": "Ships detected in Sentinel-2",
   "extent": {
     "spatial": {
       "bbox": [
@@ -172,7 +174,8 @@
       "E200"
     ],
     "themes": [
-      "economy"
+      "economy",
+      "transport"
     ],
     "satellite": [
       "Sentinel-2"
@@ -181,20 +184,20 @@
       "MSI"
     ],
     "cities": [
-      "Ghent",
       "Dunkirk",
-      "Suez ",
-      "Gdynia",
       "Hamburg",
+      "Gdynia",
+      "Suez ",
+      "Ghent",
       "Genoa"
     ],
     "countries": [
       "EG",
-      "IT",
-      "FR",
       "PL",
+      "FR",
+      "DE",
       "BE",
-      "DE"
+      "IT"
     ]
   }
 }

@@ -20,7 +20,9 @@
       "code": "E13p",
       "id": "vessel_density_cargo",
       "themes": [
-        "water"
+        "economy",
+        "transport",
+        "commerce"
       ],
       "tags": [
         "Maritime",
@@ -101,7 +103,9 @@
   "subtitle": "Vessel density for cargo description",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_vessel_density_cargo.png",
   "themes": [
-    "water"
+    "economy",
+    "transport",
+    "commerce"
   ],
   "tags": [
     "Maritime",
@@ -177,7 +181,9 @@
       "E13p"
     ],
     "themes": [
-      "water"
+      "economy",
+      "transport",
+      "commerce"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_vessel_density_cargo.png"

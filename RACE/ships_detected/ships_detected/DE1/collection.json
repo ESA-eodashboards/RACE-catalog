@@ -58,13 +58,14 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Ships detections"
+      "title": "Ships detected in Sentinel-2"
     }
   ],
   "subcode": "E200",
   "subtitle": "Ships detected in Sentinel-2 data",
   "themes": [
-    "economy"
+    "economy",
+    "transport"
   ],
   "tags": [
     "Multi-sensors"

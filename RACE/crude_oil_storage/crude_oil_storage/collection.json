@@ -26,13 +26,16 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Crude oil storage monitoring"
+      "title": "Crude oil storage - ICEYE"
     }
   ],
   "subtitle": "Crude Oil Storage Volume as observed by ICEYE",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E3_crude_oil_storage/E3_crude_oil_storage.png",
   "themes": [
-    "economy"
+    "economy",
+    "resources",
+    "energy",
+    "industry"
   ],
   "tags": [
     "SAR",
@@ -47,7 +50,7 @@
     "ICEYE SAR"
   ],
   "endpointtype": "Sentinel Hub_byoc",
-  "title": "Crude oil storage monitoring",
+  "title": "Crude oil storage - ICEYE",
   "extent": {
     "spatial": {
       "bbox": [

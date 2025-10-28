@@ -30,7 +30,10 @@
   "subtitle": "Changes in the number of boats in ports",
   "yAxis": "Number of ships in the port",
   "themes": [
-    "economy"
+    "economy",
+    "transport",
+    "tourism",
+    "sports"
   ],
   "tags": [
     "Ports",

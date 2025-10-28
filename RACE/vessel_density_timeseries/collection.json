@@ -20,7 +20,8 @@
       "code": "E1b",
       "id": "vessel_density_timeseries",
       "themes": [
-        "economy"
+        "economy",
+        "transport"
       ],
       "cities": [
         "Antwerpen",
@@ -164,7 +165,8 @@
   "sci:citation": "Alessandro Cimbelli, Vessel Density based on Copernicus Sentinel-1, developed for the ESA RACE Challenges March 2021",
   "subtitle": "Vessel Density based on Copernicus Sentinel-1",
   "themes": [
-    "economy"
+    "economy",
+    "transport"
   ],
   "locations": true,
   "tags": [
@@ -213,7 +215,8 @@
       "E1b"
     ],
     "themes": [
-      "economy"
+      "economy",
+      "transport"
     ],
     "satellite": [
       "Sentinel-1"
@@ -222,24 +225,24 @@
       "C-SAR"
     ],
     "countries": [
-      "RU",
-      "LV",
-      "IT",
-      "FR",
-      "PL",
-      "BE",
       "DK",
+      "LV",
       "NL",
-      "DE",
-      "IE",
+      "PL",
       "ES",
-      "GR",
-      "PT",
-      "LT",
-      "RO",
+      "FR",
       "NO",
+      "PT",
+      "RU",
+      "DE",
+      "BE",
+      "IE",
+      "TR",
+      "RO",
+      "LT",
       "EE",
-      "TR"
+      "GR",
+      "IT"
     ]
   },
   "assets": {

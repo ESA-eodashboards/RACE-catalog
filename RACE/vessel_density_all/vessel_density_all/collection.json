@@ -40,7 +40,8 @@
   "subtitle": "Vessel density description",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png",
   "themes": [
-    "water"
+    "economy",
+    "transport"
   ],
   "tags": [
     "Maritime",
