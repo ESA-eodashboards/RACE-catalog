@@ -31,7 +31,9 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.png",
   "themes": [
-    "economy"
+    "economy",
+    "commerce",
+    "transport"
   ],
   "tags": [
     "Copernicus",

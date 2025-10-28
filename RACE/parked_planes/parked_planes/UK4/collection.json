@@ -64,7 +64,9 @@
   "subcode": "E13b",
   "subtitle": "Parked planes detected on Sentinel-2 data",
   "themes": [
-    "economy"
+    "economy",
+    "transport",
+    "tourism"
   ],
   "tags": [
     "Copernicus",

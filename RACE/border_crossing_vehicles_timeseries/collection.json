@@ -20,7 +20,9 @@
       "code": "E12b",
       "id": "border_crossing_vehicles_timeseries",
       "themes": [
-        "economy"
+        "economy",
+        "commerce",
+        "transport"
       ],
       "cities": [
         "Folkestone"
@@ -115,7 +117,9 @@
   ],
   "subtitle": "Volume of highway occupancy from Sentinel-1 data",
   "themes": [
-    "economy"
+    "economy",
+    "commerce",
+    "transport"
   ],
   "locations": true,
   "tags": [
@@ -170,6 +174,8 @@
       "E12b"
     ],
     "themes": [
+      "commerce",
+      "transport",
       "economy"
     ],
     "satellite": [

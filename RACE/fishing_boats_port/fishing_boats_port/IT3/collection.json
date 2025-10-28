@@ -64,7 +64,9 @@
   "subcode": "E13f",
   "subtitle": "Changes in the number of boats in ports",
   "themes": [
-    "economy"
+    "economy",
+    "commerce",
+    "transport"
   ],
   "tags": [
     "Ports",

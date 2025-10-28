@@ -30,7 +30,9 @@
   "subtitle": "Volume of highway occupancy from Sentinel-1 data",
   "yAxis": "Backscatter S1 VV",
   "themes": [
-    "economy"
+    "economy",
+    "commerce",
+    "transport"
   ],
   "tags": [
     "Copernicus",

@@ -20,7 +20,9 @@
       "code": "E13b",
       "id": "parked_planes",
       "themes": [
-        "economy"
+        "economy",
+        "transport",
+        "tourism"
       ],
       "cities": [
         "Vienna",
@@ -162,7 +164,9 @@
   ],
   "subtitle": "Parked planes detected on Sentinel-2 data",
   "themes": [
-    "economy"
+    "economy",
+    "transport",
+    "tourism"
   ],
   "locations": true,
   "tags": [
@@ -216,6 +220,8 @@
       "E13b"
     ],
     "themes": [
+      "transport",
+      "tourism",
       "economy"
     ],
     "satellite": [
@@ -225,25 +231,25 @@
       "MSI"
     ],
     "countries": [
+      "FR",
+      "BE",
+      "IE",
+      "PT",
+      "CH",
+      "IT",
       "PL",
-      "TR",
+      "FI",
+      "DE",
+      "ES",
       "SE",
       "GB",
-      "FR",
-      "NL",
-      "PT",
-      "GR",
-      "IE",
-      "ES",
-      "IT",
-      "CH",
+      "DK",
       "NO",
-      "DE",
       "UK",
-      "FI",
+      "NL",
+      "GR",
       "AT",
-      "BE",
-      "DK"
+      "TR"
     ]
   }
 }

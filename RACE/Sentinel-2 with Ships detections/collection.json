@@ -19,7 +19,9 @@
       "code": "E13c_ship_detections",
       "id": "Sentinel-2 with Ships detections",
       "themes": [
-        "economy"
+        "economy",
+        "transport",
+        "tourism"
       ],
       "tags": [
         "Ports",
@@ -100,7 +102,9 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_ship_detections_algorithm/thumbnail.png",
   "themes": [
-    "economy"
+    "economy",
+    "transport",
+    "tourism"
   ],
   "tags": [
     "Ports",
@@ -156,6 +160,8 @@
       "E13c_ship_detections"
     ],
     "themes": [
+      "transport",
+      "tourism",
       "economy"
     ],
     "satellite": [

@@ -19,7 +19,9 @@
       "code": "E12c_daily",
       "id": "Truck_daily_detections",
       "themes": [
-        "economy"
+        "economy",
+        "commerce",
+        "transport"
       ],
       "tags": [
         "Copernicus",
@@ -48,7 +50,9 @@
       "code": "E12c_monthly",
       "id": "Monthly_Truck_Aggregated_Traffic_10km",
       "themes": [
-        "economy"
+        "economy",
+        "commerce",
+        "transport"
       ],
       "tags": [
         "Copernicus",
@@ -77,7 +81,9 @@
       "code": "E12c_detections",
       "id": "Truck_daily_sentinel_2",
       "themes": [
-        "economy"
+        "economy",
+        "commerce",
+        "transport"
       ],
       "tags": [
         "Copernicus",
@@ -235,11 +241,13 @@
   ],
   "summaries": {
     "subcode": [
-      "E12c_monthly",
       "E12c_detections",
-      "E12c_daily"
+      "E12c_daily",
+      "E12c_monthly"
     ],
     "themes": [
+      "commerce",
+      "transport",
       "economy"
     ],
     "satellite": [

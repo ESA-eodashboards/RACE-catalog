@@ -331,7 +331,9 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_2.png",
   "yAxis": "Number of flying planes",
   "themes": [
-    "economy"
+    "economy",
+    "transport",
+    "tourism"
   ],
   "tags": [
     "Copernicus",

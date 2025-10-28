@@ -330,7 +330,9 @@
   "subtitle": "Parked planes detected on Sentinel-2 data",
   "yAxis": "Time series of airport throughput",
   "themes": [
-    "economy"
+    "economy",
+    "transport",
+    "tourism"
   ],
   "tags": [
     "Copernicus",

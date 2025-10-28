@@ -20,7 +20,9 @@
       "code": "E13i",
       "id": "search_rescue_port",
       "themes": [
-        "economy"
+        "economy",
+        "transport",
+        "security"
       ],
       "cities": [
         "Gioia Tauro"
@@ -102,7 +104,9 @@
   ],
   "subtitle": "Changes in the number of boats in ports",
   "themes": [
-    "economy"
+    "economy",
+    "transport",
+    "security"
   ],
   "tags": [
     "Ports",
@@ -151,6 +155,8 @@
       "E13i"
     ],
     "themes": [
+      "transport",
+      "security",
       "economy"
     ],
     "cities": [

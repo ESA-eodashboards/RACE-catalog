@@ -20,7 +20,9 @@
       "code": "E13f",
       "id": "fishing_boats_port",
       "themes": [
-        "economy"
+        "economy",
+        "commerce",
+        "transport"
       ],
       "cities": [
         "Gioia Tauro",
@@ -103,7 +105,9 @@
   ],
   "subtitle": "Changes in the number of boats in ports",
   "themes": [
-    "economy"
+    "economy",
+    "commerce",
+    "transport"
   ],
   "tags": [
     "Ports",
@@ -152,11 +156,13 @@
       "E13f"
     ],
     "themes": [
+      "commerce",
+      "transport",
       "economy"
     ],
     "cities": [
-      "Gioia Tauro",
-      "Genoa"
+      "Genoa",
+      "Gioia Tauro"
     ],
     "countries": [
       "IT"

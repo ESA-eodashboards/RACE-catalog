@@ -169,14 +169,14 @@
       "water"
     ],
     "satellite": [
-      "Sentinel-3",
-      "Aqua",
+      "Suomi NPP",
       "JPSS-1",
-      "Suomi NPP"
+      "Sentinel-3",
+      "Aqua"
     ],
     "sensor": [
-      "VIIRS",
       "MODIS",
+      "VIIRS",
       "OLCI"
     ],
     "thumbnail": [

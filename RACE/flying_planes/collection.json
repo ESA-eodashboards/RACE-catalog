@@ -20,7 +20,9 @@
       "code": "E13d",
       "id": "flying_planes",
       "themes": [
-        "economy"
+        "economy",
+        "transport",
+        "tourism"
       ],
       "cities": [
         "Vienna",
@@ -168,7 +170,9 @@
   "subtitle": "Flying planes detected on Sentinel-2 data",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_2.png",
   "themes": [
-    "economy"
+    "economy",
+    "transport",
+    "tourism"
   ],
   "locations": true,
   "tags": [
@@ -223,6 +227,8 @@
       "E13d"
     ],
     "themes": [
+      "transport",
+      "tourism",
       "economy"
     ],
     "satellite": [
@@ -232,24 +238,24 @@
       "MSI"
     ],
     "countries": [
-      "IE",
-      "FR",
-      "ES",
-      "NL",
-      "PL",
-      "PT",
-      "TR",
       "SE",
-      "GB",
-      "DE",
-      "FI",
+      "NO",
       "IT",
-      "AT",
+      "FR",
+      "PL",
+      "GB",
       "BE",
       "DK",
+      "FI",
+      "NL",
+      "DE",
+      "IE",
+      "ES",
       "GR",
+      "PT",
       "CH",
-      "NO"
+      "AT",
+      "TR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_2.png"

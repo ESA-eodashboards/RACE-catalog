@@ -64,7 +64,9 @@
   "subcode": "E12b",
   "subtitle": "Volume of highway occupancy from Sentinel-1 data",
   "themes": [
-    "economy"
+    "economy",
+    "commerce",
+    "transport"
   ],
   "tags": [
     "Copernicus",
