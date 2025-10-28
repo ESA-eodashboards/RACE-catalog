@@ -1,18 +1,19 @@
 {
   "Name": "ports_people_aq",
-  "Title": "People sources of pollution and NO2 levels",
+  "Title": "NO2 level vs Number of People",
   "EodashIdentifier": "C2",
   "Subtitle": "Port Activities, sources of pollution and NO2 levels",
   "Description": "C2_ports_people_aq/C2_ports_people_aq.md",
   "Themes": [
     "economy",
-    "air"
+    "atmosphere"
   ],
   "Tags": [
     "Air quality",
     "NO2",
     "Ports",
     "Multi-sensors"
+    "Pollution"
   ],
   "DataSource": {
     "Spaceborne": {
