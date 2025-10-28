@@ -5,7 +5,9 @@
   "Subtitle": "Flying planes detected on Sentinel-2 data",
   "Description": "E13d_flying_planes/E13d_flying_planes.md",
   "Themes": [
-    "economy"
+    "economy",
+    "transport",
+    "tourism"
   ],
   "Tags": [
     "Copernicus",
