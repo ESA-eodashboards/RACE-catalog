@@ -280,7 +280,9 @@
   "subtitle": "Steel inventory monitoring in open warehouses from SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data",
   "yAxis": "Metal Density Variation [%]",
   "themes": [
-    "economy"
+    "economy",
+    "industry",
+    "resources"
   ],
   "tags": [
     "Copernicus",

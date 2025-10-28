@@ -64,7 +64,9 @@
   "subcode": "E8",
   "subtitle": "Inventory level in logisitc areas of production sites",
   "themes": [
-    "economy"
+    "economy",
+    "industry",
+    "commerce"
   ],
   "tags": [
     "Copernicus",

@@ -20,7 +20,10 @@
       "code": "E4",
       "id": "intermediate_goods_production",
       "themes": [
-        "economy"
+        "economy",
+        "industry",
+        "resources",
+        "commerce"
       ],
       "cities": [
         "Hamburg",
@@ -99,7 +102,10 @@
   ],
   "subtitle": "Assessment of intermediate goods production sites (steel mills/other metal production, cement production, chemicals/plastics production).",
   "themes": [
-    "economy"
+    "economy",
+    "industry",
+    "resources",
+    "commerce"
   ],
   "tags": [
     "Multi-sensors"
@@ -137,15 +143,18 @@
       "E4"
     ],
     "themes": [
-      "economy"
+      "commerce",
+      "resources",
+      "economy",
+      "industry"
     ],
     "cities": [
-      "Hamburg",
-      "Genoa"
+      "Genoa",
+      "Hamburg"
     ],
     "countries": [
-      "DE",
-      "IT"
+      "IT",
+      "DE"
     ]
   }
 }

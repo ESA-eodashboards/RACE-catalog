@@ -278,7 +278,9 @@
   "subtitle": "Inventory level in logisitc areas of production sites",
   "yAxis": "Normalized Radar backscatter (flattened gamma0)",
   "themes": [
-    "economy"
+    "economy",
+    "industry",
+    "commerce"
   ],
   "tags": [
     "Copernicus",

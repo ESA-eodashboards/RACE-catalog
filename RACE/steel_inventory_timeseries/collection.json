@@ -20,7 +20,9 @@
       "code": "E5",
       "id": "steel_inventory_timeseries",
       "themes": [
-        "economy"
+        "economy",
+        "industry",
+        "resources"
       ],
       "cities": [
         "Imatra - area 1",
@@ -140,7 +142,9 @@
   ],
   "subtitle": "Steel inventory monitoring in open warehouses from SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data",
   "themes": [
-    "economy"
+    "economy",
+    "industry",
+    "resources"
   ],
   "locations": true,
   "tags": [
@@ -196,7 +200,9 @@
       "E5"
     ],
     "themes": [
-      "economy"
+      "resources",
+      "economy",
+      "industry"
     ],
     "satellite": [
       "Sentinel-1"
@@ -205,10 +211,10 @@
       "C-SAR"
     ],
     "countries": [
-      "SE",
       "PL",
       "FI",
-      "RO"
+      "RO",
+      "SE"
     ]
   }
 }

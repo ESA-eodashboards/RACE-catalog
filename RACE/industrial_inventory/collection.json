@@ -20,7 +20,9 @@
       "code": "E8",
       "id": "industrial_inventory",
       "themes": [
-        "economy"
+        "economy",
+        "industry",
+        "commerce"
       ],
       "cities": [
         "Ghent",
@@ -137,7 +139,9 @@
   ],
   "subtitle": "Inventory level in logisitc areas of production sites",
   "themes": [
-    "economy"
+    "economy",
+    "industry",
+    "commerce"
   ],
   "tags": [
     "Copernicus",
@@ -201,48 +205,50 @@
       "E8"
     ],
     "themes": [
-      "economy"
+      "commerce",
+      "economy",
+      "industry"
     ],
     "satellite": [
-      "ICEYE SAR",
-      "Sentinel-1"
+      "Sentinel-1",
+      "ICEYE SAR"
     ],
     "sensor": [
       "C-SAR"
     ],
     "cities": [
-      "Dingolfing",
       "Emden",
-      "Ingolstadt",
-      "Mioveni",
-      "Martorell",
-      "Leipzig",
-      "Neckarsulm",
-      "Wolfsburg",
+      "Dingolfing",
       "Eisenach",
-      "Barcelona",
-      "Saarlouis",
+      "Sindelfingen",
+      "Mioveni",
       "Zwickau",
+      "Martorell",
+      "Nosovice",
+      "Kvasiny",
+      "Saarlouis",
+      "Ingolstadt",
+      "Neckarsulm",
       "Swindon",
       "Russelsheim",
-      "Koln",
-      "Sindelfingen",
-      "Regensburg",
-      "Ghent",
       "Craiova",
-      "Kvasiny",
-      "Nosovice",
+      "Regensburg",
+      "Leipzig",
       "Bremen",
-      "Cassino"
+      "Ghent",
+      "Wolfsburg",
+      "Koln",
+      "Cassino",
+      "Barcelona"
     ],
     "countries": [
-      "ES",
       "GB",
-      "DE",
-      "BE",
+      "IT",
       "RO",
       "CZ",
-      "IT"
+      "ES",
+      "DE",
+      "BE"
     ]
   },
   "assets": {

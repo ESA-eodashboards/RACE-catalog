@@ -180,8 +180,8 @@
       "E11"
     ],
     "themes": [
-      "economy",
-      "commerce"
+      "commerce",
+      "economy"
     ],
     "satellite": [
       "Sentinel-1"
@@ -190,19 +190,19 @@
       "C-SAR"
     ],
     "cities": [
-      "Athens",
-      "Bucharest",
       "Warsaw",
+      "Athens",
+      "Rome",
+      "Bucharest",
       "Brussels",
-      "Milan",
-      "Rome"
+      "Milan"
     ],
     "countries": [
       "PL",
-      "BE",
-      "RO",
       "GR",
-      "IT"
+      "IT",
+      "RO",
+      "BE"
     ]
   }
 }
