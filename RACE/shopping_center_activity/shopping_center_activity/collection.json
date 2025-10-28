@@ -80,7 +80,8 @@
   "subtitle": "Occupancy of customer parking",
   "yAxis": "Number of parked cars",
   "themes": [
-    "economy"
+    "economy",
+    "commerce"
   ],
   "tags": [
     "Copernicus",

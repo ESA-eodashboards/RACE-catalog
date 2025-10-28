@@ -175,8 +175,8 @@
       "land"
     ],
     "satellite": [
-      "Deimos-2",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Deimos-2"
     ],
     "sensor": [
       "MSI",

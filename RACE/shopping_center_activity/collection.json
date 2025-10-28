@@ -20,7 +20,8 @@
       "code": "E11",
       "id": "shopping_center_activity",
       "themes": [
-        "economy"
+        "economy",
+        "commerce"
       ],
       "cities": [
         "Brussels",
@@ -118,7 +119,8 @@
   ],
   "subtitle": "Occupancy of customer parking",
   "themes": [
-    "economy"
+    "economy",
+    "commerce"
   ],
   "tags": [
     "Copernicus",
@@ -178,7 +180,8 @@
       "E11"
     ],
     "themes": [
-      "economy"
+      "economy",
+      "commerce"
     ],
     "satellite": [
       "Sentinel-1"
@@ -187,19 +190,19 @@
       "C-SAR"
     ],
     "cities": [
-      "Warsaw",
-      "Bucharest",
-      "Milan",
+      "Athens",
       "Brussels",
       "Rome",
-      "Athens"
+      "Milan",
+      "Warsaw",
+      "Bucharest"
     ],
     "countries": [
       "PL",
       "IT",
       "BE",
-      "RO",
-      "GR"
+      "GR",
+      "RO"
     ]
   }
 }
