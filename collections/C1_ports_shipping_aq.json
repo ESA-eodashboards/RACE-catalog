@@ -1,18 +1,19 @@
 {
   "Name": "ports_shipping_aq",
-  "Title": "Shipping sources of pollution and NO2 levels",
+  "Title": "NO2 level vs Number of Ships",
   "EodashIdentifier": "C1",
   "Subtitle": "Port Activities, sources of pollution and NO2 levels",
   "Description": "C1_ports_shipping_aq/C1_ports_shipping_aq.md",
   "Themes": [
     "economy",
-    "air"
+    "atmosphere"
   ],
   "Tags": [
     "Air quality",
     "NO2",
     "Ports",
     "Multi-sensors"
+    "Pollution"
   ],
   "DataSource": {
     "Spaceborne": {
