@@ -12,7 +12,8 @@
     "C3S",
     "CDS",
     "Multi-sensors",
-    "Open data"
+    "Open data",
+    "ERA5"
   ],
   "DataSource": {
     "Other": [
