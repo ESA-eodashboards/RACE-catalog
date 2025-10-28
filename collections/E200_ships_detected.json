@@ -1,11 +1,12 @@
 {
   "Name": "ships_detected",
-  "Title": "Ships detections",
+  "Title": "Ships detected in Sentinel-2",
   "EodashIdentifier": "E200",
   "Subtitle": "Ships detected in Sentinel-2 data",
   "Description": "E200_ships_detected/E200_ships_detected.md",
   "Themes": [
-    "economy"
+    "economy",
+    "transport"
   ],
   "Tags": [
     "Multi-sensors"
