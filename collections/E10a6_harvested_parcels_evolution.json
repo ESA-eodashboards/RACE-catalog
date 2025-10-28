@@ -5,7 +5,8 @@
   "Subtitle": "Evolution of harvested parcels in percentage",
   "Description": "E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution.md",
   "Themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "Tags": [
     "Copernicus",
