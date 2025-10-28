@@ -1,11 +1,11 @@
 {
   "Name": "temperature",
-  "Title": "Global temperature",
+  "Title": "Global temperature - ERA5",
   "EodashIdentifier": "CDS1_temperature",
-  "Subtitle": "Global temperature description",
+  "Subtitle": "Air temperature at 2m above ",
   "Description": "CDS1_temperature/CDS1_temperature.md",
   "Themes": [
-    "air"
+    "atmosphere"
   ],
   "Tags": [
     "Copernicus Services",
@@ -13,6 +13,7 @@
     "CDS",
     "Multi-sensors",
     "Open data"
+    "ERA5"
   ],
   "DataSource": {
     "Other": [
