@@ -5,7 +5,8 @@
   "Subtitle": "Monitoring row crop harvesting with satellite data",
   "Description": "E10a10_harvesting_evolution/E10a10_harvesting_evolution.md",
   "Themes": [
-    "agriculture"
+    "agriculture",
+    "land"
   ],
   "Tags": [
     "Copernicus",
