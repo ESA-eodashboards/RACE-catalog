@@ -1,0 +1,619 @@
+{
+  "type": "Collection",
+  "id": "vessel_density_timeseries",
+  "stac_version": "1.1.0",
+  "description": "## Ship Density Maps (Sentinel-1)\r\n\r\nThis indicator shows ships detected in the major EU ports by means of Copernicus Sentinel-1 data. It was developed by Alessandro Cimbelli within the upscaling part of the [RACE Challenges 2021](https://eo4society.esa.int/2021/08/01/rapid-action-on-coronavirus-and-eo-race-dashboard-challenge-3/).\r\n\r\nA vessel density map is produced by deriving, for each 1 km2 pixel of the masked image of the selected area, an index given by the ratio:\r\n\r\ndensity_vessels= 1000 * number_vessels / number_observations\r\n\r\nwhere the number of observations corresponds to the intersection of all the satellite footprints of the selected month.\r\n\r\nThe figures below show a comparison with the corresponding map provided by [EMODnet](https://race.esa.int/?x=1040481.31544&y=5968190.74701&z=4.29471&poi=World-E13o&search=World%3A+Vessel+density+%28all%29+%5Bh%2Fsqkm%5D) using the Structural Similarity Index (SSIM).\r\n\r\n\r\n<div style=\"display: flex;\">\r\n  <div class=\"image-caption-object\">\r\n      <img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b-img1.png\" alt=\"Image\" style=\"width: 40%;\" />\r\n      <div>Sentinel-1 based indicator</div>\r\n  </div>\r\n  \r\n  <div class=\"image-caption-object\">\r\n      <img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b-img2.png\" alt=\"Legend\" style=\"width: 40%;\" />\r\n      <div>EMODnet indicator</div>\r\n  </div>\r\n</div>\r\n\r\n\r\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./BE1/collection.json",
+      "type": "application/json",
+      "title": "Antwerpen",
+      "id": "BE1",
+      "latlng": "51.475911, 2.983308",
+      "country": "BE",
+      "name": "Antwerpen"
+    },
+    {
+      "rel": "child",
+      "href": "./DE1/collection.json",
+      "type": "application/json",
+      "title": "Hamburg",
+      "id": "DE1",
+      "latlng": "54.017878, 8.551366",
+      "country": "DE",
+      "name": "Hamburg"
+    },
+    {
+      "rel": "child",
+      "href": "./DE2/collection.json",
+      "type": "application/json",
+      "title": "Bremerhaven, Hamburg, Wilhelmshaven",
+      "id": "DE2",
+      "latlng": "54.0588, 7.63401",
+      "country": "DE",
+      "name": "Bremerhaven, Hamburg, Wilhelmshaven"
+    },
+    {
+      "rel": "child",
+      "href": "./DK2/collection.json",
+      "type": "application/json",
+      "title": "Skagen",
+      "id": "DK2",
+      "latlng": "57.707289, 10.680737",
+      "country": "DK",
+      "name": "Skagen"
+    },
+    {
+      "rel": "child",
+      "href": "./EE1/collection.json",
+      "type": "application/json",
+      "title": "Tallin",
+      "id": "EE1",
+      "latlng": "59.667699, 24.805019",
+      "country": "EE",
+      "name": "Tallin"
+    },
+    {
+      "rel": "child",
+      "href": "./ES1/collection.json",
+      "type": "application/json",
+      "title": "Algeciras",
+      "id": "ES1",
+      "latlng": "35.957077, -5.259355",
+      "country": "ES",
+      "name": "Algeciras"
+    },
+    {
+      "rel": "child",
+      "href": "./ES18/collection.json",
+      "type": "application/json",
+      "title": "Barcelona",
+      "id": "ES18",
+      "latlng": "41.312241, 2.23685",
+      "country": "ES",
+      "name": "Barcelona"
+    },
+    {
+      "rel": "child",
+      "href": "./ES3/collection.json",
+      "type": "application/json",
+      "title": "Bilbao",
+      "id": "ES3",
+      "latlng": "43.460472, -3.349436",
+      "country": "ES",
+      "name": "Bilbao"
+    },
+    {
+      "rel": "child",
+      "href": "./ES4/collection.json",
+      "type": "application/json",
+      "title": "Las Palmas",
+      "id": "ES4",
+      "latlng": "27.967126, -15.115872",
+      "country": "ES",
+      "name": "Las Palmas"
+    },
+    {
+      "rel": "child",
+      "href": "./ES5/collection.json",
+      "type": "application/json",
+      "title": "Valencia",
+      "id": "ES5",
+      "latlng": "39.404982, -0.251362",
+      "country": "ES",
+      "name": "Valencia"
+    },
+    {
+      "rel": "child",
+      "href": "./FR2/collection.json",
+      "type": "application/json",
+      "title": "Le Havre",
+      "id": "FR2",
+      "latlng": "49.238328, -0.593896",
+      "country": "FR",
+      "name": "Le Havre"
+    },
+    {
+      "rel": "child",
+      "href": "./FR3/collection.json",
+      "type": "application/json",
+      "title": "Dunkerque",
+      "id": "FR3",
+      "latlng": "51.216776, 2.205416",
+      "country": "FR",
+      "name": "Dunkerque"
+    },
+    {
+      "rel": "child",
+      "href": "./FR4/collection.json",
+      "type": "application/json",
+      "title": "Marseille",
+      "id": "FR4",
+      "latlng": "43.209346, 5.144744",
+      "country": "FR",
+      "name": "Marseille"
+    },
+    {
+      "rel": "child",
+      "href": "./GR7/collection.json",
+      "type": "application/json",
+      "title": "Peiraias",
+      "id": "GR7",
+      "latlng": "37.775969, 23.671019",
+      "country": "GR",
+      "name": "Peiraias"
+    },
+    {
+      "rel": "child",
+      "href": "./IE2/collection.json",
+      "type": "application/json",
+      "title": "Dublin",
+      "id": "IE2",
+      "latlng": "53.296626, -5.911193",
+      "country": "IE",
+      "name": "Dublin"
+    },
+    {
+      "rel": "child",
+      "href": "./IT16/collection.json",
+      "type": "application/json",
+      "title": "Gioia Tauro",
+      "id": "IT16",
+      "latlng": "38.453601, 15.793779",
+      "country": "IT",
+      "name": "Gioia Tauro"
+    },
+    {
+      "rel": "child",
+      "href": "./IT17/collection.json",
+      "type": "application/json",
+      "title": "La Spezia",
+      "id": "IT17",
+      "latlng": "43.988387, 9.989117",
+      "country": "IT",
+      "name": "La Spezia"
+    },
+    {
+      "rel": "child",
+      "href": "./IT18/collection.json",
+      "type": "application/json",
+      "title": "Taranto",
+      "id": "IT18",
+      "latlng": "40.228814, 17.160124",
+      "country": "IT",
+      "name": "Taranto"
+    },
+    {
+      "rel": "child",
+      "href": "./IT19/collection.json",
+      "type": "application/json",
+      "title": "Trieste",
+      "id": "IT19",
+      "latlng": "45.63555, 13.700997",
+      "country": "IT",
+      "name": "Trieste"
+    },
+    {
+      "rel": "child",
+      "href": "./IT3/collection.json",
+      "type": "application/json",
+      "title": "Genova",
+      "id": "IT3",
+      "latlng": "44.137695, 8.956082",
+      "country": "IT",
+      "name": "Genova"
+    },
+    {
+      "rel": "child",
+      "href": "./LT1/collection.json",
+      "type": "application/json",
+      "title": "Klaipeda",
+      "id": "LT1",
+      "latlng": "55.684278, 21.140029",
+      "country": "LT",
+      "name": "Klaipeda"
+    },
+    {
+      "rel": "child",
+      "href": "./LV1/collection.json",
+      "type": "application/json",
+      "title": "Riga",
+      "id": "LV1",
+      "latlng": "57.153293, 23.620893",
+      "country": "LV",
+      "name": "Riga"
+    },
+    {
+      "rel": "child",
+      "href": "./NL3/collection.json",
+      "type": "application/json",
+      "title": "Rotterdam",
+      "id": "NL3",
+      "latlng": "52.059558, 3.196759",
+      "country": "NL",
+      "name": "Rotterdam"
+    },
+    {
+      "rel": "child",
+      "href": "./NL4/collection.json",
+      "type": "application/json",
+      "title": "Amsterdam",
+      "id": "NL4",
+      "latlng": "52.398692, 4.318951",
+      "country": "NL",
+      "name": "Amsterdam"
+    },
+    {
+      "rel": "child",
+      "href": "./NO3/collection.json",
+      "type": "application/json",
+      "title": "Bergen",
+      "id": "NO3",
+      "latlng": "60.332799, 4.983069",
+      "country": "NO",
+      "name": "Bergen"
+    },
+    {
+      "rel": "child",
+      "href": "./NO4/collection.json",
+      "type": "application/json",
+      "title": "Göteborg",
+      "id": "NO4",
+      "latlng": "57.722237, 12.010657",
+      "country": "NO",
+      "name": "Göteborg"
+    },
+    {
+      "rel": "child",
+      "href": "./PL1/collection.json",
+      "type": "application/json",
+      "title": "Gdansk",
+      "id": "PL1",
+      "latlng": "54.782807, 18.240794",
+      "country": "PL",
+      "name": "Gdansk"
+    },
+    {
+      "rel": "child",
+      "href": "./PT2/collection.json",
+      "type": "application/json",
+      "title": "Sines",
+      "id": "PT2",
+      "latlng": "37.886931, -9.015926",
+      "country": "PT",
+      "name": "Sines"
+    },
+    {
+      "rel": "child",
+      "href": "./RO1/collection.json",
+      "type": "application/json",
+      "title": "Constanta",
+      "id": "RO1",
+      "latlng": "44.149405, 28.839589",
+      "country": "RO",
+      "name": "Constanta"
+    },
+    {
+      "rel": "child",
+      "href": "./RU1/collection.json",
+      "type": "application/json",
+      "title": "Kaliningrad",
+      "id": "RU1",
+      "latlng": "54.729095, 19.823546",
+      "country": "RU",
+      "name": "Kaliningrad"
+    },
+    {
+      "rel": "child",
+      "href": "./TR1/collection.json",
+      "type": "application/json",
+      "title": "Instanbul",
+      "id": "TR1",
+      "latlng": "40.722472, 28.542998",
+      "country": "TR",
+      "name": "Instanbul"
+    },
+    {
+      "rel": "child",
+      "href": "./TR2/collection.json",
+      "type": "application/json",
+      "title": "Aliaga",
+      "id": "TR2",
+      "latlng": "39.16878, 26.466613",
+      "country": "TR",
+      "name": "Aliaga"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    }
+  ],
+  "sci:citation": "Alessandro Cimbelli, Vessel Density based on Copernicus Sentinel-1, developed for the ESA RACE Challenges March 2021",
+  "subtitle": "Vessel Density based on Copernicus Sentinel-1",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg",
+  "yAxis": "/",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Copernicus",
+    "Maritime",
+    "Traffic",
+    "Open data",
+    "Community"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E1b",
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "locations": true,
+  "endpointtype": "GeoDB",
+  "title": "Vessel density time series",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -15.625766323402658,
+          27.48468148911183,
+          29.044757418407514,
+          60.78406621243956
+        ],
+        [
+          2.478322532892399,
+          51.118165906663044,
+          3.591768467973733,
+          51.71767658080723
+        ],
+        [
+          8.147037561667227,
+          53.78893839727134,
+          9.118515087231538,
+          54.25789522132319
+        ],
+        [
+          7.112758536354007,
+          53.75640745861966,
+          8.159711505917585,
+          54.350132911738385
+        ],
+        [
+          10.05699518803111,
+          57.37110769189536,
+          11.313231251881751,
+          58.040826995701025
+        ],
+        [
+          24.09143108932326,
+          59.30629075051653,
+          25.53197584414108,
+          60.02850122628858
+        ],
+        [
+          -5.630529351600975,
+          35.6463863347518,
+          -4.891673118602598,
+          36.267490475118784
+        ],
+        [
+          1.87740704186146,
+          41.03854590970308,
+          2.591793249446242,
+          41.585201593727106
+        ],
+        [
+          -3.946507451397309,
+          43.02347077888091,
+          -2.759429658095548,
+          43.89682707252651
+        ],
+        [
+          -15.625766323402658,
+          27.48468148911183,
+          -14.609103883331436,
+          28.44988428278547
+        ],
+        [
+          -0.597229436082664,
+          39.13200412194596,
+          0.090559856050963,
+          39.677394567044004
+        ],
+        [
+          -1.233280885210758,
+          48.821714949725,
+          0.036094662831766,
+          49.65389684240294
+        ],
+        [
+          1.854236123991192,
+          50.997768287334424,
+          2.550818687514258,
+          51.435024587504486
+        ],
+        [
+          4.811842106249636,
+          42.96529462625957,
+          5.472951198599953,
+          43.45247613607719
+        ],
+        [
+          23.324411792170565,
+          37.49264972324344,
+          24.021176462472283,
+          38.05895747712464
+        ],
+        [
+          -6.438698230132661,
+          52.98354760074456,
+          -5.391251818069559,
+          53.6094075805925
+        ],
+        [
+          15.486624532167502,
+          38.20627882669848,
+          16.104709974342285,
+          38.70018692765432
+        ],
+        [
+          9.74277674414282,
+          43.80988662448939,
+          10.237701883906455,
+          44.1659702301701
+        ],
+        [
+          16.757039160308338,
+          39.91335864481623,
+          17.568264251805825,
+          40.543393716265754
+        ],
+        [
+          13.570987594342068,
+          45.54364024293996,
+          13.833026094722207,
+          45.727077228487694
+        ],
+        [
+          8.49573917708847,
+          43.80700970783738,
+          9.409311250600036,
+          44.466734838206094
+        ],
+        [
+          20.80181678115607,
+          55.491076150134155,
+          21.4842183802541,
+          55.8769652203407
+        ],
+        [
+          22.89509360022091,
+          56.75683034534616,
+          24.35947457127975,
+          57.54898172047735
+        ],
+        [
+          2.638880401691172,
+          51.712326652410084,
+          3.779713673945244,
+          52.37057867686358
+        ],
+        [
+          4.075877680383574,
+          52.00126498735566,
+          4.59093133718071,
+          52.666596476609676
+        ],
+        [
+          4.579064031437592,
+          59.929738932686,
+          5.395556817373496,
+          60.78406621243956
+        ],
+        [
+          11.316217294975974,
+          57.34461189663944,
+          12.72153639167913,
+          58.09720309576811
+        ],
+        [
+          17.396642347417682,
+          54.29097671048822,
+          19.1007643176747,
+          55.27273617625275
+        ],
+        [
+          -9.3067622053946,
+          37.651742749979434,
+          -8.727696168182131,
+          38.1220852282608
+        ],
+        [
+          28.61911981759335,
+          43.889189548298255,
+          29.044757418407514,
+          44.39696263181062
+        ],
+        [
+          19.151382861743325,
+          54.337015568240595,
+          20.50781567491353,
+          55.11989623456885
+        ],
+        [
+          28.214954566633057,
+          40.391317976374744,
+          28.89708563576295,
+          41.06030136051418
+        ],
+        [
+          25.99560395153618,
+          38.71155599334124,
+          26.95986066917505,
+          39.61650015349411
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T05:26:55Z",
+          "2022-12-31T17:49:17Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "countries": [
+      "BE",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FR",
+      "GR",
+      "IE",
+      "IT",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "RO",
+      "RU",
+      "TR"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "notebook_vessel_density_cimbelli": {
+      "href": "https://edc-jupyter.hub.eox.at/user/fd72d739-596f-4e72-a660-0d06045e4e26/lab/tree/Vessel_count_upscale.ipynb",
+      "type": "text/html",
+      "title": "Jupyter Notebook Euro Data Cube",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

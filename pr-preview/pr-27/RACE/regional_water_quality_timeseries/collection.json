@@ -197,18 +197,18 @@
       "OLCI"
     ],
     "cities": [
-      "Constanta",
-      "Venice Lagoon",
       "Hamburg",
+      "Venice Lagoon",
+      "Lisbon",
+      "Constanta",
       "Marseilles",
-      "Barcelona",
-      "Lisbon"
+      "Barcelona"
     ],
     "countries": [
-      "IT",
-      "GE",
       "FR",
+      "IT",
       "RO",
+      "GE",
       "PT",
       "ES"
     ],
