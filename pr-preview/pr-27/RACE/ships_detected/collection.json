@@ -184,17 +184,17 @@
     "cities": [
       "Hamburg",
       "Ghent",
-      "Genoa",
       "Suez ",
-      "Dunkirk",
-      "Gdynia"
+      "Gdynia",
+      "Genoa",
+      "Dunkirk"
     ],
     "countries": [
-      "DE",
-      "IT",
+      "EG",
       "BE",
       "PL",
-      "EG",
+      "IT",
+      "DE",
       "FR"
     ],
     "thumbnail": [
