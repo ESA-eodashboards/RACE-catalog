@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./ports_cars_aq/collection.json",
       "type": "application/json",
-      "title": "Car Sources of pollution and NO2 levels",
+      "title": "NO2 level vs Number of Cars",
       "endpointtype": "GeoDB",
       "subtitle": "Port Activities, sources of pollution and NO2 levels",
       "code": "C3",
@@ -140,7 +140,7 @@
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/C3_ports_cars_aq/chart.json",
-  "title": "Car Sources of pollution and NO2 levels",
+  "title": "NO2 level vs Number of Cars",
   "extent": {
     "spatial": {
       "bbox": [
@@ -185,8 +185,8 @@
       "air"
     ],
     "satellite": [
-      "Sentinel-5P",
-      "GNSS"
+      "GNSS",
+      "Sentinel-5P"
     ],
     "sensor": [
       "TROPOMI"
