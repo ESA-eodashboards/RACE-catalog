@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "fruit_production",
+  "id": "winter_cereals",
   "stac_version": "1.1.0",
-  "description": "## Agricultural production - Detected Harvesting Trucks\r\n\r\nThis indicator compares the total number of harvesting trucks (absolute value and percentage) in the vicinity of greenhouses in the 2020 season to the same months in 2019. It aims to show the impact of the lack of seasonal workers during the Covid-19 pandemic.\r\nThe indicator is based on high resolution optical data from the [Pléiades constellation](https://earth.esa.int/eogateway/missions/pleiades) and is produced for the region Laguna de las Madres (Province of Huelva - Spain), that is responsible for 97.5% of the national red berries production. \r\n\r\n",
+  "description": "## Winter cereals growth and harvest – Spain\r\n\r\nThis indicator aims at showing the winter cereals (e.g. winter wheat and barley) harvest evolution at parcel-level over the Spanish autonomous regions [Castilla y León, Andalucia, Castilla-la-Mancha, Aragón](https://agridata.ec.europa.eu/extensions/DashboardCereals/CerealsProduction.html?selections=MS%20Name%20(Production)-Spain) by means of Sentinel-1, Sentinel-2 and Landsat-8 data with 10 meters resolution and 2-3 days revisit time.\r\n\r\nTime series of Sentinel-2 vegetation indices and Sentinel-1 backscatter and coherence values have been processed and analyzed using the open source Sen4CAP (and upcoming Sen4Stat) processing systems. \r\n\r\nParcels dataset have been kindly shared by the national Paying Agency “Fondo Español de Garantía Agraria O.A.” (FEGA) which also provided advices on the results interpretation along with the regional paying agency of Castilla y León.\r\n",
   "links": [
     {
       "rel": "root",
@@ -12,47 +12,51 @@
     },
     {
       "rel": "child",
-      "href": "./fruit_production/collection.json",
+      "href": "./winter_cereals/collection.json",
       "type": "application/json",
-      "title": "Fruit production",
+      "title": "Winter cereals",
       "endpointtype": "GeoDB",
-      "subtitle": "Monitoring fruit production (Berries) in Huelva, Spain",
-      "code": "E10a5",
-      "id": "fruit_production",
+      "subtitle": "Winter cereals growth and harvest – Spain",
+      "code": "E10a8",
+      "id": "winter_cereals",
       "themes": [
         "agriculture"
       ],
       "cities": [
-        "Huelva Laguna de las Madres"
+        "Spain"
       ],
       "countries": [
         "ES"
       ],
-      "yAxis": "Number of trucks in the greenhouse area (absolute value and %)",
+      "yAxis": "(%) of Harvested and non-Harvested areas",
       "tags": [
         "Copernicus",
+        "Sen4CAP",
         "Multi-sensors"
       ],
       "agency": [
         "ESA",
-        "CNES"
+        "NASA",
+        "USGS"
       ],
-      "subcode": "E10a5",
+      "subcode": "E10a8",
       "sensor": [
+        "C-SAR",
         "MSI",
-        "HiRI"
+        "OLI"
       ],
       "satellite": [
+        "Sentinel-1",
         "Sentinel-2",
-        "Pleiades"
+        "Landsat-8"
       ]
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a5?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a8?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
-      "id": "process_geodb",
-      "method": "GET"
+      "method": "GET",
+      "id": "E10a8"
     },
     {
       "rel": "xyz",
@@ -105,47 +109,51 @@
       "title": "RACE"
     }
   ],
-  "subtitle": "Monitoring fruit production (Berries) in Huelva, Spain",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a5_fruit_production/E10a5_fruit_production.jpg",
+  "subtitle": "Winter cereals growth and harvest – Spain",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a8_winter_cereals/E10a8_winter_cereals_photo.jpg",
   "themes": [
     "agriculture"
   ],
   "tags": [
     "Copernicus",
+    "Sen4CAP",
     "Multi-sensors"
   ],
   "agency": [
     "ESA",
-    "CNES"
+    "NASA",
+    "USGS"
   ],
-  "subcode": "E10a5",
+  "subcode": "E10a8",
   "sensor": [
+    "C-SAR",
     "MSI",
-    "HiRI"
+    "OLI"
   ],
   "satellite": [
+    "Sentinel-1",
     "Sentinel-2",
-    "Pleiades"
+    "Landsat-8"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a5_fruit_production/chart.json",
-  "title": "Fruit production",
+  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "title": "Winter cereals",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -6.858888889999999,
-          37.17316944,
-          -6.83888889,
-          37.19316944
+          -4.467,
+          40.034,
+          -4.447,
+          40.053999999999995
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-12-27T11:21:32Z",
-          "2020-06-05T11:33:22Z"
+          "2020-05-17T00:00:00Z",
+          "2020-08-02T00:00:00Z"
         ]
       ]
     }
@@ -153,46 +161,40 @@
   "license": "other",
   "providers": [
     {
-      "name": "Université catholique de Louvain",
-      "url": "https://uclouvain.be/en/index.html"
-    },
-    {
-      "name": "ESA",
-      "url": "https://earth.esa.int/eogateway/missions/pleiades"
-    },
-    {
-      "name": "Copernicus",
-      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+      "name": "FEGA",
+      "url": "https://www.fega.gob.es/en"
     }
   ],
   "summaries": {
     "subcode": [
-      "E10a5"
+      "E10a8"
     ],
     "themes": [
       "agriculture"
     ],
     "satellite": [
-      "Pleiades",
+      "Landsat-8",
+      "Sentinel-1",
       "Sentinel-2"
     ],
     "sensor": [
       "MSI",
-      "HiRI"
+      "C-SAR",
+      "OLI"
     ],
     "cities": [
-      "Huelva Laguna de las Madres"
+      "Spain"
     ],
     "countries": [
       "ES"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a5_fruit_production/E10a5_fruit_production.jpg"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a8_winter_cereals/E10a8_winter_cereals_photo.jpg"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a5_fruit_production/E10a5_fruit_production.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a8_winter_cereals/E10a8_winter_cereals_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
