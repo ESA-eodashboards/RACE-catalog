@@ -1,0 +1,108 @@
+{
+  "type": "Collection",
+  "id": "water_discharge",
+  "stac_version": "1.1.0",
+  "description": "## Water Turbidity from Sentinel-2\n\n**Turbidity** represents the level of suspended sediments in water also indicating water clarity or how clear is the water. It is mainly caused by the presence of silt, algae in a water body, or industrial waste disposed in the rivers by mining activity, industrial operations, logging, etc. Traditionally, turbidity is analyzed by evaluating water samples however, a good alternative to field survey measurements is satellite remote sensing data, which can capture both spatial and temporal variations in river turbidity levels. Accordingly, the [Copernicus Sentinel-2](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2) multispectral can be employed to monitor and evaluate changes in rivers.\n\n### Case study: Monitoring Po River turbidity\nThis study examined the Po River basin, from Ferrara to the river mouth, where freshwater and saltwater mix. Sentinel-2A and 2B images (2019–2022) covering 3700 km² were analyzed. Using [ACOLITE](https://github.com/acolite/acolite) algorithm, 42 cloud-free images were processed to create 10 m resolution turbidity maps. These maps correlated with Po River discharge data from [Environmental Protection Agency of the Region of Emilia Romagna (ARPA-ER)](https://www.arpae.it/it) and water levels from [AIPO](https://www.agenziapo.it/). \n\n### Interperting images:\n- Units metric: Formazin Nephelometric Unit (FNU) - are a metric to measure turbidity by the scattered light method\n- Colore range interpretation: ranging from low FNU (blue/green) to higher FNU (yelllow-red)\n\nFind more about this case study, and main conclusions about Water Connectivity and Turbidity Patterns, as well as exposed riverbeds on a [dedicated story](https://race.esa.int/story?id=po-river-discharge).\n\n\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/CNR_TUR_water_discharge/cog_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "20220910T101827"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Water turbidity"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CNR_TUR_1_water_discharge/CNR_TUR_1_water_discharge_photo.jpg",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Water quality",
+    "Marine",
+    "Copernicus Services",
+    "Sentinel-2",
+    "MSI",
+    "Water turbidity",
+    "Adriactic Sea",
+    "Open data",
+    "Marine monitoring",
+    "Total Suspended Sediments"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "CNR_TUR_1",
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "endpointtype": "COG source",
+  "title": "Water turbidity",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11.54,
+          44.73,
+          12.744,
+          45.113
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-02-05T10:08:28Z",
+          "2022-09-10T10:18:27Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "ESA",
+      "url": "https://sentinel.esa.int/web/sentinel/"
+    },
+    {
+      "name": "Copernicus Data Space Ecosystem",
+      "url": "https://dataspace.copernicus.eu/"
+    },
+    {
+      "name": "ONDA",
+      "url": "https://www.onda-dias.eu/cms/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CNR_TUR_1_water_discharge/CNR_TUR_1_water_discharge_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
