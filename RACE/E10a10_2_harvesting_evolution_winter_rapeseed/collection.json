@@ -134,6 +134,7 @@
     }
   ],
   "subtitle": "Monitoring row crop harvesting with satellite data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg",
   "themes": [
     "agriculture",
     "land"
@@ -187,8 +188,8 @@
       "E10a10_2"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"
@@ -198,42 +199,52 @@
     ],
     "cities": [
       "Hungary",
-      "Estonia",
-      "France",
+      "Romania",
       "Lithuania",
       "Slovak Republic",
-      "Latvia",
-      "Bulgaria",
-      "Czech Republic",
       "United Kingdom",
-      "Croatia",
-      "Germany",
-      "Romania",
-      "Austria",
+      "Estonia",
       "Poland",
+      "Sweden",
       "Denmark",
-      "Sweden"
+      "Austria",
+      "Bulgaria",
+      "Germany",
+      "Croatia",
+      "Latvia",
+      "Czech Republic",
+      "France"
     ],
     "countries": [
-      "DK",
-      "LT",
-      "PL",
-      "LV",
-      "SK",
-      "GB",
-      "AT",
-      "RO",
-      "EE",
-      "BG",
-      "SE",
-      "CZ",
-      "HR",
       "DE",
+      "GB",
+      "PL",
+      "SK",
+      "RO",
+      "SE",
+      "AT",
+      "FR",
+      "HR",
       "HU",
-      "FR"
+      "LT",
+      "BG",
+      "LV",
+      "EE",
+      "DK",
+      "CZ"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg"
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://eo4society.esa.int/projects/impact-of-covid-19-on-harvest-of-row-crop/",
       "type": "text/html",

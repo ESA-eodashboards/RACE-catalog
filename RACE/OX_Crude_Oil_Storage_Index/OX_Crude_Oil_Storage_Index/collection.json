@@ -258,6 +258,7 @@
     }
   ],
   "subtitle": "Level of oil in tanks based on SAR and optical data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg",
   "yAxis": "[%]",
   "themes": [
     "economy"
@@ -509,6 +510,13 @@
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://business.esa.int/projects/otam",
       "type": "text/html",

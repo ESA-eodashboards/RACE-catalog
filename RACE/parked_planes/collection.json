@@ -163,6 +163,7 @@
     }
   ],
   "subtitle": "Parked planes detected on Sentinel-2 data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg",
   "themes": [
     "economy",
     "transport",
@@ -220,9 +221,9 @@
       "E13b"
     ],
     "themes": [
-      "tourism",
+      "transport",
       "economy",
-      "transport"
+      "tourism"
     ],
     "satellite": [
       "Sentinel-2"
@@ -231,25 +232,37 @@
       "MSI"
     ],
     "countries": [
-      "PT",
-      "SE",
-      "BE",
-      "GR",
-      "FI",
-      "NO",
-      "PL",
-      "TR",
-      "IE",
-      "ES",
-      "DE",
-      "IT",
-      "NL",
-      "DK",
-      "GB",
-      "AT",
       "CH",
+      "SE",
+      "GR",
+      "NL",
+      "PT",
+      "FI",
+      "PL",
+      "AT",
+      "GB",
+      "IT",
+      "TR",
+      "ES",
+      "IE",
+      "DE",
+      "NO",
       "UK",
-      "FR"
+      "FR",
+      "BE",
+      "DK"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

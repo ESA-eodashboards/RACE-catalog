@@ -28,6 +28,7 @@
     }
   ],
   "subtitle": "Changes in the number of trucks in ports",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13n_trucks_port/E13n_trucks_port_photo.jpg",
   "yAxis": "% Variation compated  to Febuary 2019",
   "themes": [
     "economy",
@@ -76,5 +77,14 @@
     "countries": [
       "ES"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13n_trucks_port/E13n_trucks_port_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

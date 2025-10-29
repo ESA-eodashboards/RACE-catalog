@@ -104,7 +104,7 @@
       "doi": "https://doi.org/10.1016/j.rse.2023.113651"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/image.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/image.jpg",
   "themes": [
     "agriculture",
     "water"
@@ -193,8 +193,8 @@
       "ESDL_Hydrology_SM"
     ],
     "themes": [
-      "agriculture",
-      "water"
+      "water",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"
@@ -203,7 +203,7 @@
       "C-SAR"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/image.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/image.jpg"
     ]
   },
   "assets": {
@@ -215,7 +215,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/image.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/image.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

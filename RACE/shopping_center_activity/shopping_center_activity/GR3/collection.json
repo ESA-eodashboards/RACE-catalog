@@ -63,6 +63,7 @@
   ],
   "subcode": "E11",
   "subtitle": "Occupancy of customer parking",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg",
   "themes": [
     "economy",
     "commerce"
@@ -116,5 +117,14 @@
       "name": "Vodafone",
       "url": "https://www.vodafone.com/"
     }
-  ]
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

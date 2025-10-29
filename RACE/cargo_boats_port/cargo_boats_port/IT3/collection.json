@@ -63,6 +63,7 @@
   ],
   "subcode": "E13e",
   "subtitle": "Changes in the number of boats in ports",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13e_cargo_boats_port/E13e_cargo_boats_port_photo.jpg",
   "themes": [
     "economy",
     "transport",
@@ -108,6 +109,13 @@
     }
   ],
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13e_cargo_boats_port/E13e_cargo_boats_port_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://www.imo.org/en/OurWork/Safety/Pages/AIS.aspx",
       "type": "text/html",

@@ -69,6 +69,7 @@
   ],
   "subcode": "N3",
   "subtitle": "Regional water quality time series",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg",
   "themes": [
     "water"
   ],
@@ -126,6 +127,13 @@
     }
   ],
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-3-olci/level-2/imt-neural-net",
       "type": "text/html",

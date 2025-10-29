@@ -113,6 +113,7 @@
     }
   ],
   "subtitle": "Port Activities, sources of pollution and NO2 levels",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C1_ports_shipping_aq/C1_ports_shipping_aq_photo.jpg",
   "themes": [
     "economy",
     "atmosphere"
@@ -186,8 +187,8 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-5P",
-      "GNSS"
+      "GNSS",
+      "Sentinel-5P"
     ],
     "sensor": [
       "TROPOMI"
@@ -198,9 +199,19 @@
     ],
     "countries": [
       "IT"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C1_ports_shipping_aq/C1_ports_shipping_aq_photo.jpg"
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C1_ports_shipping_aq/C1_ports_shipping_aq_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://www.imo.org/en/OurWork/Safety/Pages/AIS.aspx",
       "type": "text/html",

@@ -121,6 +121,7 @@
     }
   ],
   "subtitle": "Ships detected in Sentinel-2 data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg",
   "themes": [
     "economy",
     "transport"
@@ -174,8 +175,8 @@
       "E200"
     ],
     "themes": [
-      "economy",
-      "transport"
+      "transport",
+      "economy"
     ],
     "satellite": [
       "Sentinel-2"
@@ -184,20 +185,32 @@
       "MSI"
     ],
     "cities": [
-      "Dunkirk",
-      "Genoa",
-      "Hamburg",
-      "Ghent",
+      "Gdynia",
       "Suez ",
-      "Gdynia"
+      "Ghent",
+      "Hamburg",
+      "Genoa",
+      "Dunkirk"
     ],
     "countries": [
-      "PL",
-      "IT",
-      "EG",
       "DE",
+      "PL",
+      "FR",
+      "EG",
       "BE",
-      "FR"
+      "IT"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

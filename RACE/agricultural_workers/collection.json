@@ -109,6 +109,7 @@
     }
   ],
   "subtitle": "Availability of agricultural workers",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a9_agricultural_workers/E10a9_agricultural_workers_photo.jpg",
   "themes": [
     "agriculture",
     "land"
@@ -171,25 +172,35 @@
       "E10a9"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Deimos-2",
       "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
-      "DMAC"
+      "DMAC",
+      "MSI"
     ],
     "cities": [
       "Apulia"
     ],
     "countries": [
       "IT"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a9_agricultural_workers/E10a9_agricultural_workers_photo.jpg"
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a9_agricultural_workers/E10a9_agricultural_workers_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "http://www.sit.puglia.it/portal/portale_cartografie_tecniche_tematiche/Download/Cartografie",
       "type": "text/html",

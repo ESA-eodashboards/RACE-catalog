@@ -64,7 +64,7 @@
     }
   ],
   "subtitle": "GHS built-up surface dataset GHS-BUILT-S_GLOBE_R2023A",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GHS-BUILT-S-R2023A/GHS-BUILT-S-R2023A.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GHS-BUILT-S-R2023A/GHS-BUILT-S-R2023A_photo.jpg",
   "themes": [
     "economy"
   ],
@@ -151,7 +151,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GHS-BUILT-S-R2023A/GHS-BUILT-S-R2023A.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GHS-BUILT-S-R2023A/GHS-BUILT-S-R2023A_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

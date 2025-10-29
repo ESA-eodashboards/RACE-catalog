@@ -28,6 +28,7 @@
     }
   ],
   "subtitle": "Winter cereals growth and harvest – Spain",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a8_winter_cereals/E10a8_winter_cereals_photo.jpg",
   "yAxis": "(%) of Harvested and non-Harvested areas",
   "themes": [
     "agriculture",
@@ -91,5 +92,14 @@
     "countries": [
       "ES"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a8_winter_cereals/E10a8_winter_cereals_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

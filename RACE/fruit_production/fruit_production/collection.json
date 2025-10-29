@@ -28,6 +28,7 @@
     }
   ],
   "subtitle": "Monitoring fruit production (Berries) in Huelva, Spain",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a5_fruit_production/E10a5_fruit_production.jpg",
   "yAxis": "Number of trucks in the greenhouse area (absolute value and %)",
   "themes": [
     "agriculture",
@@ -95,5 +96,14 @@
     "countries": [
       "ES"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a5_fruit_production/E10a5_fruit_production.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

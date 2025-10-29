@@ -121,6 +121,7 @@
     }
   ],
   "subtitle": "Evolution of harvested parcels in percentage",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution_photo.jpg",
   "themes": [
     "agriculture",
     "land"
@@ -181,34 +182,46 @@
       "E10a6"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1",
-      "Sentinel-2",
-      "Landsat-8"
+      "Landsat-8",
+      "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
       "C-SAR",
+      "MSI",
       "OLI"
     ],
     "cities": [
-      "Comunidad Valenciana",
-      "Aragon",
-      "La Rioja",
-      "Castilla-La Mancha",
-      "Comunidad de Madrid",
-      "Comunidad Foral de Navarra",
       "Extremadura",
-      "Region de Murcia",
-      "Cataluna",
+      "Comunidad Valenciana",
+      "Comunidad de Madrid",
+      "Castilla-La Mancha",
+      "Comunidad Foral de Navarra",
       "Andalucia",
-      "Castilla y Leon"
+      "Cataluna",
+      "Castilla y Leon",
+      "La Rioja",
+      "Region de Murcia",
+      "Aragon"
     ],
     "countries": [
       "ES"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution_photo.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

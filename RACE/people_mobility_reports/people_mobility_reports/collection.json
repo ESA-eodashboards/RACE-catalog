@@ -348,6 +348,7 @@
     }
   ],
   "subtitle": "People mobility data showing the impact of COVID-19 lockdown restrictions",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports_photo.jpg",
   "yAxis": "/",
   "themes": [
     "economy"
@@ -595,5 +596,14 @@
     "cities": [
       "/"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

@@ -111,6 +111,7 @@
     }
   ],
   "subtitle": "Winter cereals growth and harvest – Spain",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a8_winter_cereals/E10a8_winter_cereals_photo.jpg",
   "themes": [
     "agriculture",
     "land"
@@ -171,17 +172,17 @@
       "E10a8"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1",
-      "Sentinel-2",
-      "Landsat-8"
+      "Landsat-8",
+      "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
       "C-SAR",
+      "MSI",
       "OLI"
     ],
     "cities": [
@@ -189,6 +190,18 @@
     ],
     "countries": [
       "ES"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a8_winter_cereals/E10a8_winter_cereals_photo.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a8_winter_cereals/E10a8_winter_cereals_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

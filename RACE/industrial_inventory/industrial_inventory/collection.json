@@ -276,6 +276,7 @@
     }
   ],
   "subtitle": "Inventory level in logisitc areas of production sites",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg",
   "yAxis": "Normalized Radar backscatter (flattened gamma0)",
   "themes": [
     "economy",
@@ -526,6 +527,13 @@
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://ec.europa.eu/eurostat/documents/2995521/11492432/4-05112020-AP-EN.pdf/d52662ba-b163-2c48-90ab-67e6e6ba2d19",
       "type": "text/html",

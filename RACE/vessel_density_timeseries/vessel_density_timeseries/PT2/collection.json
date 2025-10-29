@@ -64,6 +64,7 @@
   "subcode": "E1b",
   "sci:citation": "Alessandro Cimbelli, Vessel Density based on Copernicus Sentinel-1, developed for the ESA RACE Challenges March 2021",
   "subtitle": "Vessel Density based on Copernicus Sentinel-1",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg",
   "themes": [
     "economy",
     "transport"
@@ -113,6 +114,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     },
     "notebook_vessel_density_cimbelli": {

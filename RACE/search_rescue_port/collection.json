@@ -103,6 +103,7 @@
     }
   ],
   "subtitle": "Changes in the number of boats in ports",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13i_maritime_traffic_search_rescue/E13i_maritime_traffic_search_rescue_photo.jpg",
   "themes": [
     "economy",
     "transport",
@@ -155,18 +156,28 @@
       "E13i"
     ],
     "themes": [
-      "security",
+      "transport",
       "economy",
-      "transport"
+      "security"
     ],
     "cities": [
       "Gioia Tauro"
     ],
     "countries": [
       "IT"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13i_maritime_traffic_search_rescue/E13i_maritime_traffic_search_rescue_photo.jpg"
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13i_maritime_traffic_search_rescue/E13i_maritime_traffic_search_rescue_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://www.imo.org/en/OurWork/Safety/Pages/AIS.aspx",
       "type": "text/html",

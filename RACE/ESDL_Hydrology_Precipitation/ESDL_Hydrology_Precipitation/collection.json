@@ -23,7 +23,7 @@
       "title": "Daily precipitation product"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/ESDL_Hydrology_Precipitation.jpg",
   "yAxis": "mm/day",
   "themes": [
     "agriculture",
@@ -155,7 +155,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/ESDL_Hydrology_Precipitation.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

@@ -140,6 +140,7 @@
     }
   ],
   "subtitle": "Monitoring row crop harvesting with satellite data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_harvesting_evolution_photo.jpg",
   "themes": [
     "agriculture",
     "land"
@@ -193,8 +194,8 @@
       "E10a10"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"
@@ -203,49 +204,59 @@
       "C-SAR"
     ],
     "cities": [
-      "Estonia",
-      "France",
-      "Slovak Republic",
-      "Latvia",
-      "Bulgaria",
-      "Czech Republic",
-      "Spain",
-      "Italy",
       "Romania",
-      "Poland",
-      "Hungary",
+      "Slovak Republic",
       "Serbia",
-      "Lithuania",
       "United Kingdom",
+      "Estonia",
+      "Italy",
       "Denmark",
-      "Sweden",
       "Croatia",
       "Germany",
-      "Austria"
+      "Latvia",
+      "Czech Republic",
+      "Lithuania",
+      "Sweden",
+      "Austria",
+      "Spain",
+      "Hungary",
+      "Poland",
+      "Bulgaria",
+      "France"
     ],
     "countries": [
-      "BG",
-      "CZ",
-      "LV",
       "SE",
-      "EE",
+      "BG",
       "PL",
-      "SK",
-      "RS",
-      "ES",
-      "HR",
-      "DE",
-      "IT",
-      "DK",
-      "LT",
-      "GB",
-      "AT",
       "RO",
+      "RS",
+      "AT",
+      "HR",
+      "LV",
+      "GB",
+      "IT",
+      "CZ",
+      "ES",
       "HU",
-      "FR"
+      "LT",
+      "SK",
+      "EE",
+      "DE",
+      "FR",
+      "DK"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_harvesting_evolution_photo.jpg"
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_harvesting_evolution_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://eo4society.esa.int/projects/impact-of-covid-19-on-harvest-of-row-crop/",
       "type": "text/html",

@@ -102,6 +102,7 @@
       "title": "RACE"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CNR_TUR_1_water_discharge/CNR_TUR_1_water_discharge_photo.jpg",
   "themes": [
     "inland water"
   ],
@@ -183,6 +184,18 @@
     ],
     "sensor": [
       "MSI"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CNR_TUR_1_water_discharge/CNR_TUR_1_water_discharge_photo.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CNR_TUR_1_water_discharge/CNR_TUR_1_water_discharge_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

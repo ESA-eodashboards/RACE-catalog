@@ -145,6 +145,7 @@
     }
   ],
   "subtitle": "Level of oil in tanks based on SAR and optical data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg",
   "themes": [
     "economy"
   ],
@@ -221,50 +222,60 @@
       "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
-      "C-SAR"
+      "C-SAR",
+      "MSI"
     ],
     "cities": [
-      "Corinth",
-      "Grangemouth",
-      "Teesport",
-      "Trieste",
-      "Aspropyrgos",
-      "Sullom Voe",
       "Finnart",
-      "Pachi",
       "Tarragona",
       "Schwechat",
-      "Omisalj",
-      "Cork",
-      "Fos-Lavera",
-      "Thessaloniki",
-      "Cartagena",
-      "Sarroch",
-      "Algeciras",
-      "Antwerp",
       "Dalmeny",
+      "Cork",
+      "Thessaloniki",
       "Wilhelmshaven",
-      "Rotterdam",
-      "Godorf Wesseling",
+      "Antwerp",
+      "Grangemouth",
+      "Pachi",
+      "Teesport",
+      "Corinth",
+      "Fos-Lavera",
+      "Cartagena",
+      "Le Havre",
       "Elefsina",
-      "Le Havre"
+      "Omisalj",
+      "Godorf Wesseling",
+      "Algeciras",
+      "Sarroch",
+      "Aspropyrgos",
+      "Trieste",
+      "Sullom Voe",
+      "Rotterdam"
     ],
     "countries": [
-      "GB",
-      "GR",
-      "AT",
-      "IE",
-      "BE",
       "DE",
-      "HR",
-      "IT",
-      "NL",
       "ES",
-      "FR"
+      "AT",
+      "FR",
+      "HR",
+      "GR",
+      "IE",
+      "NL",
+      "BE",
+      "GB",
+      "IT"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://business.esa.int/projects/otam",
       "type": "text/html",

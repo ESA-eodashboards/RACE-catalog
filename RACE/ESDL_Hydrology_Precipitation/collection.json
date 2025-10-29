@@ -100,7 +100,7 @@
       "title": "RACE"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/ESDL_Hydrology_Precipitation.jpg",
   "yAxis": "mm/day",
   "themes": [
     "agriculture",
@@ -227,11 +227,11 @@
       "ESDL_Hydrology_Precipitation"
     ],
     "themes": [
-      "agriculture",
-      "water"
+      "water",
+      "agriculture"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/ESDL_Hydrology_Precipitation.jpg"
     ]
   },
   "assets": {
@@ -243,7 +243,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/ESDL_Hydrology_Precipitation.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

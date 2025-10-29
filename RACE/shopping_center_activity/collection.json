@@ -118,6 +118,7 @@
     }
   ],
   "subtitle": "Occupancy of customer parking",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg",
   "themes": [
     "economy",
     "commerce"
@@ -191,18 +192,30 @@
     ],
     "cities": [
       "Warsaw",
-      "Athens",
-      "Rome",
-      "Bucharest",
+      "Milan",
       "Brussels",
-      "Milan"
+      "Bucharest",
+      "Rome",
+      "Athens"
     ],
     "countries": [
       "PL",
-      "GR",
-      "IT",
       "RO",
-      "BE"
+      "GR",
+      "BE",
+      "IT"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

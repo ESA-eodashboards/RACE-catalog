@@ -123,6 +123,7 @@
     }
   ],
   "subtitle": "Regional water quality time series",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg",
   "themes": [
     "water"
   ],
@@ -196,23 +197,33 @@
       "OLCI"
     ],
     "cities": [
-      "Venice Lagoon",
       "Marseilles",
-      "Lisbon",
-      "Hamburg",
       "Barcelona",
-      "Constanta"
+      "Constanta",
+      "Hamburg",
+      "Venice Lagoon",
+      "Lisbon"
     ],
     "countries": [
-      "RO",
       "PT",
+      "RO",
       "ES",
-      "IT",
+      "FR",
       "GE",
-      "FR"
+      "IT"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg"
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-3-olci/level-2/imt-neural-net",
       "type": "text/html",

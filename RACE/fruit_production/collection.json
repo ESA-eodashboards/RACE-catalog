@@ -107,6 +107,7 @@
     }
   ],
   "subtitle": "Monitoring fruit production (Berries) in Huelva, Spain",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a5_fruit_production/E10a5_fruit_production.jpg",
   "themes": [
     "agriculture",
     "land"
@@ -171,22 +172,34 @@
       "E10a5"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
-      "Pleiades",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Pleiades"
     ],
     "sensor": [
-      "MSI",
-      "HiRI"
+      "HiRI",
+      "MSI"
     ],
     "cities": [
       "Huelva Laguna de las Madres"
     ],
     "countries": [
       "ES"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a5_fruit_production/E10a5_fruit_production.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a5_fruit_production/E10a5_fruit_production.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }
