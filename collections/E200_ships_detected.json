@@ -1,4 +1,5 @@
 {
+  "Image": "E200_ships_detected/E200_ships_detected_photo.jpg",
   "Name": "ships_detected",
   "Title": "Ships detected in Sentinel-2",
   "EodashIdentifier": "E200",
