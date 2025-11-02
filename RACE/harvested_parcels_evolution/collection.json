@@ -182,8 +182,8 @@
       "E10a6"
     ],
     "themes": [
-      "land",
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
       "Sentinel-2",
@@ -196,17 +196,17 @@
       "OLI"
     ],
     "cities": [
-      "Cataluna",
-      "Castilla y Leon",
-      "Aragon",
-      "Comunidad Valenciana",
-      "Andalucia",
+      "Region de Murcia",
       "Castilla-La Mancha",
       "Extremadura",
-      "Region de Murcia",
+      "Andalucia",
       "La Rioja",
+      "Comunidad Valenciana",
+      "Comunidad Foral de Navarra",
       "Comunidad de Madrid",
-      "Comunidad Foral de Navarra"
+      "Cataluna",
+      "Aragon",
+      "Castilla y Leon"
     ],
     "countries": [
       "ES"
