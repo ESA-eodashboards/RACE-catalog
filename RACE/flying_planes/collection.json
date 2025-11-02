@@ -228,8 +228,8 @@
     ],
     "themes": [
       "economy",
-      "tourism",
-      "transport"
+      "transport",
+      "tourism"
     ],
     "satellite": [
       "Sentinel-2"
@@ -238,23 +238,23 @@
       "MSI"
     ],
     "countries": [
-      "GR",
+      "DK",
+      "NO",
+      "DE",
       "IE",
-      "NL",
-      "BE",
-      "PT",
-      "SE",
+      "ES",
+      "PL",
+      "AT",
       "TR",
       "FR",
-      "IT",
-      "AT",
-      "DE",
-      "NO",
       "GB",
-      "PL",
+      "PT",
+      "BE",
+      "SE",
+      "NL",
+      "IT",
       "FI",
-      "DK",
-      "ES",
+      "GR",
       "CH"
     ],
     "thumbnail": [

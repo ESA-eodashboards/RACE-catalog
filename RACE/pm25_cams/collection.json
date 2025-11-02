@@ -200,6 +200,7 @@
     }
   ],
   "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1a_pm25_cams/N1a_pm25_cams_graph.png",
   "themes": [
     "air"
   ],
@@ -257,9 +258,19 @@
     ],
     "themes": [
       "air"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1a_pm25_cams/N1a_pm25_cams_graph.png"
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1a_pm25_cams/N1a_pm25_cams_graph.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://atmosphere.copernicus.eu/european-air-quality-information-support-covid-19-crisis",
       "type": "text/html",

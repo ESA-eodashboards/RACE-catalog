@@ -158,12 +158,12 @@
     ],
     "themes": [
       "economy",
-      "commerce",
-      "transport"
+      "transport",
+      "commerce"
     ],
     "cities": [
-      "Genoa",
-      "Gioia Tauro"
+      "Gioia Tauro",
+      "Genoa"
     ],
     "countries": [
       "IT"

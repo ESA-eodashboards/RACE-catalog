@@ -176,14 +176,14 @@
       "land"
     ],
     "satellite": [
-      "Landsat-8",
+      "Sentinel-2",
       "Sentinel-1",
-      "Sentinel-2"
+      "Landsat-8"
     ],
     "sensor": [
-      "C-SAR",
       "OLI",
-      "MSI"
+      "MSI",
+      "C-SAR"
     ],
     "cities": [
       "Spain"
