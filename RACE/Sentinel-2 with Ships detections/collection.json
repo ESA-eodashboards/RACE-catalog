@@ -161,8 +161,8 @@
     ],
     "themes": [
       "economy",
-      "transport",
-      "tourism"
+      "tourism",
+      "transport"
     ],
     "satellite": [
       "Sentinel-2"

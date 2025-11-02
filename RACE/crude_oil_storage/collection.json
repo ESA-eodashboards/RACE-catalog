@@ -148,8 +148,8 @@
       "E3"
     ],
     "themes": [
-      "economy",
       "resources",
+      "economy",
       "industry",
       "energy"
     ],

@@ -176,12 +176,12 @@
       "land"
     ],
     "satellite": [
-      "Sentinel-2",
-      "Deimos-2"
+      "Deimos-2",
+      "Sentinel-2"
     ],
     "sensor": [
-      "DMAC",
-      "MSI"
+      "MSI",
+      "DMAC"
     ],
     "cities": [
       "Apulia"
