@@ -524,6 +524,7 @@
     }
   ],
   "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1d_o3_cams/N1d_o3_cams_graph.jpg",
   "yAxis": "O3 Surface Concentration[micro g/m3]",
   "themes": [
     "air"
@@ -877,6 +878,13 @@
   ],
   "summaries": {},
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1d_o3_cams/N1d_o3_cams_graph.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://atmosphere.copernicus.eu/european-air-quality-information-support-covid-19-crisis",
       "type": "text/html",
