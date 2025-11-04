@@ -93,7 +93,7 @@
     }
   ],
   "subtitle": "Identify areas of high biodiversity",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_photo.jpg",
   "themes": [
     "agriculture"
   ],
@@ -171,11 +171,11 @@
       "agriculture"
     ],
     "satellite": [
-      "Sentinel-3",
-      "MODIS"
+      "MODIS",
+      "Sentinel-3"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_photo.jpg"
     ]
   },
   "assets": {
@@ -187,7 +187,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_photo.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

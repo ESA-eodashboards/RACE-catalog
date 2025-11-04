@@ -148,10 +148,10 @@
       "E3"
     ],
     "themes": [
-      "resources",
-      "economy",
       "industry",
-      "energy"
+      "energy",
+      "resources",
+      "economy"
     ],
     "satellite": [
       "ICEYE SAR"

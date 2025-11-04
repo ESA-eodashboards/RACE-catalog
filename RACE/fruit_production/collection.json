@@ -176,8 +176,8 @@
       "land"
     ],
     "satellite": [
-      "Pleiades",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Pleiades"
     ],
     "sensor": [
       "MSI",

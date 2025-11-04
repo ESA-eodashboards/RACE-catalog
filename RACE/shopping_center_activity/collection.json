@@ -181,8 +181,8 @@
       "E11"
     ],
     "themes": [
-      "economy",
-      "commerce"
+      "commerce",
+      "economy"
     ],
     "satellite": [
       "Sentinel-1"
@@ -192,17 +192,17 @@
     ],
     "cities": [
       "Athens",
+      "Rome",
       "Warsaw",
       "Brussels",
-      "Milan",
-      "Rome",
-      "Bucharest"
+      "Bucharest",
+      "Milan"
     ],
     "countries": [
-      "GR",
-      "IT",
       "BE",
       "RO",
+      "GR",
+      "IT",
       "PL"
     ],
     "thumbnail": [

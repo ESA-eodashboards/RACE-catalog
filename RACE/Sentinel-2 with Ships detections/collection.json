@@ -140,7 +140,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-11-02T00:00:00Z"
+          "2025-11-04T00:00:00Z"
         ]
       ]
     }
@@ -160,8 +160,8 @@
       "E13c_ship_detections"
     ],
     "themes": [
-      "economy",
       "tourism",
+      "economy",
       "transport"
     ],
     "satellite": [
