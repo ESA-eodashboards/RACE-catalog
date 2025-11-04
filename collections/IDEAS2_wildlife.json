@@ -1,5 +1,4 @@
 {
-  "Image": "IDEAS2_wildlife/IDEAS2_wildlife_photo.jpg",
   "Name": "IDEAS2_wildlife",
   "Title": "Wildlife Biodiversity Indicator",
   "EodashIdentifier": "IND2_1",
@@ -59,7 +58,7 @@
     }
   ],
   "Legend": "IDEAS2_wildlife/cm_legend.png",
-  "Image": "IDEAS2_wildlife/IDEAS2_wildlife.png",
+  "Image": "IDEAS2_wildlife/IDEAS2_wildlife_photo.jpg",
   "Colorlegend": {
     "domain": [
       "low",
