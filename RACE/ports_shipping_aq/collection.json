@@ -183,8 +183,8 @@
       "C1"
     ],
     "themes": [
-      "atmosphere",
-      "economy"
+      "economy",
+      "atmosphere"
     ],
     "satellite": [
       "GNSS",
@@ -194,8 +194,8 @@
       "TROPOMI"
     ],
     "cities": [
-      "Genoa",
-      "Gioia Tauro"
+      "Gioia Tauro",
+      "Genoa"
     ],
     "countries": [
       "IT"

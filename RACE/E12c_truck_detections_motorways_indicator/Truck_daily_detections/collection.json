@@ -118,7 +118,7 @@
       ]
     },
     "reference_4": {
-      "href": "https://eurodatacube.com/notebooks/contributions/Detect_Trucks_Sentinel2.ipynb",
+      "href": "https://github.com/eurodatacube/notebooks/blob/master/notebooks/contributions/Detect_Trucks_Sentinel2.ipynb",
       "type": "text/html",
       "title": "Jupyter Notebook - Euro Data Cube",
       "roles": [
