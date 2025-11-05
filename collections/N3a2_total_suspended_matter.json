@@ -4,6 +4,7 @@
   "EodashIdentifier": "N3a2_TSM",
   "Subtitle": "Total suspended matter description",
   "Description": "N3a2_total_suspended_matter/N3a2_total_suspended_matter.md",
+  "ShortDescription": "Societal relevance for this indicator",
   "Themes": [
     "water"
   ],
