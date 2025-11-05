@@ -123,6 +123,9 @@
       "Url": "https://www.ismar.cnr.it/istituto/"
     }
   ],
+  "Stories": [
+    "elbe_CNR_story.md"
+  ],
   "Colorlegend": {
     "domain": [
       -100,

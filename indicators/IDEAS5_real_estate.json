@@ -27,5 +27,8 @@
     }
   ],
   "Collections": ["IDEAS5_real_estate_b1","IDEAS5_real_estate_b2","IDEAS5_real_estate_b3"],
-  "Image": "IDEAS5_real_estate/IDEAS5_real_estate.png"
+  "Image": "IDEAS5_real_estate/IDEAS5_real_estate.png",
+  "Stories": [
+    "IDEAS.md"
+  ]
 }

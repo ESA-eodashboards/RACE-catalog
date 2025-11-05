@@ -132,6 +132,9 @@
       "LayerId": "AWS_VIS_SST_MAPS"
     }
   ],
+  "Stories": [
+    "elbe_CNR_story.md"
+  ],
   "Services": [
     {
       "Endpoint": "https://services.sentinel-hub.com/api/v1/statistics",

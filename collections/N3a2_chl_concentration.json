@@ -123,6 +123,9 @@
       ]
     }
   ],
+  "Stories": [
+    "elbe_CNR_story.md"
+  ],
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com",

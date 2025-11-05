@@ -19,6 +19,9 @@
       "Url": "https://murmuration-sas.com/"
     }
   ],
+  "Stories": [
+    "IDEAS.md"
+  ],
   "Resources": [
     {
       "Name": "COG source",

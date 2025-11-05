@@ -50,6 +50,9 @@
       "Url": "https://www.onda-dias.eu/cms/"
     }
   ],
+  "Stories": [
+    "water_turbidity_CNR_story.md"
+  ],
   "Resources": [
     {
       "Name": "COG source",

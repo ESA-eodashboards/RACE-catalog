@@ -2,10 +2,11 @@
   "id": "RACE",
   "title": "RACE",
   "description": "Rapid Action for Citizens with Earth Observation",
-  "endpoint": "https://eurodatacube.github.io/eodash-catalog/RACE/",
+  "endpoint": "https://esa-eodashboards.github.io/RACE-catalog/RACE/",
   "assets_endpoint": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections",
+  "stories_endpoint": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main",
   "geodb_default_form": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "geodb_default_vega": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "geodb_default_vega": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_vega_definition.json",
   "default_base_layers": "layers/baselayers",
   "default_overlay_layers": "layers/overlays",
   "default_xcube_process": {

@@ -68,6 +68,9 @@
       "Url": "https://www.ismar.cnr.it/istituto/"
     }
   ],
+  "Stories": [
+    "elbe_CNR_story.md"
+  ],
   "Process": {
     "Name": "GeoDB Statistics",
     "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",

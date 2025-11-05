@@ -11,6 +11,9 @@
     "GBIF",
     "Open data"
   ],
+  "Stories": [
+    "IDEAS.md"
+  ],
   "DataSource": {
     "Spaceborne": {
       "Satellite": [

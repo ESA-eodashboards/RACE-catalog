@@ -29,6 +29,9 @@
   "Agency": [
     "ESA"
   ],
+  "Stories": [
+    "CropOM.md"
+  ],
   "Image": "crop_forecast_CropOM/CROPOM_yield.png",
   "Provider": [
     {
