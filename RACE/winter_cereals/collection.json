@@ -176,13 +176,13 @@
       "agriculture"
     ],
     "satellite": [
-      "Sentinel-1",
+      "Sentinel-2",
       "Landsat-8",
-      "Sentinel-2"
+      "Sentinel-1"
     ],
     "sensor": [
-      "OLI",
       "MSI",
+      "OLI",
       "C-SAR"
     ],
     "cities": [
