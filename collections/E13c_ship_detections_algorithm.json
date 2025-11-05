@@ -15,11 +15,8 @@
   "Image": "E13c_ship_detections_algorithm/thumbnail.png",
   "Provider": [
     {
-      "Name": "Copernicus",
-      "Url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
-    },
-    {
-      "Name": "Sentinel-Hub"
+      "Name": "Copernicus Data Space Ecosystem",
+      "Url": "https://dataspace.copernicus.eu/"
     }
   ],
   "References": [
