@@ -148,9 +148,9 @@
       "E3"
     ],
     "themes": [
-      "industry",
-      "economy",
       "resources",
+      "economy",
+      "industry",
       "energy"
     ],
     "satellite": [

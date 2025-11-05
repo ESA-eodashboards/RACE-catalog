@@ -176,8 +176,8 @@
     ],
     "themes": [
       "economy",
-      "commerce",
-      "transport"
+      "transport",
+      "commerce"
     ],
     "satellite": [
       "Sentinel-1"
