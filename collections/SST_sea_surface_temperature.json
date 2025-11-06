@@ -76,7 +76,10 @@
     }
   ],
   "Stories": [
-    "elbe_CNR_story.md"
+    {
+      "Name": "Story on Elbe Estuary Monitoring",
+      "Url": "elbe_CNR_story.md"
+    }
   ],
   "Process": {
     "Name": "GeoDB Statistics",

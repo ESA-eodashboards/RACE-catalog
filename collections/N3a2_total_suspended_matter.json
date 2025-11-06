@@ -125,7 +125,10 @@
     }
   ],
   "Stories": [
-    "elbe_CNR_story.md"
+    {
+      "Name": "Story on Elbe Estuary Monitoring",
+      "Url": "elbe_CNR_story.md"
+    }
   ],
   "Colorlegend": {
     "domain": [

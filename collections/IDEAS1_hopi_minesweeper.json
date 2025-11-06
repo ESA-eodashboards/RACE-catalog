@@ -20,7 +20,10 @@
     }
   ],
   "Stories": [
-    "IDEAS.md"
+    {
+      "Name": "Story on Urban Indicators: Biodiversity, Heat Islands and more",
+      "Url": "IDEAS.md"
+    }
   ],
   "Resources": [
     {

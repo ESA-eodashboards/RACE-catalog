@@ -27,6 +27,9 @@
   "Collections": ["IDEAS1_hopi_b1","IDEAS1_hopi_b2","IDEAS1_hopi_b3","IDEAS1_hopi_b4","IDEAS1_hopi_b5"],
   "Image": "IDEAS1_hopi/IDEAS1_hopi.png",
   "Stories": [
-    "IDEAS.md"
+    {
+      "Name": "Story on Urban Indicators: Biodiversity, Heat Islands and more",
+      "Url": "IDEAS.md"
+    }
   ]
 }

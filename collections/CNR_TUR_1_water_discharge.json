@@ -51,7 +51,10 @@
     }
   ],
   "Stories": [
-    "water_turbidity_CNR_story.md"
+    {
+      "Name": "Story on tracking the Po river from space",
+      "Url": "water_turbidity_CNR_story.md"
+    }
   ],
   "Resources": [
     {

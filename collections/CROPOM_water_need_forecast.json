@@ -30,7 +30,10 @@
     "ESA"
   ],
   "Stories": [
-    "CropOM.md"
+    {
+      "Name": "CropOM story on county level crop yield and water demand",
+      "Url": "CropOM.md"
+    }
   ],
   "Image": "crop_forecast_CropOM/CROPOM_water_need.png",
   "Provider": [
