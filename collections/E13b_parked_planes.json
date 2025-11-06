@@ -51,7 +51,7 @@
   "Provider": [
     {
       "Name": "Aerospacelab",
-      "URL": "https://www.aerospacelab.be/"
+      "Url": "https://www.aerospacelab.be/"
     }
   ],
   "Process": {

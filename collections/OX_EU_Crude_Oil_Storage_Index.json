@@ -54,8 +54,8 @@
   ],
   "Provider": [
     {
-      "Name": "Copernicus",
-      "Url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+      "Name": "Copernicus Data Space Ecosystem",
+      "Url": "https://dataspace.copernicus.eu/"
     },
     {
       "Name": "OILX",

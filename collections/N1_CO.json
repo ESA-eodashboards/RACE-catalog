@@ -49,11 +49,11 @@
   ],
   "Provider": [
     {
-      "Name": "Copernicus",
-      "Url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+      "Name": "Copernicus Data Space Ecosystem",
+      "Url": "https://dataspace.copernicus.eu/"
     },
     {
-      "Name": "Copernicus Data Space",
+      "Name": "Copernicus Data Space Ecosystem",
       "Url": "https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel5P.html"
     }
   ],
