@@ -1,0 +1,235 @@
+{
+  "ARESYS": {
+    "Url": "https://www.aresys.it/",
+    "Description": "Description of provider",
+    "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=aresys",
+    "Logo": "Link to logo"
+  },
+  "Aerospacelab": {
+    "Url": "https://www.aerospacelab.be/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "BASt": {
+    "Url": "https://www.bast.de",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "CNR IRPI": {
+    "Url": "https://www.irpi.cnr.it/en/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "CNR ISMAR": {
+    "Url": "https://www.ismar.cnr.it/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Caltech": {
+    "Url": "https://caltech.edu",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "CherryData": {
+    "Url": "https://www.cherry-data.com",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Copernicus Atmosphere Monitoring Service": {
+    "Url": "https://ads.atmosphere.copernicus.eu",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Copernicus Climate Change Service": {
+    "Url": "https://cds.climate.copernicus.eu",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Copernicus Data Space Ecosystem": {
+    "Url": "https://dataspace.copernicus.eu",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Copernicus Emergency Management service": {
+    "Url": "https://emergency.copernicus.eu",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Copernicus Land Monitoring Service": {
+    "Url": "https://land.copernicus.eu",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Copernicus Marine Service": {
+    "Url": "https://marine.copernicus.eu",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "CropOM": {
+    "Url": "https://cropom.com",
+    "Description": "Description of provider",
+    "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=danube",
+    "Logo": "Link to logo"
+  },
+  "DLR": {
+    "Url": "https://dlr.de/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Danube Data Cube": {
+    "Url": "https://ddc.cropom.com",
+    "Description": "Description of provider",
+    "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=danube",
+    "Logo": "Link to logo"
+  },
+  "ECMWF": {
+    "Url": "https://www.ecmwf.int/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "EMODNET": {
+    "Url": "https://www.emodnet-humanactivities.eu",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "ESA": {
+    "Url": "https://esa.int/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "EUMETSAT": {
+    "Url": "https://data.eumetsat.int",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "EURAC": {
+    "Url": "https://www.eurac.edu/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "EUROSTAT": {
+    "Url": "https://ec.europa.eu/eurostat",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "ExpertLab": {
+    "Url": "https://www.expertlab.it/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "FAO": {
+    "Url": "https://www.fao.org",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "FEGA": {
+    "Url": "https://www.fega.gob.es/en",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Geosat": {
+    "Url": "https://geosat.space/",
+    "Description": "Description of provider",
+    "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=geosat",
+    "Logo": "Link to logo"
+  },
+  "Google": {
+    "Url": "https://www.google.com/covid19/mobility/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "ICEYE": {
+    "Url": "https://www.iceye.com/",
+    "Description": "Description of provider",
+    "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=iceye",
+    "Logo": "Link to logo"
+  },
+  "JAXA": {
+    "Url": "https://earth.jaxa.jp/en/data/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Joint Research Centre": {
+    "Url": "https://joint-research-centre.ec.europa.eu/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Murmuration": {
+    "Url": "https://murmuration-sas.com/",
+    "Description": "Description of provider",
+    "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=murmuration",
+    "Logo": "Link to logo"
+  },
+  "NASA": {
+    "Url": "https://nasa.gov/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "NOAA": {
+    "Url": "https://noaa.gov/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "OILX": {
+    "Url": "https://www.oilx.co/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "ONDA": {
+    "Url": "https://www.onda-dias.eu/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Open Street Maps": {
+    "Url": "https://wiki.openstreetmap.org/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Our World in Data": {
+    "Url": "https://ourworldindata.org",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "SEDAC": {
+    "Url": "https://sedac.ciesin.columbia.edu",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "TU Wien": {
+    "Url": "https://www.tuwien.at/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Université catholique de Louvain": {
+    "Url": "https://uclouvain.be/en/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "Vista": {
+    "Url": "https://www.vista-geo.de/",
+    "Description": "Description of provider",
+    "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=vista",
+    "Logo": "Link to logo"
+  },
+  "Vodafone": {
+    "Url": "https://www.vodafone.com/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "WASDI Market Place": {
+    "Url": "https://www.wasdi.cloud",
+    "Description": "Description of provider",
+    "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=wasdi",
+    "Logo": "Link to logo"
+  },
+  "WLS": {
+    "Url": "https://www.wsl.ch/en/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  },
+  "e-GEOS": {
+    "Url": "https://www.e-geos.it/en/#/",
+    "Description": "Description of provider",
+    "Logo": "Link to logo"
+  }
+}

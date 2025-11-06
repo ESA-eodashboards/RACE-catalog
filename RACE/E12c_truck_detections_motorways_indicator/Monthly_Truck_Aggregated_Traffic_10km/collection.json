@@ -101,8 +101,8 @@
   "license": "other",
   "providers": [
     {
-      "name": "Copernicus",
-      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+      "name": "Copernicus Data Space Ecosystem",
+      "url": "https://dataspace.copernicus.eu/"
     },
     {
       "name": "BASt",

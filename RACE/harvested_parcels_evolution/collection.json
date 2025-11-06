@@ -72,7 +72,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
@@ -83,7 +83,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "OSM Background",
       "roles": [
         "baselayer",
@@ -94,7 +94,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "Terrain Light",
       "roles": [
         "baselayer",
@@ -105,7 +105,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "image/png",
+      "type": "('image/png',)",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -187,26 +187,26 @@
     ],
     "satellite": [
       "Landsat-8",
-      "Sentinel-1",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Sentinel-1"
     ],
     "sensor": [
       "MSI",
-      "C-SAR",
-      "OLI"
+      "OLI",
+      "C-SAR"
     ],
     "cities": [
-      "Comunidad Valenciana",
-      "La Rioja",
-      "Extremadura",
-      "Region de Murcia",
+      "Castilla y Leon",
       "Comunidad de Madrid",
-      "Andalucia",
       "Aragon",
+      "La Rioja",
       "Cataluna",
-      "Castilla-La Mancha",
       "Comunidad Foral de Navarra",
-      "Castilla y Leon"
+      "Comunidad Valenciana",
+      "Region de Murcia",
+      "Extremadura",
+      "Castilla-La Mancha",
+      "Andalucia"
     ],
     "countries": [
       "ES"

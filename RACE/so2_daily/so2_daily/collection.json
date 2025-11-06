@@ -103,7 +103,7 @@
   "license": "other",
   "providers": [
     {
-      "name": "Copernicus",
+      "name": "Copernicus Data Space Ecosystem",
       "url": "https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel5P.html"
     }
   ],

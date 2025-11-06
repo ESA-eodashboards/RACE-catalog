@@ -85,7 +85,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
@@ -96,7 +96,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "OSM Background",
       "roles": [
         "baselayer",
@@ -107,7 +107,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "Terrain Light",
       "roles": [
         "baselayer",
@@ -118,7 +118,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "image/png",
+      "type": "('image/png',)",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -198,40 +198,40 @@
       "C-SAR"
     ],
     "cities": [
+      "Czech Republic",
+      "Germany",
       "Denmark",
-      "Romania",
+      "Estonia",
+      "Latvia",
+      "Slovak Republic",
+      "Austria",
+      "Lithuania",
+      "Croatia",
       "France",
       "Bulgaria",
-      "Croatia",
-      "Estonia",
-      "Lithuania",
-      "Slovak Republic",
-      "Germany",
-      "Latvia",
-      "Austria",
       "United Kingdom",
-      "Czech Republic",
       "Poland",
       "Sweden",
+      "Romania",
       "Hungary"
     ],
     "countries": [
+      "AT",
+      "PL",
       "LV",
       "DE",
-      "CZ",
-      "EE",
-      "HU",
-      "RO",
-      "HR",
-      "BG",
-      "LT",
-      "FR",
       "DK",
-      "PL",
-      "SK",
+      "FR",
+      "RO",
+      "GB",
+      "BG",
+      "CZ",
       "SE",
-      "AT",
-      "GB"
+      "EE",
+      "HR",
+      "SK",
+      "LT",
+      "HU"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg"

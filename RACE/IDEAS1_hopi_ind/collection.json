@@ -118,7 +118,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
@@ -129,7 +129,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "OSM Background",
       "roles": [
         "baselayer",
@@ -140,7 +140,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "Terrain Light",
       "roles": [
         "baselayer",
@@ -151,7 +151,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "image/png",
+      "type": "('image/png',)",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -238,11 +238,11 @@
   ],
   "summaries": {
     "subcode": [
-      "IND1_1_b4",
       "IND1_1_b5",
       "IND1_1_b2",
+      "IND1_1_b1",
       "IND1_1_b3",
-      "IND1_1_b1"
+      "IND1_1_b4"
     ],
     "themes": [
       "health"
