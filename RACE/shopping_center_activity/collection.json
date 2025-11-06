@@ -181,8 +181,8 @@
       "E11"
     ],
     "themes": [
-      "economy",
-      "commerce"
+      "commerce",
+      "economy"
     ],
     "satellite": [
       "Sentinel-1"
@@ -191,19 +191,19 @@
       "C-SAR"
     ],
     "cities": [
-      "Rome",
-      "Milan",
       "Bucharest",
+      "Rome",
+      "Warsaw",
       "Brussels",
-      "Athens",
-      "Warsaw"
+      "Milan",
+      "Athens"
     ],
     "countries": [
-      "PL",
-      "BE",
-      "GR",
       "IT",
-      "RO"
+      "GR",
+      "BE",
+      "RO",
+      "PL"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg"

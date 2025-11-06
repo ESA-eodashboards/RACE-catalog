@@ -158,10 +158,10 @@
       "E13l"
     ],
     "themes": [
-      "tourism",
       "sports",
-      "economy",
-      "transport"
+      "tourism",
+      "transport",
+      "economy"
     ],
     "cities": [
       "Genoa"

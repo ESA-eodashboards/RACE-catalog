@@ -172,17 +172,17 @@
       "E10a8"
     ],
     "themes": [
-      "land",
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
       "Landsat-8",
-      "Sentinel-2",
-      "Sentinel-1"
+      "Sentinel-1",
+      "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
       "OLI",
+      "MSI",
       "C-SAR"
     ],
     "cities": [

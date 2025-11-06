@@ -157,13 +157,13 @@
       "E13g"
     ],
     "themes": [
-      "economy",
+      "commerce",
       "transport",
-      "commerce"
+      "economy"
     ],
     "cities": [
-      "Gioia Tauro",
-      "Genoa"
+      "Genoa",
+      "Gioia Tauro"
     ],
     "countries": [
       "IT"
