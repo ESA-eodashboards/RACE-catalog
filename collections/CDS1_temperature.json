@@ -26,7 +26,7 @@
   ],
   "License": [
     {
-      "Url": "https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
+      "Url": "https://climate.copernicus.eu/sites/default/files/repository/20170117_Copernicus_License_V1.0.pdf",
       "Type": "application/pdf",
       "Title": "Licence to Use Copernicus Products"
     }
@@ -34,11 +34,11 @@
   "Provider": [
     {
       "Name": "Copernicus Climate Change Service",
-      "Url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+      "Url": "https://climate.copernicus.eu/"
     },
     {
       "Name": "Copernicus Climate Data Store",
-      "Url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+      "Url": "https://cds.climate.copernicus.eu/"
     }
   ],
   "Citation": {
