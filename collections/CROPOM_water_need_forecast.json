@@ -3,7 +3,7 @@
   "Title": "Water demand",
   "EodashIdentifier": "CROPOM_water_need",
   "Subtitle": "Yield forecast under \"what-if\" scenarios",
-  "Description": "crop_forecast_CropOM/crop_forecast_CropOM.md",
+  "Description": "crop_forecast_CropOM/crop_forecast_https://race.esa.int/story/?id=CropOM",
   "Themes": [
     "agriculture",
     "land"
@@ -32,7 +32,7 @@
   "Stories": [
     {
       "Name": "CropOM story on county level crop yield and water demand",
-      "Url": "CropOM.md"
+      "Url": "https://race.esa.int/story/?id=CropOM"
     }
   ],
   "Image": "crop_forecast_CropOM/CROPOM_water_need.png",
