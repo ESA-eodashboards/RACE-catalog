@@ -72,7 +72,7 @@
   "Provider": [
     {
       "Name": "Copernicus Emergency Management service",
-      "Url": "https://emergency.copernicus.eu/emsdata.html"
+      "Url": "https://emergency.copernicus.eu/"
     },
     {
       "Name": "Joint Research Centre",
