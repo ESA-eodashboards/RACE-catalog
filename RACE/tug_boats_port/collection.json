@@ -156,9 +156,9 @@
       "E13h"
     ],
     "themes": [
+      "economy",
       "commerce",
-      "transport",
-      "economy"
+      "transport"
     ],
     "cities": [
       "Gioia Tauro"

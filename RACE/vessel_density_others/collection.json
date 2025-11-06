@@ -179,8 +179,8 @@
       "E13r"
     ],
     "themes": [
-      "transport",
-      "economy"
+      "economy",
+      "transport"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13r_vessel_density_others/E13r_vessel_density_others.png"
