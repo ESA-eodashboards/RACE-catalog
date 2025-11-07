@@ -172,10 +172,10 @@
       "water"
     ],
     "satellite": [
-      "Aqua",
       "Sentinel-3",
+      "Suomi NPP",
       "JPSS-1",
-      "Suomi NPP"
+      "Aqua"
     ],
     "sensor": [
       "OLCI",

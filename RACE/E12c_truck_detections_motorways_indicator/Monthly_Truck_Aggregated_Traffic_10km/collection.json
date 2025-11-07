@@ -24,7 +24,7 @@
     },
     {
       "rel": "example",
-      "href": "https://github.com/eurodatacube/notebooks/blob/master/notebooks/contributions/Detect_Trucks_Sentinel2.ipynb",
+      "href": "https://esa-eodashboards.github.io/RACE-notebooks/notebooks/detect-trucks-sentinel2/",
       "type": "application/x-ipynb+json",
       "title": "Detect Trucks using Sentinel-2 data",
       "example:language": "Jupyter Notebook",
@@ -161,7 +161,7 @@
       ]
     },
     "reference_4": {
-      "href": "https://github.com/eurodatacube/notebooks/blob/master/notebooks/contributions/Detect_Trucks_Sentinel2.ipynb",
+      "href": "https://esa-eodashboards.github.io/RACE-notebooks/notebooks/detect-trucks-sentinel2/",
       "type": "text/html",
       "title": "Jupyter Notebook - Euro Data Cube",
       "roles": [

@@ -216,8 +216,8 @@
       "E1b"
     ],
     "themes": [
-      "transport",
-      "economy"
+      "economy",
+      "transport"
     ],
     "satellite": [
       "Sentinel-1"
@@ -226,24 +226,24 @@
       "C-SAR"
     ],
     "countries": [
-      "DK",
-      "IE",
-      "DE",
-      "RU",
-      "IT",
-      "BE",
-      "PT",
-      "PL",
       "EE",
       "FR",
-      "LT",
-      "TR",
-      "NL",
-      "NO",
       "GR",
+      "IT",
+      "DE",
+      "DK",
+      "ES",
       "LV",
+      "TR",
+      "PT",
+      "IE",
+      "PL",
       "RO",
-      "ES"
+      "RU",
+      "BE",
+      "NL",
+      "LT",
+      "NO"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg"
