@@ -1,6 +1,6 @@
 {
   "Name": "IDEAS1_hopi_b3",
-  "Title": "HOUHPI Distance to nearest hospital or clinic [km]",
+  "Title": "Distance to nearest hospital or clinic",
   "EodashIdentifier": "IND1_1_b3",
   "Subtitle": "Distance to nearest hospital or clinic [km]",
   "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
@@ -37,7 +37,7 @@
       ],
       "TimeEntries": [
         {
-          "Time": "20210401T0000",
+          "Time": "20210301T0000",
           "Assets": [
             {
               "Identifier": "winter",

@@ -1,6 +1,6 @@
 {
   "Name": "IDEAS1_hopi_b5",
-  "Title": "HOUHPI Land Surface Temperature",
+  "Title": "Land Surface Temperature",
   "EodashIdentifier": "IND1_1_b5",
   "Subtitle": "Land Surface Temperature",
   "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
@@ -21,7 +21,7 @@
       "Bbox": [-24, 33, 42, 71],
       "TimeEntries": [
         {
-          "Time": "20210401T0000",
+          "Time": "20210301T0000",
           "Assets": [
             {
               "Identifier": "spring",
@@ -30,7 +30,7 @@
           ]
         },
         {
-          "Time": "20210402T0000",
+          "Time": "20210601T0000",
           "Assets": [
             {
               "Identifier": "summer",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "Time": "20210403T0000",
+          "Time": "20210901T0000",
           "Assets": [
             {
               "Identifier": "autumn",
@@ -48,7 +48,7 @@
           ]
         },
         {
-          "Time": "20210404T0000",
+          "Time": "20211201T0000",
           "Assets": [
             {
               "Identifier": "winter",

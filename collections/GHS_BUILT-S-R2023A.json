@@ -66,7 +66,7 @@
     {
       "Name": "EOxHub Notebook",
       "Title": "Evaluation of Fire Impact on Populated Areas on a European Site",
-      "Url": "https://bids2023-nbviewer.hub.eox.at/localfile/bids2023/notebooks/Fire_impact_analysis.ipynb"
+      "Url": "https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/fire-impact-analysis/"
     }
   ],
   "Provider": [
