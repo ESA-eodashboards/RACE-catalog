@@ -80,6 +80,7 @@
     }
   ],
   "subtitle": "Total suspended matter description",
+  "shortdescription": "Societal relevance for this indicator",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter/N3a2_total_suspended_matter.png",
   "themes": [
     "water"
@@ -182,6 +183,15 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "elbe_CNR_story": {
+      "href": "https://race.esa.int/story/?id=elbe_CNR_story",
+      "type": "text/markdown",
+      "title": "Story on Elbe Estuary Monitoring",
+      "roles": [
+        "metadata",
+        "story"
       ]
     },
     "thumbnail": {

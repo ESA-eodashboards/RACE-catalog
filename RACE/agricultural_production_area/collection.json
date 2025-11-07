@@ -23,6 +23,10 @@
         "agriculture",
         "land"
       ],
+      "providers": [
+        "Université catholique de Louvain",
+        "Copernicus Data Space Ecosystem"
+      ],
       "cities": [
         "Brandenburg Region"
       ],
@@ -171,8 +175,8 @@
       "E10a2"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-2"

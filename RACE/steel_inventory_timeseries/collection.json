@@ -24,6 +24,10 @@
         "industry",
         "resources"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "Aerospacelab"
+      ],
       "cities": [
         "Imatra - area 1",
         "Imatra - area 2",
@@ -201,9 +205,9 @@
       "E5"
     ],
     "themes": [
-      "economy",
       "industry",
-      "resources"
+      "resources",
+      "economy"
     ],
     "satellite": [
       "Sentinel-1"
@@ -213,9 +217,9 @@
     ],
     "countries": [
       "SE",
+      "RO",
       "PL",
-      "FI",
-      "RO"
+      "FI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg"

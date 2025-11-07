@@ -22,6 +22,10 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "Copernicus Emergency Management service",
+        "Joint Research Centre"
+      ],
       "tags": [
         "Copernicus",
         "Human settlement",

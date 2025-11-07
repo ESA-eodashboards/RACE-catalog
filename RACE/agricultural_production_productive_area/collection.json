@@ -23,6 +23,10 @@
         "agriculture",
         "land"
       ],
+      "providers": [
+        "Université catholique de Louvain",
+        "Copernicus Data Space Ecosystem"
+      ],
       "cities": [
         "Brandenburg",
         "Huelva (Lagunas de las Madres)"
@@ -164,8 +168,8 @@
       "E10a1"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-2"
@@ -174,12 +178,12 @@
       "MSI"
     ],
     "cities": [
-      "Brandenburg",
-      "Huelva (Lagunas de las Madres)"
+      "Huelva (Lagunas de las Madres)",
+      "Brandenburg"
     ],
     "countries": [
-      "ES",
-      "DE"
+      "DE",
+      "ES"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area_photo.jpg"

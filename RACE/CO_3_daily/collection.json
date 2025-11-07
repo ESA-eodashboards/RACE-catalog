@@ -23,6 +23,10 @@
         "air",
         "extremes"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "Copernicus Data Space Ecosystem"
+      ],
       "tags": [
         "Air quality",
         "CO",
@@ -186,8 +190,8 @@
       "N1_CO"
     ],
     "themes": [
-      "air",
-      "extremes"
+      "extremes",
+      "air"
     ],
     "satellite": [
       "Sentinel-5P"

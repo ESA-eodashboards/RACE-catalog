@@ -23,6 +23,9 @@
         "agriculture",
         "land"
       ],
+      "providers": [
+        "Vista"
+      ],
       "cities": [
         "Austria",
         "Bulgaria",
@@ -194,8 +197,8 @@
       "E10a10"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"
@@ -204,45 +207,45 @@
       "C-SAR"
     ],
     "cities": [
-      "Slovak Republic",
-      "Sweden",
-      "Czech Republic",
-      "France",
-      "Romania",
-      "Germany",
-      "Spain",
-      "Lithuania",
-      "Estonia",
-      "Hungary",
-      "United Kingdom",
-      "Italy",
-      "Latvia",
-      "Denmark",
       "Austria",
+      "Bulgaria",
+      "Denmark",
+      "France",
       "Poland",
-      "Serbia",
+      "Estonia",
+      "Czech Republic",
+      "Germany",
+      "Hungary",
+      "Latvia",
+      "Sweden",
       "Croatia",
-      "Bulgaria"
+      "Lithuania",
+      "Romania",
+      "United Kingdom",
+      "Spain",
+      "Italy",
+      "Slovak Republic",
+      "Serbia"
     ],
     "countries": [
-      "RS",
       "DK",
-      "AT",
-      "IT",
-      "EE",
-      "CZ",
-      "HR",
-      "GB",
-      "SK",
       "DE",
-      "SE",
-      "BG",
-      "FR",
+      "HR",
       "HU",
+      "SE",
+      "GB",
+      "BG",
       "ES",
+      "AT",
+      "RS",
+      "SK",
       "PL",
+      "IT",
+      "CZ",
+      "FR",
       "LT",
       "RO",
+      "EE",
       "LV"
     ],
     "thumbnail": [

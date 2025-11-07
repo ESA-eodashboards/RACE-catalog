@@ -23,6 +23,11 @@
         "commerce",
         "transport"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "BASt",
+        "Open Street Maps"
+      ],
       "tags": [
         "Copernicus",
         "Mobility",
@@ -54,6 +59,11 @@
         "commerce",
         "transport"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "BASt",
+        "Open Street Maps"
+      ],
       "tags": [
         "Copernicus",
         "Mobility",
@@ -84,6 +94,11 @@
         "economy",
         "commerce",
         "transport"
+      ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "BASt",
+        "Open Street Maps"
       ],
       "tags": [
         "Copernicus",
@@ -242,13 +257,13 @@
   "summaries": {
     "subcode": [
       "E12c_monthly",
-      "E12c_detections",
-      "E12c_daily"
+      "E12c_daily",
+      "E12c_detections"
     ],
     "themes": [
-      "economy",
+      "transport",
       "commerce",
-      "transport"
+      "economy"
     ],
     "satellite": [
       "Sentinel-2"

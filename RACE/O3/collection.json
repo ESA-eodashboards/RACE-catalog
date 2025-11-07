@@ -22,6 +22,9 @@
       "themes": [
         "air"
       ],
+      "providers": [
+        "Copernicus Atmosphere Monitoring Service"
+      ],
       "tags": [
         "Air quality",
         "Copernicus Services",

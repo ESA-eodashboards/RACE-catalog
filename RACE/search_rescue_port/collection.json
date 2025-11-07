@@ -24,6 +24,9 @@
         "transport",
         "security"
       ],
+      "providers": [
+        "e-GEOS"
+      ],
       "cities": [
         "Gioia Tauro"
       ],
@@ -156,9 +159,9 @@
       "E13i"
     ],
     "themes": [
+      "transport",
       "security",
-      "economy",
-      "transport"
+      "economy"
     ],
     "cities": [
       "Gioia Tauro"

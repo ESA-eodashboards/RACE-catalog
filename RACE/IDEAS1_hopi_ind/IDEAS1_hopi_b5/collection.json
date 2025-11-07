@@ -61,7 +61,7 @@
     "title": "[°C]"
   },
   "endpointtype": "COG source",
-  "title": "HOUHPI Land Surface Temperature",
+  "title": "Land Surface Temperature",
   "extent": {
     "spatial": {
       "bbox": [
@@ -76,8 +76,8 @@
     "temporal": {
       "interval": [
         [
-          "2021-04-01T00:00:00Z",
-          "2021-04-04T00:00:00Z"
+          "2021-03-01T00:00:00Z",
+          "2021-12-01T00:00:00Z"
         ]
       ]
     }

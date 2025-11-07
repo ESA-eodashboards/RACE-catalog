@@ -25,6 +25,9 @@
         "energy",
         "industry"
       ],
+      "providers": [
+        "ICEYE"
+      ],
       "tags": [
         "SAR",
         "Ports",
@@ -148,10 +151,10 @@
       "E3"
     ],
     "themes": [
-      "economy",
-      "resources",
       "industry",
-      "energy"
+      "energy",
+      "resources",
+      "economy"
     ],
     "satellite": [
       "ICEYE SAR"

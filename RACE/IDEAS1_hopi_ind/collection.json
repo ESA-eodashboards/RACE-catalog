@@ -14,13 +14,16 @@
       "rel": "child",
       "href": "./IDEAS1_hopi_b1/collection.json",
       "type": "application/json",
-      "title": "Health-Oriented Urban Heat and Pollution Index",
+      "title": "Index",
       "endpointtype": "COG source",
       "subtitle": "Indicator 1: HOUHPI",
       "code": "IND1_1_b1",
       "id": "IDEAS1_hopi_b1",
       "themes": [
         "health"
+      ],
+      "providers": [
+        "Murmuration"
       ],
       "tags": [
         "heat",
@@ -35,13 +38,16 @@
       "rel": "child",
       "href": "./IDEAS1_hopi_b2/collection.json",
       "type": "application/json",
-      "title": "HOUHPI Number of people of age > 60 or <5",
+      "title": "Number of people of age > 60 or <5",
       "endpointtype": "COG source",
       "subtitle": "Number of people of age > 60 or <5",
       "code": "IND1_1_b2",
       "id": "IDEAS1_hopi_b2",
       "themes": [
         "health"
+      ],
+      "providers": [
+        "Murmuration"
       ],
       "tags": [
         "heat",
@@ -56,13 +62,16 @@
       "rel": "child",
       "href": "./IDEAS1_hopi_b3/collection.json",
       "type": "application/json",
-      "title": "HOUHPI Distance to nearest hospital or clinic [km]",
+      "title": "Distance to nearest hospital or clinic",
       "endpointtype": "COG source",
       "subtitle": "Distance to nearest hospital or clinic [km]",
       "code": "IND1_1_b3",
       "id": "IDEAS1_hopi_b3",
       "themes": [
         "health"
+      ],
+      "providers": [
+        "Murmuration"
       ],
       "tags": [
         "heat",
@@ -77,13 +86,16 @@
       "rel": "child",
       "href": "./IDEAS1_hopi_b4/collection.json",
       "type": "application/json",
-      "title": "HOUHPI Number of days where air pollution exceeded WHO threshold",
+      "title": "Days where air pollution over WHO threshold",
       "endpointtype": "COG source",
       "subtitle": "Number of days where air pollution exceeded WHO threshold",
       "code": "IND1_1_b4",
       "id": "IDEAS1_hopi_b4",
       "themes": [
         "health"
+      ],
+      "providers": [
+        "Murmuration"
       ],
       "tags": [
         "heat",
@@ -98,13 +110,16 @@
       "rel": "child",
       "href": "./IDEAS1_hopi_b5/collection.json",
       "type": "application/json",
-      "title": "HOUHPI Land Surface Temperature",
+      "title": "Land Surface Temperature",
       "endpointtype": "COG source",
       "subtitle": "Land Surface Temperature",
       "code": "IND1_1_b5",
       "id": "IDEAS1_hopi_b5",
       "themes": [
         "health"
+      ],
+      "providers": [
+        "Murmuration"
       ],
       "tags": [
         "heat",
@@ -223,8 +238,8 @@
     "temporal": {
       "interval": [
         [
-          "2021-04-01T00:00:00Z",
-          "2021-04-04T00:00:00Z"
+          "2021-03-01T00:00:00Z",
+          "2021-12-01T00:00:00Z"
         ]
       ]
     }
@@ -241,8 +256,8 @@
       "IND1_1_b2",
       "IND1_1_b1",
       "IND1_1_b4",
-      "IND1_1_b3",
-      "IND1_1_b5"
+      "IND1_1_b5",
+      "IND1_1_b3"
     ],
     "themes": [
       "health"
@@ -252,6 +267,15 @@
     ]
   },
   "assets": {
+    "IDEAS": {
+      "href": "https://race.esa.int/story/?id=IDEAS",
+      "type": "text/markdown",
+      "title": "Story on Urban Indicators: Biodiversity, Heat Islands and more",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png",
       "type": "image/png",

@@ -24,6 +24,11 @@
         "industry",
         "commerce"
       ],
+      "providers": [
+        "EUROSTAT",
+        "Copernicus Data Space Ecosystem",
+        "ICEYE"
+      ],
       "cities": [
         "Ghent",
         "Kvasiny",
@@ -206,9 +211,9 @@
       "E8"
     ],
     "themes": [
-      "economy",
       "industry",
-      "commerce"
+      "commerce",
+      "economy"
     ],
     "satellite": [
       "ICEYE SAR",
@@ -218,38 +223,38 @@
       "C-SAR"
     ],
     "cities": [
-      "Ingolstadt",
-      "Eisenach",
-      "Bremen",
-      "Sindelfingen",
-      "Zwickau",
-      "Swindon",
-      "Barcelona",
-      "Koln",
-      "Dingolfing",
-      "Martorell",
-      "Nosovice",
-      "Cassino",
-      "Neckarsulm",
-      "Saarlouis",
-      "Kvasiny",
-      "Emden",
-      "Leipzig",
       "Russelsheim",
       "Ghent",
-      "Mioveni",
-      "Regensburg",
+      "Koln",
+      "Ingolstadt",
+      "Craiova",
+      "Martorell",
+      "Bremen",
       "Wolfsburg",
-      "Craiova"
+      "Emden",
+      "Cassino",
+      "Barcelona",
+      "Regensburg",
+      "Saarlouis",
+      "Mioveni",
+      "Eisenach",
+      "Swindon",
+      "Sindelfingen",
+      "Neckarsulm",
+      "Kvasiny",
+      "Nosovice",
+      "Dingolfing",
+      "Zwickau",
+      "Leipzig"
     ],
     "countries": [
-      "ES",
+      "DE",
       "IT",
       "BE",
-      "DE",
-      "RO",
       "CZ",
-      "GB"
+      "GB",
+      "RO",
+      "ES"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg"

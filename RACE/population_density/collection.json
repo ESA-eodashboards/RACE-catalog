@@ -22,6 +22,9 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "SEDAC"
+      ],
       "tags": [
         "Society",
         "population",

@@ -24,6 +24,9 @@
         "commerce",
         "transport"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem"
+      ],
       "cities": [
         "Folkestone"
       ],
@@ -175,9 +178,9 @@
       "E12b"
     ],
     "themes": [
-      "economy",
+      "transport",
       "commerce",
-      "transport"
+      "economy"
     ],
     "satellite": [
       "Sentinel-1"

@@ -23,6 +23,11 @@
         "economy",
         "atmosphere"
       ],
+      "providers": [
+        "e-GEOS",
+        "ExpertLab",
+        "CherryData"
+      ],
       "cities": [
         "Gioia Tauro",
         "Genoa"
@@ -183,8 +188,8 @@
       "C3"
     ],
     "themes": [
-      "economy",
-      "atmosphere"
+      "atmosphere",
+      "economy"
     ],
     "satellite": [
       "GNSS",
@@ -194,8 +199,8 @@
       "TROPOMI"
     ],
     "cities": [
-      "Genoa",
-      "Gioia Tauro"
+      "Gioia Tauro",
+      "Genoa"
     ],
     "countries": [
       "IT"

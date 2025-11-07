@@ -22,6 +22,11 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "OILX",
+        "ARESYS"
+      ],
       "cities": [
         "/"
       ],

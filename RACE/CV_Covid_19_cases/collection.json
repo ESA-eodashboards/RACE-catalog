@@ -21,6 +21,9 @@
       "themes": [
         "health"
       ],
+      "providers": [
+        "Our World in Data"
+      ],
       "cities": [
         "/"
       ],

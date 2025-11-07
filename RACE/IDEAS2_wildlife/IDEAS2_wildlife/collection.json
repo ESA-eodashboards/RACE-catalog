@@ -107,6 +107,15 @@
         "metadata"
       ]
     },
+    "IDEAS": {
+      "href": "https://race.esa.int/story/?id=IDEAS",
+      "type": "text/markdown",
+      "title": "Story on Urban Indicators: Biodiversity, Heat Islands and more",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_photo.jpg",
       "type": "image/png",

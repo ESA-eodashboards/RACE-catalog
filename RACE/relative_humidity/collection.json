@@ -22,6 +22,10 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "Copernicus Climate Change Service",
+        "Copernicus Climate Data Store"
+      ],
       "tags": [
         "Copernicus Services",
         "C3S",

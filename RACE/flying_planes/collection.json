@@ -24,6 +24,9 @@
         "transport",
         "tourism"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem"
+      ],
       "cities": [
         "Vienna",
         "Brussels",
@@ -227,9 +230,9 @@
       "E13d"
     ],
     "themes": [
+      "transport",
       "tourism",
-      "economy",
-      "transport"
+      "economy"
     ],
     "satellite": [
       "Sentinel-2"
@@ -238,24 +241,24 @@
       "MSI"
     ],
     "countries": [
-      "ES",
-      "PL",
-      "IT",
-      "CH",
-      "PT",
-      "BE",
-      "GR",
-      "DE",
-      "FI",
-      "IE",
-      "NL",
-      "SE",
       "DK",
+      "IE",
+      "DE",
+      "AT",
+      "IT",
+      "BE",
+      "PT",
+      "PL",
       "FR",
+      "SE",
       "TR",
       "GB",
-      "AT",
-      "NO"
+      "CH",
+      "NL",
+      "NO",
+      "GR",
+      "ES",
+      "FI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg"

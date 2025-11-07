@@ -22,6 +22,9 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus Marine Service"
+      ],
       "tags": [
         "Water quality",
         "Copernicus Services",
@@ -149,7 +152,7 @@
       "interval": [
         [
           "2025-10-20T00:00:00Z",
-          "2025-11-05T00:00:00Z"
+          "2025-11-06T00:00:00Z"
         ]
       ]
     }
@@ -169,15 +172,15 @@
       "water"
     ],
     "satellite": [
+      "Aqua",
       "Sentinel-3",
-      "Suomi NPP",
       "JPSS-1",
-      "Aqua"
+      "Suomi NPP"
     ],
     "sensor": [
-      "MODIS",
       "OLCI",
-      "VIIRS"
+      "VIIRS",
+      "MODIS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_atlantic/N3c_ocean_colour_plankton_atlantic.png"

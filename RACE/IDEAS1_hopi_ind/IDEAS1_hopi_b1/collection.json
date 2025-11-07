@@ -63,7 +63,7 @@
     "title": "[index]"
   },
   "endpointtype": "COG source",
-  "title": "Health-Oriented Urban Heat and Pollution Index",
+  "title": "Index",
   "extent": {
     "spatial": {
       "bbox": [
@@ -78,8 +78,8 @@
     "temporal": {
       "interval": [
         [
-          "2021-04-01T00:00:00Z",
-          "2021-04-04T00:00:00Z"
+          "2021-03-01T00:00:00Z",
+          "2021-12-01T00:00:00Z"
         ]
       ]
     }

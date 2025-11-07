@@ -23,6 +23,10 @@
         "agriculture",
         "land"
       ],
+      "providers": [
+        "Geosat",
+        "Vodafone"
+      ],
       "cities": [
         "Apulia"
       ],
@@ -172,16 +176,16 @@
       "E10a9"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Deimos-2",
       "Sentinel-2"
     ],
     "sensor": [
-      "DMAC",
-      "MSI"
+      "MSI",
+      "DMAC"
     ],
     "cities": [
       "Apulia"

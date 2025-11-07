@@ -22,6 +22,9 @@
         "agriculture",
         "water"
       ],
+      "providers": [
+        "TU Wien"
+      ],
       "yAxis": "% Relative Saturation",
       "tags": [
         "Open data",
@@ -146,7 +149,7 @@
       "#0d0887"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
+    "tickFormat": ".1f",
     "title": "[% relative saturation]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
@@ -193,8 +196,8 @@
       "ESDL_Hydrology_SM"
     ],
     "themes": [
-      "agriculture",
-      "water"
+      "water",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"

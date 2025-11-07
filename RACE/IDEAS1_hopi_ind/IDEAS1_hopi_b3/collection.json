@@ -64,7 +64,7 @@
     "title": "[km]"
   },
   "endpointtype": "COG source",
-  "title": "HOUHPI Distance to nearest hospital or clinic [km]",
+  "title": "Distance to nearest hospital or clinic",
   "extent": {
     "spatial": {
       "bbox": [
@@ -79,8 +79,8 @@
     "temporal": {
       "interval": [
         [
-          "2021-04-01T00:00:00Z",
-          "2021-04-01T00:00:00Z"
+          "2021-03-01T00:00:00Z",
+          "2021-03-01T00:00:00Z"
         ]
       ]
     }

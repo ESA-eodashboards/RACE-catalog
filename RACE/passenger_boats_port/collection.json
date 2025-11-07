@@ -24,6 +24,9 @@
         "transport",
         "tourism"
       ],
+      "providers": [
+        "e-GEOS"
+      ],
       "cities": [
         "Genoa"
       ],
@@ -158,9 +161,9 @@
       "E13m"
     ],
     "themes": [
+      "transport",
       "tourism",
-      "economy",
-      "transport"
+      "economy"
     ],
     "cities": [
       "Genoa"

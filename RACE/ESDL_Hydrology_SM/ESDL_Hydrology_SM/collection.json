@@ -72,7 +72,7 @@
       "#0d0887"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
+    "tickFormat": ".1f",
     "title": "[% relative saturation]"
   },
   "endpointtype": "xcube_zarr",

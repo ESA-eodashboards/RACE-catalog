@@ -23,6 +23,9 @@
         "transport",
         "tourism"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem"
+      ],
       "tags": [
         "Ports",
         "Maritime",
@@ -140,7 +143,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-11-06T00:00:00Z"
+          "2025-11-07T00:00:00Z"
         ]
       ]
     }
@@ -157,9 +160,9 @@
       "E13c_ship_detections"
     ],
     "themes": [
+      "transport",
       "tourism",
-      "economy",
-      "transport"
+      "economy"
     ],
     "satellite": [
       "Sentinel-2"

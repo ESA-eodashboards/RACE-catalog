@@ -22,6 +22,11 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "ESA",
+        "Copernicus Data Space Ecosystem",
+        "ONDA"
+      ],
       "cities": [
         "Pontelagoscuro"
       ],

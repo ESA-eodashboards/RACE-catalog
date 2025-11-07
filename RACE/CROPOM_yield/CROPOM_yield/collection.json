@@ -106,6 +106,15 @@
         "collection-mirror"
       ]
     },
+    "CropOM": {
+      "href": "https://race.esa.int/story/?id=CropOM",
+      "type": "text/markdown",
+      "title": "CropOM story on county level crop yield and water demand",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_yield.png",
       "type": "image/png",

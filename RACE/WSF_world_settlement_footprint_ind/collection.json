@@ -21,6 +21,9 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "DLR"
+      ],
       "tags": [
         "Human settlement",
         "Human activities",
@@ -49,6 +52,9 @@
       "id": "world_settlement_footprint",
       "themes": [
         "economy"
+      ],
+      "providers": [
+        "DLR"
       ],
       "tags": [
         "Human settlement",

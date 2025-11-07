@@ -22,6 +22,10 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus Marine Service",
+        "CNR ISMAR"
+      ],
       "tags": [
         "Water quality",
         "Copernicus Services",
@@ -202,6 +206,15 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "elbe_CNR_story": {
+      "href": "https://race.esa.int/story/?id=elbe_CNR_story",
+      "type": "text/markdown",
+      "title": "Story on Elbe Estuary Monitoring",
+      "roles": [
+        "metadata",
+        "story"
       ]
     },
     "thumbnail": {

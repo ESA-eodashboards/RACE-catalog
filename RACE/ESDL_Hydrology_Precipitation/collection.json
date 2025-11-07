@@ -22,6 +22,14 @@
         "agriculture",
         "water"
       ],
+      "providers": [
+        "NOAA",
+        "NASA",
+        "ECMWF",
+        "WLS",
+        "CNR IRPI",
+        "EURAC"
+      ],
       "yAxis": "mm/day",
       "tags": [
         "Open data",
@@ -227,8 +235,8 @@
       "ESDL_Hydrology_Precipitation"
     ],
     "themes": [
-      "agriculture",
-      "water"
+      "water",
+      "agriculture"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/ESDL_Hydrology_Precipitation.jpg"

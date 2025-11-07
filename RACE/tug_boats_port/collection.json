@@ -24,6 +24,9 @@
         "transport",
         "commerce"
       ],
+      "providers": [
+        "e-GEOS"
+      ],
       "cities": [
         "Gioia Tauro"
       ],
@@ -156,9 +159,9 @@
       "E13h"
     ],
     "themes": [
-      "economy",
+      "transport",
       "commerce",
-      "transport"
+      "economy"
     ],
     "cities": [
       "Gioia Tauro"

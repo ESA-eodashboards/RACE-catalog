@@ -64,7 +64,7 @@
     "title": "[days]"
   },
   "endpointtype": "COG source",
-  "title": "HOUHPI Number of days where air pollution exceeded WHO threshold",
+  "title": "Days where air pollution over WHO threshold",
   "extent": {
     "spatial": {
       "bbox": [
@@ -79,8 +79,8 @@
     "temporal": {
       "interval": [
         [
-          "2021-04-01T00:00:00Z",
-          "2021-04-01T00:00:00Z"
+          "2021-03-01T00:00:00Z",
+          "2021-03-01T00:00:00Z"
         ]
       ]
     }

@@ -23,6 +23,12 @@
         "agriculture",
         "land"
       ],
+      "providers": [
+        "CropOM",
+        "Danube Data Cube",
+        "Copernicus Land Monitoring Service",
+        "FAO"
+      ],
       "tags": [
         "Crop",
         "Yield",
@@ -182,19 +188,28 @@
       "CROPOM_yield"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
-      "Sentinel-2",
       "CLMS HR-VPP Seasonal Trajectory",
-      "CLMS HR-VPP Vegetation Indices"
+      "CLMS HR-VPP Vegetation Indices",
+      "Sentinel-2"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_yield.png"
     ]
   },
   "assets": {
+    "CropOM": {
+      "href": "https://race.esa.int/story/?id=CropOM",
+      "type": "text/markdown",
+      "title": "CropOM story on county level crop yield and water demand",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_yield.png",
       "type": "image/png",

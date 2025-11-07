@@ -22,6 +22,9 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "Murmuration"
+      ],
       "tags": [
         "real estate"
       ],
@@ -45,6 +48,9 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "Murmuration"
+      ],
       "tags": [
         "real estate"
       ],
@@ -67,6 +73,9 @@
       "id": "IDEAS5_real_estate_b3",
       "themes": [
         "economy"
+      ],
+      "providers": [
+        "Murmuration"
       ],
       "tags": [
         "real estate"
@@ -196,8 +205,8 @@
   "summaries": {
     "subcode": [
       "IND5_1_b2",
-      "IND5_1_b1",
-      "IND5_1_b3"
+      "IND5_1_b3",
+      "IND5_1_b1"
     ],
     "themes": [
       "economy"
@@ -211,6 +220,15 @@
     ]
   },
   "assets": {
+    "IDEAS": {
+      "href": "https://race.esa.int/story/?id=IDEAS",
+      "type": "text/markdown",
+      "title": "Story on Urban Indicators: Biodiversity, Heat Islands and more",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png",
       "type": "image/png",

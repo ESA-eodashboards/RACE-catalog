@@ -21,6 +21,10 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "Copernicus Climate Change Service",
+        "Copernicus Climate Data Store"
+      ],
       "subcode": "CDS1_temperature",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png"
@@ -51,6 +55,10 @@
       "id": "relative_humidity",
       "themes": [
         "atmosphere"
+      ],
+      "providers": [
+        "Copernicus Climate Change Service",
+        "Copernicus Climate Data Store"
       ],
       "subcode": "CDS2_relative_humidity",
       "thumbnail": [
@@ -83,6 +91,10 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "Copernicus Climate Change Service",
+        "Copernicus Climate Data Store"
+      ],
       "subcode": "CDS3",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS3_wind_10m_u/CDS3_wind_10m_u.png"
@@ -113,6 +125,10 @@
       "id": "wind_10m_v",
       "themes": [
         "atmosphere"
+      ],
+      "providers": [
+        "Copernicus Climate Change Service",
+        "Copernicus Climate Data Store"
       ],
       "subcode": "CDS4",
       "thumbnail": [
@@ -146,6 +162,10 @@
         "economy",
         "commerce"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "Vodafone"
+      ],
       "subcode": "E11",
       "satellite": [
         "Sentinel-1"
@@ -154,19 +174,19 @@
         "C-SAR"
       ],
       "cities": [
-        "Brussels",
         "Milan",
-        "Rome",
+        "Bucharest",
         "Warsaw",
         "Athens",
-        "Bucharest"
+        "Rome",
+        "Brussels"
       ],
       "countries": [
-        "PL",
         "IT",
         "BE",
+        "GR",
         "RO",
-        "GR"
+        "PL"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg"
@@ -196,6 +216,9 @@
         "economy",
         "commerce",
         "transport"
+      ],
+      "providers": [
+        "Copernicus Data Space Ecosystem"
       ],
       "subcode": "E12b",
       "satellite": [
@@ -234,6 +257,11 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "BASt",
+        "Open Street Maps"
+      ],
       "subcode": "E12c",
       "satellite": [
         "Sentinel-2"
@@ -264,6 +292,11 @@
       "id": "E12d_truck_detections_primary_roads_indicator",
       "themes": [
         "economy"
+      ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "BASt",
+        "Open Street Maps"
       ],
       "subcode": "E12d",
       "satellite": [
@@ -299,6 +332,9 @@
         "transport",
         "tourism"
       ],
+      "providers": [
+        "Aerospacelab"
+      ],
       "subcode": "E13b",
       "satellite": [
         "Sentinel-2"
@@ -308,57 +344,57 @@
       ],
       "cities": [
         "Dublin",
-        "Warsaw",
-        "Zurich",
-        "Paris",
-        "Orly",
-        "Chateauroux",
-        "Barcelona",
-        "Oslo",
-        "Luton",
-        "Amsterdam",
-        "Athens",
-        "Malaga",
-        "Berlin",
-        "Lisbon",
-        "Brussels",
-        "Palma de Mallorca",
-        "Gatwick",
-        "Stockholm",
         "Milan",
-        "Dusseldorf",
-        "Copenhagen",
-        "Helsinki",
         "Istanbul",
         "Manchester",
-        "Vienna",
-        "Heathrow",
-        "Frankfurt",
+        "Warsaw",
+        "Helsinki",
+        "Oslo",
+        "Lisbon",
+        "Chateauroux",
         "London Stansted",
+        "Dusseldorf",
+        "Copenhagen",
+        "Zurich",
+        "Frankfurt",
+        "Brussels",
+        "Malaga",
+        "Palma de Mallorca",
+        "Gatwick",
+        "Luton",
+        "Heathrow",
+        "Athens",
+        "Barcelona",
         "Rome",
         "Madrid",
-        "Muenchen"
+        "Paris",
+        "Muenchen",
+        "Orly",
+        "Vienna",
+        "Berlin",
+        "Stockholm",
+        "Amsterdam"
       ],
       "countries": [
-        "IE",
         "DK",
-        "AT",
-        "TR",
-        "IT",
-        "BE",
-        "NL",
-        "GB",
-        "CH",
-        "PT",
         "DE",
-        "FI",
         "SE",
-        "FR",
+        "TR",
+        "GB",
+        "ES",
+        "FI",
+        "AT",
         "UK",
         "NO",
-        "ES",
+        "GR",
         "PL",
-        "GR"
+        "IT",
+        "BE",
+        "PT",
+        "FR",
+        "CH",
+        "NL",
+        "IE"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg"
@@ -386,6 +422,9 @@
         "transport",
         "tourism"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem"
+      ],
       "subcode": "E13d",
       "satellite": [
         "Sentinel-2"
@@ -395,51 +434,51 @@
       ],
       "cities": [
         "Dublin",
-        "Warsaw",
-        "Zurich",
-        "Paris",
-        "Munich",
-        "Barcelona",
-        "Oslo",
-        "Amsterdam",
-        "Athens",
-        "Malaga",
-        "Berlin",
-        "Lisbon",
-        "Brussels",
-        "Palma de Mallorca",
-        "London",
-        "Stockholm",
         "Milan",
-        "Dusseldorf",
-        "Copenhagen",
-        "Helsinki",
         "Istanbul",
         "Manchester",
-        "Vienna",
+        "London",
+        "Warsaw",
+        "Helsinki",
+        "Oslo",
+        "Lisbon",
+        "Dusseldorf",
+        "Copenhagen",
+        "Zurich",
         "Frankfurt",
+        "Brussels",
+        "Malaga",
+        "Palma de Mallorca",
+        "Athens",
+        "Barcelona",
         "Rome",
-        "Madrid"
+        "Madrid",
+        "Munich",
+        "Paris",
+        "Vienna",
+        "Berlin",
+        "Stockholm",
+        "Amsterdam"
       ],
       "countries": [
-        "ES",
-        "PL",
-        "IT",
-        "CH",
-        "PT",
-        "BE",
-        "GR",
-        "DE",
-        "FI",
-        "IE",
-        "NL",
-        "SE",
         "DK",
+        "IE",
+        "DE",
+        "AT",
+        "IT",
+        "BE",
+        "PT",
+        "PL",
         "FR",
+        "SE",
         "TR",
         "GB",
-        "AT",
-        "NO"
+        "CH",
+        "NL",
+        "NO",
+        "GR",
+        "ES",
+        "FI"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg"
@@ -466,6 +505,9 @@
       "themes": [
         "economy",
         "transport"
+      ],
+      "providers": [
+        "EMODNET"
       ],
       "subcode": "E13o",
       "thumbnail": [
@@ -507,58 +549,58 @@
         "C-SAR"
       ],
       "cities": [
-        "Tallin",
         "Dublin",
-        "Skagen",
-        "Algeciras",
-        "Marseille",
-        "Trieste",
-        "Instanbul",
-        "Hamburg",
-        "Taranto",
-        "Klaipeda",
-        "Göteborg",
-        "Barcelona",
-        "Le Havre",
-        "Bilbao",
-        "Bergen",
-        "Gioia Tauro",
-        "Riga",
-        "Rotterdam",
-        "Amsterdam",
-        "Las Palmas",
-        "Antwerpen",
-        "Dunkerque",
-        "La Spezia",
         "Constanta",
-        "Peiraias",
-        "Aliaga",
-        "Bremerhaven, Hamburg, Wilhelmshaven",
-        "Valencia",
-        "Kaliningrad",
         "Genova",
+        "Bergen",
+        "Valencia",
+        "Gdansk",
+        "Gioia Tauro",
+        "Klaipeda",
+        "Antwerpen",
         "Sines",
-        "Gdansk"
+        "Tallin",
+        "Peiraias",
+        "Trieste",
+        "Göteborg",
+        "Bremerhaven, Hamburg, Wilhelmshaven",
+        "Instanbul",
+        "Skagen",
+        "Riga",
+        "Dunkerque",
+        "Algeciras",
+        "Hamburg",
+        "Aliaga",
+        "Las Palmas",
+        "Bilbao",
+        "Le Havre",
+        "La Spezia",
+        "Barcelona",
+        "Marseille",
+        "Kaliningrad",
+        "Taranto",
+        "Amsterdam",
+        "Rotterdam"
       ],
       "countries": [
-        "ES",
-        "PL",
-        "IT",
-        "PT",
-        "EE",
-        "BE",
-        "LT",
-        "DE",
-        "RO",
-        "IE",
-        "LV",
-        "NL",
         "DK",
-        "FR",
-        "TR",
-        "GR",
+        "IE",
+        "DE",
         "RU",
-        "NO"
+        "IT",
+        "BE",
+        "PT",
+        "PL",
+        "EE",
+        "FR",
+        "LT",
+        "TR",
+        "NL",
+        "NO",
+        "GR",
+        "LV",
+        "RO",
+        "ES"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg"
@@ -586,6 +628,9 @@
         "economy",
         "transport",
         "commerce"
+      ],
+      "providers": [
+        "EMODNET"
       ],
       "subcode": "E13q",
       "thumbnail": [
@@ -618,6 +663,9 @@
       "themes": [
         "economy",
         "transport"
+      ],
+      "providers": [
+        "EMODNET"
       ],
       "subcode": "E13r",
       "thumbnail": [
@@ -652,6 +700,9 @@
         "transport",
         "commerce"
       ],
+      "providers": [
+        "EMODNET"
+      ],
       "subcode": "E13p",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_vessel_density_cargo.png"
@@ -684,6 +735,9 @@
         "economy",
         "transport"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem"
+      ],
       "subcode": "E200",
       "satellite": [
         "Sentinel-2"
@@ -692,20 +746,20 @@
         "MSI"
       ],
       "cities": [
+        "Dunkirk",
+        "Gdynia",
+        "Ghent",
         "Hamburg",
         "Suez ",
-        "Ghent",
-        "Dunkirk",
-        "Genoa",
-        "Gdynia"
+        "Genoa"
       ],
       "countries": [
-        "PL",
-        "IT",
-        "EG",
-        "BE",
         "DE",
-        "FR"
+        "IT",
+        "BE",
+        "FR",
+        "EG",
+        "PL"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg"
@@ -730,6 +784,9 @@
         "resources",
         "energy",
         "industry"
+      ],
+      "providers": [
+        "ICEYE"
       ],
       "subcode": "E3",
       "satellite": [
@@ -763,12 +820,12 @@
       ],
       "subcode": "E4",
       "cities": [
-        "Hamburg",
-        "Genoa"
+        "Genoa",
+        "Hamburg"
       ],
       "countries": [
-        "DE",
-        "IT"
+        "IT",
+        "DE"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E4_intermediate_goods_production/E4_intermediate_goods_production_photo.jpg"
@@ -793,6 +850,10 @@
         "industry",
         "resources"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "Aerospacelab"
+      ],
       "subcode": "E5",
       "satellite": [
         "Sentinel-1"
@@ -801,38 +862,38 @@
         "C-SAR"
       ],
       "cities": [
-        "Imatra - area 3",
         "Borlange - area 7",
-        "Hallefors - area 3",
-        "Boxholm - area 4",
-        "Borlange - area 2",
-        "Borlange - area 1",
-        "Hallefors - area 1",
-        "Imatra - area 2",
-        "Boxholm - area 3",
-        "Oxelosund - area 4",
-        "Katowice",
-        "Boxholm - area 2",
-        "Oxelosund - area 2",
-        "Lulea",
-        "Hallefors - area 2",
-        "Borlange - area 3",
-        "Boxholm - area 1",
-        "Oxelosund - area 1",
-        "Borlange - area 5",
-        "Hofors - area 2",
-        "Borlange - area 6",
-        "Oxelosund - area 3",
-        "Hunedoara",
-        "Imatra - area 1",
         "Borlange - area 4",
-        "Hofors - area 1"
+        "Boxholm - area 3",
+        "Hallefors - area 1",
+        "Katowice",
+        "Borlange - area 3",
+        "Borlange - area 6",
+        "Lulea",
+        "Oxelosund - area 1",
+        "Oxelosund - area 2",
+        "Borlange - area 2",
+        "Imatra - area 2",
+        "Imatra - area 1",
+        "Boxholm - area 1",
+        "Imatra - area 3",
+        "Borlange - area 1",
+        "Boxholm - area 2",
+        "Boxholm - area 4",
+        "Oxelosund - area 3",
+        "Hallefors - area 3",
+        "Hallefors - area 2",
+        "Hofors - area 2",
+        "Borlange - area 5",
+        "Hofors - area 1",
+        "Hunedoara",
+        "Oxelosund - area 4"
       ],
       "countries": [
         "SE",
+        "RO",
         "PL",
-        "FI",
-        "RO"
+        "FI"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg"
@@ -856,6 +917,10 @@
       "themes": [
         "air",
         "extremes"
+      ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "Copernicus Data Space Ecosystem"
       ],
       "subcode": "N1_CO",
       "satellite": [
@@ -887,6 +952,11 @@
       "id": "methane_monitoring",
       "themes": [
         "air"
+      ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "JAXA",
+        "Caltech"
       ],
       "subcode": "N1_CH4",
       "satellite": [
@@ -927,6 +997,9 @@
       "themes": [
         "air"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem"
+      ],
       "subcode": "N1_SO2",
       "satellite": [
         "Sentinel-5P"
@@ -957,6 +1030,9 @@
       "id": "ocean_colour_plankton_atlantic",
       "themes": [
         "water"
+      ],
+      "providers": [
+        "Copernicus Marine Service"
       ],
       "subcode": "N3c",
       "satellite": [
@@ -997,6 +1073,9 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus Marine Service"
+      ],
       "subcode": "N3c_bs",
       "satellite": [
         "Aqua",
@@ -1035,6 +1114,9 @@
       "id": "ocean_colour_plankton_mediterranean",
       "themes": [
         "water"
+      ],
+      "providers": [
+        "Copernicus Marine Service"
       ],
       "subcode": "N3c_med",
       "satellite": [
@@ -1075,6 +1157,10 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus Marine Service",
+        "CNR ISMAR"
+      ],
       "subcode": "N3a2",
       "satellite": [
         "Sentinel-3"
@@ -1108,6 +1194,11 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus Marine Service",
+        "EUMETSAT",
+        "CNR ISMAR"
+      ],
       "subcode": "N3",
       "satellite": [
         "Sentinel-3"
@@ -1116,20 +1207,20 @@
         "OLCI"
       ],
       "cities": [
-        "Hamburg",
-        "Venice Lagoon",
         "Constanta",
-        "Barcelona",
+        "Hamburg",
+        "Lisbon",
         "Marseilles",
-        "Lisbon"
+        "Barcelona",
+        "Venice Lagoon"
       ],
       "countries": [
-        "ES",
         "IT",
         "PT",
         "GE",
+        "FR",
         "RO",
-        "FR"
+        "ES"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg"
@@ -1152,10 +1243,15 @@
       "type": "application/json",
       "title": "Total suspended matter maps",
       "subtitle": "Total suspended matter description",
+      "shortdescription": "Societal relevance for this indicator",
       "code": "N3a2_TSM",
       "id": "total_suspended_matter",
       "themes": [
         "water"
+      ],
+      "providers": [
+        "Copernicus Marine Service",
+        "CNR ISMAR"
       ],
       "subcode": "N3a2_TSM",
       "satellite": [
@@ -1190,6 +1286,9 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus Marine Service"
+      ],
       "subcode": "SST",
       "satellite": [
         "Metop-B",
@@ -1204,20 +1303,20 @@
         "SLSTR"
       ],
       "cities": [
-        "Hamburg",
-        "Venice Lagoon",
         "Constanta",
-        "Barcelona",
+        "Hamburg",
+        "Lisbon",
         "Marseilles",
-        "Lisbon"
+        "Barcelona",
+        "Venice Lagoon"
       ],
       "countries": [
-        "ES",
         "IT",
         "PT",
         "GE",
+        "FR",
         "RO",
-        "FR"
+        "ES"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png"
@@ -1245,6 +1344,10 @@
       "id": "sea_surface_temperature_maps",
       "themes": [
         "water"
+      ],
+      "providers": [
+        "Copernicus Marine Service",
+        "CNR ISMAR"
       ],
       "subcode": "N3a2_SST",
       "satellite": [
@@ -1279,6 +1382,9 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "SEDAC"
+      ],
       "subcode": "NASAPopulation",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NASAPopulation/NASAPopulation_photo.jpg"
@@ -1307,6 +1413,11 @@
         "economy",
         "atmosphere"
       ],
+      "providers": [
+        "e-GEOS",
+        "ExpertLab",
+        "CherryData"
+      ],
       "subcode": "C1",
       "satellite": [
         "Sentinel-5P",
@@ -1316,8 +1427,8 @@
         "TROPOMI"
       ],
       "cities": [
-        "Genoa",
-        "Gioia Tauro"
+        "Gioia Tauro",
+        "Genoa"
       ],
       "countries": [
         "IT"
@@ -1352,6 +1463,11 @@
         "economy",
         "atmosphere"
       ],
+      "providers": [
+        "e-GEOS",
+        "ExpertLab",
+        "CherryData"
+      ],
       "subcode": "C2",
       "satellite": [
         "Sentinel-5P",
@@ -1361,8 +1477,8 @@
         "TROPOMI"
       ],
       "cities": [
-        "Genoa",
-        "Gioia Tauro"
+        "Gioia Tauro",
+        "Genoa"
       ],
       "countries": [
         "IT"
@@ -1397,6 +1513,11 @@
         "economy",
         "atmosphere"
       ],
+      "providers": [
+        "e-GEOS",
+        "ExpertLab",
+        "CherryData"
+      ],
       "subcode": "C3",
       "satellite": [
         "Sentinel-5P",
@@ -1406,8 +1527,8 @@
         "TROPOMI"
       ],
       "cities": [
-        "Genoa",
-        "Gioia Tauro"
+        "Gioia Tauro",
+        "Genoa"
       ],
       "countries": [
         "IT"
@@ -1443,6 +1564,11 @@
         "industry",
         "commerce"
       ],
+      "providers": [
+        "EUROSTAT",
+        "Copernicus Data Space Ecosystem",
+        "ICEYE"
+      ],
       "subcode": "E8",
       "satellite": [
         "Sentinel-1",
@@ -1452,38 +1578,38 @@
         "C-SAR"
       ],
       "cities": [
-        "Ingolstadt",
-        "Eisenach",
-        "Bremen",
-        "Sindelfingen",
-        "Zwickau",
-        "Swindon",
-        "Barcelona",
-        "Koln",
-        "Dingolfing",
-        "Martorell",
-        "Nosovice",
-        "Cassino",
-        "Neckarsulm",
-        "Saarlouis",
-        "Kvasiny",
-        "Emden",
-        "Leipzig",
         "Russelsheim",
         "Ghent",
-        "Mioveni",
-        "Regensburg",
+        "Koln",
+        "Ingolstadt",
+        "Craiova",
+        "Martorell",
+        "Bremen",
         "Wolfsburg",
-        "Craiova"
+        "Emden",
+        "Cassino",
+        "Barcelona",
+        "Regensburg",
+        "Saarlouis",
+        "Mioveni",
+        "Eisenach",
+        "Swindon",
+        "Sindelfingen",
+        "Neckarsulm",
+        "Kvasiny",
+        "Nosovice",
+        "Dingolfing",
+        "Zwickau",
+        "Leipzig"
       ],
       "countries": [
-        "ES",
+        "DE",
         "IT",
         "BE",
-        "DE",
-        "RO",
         "CZ",
-        "GB"
+        "GB",
+        "RO",
+        "ES"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg"
@@ -1511,6 +1637,10 @@
       "themes": [
         "agriculture",
         "land"
+      ],
+      "providers": [
+        "Université catholique de Louvain",
+        "Copernicus Data Space Ecosystem"
       ],
       "subcode": "E10a2",
       "satellite": [
@@ -1548,6 +1678,10 @@
         "agriculture",
         "land"
       ],
+      "providers": [
+        "Université catholique de Louvain",
+        "Copernicus Data Space Ecosystem"
+      ],
       "subcode": "E10a3",
       "satellite": [
         "Sentinel-2"
@@ -1584,6 +1718,10 @@
         "agriculture",
         "land"
       ],
+      "providers": [
+        "Université catholique de Louvain",
+        "Copernicus Data Space Ecosystem"
+      ],
       "subcode": "E10a1",
       "satellite": [
         "Sentinel-2"
@@ -1592,12 +1730,12 @@
         "MSI"
       ],
       "cities": [
-        "Brandenburg",
-        "Huelva (Lagunas de las Madres)"
+        "Huelva (Lagunas de las Madres)",
+        "Brandenburg"
       ],
       "countries": [
-        "ES",
-        "DE"
+        "DE",
+        "ES"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area_photo.jpg"
@@ -1621,6 +1759,10 @@
       "themes": [
         "agriculture",
         "land"
+      ],
+      "providers": [
+        "Geosat",
+        "Vodafone"
       ],
       "subcode": "E10a9",
       "satellite": [
@@ -1663,6 +1805,11 @@
         "agriculture",
         "land"
       ],
+      "providers": [
+        "Université catholique de Louvain",
+        "ESA",
+        "Copernicus Data Space Ecosystem"
+      ],
       "subcode": "E10a5",
       "satellite": [
         "Sentinel-2",
@@ -1702,6 +1849,9 @@
         "agriculture",
         "land"
       ],
+      "providers": [
+        "FEGA"
+      ],
       "subcode": "E10a6",
       "satellite": [
         "Sentinel-1",
@@ -1714,17 +1864,17 @@
         "OLI"
       ],
       "cities": [
-        "Extremadura",
-        "Andalucia",
+        "Cataluna",
+        "Comunidad Foral de Navarra",
+        "Aragon",
+        "Castilla-La Mancha",
         "Region de Murcia",
         "Castilla y Leon",
-        "Castilla-La Mancha",
-        "Aragon",
         "Comunidad Valenciana",
+        "Andalucia",
         "Comunidad de Madrid",
         "La Rioja",
-        "Cataluna",
-        "Comunidad Foral de Navarra"
+        "Extremadura"
       ],
       "countries": [
         "ES"
@@ -1755,6 +1905,9 @@
         "agriculture",
         "land"
       ],
+      "providers": [
+        "Vista"
+      ],
       "subcode": "E10a10",
       "satellite": [
         "Sentinel-1"
@@ -1763,45 +1916,45 @@
         "C-SAR"
       ],
       "cities": [
-        "Slovak Republic",
-        "Sweden",
-        "Czech Republic",
-        "France",
-        "Romania",
-        "Germany",
-        "Spain",
-        "Lithuania",
-        "Estonia",
-        "Hungary",
-        "United Kingdom",
-        "Italy",
-        "Latvia",
-        "Denmark",
         "Austria",
+        "Bulgaria",
+        "Denmark",
+        "France",
         "Poland",
-        "Serbia",
+        "Estonia",
+        "Czech Republic",
+        "Germany",
+        "Hungary",
+        "Latvia",
+        "Sweden",
         "Croatia",
-        "Bulgaria"
+        "Lithuania",
+        "Romania",
+        "United Kingdom",
+        "Spain",
+        "Italy",
+        "Slovak Republic",
+        "Serbia"
       ],
       "countries": [
-        "RS",
         "DK",
-        "AT",
-        "IT",
-        "EE",
-        "CZ",
-        "HR",
-        "GB",
-        "SK",
         "DE",
-        "SE",
-        "BG",
-        "FR",
+        "HR",
         "HU",
+        "SE",
+        "GB",
+        "BG",
         "ES",
+        "AT",
+        "RS",
+        "SK",
         "PL",
+        "IT",
+        "CZ",
+        "FR",
         "LT",
         "RO",
+        "EE",
         "LV"
       ],
       "thumbnail": [
@@ -1827,6 +1980,9 @@
         "agriculture",
         "land"
       ],
+      "providers": [
+        "Vista"
+      ],
       "subcode": "E10a10_2",
       "satellite": [
         "Sentinel-1"
@@ -1835,40 +1991,40 @@
         "C-SAR"
       ],
       "cities": [
-        "Slovak Republic",
-        "Denmark",
         "Poland",
-        "Lithuania",
         "Estonia",
-        "Hungary",
+        "Austria",
+        "Slovak Republic",
+        "Latvia",
         "United Kingdom",
         "Sweden",
+        "Bulgaria",
         "Czech Republic",
         "Croatia",
-        "Bulgaria",
+        "Denmark",
         "France",
-        "Romania",
-        "Austria",
-        "Latvia",
-        "Germany"
+        "Germany",
+        "Lithuania",
+        "Hungary",
+        "Romania"
       ],
       "countries": [
-        "PL",
-        "EE",
-        "LT",
-        "SK",
-        "DE",
-        "GB",
-        "RO",
-        "LV",
-        "BG",
-        "SE",
         "DK",
-        "FR",
-        "CZ",
+        "LV",
+        "DE",
+        "AT",
         "HR",
         "HU",
-        "AT"
+        "CZ",
+        "EE",
+        "FR",
+        "LT",
+        "SE",
+        "SK",
+        "GB",
+        "BG",
+        "RO",
+        "PL"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg"
@@ -1892,6 +2048,9 @@
       "themes": [
         "agriculture",
         "land"
+      ],
+      "providers": [
+        "FEGA"
       ],
       "subcode": "E10a8",
       "satellite": [
@@ -1935,6 +2094,9 @@
       "themes": [
         "air"
       ],
+      "providers": [
+        "Copernicus Atmosphere Monitoring Service"
+      ],
       "subcode": "N1b_NO2",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_NO2/N1b_NO2.png"
@@ -1967,99 +2129,102 @@
       "themes": [
         "air"
       ],
+      "providers": [
+        "Copernicus Atmosphere Monitoring Service"
+      ],
       "subcode": "N1b",
       "cities": [
-        "Skopje",
-        "Tallinn",
-        "Sofia",
         "Dublin",
-        "Pristina",
-        "Nicosia",
-        "Marseille",
-        "Turin",
-        "Warsaw",
-        "Vilnius",
-        "Bucharest",
-        "Hamburg",
-        "Paris",
-        "Munich",
-        "Barcelona",
-        "Valletta",
-        "Budapest",
-        "Oslo",
-        "Bratislava",
-        "Monaco",
-        "Riga",
-        "Amsterdam",
-        "Zagreb",
-        "Athens",
-        "Belgrade",
-        "Berlin",
-        "Lisbon",
-        "Brussels",
-        "London",
-        "Reykjavik",
-        "Stockholm",
-        "Naples",
-        "Birmingham",
+        "Sofia",
         "Milan",
-        "Copenhagen",
-        "Helsinki",
-        "Podgorica",
-        "Bern",
-        "Vienna",
-        "Prague",
         "Valencia",
-        "Ljubljana",
-        "Cologne",
-        "Sarajevo",
-        "Ankara",
+        "Monaco",
+        "Skopje",
+        "London",
+        "Birmingham",
+        "Prague",
+        "Warsaw",
+        "Helsinki",
         "Lyon",
-        "Rome",
+        "Oslo",
+        "Zagreb",
         "Tirana",
+        "Lisbon",
+        "Bucharest",
+        "Ljubljana",
+        "Ankara",
+        "Reykjavik",
+        "Podgorica",
+        "Copenhagen",
+        "Vilnius",
+        "Riga",
+        "Brussels",
+        "Nicosia",
+        "Luxembourg",
+        "Hamburg",
+        "Naples",
+        "Budapest",
+        "Bratislava",
+        "Tallinn",
+        "Turin",
+        "Athens",
+        "Barcelona",
+        "Rome",
         "Madrid",
-        "Luxembourg"
+        "Munich",
+        "Paris",
+        "Bern",
+        "Marseille",
+        "Valletta",
+        "Vienna",
+        "Berlin",
+        "Pristina",
+        "Sarajevo",
+        "Stockholm",
+        "Amsterdam",
+        "Belgrade",
+        "Cologne"
       ],
       "countries": [
-        "LU",
-        "RS",
         "AL",
-        "IE",
-        "CY",
         "DK",
-        "AT",
+        "DE",
+        "HR",
+        "HU",
+        "SE",
+        "MT",
         "TR",
+        "ME",
+        "GB",
+        "MC",
+        "BG",
+        "ES",
+        "FI",
+        "AT",
+        "RS",
+        "IS",
+        "SI",
+        "SK",
+        "BA",
+        "NO",
+        "GR",
+        "PL",
+        "LU",
         "IT",
         "BE",
-        "EE",
-        "BA",
-        "ME",
-        "NL",
-        "IS",
-        "CZ",
-        "HR",
-        "GB",
-        "CH",
         "PT",
-        "SK",
-        "DE",
-        "FI",
-        "SI",
-        "SE",
-        "BG",
+        "CZ",
         "FR",
-        "HU",
-        "MK",
-        "MC",
-        "NO",
-        "ES",
-        "PL",
         "LT",
+        "CH",
+        "NL",
         "RO",
-        "LV",
         "XK",
-        "MT",
-        "GR"
+        "MK",
+        "CY",
+        "IE",
+        "EE",
+        "LV"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_no2_cams/N1b_no2_cams_graph.jpg"
@@ -2092,99 +2257,102 @@
       "themes": [
         "air"
       ],
+      "providers": [
+        "Copernicus Atmosphere Monitoring Service"
+      ],
       "subcode": "N1d",
       "cities": [
-        "Skopje",
-        "Tallinn",
-        "Sofia",
         "Dublin",
-        "Pristina",
-        "Nicosia",
-        "Marseille",
-        "Turin",
-        "Warsaw",
-        "Vilnius",
-        "Bucharest",
-        "Hamburg",
-        "Paris",
-        "Munich",
-        "Barcelona",
-        "Valletta",
-        "Budapest",
-        "Oslo",
-        "Bratislava",
-        "Monaco",
-        "Riga",
-        "Amsterdam",
-        "Zagreb",
-        "Athens",
-        "Belgrade",
-        "Berlin",
-        "Lisbon",
-        "Brussels",
-        "London",
-        "Reykjavik",
-        "Stockholm",
-        "Naples",
-        "Birmingham",
+        "Sofia",
         "Milan",
-        "Copenhagen",
-        "Helsinki",
-        "Podgorica",
-        "Bern",
-        "Vienna",
-        "Prague",
         "Valencia",
-        "Ljubljana",
-        "Cologne",
-        "Sarajevo",
-        "Ankara",
+        "Monaco",
+        "Skopje",
+        "London",
+        "Birmingham",
+        "Prague",
+        "Warsaw",
+        "Helsinki",
         "Lyon",
-        "Rome",
+        "Oslo",
+        "Zagreb",
         "Tirana",
+        "Lisbon",
+        "Bucharest",
+        "Ljubljana",
+        "Ankara",
+        "Reykjavik",
+        "Podgorica",
+        "Copenhagen",
+        "Vilnius",
+        "Riga",
+        "Brussels",
+        "Nicosia",
+        "Luxembourg",
+        "Hamburg",
+        "Naples",
+        "Budapest",
+        "Bratislava",
+        "Tallinn",
+        "Turin",
+        "Athens",
+        "Barcelona",
+        "Rome",
         "Madrid",
-        "Luxembourg"
+        "Munich",
+        "Paris",
+        "Bern",
+        "Marseille",
+        "Valletta",
+        "Vienna",
+        "Berlin",
+        "Pristina",
+        "Sarajevo",
+        "Stockholm",
+        "Amsterdam",
+        "Belgrade",
+        "Cologne"
       ],
       "countries": [
-        "LU",
-        "RS",
         "AL",
-        "IE",
-        "CY",
         "DK",
-        "AT",
+        "DE",
+        "HR",
+        "HU",
+        "SE",
+        "MT",
         "TR",
+        "ME",
+        "GB",
+        "MC",
+        "BG",
+        "ES",
+        "FI",
+        "AT",
+        "RS",
+        "IS",
+        "SI",
+        "SK",
+        "BA",
+        "NO",
+        "GR",
+        "PL",
+        "LU",
         "IT",
         "BE",
-        "EE",
-        "BA",
-        "ME",
-        "NL",
-        "IS",
-        "CZ",
-        "HR",
-        "GB",
-        "CH",
         "PT",
-        "SK",
-        "DE",
-        "FI",
-        "SI",
-        "SE",
-        "BG",
+        "CZ",
         "FR",
-        "HU",
-        "MK",
-        "MC",
-        "NO",
-        "ES",
-        "PL",
         "LT",
+        "CH",
+        "NL",
         "RO",
-        "LV",
         "XK",
-        "MT",
-        "GR"
+        "MK",
+        "CY",
+        "IE",
+        "EE",
+        "LV"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1d_o3_cams/N1d_o3_cams_graph.jpg"
@@ -2216,6 +2384,9 @@
       "id": "O3",
       "themes": [
         "air"
+      ],
+      "providers": [
+        "Copernicus Atmosphere Monitoring Service"
       ],
       "subcode": "N1b_O3",
       "thumbnail": [
@@ -2249,99 +2420,102 @@
       "themes": [
         "air"
       ],
+      "providers": [
+        "Copernicus Atmosphere Monitoring Service"
+      ],
       "subcode": "N1c",
       "cities": [
-        "Skopje",
-        "Tallinn",
-        "Sofia",
         "Dublin",
-        "Pristina",
-        "Nicosia",
-        "Marseille",
-        "Turin",
-        "Warsaw",
-        "Vilnius",
-        "Bucharest",
-        "Hamburg",
-        "Paris",
-        "Munich",
-        "Barcelona",
-        "Valletta",
-        "Budapest",
-        "Oslo",
-        "Bratislava",
-        "Monaco",
-        "Riga",
-        "Amsterdam",
-        "Zagreb",
-        "Athens",
-        "Belgrade",
-        "Berlin",
-        "Lisbon",
-        "Brussels",
-        "London",
-        "Reykjavik",
-        "Stockholm",
-        "Naples",
-        "Birmingham",
+        "Sofia",
         "Milan",
-        "Copenhagen",
-        "Helsinki",
-        "Podgorica",
-        "Bern",
-        "Vienna",
-        "Prague",
         "Valencia",
-        "Ljubljana",
-        "Cologne",
-        "Sarajevo",
-        "Ankara",
+        "Monaco",
+        "Skopje",
+        "London",
+        "Birmingham",
+        "Prague",
+        "Warsaw",
+        "Helsinki",
         "Lyon",
-        "Rome",
+        "Oslo",
+        "Zagreb",
         "Tirana",
+        "Lisbon",
+        "Bucharest",
+        "Ljubljana",
+        "Ankara",
+        "Reykjavik",
+        "Podgorica",
+        "Copenhagen",
+        "Vilnius",
+        "Riga",
+        "Brussels",
+        "Nicosia",
+        "Luxembourg",
+        "Hamburg",
+        "Naples",
+        "Budapest",
+        "Bratislava",
+        "Tallinn",
+        "Turin",
+        "Athens",
+        "Barcelona",
+        "Rome",
         "Madrid",
-        "Luxembourg"
+        "Munich",
+        "Paris",
+        "Bern",
+        "Marseille",
+        "Valletta",
+        "Vienna",
+        "Berlin",
+        "Pristina",
+        "Sarajevo",
+        "Stockholm",
+        "Amsterdam",
+        "Belgrade",
+        "Cologne"
       ],
       "countries": [
-        "LU",
-        "RS",
         "AL",
-        "IE",
-        "CY",
         "DK",
-        "AT",
+        "DE",
+        "HR",
+        "HU",
+        "SE",
+        "MT",
         "TR",
+        "ME",
+        "GB",
+        "MC",
+        "BG",
+        "ES",
+        "FI",
+        "AT",
+        "RS",
+        "IS",
+        "SI",
+        "SK",
+        "BA",
+        "NO",
+        "GR",
+        "PL",
+        "LU",
         "IT",
         "BE",
-        "EE",
-        "BA",
-        "ME",
-        "NL",
-        "IS",
-        "CZ",
-        "HR",
-        "GB",
-        "CH",
         "PT",
-        "SK",
-        "DE",
-        "FI",
-        "SI",
-        "SE",
-        "BG",
+        "CZ",
         "FR",
-        "HU",
-        "MK",
-        "MC",
-        "NO",
-        "ES",
-        "PL",
         "LT",
+        "CH",
+        "NL",
         "RO",
-        "LV",
         "XK",
-        "MT",
-        "GR"
+        "MK",
+        "CY",
+        "IE",
+        "EE",
+        "LV"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1c_pm10_cams/N1c_pm10_cams_graph.png"
@@ -2375,6 +2549,9 @@
       "themes": [
         "air"
       ],
+      "providers": [
+        "Copernicus Atmosphere Monitoring Service"
+      ],
       "subcode": "N1b_PM10",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM10/N1b_PM10.png"
@@ -2406,6 +2583,9 @@
       "id": "PM25",
       "themes": [
         "air"
+      ],
+      "providers": [
+        "Copernicus Atmosphere Monitoring Service"
       ],
       "subcode": "N1b_PM25",
       "thumbnail": [
@@ -2439,99 +2619,102 @@
       "themes": [
         "air"
       ],
+      "providers": [
+        "Copernicus Atmosphere Monitoring Service"
+      ],
       "subcode": "N1a",
       "cities": [
-        "Skopje",
-        "Tallinn",
-        "Sofia",
         "Dublin",
-        "Pristina",
-        "Nicosia",
-        "Marseille",
-        "Turin",
-        "Warsaw",
-        "Vilnius",
-        "Bucharest",
-        "Hamburg",
-        "Paris",
-        "Munich",
-        "Barcelona",
-        "Valletta",
-        "Budapest",
-        "Oslo",
-        "Bratislava",
-        "Monaco",
-        "Riga",
-        "Amsterdam",
-        "Zagreb",
-        "Athens",
-        "Belgrade",
-        "Berlin",
-        "Lisbon",
-        "Brussels",
-        "London",
-        "Reykjavik",
-        "Stockholm",
-        "Naples",
-        "Birmingham",
+        "Sofia",
         "Milan",
-        "Copenhagen",
-        "Helsinki",
-        "Podgorica",
-        "Bern",
-        "Vienna",
-        "Prague",
         "Valencia",
-        "Ljubljana",
-        "Cologne",
-        "Sarajevo",
-        "Ankara",
+        "Monaco",
+        "Skopje",
+        "London",
+        "Birmingham",
+        "Prague",
+        "Warsaw",
+        "Helsinki",
         "Lyon",
-        "Rome",
+        "Oslo",
+        "Zagreb",
         "Tirana",
+        "Lisbon",
+        "Bucharest",
+        "Ljubljana",
+        "Ankara",
+        "Reykjavik",
+        "Podgorica",
+        "Copenhagen",
+        "Vilnius",
+        "Riga",
+        "Brussels",
+        "Nicosia",
+        "Luxembourg",
+        "Hamburg",
+        "Naples",
+        "Budapest",
+        "Bratislava",
+        "Tallinn",
+        "Turin",
+        "Athens",
+        "Barcelona",
+        "Rome",
         "Madrid",
-        "Luxembourg"
+        "Munich",
+        "Paris",
+        "Bern",
+        "Marseille",
+        "Valletta",
+        "Vienna",
+        "Berlin",
+        "Pristina",
+        "Sarajevo",
+        "Stockholm",
+        "Amsterdam",
+        "Belgrade",
+        "Cologne"
       ],
       "countries": [
-        "LU",
-        "RS",
         "AL",
-        "IE",
-        "CY",
         "DK",
-        "AT",
+        "DE",
+        "HR",
+        "HU",
+        "SE",
+        "MT",
         "TR",
+        "ME",
+        "GB",
+        "MC",
+        "BG",
+        "ES",
+        "FI",
+        "AT",
+        "RS",
+        "IS",
+        "SI",
+        "SK",
+        "BA",
+        "NO",
+        "GR",
+        "PL",
+        "LU",
         "IT",
         "BE",
-        "EE",
-        "BA",
-        "ME",
-        "NL",
-        "IS",
-        "CZ",
-        "HR",
-        "GB",
-        "CH",
         "PT",
-        "SK",
-        "DE",
-        "FI",
-        "SI",
-        "SE",
-        "BG",
+        "CZ",
         "FR",
-        "HU",
-        "MK",
-        "MC",
-        "NO",
-        "ES",
-        "PL",
         "LT",
+        "CH",
+        "NL",
         "RO",
-        "LV",
         "XK",
-        "MT",
-        "GR"
+        "MK",
+        "CY",
+        "IE",
+        "EE",
+        "LV"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1a_pm25_cams/N1a_pm25_cams_graph.png"
@@ -2565,6 +2748,9 @@
       "themes": [
         "air"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem"
+      ],
       "subcode": "N1_NO2",
       "satellite": [
         "Sentinel-5P"
@@ -2596,6 +2782,9 @@
       "themes": [
         "air"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem"
+      ],
       "subcode": "N1",
       "satellite": [
         "Sentinel-5P"
@@ -2604,62 +2793,62 @@
         "TROPOMI"
       ],
       "cities": [
-        "Tallinn",
-        "Sofia",
         "Dublin",
-        "Nicosia",
+        "Sofia",
+        "Prague",
         "Warsaw",
-        "Vilnius",
+        "Helsinki",
+        "Zagreb",
+        "Lisbon",
         "Bucharest",
-        "Paris",
-        "Valletta",
+        "Ljubljana",
+        "Copenhagen",
+        "Vilnius",
+        "Riga",
+        "Brussels",
+        "Nicosia",
+        "Luxembourg",
         "Budapest",
         "Bratislava",
-        "Riga",
-        "Amsterdam",
-        "Zagreb",
+        "Tallinn",
         "Athens",
-        "Berlin",
-        "Lisbon",
-        "Brussels",
-        "Stockholm",
-        "Copenhagen",
-        "Helsinki",
-        "Prague",
-        "Vienna",
-        "Ljubljana",
         "Rome",
         "Madrid",
-        "Luxembourg"
+        "Paris",
+        "Vienna",
+        "Berlin",
+        "Stockholm",
+        "Amsterdam",
+        "Valletta"
       ],
       "countries": [
-        "LU",
-        "IE",
-        "CY",
         "DK",
+        "DE",
+        "HR",
+        "HU",
+        "SE",
+        "MT",
+        "BG",
+        "ES",
+        "FI",
         "AT",
+        "SI",
+        "SK",
+        "GR",
+        "PL",
+        "LU",
         "IT",
         "BE",
-        "EE",
-        "NL",
-        "CZ",
-        "HR",
         "PT",
-        "SK",
-        "DE",
-        "FI",
-        "SI",
-        "SE",
-        "BG",
+        "CZ",
         "FR",
-        "HU",
-        "ES",
-        "PL",
         "LT",
+        "NL",
         "RO",
-        "LV",
-        "MT",
-        "GR"
+        "CY",
+        "IE",
+        "EE",
+        "LV"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_city_no2/N1_city_no2_photo.jpg"
@@ -2688,10 +2877,13 @@
         "commerce",
         "transport"
       ],
+      "providers": [
+        "e-GEOS"
+      ],
       "subcode": "E13f",
       "cities": [
-        "Genoa",
-        "Gioia Tauro"
+        "Gioia Tauro",
+        "Genoa"
       ],
       "countries": [
         "IT"
@@ -2723,6 +2915,9 @@
         "economy",
         "transport",
         "commerce"
+      ],
+      "providers": [
+        "e-GEOS"
       ],
       "subcode": "E13h",
       "cities": [
@@ -2759,10 +2954,13 @@
         "transport",
         "commerce"
       ],
+      "providers": [
+        "e-GEOS"
+      ],
       "subcode": "E13e",
       "cities": [
-        "Genoa",
-        "Gioia Tauro"
+        "Gioia Tauro",
+        "Genoa"
       ],
       "countries": [
         "IT"
@@ -2795,10 +2993,13 @@
         "transport",
         "commerce"
       ],
+      "providers": [
+        "e-GEOS"
+      ],
       "subcode": "E13g",
       "cities": [
-        "Genoa",
-        "Gioia Tauro"
+        "Gioia Tauro",
+        "Genoa"
       ],
       "countries": [
         "IT"
@@ -2830,6 +3031,9 @@
         "economy",
         "transport",
         "tourism"
+      ],
+      "providers": [
+        "e-GEOS"
       ],
       "subcode": "E13m",
       "cities": [
@@ -2868,6 +3072,9 @@
         "tourism",
         "sports"
       ],
+      "providers": [
+        "e-GEOS"
+      ],
       "subcode": "E13l",
       "cities": [
         "Genoa"
@@ -2902,6 +3109,9 @@
         "economy",
         "transport",
         "security"
+      ],
+      "providers": [
+        "e-GEOS"
       ],
       "subcode": "E13i",
       "cities": [
@@ -2971,6 +3181,9 @@
         "transport",
         "tourism"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem"
+      ],
       "subcode": "E13c_ship_detections",
       "satellite": [
         "Sentinel-2"
@@ -3002,6 +3215,10 @@
       "id": "GHS-BUILT-S-R2023A",
       "themes": [
         "economy"
+      ],
+      "providers": [
+        "Copernicus Emergency Management service",
+        "Joint Research Centre"
       ],
       "subcode": "GHSBUILT",
       "satellite": [
@@ -3035,6 +3252,11 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "OILX",
+        "ARESYS"
+      ],
       "subcode": "OX",
       "satellite": [
         "Sentinel-1",
@@ -3045,43 +3267,43 @@
         "MSI"
       ],
       "cities": [
-        "Teesport",
-        "Cartagena",
-        "Algeciras",
-        "Trieste",
-        "Aspropyrgos",
-        "Wilhelmshaven",
-        "Omisalj",
-        "Corinth",
-        "Le Havre",
-        "Cork",
-        "Rotterdam",
-        "Thessaloniki",
-        "Dalmeny",
-        "Godorf Wesseling",
-        "Pachi",
-        "Sullom Voe",
-        "Elefsina",
-        "Sarroch",
         "Tarragona",
-        "Schwechat",
-        "Antwerp",
+        "Wilhelmshaven",
         "Finnart",
+        "Schwechat",
+        "Cork",
+        "Pachi",
+        "Thessaloniki",
+        "Teesport",
+        "Trieste",
+        "Antwerp",
+        "Sullom Voe",
+        "Algeciras",
+        "Cartagena",
+        "Sarroch",
         "Grangemouth",
-        "Fos-Lavera"
+        "Le Havre",
+        "Omisalj",
+        "Fos-Lavera",
+        "Dalmeny",
+        "Elefsina",
+        "Godorf Wesseling",
+        "Aspropyrgos",
+        "Corinth",
+        "Rotterdam"
       ],
       "countries": [
-        "ES",
+        "IE",
+        "DE",
+        "AT",
+        "HR",
         "IT",
         "BE",
-        "GR",
-        "DE",
-        "IE",
-        "NL",
         "FR",
-        "HR",
         "GB",
-        "AT"
+        "NL",
+        "GR",
+        "ES"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"
@@ -3111,6 +3333,11 @@
       "id": "OX_EU_Crude_Oil_Storage_Index",
       "themes": [
         "economy"
+      ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "OILX",
+        "ARESYS"
       ],
       "subcode": "OX_EU",
       "satellite": [
@@ -3156,44 +3383,47 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "Google"
+      ],
       "subcode": "GG",
       "cities": [
         "/"
       ],
       "countries": [
-        "Sweden",
-        "Czech Republic",
-        "Malta",
-        "Portugal",
-        "Switzerland",
-        "France",
-        "Romania",
-        "Germany",
-        "Finland",
-        "Spain",
-        "Lithuania",
-        "Estonia",
-        "United Kingdom",
-        "Hungary",
-        "Italy",
-        "Slovenia",
-        "Macedonia",
-        "Latvia",
-        "Denmark",
-        "Greece",
-        "Ireland",
         "Austria",
-        "Bosnia and Herzegovina",
-        "Slovakia",
-        "Turkey",
-        "Poland",
-        "Serbia",
-        "Belgium",
-        "Netherlands",
         "Norway",
-        "Croatia",
+        "Ireland",
         "Bulgaria",
-        "Luxembourg"
+        "Denmark",
+        "France",
+        "Poland",
+        "Estonia",
+        "Turkey",
+        "Slovakia",
+        "Czech Republic",
+        "Bosnia and Herzegovina",
+        "Germany",
+        "Hungary",
+        "Netherlands",
+        "Switzerland",
+        "Luxembourg",
+        "Latvia",
+        "Sweden",
+        "Finland",
+        "Croatia",
+        "Slovenia",
+        "Malta",
+        "Macedonia",
+        "Lithuania",
+        "Romania",
+        "United Kingdom",
+        "Spain",
+        "Portugal",
+        "Italy",
+        "Belgium",
+        "Greece",
+        "Serbia"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports_photo.jpg"
@@ -3219,46 +3449,49 @@
       "themes": [
         "health"
       ],
+      "providers": [
+        "Our World in Data"
+      ],
       "subcode": "CV",
       "cities": [
         "/"
       ],
       "countries": [
-        "Sweden",
-        "Kosovo",
-        "Malta",
-        "Portugal",
-        "Switzerland",
-        "France",
-        "Romania",
-        "Germany",
-        "Finland",
-        "Spain",
-        "Lithuania",
-        "Estonia",
-        "United Kingdom",
-        "Hungary",
-        "Italy",
-        "Slovenia",
-        "Latvia",
-        "North Macedonia",
-        "Denmark",
-        "Greece",
-        "Czechia",
-        "Ireland",
         "Austria",
-        "Bosnia and Herzegovina",
-        "Slovakia",
-        "Turkey",
-        "Poland",
-        "Serbia",
-        "Belgium",
-        "Netherlands",
         "Norway",
-        "Croatia",
+        "Ireland",
         "Bulgaria",
+        "Denmark",
+        "France",
+        "Poland",
+        "Estonia",
+        "Turkey",
+        "Slovakia",
+        "Bosnia and Herzegovina",
+        "Germany",
+        "Kosovo",
+        "Hungary",
+        "Netherlands",
+        "Switzerland",
+        "Luxembourg",
+        "Latvia",
+        "Sweden",
+        "Finland",
+        "Croatia",
+        "Slovenia",
+        "Malta",
+        "Czechia",
+        "Lithuania",
+        "Romania",
+        "United Kingdom",
+        "North Macedonia",
+        "Spain",
+        "Portugal",
+        "Italy",
+        "Belgium",
         "Albania",
-        "Luxembourg"
+        "Greece",
+        "Serbia"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CV_Covid_19_cases/CV_Covid_19_cases_photo.jpg"
@@ -3285,46 +3518,49 @@
       "themes": [
         "health"
       ],
+      "providers": [
+        "Our World in Data"
+      ],
       "subcode": "OW",
       "cities": [
         "/"
       ],
       "countries": [
-        "Sweden",
-        "Kosovo",
-        "Malta",
-        "Portugal",
-        "Switzerland",
-        "France",
-        "Romania",
-        "Germany",
-        "Finland",
-        "Spain",
-        "Lithuania",
-        "Estonia",
-        "United Kingdom",
-        "Hungary",
-        "Italy",
-        "Slovenia",
-        "Latvia",
-        "North Macedonia",
-        "Denmark",
-        "Greece",
-        "Czechia",
-        "Ireland",
         "Austria",
-        "Bosnia and Herzegovina",
-        "Slovakia",
-        "Turkey",
-        "Poland",
-        "Serbia",
-        "Belgium",
-        "Netherlands",
         "Norway",
-        "Croatia",
+        "Ireland",
         "Bulgaria",
+        "Denmark",
+        "France",
+        "Poland",
+        "Estonia",
+        "Turkey",
+        "Slovakia",
+        "Bosnia and Herzegovina",
+        "Germany",
+        "Kosovo",
+        "Hungary",
+        "Netherlands",
+        "Switzerland",
+        "Luxembourg",
+        "Latvia",
+        "Sweden",
+        "Finland",
+        "Croatia",
+        "Slovenia",
+        "Malta",
+        "Czechia",
+        "Lithuania",
+        "Romania",
+        "United Kingdom",
+        "North Macedonia",
+        "Spain",
+        "Portugal",
+        "Italy",
+        "Belgium",
         "Albania",
-        "Luxembourg"
+        "Greece",
+        "Serbia"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OW_Covid_19_vaccinations/OW_Covid_19_vaccinations_photo.jpg"
@@ -3352,6 +3588,12 @@
       "themes": [
         "agriculture",
         "land"
+      ],
+      "providers": [
+        "CropOM",
+        "Danube Data Cube",
+        "Copernicus Land Monitoring Service",
+        "FAO"
       ],
       "subcode": "CROPOM_yield",
       "satellite": [
@@ -3387,6 +3629,12 @@
         "agriculture",
         "land"
       ],
+      "providers": [
+        "CropOM",
+        "Danube Data Cube",
+        "Copernicus Land Monitoring Service",
+        "FAO"
+      ],
       "subcode": "CROPOM_water_need",
       "satellite": [
         "Sentinel-2",
@@ -3420,6 +3668,9 @@
         "agriculture",
         "water"
       ],
+      "providers": [
+        "TU Wien"
+      ],
       "subcode": "ESDL_Hydrology_SM",
       "satellite": [
         "Sentinel-1"
@@ -3449,6 +3700,14 @@
       "themes": [
         "agriculture",
         "water"
+      ],
+      "providers": [
+        "NOAA",
+        "NASA",
+        "ECMWF",
+        "WLS",
+        "CNR IRPI",
+        "EURAC"
       ],
       "subcode": "ESDL_Hydrology_Precipitation",
       "thumbnail": [
@@ -3483,6 +3742,9 @@
       "themes": [
         "health"
       ],
+      "providers": [
+        "Murmuration"
+      ],
       "subcode": "IND1_1_minesweeper",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi_minesweeper.png"
@@ -3503,6 +3765,9 @@
       "id": "IDEAS1_hopi_ind",
       "themes": [
         "health"
+      ],
+      "providers": [
+        "Murmuration"
       ],
       "subcode": "IND1_1",
       "thumbnail": [
@@ -3526,6 +3791,9 @@
       "id": "IDEAS2_wildlife_minesweeper",
       "themes": [
         "agriculture"
+      ],
+      "providers": [
+        "Murmuration"
       ],
       "subcode": "IND2_1_minesweeper",
       "satellite": [
@@ -3560,6 +3828,9 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "Murmuration"
+      ],
       "subcode": "IND2_1",
       "satellite": [
         "MODIS",
@@ -3593,6 +3864,9 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "Murmuration"
+      ],
       "subcode": "IND5_1",
       "satellite": [
         "Landsat 8",
@@ -3618,6 +3892,9 @@
       "id": "WASDI_FLOOD",
       "themes": [
         "extremes"
+      ],
+      "providers": [
+        "WASDI Market Place"
       ],
       "subcode": "WASDI_FLOOD",
       "satellite": [
@@ -3656,6 +3933,12 @@
       "themes": [
         "inland water"
       ],
+      "providers": [
+        "CNR ISMAR",
+        "ESA",
+        "Copernicus Data Space Ecosystem",
+        "ONDA"
+      ],
       "subcode": "CNR_TUR_1",
       "satellite": [
         "Sentinel-2"
@@ -3692,6 +3975,9 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "DLR"
+      ],
       "subcode": "WSF_world_settlement_footprint_ind",
       "satellite": [
         "Sentinel-1",
@@ -3723,6 +4009,11 @@
       "id": "Water_Discharge_timeseries",
       "themes": [
         "water"
+      ],
+      "providers": [
+        "ESA",
+        "Copernicus Data Space Ecosystem",
+        "ONDA"
       ],
       "subcode": "Water_Discharge_timeseries",
       "satellite": [

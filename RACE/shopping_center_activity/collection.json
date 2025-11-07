@@ -23,6 +23,10 @@
         "economy",
         "commerce"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem",
+        "Vodafone"
+      ],
       "cities": [
         "Brussels",
         "Athens",
@@ -181,8 +185,8 @@
       "E11"
     ],
     "themes": [
-      "economy",
-      "commerce"
+      "commerce",
+      "economy"
     ],
     "satellite": [
       "Sentinel-1"
@@ -191,19 +195,19 @@
       "C-SAR"
     ],
     "cities": [
-      "Brussels",
       "Milan",
-      "Rome",
+      "Bucharest",
       "Warsaw",
       "Athens",
-      "Bucharest"
+      "Rome",
+      "Brussels"
     ],
     "countries": [
-      "PL",
       "IT",
       "BE",
+      "GR",
       "RO",
-      "GR"
+      "PL"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg"

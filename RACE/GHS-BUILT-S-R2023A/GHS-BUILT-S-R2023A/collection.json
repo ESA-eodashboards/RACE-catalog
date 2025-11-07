@@ -42,7 +42,7 @@
     },
     {
       "rel": "example",
-      "href": "https://bids2023-nbviewer.hub.eox.at/localfile/bids2023/notebooks/Fire_impact_analysis.ipynb",
+      "href": "https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/fire-impact-analysis/",
       "type": "application/x-ipynb+json",
       "title": "Evaluation of Fire Impact on Populated Areas on a European Site",
       "example:language": "Jupyter Notebook",
