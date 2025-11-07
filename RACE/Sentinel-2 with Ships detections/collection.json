@@ -160,9 +160,9 @@
       "E13c_ship_detections"
     ],
     "themes": [
-      "tourism",
       "economy",
-      "transport"
+      "transport",
+      "tourism"
     ],
     "satellite": [
       "Sentinel-2"

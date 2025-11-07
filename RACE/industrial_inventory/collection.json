@@ -211,50 +211,50 @@
       "E8"
     ],
     "themes": [
-      "commerce",
       "economy",
+      "commerce",
       "industry"
     ],
     "satellite": [
-      "ICEYE SAR",
-      "Sentinel-1"
+      "Sentinel-1",
+      "ICEYE SAR"
     ],
     "sensor": [
       "C-SAR"
     ],
     "cities": [
-      "Saarlouis",
-      "Leipzig",
-      "Regensburg",
-      "Nosovice",
-      "Barcelona",
       "Craiova",
-      "Koln",
-      "Emden",
       "Sindelfingen",
-      "Swindon",
-      "Zwickau",
-      "Cassino",
+      "Emden",
+      "Kvasiny",
       "Ingolstadt",
-      "Mioveni",
-      "Wolfsburg",
-      "Ghent",
-      "Dingolfing",
-      "Eisenach",
       "Russelsheim",
+      "Eisenach",
+      "Mioveni",
       "Bremen",
       "Martorell",
+      "Nosovice",
+      "Dingolfing",
+      "Koln",
+      "Leipzig",
+      "Ghent",
+      "Regensburg",
       "Neckarsulm",
-      "Kvasiny"
+      "Zwickau",
+      "Swindon",
+      "Saarlouis",
+      "Barcelona",
+      "Cassino",
+      "Wolfsburg"
     ],
     "countries": [
-      "CZ",
-      "IT",
-      "DE",
       "ES",
       "GB",
       "RO",
-      "BE"
+      "IT",
+      "DE",
+      "BE",
+      "CZ"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg"

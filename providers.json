@@ -1,111 +1,111 @@
 {
   "ARESYS": {
     "Url": "https://www.aresys.it/",
-    "Description": "Description of provider",
+    "Description": "ARESYS, Advanced REmote-sensing SYStems, is an Italian SME, former spin-off of Politecnico di Milano, providing solutions since 2003 to the Remote Sensing market with a special focus on Space Earth Observation. ARESYS designs and develops imaging solutions, both at HW & SW level, with a recognized expertise on Radar, SAR  and Optical systems.",
     "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=aresys",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/aresys.jpeg?raw=true"
   },
   "Aerospacelab": {
     "Url": "https://www.aerospacelab.be/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Aerospacelab is a Belgian aerospace company designing high-performance satellite payloads tailored for missions in environmental monitoring, disaster response, agriculture, maritime, water management, defense, and biodiversity. They focus on delivering the payloads themselves — empowering customers to operate and own their data flows directly.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/aerospacelab.jpeg?raw=true"
   },
   "BASt": {
     "Url": "https://www.bast.de",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Federal Highway Research Institute (BASt) is a practice-oriented, technical-scientific research institution . It belongs to the Federal Ministry of Transport (BMV), which it advises on technical and transport policy issues.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/bast.jpeg?raw=true"
   },
   "CNR IRPI": {
     "Url": "https://www.irpi.cnr.it/en/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Research Institute for Geo-Hydrological Protection (Istituto di Ricerca per la Protezione Idrogeologica – IRPI) is an institute of the Department of Earth System Sciences and Technology for the Environment (DTA), of the Italian National Research Council (Consiglio Nazionale delle Ricerche, CNR). The mission of the institute is to design and execute scientific research and technological development in the fields of natural hazards, environmental protection, and the sustainable use of geo-resources. IRPI carries out its mission by operating at different geographical and temporal scales, and in different climatic, physiographic and geological zones.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cnr-irpi.jpeg?raw=true"
   },
   "CNR ISMAR": {
     "Url": "https://www.ismar.cnr.it/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Institute of Marine Sciences of the National Research Council (CNR-ISMAR) conducts fundamental and applied research in physical, chemical, and biological oceanography and marine geology. Their goal is to contribute to the study of ocean processes and climate variability, as well as to the development of systems and services for the observation, protection, and sustainable management of the marine environment and coasts.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/ismar.jpeg?raw=true"
   },
   "Caltech": {
     "Url": "https://caltech.edu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "California Institute of Technology, Pasadena, USA",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/caltech.jpeg?raw=true"
   },
   "CherryData": {
     "Url": "https://www.cherry-data.com",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Cherrydata is an Italian technology company offering custom design, implementation, and management services of scalable AI solutions. ",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cherry-data.jpeg?raw=true"
   },
   "Copernicus Atmosphere Monitoring Service": {
     "Url": "https://ads.atmosphere.copernicus.eu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Copernicus Atmosphere Monitoring Service (CAMS) provides consistent and quality-controlled information related to air pollution and health, solar energy, greenhouse gases and climate forcing, everywhere in the world.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cams.jpeg?raw=true"
   },
   "Copernicus Climate Change Service": {
-    "Url": "https://cds.climate.copernicus.eu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Url": "https://climate.copernicus.eu/",
+    "Description": "The Copernicus Climate Change Service (C3S) supports society by providing authoritative information about the past, present and future climate in Europe and the rest of the World.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/c3s.jpeg?raw=true"
   },
   "Copernicus Data Space Ecosystem": {
     "Url": "https://dataspace.copernicus.eu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Copernicus Data Space Ecosystem is an open ecosystem that provides free instant access to a wide range of data and services from the Copernicus Sentinel missions and more on our planet’s land, oceans and atmosphere.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cdse.jpeg?raw=true"
   },
   "Copernicus Emergency Management service": {
     "Url": "https://emergency.copernicus.eu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Copernicus Emergency Management Service (CEMS) provides information for emergency response and disaster risk management.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cems.jpeg?raw=true"
   },
   "Copernicus Land Monitoring Service": {
     "Url": "https://land.copernicus.eu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Copernicus Land Monitoring Service (CLMS) provides geographical information on land cover and its changes, land use, ground motion, vegetation state, water cycle and earth surface energy variables for both Europe and the entire globe.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/clms.jpeg?raw=true"
   },
   "Copernicus Marine Service": {
     "Url": "https://marine.copernicus.eu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Copernicus Marine Service is the marine component of the European Union’s Copernicus Programme. It provides free, open-access, and science-based information on the state of the Ocean at both global and regional scales. This includes data on the physical Ocean (Blue Ocean), sea ice (White Ocean), and Ocean biogeochemistry (Green Ocean).",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cmems.jpeg?raw=true"
   },
   "CropOM": {
     "Url": "https://cropom.com",
-    "Description": "Description of provider",
+    "Description": "CropOM is a Hungarian startup that builds software and a platform integrating data, decision processes, and action mechanisms. With the help of their Data Cube technology, they provide easy access to spatial data. With their Digital Twin solution, they make environmental and economic processes easy to interpret and model.",
     "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=danube",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cropom.jpeg?raw=true"
   },
   "DLR": {
     "Url": "https://dlr.de/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The German Aerospace Center (DLR) is the aerospace research centre of the Federal Republic of Germany. I",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/dlr.jpeg?raw=true"
   },
   "Danube Data Cube": {
     "Url": "https://ddc.cropom.com",
-    "Description": "Description of provider",
+    "Description": "The Danube Data Cube is a cloud-based platform for integrating and analyzing environmental data, with a focus on the Danube region.",
     "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=danube",
     "Logo": "Link to logo"
   },
   "ECMWF": {
     "Url": "https://www.ecmwf.int/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "ECMWF is the European Centre for Medium-Range Weather Forecasts.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/ecmwf.jpeg?raw=true"
   },
   "EMODNET": {
     "Url": "https://www.emodnet-humanactivities.eu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The European Marine Observation and Data Network is a web portal that brings together marine data, data products and metadata from diverse sources within Europe in a uniform way. It was initiated by the European Commission in response to the EU Green Paper on Future Maritime Policy, launched in June 2006.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/emodnet.jpeg?raw=true"
   },
   "ESA": {
     "Url": "https://esa.int/",
-    "Description": "Description of provider",
+    "Description": "The European Space Agency",
     "Logo": "Link to logo"
   },
   "EUMETSAT": {
     "Url": "https://data.eumetsat.int",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "EUMETSAT is the European operational satellite agency for monitoring weather, climate and the environment from space on behalf of the EU member states.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/eumetsat.jpeg?raw=true"
   },
   "EURAC": {
     "Url": "https://www.eurac.edu/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Eurac Research is a private research center​ based in Bozen-Bolzano.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/eurac.jpeg?raw=true"
   },
   "EUROSTAT": {
     "Url": "https://ec.europa.eu/eurostat",
@@ -151,8 +151,8 @@
   },
   "Joint Research Centre": {
     "Url": "https://joint-research-centre.ec.europa.eu/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Joint Research Centre is the European Commission's science and knowledge service which employs scientists to carry out research in order to provide independent scientific advice and support to European Union policy.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/jrc.jpeg?raw=true"
   },
   "Murmuration": {
     "Url": "https://murmuration-sas.com/",
