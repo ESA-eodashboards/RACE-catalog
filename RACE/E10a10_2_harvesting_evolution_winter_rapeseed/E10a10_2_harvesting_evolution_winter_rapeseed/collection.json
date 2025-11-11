@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./ATb/collection.json",
       "type": "application/json",
-      "title": "Austria",
+      "title": "Austria - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "ATb",
       "latlng": "47.585494391, 14.1264761",
       "country": "AT",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./BGb/collection.json",
       "type": "application/json",
-      "title": "Bulgaria",
+      "title": "Bulgaria - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "BGb",
       "latlng": "42.768903181, 25.21552909",
       "country": "BG",
@@ -34,7 +34,7 @@
       "rel": "child",
       "href": "./CZb/collection.json",
       "type": "application/json",
-      "title": "Czech Republic",
+      "title": "Czech Republic - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "CZb",
       "latlng": "49.733412331, 15.31240163",
       "country": "CZ",
@@ -44,7 +44,7 @@
       "rel": "child",
       "href": "./DEb/collection.json",
       "type": "application/json",
-      "title": "Germany",
+      "title": "Germany - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "DEb",
       "latlng": "51.106981811, 10.38578051",
       "country": "DE",
@@ -54,7 +54,7 @@
       "rel": "child",
       "href": "./DKb/collection.json",
       "type": "application/json",
-      "title": "Denmark",
+      "title": "Denmark - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "DKb",
       "latlng": "56.005087031, 9.19078239",
       "country": "DK",
@@ -64,7 +64,7 @@
       "rel": "child",
       "href": "./EEb/collection.json",
       "type": "application/json",
-      "title": "Estonia",
+      "title": "Estonia - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "EEb",
       "latlng": "58.671929721, 25.54248537",
       "country": "EE",
@@ -74,7 +74,7 @@
       "rel": "child",
       "href": "./FRb/collection.json",
       "type": "application/json",
-      "title": "France",
+      "title": "France - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "FRb",
       "latlng": "46.839766351, 2.54675178",
       "country": "FR",
@@ -84,7 +84,7 @@
       "rel": "child",
       "href": "./HRb/collection.json",
       "type": "application/json",
-      "title": "Croatia",
+      "title": "Croatia - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "HRb",
       "latlng": "45.695288081, 16.21904979",
       "country": "HR",
@@ -94,7 +94,7 @@
       "rel": "child",
       "href": "./HUb/collection.json",
       "type": "application/json",
-      "title": "Hungary",
+      "title": "Hungary - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "HUb",
       "latlng": "47.162775061, 19.39559116",
       "country": "HU",
@@ -104,7 +104,7 @@
       "rel": "child",
       "href": "./LTb/collection.json",
       "type": "application/json",
-      "title": "Lithuania",
+      "title": "Lithuania - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "LTb",
       "latlng": "55.326109841, 23.88719355",
       "country": "LT",
@@ -114,7 +114,7 @@
       "rel": "child",
       "href": "./LVb/collection.json",
       "type": "application/json",
-      "title": "Latvia",
+      "title": "Latvia - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "LVb",
       "latlng": "56.850851631, 24.91235983",
       "country": "LV",
@@ -124,7 +124,7 @@
       "rel": "child",
       "href": "./PLb/collection.json",
       "type": "application/json",
-      "title": "Poland",
+      "title": "Poland - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "PLb",
       "latlng": "52.127595641, 19.39012835",
       "country": "PL",
@@ -134,7 +134,7 @@
       "rel": "child",
       "href": "./ROb/collection.json",
       "type": "application/json",
-      "title": "Romania",
+      "title": "Romania - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "ROb",
       "latlng": "45.852431271, 24.97293039",
       "country": "RO",
@@ -144,7 +144,7 @@
       "rel": "child",
       "href": "./SEb/collection.json",
       "type": "application/json",
-      "title": "Sweden",
+      "title": "Sweden - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "SEb",
       "latlng": "57.984907951, 14.4552277",
       "country": "SE",
@@ -154,7 +154,7 @@
       "rel": "child",
       "href": "./SKb/collection.json",
       "type": "application/json",
-      "title": "Slovak Republic",
+      "title": "Slovak Republic - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "SKb",
       "latlng": "48.705475281, 19.47905218",
       "country": "SK",
@@ -164,7 +164,7 @@
       "rel": "child",
       "href": "./UKb/collection.json",
       "type": "application/json",
-      "title": "United Kingdom",
+      "title": "United Kingdom - E10a10_2_harvesting_evolution_winter_rapeseed",
       "id": "UKb",
       "latlng": "52.989397751, -1.77396816",
       "country": "GB",
@@ -205,106 +205,106 @@
     "spatial": {
       "bbox": [
         [
-          -1.78396816,
-          42.758903181,
-          25.552485370000003,
-          58.681929720999996
+          -1.9739681599999999,
+          42.568903180999996,
+          25.74248537,
+          58.871929721
         ],
         [
-          14.1164761,
-          47.575494391,
-          14.1364761,
-          47.595494390999995
+          13.9264761,
+          47.385494390999995,
+          14.326476099999999,
+          47.785494391
         ],
         [
-          25.20552909,
-          42.758903181,
-          25.225529090000002,
-          42.778903181
+          25.01552909,
+          42.568903180999996,
+          25.41552909,
+          42.968903181
         ],
         [
-          15.30240163,
-          49.723412331,
-          15.32240163,
-          49.743412330999995
+          15.11240163,
+          49.533412330999994,
+          15.51240163,
+          49.933412331
         ],
         [
-          10.37578051,
-          51.096981811,
-          10.39578051,
-          51.116981810999995
+          10.18578051,
+          50.906981810999994,
+          10.58578051,
+          51.306981811
         ],
         [
-          9.180782390000001,
-          55.995087031000004,
-          9.20078239,
-          56.015087031
+          8.990782390000001,
+          55.805087031,
+          9.39078239,
+          56.205087031000005
         ],
         [
-          25.53248537,
-          58.661929721,
-          25.552485370000003,
-          58.681929720999996
+          25.342485370000002,
+          58.471929720999995,
+          25.74248537,
+          58.871929721
         ],
         [
-          2.5367517800000003,
-          46.829766351,
-          2.55675178,
-          46.849766351
+          2.34675178,
+          46.639766351,
+          2.7467517800000003,
+          47.039766351000004
         ],
         [
-          16.209049789999998,
-          45.685288081,
-          16.22904979,
-          45.705288081
+          16.01904979,
+          45.495288081,
+          16.41904979,
+          45.895288081000004
         ],
         [
-          19.385591159999997,
-          47.152775061,
-          19.40559116,
-          47.172775060999996
+          19.19559116,
+          46.962775060999995,
+          19.595591159999998,
+          47.362775061
         ],
         [
-          23.877193549999998,
-          55.316109841,
-          23.89719355,
-          55.336109840999995
+          23.68719355,
+          55.126109840999995,
+          24.08719355,
+          55.526109841
         ],
         [
-          24.902359829999998,
-          56.840851631,
-          24.92235983,
-          56.860851630999996
+          24.71235983,
+          56.650851630999995,
+          25.11235983,
+          57.050851631
         ],
         [
-          19.38012835,
-          52.117595641,
-          19.400128350000003,
-          52.137595641
+          19.190128350000002,
+          51.927595640999996,
+          19.59012835,
+          52.327595641
         ],
         [
-          24.962930389999997,
-          45.842431271,
-          24.98293039,
-          45.862431271
+          24.77293039,
+          45.652431271,
+          25.172930389999998,
+          46.052431271
         ],
         [
-          14.4452277,
-          57.974907951,
-          14.4652277,
-          57.994907950999995
+          14.2552277,
+          57.784907950999994,
+          14.6552277,
+          58.184907951
         ],
         [
-          19.46905218,
-          48.695475281,
-          19.48905218,
-          48.715475280999996
+          19.27905218,
+          48.505475280999995,
+          19.67905218,
+          48.905475281
         ],
         [
-          -1.78396816,
-          52.979397751,
-          -1.76396816,
-          52.999397751
+          -1.9739681599999999,
+          52.789397750999996,
+          -1.57396816,
+          53.189397751
         ]
       ]
     },

@@ -2,13 +2,20 @@
   "type": "Collection",
   "id": "IT_219",
   "stac_version": "1.1.0",
-  "description": "Apulia - IT",
+  "description": "## Number of Agricultural Workers\n\nThis indicator shows the number of workers involved in tomato fields preparation and crop harvesting activities in the Apulia Region (Province of Foggia - Italy). The indicator is based on the following data sources:\n\n- High resolution optical satellite imagery (from Copernicus Sentinel-2, 2019 and 2020) and very high resolution (from Deimos, 2020) which have been used to assess time evolution of vegetation indexes and perform textural analysis to identify and classify agricultural fields.\n\n- Anonymised mobile data (from Vodafone Italy) providing aggregated information on the number of workers in the fields detected from satellite imagery. The information is presented in 3 categories:\n  - National Workers = aggregates Italian workers living in the area where they work, as well as commuting to work\n  - Foreginer Workers = aggregates foreigner workers that live in the area of work, commute to work, and have Italian or foreign SIM\n  - Unknown = workers of unknown nationality, that either live in the area of work or commute to work\n\n- Land cover classification map of the Apulia region ([source](http://www.sit.puglia.it/portal/portale_cartografie_tecniche_tematiche/Download/Cartografie)(last update: 2011)) that has been used as baseline for Vodafone cells classification.\n",
   "links": [
     {
       "rel": "root",
       "href": "../../../catalog.json",
       "type": "application/json",
       "title": "RACE"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a9?aoi_id=eq.IT_219&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -61,6 +68,8 @@
       "title": "Agricultural workers"
     }
   ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a9_agricultural_workers/chart.json",
   "subcode": "E10a9",
   "subtitle": "Availability of agricultural workers",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a9_agricultural_workers/E10a9_agricultural_workers_photo.jpg",
@@ -86,15 +95,15 @@
   "insituSources": [
     "Mobile"
   ],
-  "title": "Apulia",
+  "title": "Apulia - agricultural_workers",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          15.51506,
-          41.77791,
-          15.53506,
-          41.797909999999995
+          15.32506,
+          41.587909999999994,
+          15.72506,
+          41.98791
         ]
       ]
     },

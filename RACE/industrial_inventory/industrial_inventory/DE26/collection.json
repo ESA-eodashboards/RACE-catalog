@@ -2,13 +2,20 @@
   "type": "Collection",
   "id": "DE26",
   "stac_version": "1.1.0",
-  "description": "Wolfsburg - DE",
+  "description": "## Automobile inventory time series\n\nThis indicator aims at showing inventory level at various motor vehicle production sites by means of Synthetic Aperture Radar satellites such as the C-band [Copernicus Sentinel-1](http://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1).\nThe indicator shows a rolling mean of the SAR backscatter signal over the logistic areas. \n\nThe Sentinel-1 GRD IW time series are extracted for each AOI (area of interest), using same orbit for the whole time series. The HV cross-polarization is used as it is more sensitive to rough surfaces. \nAn average value is computed for the AOI at each observation date.\n\n",
   "links": [
     {
       "rel": "root",
       "href": "../../../catalog.json",
       "type": "application/json",
       "title": "RACE"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E8?aoi_id=eq.DE26&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -61,6 +68,8 @@
       "title": "Automobile inventory level"
     }
   ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E8_industrial_inventory/chart.json",
   "subcode": "E8",
   "subtitle": "Inventory level in logisitc areas of production sites",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg",
@@ -87,15 +96,15 @@
   "otherSources": [
     "Multi-sensors"
   ],
-  "title": "Wolfsburg",
+  "title": "Wolfsburg - industrial_inventory",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          10.748977,
-          52.427128,
-          10.768977,
-          52.447128
+          10.558977,
+          52.237128,
+          10.958976999999999,
+          52.637128000000004
         ]
       ]
     },

@@ -137,17 +137,17 @@
   "insituSources": [
     "Mobile"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a9_agricultural_workers/chart.json",
   "title": "Agricultural workers",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          15.51506,
-          41.56712,
-          15.79358,
-          41.81107
+          15.32506,
+          41.37712,
+          15.98358,
+          42.001070000000006
         ]
       ]
     },
@@ -176,12 +176,12 @@
       "E10a9"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
-      "Sentinel-2",
-      "Deimos-2"
+      "Deimos-2",
+      "Sentinel-2"
     ],
     "sensor": [
       "DMAC",

@@ -177,17 +177,17 @@
     "AIS",
     "Other"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/OX_Crude_Oil_Storage_Index/chart.json",
   "title": "Crude Oil Storage Index",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -8.258061999999999,
-          36.177573,
-          23.61571,
-          60.47923
+          -8.448061999999998,
+          35.987573,
+          23.805709999999998,
+          60.669230000000006
         ]
       ]
     },
@@ -231,43 +231,43 @@
       "MSI"
     ],
     "cities": [
-      "Sarroch",
-      "Tarragona",
-      "Cartagena",
-      "Thessaloniki",
-      "Schwechat",
-      "Wilhelmshaven",
-      "Godorf Wesseling",
-      "Sullom Voe",
-      "Finnart",
-      "Omisalj",
-      "Rotterdam",
-      "Fos-Lavera",
       "Cork",
-      "Corinth",
-      "Algeciras",
-      "Elefsina",
-      "Antwerp",
-      "Trieste",
-      "Grangemouth",
-      "Le Havre",
-      "Aspropyrgos",
-      "Dalmeny",
       "Pachi",
-      "Teesport"
+      "Omisalj",
+      "Le Havre",
+      "Cartagena",
+      "Antwerp",
+      "Godorf Wesseling",
+      "Trieste",
+      "Teesport",
+      "Finnart",
+      "Dalmeny",
+      "Grangemouth",
+      "Tarragona",
+      "Corinth",
+      "Rotterdam",
+      "Thessaloniki",
+      "Algeciras",
+      "Sarroch",
+      "Schwechat",
+      "Fos-Lavera",
+      "Wilhelmshaven",
+      "Sullom Voe",
+      "Aspropyrgos",
+      "Elefsina"
     ],
     "countries": [
-      "FR",
       "ES",
-      "GB",
       "AT",
-      "IT",
-      "GR",
-      "IE",
+      "HR",
       "DE",
-      "BE",
+      "IE",
+      "FR",
       "NL",
-      "HR"
+      "GB",
+      "BE",
+      "GR",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"

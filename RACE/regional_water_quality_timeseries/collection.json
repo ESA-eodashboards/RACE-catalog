@@ -150,17 +150,17 @@
   "satellite": [
     "Sentinel-3"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N3_regional_water_quality_timeseries/chart.json",
   "title": "Regional water quality time series",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -9.4467,
-          38.6567,
-          29.4566,
-          54.161699999999996
+          -9.6367,
+          38.466699999999996,
+          29.6466,
+          54.3517
         ]
       ]
     },
@@ -202,20 +202,20 @@
       "OLCI"
     ],
     "cities": [
+      "Marseilles",
+      "Venice Lagoon",
       "Lisbon",
       "Constanta",
-      "Marseilles",
       "Barcelona",
-      "Hamburg",
-      "Venice Lagoon"
+      "Hamburg"
     ],
     "countries": [
-      "FR",
       "ES",
       "PT",
+      "FR",
       "RO",
-      "IT",
-      "GE"
+      "GE",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg"

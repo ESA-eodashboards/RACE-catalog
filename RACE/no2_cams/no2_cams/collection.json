@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./AL1/collection.json",
       "type": "application/json",
-      "title": "Tirana",
+      "title": "Tirana - no2_cams",
       "id": "AL1",
       "latlng": "41.32,19.82",
       "country": "AL",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./AT5/collection.json",
       "type": "application/json",
-      "title": "Vienna",
+      "title": "Vienna - no2_cams",
       "id": "AT5",
       "latlng": "48.2,16.37",
       "country": "AT",
@@ -34,7 +34,7 @@
       "rel": "child",
       "href": "./BA1/collection.json",
       "type": "application/json",
-      "title": "Sarajevo",
+      "title": "Sarajevo - no2_cams",
       "id": "BA1",
       "latlng": "43.87,18.42",
       "country": "BA",
@@ -44,7 +44,7 @@
       "rel": "child",
       "href": "./BE7/collection.json",
       "type": "application/json",
-      "title": "Brussels",
+      "title": "Brussels - no2_cams",
       "id": "BE7",
       "latlng": "50.83,4.34",
       "country": "BE",
@@ -54,7 +54,7 @@
       "rel": "child",
       "href": "./BG4/collection.json",
       "type": "application/json",
-      "title": "Sofia",
+      "title": "Sofia - no2_cams",
       "id": "BG4",
       "latlng": "42.68,23.32",
       "country": "BG",
@@ -64,7 +64,7 @@
       "rel": "child",
       "href": "./CH2/collection.json",
       "type": "application/json",
-      "title": "Bern",
+      "title": "Bern - no2_cams",
       "id": "CH2",
       "latlng": "46.92,7.47",
       "country": "CH",
@@ -74,7 +74,7 @@
       "rel": "child",
       "href": "./CY2/collection.json",
       "type": "application/json",
-      "title": "Nicosia",
+      "title": "Nicosia - no2_cams",
       "id": "CY2",
       "latlng": "35.17,33.37",
       "country": "CY",
@@ -84,7 +84,7 @@
       "rel": "child",
       "href": "./CZ6/collection.json",
       "type": "application/json",
-      "title": "Prague",
+      "title": "Prague - no2_cams",
       "id": "CZ6",
       "latlng": "50.08,14.47",
       "country": "CZ",
@@ -94,7 +94,7 @@
       "rel": "child",
       "href": "./DE13/collection.json",
       "type": "application/json",
-      "title": "Cologne",
+      "title": "Cologne - no2_cams",
       "id": "DE13",
       "latlng": "50.94,6.95",
       "country": "DE",
@@ -104,7 +104,7 @@
       "rel": "child",
       "href": "./DE16/collection.json",
       "type": "application/json",
-      "title": "Berlin",
+      "title": "Berlin - no2_cams",
       "id": "DE16",
       "latlng": "52.52,13.41",
       "country": "DE",
@@ -114,7 +114,7 @@
       "rel": "child",
       "href": "./DE17/collection.json",
       "type": "application/json",
-      "title": "Hamburg",
+      "title": "Hamburg - no2_cams",
       "id": "DE17",
       "latlng": "53.5488, 9.9872",
       "country": "DE",
@@ -124,7 +124,7 @@
       "rel": "child",
       "href": "./DE18/collection.json",
       "type": "application/json",
-      "title": "Munich",
+      "title": "Munich - no2_cams",
       "id": "DE18",
       "latlng": "48.13,11.57",
       "country": "DE",
@@ -134,7 +134,7 @@
       "rel": "child",
       "href": "./DK1/collection.json",
       "type": "application/json",
-      "title": "Copenhagen",
+      "title": "Copenhagen - no2_cams",
       "id": "DK1",
       "latlng": "55.67,12.58",
       "country": "DK",
@@ -144,7 +144,7 @@
       "rel": "child",
       "href": "./EE1/collection.json",
       "type": "application/json",
-      "title": "Tallinn",
+      "title": "Tallinn - no2_cams",
       "id": "EE1",
       "latlng": "59.43,24.72",
       "country": "EE",
@@ -154,7 +154,7 @@
       "rel": "child",
       "href": "./ES12/collection.json",
       "type": "application/json",
-      "title": "Madrid",
+      "title": "Madrid - no2_cams",
       "id": "ES12",
       "latlng": "40.4,-3.68",
       "country": "ES",
@@ -164,7 +164,7 @@
       "rel": "child",
       "href": "./ES63/collection.json",
       "type": "application/json",
-      "title": "Barcelona",
+      "title": "Barcelona - no2_cams",
       "id": "ES63",
       "latlng": "41.38,2.18",
       "country": "ES",
@@ -174,7 +174,7 @@
       "rel": "child",
       "href": "./ES65/collection.json",
       "type": "application/json",
-      "title": "Valencia",
+      "title": "Valencia - no2_cams",
       "id": "ES65",
       "latlng": "39.47,-0.38",
       "country": "ES",
@@ -184,7 +184,7 @@
       "rel": "child",
       "href": "./FI4/collection.json",
       "type": "application/json",
-      "title": "Helsinki",
+      "title": "Helsinki - no2_cams",
       "id": "FI4",
       "latlng": "60.17,24.93",
       "country": "FI",
@@ -194,7 +194,7 @@
       "rel": "child",
       "href": "./FR10/collection.json",
       "type": "application/json",
-      "title": "Paris",
+      "title": "Paris - no2_cams",
       "id": "FR10",
       "latlng": "48.87,2.33",
       "country": "FR",
@@ -204,7 +204,7 @@
       "rel": "child",
       "href": "./FR15/collection.json",
       "type": "application/json",
-      "title": "Lyon",
+      "title": "Lyon - no2_cams",
       "id": "FR15",
       "latlng": "45.76,4.85",
       "country": "FR",
@@ -214,7 +214,7 @@
       "rel": "child",
       "href": "./FR16/collection.json",
       "type": "application/json",
-      "title": "Marseille",
+      "title": "Marseille - no2_cams",
       "id": "FR16",
       "latlng": "43.3,5.37",
       "country": "FR",
@@ -224,7 +224,7 @@
       "rel": "child",
       "href": "./GR6/collection.json",
       "type": "application/json",
-      "title": "Athens",
+      "title": "Athens - no2_cams",
       "id": "GR6",
       "latlng": "37.98,23.74",
       "country": "GR",
@@ -234,7 +234,7 @@
       "rel": "child",
       "href": "./HR3/collection.json",
       "type": "application/json",
-      "title": "Zagreb",
+      "title": "Zagreb - no2_cams",
       "id": "HR3",
       "latlng": "45.8,16.01",
       "country": "HR",
@@ -244,7 +244,7 @@
       "rel": "child",
       "href": "./HU5/collection.json",
       "type": "application/json",
-      "title": "Budapest",
+      "title": "Budapest - no2_cams",
       "id": "HU5",
       "latlng": "47.5,19.09",
       "country": "HU",
@@ -254,7 +254,7 @@
       "rel": "child",
       "href": "./IE3/collection.json",
       "type": "application/json",
-      "title": "Dublin",
+      "title": "Dublin - no2_cams",
       "id": "IE3",
       "latlng": "53.32,-6.23",
       "country": "IE",
@@ -264,7 +264,7 @@
       "rel": "child",
       "href": "./IS1/collection.json",
       "type": "application/json",
-      "title": "Reykjavik",
+      "title": "Reykjavik - no2_cams",
       "id": "IS1",
       "latlng": "64.15,-21.95",
       "country": "IS",
@@ -274,7 +274,7 @@
       "rel": "child",
       "href": "./IT10/collection.json",
       "type": "application/json",
-      "title": "Milan",
+      "title": "Milan - no2_cams",
       "id": "IT10",
       "latlng": "45.47,9.18",
       "country": "IT",
@@ -284,7 +284,7 @@
       "rel": "child",
       "href": "./IT11/collection.json",
       "type": "application/json",
-      "title": "Rome",
+      "title": "Rome - no2_cams",
       "id": "IT11",
       "latlng": "41.9,12.48",
       "country": "IT",
@@ -294,7 +294,7 @@
       "rel": "child",
       "href": "./IT37/collection.json",
       "type": "application/json",
-      "title": "Naples",
+      "title": "Naples - no2_cams",
       "id": "IT37",
       "latlng": "40.86,14.25",
       "country": "IT",
@@ -304,7 +304,7 @@
       "rel": "child",
       "href": "./IT38/collection.json",
       "type": "application/json",
-      "title": "Turin",
+      "title": "Turin - no2_cams",
       "id": "IT38",
       "latlng": "45.12,7.74",
       "country": "IT",
@@ -314,7 +314,7 @@
       "rel": "child",
       "href": "./LT3/collection.json",
       "type": "application/json",
-      "title": "Vilnius",
+      "title": "Vilnius - no2_cams",
       "id": "LT3",
       "latlng": "54.68,25.32",
       "country": "LT",
@@ -324,7 +324,7 @@
       "rel": "child",
       "href": "./LU2/collection.json",
       "type": "application/json",
-      "title": "Luxembourg",
+      "title": "Luxembourg - no2_cams",
       "id": "LU2",
       "latlng": "49.6,6.12",
       "country": "LU",
@@ -334,7 +334,7 @@
       "rel": "child",
       "href": "./LV3/collection.json",
       "type": "application/json",
-      "title": "Riga",
+      "title": "Riga - no2_cams",
       "id": "LV3",
       "latlng": "56.95,24.11",
       "country": "LV",
@@ -344,7 +344,7 @@
       "rel": "child",
       "href": "./MC1/collection.json",
       "type": "application/json",
-      "title": "Monaco",
+      "title": "Monaco - no2_cams",
       "id": "MC1",
       "latlng": "43.73,7.42",
       "country": "MC",
@@ -354,7 +354,7 @@
       "rel": "child",
       "href": "./ME1/collection.json",
       "type": "application/json",
-      "title": "Podgorica",
+      "title": "Podgorica - no2_cams",
       "id": "ME1",
       "latlng": "42.43,19.27",
       "country": "ME",
@@ -364,7 +364,7 @@
       "rel": "child",
       "href": "./MK1/collection.json",
       "type": "application/json",
-      "title": "Skopje",
+      "title": "Skopje - no2_cams",
       "id": "MK1",
       "latlng": "42,21.43",
       "country": "MK",
@@ -374,7 +374,7 @@
       "rel": "child",
       "href": "./MT2/collection.json",
       "type": "application/json",
-      "title": "Valletta",
+      "title": "Valletta - no2_cams",
       "id": "MT2",
       "latlng": "35.88,14.51",
       "country": "MT",
@@ -384,7 +384,7 @@
       "rel": "child",
       "href": "./NL3/collection.json",
       "type": "application/json",
-      "title": "Amsterdam",
+      "title": "Amsterdam - no2_cams",
       "id": "NL3",
       "latlng": "52.35,4.92",
       "country": "NL",
@@ -394,7 +394,7 @@
       "rel": "child",
       "href": "./NO2/collection.json",
       "type": "application/json",
-      "title": "Oslo",
+      "title": "Oslo - no2_cams",
       "id": "NO2",
       "latlng": "59.92,10.75",
       "country": "NO",
@@ -404,7 +404,7 @@
       "rel": "child",
       "href": "./PL6/collection.json",
       "type": "application/json",
-      "title": "Warsaw",
+      "title": "Warsaw - no2_cams",
       "id": "PL6",
       "latlng": "52.25,21.01",
       "country": "PL",
@@ -414,7 +414,7 @@
       "rel": "child",
       "href": "./PT3/collection.json",
       "type": "application/json",
-      "title": "Lisbon",
+      "title": "Lisbon - no2_cams",
       "id": "PT3",
       "latlng": "38.72,-9.13",
       "country": "PT",
@@ -424,7 +424,7 @@
       "rel": "child",
       "href": "./RO9/collection.json",
       "type": "application/json",
-      "title": "Bucharest",
+      "title": "Bucharest - no2_cams",
       "id": "RO9",
       "latlng": "44.43,26.11",
       "country": "RO",
@@ -434,7 +434,7 @@
       "rel": "child",
       "href": "./RS1/collection.json",
       "type": "application/json",
-      "title": "Belgrade",
+      "title": "Belgrade - no2_cams",
       "id": "RS1",
       "latlng": "44.83,20.5",
       "country": "RS",
@@ -444,7 +444,7 @@
       "rel": "child",
       "href": "./SE22/collection.json",
       "type": "application/json",
-      "title": "Stockholm",
+      "title": "Stockholm - no2_cams",
       "id": "SE22",
       "latlng": "59.33,18.06",
       "country": "SE",
@@ -454,7 +454,7 @@
       "rel": "child",
       "href": "./SI3/collection.json",
       "type": "application/json",
-      "title": "Ljubljana",
+      "title": "Ljubljana - no2_cams",
       "id": "SI3",
       "latlng": "46.05,14.52",
       "country": "SI",
@@ -464,7 +464,7 @@
       "rel": "child",
       "href": "./SK4/collection.json",
       "type": "application/json",
-      "title": "Bratislava",
+      "title": "Bratislava - no2_cams",
       "id": "SK4",
       "latlng": "48.15,17.12",
       "country": "SK",
@@ -474,7 +474,7 @@
       "rel": "child",
       "href": "./TR3/collection.json",
       "type": "application/json",
-      "title": "Ankara",
+      "title": "Ankara - no2_cams",
       "id": "TR3",
       "latlng": "39.93,32.87",
       "country": "TR",
@@ -484,7 +484,7 @@
       "rel": "child",
       "href": "./UK10/collection.json",
       "type": "application/json",
-      "title": "Birmingham",
+      "title": "Birmingham - no2_cams",
       "id": "UK10",
       "latlng": "52.48,1.89",
       "country": "GB",
@@ -494,7 +494,7 @@
       "rel": "child",
       "href": "./UK11/collection.json",
       "type": "application/json",
-      "title": "London",
+      "title": "London - no2_cams",
       "id": "UK11",
       "latlng": "51.5,-0.08",
       "country": "GB",
@@ -504,7 +504,7 @@
       "rel": "child",
       "href": "./XK1/collection.json",
       "type": "application/json",
-      "title": "Pristina",
+      "title": "Pristina - no2_cams",
       "id": "XK1",
       "latlng": "42.67,21.17",
       "country": "XK",
@@ -553,310 +553,310 @@
     "spatial": {
       "bbox": [
         [
-          -21.96,
-          35.160000000000004,
-          33.379999999999995,
-          64.16000000000001
+          -22.15,
+          34.97,
+          33.57,
+          64.35000000000001
         ],
         [
-          19.81,
-          41.31,
-          19.830000000000002,
-          41.33
+          19.62,
+          41.12,
+          20.02,
+          41.52
         ],
         [
-          16.36,
-          48.190000000000005,
-          16.380000000000003,
-          48.21
+          16.17,
+          48.0,
+          16.57,
+          48.400000000000006
         ],
         [
-          18.41,
-          43.86,
-          18.430000000000003,
-          43.879999999999995
+          18.220000000000002,
+          43.669999999999995,
+          18.62,
+          44.07
         ],
         [
-          4.33,
-          50.82,
-          4.35,
-          50.839999999999996
+          4.14,
+          50.629999999999995,
+          4.54,
+          51.03
         ],
         [
-          23.31,
-          42.67,
-          23.330000000000002,
-          42.69
+          23.12,
+          42.48,
+          23.52,
+          42.88
         ],
         [
-          7.46,
-          46.910000000000004,
-          7.4799999999999995,
-          46.93
+          7.27,
+          46.72,
+          7.67,
+          47.120000000000005
         ],
         [
-          33.36,
-          35.160000000000004,
-          33.379999999999995,
-          35.18
+          33.169999999999995,
+          34.97,
+          33.57,
+          35.370000000000005
         ],
         [
-          14.46,
-          50.07,
-          14.48,
-          50.089999999999996
+          14.270000000000001,
+          49.879999999999995,
+          14.67,
+          50.28
         ],
         [
-          6.94,
-          50.93,
-          6.96,
-          50.949999999999996
+          6.75,
+          50.739999999999995,
+          7.15,
+          51.14
         ],
         [
-          13.4,
-          52.510000000000005,
-          13.42,
-          52.53
+          13.21,
+          52.32,
+          13.61,
+          52.720000000000006
         ],
         [
-          9.9772,
-          53.5388,
-          9.9972,
-          53.5588
+          9.7872,
+          53.3488,
+          10.187199999999999,
+          53.7488
         ],
         [
-          11.56,
-          48.120000000000005,
-          11.58,
-          48.14
+          11.370000000000001,
+          47.93,
+          11.77,
+          48.330000000000005
         ],
         [
-          12.57,
-          55.660000000000004,
-          12.59,
-          55.68
+          12.38,
+          55.47,
+          12.78,
+          55.870000000000005
         ],
         [
-          24.709999999999997,
-          59.42,
-          24.73,
-          59.44
-        ],
-        [
-          -3.69,
-          40.39,
-          -3.6700000000000004,
-          40.41
-        ],
-        [
-          2.1700000000000004,
-          41.370000000000005,
-          2.19,
-          41.39
-        ],
-        [
-          -0.39,
-          39.46,
-          -0.37,
-          39.48
-        ],
-        [
+          24.52,
+          59.23,
           24.919999999999998,
-          60.160000000000004,
-          24.94,
-          60.18
+          59.63
         ],
         [
-          2.3200000000000003,
-          48.86,
-          2.34,
-          48.879999999999995
+          -3.8800000000000003,
+          40.199999999999996,
+          -3.48,
+          40.6
         ],
         [
-          4.84,
-          45.75,
-          4.859999999999999,
-          45.769999999999996
+          1.9800000000000002,
+          41.18,
+          2.3800000000000003,
+          41.580000000000005
         ],
         [
-          5.36,
-          43.29,
-          5.38,
-          43.309999999999995
+          -0.5800000000000001,
+          39.269999999999996,
+          -0.18,
+          39.67
         ],
         [
-          23.729999999999997,
-          37.97,
-          23.75,
-          37.989999999999995
+          24.73,
+          59.97,
+          25.13,
+          60.370000000000005
         ],
         [
-          16.0,
-          45.79,
-          16.020000000000003,
-          45.809999999999995
+          2.13,
+          48.669999999999995,
+          2.5300000000000002,
+          49.07
         ],
         [
-          19.08,
-          47.49,
-          19.1,
-          47.51
+          4.6499999999999995,
+          45.559999999999995,
+          5.05,
+          45.96
         ],
         [
-          -6.24,
-          53.31,
-          -6.220000000000001,
-          53.33
+          5.17,
+          43.099999999999994,
+          5.57,
+          43.5
         ],
         [
-          -21.96,
-          64.14,
-          -21.939999999999998,
-          64.16000000000001
+          23.54,
+          37.779999999999994,
+          23.939999999999998,
+          38.18
         ],
         [
-          9.17,
-          45.46,
-          9.19,
-          45.48
+          15.810000000000002,
+          45.599999999999994,
+          16.21,
+          46.0
         ],
         [
-          12.47,
-          41.89,
-          12.49,
-          41.91
+          18.89,
+          47.3,
+          19.29,
+          47.7
         ],
         [
-          14.24,
-          40.85,
-          14.26,
-          40.87
+          -6.430000000000001,
+          53.12,
+          -6.03,
+          53.52
         ],
         [
-          7.73,
-          45.11,
-          7.75,
-          45.129999999999995
+          -22.15,
+          63.95,
+          -21.75,
+          64.35000000000001
         ],
         [
-          25.31,
-          54.67,
-          25.330000000000002,
-          54.69
+          8.98,
+          45.269999999999996,
+          9.379999999999999,
+          45.67
         ],
         [
-          6.11,
-          49.59,
-          6.13,
-          49.61
+          12.280000000000001,
+          41.699999999999996,
+          12.68,
+          42.1
         ],
         [
-          24.099999999999998,
-          56.940000000000005,
-          24.12,
-          56.96
+          14.05,
+          40.66,
+          14.45,
+          41.06
         ],
         [
-          7.41,
-          43.72,
-          7.43,
-          43.739999999999995
+          7.54,
+          44.919999999999995,
+          7.94,
+          45.32
         ],
         [
-          19.259999999999998,
-          42.42,
-          19.28,
-          42.44
+          25.12,
+          54.48,
+          25.52,
+          54.88
         ],
         [
-          21.419999999999998,
-          41.99,
-          21.44,
-          42.01
+          5.92,
+          49.4,
+          6.32,
+          49.800000000000004
         ],
         [
-          14.5,
-          35.870000000000005,
-          14.52,
-          35.89
+          23.91,
+          56.75,
+          24.31,
+          57.150000000000006
         ],
         [
-          4.91,
-          52.34,
-          4.93,
-          52.36
+          7.22,
+          43.529999999999994,
+          7.62,
+          43.93
         ],
         [
-          10.74,
-          59.910000000000004,
-          10.76,
-          59.93
+          19.07,
+          42.23,
+          19.47,
+          42.63
         ],
         [
-          21.0,
-          52.24,
-          21.020000000000003,
-          52.26
+          21.23,
+          41.8,
+          21.63,
+          42.2
         ],
         [
-          -9.14,
-          38.71,
-          -9.120000000000001,
-          38.73
+          14.31,
+          35.68,
+          14.709999999999999,
+          36.080000000000005
         ],
         [
-          26.099999999999998,
-          44.42,
-          26.12,
-          44.44
+          4.72,
+          52.15,
+          5.12,
+          52.550000000000004
         ],
         [
-          20.49,
-          44.82,
-          20.51,
-          44.839999999999996
+          10.55,
+          59.72,
+          10.95,
+          60.120000000000005
         ],
         [
-          18.049999999999997,
-          59.32,
-          18.07,
-          59.339999999999996
+          20.810000000000002,
+          52.05,
+          21.21,
+          52.45
         ],
         [
-          14.51,
-          46.04,
-          14.53,
-          46.059999999999995
+          -9.33,
+          38.519999999999996,
+          -8.930000000000001,
+          38.92
         ],
         [
-          17.11,
-          48.14,
-          17.130000000000003,
-          48.16
+          25.91,
+          44.23,
+          26.31,
+          44.63
         ],
         [
-          32.86,
-          39.92,
-          32.879999999999995,
-          39.94
+          20.3,
+          44.629999999999995,
+          20.7,
+          45.03
         ],
         [
-          1.88,
-          52.47,
-          1.9,
-          52.489999999999995
+          17.86,
+          59.129999999999995,
+          18.259999999999998,
+          59.53
         ],
         [
-          -0.09,
-          51.49,
-          -0.07,
-          51.51
+          14.32,
+          45.849999999999994,
+          14.719999999999999,
+          46.25
         ],
         [
-          21.16,
-          42.660000000000004,
-          21.180000000000003,
-          42.68
+          16.92,
+          47.949999999999996,
+          17.32,
+          48.35
+        ],
+        [
+          32.669999999999995,
+          39.73,
+          33.07,
+          40.13
+        ],
+        [
+          1.69,
+          52.279999999999994,
+          2.09,
+          52.68
+        ],
+        [
+          -0.28,
+          51.3,
+          0.12000000000000001,
+          51.7
+        ],
+        [
+          20.970000000000002,
+          42.47,
+          21.37,
+          42.870000000000005
         ]
       ]
     },

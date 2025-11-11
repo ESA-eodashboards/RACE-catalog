@@ -152,7 +152,7 @@
       "interval": [
         [
           "2023-04-14T00:00:00Z",
-          "2025-11-06T00:00:00Z"
+          "2025-11-10T00:00:00Z"
         ]
       ]
     }
@@ -172,15 +172,15 @@
       "water"
     ],
     "satellite": [
-      "Aqua",
+      "Sentinel-3",
       "JPSS-1",
       "Suomi NPP",
-      "Sentinel-3"
+      "Aqua"
     ],
     "sensor": [
+      "VIIRS",
       "OLCI",
-      "MODIS",
-      "VIIRS"
+      "MODIS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_black_sea/N3c_ocean_colour_plankton_black_sea.png"

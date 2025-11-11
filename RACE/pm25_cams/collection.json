@@ -225,17 +225,17 @@
   "otherSources": [
     "EAC4"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N1a_pm25_cams/chart.json",
   "title": "Air Quality (PM25 concetrations) at city level (model)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -21.162000000000003,
-          35.160000000000004,
-          33.949999999999996,
-          64.16000000000001
+          -21.352,
+          34.97,
+          34.14,
+          64.35000000000001
         ]
       ]
     },

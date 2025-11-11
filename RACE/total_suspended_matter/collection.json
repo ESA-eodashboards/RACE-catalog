@@ -152,7 +152,7 @@
     "tickFormat": ".0f",
     "title": "Total suspended matter anomaly [%]"
   },
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "title": "Total suspended matter maps",
   "extent": {
     "spatial": {

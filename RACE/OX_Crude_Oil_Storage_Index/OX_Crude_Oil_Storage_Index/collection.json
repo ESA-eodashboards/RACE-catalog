@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./100006/collection.json",
       "type": "application/json",
-      "title": "Cork",
+      "title": "Cork - OX_Crude_Oil_Storage_Index",
       "id": "100006",
       "latlng": "51.820466,-8.248062",
       "country": "IE",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./100008/collection.json",
       "type": "application/json",
-      "title": "Dalmeny",
+      "title": "Dalmeny - OX_Crude_Oil_Storage_Index",
       "id": "100008",
       "latlng": "55.97601,-3.36825",
       "country": "GB",
@@ -34,7 +34,7 @@
       "rel": "child",
       "href": "./100010/collection.json",
       "type": "application/json",
-      "title": "Finnart",
+      "title": "Finnart - OX_Crude_Oil_Storage_Index",
       "id": "100010",
       "latlng": "56.11333,-4.83506",
       "country": "GB",
@@ -44,7 +44,7 @@
       "rel": "child",
       "href": "./100011/collection.json",
       "type": "application/json",
-      "title": "Grangemouth",
+      "title": "Grangemouth - OX_Crude_Oil_Storage_Index",
       "id": "100011",
       "latlng": "56.018632,-3.683518",
       "country": "GB",
@@ -54,7 +54,7 @@
       "rel": "child",
       "href": "./100024/collection.json",
       "type": "application/json",
-      "title": "Rotterdam",
+      "title": "Rotterdam - OX_Crude_Oil_Storage_Index",
       "id": "100024",
       "latlng": "51.90973,4.21532",
       "country": "NL",
@@ -64,7 +64,7 @@
       "rel": "child",
       "href": "./100025/collection.json",
       "type": "application/json",
-      "title": "Sarroch",
+      "title": "Sarroch - OX_Crude_Oil_Storage_Index",
       "id": "100025",
       "latlng": "39.07651,9.01789",
       "country": "IT",
@@ -74,7 +74,7 @@
       "rel": "child",
       "href": "./100026/collection.json",
       "type": "application/json",
-      "title": "Schwechat",
+      "title": "Schwechat - OX_Crude_Oil_Storage_Index",
       "id": "100026",
       "latlng": "48.144818,16.504681",
       "country": "AT",
@@ -84,7 +84,7 @@
       "rel": "child",
       "href": "./100042/collection.json",
       "type": "application/json",
-      "title": "Antwerp",
+      "title": "Antwerp - OX_Crude_Oil_Storage_Index",
       "id": "100042",
       "latlng": "51.2639,4.32055",
       "country": "BE",
@@ -94,7 +94,7 @@
       "rel": "child",
       "href": "./100043/collection.json",
       "type": "application/json",
-      "title": "Omisalj",
+      "title": "Omisalj - OX_Crude_Oil_Storage_Index",
       "id": "100043",
       "latlng": "45.22142,14.53257",
       "country": "HR",
@@ -104,7 +104,7 @@
       "rel": "child",
       "href": "./100044/collection.json",
       "type": "application/json",
-      "title": "Wilhelmshaven",
+      "title": "Wilhelmshaven - OX_Crude_Oil_Storage_Index",
       "id": "100044",
       "latlng": "53.55336,8.14958",
       "country": "DE",
@@ -114,7 +114,7 @@
       "rel": "child",
       "href": "./100045/collection.json",
       "type": "application/json",
-      "title": "Aspropyrgos",
+      "title": "Aspropyrgos - OX_Crude_Oil_Storage_Index",
       "id": "100045",
       "latlng": "38.03386,23.60571",
       "country": "GR",
@@ -124,7 +124,7 @@
       "rel": "child",
       "href": "./100046/collection.json",
       "type": "application/json",
-      "title": "Corinth",
+      "title": "Corinth - OX_Crude_Oil_Storage_Index",
       "id": "100046",
       "latlng": "37.922751,23.074264",
       "country": "GR",
@@ -134,7 +134,7 @@
       "rel": "child",
       "href": "./100047/collection.json",
       "type": "application/json",
-      "title": "Elefsina",
+      "title": "Elefsina - OX_Crude_Oil_Storage_Index",
       "id": "100047",
       "latlng": "38.04375,23.50868",
       "country": "GR",
@@ -144,7 +144,7 @@
       "rel": "child",
       "href": "./100048/collection.json",
       "type": "application/json",
-      "title": "Pachi",
+      "title": "Pachi - OX_Crude_Oil_Storage_Index",
       "id": "100048",
       "latlng": "37.99102,23.40814",
       "country": "GR",
@@ -154,7 +154,7 @@
       "rel": "child",
       "href": "./100049/collection.json",
       "type": "application/json",
-      "title": "Thessaloniki",
+      "title": "Thessaloniki - OX_Crude_Oil_Storage_Index",
       "id": "100049",
       "latlng": "40.68152,22.88263",
       "country": "GR",
@@ -164,7 +164,7 @@
       "rel": "child",
       "href": "./100054/collection.json",
       "type": "application/json",
-      "title": "Teesport",
+      "title": "Teesport - OX_Crude_Oil_Storage_Index",
       "id": "100054",
       "latlng": "54.63659,-1.21236",
       "country": "GB",
@@ -174,7 +174,7 @@
       "rel": "child",
       "href": "./100057/collection.json",
       "type": "application/json",
-      "title": "Trieste",
+      "title": "Trieste - OX_Crude_Oil_Storage_Index",
       "id": "100057",
       "latlng": "45.60048,13.83722",
       "country": "IT",
@@ -184,7 +184,7 @@
       "rel": "child",
       "href": "./100058/collection.json",
       "type": "application/json",
-      "title": "Sullom Voe",
+      "title": "Sullom Voe - OX_Crude_Oil_Storage_Index",
       "id": "100058",
       "latlng": "60.46923,-1.28454",
       "country": "GB",
@@ -194,7 +194,7 @@
       "rel": "child",
       "href": "./100113/collection.json",
       "type": "application/json",
-      "title": "Algeciras",
+      "title": "Algeciras - OX_Crude_Oil_Storage_Index",
       "id": "100113",
       "latlng": "36.187573,-5.400008",
       "country": "ES",
@@ -204,7 +204,7 @@
       "rel": "child",
       "href": "./100114/collection.json",
       "type": "application/json",
-      "title": "Cartagena",
+      "title": "Cartagena - OX_Crude_Oil_Storage_Index",
       "id": "100114",
       "latlng": "37.573845,-0.932927",
       "country": "ES",
@@ -214,7 +214,7 @@
       "rel": "child",
       "href": "./100115/collection.json",
       "type": "application/json",
-      "title": "Tarragona",
+      "title": "Tarragona - OX_Crude_Oil_Storage_Index",
       "id": "100115",
       "latlng": "41.168348,1.220632",
       "country": "ES",
@@ -224,7 +224,7 @@
       "rel": "child",
       "href": "./100116/collection.json",
       "type": "application/json",
-      "title": "Fos-Lavera",
+      "title": "Fos-Lavera - OX_Crude_Oil_Storage_Index",
       "id": "100116",
       "latlng": "43.44832,4.92497",
       "country": "FR",
@@ -234,7 +234,7 @@
       "rel": "child",
       "href": "./100117/collection.json",
       "type": "application/json",
-      "title": "Le Havre",
+      "title": "Le Havre - OX_Crude_Oil_Storage_Index",
       "id": "100117",
       "latlng": "49.483983,0.233957",
       "country": "FR",
@@ -244,7 +244,7 @@
       "rel": "child",
       "href": "./100118/collection.json",
       "type": "application/json",
-      "title": "Godorf Wesseling",
+      "title": "Godorf Wesseling - OX_Crude_Oil_Storage_Index",
       "id": "100118",
       "latlng": "50.860509,6.983921",
       "country": "DE",
@@ -293,154 +293,154 @@
     "spatial": {
       "bbox": [
         [
-          -8.258061999999999,
-          36.177573,
-          23.61571,
-          60.47923
+          -8.448061999999998,
+          35.987573,
+          23.805709999999998,
+          60.669230000000006
         ],
         [
-          -8.258061999999999,
-          51.810466000000005,
-          -8.238062,
-          51.830466
+          -8.448061999999998,
+          51.620466,
+          -8.048062,
+          52.020466000000006
         ],
         [
-          -3.37825,
-          55.966010000000004,
-          -3.3582500000000004,
-          55.98601
+          -3.5682500000000004,
+          55.77601,
+          -3.16825,
+          56.176010000000005
         ],
         [
-          -4.84506,
-          56.10333,
-          -4.825060000000001,
-          56.123329999999996
+          -5.0350600000000005,
+          55.913329999999995,
+          -4.63506,
+          56.31333
         ],
         [
-          -3.6935179999999996,
-          56.008632,
-          -3.673518,
-          56.028631999999995
+          -3.883518,
+          55.818631999999994,
+          -3.4835179999999997,
+          56.218632
         ],
         [
-          4.20532,
-          51.899730000000005,
-          4.22532,
-          51.91973
+          4.01532,
+          51.70973,
+          4.41532,
+          52.109730000000006
         ],
         [
-          9.00789,
-          39.06651,
-          9.02789,
-          39.08651
+          8.81789,
+          38.876509999999996,
+          9.217889999999999,
+          39.27651
         ],
         [
-          16.494681,
-          48.134818,
-          16.514681000000003,
-          48.154818
+          16.304681000000002,
+          47.944818,
+          16.704681,
+          48.344818000000004
         ],
         [
-          4.31055,
-          51.2539,
-          4.33055,
-          51.2739
+          4.12055,
+          51.0639,
+          4.52055,
+          51.4639
         ],
         [
-          14.52257,
-          45.211420000000004,
-          14.54257,
-          45.23142
+          14.33257,
+          45.02142,
+          14.732569999999999,
+          45.421420000000005
         ],
         [
-          8.13958,
-          53.54336,
-          8.15958,
-          53.563359999999996
+          7.94958,
+          53.353359999999995,
+          8.34958,
+          53.75336
         ],
         [
-          23.595709999999997,
-          38.02386,
-          23.61571,
-          38.043859999999995
+          23.40571,
+          37.833859999999994,
+          23.805709999999998,
+          38.23386
         ],
         [
-          23.064263999999998,
-          37.912751,
-          23.084264,
-          37.932750999999996
+          22.874264,
+          37.722750999999995,
+          23.274264,
+          38.122751
         ],
         [
-          23.498679999999997,
-          38.033750000000005,
-          23.51868,
-          38.05375
+          23.30868,
+          37.84375,
+          23.708679999999998,
+          38.243750000000006
         ],
         [
-          23.398139999999998,
-          37.98102,
-          23.41814,
-          38.00102
+          23.20814,
+          37.791019999999996,
+          23.60814,
+          38.19102
         ],
         [
-          22.872629999999997,
-          40.67152,
-          22.89263,
-          40.69152
+          22.68263,
+          40.481519999999996,
+          23.082629999999998,
+          40.88152
         ],
         [
-          -1.2223600000000001,
-          54.62659,
-          -1.20236,
-          54.646589999999996
+          -1.41236,
+          54.436589999999995,
+          -1.0123600000000001,
+          54.83659
         ],
         [
-          13.82722,
-          45.59048,
-          13.84722,
-          45.610479999999995
+          13.637220000000001,
+          45.400479999999995,
+          14.03722,
+          45.80048
         ],
         [
-          -1.29454,
-          60.459230000000005,
-          -1.27454,
-          60.47923
+          -1.48454,
+          60.26923,
+          -1.08454,
+          60.669230000000006
         ],
         [
-          -5.4100079999999995,
-          36.177573,
-          -5.390008,
-          36.197573
+          -5.600008,
+          35.987573,
+          -5.2000079999999995,
+          36.387573
         ],
         [
-          -0.942927,
-          37.563845,
-          -0.9229269999999999,
-          37.583845
+          -1.132927,
+          37.373844999999996,
+          -0.7329269999999999,
+          37.773845
         ],
         [
-          1.210632,
-          41.158348000000004,
-          1.230632,
-          41.178348
+          1.020632,
+          40.968348,
+          1.420632,
+          41.368348000000005
         ],
         [
-          4.91497,
-          43.438320000000004,
-          4.93497,
-          43.45832
+          4.72497,
+          43.24832,
+          5.12497,
+          43.648320000000005
         ],
         [
-          0.223957,
-          49.473983000000004,
-          0.243957,
-          49.493983
+          0.03395699999999999,
+          49.283983,
+          0.43395700000000004,
+          49.683983000000005
         ],
         [
-          6.973921,
-          50.850509,
-          6.993920999999999,
-          50.870509
+          6.783920999999999,
+          50.660509,
+          7.183921,
+          51.060509
         ]
       ]
     },

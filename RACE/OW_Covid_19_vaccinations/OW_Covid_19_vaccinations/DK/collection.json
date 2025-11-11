@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "DK",
   "stac_version": "1.1.0",
-  "description": "/ - Denmark",
+  "description": "## Data on COVID-19 (coronavirus) \n\nThe source of this data is [Our World in Data](https://ourworldindata.org/coronavirus)\n\nThe full dataset is is updated daily and includes data on confirmed cases, deaths, hospitalizations, testing, and vaccinations as well as other variables of potential interest. Here, our interactive charts show visualise the variation of the total number of cases and the evolution of vaccinations. \n\nTry interacting with the charts to visualise each variable. \n\n**References:**\n\nThis data has been collected, aggregated, and documented by Cameron Appel, Diana Beltekian, Daniel Gavrilov, Charlie Giattino, Joe Hasell, Bobbie Macdonald, Edouard Mathieu, Esteban Ortiz-Ospina, Hannah Ritchie, Lucas Rodés-Guirao, Max Roser.\n\nHasell, J., Mathieu, E., Beltekian, D. et al. A cross-country database of COVID-19 testing. Sci Data 7, 345 (2020). https://doi.org/10.1038/s41597-020-00688-8\n",
   "links": [
     {
       "rel": "root",
@@ -78,15 +78,15 @@
   "insituSources": [
     "Other"
   ],
-  "title": "/",
+  "title": "/ - OW_Covid_19_vaccinations",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          12.573,
-          55.657000000000004,
-          12.593,
-          55.677
+          12.383000000000001,
+          55.467,
+          12.783,
+          55.867000000000004
         ]
       ]
     },

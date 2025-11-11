@@ -125,17 +125,17 @@
   "insituSources": [
     "AIS"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13e_cargo_boats_port/chart.json",
   "title": "Cargo boats in ports",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          8.92364,
-          38.44339,
-          15.9124,
-          44.41572
+          8.733640000000001,
+          38.253389999999996,
+          16.1024,
+          44.605720000000005
         ]
       ]
     },

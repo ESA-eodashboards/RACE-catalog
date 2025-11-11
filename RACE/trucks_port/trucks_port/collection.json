@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./ES7/collection.json",
       "type": "application/json",
-      "title": "Gijon",
+      "title": "Gijon - trucks_port",
       "id": "ES7",
       "latlng": "43.54378,-5.67329",
       "country": "ES",
@@ -53,10 +53,10 @@
     "spatial": {
       "bbox": [
         [
-          -5.6832899999999995,
-          43.53378,
-          -5.66329,
-          43.553779999999996
+          -5.87329,
+          43.343779999999995,
+          -5.4732899999999995,
+          43.74378
         ]
       ]
     },

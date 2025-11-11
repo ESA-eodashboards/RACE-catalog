@@ -142,17 +142,17 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_vega_definition.json",
   "title": "Water Discharge Timeseries",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          11.5982,
-          44.8787,
-          11.6182,
-          44.8987
+          11.4082,
+          44.6887,
+          11.8082,
+          45.0887
         ]
       ]
     },

@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./DE11/collection.json",
       "type": "application/json",
-      "title": "Brandenburg Region",
+      "title": "Brandenburg Region - agricultural_production_area",
       "id": "DE11",
       "latlng": "52.131413,13.090632",
       "country": "DE",

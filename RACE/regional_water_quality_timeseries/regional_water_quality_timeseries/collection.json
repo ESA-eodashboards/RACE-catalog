@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./DE29/collection.json",
       "type": "application/json",
-      "title": "Hamburg",
+      "title": "Hamburg - regional_water_quality_timeseries",
       "id": "DE29",
       "latlng": "54.1517,7.89169",
       "country": "GE",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./ES19/collection.json",
       "type": "application/json",
-      "title": "Barcelona",
+      "title": "Barcelona - regional_water_quality_timeseries",
       "id": "ES19",
       "latlng": "40.7170,1.35800",
       "country": "ES",
@@ -34,7 +34,7 @@
       "rel": "child",
       "href": "./FR11/collection.json",
       "type": "application/json",
-      "title": "Marseilles",
+      "title": "Marseilles - regional_water_quality_timeseries",
       "id": "FR11",
       "latlng": "43.4000,4.94000",
       "country": "FR",
@@ -44,7 +44,7 @@
       "rel": "child",
       "href": "./IT6/collection.json",
       "type": "application/json",
-      "title": "Venice Lagoon",
+      "title": "Venice Lagoon - regional_water_quality_timeseries",
       "id": "IT6",
       "latlng": "45.3142,12.5081",
       "country": "IT",
@@ -54,7 +54,7 @@
       "rel": "child",
       "href": "./PT4/collection.json",
       "type": "application/json",
-      "title": "Lisbon",
+      "title": "Lisbon - regional_water_quality_timeseries",
       "id": "PT4",
       "latlng": "38.6667,-9.43670",
       "country": "PT",
@@ -64,7 +64,7 @@
       "rel": "child",
       "href": "./RO1/collection.json",
       "type": "application/json",
-      "title": "Constanta",
+      "title": "Constanta - regional_water_quality_timeseries",
       "id": "RO1",
       "latlng": "44.5458,29.4466",
       "country": "RO",
@@ -114,46 +114,46 @@
     "spatial": {
       "bbox": [
         [
-          -9.4467,
-          38.6567,
-          29.4566,
-          54.161699999999996
+          -9.6367,
+          38.466699999999996,
+          29.6466,
+          54.3517
         ],
         [
-          7.88169,
-          54.1417,
-          7.901689999999999,
-          54.161699999999996
+          7.6916899999999995,
+          53.951699999999995,
+          8.09169,
+          54.3517
         ],
         [
-          1.348,
-          40.707,
-          1.368,
-          40.727
+          1.1580000000000001,
+          40.516999999999996,
+          1.558,
+          40.917
         ],
         [
-          4.930000000000001,
-          43.39,
-          4.95,
-          43.41
+          4.74,
+          43.199999999999996,
+          5.140000000000001,
+          43.6
         ],
         [
-          12.4981,
-          45.3042,
-          12.5181,
-          45.3242
+          12.308100000000001,
+          45.1142,
+          12.7081,
+          45.5142
         ],
         [
-          -9.4467,
-          38.6567,
-          -9.4267,
-          38.6767
+          -9.6367,
+          38.466699999999996,
+          -9.2367,
+          38.8667
         ],
         [
-          29.4366,
-          44.5358,
-          29.4566,
-          44.5558
+          29.2466,
+          44.3458,
+          29.6466,
+          44.7458
         ]
       ]
     },

@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./AL/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "AL",
       "latlng": "41.317,19.817",
       "country": "Albania",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./AT/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "AT",
       "latlng": "48.2,16.367",
       "country": "Austria",
@@ -34,7 +34,7 @@
       "rel": "child",
       "href": "./BA/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "BA",
       "latlng": "43.867,18.417",
       "country": "Bosnia and Herzegovina",
@@ -44,7 +44,7 @@
       "rel": "child",
       "href": "./BE/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "BE",
       "latlng": "50.833,4.333",
       "country": "Belgium",
@@ -54,7 +54,7 @@
       "rel": "child",
       "href": "./BG/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "BG",
       "latlng": "42.683,23.317",
       "country": "Bulgaria",
@@ -64,7 +64,7 @@
       "rel": "child",
       "href": "./CH/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "CH",
       "latlng": "46.917,7.467",
       "country": "Switzerland",
@@ -74,7 +74,7 @@
       "rel": "child",
       "href": "./CZ/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "CZ",
       "latlng": "50.083,14.467",
       "country": "Czechia",
@@ -84,7 +84,7 @@
       "rel": "child",
       "href": "./DE/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "DE",
       "latlng": "52.517,13.4",
       "country": "Germany",
@@ -94,7 +94,7 @@
       "rel": "child",
       "href": "./DK/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "DK",
       "latlng": "55.667,12.583",
       "country": "Denmark",
@@ -104,7 +104,7 @@
       "rel": "child",
       "href": "./EE/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "EE",
       "latlng": "59.433,24.717",
       "country": "Estonia",
@@ -114,7 +114,7 @@
       "rel": "child",
       "href": "./ES/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "ES",
       "latlng": "40.4,-3.683",
       "country": "Spain",
@@ -124,7 +124,7 @@
       "rel": "child",
       "href": "./FI/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "FI",
       "latlng": "60.167,24.933",
       "country": "Finland",
@@ -134,7 +134,7 @@
       "rel": "child",
       "href": "./FR/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "FR",
       "latlng": "48.867,2.333",
       "country": "France",
@@ -144,7 +144,7 @@
       "rel": "child",
       "href": "./GB/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "GB",
       "latlng": "51.5,-0.083",
       "country": "United Kingdom",
@@ -154,7 +154,7 @@
       "rel": "child",
       "href": "./GR/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "GR",
       "latlng": "37.983,23.733",
       "country": "Greece",
@@ -164,7 +164,7 @@
       "rel": "child",
       "href": "./HR/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "HR",
       "latlng": "45.8,16.0",
       "country": "Croatia",
@@ -174,7 +174,7 @@
       "rel": "child",
       "href": "./HU/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "HU",
       "latlng": "47.5,19.083",
       "country": "Hungary",
@@ -184,7 +184,7 @@
       "rel": "child",
       "href": "./IE/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "IE",
       "latlng": "53.317,-6.233",
       "country": "Ireland",
@@ -194,7 +194,7 @@
       "rel": "child",
       "href": "./IT/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "IT",
       "latlng": "41.9,12.483",
       "country": "Italy",
@@ -204,7 +204,7 @@
       "rel": "child",
       "href": "./LT/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "LT",
       "latlng": "54.683,25.317",
       "country": "Lithuania",
@@ -214,7 +214,7 @@
       "rel": "child",
       "href": "./LU/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "LU",
       "latlng": "49.6,6.117",
       "country": "Luxembourg",
@@ -224,7 +224,7 @@
       "rel": "child",
       "href": "./LV/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "LV",
       "latlng": "56.95,24.1",
       "country": "Latvia",
@@ -234,7 +234,7 @@
       "rel": "child",
       "href": "./MK/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "MK",
       "latlng": "42.0,21.433",
       "country": "North Macedonia",
@@ -244,7 +244,7 @@
       "rel": "child",
       "href": "./MT/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "MT",
       "latlng": "35.883,14.5",
       "country": "Malta",
@@ -254,7 +254,7 @@
       "rel": "child",
       "href": "./NL/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "NL",
       "latlng": "52.35,4.917",
       "country": "Netherlands",
@@ -264,7 +264,7 @@
       "rel": "child",
       "href": "./NO/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "NO",
       "latlng": "59.917,10.75",
       "country": "Norway",
@@ -274,7 +274,7 @@
       "rel": "child",
       "href": "./PL/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "PL",
       "latlng": "52.25,21.0",
       "country": "Poland",
@@ -284,7 +284,7 @@
       "rel": "child",
       "href": "./PT/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "PT",
       "latlng": "38.717,-9.133",
       "country": "Portugal",
@@ -294,7 +294,7 @@
       "rel": "child",
       "href": "./RO/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "RO",
       "latlng": "44.433,26.1",
       "country": "Romania",
@@ -304,7 +304,7 @@
       "rel": "child",
       "href": "./RS/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "RS",
       "latlng": "44.833,20.5",
       "country": "Serbia",
@@ -314,7 +314,7 @@
       "rel": "child",
       "href": "./SE/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "SE",
       "latlng": "59.333,18.05",
       "country": "Sweden",
@@ -324,7 +324,7 @@
       "rel": "child",
       "href": "./SI/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "SI",
       "latlng": "46.05,14.517",
       "country": "Slovenia",
@@ -334,7 +334,7 @@
       "rel": "child",
       "href": "./SK/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "SK",
       "latlng": "48.15,17.117",
       "country": "Slovakia",
@@ -344,7 +344,7 @@
       "rel": "child",
       "href": "./TR/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "TR",
       "latlng": "39.933,32.867",
       "country": "Turkey",
@@ -354,7 +354,7 @@
       "rel": "child",
       "href": "./XK/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OW_Covid_19_vaccinations",
       "id": "XK",
       "latlng": "-1.283,36.817",
       "country": "Kosovo",
@@ -392,220 +392,220 @@
     "spatial": {
       "bbox": [
         [
-          -9.142999999999999,
-          -1.293,
-          36.827,
-          60.177
+          -9.332999999999998,
+          -1.4829999999999999,
+          37.017,
+          60.367000000000004
         ],
         [
-          19.807,
-          41.307,
-          19.827,
-          41.327
+          19.617,
+          41.117,
+          20.017,
+          41.517
         ],
         [
-          16.357,
-          48.190000000000005,
-          16.377000000000002,
-          48.21
+          16.167,
+          48.0,
+          16.567,
+          48.400000000000006
         ],
         [
-          18.407,
-          43.857,
-          18.427000000000003,
-          43.876999999999995
+          18.217000000000002,
+          43.666999999999994,
+          18.617,
+          44.067
         ],
         [
-          4.323,
-          50.823,
-          4.343,
-          50.842999999999996
+          4.133,
+          50.632999999999996,
+          4.533,
+          51.033
         ],
         [
-          23.307,
-          42.673,
-          23.327,
-          42.693
+          23.117,
+          42.483,
+          23.517,
+          42.883
         ],
         [
-          7.457,
-          46.907000000000004,
-          7.476999999999999,
-          46.927
+          7.2669999999999995,
+          46.717,
+          7.667,
+          47.117000000000004
         ],
         [
-          14.457,
-          50.073,
-          14.477,
-          50.092999999999996
+          14.267000000000001,
+          49.882999999999996,
+          14.667,
+          50.283
         ],
         [
-          13.39,
-          52.507000000000005,
-          13.41,
-          52.527
+          13.200000000000001,
+          52.317,
+          13.6,
+          52.717000000000006
         ],
         [
-          12.573,
-          55.657000000000004,
-          12.593,
-          55.677
+          12.383000000000001,
+          55.467,
+          12.783,
+          55.867000000000004
         ],
         [
-          24.706999999999997,
-          59.423,
-          24.727,
-          59.443
+          24.517,
+          59.233,
+          24.916999999999998,
+          59.633
         ],
         [
-          -3.6929999999999996,
-          40.39,
-          -3.673,
-          40.41
+          -3.883,
+          40.199999999999996,
+          -3.4829999999999997,
+          40.6
         ],
         [
-          24.923,
-          60.157000000000004,
-          24.943,
-          60.177
+          24.733,
+          59.967,
+          25.133,
+          60.367000000000004
         ],
         [
-          2.3230000000000004,
-          48.857,
-          2.343,
-          48.876999999999995
+          2.133,
+          48.666999999999994,
+          2.5330000000000004,
+          49.067
         ],
         [
-          -0.093,
-          51.49,
-          -0.07300000000000001,
-          51.51
+          -0.28300000000000003,
+          51.3,
+          0.117,
+          51.7
         ],
         [
-          23.723,
-          37.973,
-          23.743000000000002,
-          37.992999999999995
+          23.533,
+          37.782999999999994,
+          23.933,
+          38.183
         ],
         [
-          15.99,
-          45.79,
-          16.01,
-          45.809999999999995
+          15.8,
+          45.599999999999994,
+          16.2,
+          46.0
         ],
         [
-          19.072999999999997,
-          47.49,
-          19.093,
-          47.51
+          18.883,
+          47.3,
+          19.282999999999998,
+          47.7
         ],
         [
-          -6.242999999999999,
-          53.307,
-          -6.223,
-          53.327
+          -6.433,
+          53.117,
+          -6.0329999999999995,
+          53.517
         ],
         [
-          12.473,
-          41.89,
-          12.493,
-          41.91
+          12.283000000000001,
+          41.699999999999996,
+          12.683,
+          42.1
         ],
         [
-          25.307,
-          54.673,
-          25.327,
-          54.693
+          25.117,
+          54.483,
+          25.517,
+          54.883
         ],
         [
-          6.107,
-          49.59,
-          6.127,
-          49.61
+          5.917,
+          49.4,
+          6.317,
+          49.800000000000004
         ],
         [
-          24.09,
-          56.940000000000005,
-          24.110000000000003,
-          56.96
+          23.900000000000002,
+          56.75,
+          24.3,
+          57.150000000000006
         ],
         [
-          21.423,
-          41.99,
-          21.443,
-          42.01
+          21.233,
+          41.8,
+          21.633,
+          42.2
         ],
         [
-          14.49,
-          35.873000000000005,
-          14.51,
-          35.893
+          14.3,
+          35.683,
+          14.7,
+          36.083000000000006
         ],
         [
-          4.907,
-          52.34,
-          4.927,
-          52.36
+          4.717,
+          52.15,
+          5.117,
+          52.550000000000004
         ],
         [
-          10.74,
-          59.907000000000004,
-          10.76,
-          59.927
+          10.55,
+          59.717,
+          10.95,
+          60.117000000000004
         ],
         [
-          20.99,
-          52.24,
-          21.01,
-          52.26
+          20.8,
+          52.05,
+          21.2,
+          52.45
         ],
         [
-          -9.142999999999999,
-          38.707,
-          -9.123,
-          38.727
+          -9.332999999999998,
+          38.516999999999996,
+          -8.933,
+          38.917
         ],
         [
-          26.09,
-          44.423,
-          26.110000000000003,
-          44.443
+          25.900000000000002,
+          44.233,
+          26.3,
+          44.633
         ],
         [
-          20.49,
-          44.823,
-          20.51,
-          44.842999999999996
+          20.3,
+          44.632999999999996,
+          20.7,
+          45.033
         ],
         [
-          18.04,
-          59.323,
-          18.060000000000002,
-          59.342999999999996
+          17.85,
+          59.132999999999996,
+          18.25,
+          59.533
         ],
         [
-          14.507,
-          46.04,
-          14.527,
-          46.059999999999995
+          14.317,
+          45.849999999999994,
+          14.716999999999999,
+          46.25
         ],
         [
-          17.107,
-          48.14,
-          17.127000000000002,
-          48.16
+          16.917,
+          47.949999999999996,
+          17.317,
+          48.35
         ],
         [
-          32.857,
-          39.923,
-          32.876999999999995,
-          39.943
+          32.666999999999994,
+          39.733,
+          33.067,
+          40.133
         ],
         [
-          36.807,
-          -1.293,
-          36.827,
-          -1.273
+          36.617,
+          -1.4829999999999999,
+          37.017,
+          -1.083
         ]
       ]
     },

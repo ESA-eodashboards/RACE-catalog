@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "IT3",
   "stac_version": "1.1.0",
-  "description": "Genoa - IT",
+  "description": "## Intermediate goods production\n\nThis indicator illustrates the level of intermediate goods production (steel mills/other metal, cement, chemicals/plastics) at various industrial sites by means of very high resolution optical imagery.\nThe indicator is based on the assessment of relevant areas at production sites, such as employee car park (full/empty), exhaust plumes (steam etc), thermal signature (furnace heat, cooling water etc). The status of the area is assessed based n very high resolution optical imagery and is compared to a baseline (for example the situation in the same month one year before).\n\nBelow is an example of car detection for estimating occupancy and activity status related to the site.\n<div class=\"image-caption-object\">\n        <img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E4_intermediate_goods_production/E4.png\" alt=\"Image\" style=\"width: 50%;\" />\n        <div>Hamburg industrial area: Pleiades on 2020-03-24</div>\n</div>\n\n    \n",
   "links": [
     {
       "rel": "root",
@@ -76,15 +76,15 @@
   "agency": [
     "ESA"
   ],
-  "title": "Genoa",
+  "title": "Genoa - intermediate_goods_production",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          8.875851,
-          44.398142,
-          8.895851,
-          44.418141999999996
+          8.685851000000001,
+          44.208141999999995,
+          9.085851,
+          44.608142
         ]
       ]
     },

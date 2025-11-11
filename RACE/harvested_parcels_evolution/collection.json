@@ -150,17 +150,17 @@
     "Sentinel-2",
     "Landsat-8"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a6_harvested_parcels_evolution/chart.json",
   "title": "Harvested parcels",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -6.148,
-          37.539,
-          1.496,
-          42.653999999999996
+          -6.338,
+          37.349,
+          1.686,
+          42.844
         ]
       ]
     },
@@ -185,8 +185,8 @@
       "E10a6"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1",
@@ -194,22 +194,22 @@
       "Landsat-8"
     ],
     "sensor": [
-      "OLI",
       "C-SAR",
+      "OLI",
       "MSI"
     ],
     "cities": [
-      "La Rioja",
-      "Castilla y Leon",
-      "Extremadura",
-      "Andalucia",
       "Castilla-La Mancha",
+      "Extremadura",
       "Region de Murcia",
+      "Castilla y Leon",
+      "Andalucia",
+      "Comunidad Valenciana",
       "Cataluna",
       "Aragon",
-      "Comunidad Valenciana",
-      "Comunidad Foral de Navarra",
-      "Comunidad de Madrid"
+      "La Rioja",
+      "Comunidad de Madrid",
+      "Comunidad Foral de Navarra"
     ],
     "countries": [
       "ES"

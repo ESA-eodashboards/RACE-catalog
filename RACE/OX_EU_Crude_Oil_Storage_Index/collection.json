@@ -144,17 +144,17 @@
     "AIS",
     "Other"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/OX_Crude_Oil_Storage_Index/chart.json",
   "title": "Crude Oil Storage Index Europe",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          11.56,
-          48.120000000000005,
-          11.58,
-          48.14
+          11.370000000000001,
+          47.93,
+          11.77,
+          48.330000000000005
         ]
       ]
     },

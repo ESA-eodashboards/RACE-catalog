@@ -2,13 +2,20 @@
   "type": "Collection",
   "id": "HUa",
   "stac_version": "1.1.0",
-  "description": "Hungary - HU",
+  "description": "## Monitoring row crops harvesting with SAR data\n\nThis dataset illustrates monitoring of row crops harvesting activities by means of [Copernicus Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) \nbackscatter and coherence time series for the 2020 season. It is evaluated for winter rapeseed and winter cereals. \nThe indicator was produced in the frame of the ESA-funded study “Impact of COVID-19 on Harvest of Row Crops” conducted by [VISTA Remote Sensing in Geosciences GmbH](https://www.vista-geo.de/) that attempted to quantify whether there were any significant delays in harvesting due to COVID-19. The indicator compares the harvest dates observed from Sentinel-1 data to the expected harvest progress simulated with VISTA’s YPSILON® yield prediction service which is based on an advanced physically-based crop growth model that considers natural environmental conditions (e.g., meteorological information), as well as the crop ripening process information from optical Copernicus Sentinel-2 data to estimate an expected harvest date.\n\nA significant delay of the observed harvest to the modelled harvest could indicate that the COVID-19 pandemic had disruptive effects on the agricultural service chain and harvesting measures, but no conclusive statement can be made.\n",
   "links": [
     {
       "rel": "root",
       "href": "../../../catalog.json",
       "type": "application/json",
       "title": "RACE"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a10?aoi_id=in.(\"SEa\",\"ATa\",\"BGa\",\"CZa\",\"DEa\",\"DKa\",\"ESa\",\"EEa\",\"FRa\",\"UKa\",\"HRa\",\"HUa\",\"ITa\",\"LTa\",\"LVa\",\"PLa\",\"RSa\",\"SKa\",\"ROa\")&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -61,6 +68,8 @@
       "title": "Harvesting evolution winter cereal"
     }
   ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a10_harvesting_evolution/chart.json",
   "subcode": "E10a10",
   "subtitle": "Monitoring row crop harvesting with satellite data",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_harvesting_evolution_photo.jpg",
@@ -81,15 +90,15 @@
   "satellite": [
     "Sentinel-1"
   ],
-  "title": "Hungary",
+  "title": "Hungary - E10a10_harvesting_evolution_winter_cereal",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          19.385591159999997,
-          47.15277506,
-          19.40559116,
-          47.17277506
+          19.19559116,
+          46.96277506,
+          19.595591159999998,
+          47.362775060000004
         ]
       ]
     },

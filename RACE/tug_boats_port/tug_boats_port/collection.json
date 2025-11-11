@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./IT16/collection.json",
       "type": "application/json",
-      "title": "Gioia Tauro",
+      "title": "Gioia Tauro - tug_boats_port",
       "id": "IT16",
       "latlng": "38.453396, 15.902413",
       "country": "IT",
@@ -54,10 +54,10 @@
     "spatial": {
       "bbox": [
         [
-          15.892413,
-          38.443396,
-          15.912412999999999,
-          38.463395999999996
+          15.702413,
+          38.253395999999995,
+          16.102413,
+          38.653396
         ]
       ]
     },

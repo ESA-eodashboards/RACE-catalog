@@ -2,13 +2,20 @@
   "type": "Collection",
   "id": "PL1",
   "stac_version": "1.1.0",
-  "description": "Gdansk - PL",
+  "description": "## Ship Density Maps (Sentinel-1)\r\n\r\nThis indicator shows ships detected in the major EU ports by means of Copernicus Sentinel-1 data. It was developed by Alessandro Cimbelli within the upscaling part of the [RACE Challenges 2021](https://eo4society.esa.int/2021/08/01/rapid-action-on-coronavirus-and-eo-race-dashboard-challenge-3/).\r\n\r\nA vessel density map is produced by deriving, for each 1 km2 pixel of the masked image of the selected area, an index given by the ratio:\r\n\r\ndensity_vessels= 1000 * number_vessels / number_observations\r\n\r\nwhere the number of observations corresponds to the intersection of all the satellite footprints of the selected month.\r\n\r\nThe figures below show a comparison with the corresponding map provided by [EMODnet](https://race.esa.int/?x=1040481.31544&y=5968190.74701&z=4.29471&poi=World-E13o&search=World%3A+Vessel+density+%28all%29+%5Bh%2Fsqkm%5D) using the Structural Similarity Index (SSIM).\r\n\r\n\r\n<div style=\"display: flex;\">\r\n  <div class=\"image-caption-object\">\r\n      <img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b-img1.png\" alt=\"Image\" style=\"width: 40%;\" />\r\n      <div>Sentinel-1 based indicator</div>\r\n  </div>\r\n  \r\n  <div class=\"image-caption-object\">\r\n      <img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b-img2.png\" alt=\"Legend\" style=\"width: 40%;\" />\r\n      <div>EMODnet indicator</div>\r\n  </div>\r\n</div>\r\n\r\n\r\n",
   "links": [
     {
       "rel": "root",
       "href": "../../../catalog.json",
       "type": "application/json",
       "title": "RACE"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_Sentinel_1_Vessel_Density_Europe_Timeseries?aoi_id=eq.PL1&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -61,6 +68,8 @@
       "title": "Vessel density time series"
     }
   ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E1b_vessel_density_timeseries/chart.json",
   "subcode": "E1b",
   "sci:citation": "Alessandro Cimbelli, Vessel Density based on Copernicus Sentinel-1, developed for the ESA RACE Challenges March 2021",
   "subtitle": "Vessel Density based on Copernicus Sentinel-1",
@@ -85,7 +94,7 @@
   "satellite": [
     "Sentinel-1"
   ],
-  "title": "Gdansk",
+  "title": "Gdansk - vessel_density_timeseries",
   "extent": {
     "spatial": {
       "bbox": [

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "IT20",
   "stac_version": "1.1.0",
-  "description": "Pontelagoscuro - IT",
+  "description": "Water_Discharge_timeseries/Water_Discharge_timeseries.md",
   "links": [
     {
       "rel": "root",
@@ -88,15 +88,15 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "title": "Pontelagoscuro",
+  "title": "Pontelagoscuro - Water_Discharge_timeseries",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          11.5982,
-          44.8787,
-          11.6182,
-          44.8987
+          11.4082,
+          44.6887,
+          11.8082,
+          45.0887
         ]
       ]
     },

@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./UK12/collection.json",
       "type": "application/json",
-      "title": "Folkestone",
+      "title": "Folkestone - border_crossing_vehicles_timeseries",
       "id": "UK12",
       "latlng": "51.09374, 1.10885",
       "country": "GB",

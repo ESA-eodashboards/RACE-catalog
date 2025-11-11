@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./IT_218/collection.json",
       "type": "application/json",
-      "title": "Apulia",
+      "title": "Apulia - agricultural_workers",
       "id": "IT_218",
       "latlng": "41.80107,15.67134",
       "country": "IT",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./IT_219/collection.json",
       "type": "application/json",
-      "title": "Apulia",
+      "title": "Apulia - agricultural_workers",
       "id": "IT_219",
       "latlng": "41.78791,15.52506",
       "country": "IT",
@@ -34,7 +34,7 @@
       "rel": "child",
       "href": "./IT_22/collection.json",
       "type": "application/json",
-      "title": "Apulia",
+      "title": "Apulia - agricultural_workers",
       "id": "IT_22",
       "latlng": "41.71440,15.73740",
       "country": "IT",
@@ -44,7 +44,7 @@
       "rel": "child",
       "href": "./IT_372/collection.json",
       "type": "application/json",
-      "title": "Apulia",
+      "title": "Apulia - agricultural_workers",
       "id": "IT_372",
       "latlng": "41.78245,15.54975",
       "country": "IT",
@@ -54,7 +54,7 @@
       "rel": "child",
       "href": "./IT_386/collection.json",
       "type": "application/json",
-      "title": "Apulia",
+      "title": "Apulia - agricultural_workers",
       "id": "IT_386",
       "latlng": "41.78702,15.54060",
       "country": "IT",
@@ -64,7 +64,7 @@
       "rel": "child",
       "href": "./IT_492/collection.json",
       "type": "application/json",
-      "title": "Apulia",
+      "title": "Apulia - agricultural_workers",
       "id": "IT_492",
       "latlng": "41.57712,15.78358",
       "country": "IT",
@@ -110,46 +110,46 @@
     "spatial": {
       "bbox": [
         [
-          15.51506,
-          41.56712,
-          15.79358,
-          41.81107
+          15.32506,
+          41.37712,
+          15.98358,
+          42.001070000000006
         ],
         [
-          15.661340000000001,
-          41.791070000000005,
-          15.68134,
-          41.81107
+          15.471340000000001,
+          41.60107,
+          15.87134,
+          42.001070000000006
         ],
         [
-          15.51506,
-          41.77791,
-          15.53506,
-          41.797909999999995
+          15.32506,
+          41.587909999999994,
+          15.72506,
+          41.98791
         ],
         [
-          15.7274,
-          41.7044,
-          15.747399999999999,
-          41.724399999999996
+          15.5374,
+          41.514399999999995,
+          15.937399999999998,
+          41.9144
         ],
         [
-          15.53975,
-          41.77245,
-          15.55975,
-          41.792449999999995
+          15.34975,
+          41.582449999999994,
+          15.749749999999999,
+          41.98245
         ],
         [
-          15.5306,
-          41.77702,
-          15.5506,
-          41.797019999999996
+          15.3406,
+          41.587019999999995,
+          15.740599999999999,
+          41.98702
         ],
         [
-          15.77358,
-          41.56712,
-          15.79358,
-          41.58712
+          15.583580000000001,
+          41.37712,
+          15.98358,
+          41.777120000000004
         ]
       ]
     },

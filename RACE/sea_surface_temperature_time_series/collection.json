@@ -162,17 +162,17 @@
     "Sentinel-3",
     "Other"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/SST_sea_surface_temperature/chart.json",
   "title": "Sea surface temperature time series",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -9.4467,
-          38.6567,
-          29.4566,
-          54.161699999999996
+          -9.6367,
+          38.466699999999996,
+          29.6466,
+          54.3517
         ]
       ]
     },
@@ -201,10 +201,10 @@
     ],
     "satellite": [
       "Suomi NPP",
-      "Metop-B",
-      "JPSS-1",
+      "Other",
       "Sentinel-3",
-      "Other"
+      "JPSS-1",
+      "Metop-B"
     ],
     "sensor": [
       "AVHRR",
@@ -212,20 +212,20 @@
       "SLSTR"
     ],
     "cities": [
+      "Marseilles",
+      "Venice Lagoon",
       "Lisbon",
       "Constanta",
-      "Marseilles",
       "Barcelona",
-      "Hamburg",
-      "Venice Lagoon"
+      "Hamburg"
     ],
     "countries": [
-      "FR",
       "ES",
       "PT",
+      "FR",
       "RO",
-      "IT",
-      "GE"
+      "GE",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png"

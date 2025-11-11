@@ -2,13 +2,20 @@
   "type": "Collection",
   "id": "SE12",
   "stac_version": "1.1.0",
-  "description": "Hallefors - area 1 - SE",
+  "description": "## Steel inventory timeseries\n\nThis indicator aims at showing steel inventory levels at different production plants by means of Sentinel-1 data.\nSteelmaking monitoring is strategic in terms of supply of its inputs (iron ore and coal) and demand from different industries (automotive, construction).\n\nThis steel products output inventory levels indicator is produced by Aerospacelab for 9 sites in Europe. \nBy defining the output zone for each steel plant and monitoring the SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data, Aerospacelab generates time series of inventory levels. \nAreas holding various forms of steel products (Coil, plate, section...) are considered in the analysis.\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_1.png)\n\n*Figure 1: Hunedoara, Romania - Output inventory levels*\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_2.png)\n\n*Figure 2: Imatra, Finland - Output inventory levels*\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_3.png)\n\n*Figure 3: Katowice, Poland - Output inventory levels*\n",
   "links": [
     {
       "rel": "root",
       "href": "../../../catalog.json",
       "type": "application/json",
       "title": "RACE"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E5?aoi_id=eq.SE12&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -61,6 +68,8 @@
       "title": "Steel inventory timeseries"
     }
   ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E5_steel_inventory_timeseries/chart.json",
   "subcode": "E5",
   "subtitle": "Steel inventory monitoring in open warehouses from SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg",
@@ -82,7 +91,7 @@
   "satellite": [
     "Sentinel-1"
   ],
-  "title": "Hallefors - area 1",
+  "title": "Hallefors - area 1 - steel_inventory_timeseries",
   "extent": {
     "spatial": {
       "bbox": [

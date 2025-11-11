@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./IT3/collection.json",
       "type": "application/json",
-      "title": "Genoa",
+      "title": "Genoa - passenger_boats_port",
       "id": "IT3",
       "latlng": "44.405723, 8.933642",
       "country": "IT",
@@ -55,10 +55,10 @@
     "spatial": {
       "bbox": [
         [
-          8.923642000000001,
-          44.395723000000004,
-          8.943642,
-          44.415723
+          8.733642000000001,
+          44.205723,
+          9.133642,
+          44.605723000000005
         ]
       ]
     },

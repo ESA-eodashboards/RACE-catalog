@@ -2,13 +2,20 @@
   "type": "Collection",
   "id": "BE3",
   "stac_version": "1.1.0",
-  "description": "Ghent - BE",
+  "description": "## Ships detected in port areas (ML on Sentinel-2)\n\nThis indicator shows ships detected in industrial areas of major European ports. It is based on a Machine Learning model applied on Copernicus Sentinel-2 data with cloud-masking. The detection is performed on predefined areas of interest. \n\n",
   "links": [
     {
       "rel": "root",
       "href": "../../../catalog.json",
       "type": "application/json",
       "title": "RACE"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E200?aoi_id=eq.BE3&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -61,6 +68,8 @@
       "title": "Ships detected in Sentinel-2"
     }
   ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E1b_vessel_density_timeseries/chart.json",
   "subcode": "E200",
   "subtitle": "Ships detected in Sentinel-2 data",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg",
@@ -80,7 +89,7 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "title": "Ghent",
+  "title": "Ghent - ships_detected",
   "extent": {
     "spatial": {
       "bbox": [

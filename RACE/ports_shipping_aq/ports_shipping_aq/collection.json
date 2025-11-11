@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./IT16/collection.json",
       "type": "application/json",
-      "title": "Gioia Tauro",
+      "title": "Gioia Tauro - ports_shipping_aq",
       "id": "IT16",
       "latlng": "38.45339,15.9024",
       "country": "IT",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./IT3/collection.json",
       "type": "application/json",
-      "title": "Genoa",
+      "title": "Genoa - ports_shipping_aq",
       "id": "IT3",
       "latlng": "44.40572,8.93364",
       "country": "IT",
@@ -73,22 +73,22 @@
     "spatial": {
       "bbox": [
         [
-          8.92364,
-          38.44339,
-          15.9124,
-          44.41572
+          8.733640000000001,
+          38.253389999999996,
+          16.1024,
+          44.605720000000005
         ],
         [
-          15.8924,
-          38.44339,
-          15.9124,
-          38.46339
+          15.7024,
+          38.253389999999996,
+          16.1024,
+          38.65339
         ],
         [
-          8.92364,
-          44.395720000000004,
-          8.94364,
-          44.41572
+          8.733640000000001,
+          44.20572,
+          9.13364,
+          44.605720000000005
         ]
       ]
     },

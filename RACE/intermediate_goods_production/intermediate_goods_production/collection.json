@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./DE1/collection.json",
       "type": "application/json",
-      "title": "Hamburg",
+      "title": "Hamburg - intermediate_goods_production",
       "id": "DE1",
       "latlng": "53.532123,9.944467",
       "country": "DE",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./IT3/collection.json",
       "type": "application/json",
-      "title": "Genoa",
+      "title": "Genoa - intermediate_goods_production",
       "id": "IT3",
       "latlng": "44.408142,8.885851",
       "country": "IT",
@@ -60,22 +60,22 @@
     "spatial": {
       "bbox": [
         [
-          8.875851,
-          44.398142,
-          9.954467,
-          53.542123
+          8.685851000000001,
+          44.208141999999995,
+          10.144466999999999,
+          53.732123
         ],
         [
-          9.934467,
-          53.522123,
-          9.954467,
-          53.542123
+          9.744467,
+          53.332122999999996,
+          10.144466999999999,
+          53.732123
         ],
         [
-          8.875851,
-          44.398142,
-          8.895851,
-          44.418141999999996
+          8.685851000000001,
+          44.208141999999995,
+          9.085851,
+          44.608142
         ]
       ]
     },

@@ -168,17 +168,17 @@
   "otherSources": [
     "Multi-sensors"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E8_industrial_inventory/chart.json",
   "title": "Automobile inventory level",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -1.74538,
-          41.325516,
-          24.944872,
-          53.352826
+          -1.9353799999999999,
+          41.135515999999996,
+          25.134871999999998,
+          53.542826000000005
         ]
       ]
     },
@@ -211,50 +211,50 @@
       "E8"
     ],
     "themes": [
+      "industry",
       "economy",
-      "commerce",
-      "industry"
+      "commerce"
     ],
     "satellite": [
-      "Sentinel-1",
-      "ICEYE SAR"
+      "ICEYE SAR",
+      "Sentinel-1"
     ],
     "sensor": [
       "C-SAR"
     ],
     "cities": [
-      "Craiova",
-      "Sindelfingen",
-      "Emden",
-      "Kvasiny",
-      "Ingolstadt",
-      "Russelsheim",
-      "Eisenach",
-      "Mioveni",
-      "Bremen",
-      "Martorell",
       "Nosovice",
-      "Dingolfing",
-      "Koln",
-      "Leipzig",
-      "Ghent",
-      "Regensburg",
-      "Neckarsulm",
-      "Zwickau",
-      "Swindon",
+      "Emden",
+      "Mioveni",
       "Saarlouis",
+      "Ghent",
       "Barcelona",
-      "Cassino",
-      "Wolfsburg"
+      "Martorell",
+      "Ingolstadt",
+      "Leipzig",
+      "Kvasiny",
+      "Sindelfingen",
+      "Wolfsburg",
+      "Russelsheim",
+      "Regensburg",
+      "Koln",
+      "Neckarsulm",
+      "Swindon",
+      "Bremen",
+      "Craiova",
+      "Eisenach",
+      "Dingolfing",
+      "Zwickau",
+      "Cassino"
     ],
     "countries": [
       "ES",
-      "GB",
-      "RO",
-      "IT",
       "DE",
+      "RO",
+      "GB",
       "BE",
-      "CZ"
+      "CZ",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg"

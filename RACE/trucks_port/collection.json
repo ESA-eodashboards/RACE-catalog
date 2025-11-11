@@ -119,17 +119,17 @@
   "insituSources": [
     "Mobile"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13n_trucks_port/chart.json",
   "title": "Commercial fluxes",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -5.6832899999999995,
-          43.53378,
-          -5.66329,
-          43.553779999999996
+          -5.87329,
+          43.343779999999995,
+          -5.4732899999999995,
+          43.74378
         ]
       ]
     },

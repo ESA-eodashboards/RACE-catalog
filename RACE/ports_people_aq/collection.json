@@ -145,17 +145,17 @@
     "AIS",
     "Mobile"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/C2_ports_people_aq/chart.json",
   "title": "NO2 level vs Number of People",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          8.92364,
-          38.44339,
-          15.9124,
-          44.41572
+          8.733640000000001,
+          38.253389999999996,
+          16.1024,
+          44.605720000000005
         ]
       ]
     },
@@ -188,12 +188,12 @@
       "C2"
     ],
     "themes": [
-      "economy",
-      "atmosphere"
+      "atmosphere",
+      "economy"
     ],
     "satellite": [
-      "GNSS",
-      "Sentinel-5P"
+      "Sentinel-5P",
+      "GNSS"
     ],
     "sensor": [
       "TROPOMI"

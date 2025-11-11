@@ -146,17 +146,17 @@
   "insituSources": [
     "Mobile"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_vega_definition.json",
   "title": "Activity at shopping centers",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          4.3301109,
-          37.965333,
-          26.094603000000003,
-          52.1856
+          4.1401109,
+          37.775332999999996,
+          26.284603,
+          52.375600000000006
         ]
       ]
     },
@@ -195,19 +195,19 @@
       "C-SAR"
     ],
     "cities": [
-      "Bucharest",
-      "Warsaw",
-      "Athens",
       "Brussels",
+      "Bucharest",
+      "Milan",
+      "Warsaw",
       "Rome",
-      "Milan"
+      "Athens"
     ],
     "countries": [
-      "PL",
       "RO",
-      "IT",
+      "BE",
       "GR",
-      "BE"
+      "PL",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg"

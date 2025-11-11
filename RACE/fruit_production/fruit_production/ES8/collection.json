@@ -2,13 +2,20 @@
   "type": "Collection",
   "id": "ES8",
   "stac_version": "1.1.0",
-  "description": "Huelva Laguna de las Madres - ES",
+  "description": "## Agricultural production - Detected Harvesting Trucks\r\n\r\nThis indicator compares the total number of harvesting trucks (absolute value and percentage) in the vicinity of greenhouses in the 2020 season to the same months in 2019. It aims to show the impact of the lack of seasonal workers during the Covid-19 pandemic.\r\nThe indicator is based on high resolution optical data from the [Pléiades constellation](https://earth.esa.int/eogateway/missions/pleiades) and is produced for the region Laguna de las Madres (Province of Huelva - Spain), that is responsible for 97.5% of the national red berries production. \r\n\r\n",
   "links": [
     {
       "rel": "root",
       "href": "../../../catalog.json",
       "type": "application/json",
       "title": "RACE"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a5?aoi_id=eq.ES8&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -61,6 +68,8 @@
       "title": "Fruit production"
     }
   ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a5_fruit_production/chart.json",
   "subcode": "E10a5",
   "subtitle": "Monitoring fruit production (Berries) in Huelva, Spain",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a5_fruit_production/E10a5_fruit_production.jpg",
@@ -84,15 +93,15 @@
     "Sentinel-2",
     "Pleiades"
   ],
-  "title": "Huelva Laguna de las Madres",
+  "title": "Huelva Laguna de las Madres - fruit_production",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -6.858888889999999,
-          37.17316944,
-          -6.83888889,
-          37.19316944
+          -7.04888889,
+          36.98316944,
+          -6.648888889999999,
+          37.38316944
         ]
       ]
     },

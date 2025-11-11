@@ -223,17 +223,17 @@
   "otherSources": [
     "EAC4"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N1b_no2_cams/chart.json",
   "title": "Air Quality (NO2 concetrations) at city level (model)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -21.96,
-          35.160000000000004,
-          33.379999999999995,
-          64.16000000000001
+          -22.15,
+          34.97,
+          33.57,
+          64.35000000000001
         ]
       ]
     },

@@ -162,17 +162,17 @@
   "satellite": [
     "Sentinel-1"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a10_harvesting_evolution/chart.json",
   "title": "Harvesting evolution winter cereal",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -3.65755047,
-          40.23448698,
-          25.552485370000003,
-          58.68192972
+          -3.8475504700000003,
+          40.044486979999995,
+          25.74248537,
+          58.871929720000004
         ]
       ]
     },
@@ -197,8 +197,8 @@
       "E10a10"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"
@@ -207,46 +207,46 @@
       "C-SAR"
     ],
     "cities": [
-      "Romania",
-      "Spain",
+      "Czech Republic",
+      "Latvia",
       "United Kingdom",
-      "France",
-      "Sweden",
       "Poland",
+      "Romania",
       "Slovak Republic",
+      "Italy",
+      "Serbia",
       "Lithuania",
       "Denmark",
-      "Hungary",
-      "Serbia",
-      "Czech Republic",
-      "Italy",
-      "Estonia",
+      "Austria",
       "Croatia",
-      "Latvia",
+      "Hungary",
+      "Sweden",
+      "Estonia",
       "Bulgaria",
-      "Germany",
-      "Austria"
+      "Spain",
+      "France",
+      "Germany"
     ],
     "countries": [
-      "HU",
       "BG",
-      "PL",
-      "AT",
-      "DE",
-      "RS",
-      "LT",
       "FR",
-      "ES",
       "SE",
-      "HR",
-      "SK",
-      "LV",
       "GB",
+      "HU",
+      "AT",
       "DK",
-      "RO",
-      "IT",
+      "DE",
       "EE",
-      "CZ"
+      "PL",
+      "ES",
+      "SK",
+      "RO",
+      "LV",
+      "LT",
+      "CZ",
+      "IT",
+      "HR",
+      "RS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_harvesting_evolution_photo.jpg"

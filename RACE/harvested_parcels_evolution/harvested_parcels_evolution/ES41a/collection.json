@@ -2,13 +2,20 @@
   "type": "Collection",
   "id": "ES41a",
   "stac_version": "1.1.0",
-  "description": "Castilla y Leon - ES",
+  "description": "## Winter Cereals Growth and Harvest - Spain\n\nThis indicator aims at showing the winter cereals (e.g. winter wheat and barley) harvest evolution at parcel-level over the Spanish autonomous regions [Castilla y León, Andalucia, Castilla-la-Mancha, Aragón](https://agridata.ec.europa.eu/extensions/DashboardCereals/CerealsProduction.html?selections=MS%20Name%20(Production)-Spain) by means of Sentinel-1, Sentinel-2 and Landsat-8 data with 10 meters resolution and 2-3 days revisit time.\n\nTime series of Sentinel-2 vegetation indices and Sentinel-1 backscatter and coherence values have been processed and analyzed using the open source Sen4CAP (and upcoming Sen4Stat) processing systems. \n\nParcels dataset have been kindly shared by the national Paying Agency “Fondo Español de Garantía Agraria O.A.” (FEGA).\n",
   "links": [
     {
       "rel": "root",
       "href": "../../../catalog.json",
       "type": "application/json",
       "title": "RACE"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a6?aoi_id=eq.ES41a&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -61,6 +68,8 @@
       "title": "Harvested parcels"
     }
   ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a6_harvested_parcels_evolution/chart.json",
   "subcode": "E10a6",
   "subtitle": "Evolution of harvested parcels in percentage",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution_photo.jpg",
@@ -88,15 +97,15 @@
     "Sentinel-2",
     "Landsat-8"
   ],
-  "title": "Castilla y Leon",
+  "title": "Castilla y Leon - harvested_parcels_evolution",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -4.4075999999999995,
-          41.8275,
-          -4.3876,
-          41.8475
+          -4.5976,
+          41.637499999999996,
+          -4.1975999999999996,
+          42.0375
         ]
       ]
     },

@@ -115,17 +115,17 @@
     "ESA"
   ],
   "subcode": "E4",
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_vega_definition.json",
   "title": "Intermediate goods production",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          8.875851,
-          44.398142,
-          9.954467,
-          53.542123
+          8.685851000000001,
+          44.208141999999995,
+          10.144466999999999,
+          53.732123
         ]
       ]
     },
@@ -144,18 +144,18 @@
       "E4"
     ],
     "themes": [
-      "economy",
-      "commerce",
       "industry",
-      "resources"
+      "resources",
+      "economy",
+      "commerce"
     ],
     "cities": [
-      "Genoa",
-      "Hamburg"
+      "Hamburg",
+      "Genoa"
     ],
     "countries": [
-      "IT",
-      "DE"
+      "DE",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E4_intermediate_goods_production/E4_intermediate_goods_production_photo.jpg"

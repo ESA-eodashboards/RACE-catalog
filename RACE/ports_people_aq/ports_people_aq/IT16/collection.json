@@ -2,13 +2,20 @@
   "type": "Collection",
   "id": "IT16",
   "stac_version": "1.1.0",
-  "description": "Gioia Tauro - IT",
+  "description": "## Ports and people - impact on air quality\n\nThis indicator aims at assessing ports pollution levels over the time interval 2019-2020 by correlating:\n- normalized NO2 data from the TROPOMI sensor onboard Sentinel-5P satellite (daily observations)\n- Automatic Identification Systems (AIS) data from all the boats coming to the ports\n- GNSS data (TomTom) quantifying the mean daily number of cars accessing the main street to the ports\n- Anonymised cellular data (Vodafone) providing the total number of people present in the port area (2020 observations)   \n\nThis integrated analysis shows:\n- **high correlation** between NO2 levels and boat traffic\n- **low correlation** between NO2 levels and car traffic\n\nOn the indicator chart, for each day, the light/dark red-colored background indicates whether there were \nCOVID-19 restrictions or lockdown measure in place in the country where the city is located.\n",
   "links": [
     {
       "rel": "root",
       "href": "../../../catalog.json",
       "type": "application/json",
       "title": "RACE"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_C2?aoi_id=eq.IT16&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -61,6 +68,8 @@
       "title": "NO2 level vs Number of People"
     }
   ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/C2_ports_people_aq/chart.json",
   "subcode": "C2",
   "subtitle": "Port Activities, sources of pollution and NO2 levels",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C2_ports_people_aq/C2_ports_people_aq_photo.jpg",
@@ -89,15 +98,15 @@
     "AIS",
     "Mobile"
   ],
-  "title": "Gioia Tauro",
+  "title": "Gioia Tauro - ports_people_aq",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          15.8924,
-          38.44339,
-          15.9124,
-          38.46339
+          15.7024,
+          38.253389999999996,
+          16.1024,
+          38.65339
         ]
       ]
     },

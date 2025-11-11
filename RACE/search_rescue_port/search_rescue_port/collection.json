@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./IT16/collection.json",
       "type": "application/json",
-      "title": "Gioia Tauro",
+      "title": "Gioia Tauro - search_rescue_port",
       "id": "IT16",
       "latlng": "38.453396, 15.902403",
       "country": "IT",
@@ -54,10 +54,10 @@
     "spatial": {
       "bbox": [
         [
-          15.892403,
-          38.443396,
-          15.912403,
-          38.463395999999996
+          15.702403,
+          38.253395999999995,
+          16.102403,
+          38.653396
         ]
       ]
     },

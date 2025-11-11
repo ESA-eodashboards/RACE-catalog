@@ -126,17 +126,17 @@
   "insituSources": [
     "AIS"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13i_maritime_traffic_search_rescue/chart.json",
   "title": "Passenger boats in ports",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          8.923642000000001,
-          44.395723000000004,
-          8.943642,
-          44.415723
+          8.733642000000001,
+          44.205723,
+          9.133642,
+          44.605723000000005
         ]
       ]
     },
@@ -161,9 +161,9 @@
       "E13m"
     ],
     "themes": [
+      "tourism",
       "economy",
-      "transport",
-      "tourism"
+      "transport"
     ],
     "cities": [
       "Genoa"

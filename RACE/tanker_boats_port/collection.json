@@ -125,17 +125,17 @@
   "insituSources": [
     "AIS"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13g_tanker_boats_port/chart.json",
   "title": "Tanker boats in ports",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          8.923642000000001,
-          38.443396,
-          15.912403,
-          44.415723
+          8.733642000000001,
+          38.253395999999995,
+          16.102403,
+          44.605723000000005
         ]
       ]
     },

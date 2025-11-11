@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./DE11/collection.json",
       "type": "application/json",
-      "title": "Brandenburg",
+      "title": "Brandenburg - agricultural_production_productive_area",
       "id": "DE11",
       "latlng": "52.13141,13.09063",
       "country": "DE",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./ES8/collection.json",
       "type": "application/json",
-      "title": "Huelva (Lagunas de las Madres)",
+      "title": "Huelva (Lagunas de las Madres) - agricultural_production_productive_area",
       "id": "ES8",
       "latlng": "37.18316,-6.84888",
       "country": "ES",
@@ -65,22 +65,22 @@
     "spatial": {
       "bbox": [
         [
-          -6.85888,
-          37.17316,
-          13.10063,
-          52.14141
+          -7.0488800000000005,
+          36.98316,
+          13.29063,
+          52.331410000000005
         ],
         [
-          13.080630000000001,
-          52.121410000000004,
-          13.10063,
-          52.14141
+          12.890630000000002,
+          51.93141,
+          13.29063,
+          52.331410000000005
         ],
         [
-          -6.85888,
-          37.17316,
-          -6.8388800000000005,
-          37.19316
+          -7.0488800000000005,
+          36.98316,
+          -6.64888,
+          37.383160000000004
         ]
       ]
     },

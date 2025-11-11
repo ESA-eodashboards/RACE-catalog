@@ -143,7 +143,7 @@
   "satellite": [
     "Sentinel-1"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12b_border_crossing_vehicles_timeseries/chart.json",
   "title": "Border crossing vehicles time series",
   "extent": {
@@ -178,9 +178,9 @@
       "E12b"
     ],
     "themes": [
+      "transport",
       "economy",
-      "commerce",
-      "transport"
+      "commerce"
     ],
     "satellite": [
       "Sentinel-1"

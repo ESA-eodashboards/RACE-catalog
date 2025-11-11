@@ -210,7 +210,7 @@
     "tickFormat": ".0f",
     "title": "Tropospheric NO2 [µg/m³]"
   },
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N1_city_no2/chart.json",
   "title": "Air Quality (tropospheric NO2 concetrations) at city level",
   "extent": {

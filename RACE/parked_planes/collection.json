@@ -189,7 +189,7 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13b_parked_planes/chart.json",
   "title": "Parked plane detections",
   "extent": {
@@ -224,9 +224,9 @@
       "E13b"
     ],
     "themes": [
+      "tourism",
       "economy",
-      "transport",
-      "tourism"
+      "transport"
     ],
     "satellite": [
       "Sentinel-2"
@@ -235,25 +235,25 @@
       "MSI"
     ],
     "countries": [
-      "PL",
-      "AT",
-      "DE",
-      "FR",
-      "ES",
-      "SE",
-      "UK",
-      "GR",
-      "TR",
-      "PT",
       "FI",
-      "CH",
-      "BE",
+      "FR",
+      "SE",
       "NO",
       "GB",
+      "UK",
+      "AT",
       "DK",
-      "IT",
+      "DE",
       "IE",
-      "NL"
+      "BE",
+      "PL",
+      "ES",
+      "PT",
+      "NL",
+      "TR",
+      "IT",
+      "CH",
+      "GR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg"

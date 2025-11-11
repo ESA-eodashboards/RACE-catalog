@@ -187,7 +187,7 @@
   "satellite": [
     "Sentinel-1"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E1b_vessel_density_timeseries/chart.json",
   "title": "Vessel density time series",
   "extent": {
@@ -226,24 +226,24 @@
       "C-SAR"
     ],
     "countries": [
-      "FR",
       "ES",
       "PT",
-      "PL",
-      "LV",
-      "RU",
       "DK",
-      "TR",
-      "RO",
-      "IT",
-      "EE",
-      "GR",
-      "IE",
       "DE",
+      "FR",
+      "IE",
+      "EE",
+      "LV",
       "NL",
       "BE",
+      "LT",
+      "RO",
+      "RU",
       "NO",
-      "LT"
+      "GR",
+      "PL",
+      "TR",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg"

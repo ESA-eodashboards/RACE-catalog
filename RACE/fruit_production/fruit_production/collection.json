@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./ES8/collection.json",
       "type": "application/json",
-      "title": "Huelva Laguna de las Madres",
+      "title": "Huelva Laguna de las Madres - fruit_production",
       "id": "ES8",
       "latlng": "37.18316944,-6.84888889",
       "country": "ES",
@@ -58,10 +58,10 @@
     "spatial": {
       "bbox": [
         [
-          -6.858888889999999,
-          37.17316944,
-          -6.83888889,
-          37.19316944
+          -7.04888889,
+          36.98316944,
+          -6.648888889999999,
+          37.38316944
         ]
       ]
     },

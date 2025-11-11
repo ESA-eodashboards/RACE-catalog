@@ -153,17 +153,17 @@
   "insituSources": [
     "Other"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_vega_definition.json",
   "title": "Covid-19 Vaccinations",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -9.142999999999999,
-          -1.293,
-          36.827,
-          60.177
+          -9.332999999999998,
+          -1.4829999999999999,
+          37.017,
+          60.367000000000004
         ]
       ]
     },

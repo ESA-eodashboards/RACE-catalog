@@ -195,7 +195,7 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13d_flying_planes/chart.json",
   "title": "Flying planes detections",
   "extent": {
@@ -230,9 +230,9 @@
       "E13d"
     ],
     "themes": [
+      "tourism",
       "economy",
-      "transport",
-      "tourism"
+      "transport"
     ],
     "satellite": [
       "Sentinel-2"
@@ -241,24 +241,24 @@
       "MSI"
     ],
     "countries": [
-      "FR",
       "ES",
       "PT",
-      "SE",
-      "GB",
-      "FI",
-      "PL",
       "AT",
       "DK",
-      "TR",
-      "CH",
-      "IT",
-      "GR",
-      "IE",
       "DE",
+      "FI",
+      "FR",
+      "IE",
+      "SE",
+      "NL",
+      "GB",
       "BE",
       "NO",
-      "NL"
+      "GR",
+      "PL",
+      "TR",
+      "IT",
+      "CH"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg"

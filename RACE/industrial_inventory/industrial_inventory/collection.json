@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./BE5/collection.json",
       "type": "application/json",
-      "title": "Ghent",
+      "title": "Ghent - industrial_inventory",
       "id": "BE5",
       "latlng": "51.109166,3.753448",
       "country": "BE",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./BE8/collection.json",
       "type": "application/json",
-      "title": "Ghent",
+      "title": "Ghent - industrial_inventory",
       "id": "BE8",
       "latlng": "51.092134,3.783933",
       "country": "BE",
@@ -34,7 +34,7 @@
       "rel": "child",
       "href": "./BE9/collection.json",
       "type": "application/json",
-      "title": "Ghent",
+      "title": "Ghent - industrial_inventory",
       "id": "BE9",
       "latlng": "51.095785,3.75482",
       "country": "BE",
@@ -44,7 +44,7 @@
       "rel": "child",
       "href": "./CZ5/collection.json",
       "type": "application/json",
-      "title": "Kvasiny",
+      "title": "Kvasiny - industrial_inventory",
       "id": "CZ5",
       "latlng": "50.20009,16.257952",
       "country": "CZ",
@@ -54,7 +54,7 @@
       "rel": "child",
       "href": "./CZ7/collection.json",
       "type": "application/json",
-      "title": "Nosovice",
+      "title": "Nosovice - industrial_inventory",
       "id": "CZ7",
       "latlng": "49.662241,18.439066",
       "country": "CZ",
@@ -64,7 +64,7 @@
       "rel": "child",
       "href": "./DE10/collection.json",
       "type": "application/json",
-      "title": "Leipzig",
+      "title": "Leipzig - industrial_inventory",
       "id": "DE10",
       "latlng": "51.411051,12.286853",
       "country": "DE",
@@ -74,7 +74,7 @@
       "rel": "child",
       "href": "./DE19/collection.json",
       "type": "application/json",
-      "title": "Bremen",
+      "title": "Bremen - industrial_inventory",
       "id": "DE19",
       "latlng": "53.051709,8.9178",
       "country": "DE",
@@ -84,7 +84,7 @@
       "rel": "child",
       "href": "./DE20/collection.json",
       "type": "application/json",
-      "title": "Dingolfing",
+      "title": "Dingolfing - industrial_inventory",
       "id": "DE20",
       "latlng": "48.651465,12.46187",
       "country": "DE",
@@ -94,7 +94,7 @@
       "rel": "child",
       "href": "./DE21/collection.json",
       "type": "application/json",
-      "title": "Koln",
+      "title": "Koln - industrial_inventory",
       "id": "DE21",
       "latlng": "51.014647,6.955058",
       "country": "DE",
@@ -104,7 +104,7 @@
       "rel": "child",
       "href": "./DE22/collection.json",
       "type": "application/json",
-      "title": "Neckarsulm",
+      "title": "Neckarsulm - industrial_inventory",
       "id": "DE22",
       "latlng": "49.208952,9.21949",
       "country": "DE",
@@ -114,7 +114,7 @@
       "rel": "child",
       "href": "./DE23/collection.json",
       "type": "application/json",
-      "title": "Eisenach",
+      "title": "Eisenach - industrial_inventory",
       "id": "DE23",
       "latlng": "50.985712,10.266055",
       "country": "DE",
@@ -124,7 +124,7 @@
       "rel": "child",
       "href": "./DE24/collection.json",
       "type": "application/json",
-      "title": "Regensburg",
+      "title": "Regensburg - industrial_inventory",
       "id": "DE24",
       "latlng": "48.977906,12.177499",
       "country": "DE",
@@ -134,7 +134,7 @@
       "rel": "child",
       "href": "./DE25/collection.json",
       "type": "application/json",
-      "title": "Sindelfingen",
+      "title": "Sindelfingen - industrial_inventory",
       "id": "DE25",
       "latlng": "48.693906,8.992659",
       "country": "DE",
@@ -144,7 +144,7 @@
       "rel": "child",
       "href": "./DE26/collection.json",
       "type": "application/json",
-      "title": "Wolfsburg",
+      "title": "Wolfsburg - industrial_inventory",
       "id": "DE26",
       "latlng": "52.437128,10.758977",
       "country": "DE",
@@ -154,7 +154,7 @@
       "rel": "child",
       "href": "./DE27/collection.json",
       "type": "application/json",
-      "title": "Zwickau",
+      "title": "Zwickau - industrial_inventory",
       "id": "DE27",
       "latlng": "50.799896,12.488275",
       "country": "DE",
@@ -164,7 +164,7 @@
       "rel": "child",
       "href": "./DE28/collection.json",
       "type": "application/json",
-      "title": "Saarlouis",
+      "title": "Saarlouis - industrial_inventory",
       "id": "DE28",
       "latlng": "49.345804,6.757758",
       "country": "DE",
@@ -174,7 +174,7 @@
       "rel": "child",
       "href": "./DE4/collection.json",
       "type": "application/json",
-      "title": "Ingolstadt",
+      "title": "Ingolstadt - industrial_inventory",
       "id": "DE4",
       "latlng": "48.784331,11.426512",
       "country": "DE",
@@ -184,7 +184,7 @@
       "rel": "child",
       "href": "./DE5/collection.json",
       "type": "application/json",
-      "title": "Russelsheim",
+      "title": "Russelsheim - industrial_inventory",
       "id": "DE5",
       "latlng": "49.990388,8.386432",
       "country": "DE",
@@ -194,7 +194,7 @@
       "rel": "child",
       "href": "./DE9/collection.json",
       "type": "application/json",
-      "title": "Emden",
+      "title": "Emden - industrial_inventory",
       "id": "DE9",
       "latlng": "53.342826,7.171708",
       "country": "DE",
@@ -204,7 +204,7 @@
       "rel": "child",
       "href": "./ES17/collection.json",
       "type": "application/json",
-      "title": "Martorell",
+      "title": "Martorell - industrial_inventory",
       "id": "ES17",
       "latlng": "41.493659,1.902436",
       "country": "ES",
@@ -214,7 +214,7 @@
       "rel": "child",
       "href": "./ES18/collection.json",
       "type": "application/json",
-      "title": "Barcelona",
+      "title": "Barcelona - industrial_inventory",
       "id": "ES18",
       "latlng": "41.335516,2.123184",
       "country": "ES",
@@ -224,7 +224,7 @@
       "rel": "child",
       "href": "./IT15/collection.json",
       "type": "application/json",
-      "title": "Cassino",
+      "title": "Cassino - industrial_inventory",
       "id": "IT15",
       "latlng": "41.488157,13.753094",
       "country": "IT",
@@ -234,7 +234,7 @@
       "rel": "child",
       "href": "./RO6/collection.json",
       "type": "application/json",
-      "title": "Craiova",
+      "title": "Craiova - industrial_inventory",
       "id": "RO6",
       "latlng": "44.300006,23.846534",
       "country": "RO",
@@ -244,7 +244,7 @@
       "rel": "child",
       "href": "./RO7/collection.json",
       "type": "application/json",
-      "title": "Mioveni",
+      "title": "Mioveni - industrial_inventory",
       "id": "RO7",
       "latlng": "44.944611,24.934872",
       "country": "RO",
@@ -254,7 +254,7 @@
       "rel": "child",
       "href": "./UK9/collection.json",
       "type": "application/json",
-      "title": "Swindon",
+      "title": "Swindon - industrial_inventory",
       "id": "UK9",
       "latlng": "51.592416,-1.73538",
       "country": "GB",
@@ -309,160 +309,160 @@
     "spatial": {
       "bbox": [
         [
-          -1.74538,
-          41.325516,
-          24.944872,
-          53.352826
+          -1.9353799999999999,
+          41.135515999999996,
+          25.134871999999998,
+          53.542826000000005
         ],
         [
-          3.7434480000000003,
-          51.099166000000004,
-          3.763448,
-          51.119166
+          3.553448,
+          50.909166,
+          3.9534480000000003,
+          51.309166000000005
         ],
         [
-          3.7739330000000004,
-          51.082134,
-          3.793933,
-          51.102134
+          3.583933,
+          50.892134,
+          3.9839330000000004,
+          51.292134000000004
         ],
         [
-          3.7448200000000003,
-          51.085785,
-          3.76482,
-          51.105785
+          3.55482,
+          50.895785,
+          3.9548200000000002,
+          51.295785
         ],
         [
-          16.247951999999998,
-          50.190090000000005,
-          16.267952,
-          50.21009
+          16.057952,
+          50.00009,
+          16.457952,
+          50.400090000000006
         ],
         [
-          18.429066,
-          49.652241000000004,
-          18.449066000000002,
-          49.672241
+          18.239066,
+          49.462241,
+          18.639066,
+          49.862241000000004
         ],
         [
-          12.276853000000001,
-          51.401051,
-          12.296853,
-          51.421051
+          12.086853000000001,
+          51.211051,
+          12.486853,
+          51.611051
         ],
         [
-          8.9078,
-          53.041709000000004,
-          8.9278,
-          53.061709
+          8.7178,
+          52.851709,
+          9.117799999999999,
+          53.251709000000005
         ],
         [
-          12.45187,
-          48.641465000000004,
-          12.47187,
-          48.661465
+          12.26187,
+          48.451465,
+          12.661869999999999,
+          48.851465000000005
         ],
         [
-          6.945058,
-          51.004647,
-          6.965058,
-          51.024646999999995
+          6.755058,
+          50.814646999999994,
+          7.155058,
+          51.214647
         ],
         [
-          9.20949,
-          49.198952,
-          9.22949,
-          49.218951999999994
+          9.019490000000001,
+          49.008951999999994,
+          9.41949,
+          49.408952
         ],
         [
-          10.256055,
-          50.975712,
-          10.276055,
-          50.995712
+          10.066055,
+          50.785712,
+          10.466054999999999,
+          51.185712
         ],
         [
-          12.167499,
-          48.967906,
-          12.187498999999999,
-          48.987905999999995
+          11.977499,
+          48.777905999999994,
+          12.377498999999998,
+          49.177906
         ],
         [
-          8.982659,
-          48.683906,
-          9.002659,
-          48.703905999999996
+          8.792659,
+          48.493905999999996,
+          9.192658999999999,
+          48.893906
         ],
         [
-          10.748977,
-          52.427128,
-          10.768977,
-          52.447128
+          10.558977,
+          52.237128,
+          10.958976999999999,
+          52.637128000000004
         ],
         [
-          12.478275,
-          50.789896,
-          12.498275,
-          50.809895999999995
+          12.288275,
+          50.599895999999994,
+          12.688274999999999,
+          50.999896
         ],
         [
-          6.747758,
-          49.335804,
-          6.767758,
-          49.355804
+          6.557758,
+          49.145804,
+          6.957758,
+          49.545804000000004
         ],
         [
-          11.416512,
-          48.774331000000004,
-          11.436512,
-          48.794331
+          11.226512000000001,
+          48.584331,
+          11.626512,
+          48.984331000000005
         ],
         [
-          8.376432,
-          49.980388000000005,
-          8.396431999999999,
-          50.000388
+          8.186432,
+          49.790388,
+          8.586431999999999,
+          50.190388000000006
         ],
         [
-          7.161708,
-          53.332826000000004,
-          7.1817079999999995,
-          53.352826
+          6.971708,
+          53.142826,
+          7.371708,
+          53.542826000000005
         ],
         [
-          1.892436,
-          41.483659,
-          1.912436,
-          41.503659
+          1.702436,
+          41.293659,
+          2.102436,
+          41.693659000000004
         ],
         [
-          2.1131840000000004,
-          41.325516,
-          2.133184,
-          41.345515999999996
+          1.9231840000000002,
+          41.135515999999996,
+          2.3231840000000004,
+          41.535516
         ],
         [
-          13.743094000000001,
-          41.478157,
-          13.763094,
-          41.498157
+          13.553094000000002,
+          41.288157,
+          13.953094,
+          41.688157000000004
         ],
         [
-          23.836533999999997,
-          44.290006000000005,
-          23.856534,
-          44.310006
+          23.646534,
+          44.100006,
+          24.046533999999998,
+          44.500006000000006
         ],
         [
-          24.924871999999997,
-          44.934611000000004,
-          24.944872,
-          44.954611
+          24.734872,
+          44.744611,
+          25.134871999999998,
+          45.144611000000005
         ],
         [
-          -1.74538,
-          51.582416,
-          -1.72538,
-          51.602416
+          -1.9353799999999999,
+          51.392416,
+          -1.53538,
+          51.792416
         ]
       ]
     },

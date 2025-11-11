@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./BE4/collection.json",
       "type": "application/json",
-      "title": "Brussels",
+      "title": "Brussels - shopping_center_activity",
       "id": "BE4",
       "latlng": "50.8792741,4.3401109",
       "country": "BE",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./GR3/collection.json",
       "type": "application/json",
-      "title": "Athens",
+      "title": "Athens - shopping_center_activity",
       "id": "GR3",
       "latlng": "37.975333,23.69534",
       "country": "GR",
@@ -34,7 +34,7 @@
       "rel": "child",
       "href": "./IT4/collection.json",
       "type": "application/json",
-      "title": "Rome",
+      "title": "Rome - shopping_center_activity",
       "id": "IT4",
       "latlng": "41.897678,12.573303",
       "country": "IT",
@@ -44,7 +44,7 @@
       "rel": "child",
       "href": "./IT5/collection.json",
       "type": "application/json",
-      "title": "Milan",
+      "title": "Milan - shopping_center_activity",
       "id": "IT5",
       "latlng": "45.43371,9.12225",
       "country": "IT",
@@ -54,7 +54,7 @@
       "rel": "child",
       "href": "./PL4/collection.json",
       "type": "application/json",
-      "title": "Warsaw",
+      "title": "Warsaw - shopping_center_activity",
       "id": "PL4",
       "latlng": "52.1756,21.0139",
       "country": "PL",
@@ -64,7 +64,7 @@
       "rel": "child",
       "href": "./RO3/collection.json",
       "type": "application/json",
-      "title": "Bucharest",
+      "title": "Bucharest - shopping_center_activity",
       "id": "RO3",
       "latlng": "44.510178, 26.084603",
       "country": "RO",
@@ -110,46 +110,46 @@
     "spatial": {
       "bbox": [
         [
-          4.3301109,
-          37.965333,
-          26.094603000000003,
-          52.1856
+          4.1401109,
+          37.775332999999996,
+          26.284603,
+          52.375600000000006
         ],
         [
-          4.3301109,
-          50.869274100000005,
-          4.3501109,
-          50.8892741
+          4.1401109,
+          50.6792741,
+          4.5401109,
+          51.079274100000006
         ],
         [
-          23.68534,
-          37.965333,
-          23.705340000000003,
-          37.985333
+          23.495340000000002,
+          37.775332999999996,
+          23.89534,
+          38.175333
         ],
         [
-          12.563303,
-          41.887678,
-          12.583302999999999,
-          41.907678
+          12.373303,
+          41.697677999999996,
+          12.773302999999999,
+          42.097678
         ],
         [
-          9.11225,
-          45.42371,
-          9.132249999999999,
-          45.443709999999996
+          8.92225,
+          45.233709999999995,
+          9.322249999999999,
+          45.63371
         ],
         [
-          21.003899999999998,
-          52.165600000000005,
-          21.0239,
-          52.1856
+          20.8139,
+          51.9756,
+          21.2139,
+          52.375600000000006
         ],
         [
-          26.074603,
-          44.500178000000005,
-          26.094603000000003,
-          44.520178
+          25.884603000000002,
+          44.310178,
+          26.284603,
+          44.710178000000006
         ]
       ]
     },

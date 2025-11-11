@@ -150,17 +150,17 @@
   "insituSources": [
     "Mobile"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/GG_people_mobility_reports/chart.json",
   "title": "People Mobility Reports",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -9.142999999999999,
-          35.873000000000005,
-          32.876999999999995,
-          60.177
+          -9.332999999999998,
+          35.683,
+          33.067,
+          60.367000000000004
         ]
       ]
     },

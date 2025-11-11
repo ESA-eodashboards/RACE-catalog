@@ -129,17 +129,17 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a1_agricultural_production_productive_area/chart.json",
   "title": "Agricultural production - productive area",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -6.85888,
-          37.17316,
-          13.10063,
-          52.14141
+          -7.0488800000000005,
+          36.98316,
+          13.29063,
+          52.331410000000005
         ]
       ]
     },
@@ -168,8 +168,8 @@
       "E10a1"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-2"

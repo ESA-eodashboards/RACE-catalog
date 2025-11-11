@@ -124,17 +124,17 @@
   "insituSources": [
     "AIS"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13h_maritime_traffic_tug/chart.json",
   "title": "Tug boats in ports",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          15.892413,
-          38.443396,
-          15.912412999999999,
-          38.463395999999996
+          15.702413,
+          38.253395999999995,
+          16.102413,
+          38.653396
         ]
       ]
     },

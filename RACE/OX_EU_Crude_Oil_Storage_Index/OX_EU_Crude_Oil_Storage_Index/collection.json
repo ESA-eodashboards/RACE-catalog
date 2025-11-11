@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./EU/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - OX_EU_Crude_Oil_Storage_Index",
       "id": "EU",
       "latlng": "48.13,11.57",
       "country": "/",
@@ -63,10 +63,10 @@
     "spatial": {
       "bbox": [
         [
-          11.56,
-          48.120000000000005,
-          11.58,
-          48.14
+          11.370000000000001,
+          47.93,
+          11.77,
+          48.330000000000005
         ]
       ]
     },

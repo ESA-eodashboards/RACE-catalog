@@ -143,7 +143,7 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E1b_vessel_density_timeseries/chart.json",
   "title": "Ships detected in Sentinel-2",
   "extent": {
@@ -189,19 +189,19 @@
     ],
     "cities": [
       "Dunkirk",
+      "Ghent",
+      "Gdynia",
       "Suez ",
       "Genoa",
-      "Hamburg",
-      "Ghent",
-      "Gdynia"
+      "Hamburg"
     ],
     "countries": [
-      "FR",
-      "PL",
       "EG",
-      "IT",
       "DE",
-      "BE"
+      "FR",
+      "BE",
+      "PL",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg"

@@ -156,17 +156,17 @@
   "satellite": [
     "Sentinel-1"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a10_harvesting_evolution/chart.json",
   "title": "Harvesting evolution winter rapeseed",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -1.78396816,
-          42.758903181,
-          25.552485370000003,
-          58.681929720999996
+          -1.9739681599999999,
+          42.568903180999996,
+          25.74248537,
+          58.871929721
         ]
       ]
     },
@@ -191,8 +191,8 @@
       "E10a10_2"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"
@@ -201,40 +201,40 @@
       "C-SAR"
     ],
     "cities": [
-      "Sweden",
-      "Estonia",
-      "Romania",
-      "Croatia",
-      "Latvia",
       "Poland",
-      "Slovak Republic",
       "Austria",
+      "Croatia",
       "Lithuania",
-      "Denmark",
-      "Bulgaria",
-      "Hungary",
-      "Germany",
       "Czech Republic",
+      "Hungary",
+      "Romania",
+      "Latvia",
+      "Sweden",
       "United Kingdom",
-      "France"
+      "Slovak Republic",
+      "Estonia",
+      "Bulgaria",
+      "France",
+      "Germany",
+      "Denmark"
     ],
     "countries": [
-      "FR",
       "HU",
-      "SE",
-      "GB",
-      "SK",
-      "BG",
-      "PL",
       "AT",
-      "LV",
       "DK",
-      "RO",
-      "EE",
-      "DE",
-      "LT",
+      "BG",
       "HR",
-      "CZ"
+      "DE",
+      "SK",
+      "FR",
+      "SE",
+      "EE",
+      "LV",
+      "RO",
+      "LT",
+      "PL",
+      "CZ",
+      "GB"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg"
