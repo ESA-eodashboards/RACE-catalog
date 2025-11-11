@@ -20,7 +20,8 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "proj:epsg": 3857
     },
     {
       "rel": "example",
@@ -79,6 +80,7 @@
     "tickFormat": ".0f",
     "title": "CO [ppbv]"
   },
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Carbon Monoxide observed by Sentinel-5p TROPOMI",
   "extent": {

@@ -20,7 +20,8 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "proj:epsg": 3857
     },
     {
       "rel": "example",
@@ -78,6 +79,7 @@
     "tickFormat": ".0f",
     "title": "SO2 column number density [DU]"
   },
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Sulfur Dioxide observed by Sentinel-5p TROPOMI",
   "extent": {

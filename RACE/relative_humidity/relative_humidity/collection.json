@@ -26,7 +26,8 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "proj:epsg": 3857
     },
     {
       "rel": "license",
@@ -94,6 +95,7 @@
     "tickFormat": ".0f",
     "title": "Relative humidity (at 1000hPa) [%]"
   },
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Relative humidity - ERA5",
   "extent": {

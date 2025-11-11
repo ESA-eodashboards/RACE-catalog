@@ -20,7 +20,8 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "proj:epsg": 3857
     },
     {
       "rel": "example",
@@ -83,6 +84,7 @@
     "tickFormat": ".0f",
     "title": "Tropospheric NO2 [µmol/m²]"
   },
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Air Quality (tropospheric NO2 concetrations)",
   "extent": {

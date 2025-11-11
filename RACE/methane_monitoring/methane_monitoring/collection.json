@@ -20,7 +20,8 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "proj:epsg": 3857
     },
     {
       "rel": "example",
@@ -86,6 +87,7 @@
     "tickFormat": ".0f",
     "title": "CH4 volume mixing ratio [ppbv]"
   },
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Methane monitoring",
   "extent": {

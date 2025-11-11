@@ -188,12 +188,12 @@
       "C3"
     ],
     "themes": [
-      "atmosphere",
-      "economy"
+      "economy",
+      "atmosphere"
     ],
     "satellite": [
-      "Sentinel-5P",
-      "GNSS"
+      "GNSS",
+      "Sentinel-5P"
     ],
     "sensor": [
       "TROPOMI"

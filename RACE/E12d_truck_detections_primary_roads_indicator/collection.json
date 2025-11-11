@@ -261,9 +261,9 @@
       "E12d_daily"
     ],
     "themes": [
-      "transport",
       "economy",
-      "commerce"
+      "commerce",
+      "transport"
     ],
     "satellite": [
       "Sentinel-2"

@@ -202,19 +202,19 @@
       "OLCI"
     ],
     "cities": [
-      "Marseilles",
       "Venice Lagoon",
-      "Lisbon",
       "Constanta",
-      "Barcelona",
-      "Hamburg"
+      "Hamburg",
+      "Lisbon",
+      "Marseilles",
+      "Barcelona"
     ],
     "countries": [
-      "ES",
-      "PT",
       "FR",
-      "RO",
+      "PT",
       "GE",
+      "ES",
+      "RO",
       "IT"
     ],
     "thumbnail": [

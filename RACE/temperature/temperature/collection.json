@@ -26,7 +26,8 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "proj:epsg": 3857
     },
     {
       "rel": "license",
@@ -96,6 +97,7 @@
     "tickFormat": ".0f",
     "title": "Air Temperature at 2m [K]"
   },
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Global temperature - ERA5",
   "extent": {

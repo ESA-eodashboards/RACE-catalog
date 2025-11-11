@@ -25,7 +25,8 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "proj:epsg": 3857
     },
     {
       "rel": "license",
@@ -75,6 +76,7 @@
     "tickFormat": ".0f",
     "title": "[persons/km²]"
   },
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Population density",
   "extent": {

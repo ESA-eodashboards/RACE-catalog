@@ -224,8 +224,8 @@
       "E13b"
     ],
     "themes": [
-      "tourism",
       "economy",
+      "tourism",
       "transport"
     ],
     "satellite": [
@@ -236,24 +236,24 @@
     ],
     "countries": [
       "FI",
-      "FR",
-      "SE",
-      "NO",
-      "GB",
-      "UK",
-      "AT",
-      "DK",
-      "DE",
-      "IE",
-      "BE",
-      "PL",
       "ES",
-      "PT",
-      "NL",
-      "TR",
-      "IT",
+      "PL",
+      "NO",
       "CH",
-      "GR"
+      "NL",
+      "UK",
+      "TR",
+      "IE",
+      "IT",
+      "FR",
+      "DK",
+      "BE",
+      "GR",
+      "SE",
+      "PT",
+      "DE",
+      "AT",
+      "GB"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg"
