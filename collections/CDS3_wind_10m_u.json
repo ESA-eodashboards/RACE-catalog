@@ -59,7 +59,8 @@
       "Name": "Sentinel Hub",
       "Type": "byoc",
       "CollectionId": "067fbb53-b1c3-4a57-9c81-adf2488a47ee",
-      "LayerId": "AWS_VIS_WIND_U_10M"
+      "LayerId": "AWS_VIS_WIND_U_10M",
+      "DataProjection": 3857
     }
   ],
   "Services": [
