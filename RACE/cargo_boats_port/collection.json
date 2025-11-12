@@ -21,7 +21,6 @@
       "id": "cargo_boats_port",
       "themes": [
         "economy",
-        "transport",
         "commerce"
       ],
       "providers": [
@@ -110,7 +109,6 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13e_cargo_boats_port/E13e_cargo_boats_port_photo.jpg",
   "themes": [
     "economy",
-    "transport",
     "commerce"
   ],
   "tags": [
@@ -160,13 +158,12 @@
       "E13e"
     ],
     "themes": [
-      "economy",
-      "transport",
-      "commerce"
+      "commerce",
+      "economy"
     ],
     "cities": [
-      "Gioia Tauro",
-      "Genoa"
+      "Genoa",
+      "Gioia Tauro"
     ],
     "countries": [
       "IT"

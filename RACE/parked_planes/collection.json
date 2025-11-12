@@ -21,8 +21,7 @@
       "id": "parked_planes",
       "themes": [
         "economy",
-        "transport",
-        "tourism"
+        "commerce"
       ],
       "providers": [
         "Aerospacelab"
@@ -169,8 +168,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg",
   "themes": [
     "economy",
-    "transport",
-    "tourism"
+    "commerce"
   ],
   "locations": true,
   "tags": [
@@ -224,9 +222,8 @@
       "E13b"
     ],
     "themes": [
-      "economy",
-      "transport",
-      "tourism"
+      "commerce",
+      "economy"
     ],
     "satellite": [
       "Sentinel-2"
@@ -235,25 +232,25 @@
       "MSI"
     ],
     "countries": [
-      "BE",
-      "IE",
-      "UK",
-      "GB",
-      "IT",
-      "NO",
-      "DE",
+      "FR",
+      "PL",
       "DK",
+      "UK",
+      "BE",
+      "PT",
       "FI",
       "NL",
-      "AT",
-      "GR",
-      "PT",
+      "IE",
+      "NO",
       "ES",
-      "FR",
+      "IT",
       "SE",
+      "GR",
+      "GB",
+      "TR",
       "CH",
-      "PL",
-      "TR"
+      "DE",
+      "AT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg"

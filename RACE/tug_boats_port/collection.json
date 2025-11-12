@@ -21,7 +21,6 @@
       "id": "tug_boats_port",
       "themes": [
         "economy",
-        "transport",
         "commerce"
       ],
       "providers": [
@@ -109,7 +108,6 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13h_maritime_traffic_tug/E13h_maritime_traffic_tug_photo.jpg",
   "themes": [
     "economy",
-    "transport",
     "commerce"
   ],
   "tags": [
@@ -159,9 +157,8 @@
       "E13h"
     ],
     "themes": [
-      "economy",
-      "transport",
-      "commerce"
+      "commerce",
+      "economy"
     ],
     "cities": [
       "Gioia Tauro"

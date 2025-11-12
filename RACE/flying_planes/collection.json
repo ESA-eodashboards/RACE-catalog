@@ -21,7 +21,7 @@
       "id": "flying_planes",
       "themes": [
         "economy",
-        "transport",
+        "commerce",
         "tourism"
       ],
       "providers": [
@@ -174,7 +174,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg",
   "themes": [
     "economy",
-    "transport",
+    "commerce",
     "tourism"
   ],
   "locations": true,
@@ -230,8 +230,8 @@
       "E13d"
     ],
     "themes": [
+      "commerce",
       "economy",
-      "transport",
       "tourism"
     ],
     "satellite": [
@@ -241,24 +241,24 @@
       "MSI"
     ],
     "countries": [
-      "DK",
-      "FI",
-      "NL",
-      "BE",
-      "IE",
-      "GB",
-      "IT",
-      "CH",
-      "PT",
-      "ES",
-      "NO",
-      "FR",
-      "AT",
-      "PL",
       "GR",
+      "GB",
+      "BE",
+      "ES",
+      "PT",
+      "FR",
+      "IT",
+      "IE",
+      "FI",
       "TR",
+      "CH",
+      "PL",
+      "NL",
+      "DE",
+      "DK",
       "SE",
-      "DE"
+      "AT",
+      "NO"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg"

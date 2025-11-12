@@ -42,7 +42,6 @@
   "yAxis": "Number of ships in the port",
   "themes": [
     "economy",
-    "transport",
     "commerce"
   ],
   "tags": [

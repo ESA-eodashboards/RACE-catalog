@@ -22,7 +22,6 @@
       "themes": [
         "economy",
         "industry",
-        "resources",
         "commerce"
       ],
       "cities": [
@@ -105,7 +104,6 @@
   "themes": [
     "economy",
     "industry",
-    "resources",
     "commerce"
   ],
   "tags": [
@@ -144,18 +142,17 @@
       "E4"
     ],
     "themes": [
-      "economy",
-      "resources",
+      "industry",
       "commerce",
-      "industry"
+      "economy"
     ],
     "cities": [
       "Genoa",
       "Hamburg"
     ],
     "countries": [
-      "IT",
-      "DE"
+      "DE",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E4_intermediate_goods_production/E4_intermediate_goods_production_photo.jpg"

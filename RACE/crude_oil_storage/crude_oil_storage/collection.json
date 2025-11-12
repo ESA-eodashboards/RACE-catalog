@@ -33,7 +33,6 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E3_crude_oil_storage/E3_crude_oil_storage.png",
   "themes": [
     "economy",
-    "resources",
     "energy",
     "industry"
   ],

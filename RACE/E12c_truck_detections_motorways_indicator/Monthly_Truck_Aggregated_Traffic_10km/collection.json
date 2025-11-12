@@ -40,8 +40,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12c_truck_detections_motorways/E12c_truck_detections_motorways.png",
   "themes": [
     "economy",
-    "commerce",
-    "transport"
+    "commerce"
   ],
   "tags": [
     "Copernicus",

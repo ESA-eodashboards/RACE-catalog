@@ -332,7 +332,7 @@
   "yAxis": "Number of flying planes",
   "themes": [
     "economy",
-    "transport",
+    "commerce",
     "tourism"
   ],
   "tags": [

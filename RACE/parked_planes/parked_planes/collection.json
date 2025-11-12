@@ -332,8 +332,7 @@
   "yAxis": "Time series of airport throughput",
   "themes": [
     "economy",
-    "transport",
-    "tourism"
+    "commerce"
   ],
   "tags": [
     "Copernicus",

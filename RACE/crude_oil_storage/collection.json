@@ -21,7 +21,6 @@
       "id": "crude_oil_storage",
       "themes": [
         "economy",
-        "resources",
         "energy",
         "industry"
       ],
@@ -96,7 +95,6 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E3_crude_oil_storage/E3_crude_oil_storage.png",
   "themes": [
     "economy",
-    "resources",
     "energy",
     "industry"
   ],
@@ -151,10 +149,9 @@
       "E3"
     ],
     "themes": [
+      "industry",
       "economy",
-      "resources",
-      "energy",
-      "industry"
+      "energy"
     ],
     "satellite": [
       "ICEYE SAR"

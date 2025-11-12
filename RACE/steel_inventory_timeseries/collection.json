@@ -205,9 +205,9 @@
       "E5"
     ],
     "themes": [
+      "industry",
       "economy",
-      "resources",
-      "industry"
+      "resources"
     ],
     "satellite": [
       "Sentinel-1"
@@ -218,8 +218,8 @@
     "countries": [
       "FI",
       "RO",
-      "PL",
-      "SE"
+      "SE",
+      "PL"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg"

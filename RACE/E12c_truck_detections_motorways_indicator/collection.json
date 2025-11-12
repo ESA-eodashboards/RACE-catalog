@@ -20,8 +20,7 @@
       "id": "Truck_daily_detections",
       "themes": [
         "economy",
-        "commerce",
-        "transport"
+        "commerce"
       ],
       "providers": [
         "Copernicus Data Space Ecosystem",
@@ -56,8 +55,7 @@
       "id": "Monthly_Truck_Aggregated_Traffic_10km",
       "themes": [
         "economy",
-        "commerce",
-        "transport"
+        "commerce"
       ],
       "providers": [
         "Copernicus Data Space Ecosystem",
@@ -92,8 +90,7 @@
       "id": "Truck_daily_sentinel_2",
       "themes": [
         "economy",
-        "commerce",
-        "transport"
+        "commerce"
       ],
       "providers": [
         "Copernicus Data Space Ecosystem",
@@ -256,14 +253,13 @@
   ],
   "summaries": {
     "subcode": [
-      "E12c_monthly",
+      "E12c_detections",
       "E12c_daily",
-      "E12c_detections"
+      "E12c_monthly"
     ],
     "themes": [
-      "economy",
-      "transport",
-      "commerce"
+      "commerce",
+      "economy"
     ],
     "satellite": [
       "Sentinel-2"

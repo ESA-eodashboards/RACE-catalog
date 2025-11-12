@@ -21,7 +21,7 @@
       "id": "pleasure_craft_port",
       "themes": [
         "economy",
-        "transport",
+        "commerce",
         "tourism",
         "sport"
       ],
@@ -110,7 +110,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13l_maritime_traffic_pleasure_craft/E13l_maritime_traffic_pleasure_craft_photo.jpg",
   "themes": [
     "economy",
-    "transport",
+    "commerce",
     "tourism",
     "sport"
   ],
@@ -161,9 +161,9 @@
       "E13l"
     ],
     "themes": [
-      "economy",
+      "commerce",
       "sport",
-      "transport",
+      "economy",
       "tourism"
     ],
     "cities": [

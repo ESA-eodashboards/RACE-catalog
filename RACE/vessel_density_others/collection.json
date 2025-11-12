@@ -21,7 +21,7 @@
       "id": "vessel_density_others",
       "themes": [
         "economy",
-        "transport"
+        "commerce"
       ],
       "providers": [
         "EMODNET"
@@ -106,7 +106,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13r_vessel_density_others/E13r_vessel_density_others.png",
   "themes": [
     "economy",
-    "transport"
+    "commerce"
   ],
   "tags": [
     "Maritime",
@@ -182,8 +182,8 @@
       "E13r"
     ],
     "themes": [
-      "economy",
-      "transport"
+      "commerce",
+      "economy"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13r_vessel_density_others/E13r_vessel_density_others.png"

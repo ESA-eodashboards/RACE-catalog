@@ -21,8 +21,7 @@
       "id": "fishing_boats_port",
       "themes": [
         "economy",
-        "commerce",
-        "transport"
+        "commerce"
       ],
       "providers": [
         "e-GEOS"
@@ -110,8 +109,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13f_fishing_boats_port/E13f_fishing_boats_port.jpg",
   "themes": [
     "economy",
-    "commerce",
-    "transport"
+    "commerce"
   ],
   "tags": [
     "Ports",
@@ -160,13 +158,12 @@
       "E13f"
     ],
     "themes": [
-      "economy",
-      "transport",
-      "commerce"
+      "commerce",
+      "economy"
     ],
     "cities": [
-      "Gioia Tauro",
-      "Genoa"
+      "Genoa",
+      "Gioia Tauro"
     ],
     "countries": [
       "IT"

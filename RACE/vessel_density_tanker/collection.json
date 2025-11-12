@@ -21,7 +21,6 @@
       "id": "vessel_density_tanker",
       "themes": [
         "economy",
-        "transport",
         "commerce"
       ],
       "providers": [
@@ -107,7 +106,6 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13q_vessel_density_tanker/E13q_vessel_density_tanker.png",
   "themes": [
     "economy",
-    "transport",
     "commerce"
   ],
   "tags": [
@@ -184,9 +182,8 @@
       "E13q"
     ],
     "themes": [
-      "economy",
-      "transport",
-      "commerce"
+      "commerce",
+      "economy"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13q_vessel_density_tanker/E13q_vessel_density_tanker.png"

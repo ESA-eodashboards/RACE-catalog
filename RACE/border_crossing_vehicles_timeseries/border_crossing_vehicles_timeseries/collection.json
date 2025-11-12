@@ -32,8 +32,7 @@
   "yAxis": "Backscatter S1 VV",
   "themes": [
     "economy",
-    "commerce",
-    "transport"
+    "commerce"
   ],
   "tags": [
     "Copernicus",

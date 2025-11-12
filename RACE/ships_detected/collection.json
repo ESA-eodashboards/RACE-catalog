@@ -21,7 +21,7 @@
       "id": "ships_detected",
       "themes": [
         "economy",
-        "transport"
+        "commerce"
       ],
       "providers": [
         "Copernicus Data Space Ecosystem"
@@ -127,7 +127,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg",
   "themes": [
     "economy",
-    "transport"
+    "commerce"
   ],
   "locations": true,
   "tags": [
@@ -178,8 +178,8 @@
       "E200"
     ],
     "themes": [
-      "economy",
-      "transport"
+      "commerce",
+      "economy"
     ],
     "satellite": [
       "Sentinel-2"
@@ -188,18 +188,18 @@
       "MSI"
     ],
     "cities": [
-      "Hamburg",
-      "Suez ",
-      "Genoa",
-      "Ghent",
       "Dunkirk",
-      "Gdynia"
+      "Genoa",
+      "Suez ",
+      "Gdynia",
+      "Hamburg",
+      "Ghent"
     ],
     "countries": [
       "EG",
       "BE",
-      "IT",
       "FR",
+      "IT",
       "PL",
       "DE"
     ],
