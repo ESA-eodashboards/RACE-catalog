@@ -1,38 +1,54 @@
 {
-  "Climate": {
+  "climate": {
+    "title": "Climate",
     "description": "how weather and climate variability affect us"
   },
-  "Water": {
+  "water": {
+    "title": "Water",
     "description": "availability, quality, floods and droughts"
   },
-  "Air": {
+  "air": {
+    "title": "Air",
     "description": "air quality and atmospheric composition"
   },
-  "Land & Nature": {
+  "land": {
+    "title": "Land & Nature",
     "description": "state of land, ecosystems, biodiversity"
   },
-  "Food & Agriculture": {
+  "agriculture": {
+    "title": "Food & Agriculture",
     "description": "food production, crops, food security"
   },
-  "Energy": {
+  "energy": {
+    "title": "Energy",
     "description": "energy sources, usage"
   },
-  "Industry & Production": {
+  "industry": {
+    "title": "Industry & Production",
     "description": "manufacturing, industrial activity, construction"
   },
-  "Commerce & Transport": {
-    "description": "trade, mobility, logistics"
+  "commerce": {
+    "title": "Commerce",
+    "description": "trade, mobility, logistics split 1"
   },
-  "Society & Living": {
+  "transport": {
+    "title": "Transport",
+    "description": "trade, mobility, logistics split 2"
+  },
+  "society": {
+    "title": "Society & Living",
     "description": "Urban & rural life, housing, population, services"
   },
-  "Tourism": {
+  "tourism": {
+    "title": "Tourism",
     "description": "travel, recreation, seasonal activity"
   },
-  "Sport": {
+  "sport": {
+    "title": "Sport",
     "description": "outdoor activity, leisure, active lifestyle"
   },
-  "Health & Wellbeing": {
+  "health": {
+    "title": "Health & Wellbeing",
     "description": "human health, comfort, environmental safety"
   }
 }

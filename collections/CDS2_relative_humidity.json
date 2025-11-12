@@ -5,7 +5,7 @@
   "Subtitle": "Global relative humidity",
   "Description": "CDS2_relative_humidity/CDS2_relative_humidity.md",
   "Themes": [
-    "atmosphere"
+    "air"
   ],
   "Tags": [
     "Copernicus Services",

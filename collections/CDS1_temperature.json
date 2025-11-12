@@ -5,7 +5,7 @@
   "Subtitle": "Air temperature at 2m above ",
   "Description": "CDS1_temperature/CDS1_temperature.md",
   "Themes": [
-    "atmosphere"
+    "air"
   ],
   "Tags": [
     "Copernicus Services",
