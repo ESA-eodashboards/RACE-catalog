@@ -144,10 +144,10 @@
       "E4"
     ],
     "themes": [
-      "economy",
-      "commerce",
       "resources",
-      "industry"
+      "industry",
+      "commerce",
+      "economy"
     ],
     "cities": [
       "Hamburg",

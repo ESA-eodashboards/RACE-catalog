@@ -61,7 +61,7 @@
   "subtitle": "Global relative humidity",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS2_relative_humidity/CDS2_relative_humidity.png",
   "themes": [
-    "atmosphere"
+    "air"
   ],
   "tags": [
     "Copernicus Services",

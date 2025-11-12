@@ -20,7 +20,7 @@
       "code": "CDS1_temperature",
       "id": "temperature",
       "themes": [
-        "atmosphere"
+        "air"
       ],
       "providers": [
         "Copernicus Climate Change Service",
@@ -119,7 +119,7 @@
   "subtitle": "Air temperature at 2m above ",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png",
   "themes": [
-    "atmosphere"
+    "air"
   ],
   "tags": [
     "Copernicus Services",
@@ -200,7 +200,7 @@
       "CDS1_temperature"
     ],
     "themes": [
-      "atmosphere"
+      "air"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png"

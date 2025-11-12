@@ -42,7 +42,7 @@
   "yAxis": "Normalized NO2 concentration & Mean number of people",
   "themes": [
     "economy",
-    "atmosphere"
+    "air"
   ],
   "tags": [
     "Air quality",

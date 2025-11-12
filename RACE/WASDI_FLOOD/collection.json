@@ -20,7 +20,7 @@
       "code": "WASDI_FLOOD",
       "id": "WASDI_FLOOD",
       "themes": [
-        "extremes"
+        "water"
       ],
       "providers": [
         "WASDI Market Place"
@@ -113,7 +113,7 @@
   "subtitle": "Automated flood map",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WASDI_FLOOD/WASDI_FLOOD.jpg",
   "themes": [
-    "extremes"
+    "water"
   ],
   "locations": true,
   "tags": [
@@ -185,15 +185,15 @@
       "WASDI_FLOOD"
     ],
     "themes": [
-      "extremes"
+      "water"
     ],
     "satellite": [
-      "Sentinel-1",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Sentinel-1"
     ],
     "sensor": [
-      "MSI",
-      "SAR"
+      "SAR",
+      "MSI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WASDI_FLOOD/WASDI_FLOOD.jpg"

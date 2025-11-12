@@ -23,7 +23,7 @@
         "economy",
         "transport",
         "tourism",
-        "sports"
+        "sport"
       ],
       "providers": [
         "e-GEOS"
@@ -112,7 +112,7 @@
     "economy",
     "transport",
     "tourism",
-    "sports"
+    "sport"
   ],
   "tags": [
     "Ports",
@@ -161,10 +161,10 @@
       "E13l"
     ],
     "themes": [
-      "economy",
       "tourism",
-      "sports",
-      "transport"
+      "transport",
+      "economy",
+      "sport"
     ],
     "cities": [
       "Genoa"

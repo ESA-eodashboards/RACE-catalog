@@ -256,14 +256,14 @@
   ],
   "summaries": {
     "subcode": [
-      "E12d_detections",
       "E12d_monthly",
+      "E12d_detections",
       "E12d_daily"
     ],
     "themes": [
-      "economy",
+      "transport",
       "commerce",
-      "transport"
+      "economy"
     ],
     "satellite": [
       "Sentinel-2"

@@ -197,8 +197,8 @@
       "E10a10"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"
@@ -207,46 +207,46 @@
       "C-SAR"
     ],
     "cities": [
-      "Spain",
-      "Poland",
-      "Romania",
-      "Lithuania",
-      "Slovak Republic",
-      "Croatia",
-      "Bulgaria",
       "Sweden",
-      "Hungary",
-      "Latvia",
-      "Austria",
       "Italy",
-      "Serbia",
+      "Hungary",
+      "Germany",
+      "Latvia",
+      "Lithuania",
+      "Poland",
       "Czech Republic",
-      "United Kingdom",
-      "Denmark",
-      "Estonia",
+      "Bulgaria",
+      "Slovak Republic",
       "France",
-      "Germany"
+      "United Kingdom",
+      "Estonia",
+      "Denmark",
+      "Serbia",
+      "Romania",
+      "Spain",
+      "Austria",
+      "Croatia"
     ],
     "countries": [
-      "ES",
-      "PL",
-      "HU",
-      "EE",
-      "IT",
       "FR",
-      "DK",
-      "LT",
-      "SE",
-      "CZ",
-      "RS",
       "SK",
-      "HR",
-      "DE",
-      "RO",
-      "AT",
+      "PL",
       "BG",
+      "ES",
+      "IT",
+      "EE",
+      "DE",
+      "HR",
+      "DK",
       "GB",
-      "LV"
+      "AT",
+      "SE",
+      "LV",
+      "HU",
+      "RO",
+      "CZ",
+      "LT",
+      "RS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_harvesting_evolution_photo.jpg"

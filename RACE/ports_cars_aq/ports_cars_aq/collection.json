@@ -42,7 +42,7 @@
   "yAxis": "Normalized NO2 concentration & mean monthly car number",
   "themes": [
     "economy",
-    "atmosphere"
+    "air"
   ],
   "tags": [
     "Air quality",

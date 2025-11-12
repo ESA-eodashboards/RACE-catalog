@@ -21,7 +21,7 @@
       "id": "ports_cars_aq",
       "themes": [
         "economy",
-        "atmosphere"
+        "air"
       ],
       "providers": [
         "e-GEOS",
@@ -121,7 +121,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3_ports_cars_aq_photo.jpg",
   "themes": [
     "economy",
-    "atmosphere"
+    "air"
   ],
   "tags": [
     "Air quality",
@@ -188,19 +188,19 @@
       "C3"
     ],
     "themes": [
-      "economy",
-      "atmosphere"
+      "air",
+      "economy"
     ],
     "satellite": [
-      "GNSS",
-      "Sentinel-5P"
+      "Sentinel-5P",
+      "GNSS"
     ],
     "sensor": [
       "TROPOMI"
     ],
     "cities": [
-      "Gioia Tauro",
-      "Genoa"
+      "Genoa",
+      "Gioia Tauro"
     ],
     "countries": [
       "IT"

@@ -161,9 +161,9 @@
       "E13m"
     ],
     "themes": [
-      "economy",
       "tourism",
-      "transport"
+      "transport",
+      "economy"
     ],
     "cities": [
       "Genoa"

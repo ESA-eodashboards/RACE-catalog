@@ -42,7 +42,7 @@
   "yAxis": "Normalized NO2 concentration & Mean monthly boat number",
   "themes": [
     "economy",
-    "atmosphere"
+    "air"
   ],
   "tags": [
     "Air quality",

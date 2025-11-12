@@ -20,7 +20,7 @@
       "code": "CDS2_relative_humidity",
       "id": "relative_humidity",
       "themes": [
-        "atmosphere"
+        "air"
       ],
       "providers": [
         "Copernicus Climate Change Service",
@@ -119,7 +119,7 @@
   "subtitle": "Global relative humidity",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS2_relative_humidity/CDS2_relative_humidity.png",
   "themes": [
-    "atmosphere"
+    "air"
   ],
   "tags": [
     "Copernicus Services",
@@ -198,7 +198,7 @@
       "CDS2_relative_humidity"
     ],
     "themes": [
-      "atmosphere"
+      "air"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS2_relative_humidity/CDS2_relative_humidity.png"

@@ -61,7 +61,7 @@
   "subtitle": "Air temperature at 2m above ",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png",
   "themes": [
-    "atmosphere"
+    "air"
   ],
   "tags": [
     "Copernicus Services",
