@@ -205,9 +205,9 @@
       "E5"
     ],
     "themes": [
-      "resources",
+      "economy",
       "industry",
-      "economy"
+      "resources"
     ],
     "satellite": [
       "Sentinel-1"
@@ -216,9 +216,9 @@
       "C-SAR"
     ],
     "countries": [
+      "FI",
       "PL",
       "RO",
-      "FI",
       "SE"
     ],
     "thumbnail": [

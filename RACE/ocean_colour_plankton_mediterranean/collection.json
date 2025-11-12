@@ -172,10 +172,10 @@
       "water"
     ],
     "satellite": [
-      "Aqua",
       "Suomi NPP",
-      "Sentinel-3",
-      "JPSS-1"
+      "Aqua",
+      "JPSS-1",
+      "Sentinel-3"
     ],
     "sensor": [
       "VIIRS",

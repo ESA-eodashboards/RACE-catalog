@@ -178,9 +178,9 @@
       "E12b"
     ],
     "themes": [
+      "economy",
       "transport",
-      "commerce",
-      "economy"
+      "commerce"
     ],
     "satellite": [
       "Sentinel-1"

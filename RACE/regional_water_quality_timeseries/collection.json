@@ -202,20 +202,20 @@
       "OLCI"
     ],
     "cities": [
-      "Marseilles",
-      "Lisbon",
-      "Constanta",
-      "Hamburg",
+      "Barcelona",
       "Venice Lagoon",
-      "Barcelona"
+      "Marseilles",
+      "Hamburg",
+      "Lisbon",
+      "Constanta"
     ],
     "countries": [
+      "RO",
+      "FR",
+      "GE",
       "ES",
       "IT",
-      "FR",
-      "RO",
-      "PT",
-      "GE"
+      "PT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg"
