@@ -28,12 +28,8 @@
     "description": "manufacturing, industrial activity, construction"
   },
   "commerce": {
-    "title": "Commerce",
-    "description": "trade, mobility, logistics split 1"
-  },
-  "transport": {
-    "title": "Transport",
-    "description": "trade, mobility, logistics split 2"
+    "title": "Commerce & Transport",
+    "description": "trade, mobility, logistics"
   },
   "society": {
     "title": "Society & Living",
