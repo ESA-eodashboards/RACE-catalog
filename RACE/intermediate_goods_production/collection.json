@@ -145,9 +145,9 @@
     ],
     "themes": [
       "economy",
-      "industry",
       "resources",
-      "commerce"
+      "commerce",
+      "industry"
     ],
     "cities": [
       "Genoa",

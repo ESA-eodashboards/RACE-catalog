@@ -185,8 +185,8 @@
     ],
     "themes": [
       "economy",
-      "commerce",
-      "transport"
+      "transport",
+      "commerce"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13q_vessel_density_tanker/E13q_vessel_density_tanker.png"

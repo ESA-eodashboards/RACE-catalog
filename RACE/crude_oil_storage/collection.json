@@ -152,9 +152,9 @@
     ],
     "themes": [
       "economy",
-      "industry",
       "resources",
-      "energy"
+      "energy",
+      "industry"
     ],
     "satellite": [
       "ICEYE SAR"
