@@ -76,12 +76,6 @@
     "Description": "The German Aerospace Center (DLR) is the aerospace research centre of the Federal Republic of Germany. I",
     "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/dlr.jpeg?raw=true"
   },
-  "Danube Data Cube": {
-    "Url": "https://ddc.cropom.com",
-    "Description": "The Danube Data Cube is a cloud-based platform for integrating and analyzing environmental data, with a focus on the Danube region.",
-    "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=danube",
-    "Logo": "Link to logo"
-  },
   "ECMWF": {
     "Url": "https://www.ecmwf.int/",
     "Description": "ECMWF is the European Centre for Medium-Range Weather Forecasts.",
@@ -109,45 +103,45 @@
   },
   "EUROSTAT": {
     "Url": "https://ec.europa.eu/eurostat",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Eurostat is the statistical office of the European Union, independently responsible for publishing high-quality Europe-wide statistics and indicators that enable comparisons between countries and regions.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/eurostat.jpeg?raw=true"
   },
   "ExpertLab": {
     "Url": "https://www.expertlab.it/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Expertlab S.r.l. is an Italian company specializing in research and development in technological innovation.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/expertlab.jpeg?raw=true"
   },
   "FAO": {
     "Url": "https://www.fao.org",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Food and Agriculture Organization of the United Nations is a specialized agency of the United Nations that leads international efforts to defeat hunger and improve nutrition and food security.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/fao.jpeg?raw=true"
   },
   "FEGA": {
     "Url": "https://www.fega.gob.es/en",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "FEGA is the Spanish Agrarian Guarantee Fund.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/feda.jpeg?raw=true"
   },
   "Geosat": {
     "Url": "https://geosat.space/",
-    "Description": "Description of provider",
+    "Description": "GEOSAT is a European company specializing in Earth observation, providing high-resolution satellite imagery, geospatial data, and analytics services through its owned and operated satellites.",
     "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=geosat",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/geosat.jpeg?raw=true"
   },
   "Google": {
     "Url": "https://www.google.com/covid19/mobility/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Google LLC.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/google.jpeg?raw=true"
   },
   "ICEYE": {
     "Url": "https://www.iceye.com/",
-    "Description": "Description of provider",
+    "Description": "ICEYE is a Finnish microsatellite manufacturer and an Earth observation data provider that operates the world's largest constellation of commercial synthetic-aperture radar (SAR) satellites.",
     "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=iceye",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/iceye.jpeg?raw=true"
   },
   "JAXA": {
     "Url": "https://earth.jaxa.jp/en/data/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "JAXA is the Japan Aerospace Exploration Agency.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true"
   },
   "Joint Research Centre": {
     "Url": "https://joint-research-centre.ec.europa.eu/",
@@ -156,19 +150,19 @@
   },
   "Murmuration": {
     "Url": "https://murmuration-sas.com/",
-    "Description": "Description of provider",
+    "Description": "murmuration is a French company that uses Earth Observation data to provide decision-making dashboards that help understand the impact of human activity on the environment and the impact of climate change on human activities.",
     "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=murmuration",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/murmuration.jpeg?raw=true"
   },
   "NASA": {
     "Url": "https://nasa.gov/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The National Aeronautics and Space Administration is the U.S. government agency responsible for the nation's civilian space program and for science and technology related to air and space.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true"
   },
   "NOAA": {
     "Url": "https://noaa.gov/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The National Oceanic and Atmospheric Administration is a U.S. federal government agency within the Department of Commerce focused on the conditions of the oceans, major waterways, and the atmosphere",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/noaa.jpeg?raw=true"
   },
   "OILX": {
     "Url": "https://www.oilx.co/",
