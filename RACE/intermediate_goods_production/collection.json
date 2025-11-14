@@ -142,13 +142,13 @@
       "E4"
     ],
     "themes": [
+      "commerce",
       "industry",
-      "economy",
-      "commerce"
+      "economy"
     ],
     "cities": [
-      "Genoa",
-      "Hamburg"
+      "Hamburg",
+      "Genoa"
     ],
     "countries": [
       "DE",

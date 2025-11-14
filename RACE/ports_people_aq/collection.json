@@ -17,10 +17,11 @@
       "title": "NO2 level vs Number of People",
       "endpointtype": "GeoDB",
       "subtitle": "Port Activities, sources of pollution and NO2 levels",
+      "shortdescription": "Measuring the effect of population density on air pollution",
       "code": "C2",
       "id": "ports_people_aq",
       "themes": [
-        "economy",
+        "commerce",
         "air"
       ],
       "providers": [
@@ -118,9 +119,10 @@
     }
   ],
   "subtitle": "Port Activities, sources of pollution and NO2 levels",
+  "shortdescription": "Measuring the effect of population density on air pollution",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C2_ports_people_aq/C2_ports_people_aq_photo.jpg",
   "themes": [
-    "economy",
+    "commerce",
     "air"
   ],
   "tags": [
@@ -188,8 +190,8 @@
       "C2"
     ],
     "themes": [
-      "economy",
-      "air"
+      "air",
+      "commerce"
     ],
     "satellite": [
       "GNSS",
@@ -199,8 +201,8 @@
       "TROPOMI"
     ],
     "cities": [
-      "Gioia Tauro",
-      "Genoa"
+      "Genoa",
+      "Gioia Tauro"
     ],
     "countries": [
       "IT"

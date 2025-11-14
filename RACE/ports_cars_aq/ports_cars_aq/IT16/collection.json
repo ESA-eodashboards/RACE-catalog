@@ -72,9 +72,10 @@
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/C3_ports_cars_aq/chart.json",
   "subcode": "C3",
   "subtitle": "Port Activities, sources of pollution and NO2 levels",
+  "shortdescription": "Measuring the effect of road traffic on air pollution",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C3_ports_cars_aq/C3_ports_cars_aq_photo.jpg",
   "themes": [
-    "economy",
+    "commerce",
     "air"
   ],
   "tags": [

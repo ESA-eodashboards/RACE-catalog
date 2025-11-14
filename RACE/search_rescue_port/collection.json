@@ -159,9 +159,9 @@
       "E13i"
     ],
     "themes": [
-      "economy",
       "security",
-      "commerce"
+      "commerce",
+      "economy"
     ],
     "cities": [
       "Gioia Tauro"

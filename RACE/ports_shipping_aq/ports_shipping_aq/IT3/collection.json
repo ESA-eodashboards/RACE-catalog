@@ -72,6 +72,7 @@
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/C1_ports_shipping_aq/chart.json",
   "subcode": "C1",
   "subtitle": "Port Activities, sources of pollution and NO2 levels",
+  "shortdescription": "Measuring the effect of maritime traffic on air pollution",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C1_ports_shipping_aq/C1_ports_shipping_aq_photo.jpg",
   "themes": [
     "commerce",

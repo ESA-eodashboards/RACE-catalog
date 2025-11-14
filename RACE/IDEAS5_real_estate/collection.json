@@ -212,8 +212,8 @@
       "economy"
     ],
     "satellite": [
-      "Landsat 8",
-      "Landsat 9"
+      "Landsat 9",
+      "Landsat 8"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"

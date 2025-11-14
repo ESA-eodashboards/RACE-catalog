@@ -172,8 +172,8 @@
       "water"
     ],
     "satellite": [
-      "JPSS-1",
       "Aqua",
+      "JPSS-1",
       "Suomi NPP",
       "Sentinel-3"
     ],

@@ -72,9 +72,10 @@
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/C2_ports_people_aq/chart.json",
   "subcode": "C2",
   "subtitle": "Port Activities, sources of pollution and NO2 levels",
+  "shortdescription": "Measuring the effect of population density on air pollution",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C2_ports_people_aq/C2_ports_people_aq_photo.jpg",
   "themes": [
-    "economy",
+    "commerce",
     "air"
   ],
   "tags": [

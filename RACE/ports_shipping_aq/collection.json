@@ -17,6 +17,7 @@
       "title": "NO2 level vs Number of Ships",
       "endpointtype": "GeoDB",
       "subtitle": "Port Activities, sources of pollution and NO2 levels",
+      "shortdescription": "Measuring the effect of maritime traffic on air pollution",
       "code": "C1",
       "id": "ports_shipping_aq",
       "themes": [
@@ -118,6 +119,7 @@
     }
   ],
   "subtitle": "Port Activities, sources of pollution and NO2 levels",
+  "shortdescription": "Measuring the effect of maritime traffic on air pollution",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C1_ports_shipping_aq/C1_ports_shipping_aq_photo.jpg",
   "themes": [
     "commerce",
@@ -188,8 +190,8 @@
       "C1"
     ],
     "themes": [
-      "commerce",
-      "air"
+      "air",
+      "commerce"
     ],
     "satellite": [
       "GNSS",
@@ -199,8 +201,8 @@
       "TROPOMI"
     ],
     "cities": [
-      "Gioia Tauro",
-      "Genoa"
+      "Genoa",
+      "Gioia Tauro"
     ],
     "countries": [
       "IT"
