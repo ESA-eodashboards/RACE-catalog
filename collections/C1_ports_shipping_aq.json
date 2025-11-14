@@ -5,6 +5,7 @@
   "EodashIdentifier": "C1",
   "Subtitle": "Port Activities, sources of pollution and NO2 levels",
   "Description": "C1_ports_shipping_aq/C1_ports_shipping_aq.md",
+  "ShortDescription": "Measuring the effect of maritime traffic on air pollution",
   "Themes": [
     "commerce",
     "air"
