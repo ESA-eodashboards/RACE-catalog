@@ -4,9 +4,10 @@
   "EodashIdentifier": "CDS2_relative_humidity",
   "Subtitle": "Global relative humidity",
   "Description": "CDS2_relative_humidity/CDS2_relative_humidity.md",
-  "ShortDescription": "Relative humidity (RH), combined with temperature, determines how hot or cold air "feels" (the heat index).",
+  "ShortDescription": "Relative humidity (RH), combined with temperature, determines how hot or cold air feels (the heat index).",
   "Themes": [
-    "air"
+    "air",
+    "climate"
   ],
   "Tags": [
     "Copernicus Services",
