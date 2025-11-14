@@ -216,8 +216,8 @@
       "E1b"
     ],
     "themes": [
-      "commerce",
-      "economy"
+      "economy",
+      "commerce"
     ],
     "satellite": [
       "Sentinel-1"
@@ -226,24 +226,24 @@
       "C-SAR"
     ],
     "countries": [
-      "EE",
-      "NO",
-      "BE",
-      "IE",
-      "GR",
-      "RO",
-      "RU",
       "IT",
-      "TR",
-      "LT",
-      "PL",
-      "ES",
-      "LV",
-      "DE",
-      "NL",
+      "PT",
       "FR",
+      "EE",
+      "GR",
+      "ES",
+      "DE",
+      "BE",
+      "LT",
+      "NO",
+      "NL",
+      "RU",
+      "TR",
+      "IE",
       "DK",
-      "PT"
+      "LV",
+      "PL",
+      "RO"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg"

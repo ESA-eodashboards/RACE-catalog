@@ -143,7 +143,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2025-11-13T00:00:00Z"
+          "2025-11-14T00:00:00Z"
         ]
       ]
     }
@@ -160,9 +160,9 @@
       "E13c_ship_detections"
     ],
     "themes": [
-      "commerce",
+      "economy",
       "tourism",
-      "economy"
+      "commerce"
     ],
     "satellite": [
       "Sentinel-2"

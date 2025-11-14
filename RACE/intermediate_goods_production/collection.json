@@ -142,9 +142,9 @@
       "E4"
     ],
     "themes": [
+      "economy",
       "industry",
-      "commerce",
-      "economy"
+      "commerce"
     ],
     "cities": [
       "Genoa",
