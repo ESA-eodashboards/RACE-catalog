@@ -5,6 +5,7 @@
   "EodashIdentifier": "C3",
   "Subtitle": "Port Activities, sources of pollution and NO2 levels",
   "Description": "C3_ports_cars_aq/C3_ports_cars_aq.md",
+  "ShortDescription": "Measuring the effect of road traffic on air pollution",
   "Themes": [
     "commerce",
     "air"
