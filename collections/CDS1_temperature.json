@@ -4,6 +4,7 @@
   "EodashIdentifier": "CDS1_temperature",
   "Subtitle": "Air temperature at 2m above ",
   "Description": "CDS1_temperature/CDS1_temperature.md",
+  "ShortDescription": "Surface air temperature data is crucial for assessing and forecasting health risks related to extreme heat (heatwaves) and cold. This information helps public health officials issue warnings, plan emergency responses, and study temperature-related illnesses such as heat stroke and cardiovascular issues.",
   "Themes": [
     "air"
   ],
