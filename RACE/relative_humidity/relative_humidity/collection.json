@@ -59,9 +59,11 @@
     }
   ],
   "subtitle": "Global relative humidity",
+  "shortdescription": "Relative humidity (RH), combined with temperature, determines how hot or cold air feels (the heat index).",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS2_relative_humidity/CDS2_relative_humidity.png",
   "themes": [
-    "air"
+    "air",
+    "climate"
   ],
   "tags": [
     "Copernicus Services",

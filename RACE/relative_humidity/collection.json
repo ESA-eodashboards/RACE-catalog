@@ -17,10 +17,12 @@
       "title": "Relative humidity - ERA5",
       "endpointtype": "Sentinel Hub_byoc",
       "subtitle": "Global relative humidity",
+      "shortdescription": "Relative humidity (RH), combined with temperature, determines how hot or cold air feels (the heat index).",
       "code": "CDS2_relative_humidity",
       "id": "relative_humidity",
       "themes": [
-        "air"
+        "air",
+        "climate"
       ],
       "providers": [
         "Copernicus Climate Change Service",
@@ -117,9 +119,11 @@
     }
   ],
   "subtitle": "Global relative humidity",
+  "shortdescription": "Relative humidity (RH), combined with temperature, determines how hot or cold air feels (the heat index).",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS2_relative_humidity/CDS2_relative_humidity.png",
   "themes": [
-    "air"
+    "air",
+    "climate"
   ],
   "tags": [
     "Copernicus Services",
@@ -198,7 +202,8 @@
       "CDS2_relative_humidity"
     ],
     "themes": [
-      "air"
+      "air",
+      "climate"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS2_relative_humidity/CDS2_relative_humidity.png"

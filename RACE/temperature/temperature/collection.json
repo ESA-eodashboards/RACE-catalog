@@ -59,9 +59,11 @@
     }
   ],
   "subtitle": "Air temperature at 2m above ",
+  "shortdescription": "Surface air temperature data is crucial for assessing and forecasting health risks related to extreme heat (heatwaves) and cold. This information helps public health officials issue warnings, plan emergency responses, and study temperature-related illnesses such as heat stroke and cardiovascular issues.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png",
   "themes": [
-    "air"
+    "air",
+    "climate"
   ],
   "tags": [
     "Copernicus Services",

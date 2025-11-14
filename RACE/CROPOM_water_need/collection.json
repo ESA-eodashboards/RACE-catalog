@@ -193,8 +193,8 @@
     ],
     "satellite": [
       "Sentinel-2",
-      "CLMS HR-VPP Seasonal Trajectory",
-      "CLMS HR-VPP Vegetation Indices"
+      "CLMS HR-VPP Vegetation Indices",
+      "CLMS HR-VPP Seasonal Trajectory"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_water_need.png"

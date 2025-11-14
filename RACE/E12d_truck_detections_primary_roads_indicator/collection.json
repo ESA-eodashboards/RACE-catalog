@@ -253,13 +253,13 @@
   ],
   "summaries": {
     "subcode": [
-      "E12d_detections",
       "E12d_monthly",
+      "E12d_detections",
       "E12d_daily"
     ],
     "themes": [
-      "commerce",
-      "economy"
+      "economy",
+      "commerce"
     ],
     "satellite": [
       "Sentinel-2"

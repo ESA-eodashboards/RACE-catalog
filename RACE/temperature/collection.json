@@ -17,10 +17,12 @@
       "title": "Global temperature - ERA5",
       "endpointtype": "Sentinel Hub_byoc",
       "subtitle": "Air temperature at 2m above ",
+      "shortdescription": "Surface air temperature data is crucial for assessing and forecasting health risks related to extreme heat (heatwaves) and cold. This information helps public health officials issue warnings, plan emergency responses, and study temperature-related illnesses such as heat stroke and cardiovascular issues.",
       "code": "CDS1_temperature",
       "id": "temperature",
       "themes": [
-        "air"
+        "air",
+        "climate"
       ],
       "providers": [
         "Copernicus Climate Change Service",
@@ -117,9 +119,11 @@
     }
   ],
   "subtitle": "Air temperature at 2m above ",
+  "shortdescription": "Surface air temperature data is crucial for assessing and forecasting health risks related to extreme heat (heatwaves) and cold. This information helps public health officials issue warnings, plan emergency responses, and study temperature-related illnesses such as heat stroke and cardiovascular issues.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png",
   "themes": [
-    "air"
+    "air",
+    "climate"
   ],
   "tags": [
     "Copernicus Services",
@@ -200,7 +204,8 @@
       "CDS1_temperature"
     ],
     "themes": [
-      "air"
+      "air",
+      "climate"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png"
