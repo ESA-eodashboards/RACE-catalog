@@ -5,6 +5,7 @@
   "EodashIdentifier": "C2",
   "Subtitle": "Port Activities, sources of pollution and NO2 levels",
   "Description": "C2_ports_people_aq/C2_ports_people_aq.md",
+  "ShortDescription": "Measuring the effect of population density on air pollution"
   "Themes": [
     "commerce",
     "air"
