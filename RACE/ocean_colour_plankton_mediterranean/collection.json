@@ -172,15 +172,15 @@
       "water"
     ],
     "satellite": [
-      "Aqua",
       "JPSS-1",
-      "Sentinel-3",
-      "Suomi NPP"
+      "Aqua",
+      "Suomi NPP",
+      "Sentinel-3"
     ],
     "sensor": [
+      "OLCI",
       "MODIS",
-      "VIIRS",
-      "OLCI"
+      "VIIRS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_mediterranean/N3c_ocean_colour_plankton_mediterranean.png"

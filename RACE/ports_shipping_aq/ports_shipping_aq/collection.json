@@ -41,7 +41,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C1_ports_shipping_aq/C1_ports_shipping_aq_photo.jpg",
   "yAxis": "Normalized NO2 concentration & Mean monthly boat number",
   "themes": [
-    "economy",
+    "commerce",
     "air"
   ],
   "tags": [
