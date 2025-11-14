@@ -4,8 +4,10 @@
   "EodashIdentifier": "CDS3",
   "Subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind U field",
   "Description": "CDS3_wind_10m_u/CDS3_wind_10m_u.md",
+  "ShortDescription": "The 10-meter (10m) u-component of wind velocity from the Copernicus Climate Data Store (CDS) is a fundamental meteorological variable used to calculate wind speed and direction near the Earth's surface. It represents the zonal wind flow (eastward wind, with positive values indicating flow from west to east) and, when combined with the v-component (northward wind), provides comprehensive data essential for numerous societal applications, particularly those impacted by wind power, severe weather, and ocean conditions.",
   "Themes": [
-    "air"
+    "air",
+    "climate"
   ],
   "Tags": [
     "Copernicus Services",
