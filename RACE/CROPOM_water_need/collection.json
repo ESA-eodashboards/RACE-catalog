@@ -17,6 +17,7 @@
       "title": "Water demand",
       "endpointtype": "GeoJSON source",
       "subtitle": "Yield forecast under \"what-if\" scenarios",
+      "shortdescription": "In agriculture, indocators of water need (often expressed as crop water requirements, irrigation demand, or evapotranspiration) provide essential data for optimizing water resource management, ensuring sustainable agriculture, and mitigating the impacts of droughts and climate change.",
       "code": "CROPOM_water_need",
       "id": "CROPOM_water_need",
       "themes": [
@@ -112,6 +113,7 @@
     }
   ],
   "subtitle": "Yield forecast under \"what-if\" scenarios",
+  "shortdescription": "In agriculture, indocators of water need (often expressed as crop water requirements, irrigation demand, or evapotranspiration) provide essential data for optimizing water resource management, ensuring sustainable agriculture, and mitigating the impacts of droughts and climate change.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_water_need.png",
   "themes": [
     "agriculture",
@@ -188,13 +190,13 @@
       "CROPOM_water_need"
     ],
     "themes": [
-      "land",
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
       "CLMS HR-VPP Vegetation Indices",
-      "CLMS HR-VPP Seasonal Trajectory",
-      "Sentinel-2"
+      "Sentinel-2",
+      "CLMS HR-VPP Seasonal Trajectory"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_water_need.png"

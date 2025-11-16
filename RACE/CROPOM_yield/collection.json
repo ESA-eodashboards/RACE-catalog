@@ -17,6 +17,7 @@
       "title": "Crop yield",
       "endpointtype": "GeoJSON source",
       "subtitle": "Yield forecast under \"what-if\" scenarios",
+      "shortdescription": "Crop yield is typically a forecast or estimate of the quantity of an agricultural harvest. It is a critical metric that links climate, environment, and human activity, directly impacting global food security, the economy, and public welfare. The societal impacts of reliable crop yield indicators include Global Food Security, Market Stability and Economics, Climate Change Adaptation, Agricultural Policy and Planning, and Sustainable Resource Management. Indicators are often developed using a combination of ground based data and remote sensing data.",
       "code": "CROPOM_yield",
       "id": "CROPOM_yield",
       "themes": [
@@ -112,6 +113,7 @@
     }
   ],
   "subtitle": "Yield forecast under \"what-if\" scenarios",
+  "shortdescription": "Crop yield is typically a forecast or estimate of the quantity of an agricultural harvest. It is a critical metric that links climate, environment, and human activity, directly impacting global food security, the economy, and public welfare. The societal impacts of reliable crop yield indicators include Global Food Security, Market Stability and Economics, Climate Change Adaptation, Agricultural Policy and Planning, and Sustainable Resource Management. Indicators are often developed using a combination of ground based data and remote sensing data.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_yield.png",
   "themes": [
     "agriculture",
@@ -188,13 +190,13 @@
       "CROPOM_yield"
     ],
     "themes": [
-      "land",
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
       "CLMS HR-VPP Vegetation Indices",
-      "CLMS HR-VPP Seasonal Trajectory",
-      "Sentinel-2"
+      "Sentinel-2",
+      "CLMS HR-VPP Seasonal Trajectory"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_yield.png"
