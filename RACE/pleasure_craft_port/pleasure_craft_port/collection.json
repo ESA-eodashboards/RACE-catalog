@@ -31,8 +31,6 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13l_maritime_traffic_pleasure_craft/E13l_maritime_traffic_pleasure_craft_photo.jpg",
   "yAxis": "Number of ships in the port",
   "themes": [
-    "economy",
-    "commerce",
     "tourism",
     "sport"
   ],

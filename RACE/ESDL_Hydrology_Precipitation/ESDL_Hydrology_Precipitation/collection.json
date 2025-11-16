@@ -27,7 +27,7 @@
   "yAxis": "mm/day",
   "themes": [
     "agriculture",
-    "water"
+    "climate"
   ],
   "tags": [
     "Open data",

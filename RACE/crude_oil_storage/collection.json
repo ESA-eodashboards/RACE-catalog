@@ -20,7 +20,6 @@
       "code": "E3",
       "id": "crude_oil_storage",
       "themes": [
-        "economy",
         "energy",
         "industry"
       ],
@@ -94,7 +93,6 @@
   "subtitle": "Crude Oil Storage Volume as observed by ICEYE",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E3_crude_oil_storage/E3_crude_oil_storage.png",
   "themes": [
-    "economy",
     "energy",
     "industry"
   ],
@@ -150,7 +148,6 @@
     ],
     "themes": [
       "energy",
-      "economy",
       "industry"
     ],
     "satellite": [

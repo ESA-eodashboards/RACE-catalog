@@ -74,8 +74,8 @@
   "subtitle": "Ships detected in Sentinel-2 data",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg",
   "themes": [
-    "economy",
-    "commerce"
+    "commerce",
+    "tourism"
   ],
   "tags": [
     "Multi-sensors"

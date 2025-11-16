@@ -20,7 +20,6 @@
       "code": "E8",
       "id": "industrial_inventory",
       "themes": [
-        "economy",
         "industry",
         "commerce"
       ],
@@ -145,7 +144,6 @@
   "subtitle": "Inventory level in logisitc areas of production sites",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg",
   "themes": [
-    "economy",
     "industry",
     "commerce"
   ],
@@ -211,9 +209,8 @@
       "E8"
     ],
     "themes": [
-      "industry",
-      "economy",
-      "commerce"
+      "commerce",
+      "industry"
     ],
     "satellite": [
       "ICEYE SAR",
@@ -223,38 +220,38 @@
       "C-SAR"
     ],
     "cities": [
-      "Leipzig",
-      "Saarlouis",
-      "Dingolfing",
-      "Emden",
-      "Swindon",
-      "Regensburg",
-      "Craiova",
-      "Nosovice",
-      "Martorell",
-      "Koln",
-      "Wolfsburg",
-      "Russelsheim",
-      "Kvasiny",
-      "Cassino",
-      "Neckarsulm",
+      "Eisenach",
       "Ghent",
-      "Mioveni",
-      "Barcelona",
-      "Bremen",
+      "Neckarsulm",
+      "Russelsheim",
+      "Dingolfing",
       "Ingolstadt",
+      "Swindon",
+      "Kvasiny",
+      "Leipzig",
+      "Martorell",
+      "Nosovice",
+      "Barcelona",
+      "Mioveni",
+      "Saarlouis",
+      "Regensburg",
       "Sindelfingen",
+      "Craiova",
+      "Wolfsburg",
+      "Koln",
+      "Emden",
       "Zwickau",
-      "Eisenach"
+      "Bremen",
+      "Cassino"
     ],
     "countries": [
-      "GB",
-      "BE",
-      "DE",
-      "CZ",
-      "ES",
+      "RO",
       "IT",
-      "RO"
+      "ES",
+      "CZ",
+      "GB",
+      "DE",
+      "BE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg"

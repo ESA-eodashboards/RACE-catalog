@@ -40,7 +40,6 @@
   "subtitle": "Vessel density for non tanker or cargo vessels",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13r_vessel_density_others/E13r_vessel_density_others.png",
   "themes": [
-    "economy",
     "commerce"
   ],
   "tags": [

@@ -20,7 +20,6 @@
       "code": "E1b",
       "id": "vessel_density_timeseries",
       "themes": [
-        "economy",
         "commerce"
       ],
       "cities": [
@@ -166,7 +165,6 @@
   "subtitle": "Vessel Density based on Copernicus Sentinel-1",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg",
   "themes": [
-    "economy",
     "commerce"
   ],
   "locations": true,
@@ -216,7 +214,6 @@
       "E1b"
     ],
     "themes": [
-      "economy",
       "commerce"
     ],
     "satellite": [
@@ -226,24 +223,24 @@
       "C-SAR"
     ],
     "countries": [
-      "LV",
-      "RU",
-      "IE",
-      "PL",
-      "BE",
-      "DK",
       "NL",
-      "DE",
+      "LV",
+      "RO",
       "GR",
-      "NO",
-      "TR",
-      "FR",
-      "LT",
+      "DK",
+      "EE",
       "ES",
       "IT",
-      "RO",
+      "PL",
       "PT",
-      "EE"
+      "IE",
+      "DE",
+      "NO",
+      "TR",
+      "RU",
+      "LT",
+      "BE",
+      "FR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg"

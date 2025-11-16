@@ -279,7 +279,6 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg",
   "yAxis": "Normalized Radar backscatter (flattened gamma0)",
   "themes": [
-    "economy",
     "industry",
     "commerce"
   ],

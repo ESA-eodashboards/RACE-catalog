@@ -40,8 +40,8 @@
   "subtitle": "Vessel density for cargo description",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_vessel_density_cargo.png",
   "themes": [
-    "economy",
-    "commerce"
+    "commerce",
+    "industry"
   ],
   "tags": [
     "Maritime",

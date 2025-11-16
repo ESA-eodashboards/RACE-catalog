@@ -20,8 +20,6 @@
       "code": "E13l",
       "id": "pleasure_craft_port",
       "themes": [
-        "economy",
-        "commerce",
         "tourism",
         "sport"
       ],
@@ -109,8 +107,6 @@
   "subtitle": "Changes in the number of boats in ports",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13l_maritime_traffic_pleasure_craft/E13l_maritime_traffic_pleasure_craft_photo.jpg",
   "themes": [
-    "economy",
-    "commerce",
     "tourism",
     "sport"
   ],
@@ -162,9 +158,7 @@
     ],
     "themes": [
       "tourism",
-      "sport",
-      "economy",
-      "commerce"
+      "sport"
     ],
     "cities": [
       "Genoa"

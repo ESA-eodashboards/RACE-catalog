@@ -20,9 +20,7 @@
       "code": "E5",
       "id": "steel_inventory_timeseries",
       "themes": [
-        "economy",
-        "industry",
-        "resources"
+        "industry"
       ],
       "providers": [
         "Copernicus Data Space Ecosystem",
@@ -147,9 +145,7 @@
   "subtitle": "Steel inventory monitoring in open warehouses from SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg",
   "themes": [
-    "economy",
-    "industry",
-    "resources"
+    "industry"
   ],
   "locations": true,
   "tags": [
@@ -205,9 +201,7 @@
       "E5"
     ],
     "themes": [
-      "resources",
-      "industry",
-      "economy"
+      "industry"
     ],
     "satellite": [
       "Sentinel-1"
@@ -216,10 +210,10 @@
       "C-SAR"
     ],
     "countries": [
-      "SE",
-      "PL",
       "FI",
-      "RO"
+      "RO",
+      "PL",
+      "SE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg"

@@ -33,7 +33,8 @@
   "yAxis": "% Relative Saturation",
   "themes": [
     "agriculture",
-    "water"
+    "water",
+    "land"
   ],
   "tags": [
     "Open data",

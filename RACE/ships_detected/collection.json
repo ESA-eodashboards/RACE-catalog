@@ -20,8 +20,8 @@
       "code": "E200",
       "id": "ships_detected",
       "themes": [
-        "economy",
-        "commerce"
+        "commerce",
+        "tourism"
       ],
       "providers": [
         "Copernicus Data Space Ecosystem"
@@ -126,8 +126,8 @@
   "subtitle": "Ships detected in Sentinel-2 data",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg",
   "themes": [
-    "economy",
-    "commerce"
+    "commerce",
+    "tourism"
   ],
   "locations": true,
   "tags": [
@@ -178,7 +178,7 @@
       "E200"
     ],
     "themes": [
-      "economy",
+      "tourism",
       "commerce"
     ],
     "satellite": [
@@ -188,20 +188,20 @@
       "MSI"
     ],
     "cities": [
-      "Gdynia",
       "Genoa",
-      "Dunkirk",
-      "Suez ",
       "Ghent",
-      "Hamburg"
+      "Gdynia",
+      "Dunkirk",
+      "Hamburg",
+      "Suez "
     ],
     "countries": [
-      "PL",
-      "BE",
-      "DE",
-      "FR",
+      "EG",
       "IT",
-      "EG"
+      "PL",
+      "DE",
+      "BE",
+      "FR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg"

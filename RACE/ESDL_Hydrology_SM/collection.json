@@ -20,7 +20,8 @@
       "id": "ESDL_Hydrology_SM",
       "themes": [
         "agriculture",
-        "water"
+        "water",
+        "land"
       ],
       "providers": [
         "TU Wien"
@@ -110,7 +111,8 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/image.jpg",
   "themes": [
     "agriculture",
-    "water"
+    "water",
+    "land"
   ],
   "tags": [
     "Open data",
@@ -196,6 +198,7 @@
       "ESDL_Hydrology_SM"
     ],
     "themes": [
+      "land",
       "water",
       "agriculture"
     ],

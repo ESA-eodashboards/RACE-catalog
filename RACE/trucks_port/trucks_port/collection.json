@@ -31,7 +31,6 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13n_trucks_port/E13n_trucks_port_photo.jpg",
   "yAxis": "% Variation compated  to Febuary 2019",
   "themes": [
-    "economy",
     "commerce"
   ],
   "tags": [

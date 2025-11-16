@@ -281,9 +281,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg",
   "yAxis": "Metal Density Variation [%]",
   "themes": [
-    "economy",
-    "industry",
-    "resources"
+    "industry"
   ],
   "tags": [
     "Copernicus",

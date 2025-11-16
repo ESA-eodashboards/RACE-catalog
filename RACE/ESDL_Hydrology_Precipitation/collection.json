@@ -20,7 +20,7 @@
       "id": "ESDL_Hydrology_Precipitation",
       "themes": [
         "agriculture",
-        "water"
+        "climate"
       ],
       "providers": [
         "NOAA",
@@ -112,7 +112,7 @@
   "yAxis": "mm/day",
   "themes": [
     "agriculture",
-    "water"
+    "climate"
   ],
   "tags": [
     "Open data",
@@ -235,7 +235,7 @@
       "ESDL_Hydrology_Precipitation"
     ],
     "themes": [
-      "water",
+      "climate",
       "agriculture"
     ],
     "thumbnail": [

@@ -20,8 +20,8 @@
       "code": "E13q",
       "id": "vessel_density_tanker",
       "themes": [
-        "economy",
-        "commerce"
+        "commerce",
+        "industry"
       ],
       "providers": [
         "EMODNET"
@@ -105,8 +105,8 @@
   "subtitle": "Vessel density for tanker description",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13q_vessel_density_tanker/E13q_vessel_density_tanker.png",
   "themes": [
-    "economy",
-    "commerce"
+    "commerce",
+    "industry"
   ],
   "tags": [
     "Maritime",
@@ -182,8 +182,8 @@
       "E13q"
     ],
     "themes": [
-      "economy",
-      "commerce"
+      "commerce",
+      "industry"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13q_vessel_density_tanker/E13q_vessel_density_tanker.png"

@@ -20,7 +20,6 @@
       "code": "E13n",
       "id": "trucks_port",
       "themes": [
-        "economy",
         "commerce"
       ],
       "cities": [
@@ -103,7 +102,6 @@
   "subtitle": "Changes in the number of trucks in ports",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13n_trucks_port/E13n_trucks_port_photo.jpg",
   "themes": [
-    "economy",
     "commerce"
   ],
   "tags": [
@@ -146,7 +144,6 @@
       "E13n"
     ],
     "themes": [
-      "economy",
       "commerce"
     ],
     "cities": [

@@ -75,7 +75,6 @@
   "subtitle": "Vessel Density based on Copernicus Sentinel-1",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg",
   "themes": [
-    "economy",
     "commerce"
   ],
   "tags": [

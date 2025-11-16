@@ -20,8 +20,10 @@
       "code": "E13o",
       "id": "vessel_density_all",
       "themes": [
-        "economy",
-        "commerce"
+        "commerce",
+        "industry",
+        "tourism",
+        "society"
       ],
       "providers": [
         "EMODNET"
@@ -105,8 +107,10 @@
   "subtitle": "Vessel density description",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png",
   "themes": [
-    "economy",
-    "commerce"
+    "commerce",
+    "industry",
+    "tourism",
+    "society"
   ],
   "tags": [
     "Maritime",
@@ -182,8 +186,10 @@
       "E13o"
     ],
     "themes": [
-      "economy",
-      "commerce"
+      "tourism",
+      "society",
+      "commerce",
+      "industry"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png"

@@ -41,7 +41,6 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E4_intermediate_goods_production/E4_intermediate_goods_production_photo.jpg",
   "yAxis": "Number of parked cars ",
   "themes": [
-    "economy",
     "industry",
     "commerce"
   ],
