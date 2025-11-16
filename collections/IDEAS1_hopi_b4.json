@@ -5,7 +5,8 @@
   "Subtitle": "Number of days where air pollution exceeded WHO threshold",
   "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
   "Themes": [
-    "health"
+    "health",
+    "air"
   ],
   "Tags": [
     "heat",
