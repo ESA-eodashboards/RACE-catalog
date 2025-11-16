@@ -74,8 +74,8 @@
   "subtitle": "Changes in the number of boats in ports",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13f_fishing_boats_port/E13f_fishing_boats_port.jpg",
   "themes": [
-    "economy",
-    "commerce"
+    "commerce",
+    "industry"
   ],
   "tags": [
     "Ports",

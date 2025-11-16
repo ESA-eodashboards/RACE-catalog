@@ -331,8 +331,8 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg",
   "yAxis": "Time series of airport throughput",
   "themes": [
-    "economy",
-    "commerce"
+    "commerce",
+    "tourism"
   ],
   "tags": [
     "Copernicus",

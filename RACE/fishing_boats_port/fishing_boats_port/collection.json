@@ -41,8 +41,8 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13f_fishing_boats_port/E13f_fishing_boats_port.jpg",
   "yAxis": "Number of ships in the port",
   "themes": [
-    "economy",
-    "commerce"
+    "commerce",
+    "industry"
   ],
   "tags": [
     "Ports",

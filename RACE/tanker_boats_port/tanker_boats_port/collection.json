@@ -41,8 +41,9 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13g_tanker_boats_port/E13g_tanker_boats_port_photo.jpg",
   "yAxis": "Number of ships in the port",
   "themes": [
-    "economy",
-    "commerce"
+    "commerce",
+    "industry",
+    "energy"
   ],
   "tags": [
     "Ports",

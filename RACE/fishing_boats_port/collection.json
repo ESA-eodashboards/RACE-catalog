@@ -20,8 +20,8 @@
       "code": "E13f",
       "id": "fishing_boats_port",
       "themes": [
-        "economy",
-        "commerce"
+        "commerce",
+        "industry"
       ],
       "providers": [
         "e-GEOS"
@@ -108,8 +108,8 @@
   "subtitle": "Changes in the number of boats in ports",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13f_fishing_boats_port/E13f_fishing_boats_port.jpg",
   "themes": [
-    "economy",
-    "commerce"
+    "commerce",
+    "industry"
   ],
   "tags": [
     "Ports",
@@ -158,7 +158,7 @@
       "E13f"
     ],
     "themes": [
-      "economy",
+      "industry",
       "commerce"
     ],
     "cities": [

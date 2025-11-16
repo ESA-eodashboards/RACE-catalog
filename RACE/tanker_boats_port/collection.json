@@ -20,8 +20,9 @@
       "code": "E13g",
       "id": "tanker_boats_port",
       "themes": [
-        "economy",
-        "commerce"
+        "commerce",
+        "industry",
+        "energy"
       ],
       "providers": [
         "e-GEOS"
@@ -108,8 +109,9 @@
   "subtitle": "Changes in the number of boats in ports",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13g_tanker_boats_port/E13g_tanker_boats_port_photo.jpg",
   "themes": [
-    "economy",
-    "commerce"
+    "commerce",
+    "industry",
+    "energy"
   ],
   "tags": [
     "Ports",
@@ -158,7 +160,8 @@
       "E13g"
     ],
     "themes": [
-      "economy",
+      "energy",
+      "industry",
       "commerce"
     ],
     "cities": [

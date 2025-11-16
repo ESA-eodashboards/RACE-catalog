@@ -188,19 +188,19 @@
       "MSI"
     ],
     "cities": [
-      "Suez ",
-      "Hamburg",
-      "Genoa",
       "Gdynia",
+      "Genoa",
+      "Dunkirk",
+      "Suez ",
       "Ghent",
-      "Dunkirk"
+      "Hamburg"
     ],
     "countries": [
-      "DE",
-      "IT",
       "PL",
-      "FR",
       "BE",
+      "DE",
+      "FR",
+      "IT",
       "EG"
     ],
     "thumbnail": [

@@ -65,7 +65,6 @@
   "subtitle": "Occupancy of customer parking",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg",
   "themes": [
-    "economy",
     "commerce"
   ],
   "tags": [

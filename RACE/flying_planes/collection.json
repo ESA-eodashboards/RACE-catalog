@@ -20,7 +20,6 @@
       "code": "E13d",
       "id": "flying_planes",
       "themes": [
-        "economy",
         "commerce",
         "tourism"
       ],
@@ -173,7 +172,6 @@
   "subtitle": "Flying planes detected on Sentinel-2 data",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg",
   "themes": [
-    "economy",
     "commerce",
     "tourism"
   ],
@@ -231,7 +229,6 @@
     ],
     "themes": [
       "tourism",
-      "economy",
       "commerce"
     ],
     "satellite": [
@@ -241,23 +238,23 @@
       "MSI"
     ],
     "countries": [
-      "ES",
-      "NO",
       "PT",
-      "AT",
-      "TR",
-      "DE",
-      "NL",
-      "IT",
       "GB",
-      "SE",
-      "GR",
-      "PL",
-      "FR",
-      "DK",
-      "BE",
       "IE",
+      "PL",
+      "BE",
+      "DK",
+      "NL",
+      "DE",
+      "GR",
+      "NO",
+      "TR",
+      "FR",
+      "SE",
+      "ES",
       "FI",
+      "IT",
+      "AT",
       "CH"
     ],
     "thumbnail": [

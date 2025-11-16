@@ -20,8 +20,8 @@
       "code": "E13b",
       "id": "parked_planes",
       "themes": [
-        "economy",
-        "commerce"
+        "commerce",
+        "tourism"
       ],
       "providers": [
         "Aerospacelab"
@@ -167,8 +167,8 @@
   "subtitle": "Parked planes detected on Sentinel-2 data",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg",
   "themes": [
-    "economy",
-    "commerce"
+    "commerce",
+    "tourism"
   ],
   "locations": true,
   "tags": [
@@ -222,7 +222,7 @@
       "E13b"
     ],
     "themes": [
-      "economy",
+      "tourism",
       "commerce"
     ],
     "satellite": [
@@ -232,25 +232,25 @@
       "MSI"
     ],
     "countries": [
-      "PT",
-      "AT",
-      "PL",
-      "BE",
-      "IE",
-      "NO",
-      "TR",
-      "FI",
-      "ES",
-      "DE",
-      "NL",
       "IT",
+      "CH",
       "GB",
+      "IE",
+      "NL",
       "GR",
-      "DK",
       "UK",
-      "SE",
+      "FI",
+      "BE",
+      "ES",
+      "PL",
+      "DK",
+      "NO",
+      "DE",
+      "TR",
       "FR",
-      "CH"
+      "SE",
+      "AT",
+      "PT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg"
