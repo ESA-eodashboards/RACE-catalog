@@ -189,27 +189,27 @@
       "land"
     ],
     "satellite": [
+      "Landsat-8",
       "Sentinel-2",
-      "Sentinel-1",
-      "Landsat-8"
+      "Sentinel-1"
     ],
     "sensor": [
-      "C-SAR",
       "OLI",
-      "MSI"
+      "MSI",
+      "C-SAR"
     ],
     "cities": [
-      "Region de Murcia",
+      "La Rioja",
+      "Comunidad Valenciana",
+      "Andalucia",
       "Comunidad Foral de Navarra",
       "Castilla-La Mancha",
+      "Aragon",
+      "Region de Murcia",
       "Castilla y Leon",
-      "Extremadura",
-      "Comunidad Valenciana",
-      "La Rioja",
-      "Comunidad de Madrid",
-      "Andalucia",
       "Cataluna",
-      "Aragon"
+      "Extremadura",
+      "Comunidad de Madrid"
     ],
     "countries": [
       "ES"
