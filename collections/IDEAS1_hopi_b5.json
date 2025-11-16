@@ -4,7 +4,7 @@
   "EodashIdentifier": "IND1_1_b5",
   "Subtitle": "Land Surface Temperature",
   "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
-  "Themes": ["health"],
+  "Themes": ["health","climate","land"],
   "Tags": ["heat", "pollution"],
   "Other": ["multiple", "HDX", "CAMS"],
   "Agency": ["ESA"],
