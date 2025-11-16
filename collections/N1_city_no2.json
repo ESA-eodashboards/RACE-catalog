@@ -6,7 +6,9 @@
   "Subtitle": "NO2 detected at cities based on Sentinel-5P data",
   "Description": "N1_city_no2/N1_city_no2.md",
   "Themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "Tags": [
     "Air quality",
