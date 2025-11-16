@@ -5,7 +5,9 @@
   "Subtitle": "Chlorophyll-a concentration description",
   "Description": "N3a2_chl_concentration/N3a2_chl_concentration.md",
   "Themes": [
-    "water"
+    "water",
+    "climate",
+    "health"
   ],
   "Tags": [
     "Water quality",
