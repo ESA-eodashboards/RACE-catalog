@@ -5,7 +5,8 @@
   "Subtitle": "Ocean colour plankton description",
   "Description": "N3c_ocean_colour_plankton_black_sea/N3c_ocean_colour_plankton_black_sea.md",
   "Themes": [
-    "water"
+    "water",
+    "climate"
   ],
   "Tags": [
     "Water quality",
