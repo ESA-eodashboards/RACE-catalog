@@ -5,7 +5,8 @@
   "Subtitle": "Distance to nearest hospital or clinic [km]",
   "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
   "Themes": [
-    "health"
+    "health",
+    "society"
   ],
   "Tags": [
     "heat",
