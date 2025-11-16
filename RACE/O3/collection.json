@@ -20,7 +20,9 @@
       "code": "N1b_O3",
       "id": "O3",
       "themes": [
-        "air"
+        "air",
+        "climate",
+        "health"
       ],
       "providers": [
         "Copernicus Atmosphere Monitoring Service"
@@ -103,7 +105,9 @@
   "subtitle": "Ozone at global level - daily average",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_O3/N1b_O3.png",
   "themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "tags": [
     "Air quality",
@@ -174,7 +178,9 @@
       "N1b_O3"
     ],
     "themes": [
-      "air"
+      "climate",
+      "air",
+      "health"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_O3/N1b_O3.png"

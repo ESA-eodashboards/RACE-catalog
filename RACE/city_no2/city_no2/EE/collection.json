@@ -74,7 +74,9 @@
   "subtitle": "NO2 detected at cities based on Sentinel-5P data",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_city_no2/N1_city_no2_photo.jpg",
   "themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "tags": [
     "Air quality",

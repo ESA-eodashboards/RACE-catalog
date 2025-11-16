@@ -41,7 +41,9 @@
   "subtitle": "Nitrogen dioxide in Europe - daily average",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_NO2/N1b_NO2.png",
   "themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "tags": [
     "Air quality",

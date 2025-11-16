@@ -20,7 +20,9 @@
       "code": "N1b_NO2",
       "id": "NO2",
       "themes": [
-        "air"
+        "air",
+        "climate",
+        "health"
       ],
       "providers": [
         "Copernicus Atmosphere Monitoring Service"
@@ -103,7 +105,9 @@
   "subtitle": "Nitrogen dioxide in Europe - daily average",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_NO2/N1b_NO2.png",
   "themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "tags": [
     "Air quality",
@@ -174,7 +178,9 @@
       "N1b_NO2"
     ],
     "themes": [
-      "air"
+      "climate",
+      "air",
+      "health"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_NO2/N1b_NO2.png"

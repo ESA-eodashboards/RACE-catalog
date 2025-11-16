@@ -20,7 +20,9 @@
       "code": "N1_SO2",
       "id": "so2_daily",
       "themes": [
-        "air"
+        "air",
+        "climate",
+        "health"
       ],
       "providers": [
         "Copernicus Data Space Ecosystem"
@@ -104,7 +106,9 @@
   "subtitle": "Global daily SO2",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/N1_SO2_photo.jpg",
   "themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "tags": [
     "Air quality",
@@ -183,7 +187,9 @@
       "N1_SO2"
     ],
     "themes": [
-      "air"
+      "climate",
+      "air",
+      "health"
     ],
     "satellite": [
       "Sentinel-5P"

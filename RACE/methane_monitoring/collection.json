@@ -20,7 +20,9 @@
       "code": "N1_CH4",
       "id": "methane_monitoring",
       "themes": [
-        "air"
+        "air",
+        "climate",
+        "health"
       ],
       "providers": [
         "Copernicus Data Space Ecosystem",
@@ -114,7 +116,9 @@
   "subtitle": "Daily Methane Monitoring",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring_photo.jpg",
   "themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "tags": [
     "Air quality",
@@ -209,11 +213,13 @@
       "N1_CH4"
     ],
     "themes": [
-      "air"
+      "climate",
+      "air",
+      "health"
     ],
     "satellite": [
-      "GOSAT",
-      "Sentinel-5P"
+      "Sentinel-5P",
+      "GOSAT"
     ],
     "sensor": [
       "TROPOMI",

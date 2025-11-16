@@ -20,7 +20,9 @@
       "code": "N1_CO",
       "id": "CO_3_daily",
       "themes": [
-        "air"
+        "air",
+        "climate",
+        "health"
       ],
       "providers": [
         "Copernicus Data Space Ecosystem",
@@ -105,7 +107,9 @@
   "subtitle": "Global 3-daily Carbon monoxide",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO_photo.jpg",
   "themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "tags": [
     "Air quality",
@@ -188,7 +192,9 @@
       "N1_CO"
     ],
     "themes": [
-      "air"
+      "climate",
+      "air",
+      "health"
     ],
     "satellite": [
       "Sentinel-5P"

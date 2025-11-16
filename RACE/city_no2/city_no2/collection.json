@@ -291,7 +291,9 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_city_no2/N1_city_no2_photo.jpg",
   "yAxis": "Tropospheric NO2 (μmol/m2)",
   "themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "tags": [
     "Air quality",

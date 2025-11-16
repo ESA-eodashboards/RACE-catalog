@@ -28,7 +28,8 @@
   "subtitle": "Number of days where air pollution exceeded WHO threshold",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png",
   "themes": [
-    "health"
+    "health",
+    "air"
   ],
   "tags": [
     "heat",

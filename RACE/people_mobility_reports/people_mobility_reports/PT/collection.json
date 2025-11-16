@@ -74,7 +74,11 @@
   "subtitle": "People mobility data showing the impact of COVID-19 lockdown restrictions",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports_photo.jpg",
   "themes": [
-    "economy"
+    "commerce",
+    "society",
+    "tourism",
+    "sport",
+    "health"
   ],
   "tags": [
     "Mobility",

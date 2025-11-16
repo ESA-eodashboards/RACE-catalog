@@ -20,7 +20,7 @@
       "code": "GHSBUILT",
       "id": "GHS-BUILT-S-R2023A",
       "themes": [
-        "economy"
+        "society"
       ],
       "providers": [
         "Copernicus Emergency Management service",
@@ -119,7 +119,7 @@
   "subtitle": "GHS built-up surface dataset GHS-BUILT-S_GLOBE_R2023A",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GHS-BUILT-S-R2023A/GHS-BUILT-S-R2023A_photo.jpg",
   "themes": [
-    "economy"
+    "society"
   ],
   "tags": [
     "Copernicus",
@@ -199,7 +199,7 @@
       "GHSBUILT"
     ],
     "themes": [
-      "economy"
+      "society"
     ],
     "satellite": [
       "Sentinel-2"

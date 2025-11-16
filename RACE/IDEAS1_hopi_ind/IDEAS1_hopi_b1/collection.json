@@ -28,7 +28,8 @@
   "subtitle": "Indicator 1: HOUHPI",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png",
   "themes": [
-    "health"
+    "health",
+    "society"
   ],
   "tags": [
     "heat",

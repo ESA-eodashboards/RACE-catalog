@@ -20,7 +20,7 @@
       "code": "IND2_1_minesweeper",
       "id": "IDEAS2_wildlife_minesweeper",
       "themes": [
-        "agriculture"
+        "land"
       ],
       "providers": [
         "Murmuration"
@@ -98,7 +98,7 @@
   "subtitle": "Indicator 2: Wildlife Diversity Game mode",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_minesweeper.png",
   "themes": [
-    "agriculture"
+    "land"
   ],
   "tags": [
     "GBIF",
@@ -171,11 +171,11 @@
       "IND2_1_minesweeper"
     ],
     "themes": [
-      "agriculture"
+      "land"
     ],
     "satellite": [
-      "Sentinel-3",
-      "MODIS"
+      "MODIS",
+      "Sentinel-3"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_minesweeper.png"

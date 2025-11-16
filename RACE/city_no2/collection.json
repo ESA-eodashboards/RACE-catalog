@@ -20,7 +20,9 @@
       "code": "N1",
       "id": "city_no2",
       "themes": [
-        "air"
+        "air",
+        "climate",
+        "health"
       ],
       "providers": [
         "Copernicus Data Space Ecosystem"
@@ -171,7 +173,9 @@
   "subtitle": "NO2 detected at cities based on Sentinel-5P data",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_city_no2/N1_city_no2_photo.jpg",
   "themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "locations": true,
   "tags": [
@@ -245,7 +249,9 @@
       "N1"
     ],
     "themes": [
-      "air"
+      "climate",
+      "air",
+      "health"
     ],
     "satellite": [
       "Sentinel-5P"

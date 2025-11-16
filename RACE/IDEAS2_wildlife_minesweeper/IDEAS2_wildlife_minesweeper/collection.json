@@ -28,7 +28,7 @@
   "subtitle": "Indicator 2: Wildlife Diversity Game mode",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_minesweeper.png",
   "themes": [
-    "agriculture"
+    "land"
   ],
   "tags": [
     "GBIF",

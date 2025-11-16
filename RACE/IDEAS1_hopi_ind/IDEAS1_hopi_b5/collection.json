@@ -28,7 +28,9 @@
   "subtitle": "Land Surface Temperature",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png",
   "themes": [
-    "health"
+    "health",
+    "climate",
+    "land"
   ],
   "tags": [
     "heat",

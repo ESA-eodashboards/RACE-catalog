@@ -20,7 +20,8 @@
       "code": "N1a",
       "id": "pm25_cams",
       "themes": [
-        "air"
+        "air",
+        "health"
       ],
       "providers": [
         "Copernicus Atmosphere Monitoring Service"
@@ -205,7 +206,8 @@
   "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1a_pm25_cams/N1a_pm25_cams_graph.png",
   "themes": [
-    "air"
+    "air",
+    "health"
   ],
   "tags": [
     "Air quality",
@@ -260,7 +262,8 @@
       "N1a"
     ],
     "themes": [
-      "air"
+      "air",
+      "health"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1a_pm25_cams/N1a_pm25_cams_graph.png"

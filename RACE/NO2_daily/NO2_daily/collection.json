@@ -41,7 +41,9 @@
   "subtitle": "Daily Nitrogen Dioxide",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2_photo.jpg",
   "themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "tags": [
     "Air quality",

@@ -20,7 +20,9 @@
       "code": "IND5_1_b1",
       "id": "IDEAS5_real_estate_b1",
       "themes": [
-        "economy"
+        "society",
+        "climate",
+        "health"
       ],
       "providers": [
         "Murmuration"
@@ -46,7 +48,8 @@
       "code": "IND5_1_b2",
       "id": "IDEAS5_real_estate_b2",
       "themes": [
-        "economy"
+        "society",
+        "health"
       ],
       "providers": [
         "Murmuration"
@@ -72,7 +75,8 @@
       "code": "IND5_1_b3",
       "id": "IDEAS5_real_estate_b3",
       "themes": [
-        "economy"
+        "land",
+        "climate"
       ],
       "providers": [
         "Murmuration"
@@ -204,12 +208,15 @@
   ],
   "summaries": {
     "subcode": [
+      "IND5_1_b2",
       "IND5_1_b3",
-      "IND5_1_b1",
-      "IND5_1_b2"
+      "IND5_1_b1"
     ],
     "themes": [
-      "economy"
+      "climate",
+      "land",
+      "health",
+      "society"
     ],
     "satellite": [
       "Landsat 8",

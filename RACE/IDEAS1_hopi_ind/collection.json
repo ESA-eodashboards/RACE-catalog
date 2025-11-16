@@ -20,7 +20,8 @@
       "code": "IND1_1_b1",
       "id": "IDEAS1_hopi_b1",
       "themes": [
-        "health"
+        "health",
+        "society"
       ],
       "providers": [
         "Murmuration"
@@ -44,7 +45,8 @@
       "code": "IND1_1_b2",
       "id": "IDEAS1_hopi_b2",
       "themes": [
-        "health"
+        "health",
+        "society"
       ],
       "providers": [
         "Murmuration"
@@ -68,7 +70,8 @@
       "code": "IND1_1_b3",
       "id": "IDEAS1_hopi_b3",
       "themes": [
-        "health"
+        "health",
+        "society"
       ],
       "providers": [
         "Murmuration"
@@ -92,7 +95,8 @@
       "code": "IND1_1_b4",
       "id": "IDEAS1_hopi_b4",
       "themes": [
-        "health"
+        "health",
+        "air"
       ],
       "providers": [
         "Murmuration"
@@ -116,7 +120,9 @@
       "code": "IND1_1_b5",
       "id": "IDEAS1_hopi_b5",
       "themes": [
-        "health"
+        "health",
+        "climate",
+        "land"
       ],
       "providers": [
         "Murmuration"
@@ -253,13 +259,17 @@
   ],
   "summaries": {
     "subcode": [
+      "IND1_1_b3",
+      "IND1_1_b1",
       "IND1_1_b2",
       "IND1_1_b5",
-      "IND1_1_b4",
-      "IND1_1_b3",
-      "IND1_1_b1"
+      "IND1_1_b4"
     ],
     "themes": [
+      "society",
+      "climate",
+      "land",
+      "air",
       "health"
     ],
     "thumbnail": [

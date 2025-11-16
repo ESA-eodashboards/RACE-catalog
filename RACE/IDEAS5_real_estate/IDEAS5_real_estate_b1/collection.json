@@ -28,7 +28,9 @@
   "subtitle": "Highest-risk areas, characterized by poor insulation or LST and a vulnerable population (elderly and economically disadvantaged)",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png",
   "themes": [
-    "economy"
+    "society",
+    "climate",
+    "health"
   ],
   "tags": [
     "real estate"

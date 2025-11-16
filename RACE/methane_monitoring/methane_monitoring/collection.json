@@ -41,7 +41,9 @@
   "subtitle": "Daily Methane Monitoring",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring_photo.jpg",
   "themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "tags": [
     "Air quality",

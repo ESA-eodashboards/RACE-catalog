@@ -20,7 +20,7 @@
       "code": "IND2_1",
       "id": "IDEAS2_wildlife",
       "themes": [
-        "agriculture"
+        "land"
       ],
       "providers": [
         "Murmuration"
@@ -98,7 +98,7 @@
   "subtitle": "Identify areas of high biodiversity",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_photo.jpg",
   "themes": [
-    "agriculture"
+    "land"
   ],
   "tags": [
     "GBIF",
@@ -171,11 +171,11 @@
       "IND2_1"
     ],
     "themes": [
-      "agriculture"
+      "land"
     ],
     "satellite": [
-      "Sentinel-3",
-      "MODIS"
+      "MODIS",
+      "Sentinel-3"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_photo.jpg"
