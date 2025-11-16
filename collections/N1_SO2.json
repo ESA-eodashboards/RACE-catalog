@@ -5,7 +5,9 @@
   "Subtitle": "Global daily SO2",
   "Description": "N1_SO2/N1_SO2.md",
   "Themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "Tags": [
     "Air quality",
