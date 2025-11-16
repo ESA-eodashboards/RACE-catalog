@@ -4,7 +4,7 @@
   "Title": "Water turbidity",
   "EodashIdentifier": "CNR_TUR_1",
   "Description": "CNR_TUR_1_water_discharge/CNR_TUR_1_water_discharge.md",
-  "ShortDescription": "Water discharge — the volume of water flowing through a channel, such as a river or stream, per unit of time — is a fundamental metric for managing the global water cycle, ensuring public safety, supporting water resource management - including for drinking water and agriculture - and various economic sectors, and maintaining ecosystem health."
+  "ShortDescription": "Water discharge — the volume of water flowing through a channel, such as a river or stream, per unit of time — is a fundamental metric for managing the global water cycle, ensuring public safety, supporting water resource management - including for drinking water and agriculture - and various economic sectors, and maintaining ecosystem health.",
   "Themes": [
     "water"
   ],
