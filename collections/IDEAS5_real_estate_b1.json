@@ -5,7 +5,9 @@
   "Subtitle": "Highest-risk areas, characterized by poor insulation or LST and a vulnerable population (elderly and economically disadvantaged)",
   "Description": "IDEAS5_real_estate/IDEAS5_real_estate.md",
   "Themes": [
-    "economy"
+    "society",
+    "climate",
+    "health"
   ],
   "Satellite": [
     "Landsat 8",
