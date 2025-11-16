@@ -5,7 +5,7 @@
   "EodashIdentifier": "WASDI_FLOOD",
   "Subtitle": "Automated flood map",
   "Description": "WASDI_FLOOD/WASDI_FLOOD.md",
-  "Themes": ["water"],
+  "Themes": ["water","health"],
   "Tags": [
     "Copernicus Services",
     "Flood",
