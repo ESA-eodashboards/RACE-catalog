@@ -213,10 +213,10 @@
       "IND5_1_b3"
     ],
     "themes": [
-      "health",
-      "society",
       "climate",
-      "land"
+      "land",
+      "health",
+      "society"
     ],
     "satellite": [
       "Landsat 8",
