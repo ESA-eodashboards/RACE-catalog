@@ -6,7 +6,11 @@
   "Subtitle": "People mobility data showing the impact of COVID-19 lockdown restrictions",
   "Description": "GG_people_mobility_reports/GG_people_mobility_reports.md",
   "Themes": [
-    "economy"
+    "commerce",
+    "society",
+    "tourism",
+    "sport",
+    "health"
   ],
   "Tags": [
     "Mobility",
