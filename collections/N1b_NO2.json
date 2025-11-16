@@ -5,7 +5,9 @@
   "Subtitle": "Nitrogen dioxide in Europe - daily average",
   "Description": "N1b_NO2/N1b_NO2.md",
   "Themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "Tags": [
     "Air quality",
