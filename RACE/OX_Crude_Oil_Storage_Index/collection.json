@@ -224,55 +224,55 @@
       "OX"
     ],
     "themes": [
+      "commerce",
       "energy",
-      "industry",
-      "commerce"
+      "industry"
     ],
     "satellite": [
-      "Sentinel-2",
-      "Sentinel-1"
+      "Sentinel-1",
+      "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
-      "C-SAR"
+      "C-SAR",
+      "MSI"
     ],
     "cities": [
-      "Sullom Voe",
       "Thessaloniki",
-      "Aspropyrgos",
-      "Cartagena",
       "Elefsina",
-      "Sarroch",
-      "Finnart",
-      "Pachi",
-      "Cork",
-      "Godorf Wesseling",
-      "Le Havre",
-      "Corinth",
-      "Algeciras",
-      "Grangemouth",
-      "Omisalj",
-      "Fos-Lavera",
-      "Wilhelmshaven",
-      "Teesport",
       "Rotterdam",
-      "Trieste",
+      "Sullom Voe",
+      "Grangemouth",
+      "Wilhelmshaven",
+      "Algeciras",
+      "Antwerp",
+      "Fos-Lavera",
       "Tarragona",
       "Schwechat",
+      "Cartagena",
+      "Le Havre",
+      "Trieste",
+      "Teesport",
+      "Godorf Wesseling",
+      "Omisalj",
+      "Sarroch",
       "Dalmeny",
-      "Antwerp"
+      "Cork",
+      "Aspropyrgos",
+      "Pachi",
+      "Corinth",
+      "Finnart"
     ],
     "countries": [
-      "AT",
-      "GR",
-      "HR",
-      "FR",
+      "NL",
       "IE",
       "GB",
+      "FR",
+      "AT",
       "ES",
-      "IT",
-      "NL",
       "BE",
+      "IT",
+      "GR",
+      "HR",
       "DE"
     ],
     "thumbnail": [
