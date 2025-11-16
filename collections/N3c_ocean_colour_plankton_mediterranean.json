@@ -5,7 +5,8 @@
   "Subtitle": "Ocean colour plankton description",
   "Description": "N3c_ocean_colour_plankton_mediterranean/N3c_ocean_colour_plankton_mediterranean.md",
   "Themes": [
-    "water"
+    "water",
+    "climate"
   ],
   "Tags": [
     "Water quality",
