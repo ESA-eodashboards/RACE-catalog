@@ -87,7 +87,8 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png",
   "yAxis": "Sea Surface Temperature [Celsius Degree]",
   "themes": [
-    "water"
+    "water",
+    "climate"
   ],
   "tags": [
     "Water quality",

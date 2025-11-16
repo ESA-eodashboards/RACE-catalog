@@ -21,7 +21,9 @@
       "code": "N3a2_TSM",
       "id": "total_suspended_matter",
       "themes": [
-        "water"
+        "water",
+        "climate",
+        "sport"
       ],
       "providers": [
         "Copernicus Marine Service",
@@ -115,7 +117,9 @@
   "shortdescription": "Societal relevance for this indicator",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter/N3a2_total_suspended_matter.png",
   "themes": [
-    "water"
+    "water",
+    "climate",
+    "sport"
   ],
   "locations": true,
   "tags": [
@@ -190,6 +194,8 @@
       "N3a2_TSM"
     ],
     "themes": [
+      "climate",
+      "sport",
       "water"
     ],
     "satellite": [

@@ -20,7 +20,10 @@
       "code": "N3",
       "id": "regional_water_quality_timeseries",
       "themes": [
-        "water"
+        "water",
+        "health",
+        "sport",
+        "climate"
       ],
       "providers": [
         "Copernicus Marine Service",
@@ -130,7 +133,10 @@
   "subtitle": "Regional water quality time series",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg",
   "themes": [
-    "water"
+    "water",
+    "health",
+    "sport",
+    "climate"
   ],
   "tags": [
     "Water quality",
@@ -193,6 +199,9 @@
       "N3"
     ],
     "themes": [
+      "health",
+      "climate",
+      "sport",
       "water"
     ],
     "satellite": [
@@ -202,20 +211,20 @@
       "OLCI"
     ],
     "cities": [
-      "Marseilles",
-      "Barcelona",
-      "Lisbon",
       "Venice Lagoon",
+      "Barcelona",
+      "Marseilles",
+      "Hamburg",
       "Constanta",
-      "Hamburg"
+      "Lisbon"
     ],
     "countries": [
-      "IT",
-      "PT",
-      "FR",
       "ES",
+      "FR",
+      "PT",
       "GE",
-      "RO"
+      "RO",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg"

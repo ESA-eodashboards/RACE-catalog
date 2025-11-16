@@ -20,7 +20,8 @@
       "code": "N1b_PM25",
       "id": "PM25",
       "themes": [
-        "air"
+        "air",
+        "health"
       ],
       "providers": [
         "Copernicus Atmosphere Monitoring Service"
@@ -103,7 +104,8 @@
   "subtitle": "Particulate matter 2.5µm in Europe - daily average",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM25/N1b_PM25.png",
   "themes": [
-    "air"
+    "air",
+    "health"
   ],
   "tags": [
     "Air quality",
@@ -180,7 +182,8 @@
       "N1b_PM25"
     ],
     "themes": [
-      "air"
+      "air",
+      "health"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM25/N1b_PM25.png"

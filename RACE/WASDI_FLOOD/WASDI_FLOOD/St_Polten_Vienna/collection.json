@@ -78,7 +78,8 @@
   "subtitle": "Automated flood map",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WASDI_FLOOD/WASDI_FLOOD.jpg",
   "themes": [
-    "water"
+    "water",
+    "health"
   ],
   "tags": [
     "Copernicus Services",

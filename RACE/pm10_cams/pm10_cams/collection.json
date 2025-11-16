@@ -527,7 +527,8 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1c_pm10_cams/N1c_pm10_cams_graph.png",
   "yAxis": "PM10 Surface Concentration[micro g/m3]",
   "themes": [
-    "air"
+    "air",
+    "health"
   ],
   "tags": [
     "Air quality",

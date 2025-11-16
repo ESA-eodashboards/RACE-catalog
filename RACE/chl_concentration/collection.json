@@ -20,7 +20,9 @@
       "code": "N3a2",
       "id": "chl_concentration",
       "themes": [
-        "water"
+        "water",
+        "climate",
+        "health"
       ],
       "providers": [
         "Copernicus Marine Service",
@@ -113,7 +115,9 @@
   "subtitle": "Chlorophyll-a concentration description",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration/N3a2_chl_concentration.png",
   "themes": [
-    "water"
+    "water",
+    "climate",
+    "health"
   ],
   "locations": true,
   "tags": [
@@ -188,6 +192,8 @@
       "N3a2"
     ],
     "themes": [
+      "climate",
+      "health",
       "water"
     ],
     "satellite": [

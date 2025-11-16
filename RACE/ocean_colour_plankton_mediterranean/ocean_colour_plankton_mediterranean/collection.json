@@ -33,7 +33,8 @@
   "subtitle": "Ocean colour plankton description",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_mediterranean/N3c_ocean_colour_plankton_mediterranean.png",
   "themes": [
-    "water"
+    "water",
+    "climate"
   ],
   "tags": [
     "Water quality",

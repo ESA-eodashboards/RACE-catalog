@@ -20,7 +20,9 @@
       "code": "OX",
       "id": "OX_Crude_Oil_Storage_Index",
       "themes": [
-        "economy"
+        "commerce",
+        "industry",
+        "energy"
       ],
       "providers": [
         "Copernicus Data Space Ecosystem",
@@ -152,7 +154,9 @@
   "subtitle": "Level of oil in tanks based on SAR and optical data",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg",
   "themes": [
-    "economy"
+    "commerce",
+    "industry",
+    "energy"
   ],
   "tags": [
     "Copernicus",
@@ -220,54 +224,56 @@
       "OX"
     ],
     "themes": [
-      "economy"
+      "industry",
+      "commerce",
+      "energy"
     ],
     "satellite": [
       "Sentinel-2",
       "Sentinel-1"
     ],
     "sensor": [
-      "C-SAR",
-      "MSI"
+      "MSI",
+      "C-SAR"
     ],
     "cities": [
-      "Godorf Wesseling",
-      "Rotterdam",
-      "Teesport",
-      "Thessaloniki",
-      "Trieste",
-      "Finnart",
-      "Sullom Voe",
-      "Dalmeny",
-      "Omisalj",
-      "Tarragona",
-      "Elefsina",
-      "Cork",
-      "Corinth",
-      "Aspropyrgos",
-      "Sarroch",
-      "Grangemouth",
-      "Pachi",
-      "Algeciras",
       "Cartagena",
-      "Wilhelmshaven",
-      "Antwerp",
-      "Le Havre",
+      "Godorf Wesseling",
       "Schwechat",
-      "Fos-Lavera"
+      "Antwerp",
+      "Thessaloniki",
+      "Algeciras",
+      "Dalmeny",
+      "Rotterdam",
+      "Fos-Lavera",
+      "Le Havre",
+      "Grangemouth",
+      "Corinth",
+      "Pachi",
+      "Omisalj",
+      "Aspropyrgos",
+      "Trieste",
+      "Sarroch",
+      "Teesport",
+      "Finnart",
+      "Tarragona",
+      "Cork",
+      "Elefsina",
+      "Sullom Voe",
+      "Wilhelmshaven"
     ],
     "countries": [
-      "NL",
-      "IT",
       "DE",
-      "GB",
+      "NL",
       "AT",
-      "BE",
-      "HR",
-      "GR",
-      "FR",
       "ES",
-      "IE"
+      "IE",
+      "FR",
+      "HR",
+      "GB",
+      "GR",
+      "IT",
+      "BE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"

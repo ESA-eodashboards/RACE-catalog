@@ -20,7 +20,8 @@
       "code": "NASAPopulation",
       "id": "population_density",
       "themes": [
-        "economy"
+        "society",
+        "health"
       ],
       "providers": [
         "SEDAC"
@@ -99,7 +100,8 @@
   "subtitle": "Population density 2020",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NASAPopulation/NASAPopulation_photo.jpg",
   "themes": [
-    "economy"
+    "society",
+    "health"
   ],
   "tags": [
     "Society",
@@ -169,7 +171,8 @@
       "NASAPopulation"
     ],
     "themes": [
-      "economy"
+      "health",
+      "society"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NASAPopulation/NASAPopulation_photo.jpg"

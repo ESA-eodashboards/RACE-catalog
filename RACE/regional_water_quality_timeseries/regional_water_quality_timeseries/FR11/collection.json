@@ -80,7 +80,10 @@
   "subtitle": "Regional water quality time series",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg",
   "themes": [
-    "water"
+    "water",
+    "health",
+    "sport",
+    "climate"
   ],
   "tags": [
     "Water quality",

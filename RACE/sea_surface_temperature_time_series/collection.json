@@ -20,7 +20,8 @@
       "code": "SST",
       "id": "sea_surface_temperature_time_series",
       "themes": [
-        "water"
+        "water",
+        "climate"
       ],
       "providers": [
         "Copernicus Marine Service"
@@ -135,7 +136,8 @@
   "subtitle": "Key ocean monitoring indicator",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png",
   "themes": [
-    "water"
+    "water",
+    "climate"
   ],
   "tags": [
     "Water quality",
@@ -197,35 +199,36 @@
       "SST"
     ],
     "themes": [
+      "climate",
       "water"
     ],
     "satellite": [
-      "Sentinel-3",
+      "Suomi NPP",
       "JPSS-1",
-      "Metop-B",
       "Other",
-      "Suomi NPP"
+      "Sentinel-3",
+      "Metop-B"
     ],
     "sensor": [
+      "SLSTR",
       "VIIRS",
-      "AVHRR",
-      "SLSTR"
+      "AVHRR"
     ],
     "cities": [
-      "Marseilles",
-      "Barcelona",
-      "Lisbon",
       "Venice Lagoon",
+      "Barcelona",
+      "Marseilles",
+      "Hamburg",
       "Constanta",
-      "Hamburg"
+      "Lisbon"
     ],
     "countries": [
-      "IT",
-      "PT",
-      "FR",
       "ES",
+      "FR",
+      "PT",
       "GE",
-      "RO"
+      "RO",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png"

@@ -45,7 +45,8 @@
   "subtitle": "Population density 2020",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NASAPopulation/NASAPopulation_photo.jpg",
   "themes": [
-    "economy"
+    "society",
+    "health"
   ],
   "tags": [
     "Society",

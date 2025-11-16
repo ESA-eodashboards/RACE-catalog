@@ -261,7 +261,9 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg",
   "yAxis": "[%]",
   "themes": [
-    "economy"
+    "commerce",
+    "industry",
+    "energy"
   ],
   "tags": [
     "Copernicus",

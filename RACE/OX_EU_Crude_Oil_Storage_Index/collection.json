@@ -20,7 +20,9 @@
       "code": "OX_EU",
       "id": "OX_EU_Crude_Oil_Storage_Index",
       "themes": [
-        "economy"
+        "commerce",
+        "industry",
+        "energy"
       ],
       "providers": [
         "Copernicus Data Space Ecosystem",
@@ -119,7 +121,9 @@
   "subtitle": "Level of oil in tanks based on SAR and optical data Europe",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_EU_Crude_Oil_Storage_Index_photo.jpg",
   "themes": [
-    "economy"
+    "commerce",
+    "industry",
+    "energy"
   ],
   "tags": [
     "Copernicus",
@@ -187,15 +191,17 @@
       "OX_EU"
     ],
     "themes": [
-      "economy"
+      "industry",
+      "commerce",
+      "energy"
     ],
     "satellite": [
       "Sentinel-2",
       "Sentinel-1"
     ],
     "sensor": [
-      "C-SAR",
-      "MSI"
+      "MSI",
+      "C-SAR"
     ],
     "cities": [
       "/"

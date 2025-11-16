@@ -38,7 +38,8 @@
   "subtitle": "Particulate matter 10µm in Europe - daily average",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM10/N1b_PM10.png",
   "themes": [
-    "air"
+    "air",
+    "health"
   ],
   "tags": [
     "Air quality",

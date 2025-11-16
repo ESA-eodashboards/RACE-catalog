@@ -33,7 +33,8 @@
   "subtitle": "Ocean colour plankton description",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_black_sea/N3c_ocean_colour_plankton_black_sea.png",
   "themes": [
-    "water"
+    "water",
+    "climate"
   ],
   "tags": [
     "Water quality",

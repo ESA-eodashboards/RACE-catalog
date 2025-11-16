@@ -100,7 +100,8 @@
   "subtitle": "Sea surface temperature description",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_sea_surface_temperature/N3a2_sea_surface_temperature_photo.jpg",
   "themes": [
-    "water"
+    "water",
+    "climate"
   ],
   "locations": true,
   "tags": [

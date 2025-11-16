@@ -20,7 +20,9 @@
       "code": "N1b",
       "id": "no2_cams",
       "themes": [
-        "air"
+        "air",
+        "climate",
+        "health"
       ],
       "providers": [
         "Copernicus Atmosphere Monitoring Service"
@@ -204,7 +206,9 @@
   "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_no2_cams/N1b_no2_cams_graph.jpg",
   "themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "tags": [
     "Air quality",
@@ -258,7 +262,9 @@
       "N1b"
     ],
     "themes": [
-      "air"
+      "air",
+      "health",
+      "climate"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_no2_cams/N1b_no2_cams_graph.jpg"

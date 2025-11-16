@@ -20,7 +20,8 @@
       "code": "N3c_med",
       "id": "ocean_colour_plankton_mediterranean",
       "themes": [
-        "water"
+        "water",
+        "climate"
       ],
       "providers": [
         "Copernicus Marine Service"
@@ -104,7 +105,8 @@
   "subtitle": "Ocean colour plankton description",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_mediterranean/N3c_ocean_colour_plankton_mediterranean.png",
   "themes": [
-    "water"
+    "water",
+    "climate"
   ],
   "tags": [
     "Water quality",
@@ -169,18 +171,19 @@
       "N3c_med"
     ],
     "themes": [
+      "climate",
       "water"
     ],
     "satellite": [
+      "JPSS-1",
       "Aqua",
       "Sentinel-3",
-      "Suomi NPP",
-      "JPSS-1"
+      "Suomi NPP"
     ],
     "sensor": [
-      "VIIRS",
       "MODIS",
-      "OLCI"
+      "OLCI",
+      "VIIRS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_mediterranean/N3c_ocean_colour_plankton_mediterranean.png"
