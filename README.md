@@ -1,5 +1,4 @@
-# Catalog holding collection definitions for eodashboard.org
-
+# Catalog holding collection definitions for race.esa.int
 This repository allows generation of STAC catalogs based on the configuration JSON files provided in the repository.
 The configuration options are described in the [Wiki](https://github.com/eodash/eodash_catalog/wiki).
 
