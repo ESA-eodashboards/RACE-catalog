@@ -1,50 +1,50 @@
 {
   "climate": {
     "title": "Climate",
-    "description": "how weather and climate variability affect us"
+    "description": "How weather and climate variability affect us"
   },
   "water": {
     "title": "Water",
-    "description": "availability, quality, floods and droughts"
+    "description": "Water availability, water quality, floods and droughts"
   },
   "air": {
     "title": "Air",
-    "description": "air quality and atmospheric composition"
+    "description": "Air quality and atmospheric composition"
   },
   "land": {
     "title": "Land & Nature",
-    "description": "state of land, ecosystems, biodiversity"
+    "description": "State of land, ecosystems, biodiversity"
   },
   "agriculture": {
     "title": "Food & Agriculture",
-    "description": "food production, crops, food security"
+    "description": "Food production, crops, food security"
   },
   "energy": {
     "title": "Energy",
-    "description": "energy sources, usage"
+    "description": "Energy sources, supplies and usage"
   },
   "industry": {
     "title": "Industry & Production",
-    "description": "manufacturing, industrial activity, construction"
+    "description": "Manufacturing, industrial activity, and construction"
   },
   "commerce": {
     "title": "Commerce & Transport",
-    "description": "trade, mobility, logistics"
+    "description": "Trade, mobility, and logistics"
   },
   "society": {
     "title": "Society & Living",
-    "description": "Urban & rural life, housing, population, services"
+    "description": "Urban & rural life, housing, population, and services"
   },
   "tourism": {
     "title": "Tourism",
-    "description": "travel, recreation, seasonal activity"
+    "description": "Travel, recreation, and seasonal activity"
   },
   "sport": {
     "title": "Sport",
-    "description": "outdoor activity, leisure, active lifestyle"
+    "description": "Outdoor activity, leisure, active lifestyle"
   },
   "health": {
     "title": "Health & Wellbeing",
-    "description": "human health, comfort, environmental safety"
+    "description": "Human health, comfort, and environmental safety"
   }
 }
