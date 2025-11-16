@@ -5,7 +5,8 @@
   "Subtitle": "Particulate matter 2.5\u00b5m in Europe - daily average",
   "Description": "N1b_PM25/N1b_PM25.md",
   "Themes": [
-    "air"
+    "air",
+    "health"
   ],
   "Tags": [
     "Air quality",
