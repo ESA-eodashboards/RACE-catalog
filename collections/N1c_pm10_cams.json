@@ -6,7 +6,8 @@
   "Subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
   "Description": "N1c_pm10_cams/N1c_pm10_cams.md",
   "Themes": [
-    "air"
+    "air",
+    "health"
   ],
   "Tags": [
     "Air quality",
