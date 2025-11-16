@@ -6,7 +6,10 @@
   "Subtitle": "Regional water quality time series",
   "Description": "N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries.md",
   "Themes": [
-    "water"
+    "water",
+    "health",
+    "sport",
+    "climate"
   ],
   "Tags": [
     "Water quality",
