@@ -4,6 +4,7 @@
   "EodashIdentifier": "CDS4",
   "Subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind V field",
   "Description": "CDS4_wind_10m_v/CDS4_wind_10m_v.md",
+  "ShortDescription": "The 10-meter (10m) v-component of wind velocity from the Copernicus Climate Data Store (CDS) is a fundamental meteorological variable representing the meridional wind flow (northward wind, with positive values indicating flow from south to north). When combined with the u-component (eastward wind), it allows for a complete calculation of wind speed and direction near the Earth's surface, which is critical for a wide array of societal applications."
   "Themes": [
     "air",
     "climate"
