@@ -5,7 +5,9 @@
   "Subtitle": "Ozone at global level - daily average",
   "Description": "N1b_O3/N1b_O3.md",
   "Themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "Tags": [
     "Air quality",
