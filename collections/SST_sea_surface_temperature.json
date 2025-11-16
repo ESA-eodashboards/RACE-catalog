@@ -6,7 +6,8 @@
   "Subtitle": "Key ocean monitoring indicator",
   "Description": "SST_sea_surface_temperature/SST_sea_surface_temperature.md",
   "Themes": [
-    "water"
+    "water",
+    "climate"
   ],
   "Tags": [
     "Water quality",
