@@ -5,7 +5,9 @@
   "Subtitle": "Daily Methane Monitoring",
   "Description": "N1_methane_monitoring/N1_methane_monitoring.md",
   "Themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "Tags": [
     "Air quality",
