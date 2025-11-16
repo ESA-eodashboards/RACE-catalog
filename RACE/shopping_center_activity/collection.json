@@ -195,15 +195,15 @@
       "Warsaw",
       "Brussels",
       "Milan",
-      "Rome",
       "Athens",
-      "Bucharest"
+      "Bucharest",
+      "Rome"
     ],
     "countries": [
+      "PL",
       "IT",
       "RO",
       "BE",
-      "PL",
       "GR"
     ],
     "thumbnail": [
