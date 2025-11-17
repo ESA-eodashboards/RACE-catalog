@@ -262,8 +262,8 @@
       "N1a"
     ],
     "themes": [
-      "air",
-      "health"
+      "health",
+      "air"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1a_pm25_cams/N1a_pm25_cams_graph.png"
