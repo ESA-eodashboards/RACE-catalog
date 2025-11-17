@@ -176,13 +176,13 @@
     ],
     "satellite": [
       "Aqua",
-      "JPSS-1",
+      "Suomi NPP",
       "Sentinel-3",
-      "Suomi NPP"
+      "JPSS-1"
     ],
     "sensor": [
-      "OLCI",
       "MODIS",
+      "OLCI",
       "VIIRS"
     ],
     "thumbnail": [
