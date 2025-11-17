@@ -130,7 +130,7 @@
   "Google": {
     "Url": "https://www.google.com/covid19/mobility/",
     "Description": "Google LLC.",
-    "Logo": " "
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/google.jpeg?raw=true"
   },
   "ICEYE": {
     "Url": "https://www.iceye.com/",
@@ -177,27 +177,27 @@
   "Open Street Maps": {
     "Url": "https://wiki.openstreetmap.org/",
     "Description": "OpenStreetMap (OSM) is a global, collaborative project to create a free, editable map of the world, built and maintained by a community of volunteers",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/osm.jpeg?raw=true"
   },
   "Our World in Data": {
     "Url": "https://ourworldindata.org",
     "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/owid.jpeg?raw=true"
   },
   "SEDAC": {
     "Url": "https://sedac.ciesin.columbia.edu",
     "Description": "Socioeconomic Data and Applications Center (SEDAC)",
-    "Logo": " "
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/sedac.jpeg?raw=true"
   },
   "TU Wien": {
     "Url": "https://www.tuwien.at/",
     "Description": "Technische Universität Wien",
-    "Logo": " "
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/tuw.jpeg?raw=true"
   },
   "Université catholique de Louvain": {
     "Url": "https://uclouvain.be/en/",
     "Description": "UCLouvain (Université catholique de Louvain)",
-    "Logo": " "
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/ucl.jpeg?raw=true"
   },
   "Vista": {
     "Url": "https://www.vista-geo.de/",
@@ -208,7 +208,7 @@
   "Vodafone": {
     "Url": "https://www.vodafone.com/",
     "Description": "Vodafone Italia S.p.A.",
-    "Logo": " "
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/vodafone.jpeg?raw=true"
   },
   "WASDI Market Place": {
     "Url": "https://www.wasdi.cloud",
@@ -259,7 +259,7 @@
   "SRON": {
     "Url": "https://www.sron.nl/en/",
     "Description": "Netherlands Institute for Space Research.",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/sron.png?raw=true"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/sron.jpg?raw=true"
   },
   "Planetek": {
     "Url": "http://www.planetek.it/en",
@@ -304,6 +304,6 @@
   "EMSA": {
     "Url": "https://emsa.europa.eu/",
     "Description": "The European Maritime Safety Agency (EMSA) is a European Union agency.",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/emsa.jpeg?raw=true"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/emsa.png?raw=true"
   }
 }
