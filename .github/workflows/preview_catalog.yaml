@@ -68,10 +68,19 @@ jobs:
         run: npm install -g ajv-cli
       - name: Validate static JSON files against schemas
         run: |
-          ajv validate -d static/partnerships.json -s https://eodash.github.io/eodash-schemas/race/partnerships-schema.json
-          ajv validate -d static/providers.json -s https://eodash.github.io/eodash-schemas/race/providers-schema.json
-          ajv validate -d static/resources.json -s https://eodash.github.io/eodash-schemas/race/resources-schema.json
-          ajv validate -d static/themes.json -s https://eodash.github.io/eodash-schemas/race/themes-schema.json
+          mkdir -p schemas
+          wget -O schemas/partnerships-schema.json \
+            https://eodash.github.io/eodash-schemas/race/partnerships-schema.json
+          wget -O schemas/another-schema.json \
+            https://eodash.github.io/eodash-schemas/race/another-schema.json
+          wget -O schemas/third-schema.json \
+            https://eodash.github.io/eodash-schemas/race/third-schema.json
+          wget -O schemas/fourth-schema.json \
+            https://eodash.github.io/eodash-schemas/race/fourth-schema.json
+          ajv validate -d static/partnerships.json -s schemas/partnerships-schema.json
+          ajv validate -d static/providers.json -s schemas/providers-schema.json
+          ajv validate -d static/resources.json -s schemas/resources-schema.json
+          ajv validate -d static/themes.json -s schemas/themes-schema.json
       -
         if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Build
