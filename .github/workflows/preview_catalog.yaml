@@ -60,6 +60,18 @@ jobs:
       - if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Prepare build directory for permissions to be right further for copy step
         run: mkdir -p build
+      - name: Set up Node.js for static schema validation
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install AJV
+        run: npm install -g ajv-cli
+      - name: Validate static JSON files against schemas
+        run: |
+          ajv validate -d static/partnerships.json -s https://eodash.github.io/eodash-schemas/race/partnerships-schema.json --spec=draft04
+          ajv validate -d static/providers.json -s https://eodash.github.io/eodash-schemas/race/providers-schema.json --spec=draft04
+          ajv validate -d static/resources.json -s https://eodash.github.io/eodash-schemas/race/resources-schema.json --spec=draft04
+          ajv validate -d static/themes.json -s https://eodash.github.io/eodash-schemas/race/themes-schema.json --spec=draft04
       -
         if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Build
