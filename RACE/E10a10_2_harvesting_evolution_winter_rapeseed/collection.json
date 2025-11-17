@@ -191,8 +191,8 @@
       "E10a10_2"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"
@@ -201,39 +201,39 @@
       "C-SAR"
     ],
     "cities": [
-      "Poland",
-      "United Kingdom",
-      "Bulgaria",
-      "Sweden",
-      "France",
-      "Croatia",
-      "Lithuania",
-      "Latvia",
-      "Hungary",
-      "Slovak Republic",
-      "Denmark",
-      "Germany",
-      "Czech Republic",
-      "Romania",
       "Austria",
-      "Estonia"
+      "France",
+      "Romania",
+      "Hungary",
+      "Poland",
+      "Bulgaria",
+      "Czech Republic",
+      "Germany",
+      "Latvia",
+      "United Kingdom",
+      "Estonia",
+      "Lithuania",
+      "Croatia",
+      "Denmark",
+      "Sweden",
+      "Slovak Republic"
     ],
     "countries": [
-      "FR",
-      "LV",
       "PL",
+      "SK",
+      "RO",
+      "SE",
       "BG",
+      "HR",
+      "GB",
+      "LT",
+      "DK",
+      "FR",
+      "EE",
+      "HU",
       "CZ",
       "AT",
-      "RO",
-      "DK",
-      "SE",
-      "SK",
-      "GB",
-      "HR",
-      "EE",
-      "LT",
-      "HU",
+      "LV",
       "DE"
     ],
     "thumbnail": [

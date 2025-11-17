@@ -89,7 +89,7 @@
   "ESA": {
     "Url": "https://esa.int/",
     "Description": "The European Space Agency",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpeg?raw=true"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true"
   },
   "EUMETSAT": {
     "Url": "https://data.eumetsat.int",
@@ -104,7 +104,7 @@
   "EUROSTAT": {
     "Url": "https://ec.europa.eu/eurostat",
     "Description": "Eurostat is the statistical office of the European Union, independently responsible for publishing high-quality Europe-wide statistics and indicators that enable comparisons between countries and regions.",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/eurostat.jpeg?raw=true"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/eurostat.jpg?raw=true"
   },
   "ExpertLab": {
     "Url": "https://www.expertlab.it/",
@@ -216,7 +216,7 @@
     "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=wasdi",
     "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/wasdi.jpeg?raw=true"
   },
-  "WLS": {
+  "WSL": {
     "Url": "https://www.wsl.ch/en/",
     "Description": "Swiss Federal Institute for Forest, Snow and Landscape Research.",
     "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/wsl.jpeg?raw=true"
@@ -229,7 +229,7 @@
   "BIRA": {
     "Url": "https://www.aeronomie.be/",
     "Description": "Royal Belgian Institute for Space Aeronmy.",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/bira.jpeg?raw=true"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/bira.jpg?raw=true"
   },
   "Earthpulse": {
     "Url": "https://earthpulse.ai/en",

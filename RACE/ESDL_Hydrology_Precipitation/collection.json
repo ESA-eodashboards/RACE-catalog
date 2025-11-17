@@ -26,7 +26,7 @@
         "NOAA",
         "NASA",
         "ECMWF",
-        "WLS",
+        "WSL",
         "CNR IRPI",
         "EURAC"
       ],
@@ -209,7 +209,7 @@
       "url": "https://www.ecmwf.int/"
     },
     {
-      "name": "WLS",
+      "name": "WSL",
       "roles": [
         "producer"
       ],
@@ -235,8 +235,8 @@
       "ESDL_Hydrology_Precipitation"
     ],
     "themes": [
-      "agriculture",
-      "climate"
+      "climate",
+      "agriculture"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/ESDL_Hydrology_Precipitation.jpg"

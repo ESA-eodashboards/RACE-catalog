@@ -185,13 +185,13 @@
       "E10a6"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-2",
-      "Sentinel-1",
-      "Landsat-8"
+      "Landsat-8",
+      "Sentinel-1"
     ],
     "sensor": [
       "C-SAR",
@@ -199,17 +199,17 @@
       "OLI"
     ],
     "cities": [
-      "Castilla y Leon",
-      "Andalucia",
-      "Comunidad Valenciana",
-      "La Rioja",
-      "Aragon",
       "Comunidad de Madrid",
-      "Extremadura",
-      "Cataluna",
       "Region de Murcia",
-      "Castilla-La Mancha",
-      "Comunidad Foral de Navarra"
+      "Aragon",
+      "Comunidad Valenciana",
+      "Castilla y Leon",
+      "La Rioja",
+      "Extremadura",
+      "Andalucia",
+      "Cataluna",
+      "Comunidad Foral de Navarra",
+      "Castilla-La Mancha"
     ],
     "countries": [
       "ES"
