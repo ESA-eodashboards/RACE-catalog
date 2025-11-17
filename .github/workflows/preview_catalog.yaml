@@ -68,10 +68,10 @@ jobs:
         run: npm install -g ajv-cli
       - name: Validate static JSON files against schemas
         run: |
-          ajv validate -d static/partnerships.json -s https://eodash.github.io/eodash-schemas/race/partnerships-schema.json --spec=draft04
-          ajv validate -d static/providers.json -s https://eodash.github.io/eodash-schemas/race/providers-schema.json --spec=draft04
-          ajv validate -d static/resources.json -s https://eodash.github.io/eodash-schemas/race/resources-schema.json --spec=draft04
-          ajv validate -d static/themes.json -s https://eodash.github.io/eodash-schemas/race/themes-schema.json --spec=draft04
+          ajv validate -d static/partnerships.json -s https://eodash.github.io/eodash-schemas/race/partnerships-schema.json
+          ajv validate -d static/providers.json -s https://eodash.github.io/eodash-schemas/race/providers-schema.json
+          ajv validate -d static/resources.json -s https://eodash.github.io/eodash-schemas/race/resources-schema.json
+          ajv validate -d static/themes.json -s https://eodash.github.io/eodash-schemas/race/themes-schema.json
       -
         if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Build
