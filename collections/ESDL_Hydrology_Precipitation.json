@@ -55,7 +55,7 @@
       ]
     },
     {
-      "Name": "WLS",
+      "Name": "WSL",
       "Url": "https://www.wsl.ch/en/index.html",
       "Roles": [
         "producer"
