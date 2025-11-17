@@ -228,8 +228,8 @@
   },
   "BIRA": {
     "Url": "https://www.aeronomie.be/",
-    "Description": "Royal Belgian Institute for Space Aeronmy.",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/bira.jpg?raw=true"
+    "Description": "Royal Belgian Institute for Space Aeronomy.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/bira.svg?raw=true"
   },
   "Earthpulse": {
     "Url": "https://earthpulse.ai/en",
@@ -239,32 +239,32 @@
   "KNMI": {
     "Url": "https://www.knmi.nl/home",
     "Description": "Royal Netherlands Meteorological Institute.",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/knmi.jpeg?raw=true"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/knmi.png?raw=true"
   },
   "GMV": {
     "Url": "https://www.gmv.com/en",
     "Description": "GMV is a private capital technology business group with an international presence, headquartered in Spain.",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/gmv.jpeg?raw=true"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/gmv.png?raw=true"
   },
   "Sistema": {
     "Url": "https://www.sistema.at/applications/technology/",
     "Description": "SISTEMA GmbH, an Austrian environmental services company specializing in geospatial data analysis of the atmosphere, biomass, and climate.",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/sistema.jpeg?raw=true"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/sistema.png?raw=true"
   },
   "University Bremen": {
     "Url": "https://www.uni-bremen.de/en/",
     "Description": "Universität Bremen.",
-    "Logo": " "
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/unibremen.png?raw=true"
   },
   "SRON": {
     "Url": "https://www.sron.nl/en/",
     "Description": "Netherlands Institute for Space Research.",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/sron.jpeg?raw=true"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/sron.png?raw=true"
   },
   "Planetek": {
     "Url": "http://www.planetek.it/en",
     "Description": "Planetek Italia is an Italian specialized in Geoinformatics, Space solutions, and Earth science.",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/planetek.jpeg?raw=true"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/planetek.png?raw=true"
   },
   "SpaceKnow": {
     "Url": "https://spaceknow.com/",

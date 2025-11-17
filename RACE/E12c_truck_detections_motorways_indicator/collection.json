@@ -250,8 +250,8 @@
   ],
   "summaries": {
     "subcode": [
-      "E12c_daily",
       "E12c_monthly",
+      "E12c_daily",
       "E12c_detections"
     ],
     "themes": [
