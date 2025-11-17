@@ -140,16 +140,16 @@
       "E4"
     ],
     "themes": [
-      "commerce",
-      "industry"
+      "industry",
+      "commerce"
     ],
     "cities": [
       "Genoa",
       "Hamburg"
     ],
     "countries": [
-      "DE",
-      "IT"
+      "IT",
+      "DE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E4_intermediate_goods_production/E4_intermediate_goods_production_photo.jpg"
