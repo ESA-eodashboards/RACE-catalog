@@ -21,7 +21,7 @@
   },
   "Copernicus Data Space Ecosystem": {
     "Url": "https://dataspace.copernicus.eu",
-    "dDescription": "The Copernicus Data Space Ecosystem is an open ecosystem that provides free instant access to a wide range of data and services from the Copernicus Sentinel missions and more on our planet’s land, oceans and atmosphere.",
+    "Description": "The Copernicus Data Space Ecosystem is an open ecosystem that provides free instant access to a wide range of data and services from the Copernicus Sentinel missions and more on our planet’s land, oceans and atmosphere.",
     "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cdse.jpeg?raw=true"
   }
 }
