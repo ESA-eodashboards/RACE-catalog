@@ -1,7 +1,7 @@
 {
   "Image": "N1_city_no2/N1_city_no2_photo.jpg",
   "Name": "city_no2",
-  "Title": "Air Quality (tropospheric NO2 concetrations) at city level",
+  "Title": "Air Quality (tropospheric NO2 concentrations) at city level",
   "EodashIdentifier": "N1",
   "Subtitle": "NO2 detected at cities based on Sentinel-5P data",
   "Description": "N1_city_no2/N1_city_no2.md",

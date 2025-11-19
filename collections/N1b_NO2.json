@@ -1,6 +1,6 @@
 {
   "Name": "NO2",
-  "Title": "Air Quality (NO2 concetrations) map",
+  "Title": "Air Quality (NO2 concentrations) map",
   "EodashIdentifier": "N1b_NO2",
   "Subtitle": "Nitrogen dioxide in Europe - daily average",
   "Description": "N1b_NO2/N1b_NO2.md",

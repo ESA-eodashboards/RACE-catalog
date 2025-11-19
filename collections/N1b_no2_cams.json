@@ -1,7 +1,7 @@
 {
   "Image": "N1b_no2_cams/N1b_no2_cams_graph.jpg",
   "Name": "no2_cams",
-  "Title": "Air Quality (NO2 concetrations) at city level (model)",
+  "Title": "Air Quality (NO2 concentrations) at city level (model)",
   "EodashIdentifier": "N1b",
   "Subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
   "Description": "N1b_no2_cams/N1b_no2_cams.md",

@@ -1,7 +1,7 @@
 {
   "Image": "N1a_pm25_cams/N1a_pm25_cams_graph.png",
   "Name": "pm25_cams",
-  "Title": "Air Quality (PM25 concetrations) at city level (model)",
+  "Title": "Air Quality (PM25 concentrations) at city level (model)",
   "EodashIdentifier": "N1a",
   "Subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
   "Description": "N1a_pm25_cams/N1a_pm25_cams.md",

@@ -1,6 +1,6 @@
 {
   "Name": "O3",
-  "Title": "Air Quality (O3 concetrations) map",
+  "Title": "Air Quality (O3 concentrations) map",
   "EodashIdentifier": "N1b_O3",
   "Subtitle": "Ozone at global level - daily average",
   "Description": "N1b_O3/N1b_O3.md",
