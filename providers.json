@@ -129,8 +129,7 @@
   },
   "Google": {
     "Url": "https://www.google.com/covid19/mobility/",
-    "Description": "Google LLC.",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/google.jpeg?raw=true"
+    "Description": "Google LLC."
   },
   "ICEYE": {
     "Url": "https://www.iceye.com/",
@@ -176,8 +175,7 @@
   },
   "Open Street Maps": {
     "Url": "https://wiki.openstreetmap.org/",
-    "Description": "OpenStreetMap (OSM) is a global, collaborative project to create a free, editable map of the world, built and maintained by a community of volunteers",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/osm.jpeg?raw=true"
+    "Description": "OpenStreetMap (OSM) is a global, collaborative project to create a free, editable map of the world, built and maintained by a community of volunteers"
   },
   "Our World in Data": {
     "Url": "https://ourworldindata.org",
@@ -186,18 +184,15 @@
   },
   "SEDAC": {
     "Url": "https://sedac.ciesin.columbia.edu",
-    "Description": "Socioeconomic Data and Applications Center (SEDAC)",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/sedac.jpeg?raw=true"
+    "Description": "Socioeconomic Data and Applications Center (SEDAC)"
   },
   "TU Wien": {
     "Url": "https://www.tuwien.at/",
-    "Description": "Technische Universität Wien",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/tuw.jpeg?raw=true"
+    "Description": "Technische Universität Wien"
   },
   "Université catholique de Louvain": {
     "Url": "https://uclouvain.be/en/",
-    "Description": "UCLouvain (Université catholique de Louvain)",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/ucl.jpeg?raw=true"
+    "Description": "UCLouvain (Université catholique de Louvain)"
   },
   "Vista": {
     "Url": "https://www.vista-geo.de/",
@@ -207,8 +202,7 @@
   },
   "Vodafone": {
     "Url": "https://www.vodafone.com/",
-    "Description": "Vodafone Italia S.p.A.",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/vodafone.jpeg?raw=true"
+    "Description": "Vodafone Italia S.p.A."
   },
   "WASDI Market Place": {
     "Url": "https://www.wasdi.cloud",
@@ -253,8 +247,7 @@
   },
   "University Bremen": {
     "Url": "https://www.uni-bremen.de/en/",
-    "Description": "Universität Bremen.",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/unibremen.png?raw=true"
+    "Description": "Universität Bremen."
   },
   "SRON": {
     "Url": "https://www.sron.nl/en/",

@@ -228,8 +228,8 @@
       "E13d"
     ],
     "themes": [
-      "commerce",
-      "tourism"
+      "tourism",
+      "commerce"
     ],
     "satellite": [
       "Sentinel-2"
@@ -239,22 +239,22 @@
     ],
     "countries": [
       "BE",
-      "NO",
-      "DK",
-      "IE",
-      "NL",
-      "PL",
-      "FI",
-      "TR",
-      "PT",
-      "GB",
-      "IT",
-      "AT",
-      "DE",
-      "CH",
       "GR",
-      "FR",
       "SE",
+      "IT",
+      "PL",
+      "PT",
+      "FI",
+      "CH",
+      "FR",
+      "DE",
+      "TR",
+      "AT",
+      "NL",
+      "GB",
+      "IE",
+      "DK",
+      "NO",
       "ES"
     ],
     "thumbnail": [
