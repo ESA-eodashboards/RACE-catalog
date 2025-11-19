@@ -222,8 +222,8 @@
       "E13b"
     ],
     "themes": [
-      "tourism",
-      "commerce"
+      "commerce",
+      "tourism"
     ],
     "satellite": [
       "Sentinel-2"
@@ -232,25 +232,25 @@
       "MSI"
     ],
     "countries": [
-      "BE",
-      "SE",
-      "IT",
-      "PL",
-      "FI",
       "FR",
-      "GB",
-      "NO",
-      "UK",
-      "CH",
-      "IE",
-      "GR",
       "PT",
-      "DE",
-      "TR",
-      "AT",
-      "DK",
+      "IE",
+      "FI",
+      "NO",
+      "BE",
       "ES",
-      "NL"
+      "SE",
+      "PL",
+      "CH",
+      "NL",
+      "DE",
+      "UK",
+      "DK",
+      "GB",
+      "AT",
+      "GR",
+      "IT",
+      "TR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg"

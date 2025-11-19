@@ -194,10 +194,10 @@
     ],
     "themes": [
       "health",
+      "commerce",
       "society",
-      "tourism",
       "sport",
-      "commerce"
+      "tourism"
     ],
     "cities": [
       "/"
