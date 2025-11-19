@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./PM25/collection.json",
       "type": "application/json",
-      "title": "Air Quality (PM2.5 concetrations) map",
+      "title": "Air Quality (PM2.5 concentrations) map",
       "endpointtype": "WMS_Time",
       "subtitle": "Particulate matter 2.5µm in Europe - daily average",
       "code": "N1b_PM25",
@@ -143,7 +143,7 @@
     "tickFormat": ".0f",
     "title": "PM2.5 [µg/m³]"
   },
-  "title": "Air Quality (PM2.5 concetrations) map",
+  "title": "Air Quality (PM2.5 concentrations) map",
   "extent": {
     "spatial": {
       "bbox": [

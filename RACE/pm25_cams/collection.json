@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./pm25_cams/collection.json",
       "type": "application/json",
-      "title": "Air Quality (PM25 concetrations) at city level (model)",
+      "title": "Air Quality (PM25 concentrations) at city level (model)",
       "endpointtype": "GeoDB",
       "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
       "code": "N1a",
@@ -229,7 +229,7 @@
   ],
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N1a_pm25_cams/chart.json",
-  "title": "Air Quality (PM25 concetrations) at city level (model)",
+  "title": "Air Quality (PM25 concentrations) at city level (model)",
   "extent": {
     "spatial": {
       "bbox": [

@@ -50,14 +50,6 @@
       "type": "text/html"
     },
     {
-      "rel": "service",
-      "href": "https://services.sentinel-hub.com/api/v1/statistics",
-      "type": "application/json",
-      "id": "sentinelhub-statistics",
-      "method": "POST",
-      "endpoint": "sentinelhub"
-    },
-    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
@@ -154,8 +146,6 @@
     "tickFormat": ".0f",
     "title": "0 - 10 000 m² of built-up surface areas"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
   "title": "GHS-BUILT-S-R2023A",
   "extent": {
     "spatial": {

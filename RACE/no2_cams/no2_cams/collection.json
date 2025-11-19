@@ -520,7 +520,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Air Quality (NO2 concetrations) at city level (model)"
+      "title": "Air Quality (NO2 concentrations) at city level (model)"
     }
   ],
   "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
@@ -550,7 +550,7 @@
   ],
   "locations": true,
   "endpointtype": "GeoDB",
-  "title": "Air Quality (NO2 concetrations) at city level (model)",
+  "title": "Air Quality (NO2 concentrations) at city level (model)",
   "extent": {
     "spatial": {
       "bbox": [

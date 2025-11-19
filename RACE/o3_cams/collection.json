@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./o3_cams/collection.json",
       "type": "application/json",
-      "title": "Air Quality (O3 concetrations) at city level (model)",
+      "title": "Air Quality (O3 concentrations) at city level (model)",
       "endpointtype": "GeoDB",
       "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
       "code": "N1d",
@@ -229,7 +229,7 @@
   ],
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N1d_o3_cams/chart.json",
-  "title": "Air Quality (O3 concetrations) at city level (model)",
+  "title": "Air Quality (O3 concentrations) at city level (model)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -262,8 +262,8 @@
       "N1d"
     ],
     "themes": [
-      "health",
       "air",
+      "health",
       "climate"
     ],
     "thumbnail": [

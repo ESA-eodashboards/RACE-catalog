@@ -284,7 +284,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Air Quality (tropospheric NO2 concetrations) at city level"
+      "title": "Air Quality (tropospheric NO2 concentrations) at city level"
     }
   ],
   "subtitle": "NO2 detected at cities based on Sentinel-5P data",
@@ -333,7 +333,7 @@
   },
   "locations": true,
   "endpointtype": "GeoDB",
-  "title": "Air Quality (tropospheric NO2 concetrations) at city level",
+  "title": "Air Quality (tropospheric NO2 concentrations) at city level",
   "extent": {
     "spatial": {
       "bbox": [

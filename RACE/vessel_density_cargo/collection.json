@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "vessel_density_cargo",
   "stac_version": "1.1.0",
-  "description": "## Cargo Ship density Map\n\nThis indicator shows maps representing the total cargo ship presence time on a 1 km grid (EEA/Inspire standards)\nfor every month from 2017-2021. The indicator is provided by the [EMODnet Human activities portal](https://www.emodnet-humanactivities.eu/view-data.php). \n\nThe total cargo ship presence times are converted to average instantaneous number of ships per square km.\n\nThese maps have been made from ship reporting data of the Automatic Identification System (AIS), collected by coastal stations and satellites. \n\nEMODnet Human Activities creates vessel density maps of EU waters showing the average number of vessels of certain type (cargo, passenger, fishing etc.) in a given period within a grid cell.\n\n<div style=\"display: flex;\">\n    <img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png\" alt=\"Image\";\" />\n    <img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_legend.png\" alt=\"Legend\" style=\"width: 30%;\" />\n</div>\n",
+  "description": "## Cargo Ship density Map\n\nThis indicator shows maps representing the total cargo ship presence time on a 1 km grid (EEA/Inspire standards)\nfor every month from 2017-2021. The indicator is provided by the [EMODnet Human activities portal](https://www.emodnet-humanactivities.eu/view-data.php). \n\nThe total cargo ship presence times are converted to average instantaneous number of ships per square km.\n\nThese maps have been made from ship reporting data of the Automatic Identification System (AIS), collected by coastal stations and satellites. \n\nEMODnet Human Activities creates vessel density maps of EU waters showing the average number of vessels of certain type (cargo, passenger, fishing etc.) in a given period within a grid cell.\n\n<img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png\" alt=\"Image\" />\n\n<img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_legend.png\" alt=\"Legend\" />\n",
   "links": [
     {
       "rel": "root",
@@ -182,8 +182,8 @@
       "E13p"
     ],
     "themes": [
-      "industry",
-      "commerce"
+      "commerce",
+      "industry"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_vessel_density_cargo.png"

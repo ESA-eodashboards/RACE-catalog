@@ -213,8 +213,8 @@
       "N1_CH4"
     ],
     "themes": [
-      "health",
       "air",
+      "health",
       "climate"
     ],
     "satellite": [

@@ -35,7 +35,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Air Quality (tropospheric NO2 concetrations)"
+      "title": "Air Quality (tropospheric NO2 concentrations)"
     }
   ],
   "subtitle": "Daily Nitrogen Dioxide",
@@ -88,7 +88,7 @@
   },
   "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
-  "title": "Air Quality (tropospheric NO2 concetrations)",
+  "title": "Air Quality (tropospheric NO2 concentrations)",
   "extent": {
     "spatial": {
       "bbox": [

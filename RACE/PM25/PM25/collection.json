@@ -32,7 +32,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Air Quality (PM2.5 concetrations) map"
+      "title": "Air Quality (PM2.5 concentrations) map"
     }
   ],
   "subtitle": "Particulate matter 2.5µm in Europe - daily average",
@@ -78,7 +78,7 @@
     "title": "PM2.5 [µg/m³]"
   },
   "endpointtype": "WMS_Time",
-  "title": "Air Quality (PM2.5 concetrations) map",
+  "title": "Air Quality (PM2.5 concentrations) map",
   "extent": {
     "spatial": {
       "bbox": [

@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./O3/collection.json",
       "type": "application/json",
-      "title": "Air Quality (O3 concetrations) map",
+      "title": "Air Quality (O3 concentrations) map",
       "endpointtype": "WMS_Time",
       "subtitle": "Ozone at global level - daily average",
       "code": "N1b_O3",
@@ -145,7 +145,7 @@
     "tickFormat": ".0f",
     "title": "O3 [µg/m³]"
   },
-  "title": "Air Quality (O3 concetrations) map",
+  "title": "Air Quality (O3 concentrations) map",
   "extent": {
     "spatial": {
       "bbox": [
@@ -178,8 +178,8 @@
       "N1b_O3"
     ],
     "themes": [
-      "health",
       "air",
+      "health",
       "climate"
     ],
     "thumbnail": [

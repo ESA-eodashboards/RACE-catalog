@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./NO2_daily/collection.json",
       "type": "application/json",
-      "title": "Air Quality (tropospheric NO2 concetrations)",
+      "title": "Air Quality (tropospheric NO2 concentrations)",
       "endpointtype": "Sentinel Hub_byoc",
       "subtitle": "Daily Nitrogen Dioxide",
       "code": "N1_NO2",
@@ -153,7 +153,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
-  "title": "Air Quality (tropospheric NO2 concetrations)",
+  "title": "Air Quality (tropospheric NO2 concentrations)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -192,8 +192,8 @@
       "N1_NO2"
     ],
     "themes": [
-      "health",
       "air",
+      "health",
       "climate"
     ],
     "satellite": [

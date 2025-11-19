@@ -71,7 +71,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Air Quality (PM10 concetrations) at city level (model)"
+      "title": "Air Quality (PM10 concentrations) at city level (model)"
     }
   ],
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",

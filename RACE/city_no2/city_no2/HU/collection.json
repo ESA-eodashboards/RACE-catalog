@@ -65,7 +65,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Air Quality (tropospheric NO2 concetrations) at city level"
+      "title": "Air Quality (tropospheric NO2 concentrations) at city level"
     }
   ],
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",

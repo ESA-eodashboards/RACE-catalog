@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./NO2/collection.json",
       "type": "application/json",
-      "title": "Air Quality (NO2 concetrations) map",
+      "title": "Air Quality (NO2 concentrations) map",
       "endpointtype": "WMS_Time",
       "subtitle": "Nitrogen dioxide in Europe - daily average",
       "code": "N1b_NO2",
@@ -145,7 +145,7 @@
     "tickFormat": ".0f",
     "title": "Tropospheric NO2 [µg/m³]"
   },
-  "title": "Air Quality (NO2 concetrations) map",
+  "title": "Air Quality (NO2 concentrations) map",
   "extent": {
     "spatial": {
       "bbox": [
@@ -178,8 +178,8 @@
       "N1b_NO2"
     ],
     "themes": [
-      "health",
       "air",
+      "health",
       "climate"
     ],
     "thumbnail": [

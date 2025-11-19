@@ -35,7 +35,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Air Quality (O3 concetrations) map"
+      "title": "Air Quality (O3 concentrations) map"
     }
   ],
   "subtitle": "Ozone at global level - daily average",
@@ -82,7 +82,7 @@
     "title": "O3 [µg/m³]"
   },
   "endpointtype": "WMS_Time",
-  "title": "Air Quality (O3 concetrations) map",
+  "title": "Air Quality (O3 concentrations) map",
   "extent": {
     "spatial": {
       "bbox": [
