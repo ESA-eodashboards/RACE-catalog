@@ -171,8 +171,8 @@
       "NASAPopulation"
     ],
     "themes": [
-      "society",
-      "health"
+      "health",
+      "society"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NASAPopulation/NASAPopulation_photo.jpg"

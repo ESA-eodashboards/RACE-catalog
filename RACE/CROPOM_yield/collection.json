@@ -190,8 +190,8 @@
       "CROPOM_yield"
     ],
     "themes": [
-      "land",
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
       "Sentinel-2",

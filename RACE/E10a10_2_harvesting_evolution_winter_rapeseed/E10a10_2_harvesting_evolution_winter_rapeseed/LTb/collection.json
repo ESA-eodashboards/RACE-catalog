@@ -12,7 +12,7 @@
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a10?aoi_id=in.(\"SEb\",\"ATb\",\"BGb\",\"CZb\",\"DEb\",\"DKb\",\"EEb\",\"FRb\",\"UKb\",\"HRb\",\"HUb\",\"LTb\",\"LVb\",\"PLb\",\"SKb\",\"ROb\")&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a10?aoi_id=eq.LTb&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
       "id": "process_geodb",
       "method": "GET"

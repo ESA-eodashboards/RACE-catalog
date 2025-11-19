@@ -86,7 +86,7 @@
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a10?aoi_id=in.(\"SEa\",\"ATa\",\"BGa\",\"CZa\",\"DEa\",\"DKa\",\"ESa\",\"EEa\",\"FRa\",\"UKa\",\"HRa\",\"HUa\",\"ITa\",\"LTa\",\"LVa\",\"PLa\",\"RSa\",\"SKa\",\"ROa\")&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a10?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
       "id": "process_geodb",
       "method": "GET"
@@ -197,8 +197,8 @@
       "E10a10"
     ],
     "themes": [
-      "land",
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
       "Sentinel-1"
@@ -207,46 +207,46 @@
       "C-SAR"
     ],
     "cities": [
-      "France",
-      "Estonia",
-      "Denmark",
-      "Romania",
-      "Serbia",
       "Italy",
       "Hungary",
-      "Austria",
+      "United Kingdom",
+      "Bulgaria",
+      "Denmark",
+      "Spain",
+      "Lithuania",
       "Poland",
       "Czech Republic",
-      "Lithuania",
-      "United Kingdom",
-      "Croatia",
-      "Germany",
       "Sweden",
-      "Bulgaria",
-      "Spain",
+      "Serbia",
+      "Estonia",
+      "Croatia",
+      "France",
+      "Romania",
+      "Austria",
       "Slovak Republic",
+      "Germany",
       "Latvia"
     ],
     "countries": [
-      "LV",
-      "HU",
-      "RO",
-      "CZ",
-      "HR",
       "DK",
+      "PL",
+      "IT",
+      "DE",
+      "CZ",
+      "LV",
+      "RO",
+      "AT",
+      "SK",
+      "ES",
+      "HU",
+      "GB",
       "SE",
       "BG",
-      "PL",
-      "AT",
-      "EE",
-      "DE",
-      "GB",
-      "ES",
       "LT",
-      "FR",
-      "IT",
+      "EE",
+      "HR",
       "RS",
-      "SK"
+      "FR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_harvesting_evolution_photo.jpg"

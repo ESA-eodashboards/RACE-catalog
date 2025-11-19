@@ -80,7 +80,7 @@
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a10?aoi_id=in.(\"SEb\",\"ATb\",\"BGb\",\"CZb\",\"DEb\",\"DKb\",\"EEb\",\"FRb\",\"UKb\",\"HRb\",\"HUb\",\"LTb\",\"LVb\",\"PLb\",\"SKb\",\"ROb\")&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a10?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
       "id": "process_geodb",
       "method": "GET"
@@ -191,8 +191,8 @@
       "E10a10_2"
     ],
     "themes": [
-      "land",
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
       "Sentinel-1"
@@ -201,40 +201,40 @@
       "C-SAR"
     ],
     "cities": [
-      "Denmark",
-      "Romania",
-      "France",
-      "Lithuania",
-      "Sweden",
-      "Bulgaria",
-      "United Kingdom",
       "Croatia",
       "Hungary",
-      "Germany",
       "Austria",
-      "Estonia",
-      "Poland",
       "Czech Republic",
+      "Lithuania",
+      "Poland",
+      "Romania",
+      "Sweden",
+      "Estonia",
       "Slovak Republic",
-      "Latvia"
+      "United Kingdom",
+      "Germany",
+      "Bulgaria",
+      "Denmark",
+      "Latvia",
+      "France"
     ],
     "countries": [
-      "GB",
-      "LV",
-      "SE",
-      "BG",
-      "HU",
-      "PL",
-      "RO",
-      "LT",
-      "CZ",
-      "SK",
-      "AT",
-      "HR",
-      "EE",
       "DK",
+      "BG",
+      "PL",
+      "HU",
+      "LT",
+      "RO",
+      "GB",
+      "AT",
       "DE",
-      "FR"
+      "EE",
+      "CZ",
+      "HR",
+      "SK",
+      "FR",
+      "SE",
+      "LV"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg"

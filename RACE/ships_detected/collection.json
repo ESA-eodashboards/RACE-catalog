@@ -192,14 +192,14 @@
       "Genoa",
       "Dunkirk",
       "Gdynia",
-      "Ghent",
-      "Suez "
+      "Suez ",
+      "Ghent"
     ],
     "countries": [
-      "IT",
-      "EG",
       "BE",
       "PL",
+      "EG",
+      "IT",
       "DE",
       "FR"
     ],
