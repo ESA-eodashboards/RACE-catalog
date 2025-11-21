@@ -154,7 +154,7 @@
       "interval": [
         [
           "2023-04-29T00:00:00Z",
-          "2025-11-18T00:00:00Z"
+          "2025-11-20T00:00:00Z"
         ]
       ]
     }
@@ -177,8 +177,8 @@
     "satellite": [
       "Sentinel-3",
       "JPSS-1",
-      "Aqua",
-      "Suomi NPP"
+      "Suomi NPP",
+      "Aqua"
     ],
     "sensor": [
       "OLCI",
