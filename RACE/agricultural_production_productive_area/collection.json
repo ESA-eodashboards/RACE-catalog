@@ -17,6 +17,7 @@
       "title": "Agricultural production - productive area",
       "endpointtype": "GeoDB",
       "subtitle": "Agricultural production in Europe",
+      "shortdescription": "This indicator uses satellite images to show how much greenhouse harvesting activity took place in 2020 compared to 2019. Because crops like white asparagus in Germany and red berries in Spain depend heavily on seasonal workers, this helps illustrate how disruptions such as the COVID-19 pandemic can affect food production. It gives people a clear view of how labour shortages can influence farming activities and the availability of certain foods.",
       "code": "E10a1",
       "id": "agricultural_production_productive_area",
       "themes": [
@@ -110,6 +111,7 @@
     }
   ],
   "subtitle": "Agricultural production in Europe",
+  "shortdescription": "This indicator uses satellite images to show how much greenhouse harvesting activity took place in 2020 compared to 2019. Because crops like white asparagus in Germany and red berries in Spain depend heavily on seasonal workers, this helps illustrate how disruptions such as the COVID-19 pandemic can affect food production. It gives people a clear view of how labour shortages can influence farming activities and the availability of certain foods.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area_photo.jpg",
   "themes": [
     "agriculture",
@@ -178,12 +180,12 @@
       "MSI"
     ],
     "cities": [
-      "Huelva (Lagunas de las Madres)",
-      "Brandenburg"
+      "Brandenburg",
+      "Huelva (Lagunas de las Madres)"
     ],
     "countries": [
-      "DE",
-      "ES"
+      "ES",
+      "DE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area_photo.jpg"

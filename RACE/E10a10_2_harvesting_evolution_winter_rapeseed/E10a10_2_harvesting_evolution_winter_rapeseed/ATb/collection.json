@@ -72,6 +72,7 @@
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a10_harvesting_evolution/chart.json",
   "subcode": "E10a10_2",
   "subtitle": "Monitoring row crop harvesting with satellite data",
+  "shortdescription": "This indicator shows when key crops such as winter rapeseed were actually harvested compared to when they were expected to be ready. By using satellite data to spot delays, it helps us understand how events like the COVID-19 pandemic can affect farming activities and, ultimately, parts of the food supply chain. It offers a clear view of how resilient our agricultural systems are when unexpected disruptions occur.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg",
   "themes": [
     "agriculture",

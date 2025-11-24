@@ -192,9 +192,9 @@
       "N1_CO"
     ],
     "themes": [
-      "air",
       "health",
-      "climate"
+      "climate",
+      "air"
     ],
     "satellite": [
       "Sentinel-5P"
