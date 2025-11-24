@@ -5,6 +5,7 @@
   "EodashIdentifier": "E10a5",
   "Subtitle": "Monitoring fruit production (Berries) in Huelva, Spain",
   "Description": "E10a5_fruit_production/E10a5_fruit_production.md",
+  "ShortDescription": "This indicator counts the harvesting trucks seen near greenhouses in 2020 compared to 2019. Using high-resolution satellite images, it helps show whether fewer workers during the COVID-19 pandemic affected the harvesting of red berries in one of Spain’s main production areas. It offers an easy way to understand how labour shortages can influence how food is picked and brought to market.",
   "Themes": [
     "agriculture",
     "land"
