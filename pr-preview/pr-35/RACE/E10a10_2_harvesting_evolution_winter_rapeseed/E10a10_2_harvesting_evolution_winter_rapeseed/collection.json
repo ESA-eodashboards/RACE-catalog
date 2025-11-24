@@ -1,0 +1,398 @@
+{
+  "type": "Collection",
+  "id": "E10a10_2_harvesting_evolution_winter_rapeseed",
+  "stac_version": "1.1.0",
+  "description": "## Monitoring row crops harvesting with SAR data\n\nThis dataset illustrates monitoring of row crops harvesting activities by means of [Copernicus Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) \nbackscatter and coherence time series for the 2020 season. It is evaluated for winter rapeseed and winter cereals. \nThe indicator was produced in the frame of the ESA-funded study “Impact of COVID-19 on Harvest of Row Crops” conducted by [VISTA Remote Sensing in Geosciences GmbH](https://www.vista-geo.de/) that attempted to quantify whether there were any significant delays in harvesting due to COVID-19. The indicator compares the harvest dates observed from Sentinel-1 data to the expected harvest progress simulated with VISTA’s YPSILON® yield prediction service which is based on an advanced physically-based crop growth model that considers natural environmental conditions (e.g., meteorological information), as well as the crop ripening process information from optical Copernicus Sentinel-2 data to estimate an expected harvest date.\n\nA significant delay of the observed harvest to the modelled harvest could indicate that the COVID-19 pandemic had disruptive effects on the agricultural service chain and harvesting measures, but no conclusive statement can be made.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./ATb/collection.json",
+      "type": "application/json",
+      "title": "Austria - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "ATb",
+      "latlng": "47.585494391, 14.1264761",
+      "country": "AT",
+      "name": "Austria"
+    },
+    {
+      "rel": "child",
+      "href": "./BGb/collection.json",
+      "type": "application/json",
+      "title": "Bulgaria - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "BGb",
+      "latlng": "42.768903181, 25.21552909",
+      "country": "BG",
+      "name": "Bulgaria"
+    },
+    {
+      "rel": "child",
+      "href": "./CZb/collection.json",
+      "type": "application/json",
+      "title": "Czech Republic - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "CZb",
+      "latlng": "49.733412331, 15.31240163",
+      "country": "CZ",
+      "name": "Czech Republic"
+    },
+    {
+      "rel": "child",
+      "href": "./DEb/collection.json",
+      "type": "application/json",
+      "title": "Germany - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "DEb",
+      "latlng": "51.106981811, 10.38578051",
+      "country": "DE",
+      "name": "Germany"
+    },
+    {
+      "rel": "child",
+      "href": "./DKb/collection.json",
+      "type": "application/json",
+      "title": "Denmark - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "DKb",
+      "latlng": "56.005087031, 9.19078239",
+      "country": "DK",
+      "name": "Denmark"
+    },
+    {
+      "rel": "child",
+      "href": "./EEb/collection.json",
+      "type": "application/json",
+      "title": "Estonia - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "EEb",
+      "latlng": "58.671929721, 25.54248537",
+      "country": "EE",
+      "name": "Estonia"
+    },
+    {
+      "rel": "child",
+      "href": "./FRb/collection.json",
+      "type": "application/json",
+      "title": "France - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "FRb",
+      "latlng": "46.839766351, 2.54675178",
+      "country": "FR",
+      "name": "France"
+    },
+    {
+      "rel": "child",
+      "href": "./HRb/collection.json",
+      "type": "application/json",
+      "title": "Croatia - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "HRb",
+      "latlng": "45.695288081, 16.21904979",
+      "country": "HR",
+      "name": "Croatia"
+    },
+    {
+      "rel": "child",
+      "href": "./HUb/collection.json",
+      "type": "application/json",
+      "title": "Hungary - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "HUb",
+      "latlng": "47.162775061, 19.39559116",
+      "country": "HU",
+      "name": "Hungary"
+    },
+    {
+      "rel": "child",
+      "href": "./LTb/collection.json",
+      "type": "application/json",
+      "title": "Lithuania - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "LTb",
+      "latlng": "55.326109841, 23.88719355",
+      "country": "LT",
+      "name": "Lithuania"
+    },
+    {
+      "rel": "child",
+      "href": "./LVb/collection.json",
+      "type": "application/json",
+      "title": "Latvia - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "LVb",
+      "latlng": "56.850851631, 24.91235983",
+      "country": "LV",
+      "name": "Latvia"
+    },
+    {
+      "rel": "child",
+      "href": "./PLb/collection.json",
+      "type": "application/json",
+      "title": "Poland - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "PLb",
+      "latlng": "52.127595641, 19.39012835",
+      "country": "PL",
+      "name": "Poland"
+    },
+    {
+      "rel": "child",
+      "href": "./ROb/collection.json",
+      "type": "application/json",
+      "title": "Romania - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "ROb",
+      "latlng": "45.852431271, 24.97293039",
+      "country": "RO",
+      "name": "Romania"
+    },
+    {
+      "rel": "child",
+      "href": "./SEb/collection.json",
+      "type": "application/json",
+      "title": "Sweden - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "SEb",
+      "latlng": "57.984907951, 14.4552277",
+      "country": "SE",
+      "name": "Sweden"
+    },
+    {
+      "rel": "child",
+      "href": "./SKb/collection.json",
+      "type": "application/json",
+      "title": "Slovak Republic - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "SKb",
+      "latlng": "48.705475281, 19.47905218",
+      "country": "SK",
+      "name": "Slovak Republic"
+    },
+    {
+      "rel": "child",
+      "href": "./UKb/collection.json",
+      "type": "application/json",
+      "title": "United Kingdom - E10a10_2_harvesting_evolution_winter_rapeseed",
+      "id": "UKb",
+      "latlng": "52.989397751, -1.77396816",
+      "country": "GB",
+      "name": "United Kingdom"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter rapeseed"
+    }
+  ],
+  "subtitle": "Monitoring row crop harvesting with satellite data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg",
+  "yAxis": "Cumulative (%)",
+  "themes": [
+    "agriculture",
+    "land"
+  ],
+  "tags": [
+    "Copernicus",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E10a10_2",
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "locations": true,
+  "endpointtype": "GeoDB",
+  "title": "Harvesting evolution winter rapeseed",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.9739681599999999,
+          42.568903180999996,
+          25.74248537,
+          58.871929721
+        ],
+        [
+          13.9264761,
+          47.385494390999995,
+          14.326476099999999,
+          47.785494391
+        ],
+        [
+          25.01552909,
+          42.568903180999996,
+          25.41552909,
+          42.968903181
+        ],
+        [
+          15.11240163,
+          49.533412330999994,
+          15.51240163,
+          49.933412331
+        ],
+        [
+          10.18578051,
+          50.906981810999994,
+          10.58578051,
+          51.306981811
+        ],
+        [
+          8.990782390000001,
+          55.805087031,
+          9.39078239,
+          56.205087031000005
+        ],
+        [
+          25.342485370000002,
+          58.471929720999995,
+          25.74248537,
+          58.871929721
+        ],
+        [
+          2.34675178,
+          46.639766351,
+          2.7467517800000003,
+          47.039766351000004
+        ],
+        [
+          16.01904979,
+          45.495288081,
+          16.41904979,
+          45.895288081000004
+        ],
+        [
+          19.19559116,
+          46.962775060999995,
+          19.595591159999998,
+          47.362775061
+        ],
+        [
+          23.68719355,
+          55.126109840999995,
+          24.08719355,
+          55.526109841
+        ],
+        [
+          24.71235983,
+          56.650851630999995,
+          25.11235983,
+          57.050851631
+        ],
+        [
+          19.190128350000002,
+          51.927595640999996,
+          19.59012835,
+          52.327595641
+        ],
+        [
+          24.77293039,
+          45.652431271,
+          25.172930389999998,
+          46.052431271
+        ],
+        [
+          14.2552277,
+          57.784907950999994,
+          14.6552277,
+          58.184907951
+        ],
+        [
+          19.27905218,
+          48.505475280999995,
+          19.67905218,
+          48.905475281
+        ],
+        [
+          -1.9739681599999999,
+          52.789397750999996,
+          -1.57396816,
+          53.189397751
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-05-01T00:00:00Z",
+          "2020-11-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Vista",
+      "url": "https://www.vista-geo.de/"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "Austria",
+      "Bulgaria",
+      "Czech Republic",
+      "Germany",
+      "Denmark",
+      "Estonia",
+      "France",
+      "Croatia",
+      "Hungary",
+      "Lithuania",
+      "Latvia",
+      "Poland",
+      "Romania",
+      "Sweden",
+      "Slovak Republic",
+      "United Kingdom"
+    ],
+    "countries": [
+      "AT",
+      "BG",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "FR",
+      "HR",
+      "HU",
+      "LT",
+      "LV",
+      "PL",
+      "RO",
+      "SE",
+      "SK",
+      "GB"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://eo4society.esa.int/projects/impact-of-covid-19-on-harvest-of-row-crop/",
+      "type": "text/html",
+      "title": "Impact of COVID-19 on harvest of row crop",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://ypsilon.services/#news",
+      "type": "text/html",
+      "title": "YPSILON",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://www.vista-geo.de/project/food-security-tep/#:~:text=The%20innovative%20Food%20Security%20Thematic,data%20and%20data%20processing%20tools.",
+      "type": "text/html",
+      "title": "Food Security TEP",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

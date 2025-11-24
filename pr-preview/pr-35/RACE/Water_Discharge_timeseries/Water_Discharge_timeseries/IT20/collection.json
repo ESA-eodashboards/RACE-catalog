@@ -1,0 +1,136 @@
+{
+  "type": "Collection",
+  "id": "IT20",
+  "stac_version": "1.1.0",
+  "description": "Water_Discharge_timeseries/Water_Discharge_timeseries.md",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "('image/png',)",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Water Discharge Timeseries"
+    }
+  ],
+  "subcode": "Water_Discharge_timeseries",
+  "subtitle": "Variability of coastal and inland waters",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Water_Discharge_timeseries/Water_Discharge_timeseries.png",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Water quality",
+    "Marine",
+    "Copernicus Services",
+    "Sentinel-2",
+    "MSI",
+    "Water turbidity",
+    "Adriactic Sea",
+    "Open data",
+    "Marine monitoring",
+    "Total Suspended Sediments"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "title": "Pontelagoscuro - Water_Discharge_timeseries",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11.4082,
+          44.6887,
+          11.8082,
+          45.0887
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-01T00:00:00Z",
+          "2022-10-18T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "ESA",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2"
+    },
+    {
+      "name": "Copernicus Data Space Ecosystem",
+      "url": "https://dataspace.copernicus.eu/"
+    },
+    {
+      "name": "ONDA",
+      "url": "https://www.onda-dias.eu/cms/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Water_Discharge_timeseries/Water_Discharge_timeseries.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

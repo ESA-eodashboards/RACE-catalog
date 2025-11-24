@@ -1,0 +1,154 @@
+{
+  "type": "Collection",
+  "id": "FRb",
+  "stac_version": "1.1.0",
+  "description": "## Monitoring row crops harvesting with SAR data\n\nThis dataset illustrates monitoring of row crops harvesting activities by means of [Copernicus Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) \nbackscatter and coherence time series for the 2020 season. It is evaluated for winter rapeseed and winter cereals. \nThe indicator was produced in the frame of the ESA-funded study “Impact of COVID-19 on Harvest of Row Crops” conducted by [VISTA Remote Sensing in Geosciences GmbH](https://www.vista-geo.de/) that attempted to quantify whether there were any significant delays in harvesting due to COVID-19. The indicator compares the harvest dates observed from Sentinel-1 data to the expected harvest progress simulated with VISTA’s YPSILON® yield prediction service which is based on an advanced physically-based crop growth model that considers natural environmental conditions (e.g., meteorological information), as well as the crop ripening process information from optical Copernicus Sentinel-2 data to estimate an expected harvest date.\n\nA significant delay of the observed harvest to the modelled harvest could indicate that the COVID-19 pandemic had disruptive effects on the agricultural service chain and harvesting measures, but no conclusive statement can be made.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a10?aoi_id=eq.FRb&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "('image/png',)",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter rapeseed"
+    }
+  ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a10_harvesting_evolution/chart.json",
+  "subcode": "E10a10_2",
+  "subtitle": "Monitoring row crop harvesting with satellite data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg",
+  "themes": [
+    "agriculture",
+    "land"
+  ],
+  "tags": [
+    "Copernicus",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "C-SAR"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "title": "France - E10a10_2_harvesting_evolution_winter_rapeseed",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.34675178,
+          46.639766351,
+          2.7467517800000003,
+          47.039766351000004
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-05-01T00:00:00Z",
+          "2020-11-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Vista",
+      "url": "https://www.vista-geo.de/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://eo4society.esa.int/projects/impact-of-covid-19-on-harvest-of-row-crop/",
+      "type": "text/html",
+      "title": "Impact of COVID-19 on harvest of row crop",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://ypsilon.services/#news",
+      "type": "text/html",
+      "title": "YPSILON",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://www.vista-geo.de/project/food-security-tep/#:~:text=The%20innovative%20Food%20Security%20Thematic,data%20and%20data%20processing%20tools.",
+      "type": "text/html",
+      "title": "Food Security TEP",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

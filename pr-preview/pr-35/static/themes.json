@@ -1,0 +1,50 @@
+{
+  "climate": {
+    "title": "Climate",
+    "description": "How weather and climate variability affect us"
+  },
+  "water": {
+    "title": "Water",
+    "description": "Water availability, water quality, floods and droughts"
+  },
+  "air": {
+    "title": "Air",
+    "description": "Air quality and atmospheric composition"
+  },
+  "land": {
+    "title": "Land & Nature",
+    "description": "State of land, ecosystems, biodiversity"
+  },
+  "agriculture": {
+    "title": "Food & Agriculture",
+    "description": "Food production, crops, food security"
+  },
+  "energy": {
+    "title": "Energy",
+    "description": "Energy sources, supplies and usage"
+  },
+  "industry": {
+    "title": "Industry & Production",
+    "description": "Manufacturing, industrial activity, and construction"
+  },
+  "commerce": {
+    "title": "Commerce & Transport",
+    "description": "Trade, mobility, and logistics"
+  },
+  "society": {
+    "title": "Society & Living",
+    "description": "Urban & rural life, housing, population, and services"
+  },
+  "tourism": {
+    "title": "Tourism",
+    "description": "Travel, recreation, and seasonal activity"
+  },
+  "sport": {
+    "title": "Sport",
+    "description": "Outdoor activity, leisure, active lifestyle"
+  },
+  "health": {
+    "title": "Health & Wellbeing",
+    "description": "Human health, comfort, and environmental safety"
+  }
+}

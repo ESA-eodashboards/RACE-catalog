@@ -1,0 +1,113 @@
+{
+  "type": "Collection",
+  "id": "Water_Discharge_timeseries",
+  "stac_version": "1.1.0",
+  "description": "Variability of coastal and inland waters",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./IT20/collection.json",
+      "type": "application/json",
+      "title": "Pontelagoscuro - Water_Discharge_timeseries",
+      "id": "IT20",
+      "latlng": "44.8887,11.6082",
+      "country": "IT",
+      "name": "Pontelagoscuro"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Water Discharge Timeseries"
+    }
+  ],
+  "subtitle": "Variability of coastal and inland waters",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Water_Discharge_timeseries/Water_Discharge_timeseries.png",
+  "yAxis": "Water Discharge [m^3/s]",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Water quality",
+    "Marine",
+    "Copernicus Services",
+    "Sentinel-2",
+    "MSI",
+    "Water turbidity",
+    "Adriactic Sea",
+    "Open data",
+    "Marine monitoring",
+    "Total Suspended Sediments"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Water_Discharge_timeseries",
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "locations": true,
+  "endpointtype": "GeoDB",
+  "title": "Water Discharge Timeseries",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11.4082,
+          44.6887,
+          11.8082,
+          45.0887
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-01T00:00:00Z",
+          "2022-10-18T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "ESA",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2"
+    },
+    {
+      "name": "Copernicus Data Space Ecosystem",
+      "url": "https://dataspace.copernicus.eu/"
+    },
+    {
+      "name": "ONDA",
+      "url": "https://www.onda-dias.eu/cms/"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "Pontelagoscuro"
+    ],
+    "countries": [
+      "IT"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Water_Discharge_timeseries/Water_Discharge_timeseries.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
