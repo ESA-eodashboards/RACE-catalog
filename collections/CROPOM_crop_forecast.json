@@ -3,7 +3,7 @@
   "Title": "Crop yield",
   "EodashIdentifier": "CROPOM_yield",
   "Subtitle": "Yield forecast under \"what-if\" scenarios",
-  "Description": "crop_forecast_CropOM/crop_forecast_https://race.esa.int/story/?id=CropOM",
+  "Description": "crop_forecast_CropOM/crop_forecast_CropOM.md",
   "ShortDescription": "Crop yield is typically a forecast or estimate of the quantity of an agricultural harvest. It is a critical metric that links climate, environment, and human activity, directly impacting global food security, the economy, and public welfare. The societal impacts of reliable crop yield indicators include Global Food Security, Market Stability and Economics, Climate Change Adaptation, Agricultural Policy and Planning, and Sustainable Resource Management. Indicators are often developed using a combination of ground based data and remote sensing data.",
   "Themes": [
     "agriculture",

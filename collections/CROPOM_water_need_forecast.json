@@ -3,7 +3,7 @@
   "Title": "Water demand",
   "EodashIdentifier": "CROPOM_water_need",
   "Subtitle": "Yield forecast under \"what-if\" scenarios",
-  "Description": "crop_forecast_CropOM/crop_forecast_https://race.esa.int/story/?id=CropOM",
+  "Description": "crop_forecast_CropOM/crop_forecast_CropOM.md",
   "ShortDescription": "In agriculture, indocators of water need (often expressed as crop water requirements, irrigation demand, or evapotranspiration) provide essential data for optimizing water resource management, ensuring sustainable agriculture, and mitigating the impacts of droughts and climate change.",
   "Themes": [
     "agriculture",
