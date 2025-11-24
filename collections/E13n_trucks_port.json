@@ -6,8 +6,6 @@
   "Subtitle": "Changes in the number of trucks in ports",
   "Description": "E13n_trucks_port/E13n_trucks_port.md",
   "Themes": [
-    "economy",
-    "transport",
     "commerce"
   ],
   "Tags": [
@@ -32,7 +30,7 @@
   ],
   "Process": {
     "Name": "GeoDB Statistics",
-    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13n_trucks_port/chart.json",
     "EndPoints": [
       {

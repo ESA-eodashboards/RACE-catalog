@@ -1,12 +1,14 @@
 {
   "Image": "N1d_o3_cams/N1d_o3_cams_graph.jpg",
   "Name": "o3_cams",
-  "Title": "Air Quality (O3 concetrations) at city level (model)",
+  "Title": "Air Quality (O3 concentrations) at city level (model)",
   "EodashIdentifier": "N1d",
   "Subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
   "Description": "N1d_o3_cams/N1d_o3_cams.md",
   "Themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "Tags": [
     "Air quality",
@@ -55,7 +57,7 @@
   ],
   "Process": {
     "Name": "GeoDB Statistics",
-    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N1d_o3_cams/chart.json",
     "EndPoints": [
       {

@@ -5,7 +5,7 @@
   "Subtitle": "GHS built-up surface dataset GHS-BUILT-S_GLOBE_R2023A",
   "Description": "GHS-BUILT-S-R2023A/GHS-BUILT-S-R2023A.md",
   "Themes": [
-    "economy"
+    "society"
   ],
   "Tags": [
     "Copernicus",
@@ -52,21 +52,16 @@
       "Name": "Sentinel Hub",
       "Type": "byoc",
       "CollectionId": "0c7aa265-50f9-4947-9980-2ee5ae204803",
-      "LayerId": "GHS_BUILT_S"
+      "LayerId": "GHS_BUILT_S",
+      "DataProjection": 3857
     }
   ],
   "Services": [
-    {
-      "Endpoint": "https://services.sentinel-hub.com/api/v1/statistics",
-      "Name": "Statistical API",
-      "Type": "byoc",
-      "CollectionId": "0c7aa265-50f9-4947-9980-2ee5ae204803",
-      "Script": "GHS-BUILT-S-R2023A/GHS-BUILT-S-R2023A.js"
-    },
+
     {
       "Name": "EOxHub Notebook",
       "Title": "Evaluation of Fire Impact on Populated Areas on a European Site",
-      "Url": "https://bids2023-nbviewer.hub.eox.at/localfile/bids2023/notebooks/Fire_impact_analysis.ipynb"
+      "Url": "https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/fire-impact-analysis/"
     }
   ],
   "Provider": [
@@ -94,19 +89,6 @@
     "scaleType": "continuous",
     "tickFormat": ".0f",
     "title": "0 - 10 000 m\u00b2 of built-up surface areas"
-  },
-  "Process": {
-    "Name": "Sentinel Hub Statistics",
-    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
-    "EndPoints": [
-      {
-        "Identifier": "sentinelhub-statistics",
-        "Url": "https://services.sentinel-hub.com/api/v1/statistics",
-        "Method": "POST",
-        "EndPoint": "sentinelhub",
-        "Type": "application/json"
-      }
-    ]
   }
+
 }

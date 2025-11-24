@@ -1,12 +1,14 @@
 {
   "Image": "N1_city_no2/N1_city_no2_photo.jpg",
   "Name": "city_no2",
-  "Title": "Air Quality (tropospheric NO2 concetrations) at city level",
+  "Title": "Air Quality (tropospheric NO2 concentrations) at city level",
   "EodashIdentifier": "N1",
   "Subtitle": "NO2 detected at cities based on Sentinel-5P data",
   "Description": "N1_city_no2/N1_city_no2.md",
   "Themes": [
-    "air"
+    "air",
+    "climate",
+    "health"
   ],
   "Tags": [
     "Air quality",
@@ -87,7 +89,7 @@
   },
   "Process": {
     "Name": "GeoDB Statistics",
-    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N1_city_no2/chart.json",
     "EndPoints": [
       {

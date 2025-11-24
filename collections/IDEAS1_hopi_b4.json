@@ -1,11 +1,12 @@
 {
   "Name": "IDEAS1_hopi_b4",
-  "Title": "HOUHPI Number of days where air pollution exceeded WHO threshold",
+  "Title": "Days where air pollution over WHO threshold",
   "EodashIdentifier": "IND1_1_b4",
   "Subtitle": "Number of days where air pollution exceeded WHO threshold",
   "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
   "Themes": [
-    "health"
+    "health",
+    "air"
   ],
   "Tags": [
     "heat",
@@ -37,7 +38,7 @@
       ],
       "TimeEntries": [
         {
-          "Time": "20210401T0000",
+          "Time": "20210301T0000",
           "Assets": [
             {
               "Identifier": "winter",

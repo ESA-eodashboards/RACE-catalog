@@ -1,11 +1,12 @@
 {
   "Name": "IDEAS1_hopi_b2",
-  "Title": "HOUHPI Number of people of age > 60 or <5",
+  "Title": "Number of people of age > 60 or <5",
   "EodashIdentifier": "IND1_1_b2",
   "Subtitle": "Number of people of age > 60 or <5",
   "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
   "Themes": [
-    "health"
+    "health",
+    "society"
   ],
   "Tags": [
     "heat",
@@ -37,7 +38,7 @@
       ],
       "TimeEntries": [
         {
-          "Time": "20210401T0000",
+          "Time": "20210301T0000",
           "Assets": [
             {
               "Identifier": "winter",

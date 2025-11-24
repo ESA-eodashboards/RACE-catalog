@@ -3,7 +3,7 @@
   "Title": "Sentinel-2 Ships-detection on-the-fly",
   "EodashIdentifier": "E13c_ship_detections",
   "Description": "E13c_ship_detections_algorithm/E13c_ship_detections_algorithm.md",
-  "Themes": ["economy","transport","tourism"],
+  "Themes": ["commerce","tourism"],
   "Tags": ["Ports", "Maritime", "Traffic", "Multi-sensors"],
   "DataSource": {
     "Spaceborne": {

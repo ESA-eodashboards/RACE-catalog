@@ -1,38 +1,50 @@
 {
-  "Climate": {
-    "description": "how weather and climate variability affect us"
+  "climate": {
+    "title": "Climate",
+    "description": "How weather and climate variability affect us"
   },
-  "Water": {
-    "description": "availability, quality, floods and droughts"
+  "water": {
+    "title": "Water",
+    "description": "Water availability, water quality, floods and droughts"
   },
-  "Air": {
-    "description": "air quality and atmospheric composition"
+  "air": {
+    "title": "Air",
+    "description": "Air quality and atmospheric composition"
   },
-  "Land & Nature": {
-    "description": "state of land, ecosystems, biodiversity"
+  "land": {
+    "title": "Land & Nature",
+    "description": "State of land, ecosystems, biodiversity"
   },
-  "Food & Agriculture": {
-    "description": "food production, crops, food security"
+  "agriculture": {
+    "title": "Food & Agriculture",
+    "description": "Food production, crops, food security"
   },
-  "Energy": {
-    "description": "energy sources, usage"
+  "energy": {
+    "title": "Energy",
+    "description": "Energy sources, supplies and usage"
   },
-  "Industry & Production": {
-    "description": "manufacturing, industrial activity, construction"
+  "industry": {
+    "title": "Industry & Production",
+    "description": "Manufacturing, industrial activity, and construction"
   },
-  "Commerce & Transport": {
-    "description": "trade, mobility, logistics"
+  "commerce": {
+    "title": "Commerce & Transport",
+    "description": "Trade, mobility, and logistics"
   },
-  "Society & Living": {
-    "description": "Urban & rural life, housing, population, services"
+  "society": {
+    "title": "Society & Living",
+    "description": "Urban & rural life, housing, population, and services"
   },
-  "Tourism": {
-    "description": "travel, recreation, seasonal activity"
+  "tourism": {
+    "title": "Tourism",
+    "description": "Travel, recreation, and seasonal activity"
   },
-  "Sport": {
-    "description": "outdoor activity, leisure, active lifestyle"
+  "sport": {
+    "title": "Sport",
+    "description": "Outdoor activity, leisure, active lifestyle"
   },
-  "Health & Wellbeing": {
-    "description": "human health, comfort, environmental safety"
+  "health": {
+    "title": "Health & Wellbeing",
+    "description": "Human health, comfort, and environmental safety"
   }
 }

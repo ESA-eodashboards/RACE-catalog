@@ -1,12 +1,13 @@
 {
   "Image": "N1c_pm10_cams/N1c_pm10_cams_graph.png",
   "Name": "pm10_cams",
-  "Title": "Air Quality (PM10 concetrations) at city level (model)",
+  "Title": "Air Quality (PM10 concentrations) at city level (model)",
   "EodashIdentifier": "N1c",
   "Subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
   "Description": "N1c_pm10_cams/N1c_pm10_cams.md",
   "Themes": [
-    "air"
+    "air",
+    "health"
   ],
   "Tags": [
     "Air quality",
@@ -56,7 +57,7 @@
   ],
   "Process": {
     "Name": "GeoDB Statistics",
-    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N1c_pm10_cams/chart.json",
     "EndPoints": [
       {

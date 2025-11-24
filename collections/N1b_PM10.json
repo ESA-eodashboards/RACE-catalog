@@ -1,11 +1,12 @@
 {
   "Name": "PM10",
-  "Title": "Air Quality (PM10 concetrations) map",
+  "Title": "Air Quality (PM10 concentrations) map",
   "EodashIdentifier": "N1b_PM10",
   "Subtitle": "Particulate matter 10\u00b5m in Europe - daily average",
   "Description": "N1b_PM10/N1b_PM10.md",
   "Themes": [
-    "air"
+    "air",
+    "health"
   ],
   "Tags": [
     "Air quality",

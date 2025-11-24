@@ -6,9 +6,7 @@
   "Subtitle": "Volume of highway occupancy from Sentinel-1 data",
   "Description": "E12b_border_crossing_vehicles_timeseries/E12b_border_crossing_vehicles_timeseries.md",
   "Themes": [
-    "economy",
-    "commerce",
-    "transport"
+    "commerce"
   ],
   "Tags": [
     "Copernicus",
@@ -55,7 +53,7 @@
   ],
   "Process": {
     "Name": "GeoDB Statistics",
-    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12b_border_crossing_vehicles_timeseries/chart.json",
     "EndPoints": [
       {

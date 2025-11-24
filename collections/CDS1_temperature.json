@@ -4,8 +4,10 @@
   "EodashIdentifier": "CDS1_temperature",
   "Subtitle": "Air temperature at 2m above ",
   "Description": "CDS1_temperature/CDS1_temperature.md",
+  "ShortDescription": "Surface air temperature data is crucial for assessing and forecasting health risks related to extreme heat (heatwaves) and cold. This information helps public health officials issue warnings, plan emergency responses, and study temperature-related illnesses such as heat stroke and cardiovascular issues.",
   "Themes": [
-    "atmosphere"
+    "air",
+    "climate"
   ],
   "Tags": [
     "Copernicus Services",
@@ -59,7 +61,8 @@
       "Name": "Sentinel Hub",
       "Type": "byoc",
       "CollectionId": "0b3eebec-30de-4fa6-9cd3-4b252d45d847",
-      "LayerId": "AWS_VIS_2MTEMPERATURE"
+      "LayerId": "AWS_VIS_2MTEMPERATURE",
+      "DataProjection": 3857
     }
   ],
   "Services": [

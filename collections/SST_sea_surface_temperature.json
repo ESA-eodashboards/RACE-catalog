@@ -6,7 +6,8 @@
   "Subtitle": "Key ocean monitoring indicator",
   "Description": "SST_sea_surface_temperature/SST_sea_surface_temperature.md",
   "Themes": [
-    "water"
+    "water",
+    "climate"
   ],
   "Tags": [
     "Water quality",
@@ -83,7 +84,7 @@
   ],
   "Process": {
     "Name": "GeoDB Statistics",
-    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/SST_sea_surface_temperature/chart.json",
     "EndPoints": [
       {

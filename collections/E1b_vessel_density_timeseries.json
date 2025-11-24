@@ -6,8 +6,7 @@
   "Subtitle": "Vessel Density based on Copernicus Sentinel-1",
   "Description": "E1b_vessel_density_timeseries/E1b_vessel_density_timeseries.md",
   "Themes": [
-    "economy",
-    "transport"
+    "commerce"
   ],
   "Tags": [
     "Copernicus",
@@ -78,7 +77,7 @@
   },
   "Process": {
     "Name": "GeoDB Statistics",
-    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E1b_vessel_density_timeseries/chart.json",
     "EndPoints": [
       {

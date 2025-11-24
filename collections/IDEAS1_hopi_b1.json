@@ -1,11 +1,12 @@
 {
   "Name": "IDEAS1_hopi_b1",
-  "Title": "Health-Oriented Urban Heat and Pollution Index",
+  "Title": "Index",
   "EodashIdentifier": "IND1_1_b1",
   "Subtitle": "Indicator 1: HOUHPI",
   "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
   "Themes": [
-    "health"
+    "health",
+    "society"
   ],
   "Tags": [
     "heat",
@@ -37,7 +38,7 @@
       ],
       "TimeEntries": [
         {
-          "Time": "20210401T0000",
+          "Time": "20210301T0000",
           "Assets": [
             {
               "Identifier": "spring",
@@ -46,7 +47,7 @@
           ]
         },
         {
-          "Time": "20210402T0000",
+          "Time": "20210601T0000",
           "Assets": [
             {
               "Identifier": "summer",
@@ -54,7 +55,7 @@
             }
           ]
         }, {
-          "Time": "20210403T0000",
+          "Time": "20210901T0000",
           "Assets": [
             {
               "Identifier": "autumn",
@@ -62,7 +63,7 @@
             }
           ]
         }, {
-          "Time": "20210404T0000",
+          "Time": "20211201T0000",
           "Assets": [
             {
               "Identifier": "winter",

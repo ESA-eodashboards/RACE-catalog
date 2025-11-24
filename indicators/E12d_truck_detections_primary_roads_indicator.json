@@ -45,7 +45,7 @@
     {
       "Name": "EOxHub Notebook",
       "Title": "Detect Trucks using Sentinel-2 data",
-      "Url": "https://github.com/eurodatacube/notebooks/blob/master/notebooks/contributions/Detect_Trucks_Sentinel2.ipynb"
+      "Url": "https://esa-eodashboards.github.io/RACE-notebooks/notebooks/detect-trucks-sentinel2/"
     }
   ],
   "References": [
@@ -63,7 +63,7 @@
     },
     {
       "Name": "Jupyter Notebook - Euro Data Cube",
-      "Url": "https://github.com/eurodatacube/notebooks/blob/master/notebooks/contributions/Detect_Trucks_Sentinel2.ipynb"
+      "Url": "https://esa-eodashboards.github.io/RACE-notebooks/notebooks/detect-trucks-sentinel2/"
     }
   ],
   "Collections": [

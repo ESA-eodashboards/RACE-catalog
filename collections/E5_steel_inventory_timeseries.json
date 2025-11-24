@@ -6,9 +6,7 @@
   "Subtitle": "Steel inventory monitoring in open warehouses from SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data",
   "Description": "E5_steel_inventory_timeseries/E5_steel_inventory_timeseries.md",
   "Themes": [
-    "economy",
-    "industry",
-    "resources"
+    "industry"
   ],
   "Tags": [
     "Copernicus",
@@ -56,7 +54,7 @@
   ],
   "Process": {
     "Name": "GeoDB Statistics",
-    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E5_steel_inventory_timeseries/chart.json",
     "EndPoints": [
       {

@@ -5,7 +5,8 @@
   "Description": "ESDL_Hydrology_SM/ESDL_Hydrology_SM.md",
   "Themes": [
     "agriculture",
-    "water"
+    "water",
+    "land"
   ],
   "Tags": [
     "Open data",
@@ -98,7 +99,7 @@
       "#0d0887"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
+    "tickFormat": ".1f",
     "title": "[% relative saturation]"
   }
 }

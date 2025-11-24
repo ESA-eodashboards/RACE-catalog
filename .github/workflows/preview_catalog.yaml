@@ -60,6 +60,27 @@ jobs:
       - if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Prepare build directory for permissions to be right further for copy step
         run: mkdir -p build
+      - name: Set up Node.js for static schema validation
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install AJV
+        run: npm install -g ajv-cli
+      - name: Validate static JSON files against schemas
+        run: |
+          mkdir -p schemas
+          wget -O schemas/partnerships-schema.json \
+            https://eodash.github.io/eodash-schemas/race/partnerships-schema.json
+          wget -O schemas/providers-schema.json \
+            https://eodash.github.io/eodash-schemas/race/providers-schema.json
+          wget -O schemas/resources-schema.json \
+            https://eodash.github.io/eodash-schemas/race/resources-schema.json
+          wget -O schemas/themes-schema.json \
+            https://eodash.github.io/eodash-schemas/race/themes-schema.json
+          ajv validate -d static/partnerships.json -s schemas/partnerships-schema.json
+          ajv validate -d static/providers.json -s schemas/providers-schema.json
+          ajv validate -d static/resources.json -s schemas/resources-schema.json
+          ajv validate -d static/themes.json -s schemas/themes-schema.json
       -
         if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Build
@@ -68,7 +89,7 @@ jobs:
             SH_CLIENT_ID: ${{ secrets.SH_CLIENT_ID }}
             SH_CLIENT_SECRET: ${{ secrets.SH_CLIENT_SECRET }}
         run: |
-          docker run -v "$PWD:/workspace" -w "/workspace" -e SH_INSTANCE_ID="$SH_INSTANCE_ID" -e SH_CLIENT_ID="$SH_CLIENT_ID" -e SH_CLIENT_SECRET="$SH_CLIENT_SECRET" ghcr.io/eodash/eodash_catalog:0.3.17 eodash_catalog -gp
+          docker run -v "$PWD:/workspace" -w "/workspace" -e SH_INSTANCE_ID="$SH_INSTANCE_ID" -e SH_CLIENT_ID="$SH_CLIENT_ID" -e SH_CLIENT_SECRET="$SH_CLIENT_SECRET" ghcr.io/eodash/eodash_catalog:0.3.21 eodash_catalog -gp
       - name: copy static to build
         run: cp -r ./static ./build
       - if: steps.get_pr_commit_message.outputs.should_skip != 'true'

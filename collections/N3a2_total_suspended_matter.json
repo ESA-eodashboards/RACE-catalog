@@ -6,7 +6,9 @@
   "Description": "N3a2_total_suspended_matter/N3a2_total_suspended_matter.md",
   "ShortDescription": "Societal relevance for this indicator",
   "Themes": [
-    "water"
+    "water",
+    "climate",
+    "sport"
   ],
   "Tags": [
     "Water quality",

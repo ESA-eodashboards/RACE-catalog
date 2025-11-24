@@ -1,235 +1,302 @@
 {
   "ARESYS": {
     "Url": "https://www.aresys.it/",
-    "Description": "Description of provider",
+    "Description": "ARESYS, Advanced REmote-sensing SYStems, is an Italian SME, former spin-off of Politecnico di Milano, providing solutions since 2003 to the Remote Sensing market with a special focus on Space Earth Observation. ARESYS designs and develops imaging solutions, both at HW & SW level, with a recognized expertise on Radar, SAR  and Optical systems.",
     "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=aresys",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/aresys.jpeg?raw=true"
   },
   "Aerospacelab": {
     "Url": "https://www.aerospacelab.be/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Aerospacelab is a Belgian aerospace company designing high-performance satellite payloads tailored for missions in environmental monitoring, disaster response, agriculture, maritime, water management, defense, and biodiversity. They focus on delivering the payloads themselves — empowering customers to operate and own their data flows directly.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/aerospacelab.jpeg?raw=true"
   },
   "BASt": {
     "Url": "https://www.bast.de",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Federal Highway Research Institute (BASt) is a practice-oriented, technical-scientific research institution . It belongs to the Federal Ministry of Transport (BMV), which it advises on technical and transport policy issues.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/bast.jpeg?raw=true"
   },
   "CNR IRPI": {
     "Url": "https://www.irpi.cnr.it/en/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Research Institute for Geo-Hydrological Protection (Istituto di Ricerca per la Protezione Idrogeologica – IRPI) is an institute of the Department of Earth System Sciences and Technology for the Environment (DTA), of the Italian National Research Council (Consiglio Nazionale delle Ricerche, CNR). The mission of the institute is to design and execute scientific research and technological development in the fields of natural hazards, environmental protection, and the sustainable use of geo-resources. IRPI carries out its mission by operating at different geographical and temporal scales, and in different climatic, physiographic and geological zones.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cnr-irpi.jpeg?raw=true"
   },
   "CNR ISMAR": {
     "Url": "https://www.ismar.cnr.it/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Institute of Marine Sciences of the National Research Council (CNR-ISMAR) conducts fundamental and applied research in physical, chemical, and biological oceanography and marine geology. Their goal is to contribute to the study of ocean processes and climate variability, as well as to the development of systems and services for the observation, protection, and sustainable management of the marine environment and coasts.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/ismar.jpeg?raw=true"
   },
   "Caltech": {
     "Url": "https://caltech.edu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "California Institute of Technology, Pasadena, USA",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/caltech.jpeg?raw=true"
   },
   "CherryData": {
     "Url": "https://www.cherry-data.com",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Cherrydata is an Italian technology company offering custom design, implementation, and management services of scalable AI solutions. ",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cherry-data.jpeg?raw=true"
   },
   "Copernicus Atmosphere Monitoring Service": {
     "Url": "https://ads.atmosphere.copernicus.eu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Copernicus Atmosphere Monitoring Service (CAMS) provides consistent and quality-controlled information related to air pollution and health, solar energy, greenhouse gases and climate forcing, everywhere in the world.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cams.jpeg?raw=true"
   },
   "Copernicus Climate Change Service": {
-    "Url": "https://cds.climate.copernicus.eu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Url": "https://climate.copernicus.eu/",
+    "Description": "The Copernicus Climate Change Service (C3S) supports society by providing authoritative information about the past, present and future climate in Europe and the rest of the World.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/c3s.jpeg?raw=true"
   },
   "Copernicus Data Space Ecosystem": {
     "Url": "https://dataspace.copernicus.eu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Copernicus Data Space Ecosystem is an open ecosystem that provides free instant access to a wide range of data and services from the Copernicus Sentinel missions and more on our planet’s land, oceans and atmosphere.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cdse.jpeg?raw=true"
   },
   "Copernicus Emergency Management service": {
     "Url": "https://emergency.copernicus.eu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Copernicus Emergency Management Service (CEMS) provides information for emergency response and disaster risk management.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cems.jpeg?raw=true"
   },
   "Copernicus Land Monitoring Service": {
     "Url": "https://land.copernicus.eu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Copernicus Land Monitoring Service (CLMS) provides geographical information on land cover and its changes, land use, ground motion, vegetation state, water cycle and earth surface energy variables for both Europe and the entire globe.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/clms.jpeg?raw=true"
   },
   "Copernicus Marine Service": {
     "Url": "https://marine.copernicus.eu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Copernicus Marine Service is the marine component of the European Union’s Copernicus Programme. It provides free, open-access, and science-based information on the state of the Ocean at both global and regional scales. This includes data on the physical Ocean (Blue Ocean), sea ice (White Ocean), and Ocean biogeochemistry (Green Ocean).",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cmems.jpeg?raw=true"
   },
   "CropOM": {
     "Url": "https://cropom.com",
-    "Description": "Description of provider",
+    "Description": "CropOM is a Hungarian startup that builds software and a platform integrating data, decision processes, and action mechanisms. With the help of their Data Cube technology, they provide easy access to spatial data. With their Digital Twin solution, they make environmental and economic processes easy to interpret and model.",
     "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=danube",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cropom.jpeg?raw=true"
   },
   "DLR": {
     "Url": "https://dlr.de/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
-  },
-  "Danube Data Cube": {
-    "Url": "https://ddc.cropom.com",
-    "Description": "Description of provider",
-    "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=danube",
-    "Logo": "Link to logo"
+    "Description": "The German Aerospace Center (DLR) is the aerospace research centre of the Federal Republic of Germany. I",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/dlr.jpeg?raw=true"
   },
   "ECMWF": {
     "Url": "https://www.ecmwf.int/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "ECMWF is the European Centre for Medium-Range Weather Forecasts.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/ecmwf.jpeg?raw=true"
   },
   "EMODNET": {
     "Url": "https://www.emodnet-humanactivities.eu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The European Marine Observation and Data Network is a web portal that brings together marine data, data products and metadata from diverse sources within Europe in a uniform way. It was initiated by the European Commission in response to the EU Green Paper on Future Maritime Policy, launched in June 2006.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/emodnet.jpeg?raw=true"
   },
   "ESA": {
     "Url": "https://esa.int/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The European Space Agency",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true"
   },
   "EUMETSAT": {
     "Url": "https://data.eumetsat.int",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "EUMETSAT is the European operational satellite agency for monitoring weather, climate and the environment from space on behalf of the EU member states.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/eumetsat.jpeg?raw=true"
   },
   "EURAC": {
     "Url": "https://www.eurac.edu/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Eurac Research is a private research center​ based in Bozen-Bolzano.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/eurac.jpeg?raw=true"
   },
   "EUROSTAT": {
     "Url": "https://ec.europa.eu/eurostat",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Eurostat is the statistical office of the European Union, independently responsible for publishing high-quality Europe-wide statistics and indicators that enable comparisons between countries and regions.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/eurostat.jpg?raw=true"
   },
   "ExpertLab": {
     "Url": "https://www.expertlab.it/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Expertlab S.r.l. is an Italian company specializing in research and development in technological innovation.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/expertlab.jpeg?raw=true"
   },
   "FAO": {
     "Url": "https://www.fao.org",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Food and Agriculture Organization of the United Nations is a specialized agency of the United Nations that leads international efforts to defeat hunger and improve nutrition and food security.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/fao.jpeg?raw=true"
   },
   "FEGA": {
     "Url": "https://www.fega.gob.es/en",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "FEGA is the Spanish Agrarian Guarantee Fund.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/feda.jpeg?raw=true"
   },
   "Geosat": {
     "Url": "https://geosat.space/",
-    "Description": "Description of provider",
+    "Description": "GEOSAT is a European company specializing in Earth observation, providing high-resolution satellite imagery, geospatial data, and analytics services through its owned and operated satellites.",
     "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=geosat",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/geosat.jpeg?raw=true"
   },
   "Google": {
     "Url": "https://www.google.com/covid19/mobility/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Google LLC."
   },
   "ICEYE": {
     "Url": "https://www.iceye.com/",
-    "Description": "Description of provider",
+    "Description": "ICEYE is a Finnish microsatellite manufacturer and an Earth observation data provider that operates the world's largest constellation of commercial synthetic-aperture radar (SAR) satellites.",
     "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=iceye",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/iceye.jpeg?raw=true"
   },
   "JAXA": {
     "Url": "https://earth.jaxa.jp/en/data/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "JAXA is the Japan Aerospace Exploration Agency.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true"
   },
   "Joint Research Centre": {
     "Url": "https://joint-research-centre.ec.europa.eu/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The Joint Research Centre is the European Commission's science and knowledge service which employs scientists to carry out research in order to provide independent scientific advice and support to European Union policy.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/jrc.jpeg?raw=true"
   },
   "Murmuration": {
     "Url": "https://murmuration-sas.com/",
-    "Description": "Description of provider",
+    "Description": "murmuration is a French company that uses Earth Observation data to provide decision-making dashboards that help understand the impact of human activity on the environment and the impact of climate change on human activities.",
     "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=murmuration",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/murmuration.jpeg?raw=true"
   },
   "NASA": {
     "Url": "https://nasa.gov/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The National Aeronautics and Space Administration is the U.S. government agency responsible for the nation's civilian space program and for science and technology related to air and space.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true"
   },
   "NOAA": {
     "Url": "https://noaa.gov/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "The National Oceanic and Atmospheric Administration is a U.S. federal government agency within the Department of Commerce focused on the conditions of the oceans, major waterways, and the atmosphere",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/noaa.png?raw=true"
   },
   "OILX": {
     "Url": "https://www.oilx.co/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "OilX is an AI-powered energy data analytics company that provides real-time market intelligence to oil traders and analysts, based in the UK.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/oilx.jpeg?raw=true"
   },
   "ONDA": {
     "Url": "https://www.onda-dias.eu/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "ONDA is one of the five Copernicus Data and Information Access Services (DIAS).",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/onda.jpeg?raw=true"
   },
   "Open Street Maps": {
     "Url": "https://wiki.openstreetmap.org/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "OpenStreetMap (OSM) is a global, collaborative project to create a free, editable map of the world, built and maintained by a community of volunteers"
   },
   "Our World in Data": {
     "Url": "https://ourworldindata.org",
     "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/owid.jpeg?raw=true"
   },
   "SEDAC": {
     "Url": "https://sedac.ciesin.columbia.edu",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Socioeconomic Data and Applications Center (SEDAC)"
   },
   "TU Wien": {
     "Url": "https://www.tuwien.at/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Technische Universität Wien"
   },
   "Université catholique de Louvain": {
     "Url": "https://uclouvain.be/en/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "UCLouvain (Université catholique de Louvain)"
   },
   "Vista": {
     "Url": "https://www.vista-geo.de/",
-    "Description": "Description of provider",
+    "Description": "VISTA GmbH is a German company specializing in geospatial intelligence and remote sensing solutions for sustainable farming and food security",
     "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=vista",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/vista.jpeg?raw=true"
   },
   "Vodafone": {
     "Url": "https://www.vodafone.com/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Vodafone Italia S.p.A."
   },
   "WASDI Market Place": {
     "Url": "https://www.wasdi.cloud",
-    "Description": "Description of provider",
+    "Description": "WASDI is a Luxembourg-based company that provides a cloud-based platform for Earth Observation (EO) data analysis.",
     "NoR Offering": "https://portfolio.nor-discover.org/?textSearch=wasdi",
-    "Logo": "Link to logo"
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/wasdi.jpeg?raw=true"
   },
-  "WLS": {
+  "WSL": {
     "Url": "https://www.wsl.ch/en/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "Swiss Federal Institute for Forest, Snow and Landscape Research.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/wsl.jpeg?raw=true"
   },
   "e-GEOS": {
     "Url": "https://www.e-geos.it/en/#/",
-    "Description": "Description of provider",
-    "Logo": "Link to logo"
+    "Description": "e-GEOS S.p.A. is a leading international company in the Earth Observation (EO) and geospatial information business.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/egeos.jpeg?raw=true"
+  },
+  "BIRA": {
+    "Url": "https://www.aeronomie.be/",
+    "Description": "Royal Belgian Institute for Space Aeronomy.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/bira.svg?raw=true"
+  },
+  "Earthpulse": {
+    "Url": "https://earthpulse.ai/en",
+    "Description": "EarthPulse is a Spanish new-space technology company founded in 2020 that provides Artificial Intelligence (AI) powered satellite data analytics and Software as a Service (SaaS) solutions.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/earthpulse.jpeg?raw=true"
+  },
+  "KNMI": {
+    "Url": "https://www.knmi.nl/home",
+    "Description": "Royal Netherlands Meteorological Institute.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/knmi.png?raw=true"
+  },
+  "GMV": {
+    "Url": "https://www.gmv.com/en",
+    "Description": "GMV is a private capital technology business group with an international presence, headquartered in Spain.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/gmv.png?raw=true"
+  },
+  "Sistema": {
+    "Url": "https://www.sistema.at/applications/technology/",
+    "Description": "SISTEMA GmbH, an Austrian environmental services company specializing in geospatial data analysis of the atmosphere, biomass, and climate.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/sistema.png?raw=true"
+  },
+  "University Bremen": {
+    "Url": "https://www.uni-bremen.de/en/",
+    "Description": "Universität Bremen."
+  },
+  "SRON": {
+    "Url": "https://www.sron.nl/en/",
+    "Description": "Netherlands Institute for Space Research.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/sron.jpg?raw=true"
+  },
+  "Planetek": {
+    "Url": "http://www.planetek.it/en",
+    "Description": "Planetek Italia is an Italian specialized in Geoinformatics, Space solutions, and Earth science.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/planetek.png?raw=true"
+  },
+  "SpaceKnow": {
+    "Url": "https://spaceknow.com/",
+    "Description": "SpaceKnow is a technology company that uses artificial intelligence (AI) to analyze vast amounts of satellite imagery and other geospatial data, transforming it into actionable intelligence for various industries, including finance, defense, environmental management, and construction.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/spaceknow.png?raw=true"
+  },
+  "Sen4Cap": {
+    "Url": "https://www.esa-sen4cap.org/",
+    "Description": "Sen4CAP (Sentinels for Common Agriculture Policy) is an open-source processing system that uses satellite data to help manage and monitor the EU's Common Agricultural Policy (CAP).",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/sen4cap.png?raw=true"
+  },
+  "Sen4Stat": {
+    "Url": "https://www.esa-sen4stat.org/overview/",
+    "Description": "Sen4Stat (Sentinels for Agricultural Statistics) is an open-source toolbox and project, supported by the European Space Agency (ESA) and NASA, that processes satellite data to produce information for agricultural monitoring and statistics.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/sen4stat.jpeg?raw=true"
+  },
+  "Sinergise": {
+    "Url": "https://www.sinergise.com/",
+    "Description": "Sinergise is a GIS company building large turn-key geospatial systems in the fields of cloud GIS, agriculture and real-estate administration.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/sinergise.png?raw=true"
+  },
+  "Serco": {
+    "Url": "https://www.serco.com/eu",
+    "Description": "Serco Italy is the Italian subsidiary of the global Serco Group, with core business is the space sector, specifically focusing on Earth observation.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/serco.png?raw=true"
+  },
+  "Mundi": {
+    "Url": "https://mundiwebservices.com/",
+    "Description": "MUNDI is one of the five Copernicus Data and Information Access Services (DIAS).",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/mundi.png?raw=true"
+  },
+  "S5P PAL": {
+    "Url": "https://data-portal.s5p-pal.com/",
+    "Description": "S5P-PAL Data Portal is the dissemination site for data products generated by Sentinel 5P processors running in S5P-PAL",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/s5ppal.png?raw=true"
+  },
+  "EMSA": {
+    "Url": "https://emsa.europa.eu/",
+    "Description": "The European Maritime Safety Agency (EMSA) is a European Union agency.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/emsa.png?raw=true"
   }
 }

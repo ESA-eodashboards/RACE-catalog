@@ -6,8 +6,7 @@
   "Subtitle": "Parked planes detected on Sentinel-2 data",
   "Description": "E13b_parked_planes/E13b_parked_planes.md",
   "Themes": [
-    "economy",
-    "transport",
+    "commerce",
     "tourism"
   ],
   "Tags": [
@@ -56,7 +55,7 @@
   ],
   "Process": {
     "Name": "GeoDB Statistics",
-    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13b_parked_planes/chart.json",
     "EndPoints": [
       {

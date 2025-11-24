@@ -5,7 +5,8 @@
   "Subtitle": "Sea surface temperature description",
   "Description": "N3a2_sea_surface_temperature/N3a2_sea_surface_temperature.md",
   "Themes": [
-    "water"
+    "water",
+    "climate"
   ],
   "Tags": [
     "Water quality",

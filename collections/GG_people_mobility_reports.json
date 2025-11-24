@@ -6,7 +6,11 @@
   "Subtitle": "People mobility data showing the impact of COVID-19 lockdown restrictions",
   "Description": "GG_people_mobility_reports/GG_people_mobility_reports.md",
   "Themes": [
-    "economy"
+    "commerce",
+    "society",
+    "tourism",
+    "sport",
+    "health"
   ],
   "Tags": [
     "Mobility",
@@ -38,7 +42,7 @@
   ],
   "Process": {
     "Name": "GeoDB Statistics",
-    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/GG_people_mobility_reports/chart.json",
     "EndPoints": [
       {

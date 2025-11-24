@@ -4,9 +4,7 @@
   "EodashIdentifier": "E12c_detections",
   "Description": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.md",
   "Themes": [
-    "economy",
-    "commerce",
-    "transport"
+    "commerce"
   ],
   "Tags": [
     "Copernicus",
@@ -69,7 +67,7 @@
     {
       "Name": "EOxHub Notebook",
       "Title": "Detect Trucks using Sentinel-2 data",
-      "Url": "https://github.com/eurodatacube/notebooks/blob/master/notebooks/contributions/Detect_Trucks_Sentinel2.ipynb"
+      "Url": "https://esa-eodashboards.github.io/RACE-notebooks/notebooks/detect-trucks-sentinel2/"
     }
   ],
   "References": [
@@ -87,7 +85,7 @@
     },
     {
       "Name": "Jupyter Notebook - Euro Data Cube",
-      "Url": "https://github.com/eurodatacube/notebooks/blob/master/notebooks/contributions/Detect_Trucks_Sentinel2.ipynb"
+      "Url": "https://esa-eodashboards.github.io/RACE-notebooks/notebooks/detect-trucks-sentinel2/"
     }
   ]
 }

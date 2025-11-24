@@ -5,8 +5,10 @@
   "Subtitle": "Vessel density description",
   "Description": "E13o_vessel_density_all/E13o_vessel_density_all.md",
   "Themes": [
-    "economy",
-    "transport"
+    "commerce",
+    "industry",
+    "tourism",
+    "society"
   ],
   "Tags": [
     "Maritime",

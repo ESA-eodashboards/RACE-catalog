@@ -6,7 +6,6 @@
   "Subtitle": "Inventory level in logisitc areas of production sites",
   "Description": "E8_industrial_inventory/E8_industrial_inventory.md",
   "Themes": [
-    "economy",
     "industry",
     "commerce"
   ],
@@ -69,7 +68,7 @@
   ],
   "Process": {
     "Name": "GeoDB Statistics",
-    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E8_industrial_inventory/chart.json",
     "EndPoints": [
       {
