@@ -5,6 +5,7 @@
   "EodashIdentifier": "E10a10_2",
   "Subtitle": "Monitoring row crop harvesting with satellite data",
   "Description": "E10a10_harvesting_evolution/E10a10_harvesting_evolution.md",
+  "ShortDescription":"This indicator shows when key crops such as winter rapeseed were actually harvested compared to when they were expected to be ready. By using satellite data to spot delays, it helps us understand how events like the COVID-19 pandemic can affect farming activities and, ultimately, parts of the food supply chain. It offers a clear view of how resilient our agricultural systems are when unexpected disruptions occur.",
   "Themes": [
     "agriculture",
     "land"
