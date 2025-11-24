@@ -199,14 +199,14 @@
       "SST"
     ],
     "themes": [
-      "water",
-      "climate"
+      "climate",
+      "water"
     ],
     "satellite": [
-      "JPSS-1",
-      "Metop-B",
-      "Sentinel-3",
       "Suomi NPP",
+      "Sentinel-3",
+      "Metop-B",
+      "JPSS-1",
       "Other"
     ],
     "sensor": [
@@ -215,20 +215,20 @@
       "VIIRS"
     ],
     "cities": [
-      "Constanta",
-      "Barcelona",
       "Lisbon",
       "Venice Lagoon",
-      "Marseilles",
-      "Hamburg"
+      "Constanta",
+      "Hamburg",
+      "Barcelona",
+      "Marseilles"
     ],
     "countries": [
-      "FR",
       "RO",
-      "IT",
-      "PT",
+      "ES",
       "GE",
-      "ES"
+      "PT",
+      "IT",
+      "FR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png"

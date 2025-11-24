@@ -191,8 +191,8 @@
       "E10a10_2"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"
@@ -201,40 +201,40 @@
       "C-SAR"
     ],
     "cities": [
-      "Lithuania",
-      "Bulgaria",
-      "Czech Republic",
-      "Latvia",
-      "Sweden",
-      "Croatia",
-      "Hungary",
-      "France",
-      "Estonia",
-      "Romania",
-      "Poland",
-      "Slovak Republic",
       "United Kingdom",
-      "Denmark",
+      "Austria",
+      "Czech Republic",
+      "Bulgaria",
       "Germany",
-      "Austria"
+      "France",
+      "Hungary",
+      "Estonia",
+      "Croatia",
+      "Lithuania",
+      "Latvia",
+      "Poland",
+      "Romania",
+      "Slovak Republic",
+      "Denmark",
+      "Sweden"
     ],
     "countries": [
-      "FR",
-      "HR",
       "RO",
       "LT",
-      "HU",
       "PL",
       "SE",
       "AT",
+      "DE",
       "EE",
       "DK",
-      "DE",
-      "LV",
+      "HR",
+      "HU",
       "CZ",
-      "BG",
+      "GB",
       "SK",
-      "GB"
+      "FR",
+      "BG",
+      "LV"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg"
@@ -265,7 +265,7 @@
       ]
     },
     "reference_3": {
-      "href": "https://foodsecurity-tep.net/node/291",
+      "href": "https://eo4society.esa.int/projects/food-security-tep/",
       "type": "text/html",
       "title": "Food Security TEP",
       "roles": [

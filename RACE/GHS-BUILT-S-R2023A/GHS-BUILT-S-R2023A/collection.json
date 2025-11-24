@@ -121,7 +121,7 @@
   "providers": [
     {
       "name": "Copernicus Emergency Management service",
-      "url": "https://emergency.copernicus.eu/emsdata.html"
+      "url": "https://emergency.copernicus.eu/"
     },
     {
       "name": "Joint Research Centre",

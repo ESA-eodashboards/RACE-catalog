@@ -195,9 +195,9 @@
     "themes": [
       "health",
       "commerce",
+      "sport",
       "tourism",
-      "society",
-      "sport"
+      "society"
     ],
     "cities": [
       "/"

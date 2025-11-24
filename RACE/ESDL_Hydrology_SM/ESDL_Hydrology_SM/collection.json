@@ -132,7 +132,7 @@
       ]
     },
     "reference_1": {
-      "href": "https://stac.eurac.edu:8080/collections/SM_RT",
+      "href": "https://stac.eurac.edu/browser/#/collections/SM_RT",
       "type": "text/html",
       "title": "RT1 Surface Soil Moisture",
       "roles": [

@@ -12,7 +12,7 @@
     },
     {
       "rel": "license",
-      "href": "https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
+      "href": "https://climate.copernicus.eu/sites/default/files/repository/20170117_Copernicus_License_V1.0.pdf",
       "type": "application/pdf",
       "title": "Licence to Use Copernicus Products"
     },
@@ -31,7 +31,7 @@
     },
     {
       "rel": "license",
-      "href": "https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
+      "href": "https://climate.copernicus.eu/sites/default/files/repository/20170117_Copernicus_License_V1.0.pdf",
       "type": "application/pdf",
       "title": "Licence to Use Copernicus Products"
     },
@@ -126,11 +126,11 @@
   "providers": [
     {
       "name": "Copernicus Climate Change Service",
-      "url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+      "url": "https://climate.copernicus.eu/"
     },
     {
       "name": "Copernicus Climate Data Store",
-      "url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+      "url": "https://cds.climate.copernicus.eu/"
     }
   ],
   "assets": {

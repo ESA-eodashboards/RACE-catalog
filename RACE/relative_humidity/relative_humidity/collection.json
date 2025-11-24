@@ -124,11 +124,11 @@
   "providers": [
     {
       "name": "Copernicus Climate Change Service",
-      "url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+      "url": "https://climate.copernicus.eu/"
     },
     {
       "name": "Copernicus Climate Data Store",
-      "url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.68d2bb30"
+      "url": "https://cds.climate.copernicus.eu/"
     }
   ],
   "assets": {

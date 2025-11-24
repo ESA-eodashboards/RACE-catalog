@@ -187,8 +187,8 @@
       "WASDI_FLOOD"
     ],
     "themes": [
-      "water",
-      "health"
+      "health",
+      "water"
     ],
     "satellite": [
       "Sentinel-1",

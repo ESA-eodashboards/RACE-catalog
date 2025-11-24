@@ -197,8 +197,8 @@
       "E10a10"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"
@@ -207,46 +207,46 @@
       "C-SAR"
     ],
     "cities": [
+      "Poland",
+      "Germany",
+      "Slovak Republic",
+      "Sweden",
+      "Serbia",
+      "Lithuania",
       "Bulgaria",
-      "Croatia",
-      "United Kingdom",
-      "Italy",
-      "Denmark",
       "Spain",
       "Austria",
-      "Latvia",
-      "Sweden",
-      "Hungary",
-      "France",
-      "Romania",
-      "Germany",
-      "Lithuania",
-      "Slovak Republic",
-      "Serbia",
       "Czech Republic",
+      "Romania",
+      "France",
+      "Italy",
+      "United Kingdom",
+      "Hungary",
       "Estonia",
-      "Poland"
+      "Croatia",
+      "Latvia",
+      "Denmark"
     ],
     "countries": [
+      "RO",
+      "GB",
+      "AT",
+      "SK",
+      "EE",
+      "CZ",
+      "BG",
+      "LV",
+      "PL",
+      "RS",
       "HR",
       "LT",
-      "PL",
-      "AT",
-      "LV",
-      "RO",
-      "FR",
-      "EE",
-      "DK",
-      "DE",
-      "BG",
-      "SK",
-      "GB",
-      "HU",
-      "RS",
-      "IT",
       "SE",
+      "DE",
       "ES",
-      "CZ"
+      "DK",
+      "HU",
+      "IT",
+      "FR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_harvesting_evolution_photo.jpg"
@@ -277,7 +277,7 @@
       ]
     },
     "reference_3": {
-      "href": "https://foodsecurity-tep.net/node/291",
+      "href": "https://eo4society.esa.int/projects/food-security-tep/",
       "type": "text/html",
       "title": "Food Security TEP",
       "roles": [
