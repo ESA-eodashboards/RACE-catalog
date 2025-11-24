@@ -50,11 +50,6 @@
       "Name": "EU Vessel density map Detailed method",
       "Key": "emodnet_map_method",
       "Url": "https://www.emodnet-humanactivities.eu/documents/Vessel%20density%20maps_method_v1.5.pdf"
-    },
-    {
-      "Name": "Map data source",
-      "Key": "emodnet_map",
-      "Url": "https://www.emodnet-humanactivities.eu/search-results.php?dataname=Vessel+Density+"
     }
   ],
   "Provider": [
