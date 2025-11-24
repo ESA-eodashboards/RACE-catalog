@@ -197,8 +197,8 @@
       "E10a10"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"
@@ -207,46 +207,46 @@
       "C-SAR"
     ],
     "cities": [
-      "Austria",
-      "Croatia",
-      "Serbia",
-      "Hungary",
-      "France",
       "Romania",
-      "Germany",
-      "Bulgaria",
-      "Sweden",
-      "United Kingdom",
-      "Denmark",
-      "Estonia",
-      "Italy",
+      "Austria",
       "Spain",
-      "Latvia",
-      "Slovak Republic",
-      "Czech Republic",
       "Poland",
-      "Lithuania"
+      "Italy",
+      "Slovak Republic",
+      "Estonia",
+      "Czech Republic",
+      "France",
+      "Sweden",
+      "Lithuania",
+      "Bulgaria",
+      "Latvia",
+      "Hungary",
+      "United Kingdom",
+      "Serbia",
+      "Germany",
+      "Croatia",
+      "Denmark"
     ],
     "countries": [
-      "SE",
-      "AT",
-      "LV",
-      "HR",
-      "GB",
-      "RO",
       "LT",
-      "DE",
-      "PL",
+      "HR",
       "BG",
+      "SE",
+      "IT",
+      "EE",
+      "HU",
       "SK",
+      "PL",
+      "CZ",
       "RS",
       "FR",
-      "EE",
-      "DK",
-      "HU",
-      "IT",
+      "DE",
       "ES",
-      "CZ"
+      "LV",
+      "GB",
+      "AT",
+      "RO",
+      "DK"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_harvesting_evolution_photo.jpg"
@@ -277,7 +277,7 @@
       ]
     },
     "reference_3": {
-      "href": "https://www.vista-geo.de/project/food-security-tep/#:~:text=The%20innovative%20Food%20Security%20Thematic,data%20and%20data%20processing%20tools.",
+      "href": "https://eo4society.esa.int/projects/food-security-tep/",
       "type": "text/html",
       "title": "Food Security TEP",
       "roles": [
