@@ -194,18 +194,18 @@
       "C-SAR"
     ],
     "cities": [
-      "Warsaw",
-      "Brussels",
-      "Bucharest",
       "Milan",
+      "Warsaw",
+      "Rome",
+      "Bucharest",
       "Athens",
-      "Rome"
+      "Brussels"
     ],
     "countries": [
-      "GR",
-      "RO",
       "BE",
+      "RO",
       "PL",
+      "GR",
       "IT"
     ],
     "thumbnail": [

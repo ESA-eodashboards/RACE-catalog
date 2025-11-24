@@ -192,8 +192,8 @@
       "N1_CO"
     ],
     "themes": [
-      "health",
       "air",
+      "health",
       "climate"
     ],
     "satellite": [
