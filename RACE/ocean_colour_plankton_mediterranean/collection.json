@@ -171,18 +171,18 @@
       "N3c_med"
     ],
     "themes": [
-      "climate",
-      "water"
+      "water",
+      "climate"
     ],
     "satellite": [
-      "Aqua",
       "JPSS-1",
-      "Suomi NPP",
-      "Sentinel-3"
+      "Sentinel-3",
+      "Aqua",
+      "Suomi NPP"
     ],
     "sensor": [
-      "OLCI",
       "VIIRS",
+      "OLCI",
       "MODIS"
     ],
     "thumbnail": [

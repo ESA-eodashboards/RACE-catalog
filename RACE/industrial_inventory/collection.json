@@ -209,48 +209,48 @@
       "E8"
     ],
     "themes": [
-      "industry",
-      "commerce"
+      "commerce",
+      "industry"
     ],
     "satellite": [
-      "Sentinel-1",
-      "ICEYE SAR"
+      "ICEYE SAR",
+      "Sentinel-1"
     ],
     "sensor": [
       "C-SAR"
     ],
     "cities": [
-      "Zwickau",
-      "Russelsheim",
-      "Barcelona",
-      "Nosovice",
-      "Wolfsburg",
-      "Emden",
-      "Sindelfingen",
-      "Cassino",
       "Swindon",
-      "Leipzig",
-      "Koln",
-      "Ingolstadt",
-      "Neckarsulm",
-      "Saarlouis",
-      "Eisenach",
-      "Martorell",
-      "Craiova",
-      "Kvasiny",
-      "Bremen",
-      "Ghent",
       "Dingolfing",
+      "Ingolstadt",
+      "Wolfsburg",
+      "Nosovice",
+      "Neckarsulm",
+      "Kvasiny",
+      "Koln",
+      "Russelsheim",
+      "Cassino",
+      "Ghent",
+      "Martorell",
       "Mioveni",
-      "Regensburg"
+      "Zwickau",
+      "Barcelona",
+      "Eisenach",
+      "Leipzig",
+      "Bremen",
+      "Saarlouis",
+      "Regensburg",
+      "Sindelfingen",
+      "Emden",
+      "Craiova"
     ],
     "countries": [
       "RO",
       "GB",
       "DE",
-      "ES",
-      "CZ",
       "IT",
+      "CZ",
+      "ES",
       "BE"
     ],
     "thumbnail": [

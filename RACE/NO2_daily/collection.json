@@ -192,8 +192,8 @@
       "N1_NO2"
     ],
     "themes": [
-      "climate",
       "health",
+      "climate",
       "air"
     ],
     "satellite": [
@@ -246,7 +246,7 @@
       ]
     },
     "reference_4": {
-      "href": "https://sentinel.esa.int/web/sentinel/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-nitrogen-dioxide",
+      "href": "https://www.tropomi.eu/data-products/n/nitrogen-dioxide",
       "type": "text/html",
       "title": "TROPOMI NO2",
       "roles": [

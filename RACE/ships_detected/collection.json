@@ -178,8 +178,8 @@
       "E200"
     ],
     "themes": [
-      "tourism",
-      "commerce"
+      "commerce",
+      "tourism"
     ],
     "satellite": [
       "Sentinel-2"
@@ -188,19 +188,19 @@
       "MSI"
     ],
     "cities": [
-      "Genoa",
-      "Gdynia",
       "Dunkirk",
+      "Genoa",
       "Ghent",
+      "Hamburg",
       "Suez ",
-      "Hamburg"
+      "Gdynia"
     ],
     "countries": [
-      "PL",
       "EG",
+      "FR",
       "DE",
       "IT",
-      "FR",
+      "PL",
       "BE"
     ],
     "thumbnail": [

@@ -192,8 +192,8 @@
       "N1_CO"
     ],
     "themes": [
-      "climate",
       "health",
+      "climate",
       "air"
     ],
     "satellite": [
@@ -222,7 +222,7 @@
       ]
     },
     "tropomi_co": {
-      "href": "https://sentinel.esa.int/web/sentinel/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-carbon-monoxide",
+      "href": "https://www.tropomi.eu/data-products/c/carbon-monoxide",
       "type": "text/html",
       "title": "TROPOMI CO",
       "roles": [

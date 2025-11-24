@@ -151,7 +151,7 @@
       ]
     },
     "tropomi_methane": {
-      "href": "http://www.tropomi.eu/data-products/methane",
+      "href": "https://www.tropomi.eu/data-products/m/methane",
       "type": "text/html",
       "title": "TROPOMI Methane",
       "roles": [

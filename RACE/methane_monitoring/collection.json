@@ -213,17 +213,17 @@
       "N1_CH4"
     ],
     "themes": [
-      "climate",
       "health",
+      "climate",
       "air"
     ],
     "satellite": [
-      "Sentinel-5P",
-      "GOSAT"
+      "GOSAT",
+      "Sentinel-5P"
     ],
     "sensor": [
-      "TANSO",
-      "TROPOMI"
+      "TROPOMI",
+      "TANSO"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring_photo.jpg"
@@ -245,7 +245,7 @@
       ]
     },
     "tropomi_methane": {
-      "href": "http://www.tropomi.eu/data-products/methane",
+      "href": "https://www.tropomi.eu/data-products/m/methane",
       "type": "text/html",
       "title": "TROPOMI Methane",
       "roles": [

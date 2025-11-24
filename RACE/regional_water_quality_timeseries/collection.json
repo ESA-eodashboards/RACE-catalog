@@ -199,10 +199,10 @@
       "N3"
     ],
     "themes": [
-      "climate",
+      "water",
       "health",
       "sport",
-      "water"
+      "climate"
     ],
     "satellite": [
       "Sentinel-3"
@@ -211,20 +211,20 @@
       "OLCI"
     ],
     "cities": [
-      "Lisbon",
       "Venice Lagoon",
       "Constanta",
+      "Lisbon",
       "Hamburg",
       "Barcelona",
       "Marseilles"
     ],
     "countries": [
       "RO",
-      "ES",
-      "GE",
       "PT",
+      "FR",
+      "GE",
       "IT",
-      "FR"
+      "ES"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg"
@@ -248,14 +248,6 @@
       ]
     },
     "reference_1": {
-      "href": "https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-3-olci/level-2/imt-neural-net",
-      "type": "text/html",
-      "title": "IMT Neural Net",
-      "roles": [
-        "metadata"
-      ]
-    },
-    "reference_2": {
       "href": "https://www.sciencedirect.com/science/article/pii/S0048969722000912?via%3Dihub",
       "type": "text/html",
       "title": "COVID-19 lockdown effects on a coastal marine environment - Disentangling perception versus reality",

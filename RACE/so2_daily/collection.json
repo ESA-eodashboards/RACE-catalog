@@ -187,8 +187,8 @@
       "N1_SO2"
     ],
     "themes": [
-      "climate",
       "health",
+      "climate",
       "air"
     ],
     "satellite": [
@@ -225,7 +225,7 @@
       ]
     },
     "reference_2": {
-      "href": "https://sentinel.esa.int/web/sentinel/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-sulphur-dioxide",
+      "href": "https://sentinels.copernicus.eu/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-sulphur-dioxide",
       "type": "text/html",
       "title": "TROPOMI SO2",
       "roles": [

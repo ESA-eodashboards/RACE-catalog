@@ -220,14 +220,6 @@
       ]
     },
     "reference_1": {
-      "href": "https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-3-olci/level-2/imt-neural-net",
-      "type": "text/html",
-      "title": "IMT Neural Net",
-      "roles": [
-        "metadata"
-      ]
-    },
-    "reference_2": {
       "href": "https://www.sciencedirect.com/science/article/pii/S0048969722000912?via%3Dihub",
       "type": "text/html",
       "title": "COVID-19 lockdown effects on a coastal marine environment - Disentangling perception versus reality",
