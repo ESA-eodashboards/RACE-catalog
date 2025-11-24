@@ -188,20 +188,20 @@
       "MSI"
     ],
     "cities": [
-      "Gdynia",
       "Dunkirk",
       "Ghent",
-      "Hamburg",
+      "Gdynia",
       "Genoa",
+      "Hamburg",
       "Suez "
     ],
     "countries": [
-      "EG",
-      "IT",
-      "DE",
-      "BE",
       "PL",
-      "FR"
+      "EG",
+      "FR",
+      "BE",
+      "IT",
+      "DE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg"
