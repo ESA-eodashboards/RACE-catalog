@@ -137,14 +137,6 @@
       "roles": [
         "metadata"
       ]
-    },
-    "emodnet_map": {
-      "href": "https://www.emodnet-humanactivities.eu/search-results.php?dataname=Vessel+Density+",
-      "type": "text/html",
-      "title": "Map data source",
-      "roles": [
-        "metadata"
-      ]
     }
   }
 }

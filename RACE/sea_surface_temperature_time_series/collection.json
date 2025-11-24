@@ -199,15 +199,15 @@
       "SST"
     ],
     "themes": [
-      "water",
-      "climate"
+      "climate",
+      "water"
     ],
     "satellite": [
-      "Sentinel-3",
       "JPSS-1",
+      "Other",
       "Suomi NPP",
       "Metop-B",
-      "Other"
+      "Sentinel-3"
     ],
     "sensor": [
       "VIIRS",
@@ -215,19 +215,19 @@
       "SLSTR"
     ],
     "cities": [
-      "Venice Lagoon",
-      "Constanta",
-      "Lisbon",
       "Hamburg",
+      "Lisbon",
       "Barcelona",
-      "Marseilles"
+      "Venice Lagoon",
+      "Marseilles",
+      "Constanta"
     ],
     "countries": [
       "RO",
       "PT",
-      "FR",
       "GE",
       "IT",
+      "FR",
       "ES"
     ],
     "thumbnail": [

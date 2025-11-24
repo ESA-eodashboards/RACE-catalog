@@ -186,10 +186,10 @@
       "E13o"
     ],
     "themes": [
-      "commerce",
       "society",
-      "tourism",
-      "industry"
+      "commerce",
+      "industry",
+      "tourism"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png"
@@ -214,14 +214,6 @@
       "href": "https://www.emodnet-humanactivities.eu/documents/Vessel%20density%20maps_method_v1.5.pdf",
       "type": "text/html",
       "title": "EU Vessel density map Detailed method",
-      "roles": [
-        "metadata"
-      ]
-    },
-    "emodnet_map": {
-      "href": "https://www.emodnet-humanactivities.eu/search-results.php?dataname=Vessel+Density+",
-      "type": "text/html",
-      "title": "Map data source",
       "roles": [
         "metadata"
       ]

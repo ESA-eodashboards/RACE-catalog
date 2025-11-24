@@ -171,19 +171,19 @@
       "N3c"
     ],
     "themes": [
-      "water",
-      "climate"
+      "climate",
+      "water"
     ],
     "satellite": [
       "JPSS-1",
-      "Sentinel-3",
+      "Suomi NPP",
       "Aqua",
-      "Suomi NPP"
+      "Sentinel-3"
     ],
     "sensor": [
       "VIIRS",
-      "OLCI",
-      "MODIS"
+      "MODIS",
+      "OLCI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_atlantic/N3c_ocean_colour_plankton_atlantic.png"
