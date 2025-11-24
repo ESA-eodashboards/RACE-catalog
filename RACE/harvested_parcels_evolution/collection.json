@@ -17,6 +17,7 @@
       "title": "Harvested parcels",
       "endpointtype": "GeoDB",
       "subtitle": "Evolution of harvested parcels in percentage",
+      "shortdescription": "This indicator shows how winter crops like wheat and barley grew and were harvested across Spain in 2020 and 2019, using frequent satellite observations. By tracking changes in crop health and harvest timing in each region, it gives citizens a clear view of how cereal production progresses each season.",
       "code": "E10a6",
       "id": "harvested_parcels_evolution",
       "themes": [
@@ -124,6 +125,7 @@
     }
   ],
   "subtitle": "Evolution of harvested parcels in percentage",
+  "shortdescription": "This indicator shows how winter crops like wheat and barley grew and were harvested across Spain in 2020 and 2019, using frequent satellite observations. By tracking changes in crop health and harvest timing in each region, it gives citizens a clear view of how cereal production progresses each season.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution_photo.jpg",
   "themes": [
     "agriculture",
@@ -185,31 +187,31 @@
       "E10a6"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
-      "Landsat-8",
+      "Sentinel-2",
       "Sentinel-1",
-      "Sentinel-2"
+      "Landsat-8"
     ],
     "sensor": [
-      "OLI",
+      "C-SAR",
       "MSI",
-      "C-SAR"
+      "OLI"
     ],
     "cities": [
-      "La Rioja",
-      "Cataluna",
-      "Comunidad Foral de Navarra",
+      "Castilla-La Mancha",
+      "Aragon",
       "Extremadura",
-      "Andalucia",
       "Castilla y Leon",
+      "Comunidad Foral de Navarra",
+      "Cataluna",
+      "Andalucia",
+      "La Rioja",
       "Comunidad de Madrid",
       "Region de Murcia",
-      "Castilla-La Mancha",
-      "Comunidad Valenciana",
-      "Aragon"
+      "Comunidad Valenciana"
     ],
     "countries": [
       "ES"

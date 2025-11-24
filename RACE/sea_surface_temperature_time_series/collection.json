@@ -203,31 +203,31 @@
       "water"
     ],
     "satellite": [
-      "JPSS-1",
       "Other",
       "Metop-B",
       "Suomi NPP",
-      "Sentinel-3"
+      "Sentinel-3",
+      "JPSS-1"
     ],
     "sensor": [
-      "AVHRR",
+      "SLSTR",
       "VIIRS",
-      "SLSTR"
+      "AVHRR"
     ],
     "cities": [
-      "Hamburg",
-      "Lisbon",
+      "Constanta",
+      "Venice Lagoon",
       "Barcelona",
       "Marseilles",
-      "Venice Lagoon",
-      "Constanta"
+      "Lisbon",
+      "Hamburg"
     ],
     "countries": [
+      "RO",
+      "ES",
+      "IT",
       "PT",
       "GE",
-      "IT",
-      "ES",
-      "RO",
       "FR"
     ],
     "thumbnail": [

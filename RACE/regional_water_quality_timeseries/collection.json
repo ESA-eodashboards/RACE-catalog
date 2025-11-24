@@ -199,9 +199,9 @@
       "N3"
     ],
     "themes": [
-      "sport",
       "health",
       "climate",
+      "sport",
       "water"
     ],
     "satellite": [
@@ -211,19 +211,19 @@
       "OLCI"
     ],
     "cities": [
-      "Hamburg",
-      "Lisbon",
+      "Constanta",
+      "Venice Lagoon",
       "Barcelona",
       "Marseilles",
-      "Venice Lagoon",
-      "Constanta"
+      "Lisbon",
+      "Hamburg"
     ],
     "countries": [
+      "RO",
+      "ES",
+      "IT",
       "PT",
       "GE",
-      "IT",
-      "ES",
-      "RO",
       "FR"
     ],
     "thumbnail": [

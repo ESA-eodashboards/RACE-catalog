@@ -78,6 +78,7 @@
     }
   ],
   "subtitle": "Availability of agricultural workers",
+  "shortdescription": "This indicator shows how many people worked in tomato fields in the Apulia region of Italy, including both field preparation and harvesting. By combining satellite images with anonymised, aggregated mobile network data, it offers an overview of how many local, commuting, and foreign workers were active during the 2019–2020 seasons. This helps citizens understand how labour availability shapes essential food production and how external events, such as the COVID-19 pandemic, can affect the agricultural workforce behind everyday products such as tomatoes.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a9_agricultural_workers/E10a9_agricultural_workers_photo.jpg",
   "yAxis": "/",
   "themes": [
