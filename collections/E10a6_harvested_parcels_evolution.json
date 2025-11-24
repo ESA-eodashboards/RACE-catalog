@@ -5,6 +5,7 @@
   "EodashIdentifier": "E10a6",
   "Subtitle": "Evolution of harvested parcels in percentage",
   "Description": "E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution.md",
+  "ShortDescription": "This indicator shows how winter crops like wheat and barley grew and were harvested across Spain in 2020 and 2019, using frequent satellite observations. By tracking changes in crop health and harvest timing in each region, it gives citizens a clear view of how cereal production progresses each season.",
   "Themes": [
     "agriculture",
     "land"
