@@ -25,7 +25,7 @@
   "Provider": [
     {
       "Name": "SEDAC",
-      "Url": "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-adjusted-to-2015-unwpp-country-totals-rev11/data-download"
+      "Url": "https://www.earthdata.nasa.gov/data/catalog/sedac-ciesin-sedac-gpwv4-apct-wpp-2015-r11-4.11"
     }
   ],
   "Citation": {

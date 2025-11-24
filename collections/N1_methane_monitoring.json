@@ -75,7 +75,7 @@
     {
       "Name": "TROPOMI Methane",
       "Key": "tropomi_methane",
-      "Url": "http://www.tropomi.eu/data-products/methane"
+      "Url": "https://www.tropomi.eu/data-products/m/methane"
     }
   ],
   "Colorlegend": {
