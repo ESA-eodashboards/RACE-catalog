@@ -170,8 +170,8 @@
       "E10a1"
     ],
     "themes": [
-      "land",
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
       "Sentinel-2"
@@ -180,8 +180,8 @@
       "MSI"
     ],
     "cities": [
-      "Brandenburg",
-      "Huelva (Lagunas de las Madres)"
+      "Huelva (Lagunas de las Madres)",
+      "Brandenburg"
     ],
     "countries": [
       "DE",

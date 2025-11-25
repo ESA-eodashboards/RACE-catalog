@@ -11,6 +11,13 @@
       "title": "RACE"
     },
     {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/Global_COVID_vaccination_data?aoi_id=eq.LU&select=time,measurement_value,reference_value",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
@@ -61,6 +68,8 @@
       "title": "Covid-19 Vaccinations"
     }
   ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/OW_Covid_19_vaccinations/chart.json",
   "subcode": "OW",
   "sci:citation": "Edouard Mathieu, Hannah Ritchie, Lucas Rodés-Guirao, Cameron Appel, Charlie Giattino, Joe Hasell, Bobbie Macdonald, Saloni Dattani, Diana Beltekian, Esteban Ortiz-Ospina and Max Roser (2020) - \"Coronavirus Pandemic (COVID-19)\". \nPublished online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/coronavirus' [Online Resource]\n",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OW_Covid_19_vaccinations/OW_Covid_19_vaccinations_photo.jpg",

@@ -175,10 +175,10 @@
       "climate"
     ],
     "satellite": [
-      "Suomi NPP",
       "Sentinel-3",
-      "Aqua",
-      "JPSS-1"
+      "JPSS-1",
+      "Suomi NPP",
+      "Aqua"
     ],
     "sensor": [
       "MODIS",
