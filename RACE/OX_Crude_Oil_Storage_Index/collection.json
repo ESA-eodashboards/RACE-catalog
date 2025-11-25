@@ -103,7 +103,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
@@ -114,7 +114,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "OSM Background",
       "roles": [
         "baselayer",
@@ -125,7 +125,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "Terrain Light",
       "roles": [
         "baselayer",
@@ -136,7 +136,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "('image/png',)",
+      "type": "image/png",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -224,9 +224,9 @@
       "OX"
     ],
     "themes": [
-      "energy",
+      "commerce",
       "industry",
-      "commerce"
+      "energy"
     ],
     "satellite": [
       "Sentinel-2",
@@ -237,43 +237,43 @@
       "MSI"
     ],
     "cities": [
-      "Antwerp",
-      "Teesport",
-      "Thessaloniki",
-      "Trieste",
-      "Schwechat",
-      "Finnart",
-      "Grangemouth",
-      "Dalmeny",
-      "Sarroch",
-      "Rotterdam",
-      "Pachi",
+      "Elefsina",
       "Fos-Lavera",
-      "Aspropyrgos",
-      "Tarragona",
-      "Cartagena",
+      "Algeciras",
+      "Omisalj",
+      "Antwerp",
+      "Dalmeny",
+      "Cork",
+      "Pachi",
+      "Finnart",
+      "Sarroch",
+      "Teesport",
+      "Grangemouth",
+      "Godorf Wesseling",
       "Sullom Voe",
       "Wilhelmshaven",
-      "Omisalj",
-      "Godorf Wesseling",
-      "Cork",
-      "Elefsina",
-      "Le Havre",
+      "Aspropyrgos",
       "Corinth",
-      "Algeciras"
+      "Tarragona",
+      "Trieste",
+      "Cartagena",
+      "Schwechat",
+      "Le Havre",
+      "Thessaloniki",
+      "Rotterdam"
     ],
     "countries": [
-      "ES",
-      "AT",
-      "NL",
       "DE",
-      "FR",
-      "IE",
-      "GB",
-      "IT",
       "GR",
+      "IT",
+      "HR",
+      "AT",
+      "GB",
+      "IE",
+      "FR",
       "BE",
-      "HR"
+      "NL",
+      "ES"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"
