@@ -214,16 +214,16 @@
     ],
     "themes": [
       "air",
-      "health",
-      "climate"
+      "climate",
+      "health"
     ],
     "satellite": [
       "Sentinel-5P",
       "GOSAT"
     ],
     "sensor": [
-      "TROPOMI",
-      "TANSO"
+      "TANSO",
+      "TROPOMI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring_photo.jpg"

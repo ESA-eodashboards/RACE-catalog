@@ -187,8 +187,8 @@
       "E10a6"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Landsat-8",
@@ -201,17 +201,17 @@
       "MSI"
     ],
     "cities": [
-      "Comunidad de Madrid",
-      "Region de Murcia",
-      "Cataluna",
-      "La Rioja",
-      "Castilla y Leon",
-      "Castilla-La Mancha",
-      "Extremadura",
       "Aragon",
       "Andalucia",
+      "Region de Murcia",
       "Comunidad Foral de Navarra",
-      "Comunidad Valenciana"
+      "Castilla y Leon",
+      "Comunidad de Madrid",
+      "Castilla-La Mancha",
+      "Cataluna",
+      "Extremadura",
+      "Comunidad Valenciana",
+      "La Rioja"
     ],
     "countries": [
       "ES"
