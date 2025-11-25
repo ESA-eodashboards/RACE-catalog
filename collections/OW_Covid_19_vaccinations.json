@@ -37,5 +37,17 @@
       "Name": "Our World in Data",
       "Url": "https://ourworldindata.org/covid-vaccinations"
     }
-  ]
+  ],
+  "Process": {
+    "Name": "GeoDB Statistics",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/OW_Covid_19_vaccinations/chart.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_geodb",
+        "Url": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/Global_COVID_vaccination_data?aoi_id=eq.{{feature}}&select=time,measurement_value,reference_value",
+        "Type": "application/json"
+      }
+    ]
+  }
 }
