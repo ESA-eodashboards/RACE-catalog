@@ -42,25 +42,29 @@
           "Identifier": "S1A-GRD-IW-asc-VV",
           "Url": "https://services.sentinel-hub.com/ogc/wms/",
           "Type": "WMS",
-          "Layers": "S1-GRD-IW-ASC-VV"
+          "Layers": "S1-GRD-IW-ASC-VV",
+          "TimeDelta": 120
         },
         {
           "Identifier": "S1B-GRD-IW-asc-VV",
           "Url": "https://services.sentinel-hub.com/ogc/wms/",
           "Type": "WMS",
-          "Layers": "S1-GRD-IW-ASC-VV"
+          "Layers": "S1-GRD-IW-ASC-VV",
+          "TimeDelta": 120
         },
         {
           "Identifier": "S1A-GRD-IW-des-VV",
           "Url": "https://services.sentinel-hub.com/ogc/wms/",
           "Type": "WMS",
-          "Layers": "S1-GRD-IW-DES-VV"
+          "Layers": "S1-GRD-IW-DES-VV",
+          "TimeDelta": 120
         },
         {
           "Identifier": "S1B-GRD-IW-des-VV",
           "Url": "https://services.sentinel-hub.com/ogc/wms/",
           "Type": "WMS",
-          "Layers": "S1-GRD-IW-DES-VV"
+          "Layers": "S1-GRD-IW-DES-VV",
+          "TimeDelta": 120
         }
       ]
     }
