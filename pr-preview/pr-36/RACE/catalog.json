@@ -1,0 +1,57 @@
+{
+  "type": "Catalog",
+  "id": "RACE",
+  "stac_version": "1.1.0",
+  "description": "Rapid Action for Citizens with Earth Observation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./temperature/collection.json",
+      "type": "application/json",
+      "title": "Global temperature - ERA5",
+      "subtitle": "Air temperature at 2m above ",
+      "shortdescription": "Surface air temperature data is crucial for assessing and forecasting health risks related to extreme heat (heatwaves) and cold. This information helps public health officials issue warnings, plan emergency responses, and study temperature-related illnesses such as heat stroke and cardiovascular issues.",
+      "code": "CDS1_temperature",
+      "id": "temperature",
+      "themes": [
+        "air",
+        "climate"
+      ],
+      "providers": [
+        "Copernicus Climate Change Service",
+        "Climate Data Store"
+      ],
+      "subcode": "CDS1_temperature",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data",
+        "ERA5"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-eodashboards.github.io/RACE-catalog/RACE/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "RACE"
+}
