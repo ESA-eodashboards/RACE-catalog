@@ -15,6 +15,12 @@
     "Open data",
     "Community"
   ],
+  "Provider": [
+    {
+      "Name": "Copernicus Data Space Ecosystem",
+      "Url": "https://dataspace.copernicus.eu/"
+    }
+  ],
   "DataSource": {
     "Spaceborne": {
       "Satellite": [

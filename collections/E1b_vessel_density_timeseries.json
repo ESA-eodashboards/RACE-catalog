@@ -29,6 +29,12 @@
     "ESA"
   ],
   "Locations": true,
+  "Provider": [
+    {
+      "Name": "Copernicus Data Space Ecosystem",
+      "Url": "https://dataspace.copernicus.eu/"
+    }
+  ],
   "Resources": [
     {
       "EndPoint": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/",
