@@ -577,6 +577,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus Data Space Ecosystem",
+      "url": "https://dataspace.copernicus.eu/"
+    }
+  ],
   "summaries": {
     "countries": [
       "BE",

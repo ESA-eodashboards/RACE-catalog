@@ -22,6 +22,9 @@
       "themes": [
         "commerce"
       ],
+      "providers": [
+        "Copernicus Data Space Ecosystem"
+      ],
       "cities": [
         "Antwerpen",
         "Hamburg",
@@ -209,6 +212,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus Data Space Ecosystem",
+      "url": "https://dataspace.copernicus.eu/"
+    }
+  ],
   "summaries": {
     "subcode": [
       "E1b"
@@ -223,24 +232,24 @@
       "C-SAR"
     ],
     "countries": [
-      "DE",
-      "NO",
-      "GR",
-      "DK",
-      "IT",
-      "RU",
-      "PL",
       "EE",
-      "IE",
-      "FR",
-      "LV",
-      "TR",
-      "BE",
+      "DK",
+      "GR",
       "PT",
-      "RO",
-      "NL",
+      "FR",
+      "BE",
       "LT",
-      "ES"
+      "IE",
+      "ES",
+      "RO",
+      "TR",
+      "NO",
+      "PL",
+      "DE",
+      "RU",
+      "IT",
+      "NL",
+      "LV"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg"

@@ -179,16 +179,16 @@
       "E10a5"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-2",
       "Pleiades"
     ],
     "sensor": [
-      "MSI",
-      "HiRI"
+      "HiRI",
+      "MSI"
     ],
     "cities": [
       "Huelva Laguna de las Madres"
