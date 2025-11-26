@@ -1,0 +1,27 @@
+{
+  "ESA": {
+    "Url": "https://esa.int/",
+    "Description": "The European Space Agency",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true"
+  },
+  "Copernicus": {
+    "Url": "https://www.copernicus.eu/en",
+    "Description": "Copernicus is the Earth observation component of the European Union’s Space programme",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/copernicus.png?raw=true"
+  },
+  "Network of Resources": {
+    "Url": "https://nor-discover.org/",
+    "Description": "NoR provides non-commercial and commercial users with a unique environment to discover European cloud services and their estimate costs for Earth Observation.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/nor.png?raw=true"
+  },
+  "EUSPA": {
+    "Url": "https://euspa.europa.eu/",
+    "Description": "EUSPA manages public interests related to the European Global Navigation Satellite System (GNSS) programmes EGNOS (European Geostationary Navigation Overlay System) and Galileo, the Earth observation (EO) programme Copernicus, and the European Union Governmental Satellite Communications (GOVSATCOM) programme.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/euspa.png?raw=true"
+  },
+  "Copernicus Data Space Ecosystem": {
+    "Url": "https://dataspace.copernicus.eu",
+    "Description": "The Copernicus Data Space Ecosystem is an open ecosystem that provides free instant access to a wide range of data and services from the Copernicus Sentinel missions and more on our planet’s land, oceans and atmosphere.",
+    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/cdse.jpeg?raw=true"
+  }
+}
