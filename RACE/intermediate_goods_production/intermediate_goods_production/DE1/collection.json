@@ -88,10 +88,10 @@
     "spatial": {
       "bbox": [
         [
-          9.744467,
-          53.332122999999996,
-          10.144466999999999,
-          53.732123
+          9.92558225474091,
+          53.5078804237063,
+          9.92794198175388,
+          53.509099429604
         ]
       ]
     },
@@ -99,13 +99,21 @@
       "interval": [
         [
           "2020-02-05T10:20:06Z",
-          "2020-04-09T10:26:12Z"
+          "2020-03-24T10:49:25Z"
         ]
       ]
     }
   },
   "license": "other",
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E4_intermediate_goods_production/E4_intermediate_goods_production_photo.jpg",
       "type": "image/png",

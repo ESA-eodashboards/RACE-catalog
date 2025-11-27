@@ -12,7 +12,7 @@
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/Global_COVID_vaccination_data?aoi_id=eq.HU&select=time,measurement_value,reference_value",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_Global_COVID_vaccination_data?aoi_id=eq.HU&select=time,measurement_value,reference_value",
       "type": "application/json",
       "id": "process_geodb",
       "method": "GET"

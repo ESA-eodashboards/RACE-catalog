@@ -187,12 +187,12 @@
       "WASDI_FLOOD"
     ],
     "themes": [
-      "health",
-      "water"
+      "water",
+      "health"
     ],
     "satellite": [
-      "Sentinel-1",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Sentinel-1"
     ],
     "sensor": [
       "SAR",

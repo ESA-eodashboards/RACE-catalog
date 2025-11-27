@@ -42,6 +42,14 @@
     },
     {
       "rel": "service",
+      "href": "./intermediate_goods_production/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
+    },
+    {
+      "rel": "service",
       "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E4?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
       "id": "process_geodb",
@@ -104,6 +112,7 @@
     "industry",
     "commerce"
   ],
+  "locations": true,
   "tags": [
     "Multi-sensors"
   ],
@@ -118,10 +127,10 @@
     "spatial": {
       "bbox": [
         [
-          8.685851000000001,
-          44.208141999999995,
-          10.144466999999999,
-          53.732123
+          8.769317197218466,
+          44.42544820266602,
+          9.92794198175388,
+          53.509099429604
         ]
       ]
     },
@@ -129,7 +138,7 @@
       "interval": [
         [
           "2019-04-30T10:33:52Z",
-          "2020-04-09T10:26:12Z"
+          "2020-03-24T10:49:25Z"
         ]
       ]
     }
@@ -144,12 +153,12 @@
       "commerce"
     ],
     "cities": [
-      "Hamburg",
-      "Genoa"
+      "Genoa",
+      "Hamburg"
     ],
     "countries": [
-      "IT",
-      "DE"
+      "DE",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E4_intermediate_goods_production/E4_intermediate_goods_production_photo.jpg"
