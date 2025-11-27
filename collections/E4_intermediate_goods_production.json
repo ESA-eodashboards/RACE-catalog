@@ -27,9 +27,30 @@
       "EndPoint": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/",
       "Name": "GeoDB",
       "Database": "eodash",
-      "CollectionId": "E4"
+      "CollectionId": "E4",
+      "InputData": [
+        {
+          "Identifier": "[NEW] Pleiades COVID-19",
+          "Url": "https://services.sentinel-hub.com/ogc/wms/",
+          "Type": "WMS",
+          "Layers": "NEW_PLEIADES_COVID19"
+        },
+        {
+          "Identifier": "[NEW] Pleiades COVID19",
+          "Url": "https://services.sentinel-hub.com/ogc/wms/",
+          "Type": "WMS",
+          "Layers": "NEW_PLEIADES_COVID19"
+        },
+        {
+          "Identifier": "[NEW] Pleiades - 2.8m - COVID19",
+          "Url": "https://services.sentinel-hub.com/ogc/wms/",
+          "Type": "WMS",
+          "Layers": "NEW_PLEIADES_28_COVID19"
+        }
+      ]
     }
   ],
+  "Locations": true,
   "Process": {
     "Name": "GeoDB Statistics",
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
