@@ -261,15 +261,15 @@
     "subcode": [
       "IND1_1_b5",
       "IND1_1_b1",
-      "IND1_1_b3",
       "IND1_1_b4",
-      "IND1_1_b2"
+      "IND1_1_b2",
+      "IND1_1_b3"
     ],
     "themes": [
-      "air",
       "climate",
-      "land",
       "health",
+      "land",
+      "air",
       "society"
     ],
     "thumbnail": [

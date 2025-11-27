@@ -209,8 +209,8 @@
       "E8"
     ],
     "themes": [
-      "industry",
-      "commerce"
+      "commerce",
+      "industry"
     ],
     "satellite": [
       "Sentinel-1",
@@ -220,36 +220,36 @@
       "C-SAR"
     ],
     "cities": [
-      "Ghent",
-      "Eisenach",
-      "Dingolfing",
-      "Sindelfingen",
-      "Russelsheim",
-      "Wolfsburg",
-      "Regensburg",
-      "Barcelona",
-      "Bremen",
       "Nosovice",
-      "Mioveni",
-      "Cassino",
-      "Leipzig",
       "Koln",
-      "Emden",
-      "Neckarsulm",
-      "Kvasiny",
-      "Craiova",
       "Swindon",
-      "Zwickau",
+      "Leipzig",
+      "Eisenach",
+      "Craiova",
+      "Emden",
+      "Sindelfingen",
+      "Martorell",
+      "Bremen",
+      "Mioveni",
+      "Neckarsulm",
+      "Wolfsburg",
+      "Cassino",
+      "Ghent",
+      "Regensburg",
+      "Dingolfing",
       "Saarlouis",
+      "Zwickau",
       "Ingolstadt",
-      "Martorell"
+      "Barcelona",
+      "Russelsheim",
+      "Kvasiny"
     ],
     "countries": [
-      "GB",
-      "BE",
-      "RO",
       "ES",
       "CZ",
+      "RO",
+      "GB",
+      "BE",
       "DE",
       "IT"
     ],
