@@ -224,56 +224,56 @@
       "OX"
     ],
     "themes": [
-      "commerce",
+      "energy",
       "industry",
-      "energy"
+      "commerce"
     ],
     "satellite": [
-      "Sentinel-2",
-      "Sentinel-1"
+      "Sentinel-1",
+      "Sentinel-2"
     ],
     "sensor": [
-      "C-SAR",
-      "MSI"
+      "MSI",
+      "C-SAR"
     ],
     "cities": [
-      "Schwechat",
+      "Elefsina",
+      "Aspropyrgos",
+      "Tarragona",
+      "Fos-Lavera",
+      "Rotterdam",
+      "Omisalj",
+      "Pachi",
+      "Algeciras",
+      "Grangemouth",
+      "Sullom Voe",
+      "Antwerp",
+      "Corinth",
+      "Cartagena",
       "Teesport",
       "Godorf Wesseling",
-      "Sarroch",
-      "Dalmeny",
-      "Finnart",
-      "Cartagena",
-      "Grangemouth",
-      "Fos-Lavera",
-      "Tarragona",
-      "Sullom Voe",
-      "Cork",
-      "Algeciras",
-      "Corinth",
-      "Pachi",
-      "Wilhelmshaven",
-      "Le Havre",
-      "Antwerp",
       "Trieste",
-      "Omisalj",
+      "Le Havre",
+      "Schwechat",
+      "Cork",
       "Thessaloniki",
-      "Rotterdam",
-      "Elefsina",
-      "Aspropyrgos"
+      "Sarroch",
+      "Finnart",
+      "Wilhelmshaven",
+      "Dalmeny"
     ],
     "countries": [
-      "HR",
+      "NL",
+      "IT",
       "DE",
-      "BE",
       "GB",
       "FR",
-      "AT",
-      "IT",
-      "ES",
+      "HR",
       "GR",
+      "ES",
       "IE",
-      "NL"
+      "BE",
+      "AT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"

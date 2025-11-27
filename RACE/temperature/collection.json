@@ -204,8 +204,8 @@
       "CDS1_temperature"
     ],
     "themes": [
-      "air",
-      "climate"
+      "climate",
+      "air"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png"

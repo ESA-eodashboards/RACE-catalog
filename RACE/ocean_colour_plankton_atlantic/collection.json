@@ -154,7 +154,7 @@
       "interval": [
         [
           "2025-11-09T00:00:00Z",
-          "2025-11-25T00:00:00Z"
+          "2025-11-26T00:00:00Z"
         ]
       ]
     }
@@ -175,14 +175,14 @@
       "climate"
     ],
     "satellite": [
-      "Suomi NPP",
-      "JPSS-1",
+      "Aqua",
       "Sentinel-3",
-      "Aqua"
+      "JPSS-1",
+      "Suomi NPP"
     ],
     "sensor": [
-      "OLCI",
       "VIIRS",
+      "OLCI",
       "MODIS"
     ],
     "thumbnail": [

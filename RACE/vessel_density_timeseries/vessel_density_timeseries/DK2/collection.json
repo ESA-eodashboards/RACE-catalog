@@ -138,7 +138,7 @@
       ]
     },
     "notebook_vessel_density_cimbelli": {
-      "href": "https://edc-jupyter.hub.eox.at/user/fd72d739-596f-4e72-a660-0d06045e4e26/lab/tree/Vessel_count_upscale.ipynb",
+      "href": "https://github.com/eurodatacube/notebooks/blob/2b77beabd02001c746b57e1cd769e2e79d59b9d6/notebooks/contributions/Vessel_Density_from_Sentinel-1.ipynb",
       "type": "text/html",
       "title": "Jupyter Notebook Euro Data Cube",
       "roles": [
