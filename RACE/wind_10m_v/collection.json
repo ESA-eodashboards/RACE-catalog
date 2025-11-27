@@ -26,7 +26,7 @@
       ],
       "providers": [
         "Copernicus Climate Change Service",
-        "Copernicus Climate Data Store"
+        "Climate Data Store"
       ],
       "tags": [
         "Copernicus Services",
@@ -197,7 +197,7 @@
       "url": "https://climate.copernicus.eu/"
     },
     {
-      "name": "Copernicus Climate Data Store",
+      "name": "Climate Data Store",
       "url": "https://cds.climate.copernicus.eu/"
     }
   ],
@@ -206,8 +206,8 @@
       "CDS4"
     ],
     "themes": [
-      "air",
-      "climate"
+      "climate",
+      "air"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS4_wind_10m_v/CDS4_wind_10m_v.png"
