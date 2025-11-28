@@ -210,10 +210,10 @@
       "C-SAR"
     ],
     "countries": [
-      "PL",
       "SE",
-      "FI",
-      "RO"
+      "PL",
+      "RO",
+      "FI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg"

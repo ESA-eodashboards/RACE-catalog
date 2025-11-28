@@ -17,6 +17,7 @@
       "title": "Truck detections primary roads indicator"
     }
   ],
+  "shortdescription": "This indicator shows trucks moving on European primary roads detected in Sentinel-2 imagery.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.png",
   "themes": [
     "commerce"

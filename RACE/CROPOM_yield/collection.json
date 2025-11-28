@@ -194,8 +194,8 @@
       "agriculture"
     ],
     "satellite": [
-      "CLMS HR-VPP Vegetation Indices",
       "CLMS HR-VPP Seasonal Trajectory",
+      "CLMS HR-VPP Vegetation Indices",
       "Sentinel-2"
     ],
     "thumbnail": [

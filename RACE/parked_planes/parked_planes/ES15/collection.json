@@ -72,6 +72,7 @@
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13b_parked_planes/chart.json",
   "subcode": "E13b",
   "subtitle": "Parked planes detected on Sentinel-2 data",
+  "shortdescription": "This indicator tracks how many airplanes were parked at major European airports over time, using satellite images to compare 2020 with previous years. Because air travel is closely tied to tourism, jobs, and the wider economy, the number of grounded planes offers a picture of how strongly the COVID-19 pandemic disrupted international mobility.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg",
   "themes": [
     "commerce",

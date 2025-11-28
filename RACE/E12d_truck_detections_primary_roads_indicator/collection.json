@@ -16,6 +16,7 @@
       "type": "application/json",
       "title": "Truck detections geometries",
       "endpointtype": "GeoDB Features",
+      "shortdescription": "This indicator shows trucks moving on European primary roads detected in Sentinel-2 imagery.",
       "code": "E12d_daily",
       "id": "Truck_daily_detections",
       "themes": [
@@ -85,6 +86,7 @@
       "type": "application/json",
       "title": "Truck detections daily S2 L2A",
       "endpointtype": "WMS_OverwriteTimes",
+      "shortdescription": "This indicator shows trucks moving on European primary roads detected in Sentinel-2 imagery.",
       "code": "E12d_detections",
       "id": "Truck_daily_sentinel_2",
       "themes": [
@@ -172,6 +174,7 @@
       "title": "RACE"
     }
   ],
+  "shortdescription": "This indicator shows trucks moving on major European primary roads detected in Sentinel-2 imagery.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.png",
   "themes": [
     "economy"
@@ -251,9 +254,9 @@
   ],
   "summaries": {
     "subcode": [
-      "E12d_monthly",
+      "E12d_detections",
       "E12d_daily",
-      "E12d_detections"
+      "E12d_monthly"
     ],
     "themes": [
       "commerce"
