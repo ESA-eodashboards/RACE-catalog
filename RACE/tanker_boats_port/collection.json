@@ -160,13 +160,13 @@
       "E13g"
     ],
     "themes": [
-      "energy",
       "industry",
-      "commerce"
+      "commerce",
+      "energy"
     ],
     "cities": [
-      "Genoa",
-      "Gioia Tauro"
+      "Gioia Tauro",
+      "Genoa"
     ],
     "countries": [
       "IT"
