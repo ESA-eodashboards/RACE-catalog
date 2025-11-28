@@ -3,6 +3,7 @@
   "Title": "Truck detections motorways indicator",
   "EodashIdentifier": "E12c",
   "Description": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.md",
+  "ShortDescription": "This indicator shows trucks moving on major European motorways detected in Sentinel-2 imagery.",
   "Themes": [
     "economy"
   ],

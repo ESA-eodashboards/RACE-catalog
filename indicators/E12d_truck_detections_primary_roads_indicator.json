@@ -3,6 +3,7 @@
   "Title": "Truck detections primary roads indicator",
   "EodashIdentifier": "E12d",
   "Description": "E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.md",
+  "ShortDescription": "This indicator shows trucks moving on major European primary roads detected in Sentinel-2 imagery.",
   "Themes": [
     "economy"
   ],
