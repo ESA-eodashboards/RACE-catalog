@@ -72,6 +72,7 @@
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E1b_vessel_density_timeseries/chart.json",
   "subcode": "E200",
   "subtitle": "Ships detected in Sentinel-2 data",
+  "shortdescription": "This indicator shows how many ships were present in the industrial areas of major European ports, based on satellite images from Copernicus Sentinel-2. A machine-learning model detects vessels within selected port zones, offering an easy way to see how industrial port activity changed over time.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg",
   "themes": [
     "commerce",

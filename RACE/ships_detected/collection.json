@@ -17,6 +17,7 @@
       "title": "Ships detected in Sentinel-2",
       "endpointtype": "GeoDB",
       "subtitle": "Ships detected in Sentinel-2 data",
+      "shortdescription": "This indicator shows how many ships were present in the industrial areas of major European ports, based on satellite images from Copernicus Sentinel-2. A machine-learning model detects vessels within selected port zones, offering an easy way to see how industrial port activity changed over time.",
       "code": "E200",
       "id": "ships_detected",
       "themes": [
@@ -124,6 +125,7 @@
     }
   ],
   "subtitle": "Ships detected in Sentinel-2 data",
+  "shortdescription": "This indicator shows how many ships were present in the industrial areas of major European ports, based on satellite images from Copernicus Sentinel-2. A machine-learning model detects vessels within selected port zones, offering an easy way to see how industrial port activity changed over time.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg",
   "themes": [
     "commerce",
@@ -188,20 +190,20 @@
       "MSI"
     ],
     "cities": [
-      "Ghent",
+      "Gdynia",
+      "Suez ",
+      "Dunkirk",
       "Hamburg",
       "Genoa",
-      "Dunkirk",
-      "Suez ",
-      "Gdynia"
+      "Ghent"
     ],
     "countries": [
-      "FR",
-      "DE",
       "PL",
-      "BE",
       "IT",
-      "EG"
+      "EG",
+      "DE",
+      "FR",
+      "BE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg"

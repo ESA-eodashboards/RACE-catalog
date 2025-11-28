@@ -39,6 +39,7 @@
     }
   ],
   "subtitle": "Global 3-daily Carbon monoxide",
+  "shortdescription": "This indicator shows the amount of carbon monoxide (CO) in the atmosphere, measured from space by the Sentinel-5P satellite. CO is a pollutant produced by traffic, industry, and fires, and high levels can affect air quality and health. By mapping CO worldwide, this indicator helps people see where pollution is coming from, such as cities, wildfire regions, or industrial areas, and how it changes over time. It offers a clear view of how human activities and natural events impact the air we breathe.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO_photo.jpg",
   "themes": [
     "air",

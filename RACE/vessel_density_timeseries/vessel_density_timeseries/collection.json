@@ -339,6 +339,7 @@
   ],
   "sci:citation": "Alessandro Cimbelli, Vessel Density based on Copernicus Sentinel-1, developed for the ESA RACE Challenges March 2021",
   "subtitle": "Vessel Density based on Copernicus Sentinel-1",
+  "shortdescription": "This indicator shows how many ships were present in major European ports by detecting them directly in radar images from the Copernicus Sentinel-1 satellite. By mapping vessel activity at a 1 km scale, it provides a clear picture of how busy ports were each month. This helps us understand how maritime traffic evolved during events like the COVID-19 pandemic and how port activity reflects the movement of goods, travel, and economic recovery.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg",
   "yAxis": "/",
   "themes": [

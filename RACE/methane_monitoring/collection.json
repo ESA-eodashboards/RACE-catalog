@@ -17,6 +17,7 @@
       "title": "Methane monitoring",
       "endpointtype": "Sentinel Hub_byoc",
       "subtitle": "Daily Methane Monitoring",
+      "shortdescription": "This indicator shows methane (CH₄) concentrations in the atmosphere, measured from space by the Sentinel-5P satellite. Methane is a powerful greenhouse gas, and tracking where it comes from, such as agriculture, energy production, or natural sources, helps us understand its impact on climate. By mapping methane levels globally, this indicator gives a clear view of how human activities and natural processes contribute to warming, and how these patterns evolve over time.",
       "code": "N1_CH4",
       "id": "methane_monitoring",
       "themes": [
@@ -114,6 +115,7 @@
     }
   ],
   "subtitle": "Daily Methane Monitoring",
+  "shortdescription": "This indicator shows methane (CH₄) concentrations in the atmosphere, measured from space by the Sentinel-5P satellite. Methane is a powerful greenhouse gas, and tracking where it comes from, such as agriculture, energy production, or natural sources, helps us understand its impact on climate. By mapping methane levels globally, this indicator gives a clear view of how human activities and natural processes contribute to warming, and how these patterns evolve over time.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring_photo.jpg",
   "themes": [
     "air",

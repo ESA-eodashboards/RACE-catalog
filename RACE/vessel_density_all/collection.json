@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "vessel_density_all",
   "stac_version": "1.1.0",
-  "description": "This indicator shows how many ships were present in European waters each month, based on signals that all large vessels send out to share their identity and position (AIS – automatic identification system). The maps reveal how busy the seas were for different types of vessels, like cargo ships, ferries, or fishing boats, helping us see how maritime activity changed over time, including during the COVID-19 pandemic. It offers a view of how shipping, travel, and fishing support Europe’s economy and daily life.",
+  "description": "## Ship density Map\n\nThis indicator shows maps representing the total ship presence time on a 1 km grid (EEA/Inspire standards)\nfor every month from 2017-2021, separately for 14 different ship categories. The indicator is provided by the [EMODnet Human activities portal](https://www.emodnet-humanactivities.eu/view-data.php). \n\nThe total ship presence times are converted to average instantaneous number of ships per square km.\n\nThese maps have been made from ship reporting data of the Automatic Identification System (AIS), collected by coastal stations and satellites. \n\nEMODnet Human Activities creates vessel density maps of EU waters showing the average number of vessels of certain type (cargo, passenger, fishing etc.) in a given period within a grid cell.\n\n<img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png\" alt=\"Image\" />\n\n<img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_legend.png\" alt=\"Legend\" />\n",
   "links": [
     {
       "rel": "root",
@@ -17,6 +17,7 @@
       "title": "Vessel density",
       "endpointtype": "Sentinel Hub_byoc",
       "subtitle": "Vessel density description",
+      "shortdescription": "This indicator shows how many ships were present in European waters each month, based on signals that all large vessels send out to share their identity and position (AIS – automatic identification system). The maps reveal how busy the seas were for different types of vessels, like cargo ships, ferries, or fishing boats, helping us see how maritime activity changed over time, including during the COVID-19 pandemic. It offers a view of how shipping, travel, and fishing support Europe’s economy and daily life.",
       "code": "E13o",
       "id": "vessel_density_all",
       "themes": [
@@ -105,6 +106,7 @@
     }
   ],
   "subtitle": "Vessel density description",
+  "shortdescription": "This indicator shows how many ships were present in European waters each month, based on signals that all large vessels send out to share their identity and position (AIS – automatic identification system). The maps reveal how busy the seas were for different types of vessels, like cargo ships, ferries, or fishing boats, helping us see how maritime activity changed over time, including during the COVID-19 pandemic. It offers a view of how shipping, travel, and fishing support Europe’s economy and daily life.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png",
   "themes": [
     "commerce",
@@ -186,10 +188,10 @@
       "E13o"
     ],
     "themes": [
-      "industry",
       "commerce",
-      "tourism",
-      "society"
+      "society",
+      "industry",
+      "tourism"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png"
