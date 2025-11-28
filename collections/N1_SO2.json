@@ -4,6 +4,7 @@
   "EodashIdentifier": "N1_SO2",
   "Subtitle": "Global daily SO2",
   "Description": "N1_SO2/N1_SO2.md",
+  "ShortDescription": "This indicator shows sulfur dioxide (SO₂) in the atmosphere, measured by the Sentinel-5P satellite. SO₂ comes from both human activities (like power plants and industry) and natural events such as volcanic eruptions. High levels can affect air quality, human health, and even climate. By mapping SO₂ at high resolution, this indicator helps people see pollution hotspots, track volcanic plumes that may impact aviation, and understand how emissions travel across regions.",
   "Themes": [
     "air",
     "climate",
