@@ -4,6 +4,7 @@
   "EodashIdentifier": "N1_CH4",
   "Subtitle": "Daily Methane Monitoring",
   "Description": "N1_methane_monitoring/N1_methane_monitoring.md",
+  "ShortDescription": "This indicator shows methane (CH₄) concentrations in the atmosphere, measured from space by the Sentinel-5P satellite. Methane is a powerful greenhouse gas, and tracking where it comes from, such as agriculture, energy production, or natural sources, helps us understand its impact on climate. By mapping methane levels globally, this indicator gives a clear view of how human activities and natural processes contribute to warming, and how these patterns evolve over time.",
   "Themes": [
     "air",
     "climate",
