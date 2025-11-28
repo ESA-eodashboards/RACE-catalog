@@ -190,13 +190,13 @@
       "CROPOM_yield"
     ],
     "themes": [
-      "land",
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
+      "Sentinel-2",
       "CLMS HR-VPP Seasonal Trajectory",
-      "CLMS HR-VPP Vegetation Indices",
-      "Sentinel-2"
+      "CLMS HR-VPP Vegetation Indices"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_yield.png"

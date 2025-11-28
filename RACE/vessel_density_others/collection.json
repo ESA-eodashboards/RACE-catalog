@@ -17,6 +17,7 @@
       "title": "Vessel density for non tanker or cargo",
       "endpointtype": "Sentinel Hub_byoc",
       "subtitle": "Vessel density for non tanker or cargo vessels",
+      "shortdescription": "This indicator shows how many non-cargo and non-tanker ships (such as passenger ferries, fishing vessels, or recreational boats) were active in European waters each month. It uses AIS signals, which are location messages that all large ships send out (similar to a tracking system). By mapping where these vessels were over time from 2017 to 2021, it helps people understand how everyday maritime activities changed, including during the COVID-19 pandemic, and how they contribute to coastal life, tourism, and local economies.",
       "code": "E13r",
       "id": "vessel_density_others",
       "themes": [
@@ -102,6 +103,7 @@
     }
   ],
   "subtitle": "Vessel density for non tanker or cargo vessels",
+  "shortdescription": "This indicator shows how many non-cargo and non-tanker ships (such as passenger ferries, fishing vessels, or recreational boats) were active in European waters each month. It uses AIS signals, which are location messages that all large ships send out (similar to a tracking system). By mapping where these vessels were over time from 2017 to 2021, it helps people understand how everyday maritime activities changed, including during the COVID-19 pandemic, and how they contribute to coastal life, tourism, and local economies.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13r_vessel_density_others/E13r_vessel_density_others.png",
   "themes": [
     "commerce"

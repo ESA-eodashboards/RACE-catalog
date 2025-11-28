@@ -17,6 +17,7 @@
       "title": "Flying planes detections",
       "endpointtype": "GeoDB",
       "subtitle": "Flying planes detected on Sentinel-2 data",
+      "shortdescription": "This indicator tracks how many airplanes were actually flying near Europe’s busiest airports by detecting them directly in Sentinel-2 satellite images. It shows how the air traffic rose or fell during the COVID-19 pandemic compared to normal years. Because air travel is closely linked to tourism, business activity, and the wider economy, these trends offer an accessible view of the pandemic impact on mobility.",
       "code": "E13d",
       "id": "flying_planes",
       "themes": [
@@ -170,6 +171,7 @@
     }
   ],
   "subtitle": "Flying planes detected on Sentinel-2 data",
+  "shortdescription": "This indicator tracks how many airplanes were actually flying near Europe’s busiest airports by detecting them directly in Sentinel-2 satellite images. It shows how the air traffic rose or fell during the COVID-19 pandemic compared to normal years. Because air travel is closely linked to tourism, business activity, and the wider economy, these trends offer an accessible view of the pandemic impact on mobility.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg",
   "themes": [
     "commerce",
@@ -238,24 +240,24 @@
       "MSI"
     ],
     "countries": [
-      "IE",
-      "IT",
-      "BE",
-      "SE",
-      "DK",
-      "AT",
-      "NL",
       "ES",
-      "NO",
-      "PL",
-      "PT",
-      "GB",
+      "AT",
+      "FI",
       "FR",
+      "PT",
+      "DE",
+      "NL",
+      "DK",
+      "CH",
+      "IE",
+      "PL",
+      "GB",
+      "BE",
       "GR",
       "TR",
-      "CH",
-      "FI",
-      "DE"
+      "IT",
+      "SE",
+      "NO"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg"

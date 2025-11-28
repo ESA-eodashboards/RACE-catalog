@@ -213,13 +213,13 @@
       "N1_CH4"
     ],
     "themes": [
-      "climate",
       "health",
+      "climate",
       "air"
     ],
     "satellite": [
-      "GOSAT",
-      "Sentinel-5P"
+      "Sentinel-5P",
+      "GOSAT"
     ],
     "sensor": [
       "TROPOMI",

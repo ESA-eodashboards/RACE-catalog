@@ -187,16 +187,16 @@
       "WASDI_FLOOD"
     ],
     "themes": [
-      "health",
-      "water"
+      "water",
+      "health"
     ],
     "satellite": [
       "Sentinel-2",
       "Sentinel-1"
     ],
     "sensor": [
-      "MSI",
-      "SAR"
+      "SAR",
+      "MSI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WASDI_FLOOD/WASDI_FLOOD.jpg"
