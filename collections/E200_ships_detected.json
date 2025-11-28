@@ -5,6 +5,7 @@
   "EodashIdentifier": "E200",
   "Subtitle": "Ships detected in Sentinel-2 data",
   "Description": "E200_ships_detected/E200_ships_detected.md",
+  "ShortDescription": "This indicator shows how many ships were present in the industrial areas of major European ports, based on satellite images from Copernicus Sentinel-2. A machine-learning model detects vessels within selected port zones, offering an easy way to see how industrial port activity changed over time.",
   "Themes": [
     "commerce",
     "tourism"
