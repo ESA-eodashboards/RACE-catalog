@@ -5,6 +5,7 @@
   "EodashIdentifier": "E13b",
   "Subtitle": "Parked planes detected on Sentinel-2 data",
   "Description": "E13b_parked_planes/E13b_parked_planes.md",
+  "ShortDescription": "This indicator tracks how many airplanes were parked at major European airports over time, using satellite images to compare 2020 with previous years. Because air travel is closely tied to tourism, jobs, and the wider economy, the number of grounded planes offers a picture of how strongly the COVID-19 pandemic disrupted international mobility.",
   "Themes": [
     "commerce",
     "tourism"
