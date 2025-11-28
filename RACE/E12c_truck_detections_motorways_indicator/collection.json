@@ -16,6 +16,7 @@
       "type": "application/json",
       "title": "Truck detections geometries",
       "endpointtype": "GeoDB Features",
+      "shortdescription": "This indicator shows trucks moving on major European motorways detected in Sentinel-2 imagery.",
       "code": "E12c_daily",
       "id": "Truck_daily_detections",
       "themes": [
@@ -85,6 +86,7 @@
       "type": "application/json",
       "title": "Truck detections daily S2 L2A",
       "endpointtype": "WMS_OverwriteTimes",
+      "shortdescription": "This indicator shows trucks moving on major European motorways detected in Sentinel-2 imagery.",
       "code": "E12c_detections",
       "id": "Truck_daily_sentinel_2",
       "themes": [
@@ -251,9 +253,9 @@
   ],
   "summaries": {
     "subcode": [
-      "E12c_detections",
+      "E12c_monthly",
       "E12c_daily",
-      "E12c_monthly"
+      "E12c_detections"
     ],
     "themes": [
       "commerce"

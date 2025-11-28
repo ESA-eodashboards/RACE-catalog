@@ -188,8 +188,8 @@
     ],
     "themes": [
       "health",
-      "climate",
-      "air"
+      "air",
+      "climate"
     ],
     "satellite": [
       "Sentinel-5P"

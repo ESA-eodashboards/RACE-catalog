@@ -263,8 +263,8 @@
     ],
     "themes": [
       "health",
-      "climate",
-      "air"
+      "air",
+      "climate"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1d_o3_cams/N1d_o3_cams_graph.jpg"
