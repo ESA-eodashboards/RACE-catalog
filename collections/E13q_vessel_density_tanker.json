@@ -62,6 +62,10 @@
   "Colorlegend": {
     "domain": [
       0.5,
+      2,
+      5,
+      10,
+      20,
       150
     ],
     "range": [
