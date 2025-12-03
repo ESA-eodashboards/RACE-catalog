@@ -190,7 +190,7 @@
       "interval": [
         [
           "2018-04-30T00:00:00Z",
-          "2025-07-28T00:00:00Z"
+          "2025-11-24T00:00:00Z"
         ]
       ]
     }
@@ -215,17 +215,17 @@
       "N1_CH4"
     ],
     "themes": [
+      "health",
       "air",
-      "climate",
-      "health"
+      "climate"
     ],
     "satellite": [
       "Sentinel-5P",
       "GOSAT"
     ],
     "sensor": [
-      "TANSO",
-      "TROPOMI"
+      "TROPOMI",
+      "TANSO"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring_photo.jpg"

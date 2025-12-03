@@ -175,7 +175,7 @@
       "interval": [
         [
           "2018-04-30T00:00:00Z",
-          "2025-06-23T00:00:00Z"
+          "2025-11-03T00:00:00Z"
         ]
       ]
     }
@@ -192,9 +192,9 @@
       "N1_NO2"
     ],
     "themes": [
+      "health",
       "air",
-      "climate",
-      "health"
+      "climate"
     ],
     "satellite": [
       "Sentinel-5P"

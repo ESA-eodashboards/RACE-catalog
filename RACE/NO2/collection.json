@@ -180,9 +180,9 @@
       "N1b_NO2"
     ],
     "themes": [
+      "health",
       "air",
-      "climate",
-      "health"
+      "climate"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_NO2/N1b_NO2.png"
