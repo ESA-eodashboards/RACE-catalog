@@ -62,6 +62,9 @@
   "eox:colorlegend": {
     "domain": [
       0,
+      5,
+      20,
+      50,
       90
     ],
     "range": [

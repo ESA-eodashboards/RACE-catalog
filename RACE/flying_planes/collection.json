@@ -111,7 +111,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "EOxCloudless 2024",
       "roles": [
@@ -122,7 +122,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "OSM Background",
       "roles": [
@@ -133,7 +133,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "Terrain Light",
       "roles": [
@@ -144,7 +144,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
       "title": "Overlay labels",
       "roles": [
@@ -240,24 +240,24 @@
       "MSI"
     ],
     "countries": [
-      "FI",
-      "BE",
-      "AT",
-      "GB",
       "FR",
-      "SE",
-      "ES",
-      "NO",
-      "CH",
-      "DE",
       "DK",
-      "NL",
-      "PT",
+      "FI",
       "IT",
-      "IE",
+      "NO",
       "TR",
+      "DE",
+      "IE",
+      "NL",
+      "BE",
+      "PL",
+      "GB",
       "GR",
-      "PL"
+      "SE",
+      "CH",
+      "ES",
+      "AT",
+      "PT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg"
