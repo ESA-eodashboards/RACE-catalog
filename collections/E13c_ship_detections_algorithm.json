@@ -38,7 +38,7 @@
     }
   ],
   "Process": {
-    "Name": "E13c_ship_detections_algorithm",
+    "Name": "E13c_ship_detections",
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13c_ship_detections_algorithm/jsonform.json",
     "EndPoints": [
       {
