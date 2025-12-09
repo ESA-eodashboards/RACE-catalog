@@ -215,13 +215,13 @@
       "N1_CH4"
     ],
     "themes": [
-      "health",
       "climate",
-      "air"
+      "air",
+      "health"
     ],
     "satellite": [
-      "GOSAT",
-      "Sentinel-5P"
+      "Sentinel-5P",
+      "GOSAT"
     ],
     "sensor": [
       "TANSO",
