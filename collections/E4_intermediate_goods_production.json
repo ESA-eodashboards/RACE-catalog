@@ -20,7 +20,14 @@
     }
   },
   "Agency": [
-    "ESA"
+    "ESA",
+    "CNES"
+  ],
+  "Provider": [
+    {
+      "Name": "CNES",
+      "Url": "https://cnes.fr/en"
+    }
   ],
   "Resources": [
     {

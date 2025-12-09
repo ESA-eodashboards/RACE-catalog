@@ -28,6 +28,12 @@
       "CollectionId": "E13n"
     }
   ],
+  "Provider": [
+    {
+      "Name": "Vodafone",
+      "Url": "https://www.vodafone.com/"
+    }
+  ],
   "Process": {
     "Name": "GeoDB Statistics",
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
