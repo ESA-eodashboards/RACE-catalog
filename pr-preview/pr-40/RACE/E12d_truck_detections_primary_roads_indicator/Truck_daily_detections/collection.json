@@ -1,0 +1,128 @@
+{
+  "type": "Collection",
+  "id": "Truck_daily_detections",
+  "stac_version": "1.1.0",
+  "description": "## Truck detections primary roads\n\nThis indicator shows moving trucks on EU primary roads detected in Sentinel-2 cloudless imagery between January 2020 and December 2021.  \nThe detection method enables to detect trucks on a large scale using Sentinel-2 data and was developed in the context of the of the [ESA COVID-19 Custom Script Contest](https://www.esa.int/Applications/Observing_the_Earth/COVID-19_how_can_satellites_help) by Henrik Fisser - Julius-Maximilians-University Würzburg, Germany.\n\nThe method exploits an effect related to the [Sentinel-2 Multispectral Instrument (MSI)](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Instrument) geometry. Sentinel-2 does not see a moving truck once but three times in the red-blue-green wavelengths. As the truck keeps traveling during this short time offset, it appears spectrally disassembled. This pattern may be used for detecting roaming trucks on roads. Although visual inspection cannot confirm that the objects are trucks, this is implied by the ratio between size of different vehicles and a Sentinel-2 pixel (see validation for details). However, a confusion with moving vehicles of similar size such as buses may occur.\n\nIn order to generally reduce false detections the computation is constrained to road data from [Open Street Maps (OSM)](https://wiki.openstreetmap.org/wiki/Key:highway).\nThe blue dots in Fig. 1 are examples of identified trucks in these subsets.\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12c_truck_detections_motorways/E12c_2018-04-19_france.jpg)\n\n*Fig. 1: Truck detection example in southern France*\n\nThe Sentinel-2 truck detection method has been validated with [German traffic count stations](https://www.bast.de/DE/Themen/Digitales/HF_1/Massnahmen/verkehrszaehlung/verkehrszaehlung.html?nn=427910)\non the two motorways A3 and A61. This validation implies that the Sentinel-2 method detects in average 78 % of the trucks counted at the four used stations (Fig. 2),\nthough with some variety. It also suggests that detected objects are mostly trucks and not cars as the number of counted cars at the count stations is approximately three to four times higher than the number of trucks.\nSince the station data is hourly, its mean per 15 minutes was calculated for the date and time of the respective Sentinel-2 acquisition.\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12c_truck_detections_motorways/E12c_validation_percentages.png)\n\n*Fig. 2: Trucks detected by Sentinel-2 vs. station counts [%]*\n\n**Note**\nThe validation is limited to Germany and an area-specific uncertainty is introduced by potential haze during large-scale processing.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Truck detections primary roads indicator"
+    }
+  ],
+  "shortdescription": "This indicator shows how many trucks were moving on Europe's primary roads, based on satellite images taken between 2020 and 2021. By detecting the distinctive signal that moving vehicles leave in Sentinel-2 imagery, it provides a large-scale view of road freight activity beyond the major motorways. This helps people understand how goods were transported during times of disruption, such as the COVID-19 pandemic, and offers insight into the resilience and functioning of everyday supply chains.",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.png",
+  "themes": [
+    "commerce"
+  ],
+  "tags": [
+    "Copernicus",
+    "Mobility",
+    "Traffic",
+    "Open data",
+    "Community"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E12d_daily",
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "endpointtype": "GeoDB Features",
+  "title": "Truck detections geometries",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          35.149109,
+          -18.451538,
+          61.82115,
+          27.910767
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          "2021-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus Data Space Ecosystem",
+      "url": "https://dataspace.copernicus.eu/"
+    },
+    {
+      "name": "BASt",
+      "url": "https://www.bast.de/DE/Themen/Digitales/HF_1/Massnahmen/verkehrszaehlung/verkehrszaehlung.html?nn=427910"
+    },
+    {
+      "name": "Open Street Maps",
+      "url": "https://wiki.openstreetmap.org/wiki/Key:highway"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Freight_transport_statistics_-_modal_split",
+      "type": "text/html",
+      "title": "Eurostat",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://www.destatis.de/EN/Service/EXSTAT/_node.html",
+      "type": "text/html",
+      "title": "Destatis",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://github.com/hfisser/Truck_Detection_Sentinel2_COVID19",
+      "type": "text/html",
+      "title": "GitHub Repository",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_4": {
+      "href": "https://esa-eodashboards.github.io/RACE-notebooks/notebooks/detect-trucks-sentinel2/",
+      "type": "text/html",
+      "title": "Jupyter Notebook - Euro Data Cube",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
