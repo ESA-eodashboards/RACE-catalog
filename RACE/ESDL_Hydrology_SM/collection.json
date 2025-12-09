@@ -198,8 +198,8 @@
       "ESDL_Hydrology_SM"
     ],
     "themes": [
-      "water",
       "agriculture",
+      "water",
       "land"
     ],
     "satellite": [

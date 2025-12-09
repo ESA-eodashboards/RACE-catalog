@@ -81,7 +81,8 @@
     "Multi-sensors"
   ],
   "agency": [
-    "ESA"
+    "ESA",
+    "CNES"
   ],
   "title": "Hamburg - intermediate_goods_production",
   "extent": {
@@ -105,6 +106,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "CNES",
+      "url": "https://cnes.fr/en"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",

@@ -193,9 +193,9 @@
     ],
     "themes": [
       "industry",
+      "tourism",
       "society",
-      "commerce",
-      "tourism"
+      "commerce"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png"

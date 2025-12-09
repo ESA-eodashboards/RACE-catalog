@@ -48,7 +48,8 @@
     "Multi-sensors"
   ],
   "agency": [
-    "ESA"
+    "ESA",
+    "CNES"
   ],
   "subcode": "E4",
   "locations": true,
@@ -87,6 +88,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "CNES",
+      "url": "https://cnes.fr/en"
+    }
+  ],
   "summaries": {
     "cities": [
       "Hamburg",

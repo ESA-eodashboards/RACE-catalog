@@ -68,6 +68,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Vodafone",
+      "url": "https://www.vodafone.com/"
+    }
+  ],
   "summaries": {
     "cities": [
       "Gijon"

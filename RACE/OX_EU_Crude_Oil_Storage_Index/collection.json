@@ -192,8 +192,8 @@
     ],
     "themes": [
       "industry",
-      "commerce",
-      "energy"
+      "energy",
+      "commerce"
     ],
     "satellite": [
       "Sentinel-2",

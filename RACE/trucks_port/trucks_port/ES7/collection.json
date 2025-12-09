@@ -108,6 +108,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Vodafone",
+      "url": "https://www.vodafone.com/"
+    }
+  ],
   "assets": {
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13n_trucks_port/E13n_trucks_port_photo.jpg",
