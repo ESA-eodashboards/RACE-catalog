@@ -1,0 +1,55 @@
+{
+  "type": "Catalog",
+  "id": "RACE",
+  "stac_version": "1.1.0",
+  "description": "Rapid Action for Citizens with Earth Observation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel-2 with Ships detections/collection.json",
+      "type": "application/json",
+      "title": "Sentinel-2 Ships-detection on-the-fly",
+      "code": "E13c_ship_detections",
+      "id": "Sentinel-2 with Ships detections",
+      "themes": [
+        "commerce",
+        "tourism"
+      ],
+      "providers": [
+        "Copernicus Data Space Ecosystem"
+      ],
+      "subcode": "E13c_ship_detections",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_ship_detections_algorithm/thumbnail.png"
+      ],
+      "tags": [
+        "Ports",
+        "Maritime",
+        "Traffic",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "European Commission",
+        "ESA"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-eodashboards.github.io/RACE-catalog/RACE/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "RACE"
+}
