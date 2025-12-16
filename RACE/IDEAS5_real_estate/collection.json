@@ -208,15 +208,15 @@
   ],
   "summaries": {
     "subcode": [
-      "IND5_1_b1",
       "IND5_1_b3",
+      "IND5_1_b1",
       "IND5_1_b2"
     ],
     "themes": [
+      "climate",
       "society",
-      "health",
       "land",
-      "climate"
+      "health"
     ],
     "satellite": [
       "Landsat 8",

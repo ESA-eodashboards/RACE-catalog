@@ -193,11 +193,11 @@
       "GG"
     ],
     "themes": [
-      "sport",
-      "society",
-      "commerce",
       "tourism",
-      "health"
+      "society",
+      "sport",
+      "health",
+      "commerce"
     ],
     "cities": [
       "/"

@@ -23,12 +23,8 @@
       "title": "Surface Soil Moisture"
     }
   ],
-  "sci:publications": [
-    {
-      "citation": "Raphael Quast, Wolfgang Wagner, Bernhard Bauer-Marschallinger, Mariette Vreugdenhil Soil moisture retrieval from Sentinel-1 using a first-order radiative transfer model—A case-study over the Po-Valley, Remote Sensing of Environment Volume 295, 1 September 2023, 113651",
-      "doi": "https://doi.org/10.1016/j.rse.2023.113651"
-    }
-  ],
+  "sci:doi": "https://doi.org/10.1016/j.rse.2023.113651",
+  "sci:citation": "Raphael Quast, Wolfgang Wagner, Bernhard Bauer-Marschallinger, Mariette Vreugdenhil Soil moisture retrieval from Sentinel-1 using a first-order radiative transfer model—A case-study over the Po-Valley, Remote Sensing of Environment Volume 295, 1 September 2023, 113651",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/image.jpg",
   "yAxis": "% Relative Saturation",
   "themes": [

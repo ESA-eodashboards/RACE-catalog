@@ -254,8 +254,8 @@
   ],
   "summaries": {
     "subcode": [
-      "E12d_daily",
       "E12d_monthly",
+      "E12d_daily",
       "E12d_detections"
     ],
     "themes": [

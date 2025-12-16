@@ -160,11 +160,9 @@
       "title": "RACE"
     }
   ],
+  "sci:doi": "10.1109/JSTARS.2021.3094053",
+  "sci:citation": "M. P. Segundo, A. Pinto, R. Minetto, R. d. S. Torres and S. Sarkar, \"Measuring Economic Activity From Space: A Case Study Using Flying Airplanes and COVID-19\", in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 14, pp. 7213-7224, 2021.\n",
   "sci:publications": [
-    {
-      "citation": "M. P. Segundo, A. Pinto, R. Minetto, R. d. S. Torres and S. Sarkar, \"Measuring Economic Activity From Space: A Case Study Using Flying Airplanes and COVID-19\", in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 14, pp. 7213-7224, 2021.\n",
-      "doi": "10.1109/JSTARS.2021.3094053"
-    },
     {
       "citation": "Mauricio Pamplona Segundo, Allan Pinto, Rodrigo Minetto, Ricardo da Silva Torres, Sudeep Sarkar, July 2, 2021, \"A dataset for detecting flying airplanes on satellite images\", IEEE Dataport.\n",
       "doi": "10.21227/3mbt-tb11"
@@ -240,24 +238,24 @@
       "MSI"
     ],
     "countries": [
-      "DE",
-      "NO",
-      "PL",
-      "NL",
       "FI",
-      "TR",
-      "IE",
-      "BE",
-      "AT",
-      "DK",
-      "ES",
-      "IT",
-      "PT",
       "GR",
       "SE",
-      "CH",
+      "TR",
+      "IE",
+      "PT",
+      "GB",
+      "NO",
+      "DE",
+      "AT",
       "FR",
-      "GB"
+      "IT",
+      "BE",
+      "PL",
+      "NL",
+      "ES",
+      "CH",
+      "DK"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg"
