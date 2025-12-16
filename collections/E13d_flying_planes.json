@@ -5,30 +5,15 @@
   "Subtitle": "Flying planes detected on Sentinel-2 data",
   "Description": "E13d_flying_planes/E13d_flying_planes.md",
   "ShortDescription": "This indicator tracks how many airplanes were actually flying near Europe’s busiest airports by detecting them directly in Sentinel-2 satellite images. It shows how the air traffic rose or fell during the COVID-19 pandemic compared to normal years. Because air travel is closely linked to tourism, business activity, and the wider economy, these trends offer an accessible view of the pandemic impact on mobility.",
-  "Themes": [
-    "commerce",
-    "tourism"
-  ],
-  "Tags": [
-    "Copernicus",
-    "Mobility",
-    "Air traffic",
-    "Open data",
-    "Community"
-  ],
+  "Themes": ["commerce", "tourism"],
+  "Tags": ["Copernicus", "Mobility", "Air traffic", "Open data", "Community"],
   "DataSource": {
     "Spaceborne": {
-      "Satellite": [
-        "Sentinel-2"
-      ],
-      "Sensor": [
-        "MSI"
-      ]
+      "Satellite": ["Sentinel-2"],
+      "Sensor": ["MSI"]
     }
   },
-  "Agency": [
-    "ESA"
-  ],
+  "Agency": ["ESA"],
   "Provider": [
     {
       "Name": "Copernicus Data Space Ecosystem",
@@ -51,11 +36,9 @@
     }
   ],
   "Citation": {
+    "Citation": "M. P. Segundo, A. Pinto, R. Minetto, R. d. S. Torres and S. Sarkar, \"Measuring Economic Activity From Space: A Case Study Using Flying Airplanes and COVID-19\", in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 14, pp. 7213-7224, 2021.\n",
+    "DOI": "10.1109/JSTARS.2021.3094053",
     "Publication": [
-      {
-        "Citation": "M. P. Segundo, A. Pinto, R. Minetto, R. d. S. Torres and S. Sarkar, \"Measuring Economic Activity From Space: A Case Study Using Flying Airplanes and COVID-19\", in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 14, pp. 7213-7224, 2021.\n",
-        "DOI": "10.1109/JSTARS.2021.3094053"
-      },
       {
         "Citation": "Mauricio Pamplona Segundo, Allan Pinto, Rodrigo Minetto, Ricardo da Silva Torres, Sudeep Sarkar, July 2, 2021, \"A dataset for detecting flying airplanes on satellite images\", IEEE Dataport.\n",
         "DOI": "10.21227/3mbt-tb11"

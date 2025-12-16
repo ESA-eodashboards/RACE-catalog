@@ -67,7 +67,6 @@
   ],
   "Services": [
     {
-      "Endpoint": "https://services.sentinel-hub.com/api/v1/statistics",
       "Name": "Statistical API",
       "Type": "byoc",
       "CollectionId": "3043d07f-3c20-410c-9a87-7da720942ab8",
