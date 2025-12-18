@@ -194,9 +194,9 @@
       "ESDL_Hydrology_SM"
     ],
     "themes": [
+      "land",
       "water",
-      "agriculture",
-      "land"
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"

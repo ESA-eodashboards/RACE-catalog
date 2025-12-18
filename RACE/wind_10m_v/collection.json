@@ -206,8 +206,8 @@
       "CDS4"
     ],
     "themes": [
-      "climate",
-      "air"
+      "air",
+      "climate"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS4_wind_10m_v/CDS4_wind_10m_v.png"
