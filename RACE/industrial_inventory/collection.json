@@ -219,44 +219,44 @@
       "commerce"
     ],
     "satellite": [
-      "ICEYE SAR",
-      "Sentinel-1"
+      "Sentinel-1",
+      "ICEYE SAR"
     ],
     "sensor": [
       "C-SAR"
     ],
     "cities": [
-      "Saarlouis",
+      "Ghent",
       "Sindelfingen",
       "Koln",
-      "Leipzig",
-      "Ingolstadt",
-      "Swindon",
-      "Neckarsulm",
-      "Wolfsburg",
-      "Kvasiny",
-      "Eisenach",
-      "Craiova",
-      "Ghent",
-      "Bremen",
-      "Cassino",
       "Martorell",
-      "Barcelona",
-      "Regensburg",
-      "Dingolfing",
-      "Zwickau",
+      "Neckarsulm",
+      "Kvasiny",
+      "Bremen",
+      "Eisenach",
+      "Ingolstadt",
       "Russelsheim",
-      "Mioveni",
       "Nosovice",
-      "Emden"
+      "Emden",
+      "Regensburg",
+      "Cassino",
+      "Saarlouis",
+      "Zwickau",
+      "Mioveni",
+      "Dingolfing",
+      "Craiova",
+      "Barcelona",
+      "Swindon",
+      "Leipzig",
+      "Wolfsburg"
     ],
     "countries": [
-      "GB",
-      "BE",
       "RO",
-      "ES",
       "CZ",
+      "ES",
+      "BE",
       "DE",
+      "GB",
       "IT"
     ],
     "thumbnail": [

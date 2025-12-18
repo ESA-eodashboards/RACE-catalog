@@ -174,8 +174,8 @@
       "E10a1"
     ],
     "themes": [
-      "land",
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
       "Sentinel-2"
@@ -184,12 +184,12 @@
       "MSI"
     ],
     "cities": [
-      "Huelva (Lagunas de las Madres)",
-      "Brandenburg"
+      "Brandenburg",
+      "Huelva (Lagunas de las Madres)"
     ],
     "countries": [
-      "ES",
-      "DE"
+      "DE",
+      "ES"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area_photo.jpg"

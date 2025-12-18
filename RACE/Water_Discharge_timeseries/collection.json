@@ -17,6 +17,7 @@
       "title": "Water Discharge Timeseries",
       "endpointtype": "GeoDB",
       "subtitle": "Variability of coastal and inland waters",
+      "shortdescription": "This indicator shows how cloudy or clear coastal waters are by measuring turbidity, which increases when rivers carry large amounts of sediment after rainfall or floods. High turbidity can affect water quality, marine life, and coastal activities.",
       "code": "Water_Discharge_timeseries",
       "id": "Water_Discharge_timeseries",
       "themes": [
@@ -120,6 +121,7 @@
     }
   ],
   "subtitle": "Variability of coastal and inland waters",
+  "shortdescription": "This indicator shows how cloudy or clear coastal waters are by measuring turbidity, which increases when rivers carry large amounts of sediment after rainfall or floods. High turbidity can affect water quality, marine life, and coastal activities.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Water_Discharge_timeseries/Water_Discharge_timeseries.png",
   "themes": [
     "water"

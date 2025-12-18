@@ -184,8 +184,8 @@
       "E200"
     ],
     "themes": [
-      "commerce",
-      "tourism"
+      "tourism",
+      "commerce"
     ],
     "satellite": [
       "Sentinel-2"
@@ -195,18 +195,18 @@
     ],
     "cities": [
       "Ghent",
-      "Dunkirk",
       "Hamburg",
-      "Suez ",
       "Gdynia",
+      "Suez ",
+      "Dunkirk",
       "Genoa"
     ],
     "countries": [
-      "BE",
       "EG",
+      "BE",
+      "PL",
       "DE",
       "FR",
-      "PL",
       "IT"
     ],
     "thumbnail": [

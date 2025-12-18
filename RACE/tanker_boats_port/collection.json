@@ -167,12 +167,12 @@
     ],
     "themes": [
       "industry",
-      "commerce",
-      "energy"
+      "energy",
+      "commerce"
     ],
     "cities": [
-      "Gioia Tauro",
-      "Genoa"
+      "Genoa",
+      "Gioia Tauro"
     ],
     "countries": [
       "IT"

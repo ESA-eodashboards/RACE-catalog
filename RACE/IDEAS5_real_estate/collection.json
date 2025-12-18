@@ -220,10 +220,10 @@
       "IND5_1_b3"
     ],
     "themes": [
-      "climate",
-      "society",
       "health",
-      "land"
+      "land",
+      "climate",
+      "society"
     ],
     "satellite": [
       "Landsat 9",
