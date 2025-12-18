@@ -194,12 +194,12 @@
       "CROPOM_yield"
     ],
     "themes": [
-      "land",
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
-      "Sentinel-2",
       "CLMS HR-VPP Seasonal Trajectory",
+      "Sentinel-2",
       "CLMS HR-VPP Vegetation Indices"
     ],
     "thumbnail": [

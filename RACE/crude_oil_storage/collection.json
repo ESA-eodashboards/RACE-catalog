@@ -17,6 +17,7 @@
       "title": "Crude oil storage - ICEYE",
       "endpointtype": "Sentinel Hub_byoc",
       "subtitle": "Crude Oil Storage Volume as observed by ICEYE",
+      "shortdescription": "This indicator shows how full crude oil storage tanks are by using high-resolution radar (SAR) images from the ICEYE satellite constellation. By measuring changes in the height of floating tank roofs, it reveals how oil storage levels evolved over time. During the COVID-19 pandemic, reduced travel and economic activity led to a sharp drop in oil demand and record-high storage levels, helping people understand how global disruptions affect energy markets and the wider economy.",
       "code": "E3",
       "id": "crude_oil_storage",
       "themes": [
@@ -95,6 +96,7 @@
     }
   ],
   "subtitle": "Crude Oil Storage Volume as observed by ICEYE",
+  "shortdescription": "This indicator shows how full crude oil storage tanks are by using high-resolution radar (SAR) images from the ICEYE satellite constellation. By measuring changes in the height of floating tank roofs, it reveals how oil storage levels evolved over time. During the COVID-19 pandemic, reduced travel and economic activity led to a sharp drop in oil demand and record-high storage levels, helping people understand how global disruptions affect energy markets and the wider economy.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E3_crude_oil_storage/E3_crude_oil_storage.png",
   "themes": [
     "energy",
@@ -151,8 +153,8 @@
       "E3"
     ],
     "themes": [
-      "industry",
-      "energy"
+      "energy",
+      "industry"
     ],
     "satellite": [
       "ICEYE SAR"
