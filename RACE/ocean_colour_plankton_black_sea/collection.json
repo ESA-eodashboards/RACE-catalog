@@ -17,6 +17,7 @@
       "title": "Ocean colour plankton - Black Sea",
       "endpointtype": "marinedatastore_WMTSCapabilities",
       "subtitle": "Ocean colour plankton description",
+      "shortdescription": "This indicator shows maps of chlorophyll concentration in the Black Sea, using data from the Copernicus Marine Environment Monitoring Service (CMEMS). Chlorophyll reveals how much algae is present in the water: normal levels support marine life, while unusually high levels, often linked to pollution from rivers, sewage, or agriculture, can signal declining water quality and risks to biodiversity. By providing daily, gap-free maps, this indicator helps people see where marine ecosystems are under pressure and how human activities and natural processes affect the health of the sea.",
       "code": "N3c_bs",
       "id": "ocean_colour_plankton_black_sea",
       "themes": [
@@ -103,6 +104,7 @@
     }
   ],
   "subtitle": "Ocean colour plankton description",
+  "shortdescription": "This indicator shows maps of chlorophyll concentration in the Black Sea, using data from the Copernicus Marine Environment Monitoring Service (CMEMS). Chlorophyll reveals how much algae is present in the water: normal levels support marine life, while unusually high levels, often linked to pollution from rivers, sewage, or agriculture, can signal declining water quality and risks to biodiversity. By providing daily, gap-free maps, this indicator helps people see where marine ecosystems are under pressure and how human activities and natural processes affect the health of the sea.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_black_sea/N3c_ocean_colour_plankton_black_sea.png",
   "themes": [
     "water",
@@ -171,19 +173,19 @@
       "N3c_bs"
     ],
     "themes": [
-      "climate",
-      "water"
+      "water",
+      "climate"
     ],
     "satellite": [
-      "Sentinel-3",
       "JPSS-1",
+      "Aqua",
       "Suomi NPP",
-      "Aqua"
+      "Sentinel-3"
     ],
     "sensor": [
+      "MODIS",
       "VIIRS",
-      "OLCI",
-      "MODIS"
+      "OLCI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_black_sea/N3c_ocean_colour_plankton_black_sea.png"
