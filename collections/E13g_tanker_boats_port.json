@@ -5,6 +5,7 @@
   "EodashIdentifier": "E13g",
   "Subtitle": "Changes in the number of boats in ports",
   "Description": "E13g_tanker_boats_port/E13g_tanker_boats_port.md",
+  "ShortDescription": "This indicator shows changes in the number of tanker ships in ports, which transport fuel and other liquid goods. It helps illustrate how energy demand and fuel transport shifted during the COVID-19 crisis.",
   "Themes": [
     "commerce",
     "industry",
