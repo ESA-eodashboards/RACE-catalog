@@ -4,7 +4,7 @@
   "EodashIdentifier": "N3c",
   "Subtitle": "Ocean colour plankton description",
   "Description": "N3c_ocean_colour_plankton_atlantic/N3c_ocean_colour_plankton_atlantic.md",
-  "ShortDescription": "This indicator shows maps of chlorophyll concentration in the Mediterranean Sea, using data from the Copernicus Marine Environment Monitoring Service (CMEMS). Chlorophyll reveals how much algae is present in the water: normal levels support marine life, while unusually high levels, often linked to pollution from rivers, sewage, or agriculture, can signal declining water quality and risks to biodiversity. By providing daily, gap-free maps, this indicator helps people see where marine ecosystems are under pressure and how human activities and natural processes affect the health of the sea.",
+  "ShortDescription": "This indicator shows maps of chlorophyll concentration in the Atlantic Ocean, using data from the Copernicus Marine Environment Monitoring Service (CMEMS). Chlorophyll reveals how much algae is present in the water: normal levels support marine life, while unusually high levels, often linked to pollution from rivers, sewage, or agriculture, can signal declining water quality and risks to biodiversity. By providing daily, gap-free maps, this indicator helps people see where marine ecosystems are under pressure and how human activities and natural processes affect the health of the sea.",
   "Themes": [
     "water",
     "climate"
