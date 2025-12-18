@@ -4,6 +4,7 @@
   "EodashIdentifier": "IND1_1_b3",
   "Subtitle": "Distance to nearest hospital or clinic [km]",
   "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
+  "ShortDescription": "This indicator highlights areas in European cities where people may face higher health risks due to limited access to healthcare.",
   "Themes": [
     "health",
     "society"
