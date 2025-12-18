@@ -4,6 +4,7 @@
   "EodashIdentifier": "IND1_1_b5",
   "Subtitle": "Land Surface Temperature",
   "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
+  "ShortDescription": "This indicator highlights areas in European cities where people may face higher health risks due to extreme heat.",
   "Themes": ["health","climate","land"],
   "Tags": ["heat", "pollution"],
   "Other": ["multiple", "HDX", "CAMS"],
