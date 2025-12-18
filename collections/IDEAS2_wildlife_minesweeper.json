@@ -4,6 +4,7 @@
   "EodashIdentifier": "IND2_1_minesweeper",
   "Subtitle": "Indicator 2: Wildlife Diversity Game mode",
   "Description": "IDEAS2_wildlife/IDEAS2_wildlife_minesweeper.md",
+  "ShortDescription": "This interactive game lets you discover biodiversity around the world in a fun and engaging way. Using real Earth-observation and species data, the minesweeper-style challenge invites you to identify areas rich in wildlife while learning about the species that live there and their conservation status. Each day features a new location, encouraging players to explore nature, raise awareness about biodiversity, and share their scores with friends.",
   "Themes": [
     "land"
   ],
