@@ -4,6 +4,7 @@
   "EodashIdentifier": "WSF_world_settlement_footprint_ind",
   "Description": "WSF_world_settlement_footprint/WSF_world_settlement_footprint.md",
   "Collections": ["WSF_world_settlement_footprint_2019", "WSF_world_settlement_footprint"],
+  "ShortDescription": "This indicator shows how human settlements have expanded across the world over the past decades, using Copernicus Sentinel-1 and Sentinel-2 satellite data. By mapping where buildings and urban areas appeared year by year, it helps people see how cities and towns have grown and spread. This information is important for understanding urbanisation, pressure on land and resources, and how human development interacts with the environment.",
   "Themes": [
     "economy"
   ],

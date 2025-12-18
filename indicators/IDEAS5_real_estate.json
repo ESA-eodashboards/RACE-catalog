@@ -4,6 +4,7 @@
   "EodashIdentifier": "IND5_1",
   "Subtitle": "Highest-risk areas, characterized by poor insulation or LST and a vulnerable population (elderly and economically disadvantaged)",
   "Description": "IDEAS5_real_estate/IDEAS5_real_estate.md",
+  "ShortDescription": "This indicator highlights areas where people face the highest health risks because of a combination of poor building insulation or very high surface temperatures and a high concentration of vulnerable residents, such as older adults and economically disadvantaged communities.",
   "Themes": [
     "economy"
   ],

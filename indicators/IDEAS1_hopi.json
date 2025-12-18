@@ -3,6 +3,7 @@
   "Title": "Health-Oriented Urban Heat and Pollution Index and Auxiliary layers",
   "EodashIdentifier": "IND1_1",
   "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
+  "ShortDescription": "This indicator highlights areas in European cities where people may face higher health risks due to a combination of extreme heat, air pollution, vulnerable populations, and limited access to healthcare. By combining satellite-derived temperature, air-quality data, population information, and distance to medical facilities, it shows where heatwaves and pollution could have the strongest impact on health.",
   "Themes": [
     "health"
   ],
