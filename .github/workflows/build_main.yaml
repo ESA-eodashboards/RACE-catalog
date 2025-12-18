@@ -50,7 +50,7 @@ jobs:
           SH_CLIENT_ID: ${{ secrets.SH_CLIENT_ID }}
           SH_CLIENT_SECRET: ${{ secrets.SH_CLIENT_SECRET }}
         run: |
-          docker run -v "$PWD:/workspace" -w "/workspace" -e SH_INSTANCE_ID="$SH_INSTANCE_ID" -e SH_CLIENT_ID="$SH_CLIENT_ID" -e SH_CLIENT_SECRET="$SH_CLIENT_SECRET" ghcr.io/eodash/eodash_catalog:0.3.25 eodash_catalog -gp
+          docker run -v "$PWD:/workspace" -w "/workspace" -e SH_INSTANCE_ID="$SH_INSTANCE_ID" -e SH_CLIENT_ID="$SH_CLIENT_ID" -e SH_CLIENT_SECRET="$SH_CLIENT_SECRET" ghcr.io/eodash/eodash_catalog:0.3.32 eodash_catalog -gp
       - name: copy static to build
         run: cp -r static/* build/
       - name: Deploy
