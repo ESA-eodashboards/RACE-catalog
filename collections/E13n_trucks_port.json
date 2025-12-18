@@ -5,6 +5,7 @@
   "EodashIdentifier": "E13n",
   "Subtitle": "Changes in the number of trucks in ports",
   "Description": "E13n_trucks_port/E13n_trucks_port.md",
+  "ShortDescription": "This indicator shows how commercial truck traffic in and out of a port changed over time, using anonymised data from mobile devices. By comparing different months, it highlights increases or decreases in domestic and international freight movements. This helps people understand how trade, logistics, and supply chains were affected during periods of disruption such as the COVID-19 pandemic.",
   "Themes": [
     "commerce"
   ],
