@@ -5,6 +5,7 @@
   "EodashIdentifier": "E13f",
   "Subtitle": "Changes in the number of boats in ports",
   "Description": "E13f_fishing_boats_port/E13f_fishing_boats_port.md",
+  "ShortDescription": "This indicator tracks changes in the number of fishing boats in ports before and during the COVID-19 pandemic. Variations reveal how restrictions and market disruptions affected fishing activity and local food supply.",
   "Themes": [
     "commerce",
     "industry"
