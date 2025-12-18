@@ -26,6 +26,7 @@
     }
   ],
   "subtitle": "Indicator 1: HOUHPI",
+  "shortdescription": "This indicator highlights areas in European cities where people may face higher health risks due to a combination of extreme heat, air pollution, vulnerable populations, and limited access to healthcare. By combining satellite-derived temperature, air-quality data, population information, and distance to medical facilities, it shows where heatwaves and pollution could have the strongest impact on health.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png",
   "themes": [
     "health",

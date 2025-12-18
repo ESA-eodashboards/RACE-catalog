@@ -17,6 +17,7 @@
       "title": "Wildlife Biodiversity Minesweeper Game",
       "endpointtype": "COG source",
       "subtitle": "Indicator 2: Wildlife Diversity Game mode",
+      "shortdescription": "This interactive game lets you discover biodiversity around the world in a fun and engaging way. Using real Earth-observation and species data, the minesweeper-style challenge invites you to identify areas rich in wildlife while learning about the species that live there and their conservation status. Each day features a new location, encouraging players to explore nature, raise awareness about biodiversity, and share their scores with friends.",
       "code": "IND2_1_minesweeper",
       "id": "IDEAS2_wildlife_minesweeper",
       "themes": [
@@ -100,6 +101,7 @@
     }
   ],
   "subtitle": "Indicator 2: Wildlife Diversity Game mode",
+  "shortdescription": "This interactive game lets you discover biodiversity around the world in a fun and engaging way. Using real Earth-observation and species data, the minesweeper-style challenge invites you to identify areas rich in wildlife while learning about the species that live there and their conservation status. Each day features a new location, encouraging players to explore nature, raise awareness about biodiversity, and share their scores with friends.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_minesweeper.png",
   "themes": [
     "land"
@@ -178,8 +180,8 @@
       "land"
     ],
     "satellite": [
-      "Sentinel-3",
-      "MODIS"
+      "MODIS",
+      "Sentinel-3"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_minesweeper.png"

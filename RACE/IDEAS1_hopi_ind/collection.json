@@ -17,6 +17,7 @@
       "title": "Index",
       "endpointtype": "COG source",
       "subtitle": "Indicator 1: HOUHPI",
+      "shortdescription": "This indicator highlights areas in European cities where people may face higher health risks due to a combination of extreme heat, air pollution, vulnerable populations, and limited access to healthcare. By combining satellite-derived temperature, air-quality data, population information, and distance to medical facilities, it shows where heatwaves and pollution could have the strongest impact on health.",
       "code": "IND1_1_b1",
       "id": "IDEAS1_hopi_b1",
       "themes": [
@@ -42,6 +43,7 @@
       "title": "Number of people of age > 60 or <5",
       "endpointtype": "COG source",
       "subtitle": "Number of people of age > 60 or <5",
+      "shortdescription": "This indicator highlights areas in European cities where people may face higher health risks due to vulnerability related to age groups.",
       "code": "IND1_1_b2",
       "id": "IDEAS1_hopi_b2",
       "themes": [
@@ -67,6 +69,7 @@
       "title": "Distance to nearest hospital or clinic",
       "endpointtype": "COG source",
       "subtitle": "Distance to nearest hospital or clinic [km]",
+      "shortdescription": "This indicator highlights areas in European cities where people may face higher health risks due to limited access to healthcare.",
       "code": "IND1_1_b3",
       "id": "IDEAS1_hopi_b3",
       "themes": [
@@ -92,6 +95,7 @@
       "title": "Days where air pollution over WHO threshold",
       "endpointtype": "COG source",
       "subtitle": "Number of days where air pollution exceeded WHO threshold",
+      "shortdescription": "This indicator highlights areas in European cities where people may face higher health risks due to air pollution.",
       "code": "IND1_1_b4",
       "id": "IDEAS1_hopi_b4",
       "themes": [
@@ -117,6 +121,7 @@
       "title": "Land Surface Temperature",
       "endpointtype": "COG source",
       "subtitle": "Land Surface Temperature",
+      "shortdescription": "This indicator highlights areas in European cities where people may face higher health risks due to extreme heat.",
       "code": "IND1_1_b5",
       "id": "IDEAS1_hopi_b5",
       "themes": [
@@ -264,15 +269,15 @@
   "summaries": {
     "subcode": [
       "IND1_1_b2",
-      "IND1_1_b4",
-      "IND1_1_b5",
       "IND1_1_b3",
-      "IND1_1_b1"
+      "IND1_1_b4",
+      "IND1_1_b1",
+      "IND1_1_b5"
     ],
     "themes": [
       "air",
-      "society",
       "climate",
+      "society",
       "health",
       "land"
     ],

@@ -26,6 +26,7 @@
     }
   ],
   "subtitle": "Distance to nearest hospital or clinic [km]",
+  "shortdescription": "This indicator highlights areas in European cities where people may face higher health risks due to limited access to healthcare.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png",
   "themes": [
     "health",

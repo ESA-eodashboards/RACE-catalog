@@ -26,6 +26,7 @@
     }
   ],
   "subtitle": "Indicator 1: HOUHPI Game mode",
+  "shortdescription": "This interactive game lets you explore urban health risks from air pollution and extreme heat in a playful way. Using the Health-Oriented Urban Heat and Pollution Index (HOUHPI), the minesweeper-style game challenges you to identify high-risk areas while learning how heat, pollution, population vulnerability, and access to healthcare combine to affect health in cities. The game is based on real Earth-observation data and changes daily, encouraging users to come back and discover how risks vary across urban areas.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi_minesweeper.png",
   "themes": [
     "health",

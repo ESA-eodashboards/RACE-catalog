@@ -196,26 +196,26 @@
     ],
     "satellite": [
       "Sentinel-2",
-      "Sentinel-1",
-      "Landsat-8"
+      "Landsat-8",
+      "Sentinel-1"
     ],
     "sensor": [
+      "C-SAR",
       "OLI",
-      "MSI",
-      "C-SAR"
+      "MSI"
     ],
     "cities": [
-      "Andalucia",
-      "Comunidad de Madrid",
-      "Comunidad Foral de Navarra",
-      "Region de Murcia",
-      "Cataluna",
       "Comunidad Valenciana",
-      "Castilla-La Mancha",
+      "La Rioja",
+      "Andalucia",
       "Extremadura",
+      "Comunidad Foral de Navarra",
+      "Comunidad de Madrid",
+      "Region de Murcia",
+      "Castilla-La Mancha",
       "Aragon",
       "Castilla y Leon",
-      "La Rioja"
+      "Cataluna"
     ],
     "countries": [
       "ES"

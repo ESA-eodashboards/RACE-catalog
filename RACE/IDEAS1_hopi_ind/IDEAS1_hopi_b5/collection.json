@@ -26,6 +26,7 @@
     }
   ],
   "subtitle": "Land Surface Temperature",
+  "shortdescription": "This indicator highlights areas in European cities where people may face higher health risks due to extreme heat.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png",
   "themes": [
     "health",

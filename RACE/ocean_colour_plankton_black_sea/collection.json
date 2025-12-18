@@ -177,19 +177,19 @@
       "N3c_bs"
     ],
     "themes": [
-      "climate",
-      "water"
+      "water",
+      "climate"
     ],
     "satellite": [
-      "JPSS-1",
       "Sentinel-3",
       "Aqua",
+      "JPSS-1",
       "Suomi NPP"
     ],
     "sensor": [
-      "OLCI",
+      "MODIS",
       "VIIRS",
-      "MODIS"
+      "OLCI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_black_sea/N3c_ocean_colour_plankton_black_sea.png"
