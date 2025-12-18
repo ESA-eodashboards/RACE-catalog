@@ -249,9 +249,9 @@
       "N1"
     ],
     "themes": [
+      "air",
       "climate",
-      "health",
-      "air"
+      "health"
     ],
     "satellite": [
       "Sentinel-5P"
