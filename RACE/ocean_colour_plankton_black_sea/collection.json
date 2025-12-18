@@ -177,14 +177,14 @@
       "N3c_bs"
     ],
     "themes": [
-      "water",
-      "climate"
+      "climate",
+      "water"
     ],
     "satellite": [
-      "Aqua",
-      "JPSS-1",
       "Suomi NPP",
-      "Sentinel-3"
+      "Sentinel-3",
+      "JPSS-1",
+      "Aqua"
     ],
     "sensor": [
       "VIIRS",

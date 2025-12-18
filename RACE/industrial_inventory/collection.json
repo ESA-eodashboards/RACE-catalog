@@ -17,6 +17,7 @@
       "title": "Automobile inventory level",
       "endpointtype": "GeoDB",
       "subtitle": "Inventory level in logisitc areas of production sites",
+      "shortdescription": "This indicator shows how many finished vehicles are stored at car manufacturing sites by using radar satellite images from Copernicus Sentinel-1. By monitoring changes in inventory areas over time, it reveals whether production is keeping pace with demand or slowing down. This helps people understand how the automotive industry responded to disruptions such as the COVID-19 pandemic and how supply chains for everyday products like cars are affected.",
       "code": "E8",
       "id": "industrial_inventory",
       "themes": [
@@ -146,6 +147,7 @@
     }
   ],
   "subtitle": "Inventory level in logisitc areas of production sites",
+  "shortdescription": "This indicator shows how many finished vehicles are stored at car manufacturing sites by using radar satellite images from Copernicus Sentinel-1. By monitoring changes in inventory areas over time, it reveals whether production is keeping pace with demand or slowing down. This helps people understand how the automotive industry responded to disruptions such as the COVID-19 pandemic and how supply chains for everyday products like cars are affected.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg",
   "themes": [
     "industry",
@@ -213,8 +215,8 @@
       "E8"
     ],
     "themes": [
-      "commerce",
-      "industry"
+      "industry",
+      "commerce"
     ],
     "satellite": [
       "ICEYE SAR",
@@ -224,38 +226,38 @@
       "C-SAR"
     ],
     "cities": [
-      "Cassino",
       "Emden",
-      "Saarlouis",
-      "Kvasiny",
-      "Mioveni",
-      "Martorell",
-      "Sindelfingen",
-      "Wolfsburg",
       "Barcelona",
       "Ingolstadt",
-      "Dingolfing",
-      "Zwickau",
-      "Nosovice",
-      "Swindon",
-      "Russelsheim",
       "Neckarsulm",
-      "Craiova",
-      "Leipzig",
-      "Koln",
-      "Regensburg",
+      "Dingolfing",
+      "Martorell",
+      "Russelsheim",
       "Bremen",
+      "Saarlouis",
       "Ghent",
-      "Eisenach"
+      "Wolfsburg",
+      "Cassino",
+      "Sindelfingen",
+      "Craiova",
+      "Nosovice",
+      "Kvasiny",
+      "Koln",
+      "Swindon",
+      "Leipzig",
+      "Mioveni",
+      "Regensburg",
+      "Eisenach",
+      "Zwickau"
     ],
     "countries": [
-      "ES",
+      "GB",
       "IT",
       "BE",
-      "CZ",
       "RO",
-      "GB",
-      "DE"
+      "DE",
+      "ES",
+      "CZ"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg"

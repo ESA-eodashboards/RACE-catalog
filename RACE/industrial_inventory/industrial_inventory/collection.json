@@ -276,6 +276,7 @@
     }
   ],
   "subtitle": "Inventory level in logisitc areas of production sites",
+  "shortdescription": "This indicator shows how many finished vehicles are stored at car manufacturing sites by using radar satellite images from Copernicus Sentinel-1. By monitoring changes in inventory areas over time, it reveals whether production is keeping pace with demand or slowing down. This helps people understand how the automotive industry responded to disruptions such as the COVID-19 pandemic and how supply chains for everyday products like cars are affected.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg",
   "yAxis": "Normalized Radar backscatter (flattened gamma0)",
   "themes": [
