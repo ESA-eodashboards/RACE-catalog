@@ -95,7 +95,8 @@
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2024"
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
     },
     {
       "rel": "xyz",
@@ -106,7 +107,8 @@
         "baselayer",
         "invisible"
       ],
-      "id": "OSM"
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "xyz",
@@ -117,7 +119,8 @@
         "baselayer",
         "visible"
       ],
-      "id": "terrain-light"
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "xyz",
@@ -128,7 +131,8 @@
         "overlay",
         "visible"
       ],
-      "id": "overlay_bright"
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "parent",
@@ -203,40 +207,40 @@
       "C-SAR"
     ],
     "cities": [
-      "Slovak Republic",
-      "Denmark",
-      "Bulgaria",
-      "Germany",
+      "Estonia",
+      "France",
+      "Sweden",
+      "Czech Republic",
       "Hungary",
-      "United Kingdom",
+      "Poland",
+      "Croatia",
+      "Slovak Republic",
+      "Bulgaria",
+      "Austria",
+      "Germany",
       "Latvia",
       "Romania",
-      "France",
-      "Estonia",
-      "Croatia",
-      "Poland",
-      "Austria",
-      "Sweden",
       "Lithuania",
-      "Czech Republic"
+      "United Kingdom",
+      "Denmark"
     ],
     "countries": [
+      "RO",
+      "HU",
+      "FR",
+      "PL",
+      "SK",
+      "DE",
+      "DK",
+      "HR",
+      "CZ",
+      "LT",
+      "EE",
       "LV",
       "AT",
-      "LT",
-      "CZ",
-      "DK",
-      "RO",
-      "FR",
-      "DE",
-      "PL",
       "BG",
       "SE",
-      "SK",
-      "GB",
-      "HU",
-      "HR",
-      "EE"
+      "GB"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg"

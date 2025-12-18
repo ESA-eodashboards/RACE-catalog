@@ -110,7 +110,8 @@
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2024"
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
     },
     {
       "rel": "xyz",
@@ -121,7 +122,8 @@
         "baselayer",
         "invisible"
       ],
-      "id": "OSM"
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "xyz",
@@ -132,7 +134,8 @@
         "baselayer",
         "visible"
       ],
-      "id": "terrain-light"
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "xyz",
@@ -143,7 +146,8 @@
         "overlay",
         "visible"
       ],
-      "id": "overlay_bright"
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "parent",
@@ -226,56 +230,56 @@
       "OX"
     ],
     "themes": [
+      "industry",
       "energy",
-      "commerce",
-      "industry"
+      "commerce"
     ],
     "satellite": [
-      "Sentinel-1",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Sentinel-1"
     ],
     "sensor": [
       "C-SAR",
       "MSI"
     ],
     "cities": [
-      "Le Havre",
-      "Elefsina",
-      "Tarragona",
-      "Dalmeny",
-      "Omisalj",
-      "Algeciras",
-      "Pachi",
-      "Cork",
-      "Grangemouth",
-      "Fos-Lavera",
-      "Cartagena",
-      "Schwechat",
-      "Antwerp",
-      "Corinth",
-      "Teesport",
-      "Wilhelmshaven",
-      "Sarroch",
-      "Rotterdam",
-      "Sullom Voe",
-      "Aspropyrgos",
-      "Thessaloniki",
-      "Trieste",
       "Godorf Wesseling",
-      "Finnart"
+      "Le Havre",
+      "Finnart",
+      "Cork",
+      "Teesport",
+      "Dalmeny",
+      "Algeciras",
+      "Omisalj",
+      "Antwerp",
+      "Cartagena",
+      "Grangemouth",
+      "Tarragona",
+      "Sarroch",
+      "Wilhelmshaven",
+      "Rotterdam",
+      "Elefsina",
+      "Corinth",
+      "Schwechat",
+      "Thessaloniki",
+      "Pachi",
+      "Aspropyrgos",
+      "Sullom Voe",
+      "Fos-Lavera",
+      "Trieste"
     ],
     "countries": [
-      "AT",
       "FR",
       "DE",
+      "IT",
+      "HR",
       "ES",
       "BE",
-      "GB",
-      "IT",
-      "NL",
-      "GR",
       "IE",
-      "HR"
+      "GR",
+      "AT",
+      "NL",
+      "GB"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"
