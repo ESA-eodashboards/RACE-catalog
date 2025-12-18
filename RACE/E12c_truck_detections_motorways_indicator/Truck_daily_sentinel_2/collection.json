@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/jpeg",
-      "title": "Truck_daily_sentinel_2",
+      "title": "Truck detections daily S2 L2A",
       "wms:layers": [
         "SENTINEL-2-L2A-TRUE-COLOR"
       ],
       "role": [
         "data"
-      ]
+      ],
+      "key": "8a165100-7984-4e65-b0b9-25e96e16b721"
     },
     {
       "rel": "parent",

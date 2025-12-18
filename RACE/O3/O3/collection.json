@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://eccharts.ecmwf.int/wms/?token=public",
       "type": "image/png",
-      "title": "O3",
+      "title": "Air Quality (O3 concentrations) map",
       "wms:layers": [
         "composition_europe_o3_analysis_surface"
       ],
@@ -23,7 +23,8 @@
       ],
       "wms:styles": [
         "sh_OrangesTransparent240_surface_concentration"
-      ]
+      ],
+      "key": "a889ac68-3c9d-43f6-a9f7-168818b9e020"
     },
     {
       "rel": "license",

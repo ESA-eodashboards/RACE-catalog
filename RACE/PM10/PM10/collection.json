@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://eccharts.ecmwf.int/wms/?token=public",
       "type": "image/jpeg",
-      "title": "PM10",
+      "title": "Air Quality (PM10 concentrations) map",
       "wms:layers": [
         "composition_europe_pm10_analysis_surface"
       ],
       "role": [
         "data"
-      ]
+      ],
+      "key": "db35e2f0-3d33-43c0-b2a3-2176c04d4756"
     },
     {
       "rel": "license",

@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "Monthly_Truck_Aggregated_Traffic_10km",
+      "title": "Monthly truck aggregated traffic 10km",
       "wms:layers": [
         "VIS_TRUCK_DETECTION_PRIMARY_NEW"
       ],

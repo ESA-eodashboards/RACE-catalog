@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://eccharts.ecmwf.int/wms/?token=public&",
       "type": "image/jpeg",
-      "title": "NO2",
+      "title": "Air Quality (NO2 concentrations) map",
       "wms:layers": [
         "composition_europe_no2_analysis_surface"
       ],
@@ -23,7 +23,8 @@
       ],
       "wms:styles": [
         "sh_OrangesTransparent40_surface_concentration"
-      ]
+      ],
+      "key": "955baa22-3f0c-40cd-a11c-7681d529afe6"
     },
     {
       "rel": "license",

@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "CO_3_daily",
+      "title": "Carbon Monoxide observed by Sentinel-5p TROPOMI",
       "wms:layers": [
         "AWS_VIS_CO_3DAILY_DATA"
       ],

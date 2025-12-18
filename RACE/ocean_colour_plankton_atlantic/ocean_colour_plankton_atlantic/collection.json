@@ -21,7 +21,8 @@
       ],
       "wmts:dimensions": {
         "style": "cmap:rainbow,range:0.03/50,noClamp,logScale"
-      }
+      },
+      "key": "1c34a31e-2849-4a13-9131-a2185ed1de6e"
     },
     {
       "rel": "parent",

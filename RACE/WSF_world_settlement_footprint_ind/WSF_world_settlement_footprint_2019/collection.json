@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://a.geoservice.dlr.de/eoc/land/wms/",
       "type": "image/jpeg",
-      "title": "WSF_world_settlement_footprint_2019",
+      "title": "World settlement footprint 2019",
       "wms:layers": [
         "WSF_2019"
       ],
       "role": [
         "data"
-      ]
+      ],
+      "key": "350c8098-082c-462e-8b90-28ba04d8d35f"
     },
     {
       "rel": "license",

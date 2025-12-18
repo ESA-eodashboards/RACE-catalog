@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://eccharts.ecmwf.int/wms/?token=public",
       "type": "image/jpeg",
-      "title": "PM25",
+      "title": "Air Quality (PM2.5 concentrations) map",
       "wms:layers": [
         "composition_europe_pm2p5_analysis_surface"
       ],
       "role": [
         "data"
-      ]
+      ],
+      "key": "78e0c383-6dc7-4563-8bfb-19a988ab17ce"
     },
     {
       "rel": "license",

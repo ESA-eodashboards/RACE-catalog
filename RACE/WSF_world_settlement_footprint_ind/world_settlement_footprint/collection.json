@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://a.geoservice.dlr.de/eoc/land/wms/",
       "type": "image/jpeg",
-      "title": "world_settlement_footprint",
+      "title": "World settlement footprint",
       "wms:layers": [
         "WSF_Evolution"
       ],
@@ -23,7 +23,8 @@
       ],
       "wms:dimensions": {
         "env": "year:{time}"
-      }
+      },
+      "key": "e79fb56b-dc92-49e5-80b6-fb93be957166"
     },
     {
       "rel": "license",

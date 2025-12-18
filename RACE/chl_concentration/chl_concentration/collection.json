@@ -68,7 +68,7 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "chl_concentration",
+      "title": "Chlorophyll-a concentration maps",
       "wms:layers": [
         "AWS_N3_CUSTOM"
       ],

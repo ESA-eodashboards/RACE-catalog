@@ -200,22 +200,22 @@
       "Landsat-8"
     ],
     "sensor": [
-      "MSI",
+      "OLI",
       "C-SAR",
-      "OLI"
+      "MSI"
     ],
     "cities": [
-      "La Rioja",
-      "Andalucia",
-      "Comunidad de Madrid",
-      "Comunidad Valenciana",
-      "Castilla y Leon",
-      "Comunidad Foral de Navarra",
-      "Castilla-La Mancha",
       "Extremadura",
+      "Andalucia",
+      "Comunidad Valenciana",
+      "Castilla-La Mancha",
       "Region de Murcia",
+      "Comunidad Foral de Navarra",
       "Cataluna",
-      "Aragon"
+      "Comunidad de Madrid",
+      "Castilla y Leon",
+      "Aragon",
+      "La Rioja"
     ],
     "countries": [
       "ES"
