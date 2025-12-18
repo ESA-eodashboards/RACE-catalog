@@ -5,7 +5,7 @@
   "EodashIdentifier": "N1a",
   "Subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
   "Description": "N1a_pm25_cams/N1a_pm25_cams.md",
-  "ShortDescription": "This indicator tracks fine particulate matter (PM2.5) in the air over time using data from the Copernicus Atmosphere Monitoring Service (CAMS). These tiny particles come from traffic, wood burning, industry, and long-range pollution, and they can penetrate deep into the lungs and bloodstream. Monitoring PM2.5 helps explain long-term health risks such as heart and lung disease linked to air pollution.",
+  "ShortDescription": "This indicator tracks fine particulate matter (PM2.5) in the air over time, at city level, using data from the Copernicus Atmosphere Monitoring Service (CAMS). These tiny particles come from traffic, wood burning, industry, and long-range pollution, and they can penetrate deep into the lungs and bloodstream. Monitoring PM2.5 helps explain long-term health risks such as heart and lung disease linked to air pollution.",
   "Themes": [
     "air",
     "health"
