@@ -3,6 +3,7 @@
   "Title": "Daily precipitation product",
   "EodashIdentifier": "ESDL_Hydrology_Precipitation",
   "Description": "ESDL_Hydrology_Precipitation/ESDL_Hydrology_Precipitation.md",
+  "ShortDescription": "This indicator shows how much rain falls each day at high spatial detail, using satellite observations and weather data combined into a single product. By mapping daily precipitation at 1-kilometre resolution, it helps people understand rainfall patterns that influence floods, droughts, agriculture, and water availability. The dataset is developed by the CNR IRPI Hydrology Group and supports monitoring of extreme weather and climate impacts.",
   "Themes": [
     "agriculture",
     "climate"
