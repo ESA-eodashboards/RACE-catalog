@@ -4,6 +4,7 @@
   "EodashIdentifier": "IND1_1_b2",
   "Subtitle": "Number of people of age > 60 or <5",
   "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
+  "ShortDescription": "This indicator highlights areas in European cities where people may face higher health risks due to vulnerability related to age groups.",
   "Themes": [
     "health",
     "society"
