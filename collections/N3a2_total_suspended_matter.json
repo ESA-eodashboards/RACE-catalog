@@ -4,7 +4,7 @@
   "EodashIdentifier": "N3a2_TSM",
   "Subtitle": "Total suspended matter description",
   "Description": "N3a2_total_suspended_matter/N3a2_total_suspended_matter.md",
-  "ShortDescription": "Societal relevance for this indicator",
+  "ShortDescription": "This indicator maps the amount of material suspended in the water, such as sediments, organic matter, and pollutants, using satellite observations. High levels of suspended matter can reduce water clarity, affect aquatic life, and signal pollution from rivers, coastal erosion, or human activities. By comparing current conditions with long-term averages, these maps help people see where water quality is being affected and how coastal and inland waters respond to natural forces and human activities.",
   "Themes": [
     "water",
     "climate",
