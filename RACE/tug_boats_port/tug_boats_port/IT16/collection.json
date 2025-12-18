@@ -76,6 +76,7 @@
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13h_maritime_traffic_tug/chart.json",
   "subcode": "E13h",
   "subtitle": "Changes in the number of boats in ports",
+  "shortdescription": "This indicator tracks tug and tow vessels, which support port operations and ship manoeuvring. Changes in their numbers reflect overall port activity and how operational capacity was impacted by pandemic-related restrictions.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13h_maritime_traffic_tug/E13h_maritime_traffic_tug_photo.jpg",
   "themes": [
     "commerce",

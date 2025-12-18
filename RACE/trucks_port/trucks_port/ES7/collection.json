@@ -76,6 +76,7 @@
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13n_trucks_port/chart.json",
   "subcode": "E13n",
   "subtitle": "Changes in the number of trucks in ports",
+  "shortdescription": "This indicator shows how commercial truck traffic in and out of a port changed over time, using anonymised data from mobile devices. By comparing different months, it highlights increases or decreases in domestic and international freight movements. This helps people understand how trade, logistics, and supply chains were affected during periods of disruption such as the COVID-19 pandemic.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13n_trucks_port/E13n_trucks_port_photo.jpg",
   "themes": [
     "commerce"

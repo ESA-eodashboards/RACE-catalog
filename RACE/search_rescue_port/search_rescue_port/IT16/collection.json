@@ -76,6 +76,7 @@
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13i_maritime_traffic_search_rescue/chart.json",
   "subcode": "E13i",
   "subtitle": "Changes in the number of boats in ports",
+  "shortdescription": "This indicator shows the presence of search and rescue vessels in ports. It helps illustrate how maritime safety and emergency services operated during periods of reduced or disrupted maritime traffic.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13i_maritime_traffic_search_rescue/E13i_maritime_traffic_search_rescue_photo.jpg",
   "themes": [
     "health",

@@ -38,6 +38,7 @@
     }
   ],
   "subtitle": "Changes in the number of boats in ports",
+  "shortdescription": "This indicator shows changes in the number of tanker ships in ports, which transport fuel and other liquid goods. It helps illustrate how energy demand and fuel transport shifted during the COVID-19 crisis.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13g_tanker_boats_port/E13g_tanker_boats_port_photo.jpg",
   "yAxis": "Number of ships in the port",
   "themes": [

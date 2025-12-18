@@ -76,6 +76,7 @@
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13i_maritime_traffic_search_rescue/chart.json",
   "subcode": "E13l",
   "subtitle": "Changes in the number of boats in ports",
+  "shortdescription": "This indicator shows how the number of cruise ships in ports changed between 2019 and 2020. Cruise activity is closely linked to tourism, so declines highlight the strong impact of COVID-19 on travel and coastal economies.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13l_maritime_traffic_pleasure_craft/E13l_maritime_traffic_pleasure_craft_photo.jpg",
   "themes": [
     "tourism",

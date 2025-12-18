@@ -57,6 +57,7 @@
     }
   ],
   "subtitle": "GHS built-up surface dataset GHS-BUILT-S_GLOBE_R2023A",
+  "shortdescription": "“This indicator shows where built-up areas such as buildings and infrastructure are located and how they have changed over time, using the Global Human Settlement dataset produced by the European Commission’s Joint Research Centre (JRC). Based on satellite observations from Sentinel-2 and Landsat, it maps the amount of land covered by buildings in square metres. This helps people understand how cities and settlements have expanded, how land is being used, and how human development interacts with the environment over the past decades.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GHS-BUILT-S-R2023A/GHS-BUILT-S-R2023A_photo.jpg",
   "themes": [
     "society"

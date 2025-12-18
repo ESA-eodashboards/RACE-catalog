@@ -17,6 +17,7 @@
       "title": "Fishing boats in ports",
       "endpointtype": "GeoDB",
       "subtitle": "Changes in the number of boats in ports",
+      "shortdescription": "This indicator tracks changes in the number of fishing boats in ports before and during the COVID-19 pandemic. Variations reveal how restrictions and market disruptions affected fishing activity and local food supply.",
       "code": "E13f",
       "id": "fishing_boats_port",
       "themes": [
@@ -110,6 +111,7 @@
     }
   ],
   "subtitle": "Changes in the number of boats in ports",
+  "shortdescription": "This indicator tracks changes in the number of fishing boats in ports before and during the COVID-19 pandemic. Variations reveal how restrictions and market disruptions affected fishing activity and local food supply.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13f_fishing_boats_port/E13f_fishing_boats_port.jpg",
   "themes": [
     "commerce",
@@ -166,8 +168,8 @@
       "industry"
     ],
     "cities": [
-      "Genoa",
-      "Gioia Tauro"
+      "Gioia Tauro",
+      "Genoa"
     ],
     "countries": [
       "IT"

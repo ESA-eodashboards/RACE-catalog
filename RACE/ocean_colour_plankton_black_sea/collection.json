@@ -181,10 +181,10 @@
       "climate"
     ],
     "satellite": [
-      "Suomi NPP",
       "Aqua",
       "JPSS-1",
-      "Sentinel-3"
+      "Sentinel-3",
+      "Suomi NPP"
     ],
     "sensor": [
       "OLCI",

@@ -76,6 +76,7 @@
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13i_maritime_traffic_search_rescue/chart.json",
   "subcode": "E13m",
   "subtitle": "Changes in the number of boats in ports",
+  "shortdescription": "This indicator tracks changes in the number of leisure and pleasure boats in ports. These vessels are closely tied to tourism and recreation, making them a clear signal of how lockdowns affected coastal lifestyles and local economies.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13m_maritime_traffic_passenger/E13m_maritime_traffic_passenger_photo.jpg",
   "themes": [
     "tourism",
