@@ -17,6 +17,7 @@
       "title": "Cargo boats in ports",
       "endpointtype": "GeoDB",
       "subtitle": "Changes in the number of boats in ports",
+      "shortdescription": "This indicator shows how the number of cargo ships in ports changed between 2019 and 2020. Cargo vessels reflect the movement of goods and raw materials, so changes highlight how global trade and supply chains were affected by COVID-19 restrictions.",
       "code": "E13e",
       "id": "cargo_boats_port",
       "themes": [
@@ -110,6 +111,7 @@
     }
   ],
   "subtitle": "Changes in the number of boats in ports",
+  "shortdescription": "This indicator shows how the number of cargo ships in ports changed between 2019 and 2020. Cargo vessels reflect the movement of goods and raw materials, so changes highlight how global trade and supply chains were affected by COVID-19 restrictions.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13e_cargo_boats_port/E13e_cargo_boats_port_photo.jpg",
   "themes": [
     "commerce",
@@ -162,8 +164,8 @@
       "E13e"
     ],
     "themes": [
-      "industry",
-      "commerce"
+      "commerce",
+      "industry"
     ],
     "cities": [
       "Genoa",

@@ -206,9 +206,9 @@
     ],
     "themes": [
       "sport",
-      "climate",
+      "water",
       "health",
-      "water"
+      "climate"
     ],
     "satellite": [
       "Sentinel-3"
@@ -217,20 +217,20 @@
       "OLCI"
     ],
     "cities": [
-      "Marseilles",
-      "Hamburg",
       "Barcelona",
       "Lisbon",
       "Venice Lagoon",
-      "Constanta"
+      "Hamburg",
+      "Constanta",
+      "Marseilles"
     ],
     "countries": [
-      "IT",
-      "PT",
+      "ES",
       "FR",
+      "IT",
       "GE",
-      "RO",
-      "ES"
+      "PT",
+      "RO"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg"

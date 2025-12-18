@@ -17,6 +17,7 @@
       "title": "Air Quality (tropospheric NO2 concentrations) at city level",
       "endpointtype": "GeoDB",
       "subtitle": "NO2 detected at cities based on Sentinel-5P data",
+      "shortdescription": "“This indicator shows nitrogen dioxide (NO₂) levels over major cities, measured from space by the Sentinel-5P satellite. NO₂ is mainly produced by traffic, heating, and industrial activities, and high concentrations can affect air quality and health. By averaging satellite observations over several days, the maps make it easier to see how pollution levels in cities change over time and how reductions or increases in human activity influence the air people breathe.",
       "code": "N1",
       "id": "city_no2",
       "themes": [
@@ -175,6 +176,7 @@
     }
   ],
   "subtitle": "NO2 detected at cities based on Sentinel-5P data",
+  "shortdescription": "“This indicator shows nitrogen dioxide (NO₂) levels over major cities, measured from space by the Sentinel-5P satellite. NO₂ is mainly produced by traffic, heating, and industrial activities, and high concentrations can affect air quality and health. By averaging satellite observations over several days, the maps make it easier to see how pollution levels in cities change over time and how reductions or increases in human activity influence the air people breathe.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_city_no2/N1_city_no2_photo.jpg",
   "themes": [
     "air",
@@ -254,8 +256,8 @@
     ],
     "themes": [
       "air",
-      "climate",
-      "health"
+      "health",
+      "climate"
     ],
     "satellite": [
       "Sentinel-5P"

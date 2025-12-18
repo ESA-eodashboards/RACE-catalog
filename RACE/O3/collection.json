@@ -185,8 +185,8 @@
     ],
     "themes": [
       "air",
-      "climate",
-      "health"
+      "health",
+      "climate"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_O3/N1b_O3.png"

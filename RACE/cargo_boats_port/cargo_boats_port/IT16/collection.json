@@ -76,6 +76,7 @@
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13e_cargo_boats_port/chart.json",
   "subcode": "E13e",
   "subtitle": "Changes in the number of boats in ports",
+  "shortdescription": "This indicator shows how the number of cargo ships in ports changed between 2019 and 2020. Cargo vessels reflect the movement of goods and raw materials, so changes highlight how global trade and supply chains were affected by COVID-19 restrictions.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13e_cargo_boats_port/E13e_cargo_boats_port_photo.jpg",
   "themes": [
     "commerce",

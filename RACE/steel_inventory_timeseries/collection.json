@@ -217,9 +217,9 @@
     ],
     "countries": [
       "SE",
+      "RO",
       "PL",
-      "FI",
-      "RO"
+      "FI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg"
