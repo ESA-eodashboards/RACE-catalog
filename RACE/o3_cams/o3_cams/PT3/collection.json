@@ -78,6 +78,7 @@
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N1d_o3_cams/chart.json",
   "subcode": "N1d",
   "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+  "shortdescription": "This indicator tracks ozone (O3) levels near the ground in major European cities, data from the Copernicus Atmosphere Monitoring Service (CAMS). Unlike ozone high in the atmosphere, ground-level ozone forms on sunny days from reactions between pollutants from traffic and industry. High ozone levels can cause breathing difficulties and reduce lung function, especially during heatwaves. Monitoring ozone helps explain why air quality can worsen even when traffic is reduced.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1d_o3_cams/N1d_o3_cams_graph.jpg",
   "themes": [
     "air",

@@ -524,6 +524,7 @@
     }
   ],
   "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+  "shortdescription": "This indicator shows changes in PM10 levels in major European cities, using data from the Copernicus Atmosphere Monitoring Service (CAMS). PM10 are larger airborne particles from road dust, construction, agriculture, and natural sources like desert dust. These can irritate the airways and worsen breathing problems, especially for children and older people. Tracking PM10 helps us understand how both human activities and natural events affect air quality.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1c_pm10_cams/N1c_pm10_cams_graph.png",
   "yAxis": "PM10 Surface Concentration[micro g/m3]",
   "themes": [

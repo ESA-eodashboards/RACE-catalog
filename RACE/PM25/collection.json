@@ -17,6 +17,7 @@
       "title": "Air Quality (PM2.5 concentrations) map",
       "endpointtype": "WMS_Time",
       "subtitle": "Particulate matter 2.5µm in Europe - daily average",
+      "shortdescription": "This indicator tracks fine particulate matter (PM2.5) in the air over time, at European level, using data from the Copernicus Atmosphere Monitoring Service (CAMS). These tiny particles come from traffic, wood burning, industry, and long-range pollution, and they can penetrate deep into the lungs and bloodstream. Monitoring PM2.5 helps explain long-term health risks such as heart and lung disease linked to air pollution.",
       "code": "N1b_PM25",
       "id": "PM25",
       "themes": [
@@ -102,6 +103,7 @@
     }
   ],
   "subtitle": "Particulate matter 2.5µm in Europe - daily average",
+  "shortdescription": "This indicator tracks fine particulate matter (PM2.5) in the air over time, at European level, using data from the Copernicus Atmosphere Monitoring Service (CAMS). These tiny particles come from traffic, wood burning, industry, and long-range pollution, and they can penetrate deep into the lungs and bloodstream. Monitoring PM2.5 helps explain long-term health risks such as heart and lung disease linked to air pollution.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM25/N1b_PM25.png",
   "themes": [
     "air",

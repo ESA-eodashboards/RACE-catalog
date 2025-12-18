@@ -238,24 +238,24 @@
       "MSI"
     ],
     "countries": [
+      "DK",
+      "GB",
+      "GR",
+      "PL",
+      "IT",
+      "DE",
+      "AT",
+      "BE",
       "NL",
       "NO",
-      "DE",
-      "IT",
-      "FR",
-      "BE",
-      "GB",
-      "AT",
-      "FI",
-      "PL",
-      "TR",
-      "GR",
-      "DK",
       "IE",
       "PT",
-      "ES",
+      "SE",
       "CH",
-      "SE"
+      "TR",
+      "FI",
+      "FR",
+      "ES"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg"

@@ -39,6 +39,7 @@
     }
   ],
   "subtitle": "Ozone at global level - daily average",
+  "shortdescription": "This indicator tracks ozone (O3) levels near the ground across Europe, data from the Copernicus Atmosphere Monitoring Service (CAMS). Unlike ozone high in the atmosphere, ground-level ozone forms on sunny days from reactions between pollutants from traffic and industry. High ozone levels can cause breathing difficulties and reduce lung function, especially during heatwaves. Monitoring ozone helps explain why air quality can worsen even when traffic is reduced.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_O3/N1b_O3.png",
   "themes": [
     "air",

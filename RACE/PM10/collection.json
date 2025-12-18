@@ -17,6 +17,7 @@
       "title": "Air Quality (PM10 concentrations) map",
       "endpointtype": "WMS_Time",
       "subtitle": "Particulate matter 10µm in Europe - daily average",
+      "shortdescription": "This indicator shows changes in PM10 levels across Europe, using data from the Copernicus Atmosphere Monitoring Service (CAMS). PM10 are larger airborne particles from road dust, construction, agriculture, and natural sources like desert dust. These can irritate the airways and worsen breathing problems, especially for children and older people. Tracking PM10 helps us understand how both human activities and natural events affect air quality.",
       "code": "N1b_PM10",
       "id": "PM10",
       "themes": [
@@ -102,6 +103,7 @@
     }
   ],
   "subtitle": "Particulate matter 10µm in Europe - daily average",
+  "shortdescription": "This indicator shows changes in PM10 levels across Europe, using data from the Copernicus Atmosphere Monitoring Service (CAMS). PM10 are larger airborne particles from road dust, construction, agriculture, and natural sources like desert dust. These can irritate the airways and worsen breathing problems, especially for children and older people. Tracking PM10 helps us understand how both human activities and natural events affect air quality.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM10/N1b_PM10.png",
   "themes": [
     "air",

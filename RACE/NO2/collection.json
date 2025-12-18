@@ -17,7 +17,7 @@
       "title": "Air Quality (NO2 concentrations) map",
       "endpointtype": "WMS_Time",
       "subtitle": "Nitrogen dioxide in Europe - daily average",
-      "shortdescription": "This indicator shows how key air pollutants, such as nitrogen dioxide (NO₂), fine particles (PM2.5 and PM10), and ozone, changed over time in major European cities, using data from the Copernicus Atmosphere Monitoring Service (CAMS). These time series help us see how air quality evolved during the COVID-19 pandemic, including the effects of lockdowns and reduced traffic. CAMS combines satellite observations, ground measurements, and advanced atmospheric models to provide reliable ‘urban background’ air-quality levels, offering a clear picture of long-term trends rather than short-term local spikes. This helps citizens understand how pollution changes across seasons and major events, and how it affects health and the environment.",
+      "shortdescription": "This indicator shows how nitrogen dioxide (NO₂) changed over time in Europe, using data from the Copernicus Atmosphere Monitoring Service (CAMS). NO₂ mainly comes from road traffic, heating, and industrial activities, and high levels can irritate the lungs and worsen asthma and other respiratory conditions. Tracking NO₂ helps us understand how everyday activities like driving affect the air we breathe.",
       "code": "N1b_NO2",
       "id": "NO2",
       "themes": [
@@ -104,7 +104,7 @@
     }
   ],
   "subtitle": "Nitrogen dioxide in Europe - daily average",
-  "shortdescription": "This indicator shows how key air pollutants, such as nitrogen dioxide (NO₂), fine particles (PM2.5 and PM10), and ozone, changed over time in major European cities, using data from the Copernicus Atmosphere Monitoring Service (CAMS). These time series help us see how air quality evolved during the COVID-19 pandemic, including the effects of lockdowns and reduced traffic. CAMS combines satellite observations, ground measurements, and advanced atmospheric models to provide reliable ‘urban background’ air-quality levels, offering a clear picture of long-term trends rather than short-term local spikes. This helps citizens understand how pollution changes across seasons and major events, and how it affects health and the environment.",
+  "shortdescription": "This indicator shows how nitrogen dioxide (NO₂) changed over time in Europe, using data from the Copernicus Atmosphere Monitoring Service (CAMS). NO₂ mainly comes from road traffic, heating, and industrial activities, and high levels can irritate the lungs and worsen asthma and other respiratory conditions. Tracking NO₂ helps us understand how everyday activities like driving affect the air we breathe.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_NO2/N1b_NO2.png",
   "themes": [
     "air",
@@ -180,8 +180,8 @@
       "N1b_NO2"
     ],
     "themes": [
-      "health",
       "climate",
+      "health",
       "air"
     ],
     "thumbnail": [
