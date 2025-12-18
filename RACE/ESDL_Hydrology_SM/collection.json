@@ -201,8 +201,8 @@
     ],
     "themes": [
       "water",
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"

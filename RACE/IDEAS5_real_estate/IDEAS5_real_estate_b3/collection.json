@@ -25,6 +25,7 @@
       "title": "Heat Risk Indicator and Auxiliary Layers"
     }
   ],
+  "shortdescription": "This indicator highlights areas where people face the highest health risks because of a combination of poor building insulation or very high surface temperatures and a high concentration of vulnerable residents, such as older adults and economically disadvantaged communities.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png",
   "themes": [
     "land",
