@@ -201,8 +201,8 @@
       "Sentinel-1"
     ],
     "sensor": [
-      "SAR",
-      "MSI"
+      "MSI",
+      "SAR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WASDI_FLOOD/WASDI_FLOOD.jpg"

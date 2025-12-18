@@ -25,6 +25,7 @@
   ],
   "sci:doi": "https://doi.org/10.1016/j.rse.2023.113651",
   "sci:citation": "Raphael Quast, Wolfgang Wagner, Bernhard Bauer-Marschallinger, Mariette Vreugdenhil Soil moisture retrieval from Sentinel-1 using a first-order radiative transfer model—A case-study over the Po-Valley, Remote Sensing of Environment Volume 295, 1 September 2023, 113651",
+  "shortdescription": "This indicator shows how wet or dry the soil is across river basins in the Mediterranean region, using satellite radar data from Sentinel-1. Soil moisture is essential for agriculture, water management, and understanding drought risk. By tracking changes in soil moisture over time, this indicator helps people see how landscapes respond to rainfall, dry periods, and climate variability, supporting awareness of water availability and environmental conditions.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/image.jpg",
   "yAxis": "% Relative Saturation",
   "themes": [
