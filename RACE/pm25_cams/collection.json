@@ -17,6 +17,7 @@
       "title": "Air Quality (PM25 concentrations) at city level (model)",
       "endpointtype": "GeoDB",
       "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+      "shortdescription": "This indicator shows how nitrogen dioxide (NO₂) changed over time in major European cities, using data from the Copernicus Atmosphere Monitoring Service (CAMS). NO₂ mainly comes from road traffic, heating, and industrial activities, and high levels can irritate the lungs and worsen asthma and other respiratory conditions. Tracking NO₂ helps us understand how everyday activities like driving affect the air we breathe.",
       "code": "N1a",
       "id": "pm25_cams",
       "themes": [
@@ -204,6 +205,7 @@
     }
   ],
   "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+  "shortdescription": "This indicator shows how nitrogen dioxide (NO₂) changed over time in major European cities, using data from the Copernicus Atmosphere Monitoring Service (CAMS). NO₂ mainly comes from road traffic, heating, and industrial activities, and high levels can irritate the lungs and worsen asthma and other respiratory conditions. Tracking NO₂ helps us understand how everyday activities like driving affect the air we breathe.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1a_pm25_cams/N1a_pm25_cams_graph.png",
   "themes": [
     "air",
@@ -262,8 +264,8 @@
       "N1a"
     ],
     "themes": [
-      "air",
-      "health"
+      "health",
+      "air"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1a_pm25_cams/N1a_pm25_cams_graph.png"

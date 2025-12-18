@@ -264,9 +264,9 @@
       "N1b"
     ],
     "themes": [
+      "health",
       "climate",
-      "air",
-      "health"
+      "air"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_no2_cams/N1b_no2_cams_graph.jpg"

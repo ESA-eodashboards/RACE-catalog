@@ -190,8 +190,8 @@
       "C1"
     ],
     "themes": [
-      "air",
-      "commerce"
+      "commerce",
+      "air"
     ],
     "satellite": [
       "GNSS",
@@ -201,8 +201,8 @@
       "TROPOMI"
     ],
     "cities": [
-      "Genoa",
-      "Gioia Tauro"
+      "Gioia Tauro",
+      "Genoa"
     ],
     "countries": [
       "IT"
