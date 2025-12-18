@@ -4,6 +4,7 @@
   "EodashIdentifier": "N3a2_SST",
   "Subtitle": "Sea surface temperature description",
   "Description": "N3a2_sea_surface_temperature/N3a2_sea_surface_temperature.md",
+  "ShortDescription": "This indicator shows maps of sea surface temperature across several European sites, using data from the Copernicus Marine Environment Monitoring Service (CMEMS). By comparing current temperatures with long-term averages, the maps help people see where the sea is warmer or cooler than usual. This is important because unusually warm waters can stress marine ecosystems, affect fisheries, and signal marine heatwaves linked to climate change.",
   "Themes": [
     "water",
     "climate"
