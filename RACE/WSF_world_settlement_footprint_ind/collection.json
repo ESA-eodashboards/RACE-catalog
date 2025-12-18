@@ -16,6 +16,7 @@
       "type": "application/json",
       "title": "World settlement footprint 2019",
       "endpointtype": "WMS_OverwriteTimes",
+      "shortdescription": "This indicator shows how human settlements have expanded across the world over the past decades, using Copernicus Sentinel-1 and Sentinel-2 satellite data. By mapping where buildings and urban areas appeared year by year, it helps people see how cities and towns have grown and spread. This information is important for understanding urbanisation, pressure on land and resources, and how human development interacts with the environment.",
       "code": "WSF",
       "id": "WSF_world_settlement_footprint_2019",
       "themes": [
@@ -48,6 +49,7 @@
       "type": "application/json",
       "title": "World settlement footprint",
       "endpointtype": "WMS_OverwriteTimes",
+      "shortdescription": "This indicator shows how human settlements have expanded across the world over the past decades, using Copernicus Sentinel-1 and Sentinel-2 satellite data. By mapping where buildings and urban areas appeared year by year, it helps people see how cities and towns have grown and spread. This information is important for understanding urbanisation, pressure on land and resources, and how human development interacts with the environment.",
       "code": "WSF",
       "id": "world_settlement_footprint",
       "themes": [

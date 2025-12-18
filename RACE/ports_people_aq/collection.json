@@ -190,12 +190,12 @@
       "C2"
     ],
     "themes": [
-      "air",
-      "commerce"
+      "commerce",
+      "air"
     ],
     "satellite": [
-      "Sentinel-5P",
-      "GNSS"
+      "GNSS",
+      "Sentinel-5P"
     ],
     "sensor": [
       "TROPOMI"

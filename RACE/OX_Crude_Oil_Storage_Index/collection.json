@@ -17,6 +17,7 @@
       "title": "Crude Oil Storage Index",
       "endpointtype": "GeoDB",
       "subtitle": "Level of oil in tanks based on SAR and optical data",
+      "shortdescription": "This indicator tracks how full crude oil storage facilities are across major European regions by combining satellite images with ship-tracking data. By showing changes in oil storage over time, it helps us understand shifts in energy supply, trade activity, and market conditions, especially during periods of disruption such as the COVID-19 pandemic or other economical or social crises.",
       "code": "OX",
       "id": "OX_Crude_Oil_Storage_Index",
       "themes": [
@@ -152,6 +153,7 @@
     }
   ],
   "subtitle": "Level of oil in tanks based on SAR and optical data",
+  "shortdescription": "This indicator tracks how full crude oil storage facilities are across major European regions by combining satellite images with ship-tracking data. By showing changes in oil storage over time, it helps us understand shifts in energy supply, trade activity, and market conditions, especially during periods of disruption such as the COVID-19 pandemic or other economical or social crises.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg",
   "themes": [
     "commerce",
@@ -224,9 +226,9 @@
       "OX"
     ],
     "themes": [
-      "industry",
       "energy",
-      "commerce"
+      "commerce",
+      "industry"
     ],
     "satellite": [
       "Sentinel-1",
@@ -237,43 +239,43 @@
       "MSI"
     ],
     "cities": [
-      "Thessaloniki",
-      "Grangemouth",
-      "Sarroch",
-      "Finnart",
-      "Dalmeny",
-      "Wilhelmshaven",
-      "Aspropyrgos",
-      "Corinth",
-      "Antwerp",
-      "Cork",
-      "Pachi",
-      "Rotterdam",
-      "Algeciras",
-      "Tarragona",
-      "Godorf Wesseling",
-      "Omisalj",
-      "Teesport",
-      "Schwechat",
-      "Elefsina",
-      "Trieste",
       "Le Havre",
+      "Elefsina",
+      "Tarragona",
+      "Dalmeny",
+      "Omisalj",
+      "Algeciras",
+      "Pachi",
+      "Cork",
+      "Grangemouth",
       "Fos-Lavera",
       "Cartagena",
-      "Sullom Voe"
+      "Schwechat",
+      "Antwerp",
+      "Corinth",
+      "Teesport",
+      "Wilhelmshaven",
+      "Sarroch",
+      "Rotterdam",
+      "Sullom Voe",
+      "Aspropyrgos",
+      "Thessaloniki",
+      "Trieste",
+      "Godorf Wesseling",
+      "Finnart"
     ],
     "countries": [
-      "BE",
-      "IT",
-      "IE",
-      "HR",
+      "AT",
+      "FR",
       "DE",
       "ES",
+      "BE",
+      "GB",
+      "IT",
       "NL",
       "GR",
-      "FR",
-      "GB",
-      "AT"
+      "IE",
+      "HR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"

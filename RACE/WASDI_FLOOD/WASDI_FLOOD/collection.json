@@ -59,6 +59,7 @@
   "sci:doi": "10.3390/rs11020107",
   "sci:citation": "Chini, M., Pelich, R., Pulvirenti, L., Pierdicca, N., Hostache, R., Matgen, P., 2019. Sentinel-1 InSAR coherence to detect floodwater in urban areas: Houston and Hurricane Harvey as a test case. Remote Sensing, 11(2), p.107.\n",
   "subtitle": "Automated flood map",
+  "shortdescription": "This indicator maps flooded areas using Copernicus Sentinel-1 satellite images to show where water has temporarily covered land and urban areas during flood events. By detecting floods both in open landscapes and in cities, it helps people understand the extent and evolution of flooding, distinguish floods from permanent water bodies, and see which areas are most affected. This information supports awareness of flood risks and highlights how satellite data can help monitor natural hazards that impact communities, infrastructure, and safety.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WASDI_FLOOD/WASDI_FLOOD.jpg",
   "themes": [
     "water",

@@ -39,6 +39,7 @@
   ],
   "sci:doi": "10.1553/giscience2021_01_s33",
   "sci:citation": "Marconcini, M., Metz-Marconcini, A., Esch, T., Gorelick, N. (2021). Understanding Current Trends in Global Urbanisation – The World Settlement Footprint suite. GI_Forum, 1, 33-38.\n",
+  "shortdescription": "This indicator shows how human settlements have expanded across the world over the past decades, using Copernicus Sentinel-1 and Sentinel-2 satellite data. By mapping where buildings and urban areas appeared year by year, it helps people see how cities and towns have grown and spread. This information is important for understanding urbanisation, pressure on land and resources, and how human development interacts with the environment.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.jpg",
   "themes": [
     "society"
