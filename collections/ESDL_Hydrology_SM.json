@@ -3,6 +3,7 @@
   "Title": "Surface Soil Moisture",
   "EodashIdentifier": "ESDL_Hydrology_SM",
   "Description": "ESDL_Hydrology_SM/ESDL_Hydrology_SM.md",
+  "ShortDescription": "This indicator shows how wet or dry the soil is across river basins in the Mediterranean region, using satellite radar data from Sentinel-1. Soil moisture is essential for agriculture, water management, and understanding drought risk. By tracking changes in soil moisture over time, this indicator helps people see how landscapes respond to rainfall, dry periods, and climate variability, supporting awareness of water availability and environmental conditions.",
   "Themes": [
     "agriculture",
     "water",
