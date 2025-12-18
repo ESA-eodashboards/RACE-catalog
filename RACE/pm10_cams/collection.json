@@ -264,8 +264,8 @@
       "N1c"
     ],
     "themes": [
-      "air",
-      "health"
+      "health",
+      "air"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1c_pm10_cams/N1c_pm10_cams_graph.png"

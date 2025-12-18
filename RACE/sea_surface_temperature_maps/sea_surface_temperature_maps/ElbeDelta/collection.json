@@ -102,6 +102,7 @@
     }
   ],
   "subtitle": "Sea surface temperature description",
+  "shortdescription": "This indicator shows maps of sea surface temperature across several European sites, using data from the Copernicus Marine Environment Monitoring Service (CMEMS). By comparing current temperatures with long-term averages, the maps help people see where the sea is warmer or cooler than usual. This is important because unusually warm waters can stress marine ecosystems, affect fisheries, and signal marine heatwaves linked to climate change.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_sea_surface_temperature/N3a2_sea_surface_temperature_photo.jpg",
   "themes": [
     "water",

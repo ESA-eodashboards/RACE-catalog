@@ -17,6 +17,7 @@
       "title": "Sea surface temperature time series",
       "endpointtype": "GeoDB",
       "subtitle": "Key ocean monitoring indicator",
+      "shortdescription": "This indicator shows how sea surface temperature has changed over time at specific locations, based on CMEMS satellite products. The time series helps people understand long-term warming trends, seasonal patterns, and sudden temperature anomalies. Tracking these changes over weeks and years provides details of how climate variability and climate change are affecting our seas.",
       "code": "SST",
       "id": "sea_surface_temperature_time_series",
       "themes": [
@@ -134,6 +135,7 @@
     }
   ],
   "subtitle": "Key ocean monitoring indicator",
+  "shortdescription": "This indicator shows how sea surface temperature has changed over time at specific locations, based on CMEMS satellite products. The time series helps people understand long-term warming trends, seasonal patterns, and sudden temperature anomalies. Tracking these changes over weeks and years provides details of how climate variability and climate change are affecting our seas.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png",
   "themes": [
     "water",
@@ -205,29 +207,29 @@
     "satellite": [
       "Sentinel-3",
       "Suomi NPP",
-      "JPSS-1",
       "Metop-B",
+      "JPSS-1",
       "Other"
     ],
     "sensor": [
-      "AVHRR",
+      "SLSTR",
       "VIIRS",
-      "SLSTR"
+      "AVHRR"
     ],
     "cities": [
-      "Constanta",
-      "Venice Lagoon",
-      "Hamburg",
-      "Lisbon",
       "Marseilles",
-      "Barcelona"
+      "Constanta",
+      "Lisbon",
+      "Venice Lagoon",
+      "Barcelona",
+      "Hamburg"
     ],
     "countries": [
+      "PT",
       "RO",
-      "FR",
       "IT",
       "GE",
-      "PT",
+      "FR",
       "ES"
     ],
     "thumbnail": [
