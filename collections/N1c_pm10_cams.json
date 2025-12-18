@@ -5,6 +5,7 @@
   "EodashIdentifier": "N1c",
   "Subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
   "Description": "N1c_pm10_cams/N1c_pm10_cams.md",
+  "ShortDescription": "This indicator shows changes in PM10 levels in major European cities, using data from the Copernicus Atmosphere Monitoring Service (CAMS). PM10 are larger airborne particles from road dust, construction, agriculture, and natural sources like desert dust. These can irritate the airways and worsen breathing problems, especially for children and older people. Tracking PM10 helps us understand how both human activities and natural events affect air quality.",
   "Themes": [
     "air",
     "health"
