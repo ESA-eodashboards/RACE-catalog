@@ -4,6 +4,7 @@
   "EodashIdentifier": "N1b_PM25",
   "Subtitle": "Particulate matter 2.5\u00b5m in Europe - daily average",
   "Description": "N1b_PM25/N1b_PM25.md",
+  "ShortDescription": "This indicator tracks fine particulate matter (PM2.5) in the air over time, at European level, using data from the Copernicus Atmosphere Monitoring Service (CAMS). These tiny particles come from traffic, wood burning, industry, and long-range pollution, and they can penetrate deep into the lungs and bloodstream. Monitoring PM2.5 helps explain long-term health risks such as heart and lung disease linked to air pollution.",
   "Themes": [
     "air",
     "health"
