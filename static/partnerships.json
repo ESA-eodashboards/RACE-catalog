@@ -1,23 +1,23 @@
 {
   "ESA": {
     "Url": "https://esa.int/",
-    "Description": "The European Space Agency",
+    "Description": "The European Space Agency leads the technical development of the RACE Dashboard, in coordination with DG DEFIS.",
     "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true"
+  },
+  "DG DEFIS": {
+    "Url": "https://defence-industry-space.ec.europa.eu/index_en",
+    "Description": "The Directorate-General for Defence Industry and Space (DG DEFIS) leads the European Commission’s activities in the European defence industry and European space sectors.",
+    "Logo": "https://defence-industry-space.ec.europa.eu/themes/contrib/oe_theme/dist/ec/images/logo/positive/logo-ec--en.svg"
   },
   "Copernicus": {
     "Url": "https://www.copernicus.eu/en",
-    "Description": "Copernicus is the Earth observation component of the European Union’s Space programme",
+    "Description": "Copernicus is the Earth observation component of the European Union’s Space programme. The great majority of RACE Indicators are based on open data from the Copernicus Programme",
     "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/copernicus.png?raw=true"
   },
   "Network of Resources": {
     "Url": "https://nor-discover.org/",
-    "Description": "NoR provides non-commercial and commercial users with a unique environment to discover European cloud services and their estimate costs for Earth Observation.",
+    "Description": "ESA NoR provides non-commercial and commercial users with a unique environment to discover European cloud services and their estimate costs for Earth Observation. Some RACE Indicators are provided as a service by NoR Providers.",
     "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/nor.png?raw=true"
-  },
-  "EUSPA": {
-    "Url": "https://euspa.europa.eu/",
-    "Description": "EUSPA manages public interests related to the European Global Navigation Satellite System (GNSS) programmes EGNOS (European Geostationary Navigation Overlay System) and Galileo, the Earth observation (EO) programme Copernicus, and the European Union Governmental Satellite Communications (GOVSATCOM) programme.",
-    "Logo": "https://github.com/eurodatacube/eodash-assets/blob/main/logos/euspa.png?raw=true"
   },
   "Copernicus Data Space Ecosystem": {
     "Url": "https://dataspace.copernicus.eu",
