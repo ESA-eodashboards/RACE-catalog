@@ -4,6 +4,7 @@
   "EodashIdentifier": "NASAPopulation",
   "Subtitle": "Population density 2020",
   "Description": "NASAPopulation/NASAPopulation.md",
+  "ShortDescription": "This indicator shows how people are distributed across the world, mapping population density as the number of people living in each square kilometre. It combines census data with official United Nations population estimates to provide a consistent picture for different years. These maps help people understand where populations are concentrated or sparse, which is essential for planning services, managing resources, assessing exposure to risks, and understanding how environmental and societal changes may affect different communities",
   "Themes": [
     "society",
     "health"

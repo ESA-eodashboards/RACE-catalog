@@ -1,5 +1,5 @@
 {
-  "Name": "Sentinel-2 with Ships detections",
+  "Name": "Sentinel-2-with-Ships-detections",
   "Title": "Sentinel-2 Ships-detection on-the-fly",
   "EodashIdentifier": "E13c_ship_detections",
   "Description": "E13c_ship_detections_algorithm/E13c_ship_detections_algorithm.md",

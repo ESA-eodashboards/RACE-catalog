@@ -5,6 +5,7 @@
   "EodashIdentifier": "WASDI_FLOOD",
   "Subtitle": "Automated flood map",
   "Description": "WASDI_FLOOD/WASDI_FLOOD.md",
+  "ShortDescription": "This indicator maps flooded areas using Copernicus Sentinel-1 satellite images to show where water has temporarily covered land and urban areas during flood events. By detecting floods both in open landscapes and in cities, it helps people understand the extent and evolution of flooding, distinguish floods from permanent water bodies, and see which areas are most affected. This information supports awareness of flood risks and highlights how satellite data can help monitor natural hazards that impact communities, infrastructure, and safety.",
   "Themes": ["water","health"],
   "Tags": [
     "Copernicus Services",

@@ -5,6 +5,7 @@
   "EodashIdentifier": "SST",
   "Subtitle": "Key ocean monitoring indicator",
   "Description": "SST_sea_surface_temperature/SST_sea_surface_temperature.md",
+  "ShortDescription": "This indicator shows how sea surface temperature has changed over time at specific locations, based on CMEMS satellite products. The time series helps people understand long-term warming trends, seasonal patterns, and sudden temperature anomalies. Tracking these changes over weeks and years provides details of how climate variability and climate change are affecting our seas.",
   "Themes": [
     "water",
     "climate"

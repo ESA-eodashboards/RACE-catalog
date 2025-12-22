@@ -4,6 +4,7 @@
   "EodashIdentifier": "N3a2",
   "Subtitle": "Chlorophyll-a concentration description",
   "Description": "N3a2_chl_concentration/N3a2_chl_concentration.md",
+  "ShortDescription": "This indicator maps water quality across regions by showing chlorophyll-a levels, which reflect how much algae is present in the water. While algae occur naturally, unusually high concentrations can point to pollution from sewage, industry, or agricultural fertilisers entering rivers and coastal waters. By comparing weekly satellite observations with long-term average conditions, these maps help people quickly see where water quality is better or worse than usual. They offer a clear, visual way to understand how human activities and natural processes affect the health of lakes, rivers, and coastal seas.",
   "Themes": [
     "water",
     "climate",
@@ -142,7 +143,6 @@
   ],
   "Services": [
     {
-      "Endpoint": "https://services.sentinel-hub.com/api/v1/statistics",
       "Name": "Statistical API",
       "Type": "byoc",
       "CollectionId": "7db8e19e-bf12-4203-bdd1-673455647354",

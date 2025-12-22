@@ -4,6 +4,7 @@
   "EodashIdentifier": "Water_Discharge_timeseries",
   "Subtitle": "Variability of coastal and inland waters",
   "Description": "Variability of coastal and inland waters",
+  "ShortDescription": "This indicator shows how cloudy or clear coastal waters are by measuring turbidity, which increases when rivers carry large amounts of sediment after rainfall or floods. High turbidity can affect water quality, marine life, and coastal activities.",
   "Themes": [
     "water"
   ],

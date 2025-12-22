@@ -5,6 +5,7 @@
   "EodashIdentifier": "N3",
   "Subtitle": "Regional water quality time series",
   "Description": "N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries.md",
+  "ShortDescription": "This indicator tracks water quality over time by measuring chlorophyll-a, a substance linked to the amount of algae in the water. While algae are a natural part of aquatic ecosystems, unusually high levels can signal pollution from human activities such as sewage, industrial discharge, or fertilisers from agriculture, which can harm biodiversity and lead to poor water quality. By comparing current measurements with long-term averages, this indicator helps people see when waters are cleaner than usual and when they may be under stress. It offers a clear way to understand how both natural conditions and human activity influence the health of coastal and inland waters.",
   "Themes": [
     "water",
     "health",
