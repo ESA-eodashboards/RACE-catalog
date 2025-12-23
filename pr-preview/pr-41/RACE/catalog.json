@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel-2 with Ships detections/collection.json",
+      "href": "./Sentinel-2-with-Ships-detections/collection.json",
       "type": "application/json",
       "title": "Sentinel-2 Ships-detection on-the-fly",
       "code": "E13c_ship_detections",
-      "id": "Sentinel-2 with Ships detections",
+      "id": "Sentinel-2-with-Ships-detections",
       "themes": [
         "commerce",
         "tourism"
