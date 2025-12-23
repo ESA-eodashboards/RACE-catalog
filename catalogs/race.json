@@ -101,6 +101,7 @@
     "WASDI_FLOOD",
     "CNR_TUR_1_water_discharge",
     "WSF_world_settlement_footprint_ind",
-    "Water_Discharge_timeseries"
+    "Water_Discharge_timeseries",
+    "E13c_ship_detections_algorithm"
   ]
 }
