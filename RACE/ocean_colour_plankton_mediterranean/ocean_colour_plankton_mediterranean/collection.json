@@ -22,7 +22,7 @@
       "wmts:dimensions": {
         "style": "cmap:rainbow,range:0.06/50,noClamp,logScale"
       },
-      "key": "1b8ef401-3428-4a7e-bafd-661d982df76c"
+      "key": "a7751e24-d340-4227-94d5-406de46f76a6"
     },
     {
       "rel": "parent",
@@ -79,7 +79,7 @@
       "interval": [
         [
           "2023-04-29T00:00:00Z",
-          "2025-12-22T00:00:00Z"
+          "2026-01-13T00:00:00Z"
         ]
       ]
     }
