@@ -1,3 +1,15 @@
 {
-  "Name": "Rice Yield Estimation"
+  "Name": "Rice Yield Estimation",
+  "Title": "Estimate Rice Yield by Using Earth Observation (EO) data",
+  "Description": "Rice is a vital crop in Thailand, both in terms of cultivated area and export production, generating significant revenue for the country. Therefore, rice data is crucial, including cultivated area, expected harvested area, yield, and yield per acre, for planning, policy setting, and rice marketing. The Office of Agricultural Economics utilizes statistical principles to support agricultural data collection for accuracy and reliability. However, to further enhance reliability through the use of geo-informatics or geospatial technology, particularly remote sensing, for spatial coverage and spatial and temporal resolution, the Office of Agricultural Economics combines remote sensing with field surveys to develop a model based on linear regression model. The model utilizing optical sensor (Sentinel-2) and synthetic aperture radar sensor (Sentinel-1), which  are providing from European Space Agency (ESA). The wet season rice is conducting and defining Suphan Buri for study area. This province is fully irrigated system.",
+  "Resources": [
+    {
+      "Name": "Sentinel Hub",
+      "EndPoint": "https://www.sentinel-hub.com/explore/copernicus-data-space-ecosystem/",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
+    }
+  ],
+  "EodashIdentifier": "Rice Yield Estimation"
 }
