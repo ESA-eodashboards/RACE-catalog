@@ -105,7 +105,7 @@
       ]
     },
     "service_code": {
-      "href": "https://gitlab.eox.at/eox/hub/ship-detection/-/blob/main/gtif/ship_detector_race.py",
+      "href": "https://github.com/ESA-eodashboards/ship-detection",
       "type": "text/html",
       "title": "Source code of service providing the inference on the fly",
       "roles": [

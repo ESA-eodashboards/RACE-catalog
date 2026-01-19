@@ -187,8 +187,8 @@
       "Sentinel-3"
     ],
     "sensor": [
-      "OLCI",
       "VIIRS",
+      "OLCI",
       "MODIS"
     ],
     "thumbnail": [
