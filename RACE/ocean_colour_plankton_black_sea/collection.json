@@ -160,7 +160,7 @@
       "interval": [
         [
           "2023-04-14T00:00:00Z",
-          "2026-01-13T00:00:00Z"
+          "2026-01-18T00:00:00Z"
         ]
       ]
     }
@@ -177,18 +177,18 @@
       "N3c_bs"
     ],
     "themes": [
-      "water",
-      "climate"
+      "climate",
+      "water"
     ],
     "satellite": [
-      "JPSS-1",
-      "Sentinel-3",
       "Aqua",
-      "Suomi NPP"
+      "Suomi NPP",
+      "JPSS-1",
+      "Sentinel-3"
     ],
     "sensor": [
-      "VIIRS",
       "OLCI",
+      "VIIRS",
       "MODIS"
     ],
     "thumbnail": [

@@ -239,23 +239,23 @@
     ],
     "countries": [
       "EE",
-      "GR",
+      "LV",
+      "PT",
       "RU",
       "IT",
-      "NO",
+      "DE",
       "FR",
-      "NL",
-      "LT",
       "IE",
+      "LT",
+      "NL",
+      "NO",
       "RO",
+      "TR",
       "ES",
       "PL",
-      "PT",
-      "TR",
-      "LV",
-      "DK",
+      "GR",
       "BE",
-      "DE"
+      "DK"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg"

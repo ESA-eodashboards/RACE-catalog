@@ -199,11 +199,11 @@
       "GG"
     ],
     "themes": [
-      "sport",
-      "tourism",
       "society",
       "health",
-      "commerce"
+      "tourism",
+      "commerce",
+      "sport"
     ],
     "cities": [
       "/"

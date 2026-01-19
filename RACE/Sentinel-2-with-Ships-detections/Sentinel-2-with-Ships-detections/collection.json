@@ -68,7 +68,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-01-14T00:00:00Z"
+          "2026-01-19T00:00:00Z"
         ]
       ]
     }
@@ -100,6 +100,14 @@
       "href": "https://github.com/ShipDetectionExperts/draft_inference",
       "type": "text/html",
       "title": "GitHub repository of vessel detection model",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "service_code": {
+      "href": "https://gitlab.eox.at/eox/hub/ship-detection/-/blob/main/gtif/ship_detector_race.py",
+      "type": "text/html",
+      "title": "Source code of service providing the inference on the fly",
       "roles": [
         "metadata"
       ]
