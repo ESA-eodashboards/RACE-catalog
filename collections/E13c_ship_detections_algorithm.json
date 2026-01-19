@@ -28,7 +28,7 @@
     {
       "Name": "Source code of service providing the inference on the fly",
       "Key": "service_code",
-      "Url": "https://gitlab.eox.at/eox/hub/ship-detection/-/blob/main/gtif/ship_detector_race.py"
+      "Url": "https://github.com/ESA-eodashboards/ship-detection"
     }
   ],
   "Resources": [
