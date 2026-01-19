@@ -24,6 +24,11 @@
       "Name": "GitHub repository of vessel detection model",
       "Key": "draft_inference",
       "Url": "https://github.com/ShipDetectionExperts/draft_inference"
+    }, 
+    {
+      "Name": "Source code of service providing the inference on the fly",
+      "Key": "service_code",
+      "Url": "https://gitlab.eox.at/eox/hub/ship-detection/-/blob/main/gtif/ship_detector_race.py"
     }
   ],
   "Resources": [
