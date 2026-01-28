@@ -5,7 +5,7 @@
   "Description": "E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.md",
   "ShortDescription": "This indicator shows how many trucks were moving on Europe's primary roads, based on satellite images taken between 2020 and 2021. By detecting the distinctive signal that moving vehicles leave in Sentinel-2 imagery, it provides a large-scale view of road freight activity beyond the major motorways. This helps people understand how goods were transported during times of disruption, such as the COVID-19 pandemic, and offers insight into the resilience and functioning of everyday supply chains.",
   "Themes": [
-    "economy"
+    "commerce"
   ],
   "Tags": [
     "Copernicus",
