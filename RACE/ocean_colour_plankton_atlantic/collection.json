@@ -188,8 +188,8 @@
     ],
     "sensor": [
       "MODIS",
-      "VIIRS",
-      "OLCI"
+      "OLCI",
+      "VIIRS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_atlantic/N3c_ocean_colour_plankton_atlantic.png"

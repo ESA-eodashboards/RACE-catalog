@@ -194,12 +194,12 @@
       "CROPOM_water_need"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
-      "CLMS HR-VPP Seasonal Trajectory",
       "Sentinel-2",
+      "CLMS HR-VPP Seasonal Trajectory",
       "CLMS HR-VPP Vegetation Indices"
     ],
     "thumbnail": [

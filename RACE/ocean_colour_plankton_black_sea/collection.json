@@ -160,7 +160,7 @@
       "interval": [
         [
           "2023-04-14T00:00:00Z",
-          "2026-01-25T00:00:00Z"
+          "2026-01-27T00:00:00Z"
         ]
       ]
     }
@@ -188,8 +188,8 @@
     ],
     "sensor": [
       "MODIS",
-      "VIIRS",
-      "OLCI"
+      "OLCI",
+      "VIIRS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_black_sea/N3c_ocean_colour_plankton_black_sea.png"

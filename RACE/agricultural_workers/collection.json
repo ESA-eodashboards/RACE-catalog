@@ -182,12 +182,12 @@
       "E10a9"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
-      "Deimos-2",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Deimos-2"
     ],
     "sensor": [
       "DMAC",

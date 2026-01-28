@@ -155,7 +155,7 @@
   "shortdescription": "This indicator highlights areas where people face the highest health risks because of a combination of poor building insulation or very high surface temperatures and a high concentration of vulnerable residents, such as older adults and economically disadvantaged communities.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png",
   "themes": [
-    "economy"
+    "commerce"
   ],
   "tags": [
     "real estate"
@@ -217,18 +217,18 @@
   "summaries": {
     "subcode": [
       "IND5_1_b2",
-      "IND5_1_b3",
-      "IND5_1_b1"
+      "IND5_1_b1",
+      "IND5_1_b3"
     ],
     "themes": [
       "land",
       "climate",
-      "society",
-      "health"
+      "health",
+      "society"
     ],
     "satellite": [
-      "Landsat 8",
-      "Landsat 9"
+      "Landsat 9",
+      "Landsat 8"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"
