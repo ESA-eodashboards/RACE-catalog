@@ -1,0 +1,97 @@
+{
+  "type": "Catalog",
+  "id": "RACE",
+  "stac_version": "1.1.0",
+  "description": "Rapid Action for Citizens with Earth Observation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./ESDL_Hydrology_Precipitation/collection.json",
+      "type": "application/json",
+      "title": "Daily precipitation product",
+      "shortdescription": "This indicator shows how much rain falls each day at high spatial detail, using satellite observations and weather data combined into a single product. By mapping daily precipitation at 1-kilometre resolution, it helps people understand rainfall patterns that influence floods, droughts, agriculture, and water availability. The dataset is developed by the CNR IRPI Hydrology Group and supports monitoring of extreme weather and climate impacts.",
+      "code": "ESDL_Hydrology_Precipitation",
+      "id": "ESDL_Hydrology_Precipitation",
+      "themes": [
+        "agriculture",
+        "climate"
+      ],
+      "providers": [
+        "NOAA",
+        "NASA",
+        "ECMWF",
+        "WSL",
+        "CNR IRPI",
+        "EURAC"
+      ],
+      "subcode": "ESDL_Hydrology_Precipitation",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/ESDL_Hydrology_Precipitation.jpg"
+      ],
+      "yAxis": "mm/day",
+      "tags": [
+        "Open data",
+        "precipitation",
+        "CPC",
+        "GPM",
+        "CHELSA Climatology"
+      ],
+      "agency": [
+        "EURAC"
+      ],
+      "otherSources": [
+        "GPM",
+        "CPC",
+        "model",
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./ESDL_Hydrology_SM/collection.json",
+      "type": "application/json",
+      "title": "Surface Soil Moisture",
+      "shortdescription": "This indicator shows how wet or dry the soil is across river basins in the Mediterranean region, using satellite radar data from Sentinel-1. Soil moisture is essential for agriculture, water management, and understanding drought risk. By tracking changes in soil moisture over time, this indicator helps people see how landscapes respond to rainfall, dry periods, and climate variability, supporting awareness of water availability and environmental conditions.",
+      "code": "ESDL_Hydrology_SM",
+      "id": "ESDL_Hydrology_SM",
+      "themes": [
+        "agriculture",
+        "water",
+        "land"
+      ],
+      "providers": [
+        "TU Wien"
+      ],
+      "subcode": "ESDL_Hydrology_SM",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/image.jpg"
+      ],
+      "tags": [
+        "Open data",
+        "surface soil moisture",
+        "radiative transfer"
+      ],
+      "agency": [
+        "EURAC"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-eodashboards.github.io/RACE-catalog/RACE/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "RACE"
+}
