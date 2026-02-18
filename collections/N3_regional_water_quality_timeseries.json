@@ -68,12 +68,6 @@
       "Url": "https://www.ismar.cnr.it/istituto/"
     }
   ],
-  "Stories": [
-    {
-      "Name": "Story on Elbe Estuary Monitoring",
-      "Id": "elbe_CNR_story"
-    }
-  ],
   "Process": {
     "Name": "GeoDB Statistics",
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",

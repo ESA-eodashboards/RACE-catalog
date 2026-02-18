@@ -125,12 +125,6 @@
       "Url": "https://www.ismar.cnr.it/istituto/"
     }
   ],
-  "Stories": [
-    {
-      "Name": "Story on Elbe Estuary Monitoring",
-      "Id": "elbe_CNR_story"
-    }
-  ],
   "Colorlegend": {
     "domain": [
       -100,

@@ -126,12 +126,6 @@
       ]
     }
   ],
-  "Stories": [
-    {
-      "Name": "Story on Elbe Estuary Monitoring",
-      "Id": "elbe_CNR_story"
-    }
-  ],
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com",

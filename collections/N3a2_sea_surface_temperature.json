@@ -134,12 +134,6 @@
       "LayerId": "AWS_VIS_SST_MAPS"
     }
   ],
-  "Stories": [
-    {
-      "Name": "Story on Elbe Estuary Monitoring",
-      "Id": "elbe_CNR_story"
-    }
-  ],
   "Services": [
     {
       "Name": "Statistical API",
