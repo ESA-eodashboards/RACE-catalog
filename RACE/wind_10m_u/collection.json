@@ -210,8 +210,8 @@
       "CDS3"
     ],
     "themes": [
-      "climate",
-      "air"
+      "air",
+      "climate"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS3_wind_10m_u/CDS3_wind_10m_u.png"

@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_MED_BGC_L3_NRT_009_141/cmems_obs-oc_med_bgc-plankton_nrt_l3-multi-1km_P1D_202211",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Ocean colour plankton - Mediterranean",
       "wmts:layer": "OCEANCOLOUR_MED_BGC_L3_NRT_009_141/cmems_obs-oc_med_bgc-plankton_nrt_l3-multi-1km_P1D_202211/CHL",
       "role": [
         "data"
@@ -22,7 +22,7 @@
       "wmts:dimensions": {
         "style": "cmap:rainbow,range:0.06/50,noClamp,logScale"
       },
-      "key": "25ece51d-5a47-4be5-8ed5-a66dbab942a2"
+      "key": "67931e38-f632-4180-836d-abcf8630130a"
     },
     {
       "rel": "parent",
@@ -79,7 +79,7 @@
       "interval": [
         [
           "2023-04-29T00:00:00Z",
-          "2026-01-27T00:00:00Z"
+          "2026-02-17T00:00:00Z"
         ]
       ]
     }

@@ -170,12 +170,12 @@
       "industry"
     ],
     "cities": [
-      "Hamburg",
-      "Genoa"
+      "Genoa",
+      "Hamburg"
     ],
     "countries": [
-      "IT",
-      "DE"
+      "DE",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E4_intermediate_goods_production/E4_intermediate_goods_production_photo.jpg"

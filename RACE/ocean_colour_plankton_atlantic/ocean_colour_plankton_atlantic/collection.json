@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_ATL_BGC_L4_NRT_009_116/cmems_obs-oc_atl_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202311",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Ocean colour plankton - Atlantic",
       "wmts:layer": "OCEANCOLOUR_ATL_BGC_L4_NRT_009_116/cmems_obs-oc_atl_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202311/CHL",
       "role": [
         "data"
@@ -22,7 +22,7 @@
       "wmts:dimensions": {
         "style": "cmap:rainbow,range:0.03/50,noClamp,logScale"
       },
-      "key": "77f13597-04d7-4755-9b8a-ce46ea156e77"
+      "key": "72bd8683-7666-4150-bec3-2f999e99a6b5"
     },
     {
       "rel": "parent",

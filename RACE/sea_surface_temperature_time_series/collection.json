@@ -205,36 +205,36 @@
       "SST"
     ],
     "themes": [
-      "climate",
-      "water"
+      "water",
+      "climate"
     ],
     "satellite": [
       "Metop-B",
-      "JPSS-1",
+      "Sentinel-3",
       "Other",
-      "Suomi NPP",
-      "Sentinel-3"
+      "JPSS-1",
+      "Suomi NPP"
     ],
     "sensor": [
+      "VIIRS",
       "SLSTR",
-      "AVHRR",
-      "VIIRS"
+      "AVHRR"
     ],
     "cities": [
       "Constanta",
-      "Lisbon",
-      "Marseilles",
-      "Venice Lagoon",
       "Barcelona",
+      "Marseilles",
+      "Lisbon",
+      "Venice Lagoon",
       "Hamburg"
     ],
     "countries": [
+      "FR",
       "IT",
-      "PT",
       "GE",
-      "ES",
+      "PT",
       "RO",
-      "FR"
+      "ES"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png"
@@ -245,6 +245,13 @@
       "href": "https://race.esa.int/story/?id=elbe_CNR_story",
       "type": "text/markdown",
       "title": "Story on Elbe Estuary Monitoring",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/elbe_CNR_story.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
       "roles": [
         "metadata",
         "story"

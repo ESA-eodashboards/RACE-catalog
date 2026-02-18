@@ -14,7 +14,7 @@
       "rel": "wmts",
       "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_BLK_BGC_L4_NRT_009_152/cmems_obs-oc_blk_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202207",
       "type": "image/png",
-      "title": "wmts capabilities",
+      "title": "Ocean colour plankton - Black Sea",
       "wmts:layer": "OCEANCOLOUR_BLK_BGC_L4_NRT_009_152/cmems_obs-oc_blk_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202207/CHL",
       "role": [
         "data"
@@ -22,7 +22,7 @@
       "wmts:dimensions": {
         "style": "cmap:rainbow,range:0.03/50,noClamp,logScale"
       },
-      "key": "1398efc0-18bb-4813-ac82-e9f5e349e58c"
+      "key": "89835998-ab0a-451c-bcd6-e35ad94bc1d2"
     },
     {
       "rel": "parent",
@@ -79,7 +79,7 @@
       "interval": [
         [
           "2023-04-14T00:00:00Z",
-          "2026-01-27T00:00:00Z"
+          "2026-02-17T00:00:00Z"
         ]
       ]
     }

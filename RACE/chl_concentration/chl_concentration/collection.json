@@ -221,6 +221,13 @@
       "href": "https://race.esa.int/story/?id=elbe_CNR_story",
       "type": "text/markdown",
       "title": "Story on Elbe Estuary Monitoring",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/elbe_CNR_story.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
       "roles": [
         "metadata",
         "story"

@@ -180,8 +180,8 @@
       "land"
     ],
     "satellite": [
-      "MODIS",
-      "Sentinel-3"
+      "Sentinel-3",
+      "MODIS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_photo.jpg"
@@ -199,6 +199,13 @@
       "href": "https://race.esa.int/story/?id=IDEAS",
       "type": "text/markdown",
       "title": "Story on Urban Indicators: Biodiversity, Heat Islands and more",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/IDEAS.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
       "roles": [
         "metadata",
         "story"

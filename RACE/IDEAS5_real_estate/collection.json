@@ -216,19 +216,19 @@
   ],
   "summaries": {
     "subcode": [
-      "IND5_1_b2",
+      "IND5_1_b3",
       "IND5_1_b1",
-      "IND5_1_b3"
+      "IND5_1_b2"
     ],
     "themes": [
-      "land",
-      "climate",
       "health",
-      "society"
+      "society",
+      "land",
+      "climate"
     ],
     "satellite": [
-      "Landsat 9",
-      "Landsat 8"
+      "Landsat 8",
+      "Landsat 9"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"
@@ -239,6 +239,13 @@
       "href": "https://race.esa.int/story/?id=IDEAS",
       "type": "text/markdown",
       "title": "Story on Urban Indicators: Biodiversity, Heat Islands and more",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/IDEAS.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
       "roles": [
         "metadata",
         "story"

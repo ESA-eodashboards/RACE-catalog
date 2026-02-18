@@ -194,12 +194,12 @@
       "CROPOM_water_need"
     ],
     "themes": [
-      "land",
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
-      "Sentinel-2",
       "CLMS HR-VPP Seasonal Trajectory",
+      "Sentinel-2",
       "CLMS HR-VPP Vegetation Indices"
     ],
     "thumbnail": [
@@ -211,6 +211,13 @@
       "href": "https://race.esa.int/story/?id=CropOM",
       "type": "text/markdown",
       "title": "CropOM story on county level crop yield and water demand",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/CropOM.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
       "roles": [
         "metadata",
         "story"
