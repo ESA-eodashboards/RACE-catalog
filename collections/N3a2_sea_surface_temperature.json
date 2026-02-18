@@ -137,7 +137,7 @@
   "Stories": [
     {
       "Name": "Story on Elbe Estuary Monitoring",
-      "Url": "https://race.esa.int/story/?id=elbe_CNR_story"
+      "Id": "elbe_CNR_story"
     }
   ],
   "Services": [

@@ -33,7 +33,7 @@
   "Stories": [
     {
       "Name": "CropOM story on county level crop yield and water demand",
-      "Url": "https://race.esa.int/story/?id=CropOM"
+      "Id": "CropOM"
     }
   ],
   "Image": "crop_forecast_CropOM/CROPOM_water_need.png",

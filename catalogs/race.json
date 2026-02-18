@@ -4,7 +4,10 @@
   "description": "Rapid Action for Citizens with Earth Observation",
   "endpoint": "https://esa-eodashboards.github.io/RACE-catalog/RACE/",
   "assets_endpoint": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections",
-  "stories_endpoint": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main",
+  "stories_endpoint": {
+    "raw_url": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main",
+    "rendered_url": "https://race.esa.int/story/?id={id}"
+  },
   "geodb_default_form": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "geodb_default_vega": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_vega_definition.json",
   "geodb_empty_form": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
