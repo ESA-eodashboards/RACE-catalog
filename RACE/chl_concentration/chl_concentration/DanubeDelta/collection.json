@@ -197,22 +197,6 @@
         "metadata"
       ]
     },
-    "elbe_CNR_story": {
-      "href": "https://race.esa.int/story/?id=elbe_CNR_story",
-      "type": "text/markdown",
-      "title": "Story on Elbe Estuary Monitoring",
-      "alternate": {
-        "raw": {
-          "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/elbe_CNR_story.md",
-          "description": "Raw markdown content of the story"
-        }
-      },
-      "alternate:name": "rendered",
-      "roles": [
-        "metadata",
-        "story"
-      ]
-    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration/N3a2_chl_concentration.png",
       "type": "image/png",

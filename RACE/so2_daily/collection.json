@@ -193,9 +193,9 @@
       "N1_SO2"
     ],
     "themes": [
+      "climate",
       "health",
-      "air",
-      "climate"
+      "air"
     ],
     "satellite": [
       "Sentinel-5P"

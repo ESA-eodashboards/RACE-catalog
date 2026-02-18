@@ -197,9 +197,9 @@
       "OX_EU"
     ],
     "themes": [
-      "energy",
       "commerce",
-      "industry"
+      "industry",
+      "energy"
     ],
     "satellite": [
       "Sentinel-2",
