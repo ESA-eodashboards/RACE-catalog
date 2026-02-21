@@ -14,7 +14,7 @@
       "rel": "xyz",
       "href": "https://api.earthsystemdatalab.net/api/tiles/hydrology/SM/{z}/{y}/{x}?crs=EPSG:3857&time={time}&vmin=0&vmax=1&cbar=plasma_r",
       "type": "image/png",
-      "title": "xcube tiles"
+      "title": "Surface Soil Moisture"
     },
     {
       "rel": "parent",

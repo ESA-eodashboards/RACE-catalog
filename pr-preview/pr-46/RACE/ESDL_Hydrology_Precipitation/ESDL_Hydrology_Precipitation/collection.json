@@ -14,7 +14,7 @@
       "rel": "xyz",
       "href": "https://api.earthsystemdatalab.net/api/tiles/hydrology/precip/{z}/{y}/{x}?crs=EPSG:3857&time={time}&vmin=0&vmax=50&cbar=viridis_alpha",
       "type": "image/png",
-      "title": "xcube tiles"
+      "title": "Daily precipitation product"
     },
     {
       "rel": "parent",

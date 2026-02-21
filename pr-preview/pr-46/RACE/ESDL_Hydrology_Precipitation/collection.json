@@ -52,7 +52,7 @@
     },
     {
       "rel": "service",
-      "href": "https://api.earthsystemdatalab.net/api/timeseries/hydrology/precip?aggMethods=median",
+      "href": "https://api.earthsystemdatalab.net/api/timeseries//hydrology/precip?aggMethods=median",
       "type": "application/json",
       "id": "xcube_statistics",
       "method": "POST",
@@ -163,7 +163,7 @@
     "title": "[mm/day]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/chart.json",
   "title": "Daily precipitation product",
   "extent": {
     "spatial": {
@@ -241,8 +241,8 @@
       "ESDL_Hydrology_Precipitation"
     ],
     "themes": [
-      "climate",
-      "agriculture"
+      "agriculture",
+      "climate"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/ESDL_Hydrology_Precipitation.jpg"
