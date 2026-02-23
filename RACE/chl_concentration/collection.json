@@ -199,8 +199,8 @@
     ],
     "themes": [
       "water",
-      "health",
-      "climate"
+      "climate",
+      "health"
     ],
     "satellite": [
       "Sentinel-3"

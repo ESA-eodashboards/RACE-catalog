@@ -196,10 +196,10 @@
       "E13o"
     ],
     "themes": [
-      "commerce",
-      "industry",
       "tourism",
-      "society"
+      "commerce",
+      "society",
+      "industry"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png"
