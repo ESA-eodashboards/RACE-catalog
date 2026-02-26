@@ -42,7 +42,8 @@
           "Time": "20210301T0000",
           "Assets": [
             {
-              "Identifier": "winter",
+              "Identifier": "days_over_threshold",
+              "Title": "Days where air pollution over WHO threshold",
               "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Winter_europe_3857_b4.tif"
             }
           ]

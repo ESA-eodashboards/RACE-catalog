@@ -42,7 +42,8 @@
           "Time": "20210301T0000",
           "Assets": [
             {
-              "Identifier": "winter",
+              "Identifier": "distance_to_hospital",
+              "Title": "Distance to nearest hospital or clinic [km]",
               "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Winter_europe_3857_b3.tif"
             }
           ]
