@@ -125,6 +125,43 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./so2_daily/collection.json",
+      "type": "application/json",
+      "title": "Sulfur Dioxide observed by Sentinel-5p TROPOMI",
+      "subtitle": "Global daily SO2",
+      "shortdescription": "This indicator shows sulfur dioxide (SO₂) in the atmosphere, measured by the Sentinel-5P satellite. SO₂ comes from both human activities (like power plants and industry) and natural events such as volcanic eruptions. High levels can affect air quality, human health, and even climate. By mapping SO₂ at high resolution, this indicator helps people see pollution hotspots, track volcanic plumes that may impact aviation, and understand how emissions travel across regions.",
+      "code": "N1_SO2",
+      "id": "so2_daily",
+      "themes": [
+        "air",
+        "climate",
+        "health"
+      ],
+      "providers": [
+        "Copernicus Data Space Ecosystem"
+      ],
+      "subcode": "N1_SO2",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/N1_SO2_photo.jpg"
+      ],
+      "tags": [
+        "Air quality",
+        "SO2",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://esa-eodashboards.github.io/RACE-catalog/RACE/catalog.json",
       "type": "application/json"
