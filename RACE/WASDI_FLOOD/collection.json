@@ -193,12 +193,12 @@
       "WASDI_FLOOD"
     ],
     "themes": [
-      "water",
-      "health"
+      "health",
+      "water"
     ],
     "satellite": [
-      "Sentinel-1",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Sentinel-1"
     ],
     "sensor": [
       "MSI",

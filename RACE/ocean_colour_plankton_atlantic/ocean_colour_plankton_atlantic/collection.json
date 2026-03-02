@@ -12,17 +12,17 @@
     },
     {
       "rel": "wmts",
-      "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_ATL_BGC_L4_NRT_009_116/cmems_obs-oc_atl_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202311",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_ATL_BGC_L4_NRT_009_116/cmems_obs-oc_atl_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202511",
       "type": "image/png",
       "title": "Ocean colour plankton - Atlantic",
-      "wmts:layer": "OCEANCOLOUR_ATL_BGC_L4_NRT_009_116/cmems_obs-oc_atl_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202311/CHL",
+      "wmts:layer": "OCEANCOLOUR_ATL_BGC_L4_NRT_009_116/cmems_obs-oc_atl_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202511/CHL",
       "role": [
         "data"
       ],
       "wmts:dimensions": {
         "style": "cmap:rainbow,range:0.03/50,noClamp,logScale"
       },
-      "key": "8d6ebe1c-d15a-45e4-8101-8f92f2499096"
+      "key": "85faa4b3-85d5-4b9f-9c0d-6cb5c93e5b2f"
     },
     {
       "rel": "parent",
@@ -78,8 +78,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-12-24T00:00:00Z",
-          "2026-01-07T00:00:00Z"
+          "2026-02-11T00:00:00Z",
+          "2026-03-01T00:00:00Z"
         ]
       ]
     }

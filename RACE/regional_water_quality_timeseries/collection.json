@@ -205,10 +205,10 @@
       "N3"
     ],
     "themes": [
+      "health",
       "water",
-      "climate",
       "sport",
-      "health"
+      "climate"
     ],
     "satellite": [
       "Sentinel-3"
@@ -217,19 +217,19 @@
       "OLCI"
     ],
     "cities": [
-      "Barcelona",
+      "Venice Lagoon",
+      "Hamburg",
       "Marseilles",
       "Lisbon",
-      "Hamburg",
-      "Constanta",
-      "Venice Lagoon"
+      "Barcelona",
+      "Constanta"
     ],
     "countries": [
-      "PT",
       "ES",
+      "RO",
+      "PT",
       "GE",
       "IT",
-      "RO",
       "FR"
     ],
     "thumbnail": [
