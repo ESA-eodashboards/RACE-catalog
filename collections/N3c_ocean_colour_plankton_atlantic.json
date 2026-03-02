@@ -46,10 +46,10 @@
   ],
   "Resources": [
     {
-      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_ATL_BGC_L4_NRT_009_116/cmems_obs-oc_atl_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202311",
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_ATL_BGC_L4_NRT_009_116/cmems_obs-oc_atl_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202511",
       "Type": "WMTSCapabilities",
       "Name": "marinedatastore",
-      "LayerId": "OCEANCOLOUR_ATL_BGC_L4_NRT_009_116/cmems_obs-oc_atl_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202311/CHL",
+      "LayerId": "OCEANCOLOUR_ATL_BGC_L4_NRT_009_116/cmems_obs-oc_atl_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202511/CHL",
       "Dimensions": {
         "style": "cmap:rainbow,range:0.03/50,noClamp,logScale"
       }
