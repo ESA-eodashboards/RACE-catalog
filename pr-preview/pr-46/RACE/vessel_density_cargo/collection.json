@@ -1,0 +1,226 @@
+{
+  "type": "Collection",
+  "id": "vessel_density_cargo",
+  "stac_version": "1.1.0",
+  "description": "## Cargo Ship density Map\n\nThis indicator shows maps representing the total cargo ship presence time on a 1 km grid (EEA/Inspire standards)\nfor every month from 2017-2021. The indicator is provided by the [EMODnet Human activities portal](https://www.emodnet-humanactivities.eu/view-data.php). \n\nThe total cargo ship presence times are converted to average instantaneous number of ships per square km.\n\nThese maps have been made from ship reporting data of the Automatic Identification System (AIS), collected by coastal stations and satellites. \n\nEMODnet Human Activities creates vessel density maps of EU waters showing the average number of vessels of certain type (cargo, passenger, fishing etc.) in a given period within a grid cell.\n\n<img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png\" alt=\"Image\" />\n\n<img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_legend.png\" alt=\"Legend\" />\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_cargo/collection.json",
+      "type": "application/json",
+      "title": "Vessel density for cargo",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Vessel density for cargo description",
+      "shortdescription": "“This indicator shows how many cargo ships were active in European waters each month, using signals that all large vessels send to broadcast their identity and location (AIS - automatic identification system). By mapping where cargo ships spent their time, it gives a clear view of how maritime transport evolved from 2017 to 2021, including during the COVID-19 pandemic. It helps illustrate how goods move across Europe and how resilient our supply chains are during periods of disruption.",
+      "code": "E13p",
+      "id": "vessel_density_cargo",
+      "themes": [
+        "commerce",
+        "industry"
+      ],
+      "providers": [
+        "EMODNET"
+      ],
+      "tags": [
+        "Maritime",
+        "Traffic",
+        "Open data",
+        "Ships",
+        "Vessels",
+        "Vessel Density",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13p",
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://services.sentinel-hub.com/api/v1/statistics",
+      "type": "application/json",
+      "id": "sentinelhub-statistics",
+      "method": "POST",
+      "endpoint": "sentinelhub"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Vessel density for cargo description",
+  "shortdescription": "“This indicator shows how many cargo ships were active in European waters each month, using signals that all large vessels send to broadcast their identity and location (AIS - automatic identification system). By mapping where cargo ships spent their time, it gives a clear view of how maritime transport evolved from 2017 to 2021, including during the COVID-19 pandemic. It helps illustrate how goods move across Europe and how resilient our supply chains are during periods of disruption.",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_vessel_density_cargo.png",
+  "themes": [
+    "commerce",
+    "industry"
+  ],
+  "tags": [
+    "Maritime",
+    "Traffic",
+    "Open data",
+    "Ships",
+    "Vessels",
+    "Vessel Density",
+    "Traffic"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E13p",
+  "insituSources": [
+    "AIS"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      0.5,
+      2,
+      5,
+      10,
+      20,
+      150
+    ],
+    "range": [
+      "#009b8f",
+      "#00db00",
+      "#fffc00",
+      "#f49a00",
+      "#d01300",
+      "#a10000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "total ship presence time / 1 km²"
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/chart.json",
+  "title": "Vessel density for cargo",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -87.70648392940124,
+          14.964836415804598,
+          97.6345478307898,
+          86.84130057185143
+        ],
+        [
+          -87.70648392940124,
+          14.964836415804598,
+          97.6345478307898,
+          86.84130057185143
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-01T00:00:00Z",
+          "2022-12-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "EMODNET",
+      "url": "https://www.emodnet-humanactivities.eu"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "E13p"
+    ],
+    "themes": [
+      "commerce",
+      "industry"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_vessel_density_cargo.png"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_vessel_density_cargo.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "emodnet_map_method": {
+      "href": "https://www.emodnet-humanactivities.eu/documents/Vessel%20density%20maps_method_v1.5.pdf",
+      "type": "text/html",
+      "title": "EU Vessel density map Detailed method",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
