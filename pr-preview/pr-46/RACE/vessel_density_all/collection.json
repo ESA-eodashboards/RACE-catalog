@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "vessel_density_cargo",
+  "id": "vessel_density_all",
   "stac_version": "1.1.0",
-  "description": "## Cargo Ship density Map\n\nThis indicator shows maps representing the total cargo ship presence time on a 1 km grid (EEA/Inspire standards)\nfor every month from 2017-2021. The indicator is provided by the [EMODnet Human activities portal](https://www.emodnet-humanactivities.eu/view-data.php). \n\nThe total cargo ship presence times are converted to average instantaneous number of ships per square km.\n\nThese maps have been made from ship reporting data of the Automatic Identification System (AIS), collected by coastal stations and satellites. \n\nEMODnet Human Activities creates vessel density maps of EU waters showing the average number of vessels of certain type (cargo, passenger, fishing etc.) in a given period within a grid cell.\n\n<img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png\" alt=\"Image\" />\n\n<img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_legend.png\" alt=\"Legend\" />\n",
+  "description": "## Ship density Map\n\nThis indicator shows maps representing the total ship presence time on a 1 km grid (EEA/Inspire standards)\nfor every month from 2017-2021, separately for 14 different ship categories. The indicator is provided by the [EMODnet Human activities portal](https://www.emodnet-humanactivities.eu/view-data.php). \n\nThe total ship presence times are converted to average instantaneous number of ships per square km.\n\nThese maps have been made from ship reporting data of the Automatic Identification System (AIS), collected by coastal stations and satellites. \n\nEMODnet Human Activities creates vessel density maps of EU waters showing the average number of vessels of certain type (cargo, passenger, fishing etc.) in a given period within a grid cell.\n\n<img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png\" alt=\"Image\" />\n\n<img src=\"https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_legend.png\" alt=\"Legend\" />\n",
   "links": [
     {
       "rel": "root",
@@ -12,17 +12,19 @@
     },
     {
       "rel": "child",
-      "href": "./vessel_density_cargo/collection.json",
+      "href": "./vessel_density_all/collection.json",
       "type": "application/json",
-      "title": "Vessel density for cargo",
+      "title": "Vessel density",
       "endpointtype": "Sentinel Hub_byoc",
-      "subtitle": "Vessel density for cargo description",
-      "shortdescription": "“This indicator shows how many cargo ships were active in European waters each month, using signals that all large vessels send to broadcast their identity and location (AIS - automatic identification system). By mapping where cargo ships spent their time, it gives a clear view of how maritime transport evolved from 2017 to 2021, including during the COVID-19 pandemic. It helps illustrate how goods move across Europe and how resilient our supply chains are during periods of disruption.",
-      "code": "E13p",
-      "id": "vessel_density_cargo",
+      "subtitle": "Vessel density description",
+      "shortdescription": "This indicator shows how many ships were present in European waters each month, based on signals that all large vessels send out to share their identity and position (AIS – automatic identification system). The maps reveal how busy the seas were for different types of vessels, like cargo ships, ferries, or fishing boats, helping us see how maritime activity changed over time, including during the COVID-19 pandemic. It offers a view of how shipping, travel, and fishing support Europe’s economy and daily life.",
+      "code": "E13o",
+      "id": "vessel_density_all",
       "themes": [
         "commerce",
-        "industry"
+        "industry",
+        "tourism",
+        "society"
       ],
       "providers": [
         "EMODNET"
@@ -39,7 +41,7 @@
       "agency": [
         "ESA"
       ],
-      "subcode": "E13p",
+      "subcode": "E13o",
       "insituSources": [
         "AIS"
       ]
@@ -107,12 +109,14 @@
       "title": "RACE"
     }
   ],
-  "subtitle": "Vessel density for cargo description",
-  "shortdescription": "“This indicator shows how many cargo ships were active in European waters each month, using signals that all large vessels send to broadcast their identity and location (AIS - automatic identification system). By mapping where cargo ships spent their time, it gives a clear view of how maritime transport evolved from 2017 to 2021, including during the COVID-19 pandemic. It helps illustrate how goods move across Europe and how resilient our supply chains are during periods of disruption.",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_vessel_density_cargo.png",
+  "subtitle": "Vessel density description",
+  "shortdescription": "This indicator shows how many ships were present in European waters each month, based on signals that all large vessels send out to share their identity and position (AIS – automatic identification system). The maps reveal how busy the seas were for different types of vessels, like cargo ships, ferries, or fishing boats, helping us see how maritime activity changed over time, including during the COVID-19 pandemic. It offers a view of how shipping, travel, and fishing support Europe’s economy and daily life.",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png",
   "themes": [
     "commerce",
-    "industry"
+    "industry",
+    "tourism",
+    "society"
   ],
   "tags": [
     "Maritime",
@@ -126,7 +130,7 @@
   "agency": [
     "ESA"
   ],
-  "subcode": "E13p",
+  "subcode": "E13o",
   "insituSources": [
     "AIS"
   ],
@@ -152,22 +156,22 @@
     "title": "total ship presence time / 1 km²"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/chart.json",
-  "title": "Vessel density for cargo",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/chart.json",
+  "title": "Vessel density",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -87.70648392940124,
-          14.964836415804598,
-          97.6345478307898,
-          86.84130057185143
+          -87.7064839294012,
+          14.964836415804399,
+          97.63454783078976,
+          86.8413005718512
         ],
         [
-          -87.70648392940124,
-          14.964836415804598,
-          97.6345478307898,
-          86.84130057185143
+          -87.7064839294012,
+          14.964836415804399,
+          97.63454783078976,
+          86.8413005718512
         ]
       ]
     },
@@ -189,26 +193,28 @@
   ],
   "summaries": {
     "subcode": [
-      "E13p"
+      "E13o"
     ],
     "themes": [
+      "tourism",
       "industry",
-      "commerce"
+      "commerce",
+      "society"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_vessel_density_cargo.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png"
     ]
   },
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_legend.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_vessel_density_cargo.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

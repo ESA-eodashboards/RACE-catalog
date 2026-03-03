@@ -1,0 +1,163 @@
+{
+  "type": "Collection",
+  "id": "methane_monitoring",
+  "stac_version": "1.1.0",
+  "description": "## Methane monitoring\n\nThis indicator aims at showing Methane (CH4) concentrations by means of Sentinel-5p [TROPOMI](http://www.tropomi.eu) data.\nTROPOMI uses absorption information from the Oxygen-A Band (760nm) and the SWIR spectral range to monitor CH4 levels in the Earth’s atmosphere contributing to the enhancement of the greenhouse effect.\n\nData from the GOSAT satellite instrument and ground-based TCCON instruments are used for verification and validation.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Methane monitoring",
+      "wms:layers": [
+        "AWS_CH4_WEEKLY"
+      ],
+      "role": [
+        "data"
+      ],
+      "proj:epsg": 3857
+    },
+    {
+      "rel": "example",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.js",
+      "type": "application/javascript",
+      "title": "evalscript",
+      "example:language": "JavaScript",
+      "dataId": "byoc-0ecb4a55-5ce2-4525-bdcb-a333d37d46ef"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Methane monitoring"
+    }
+  ],
+  "subtitle": "Daily Methane Monitoring",
+  "shortdescription": "This indicator shows methane (CH₄) concentrations in the atmosphere, measured from space by the Sentinel-5P satellite. Methane is a powerful greenhouse gas, and tracking where it comes from, such as agriculture, energy production, or natural sources, helps us understand its impact on climate. By mapping methane levels globally, this indicator gives a clear view of how human activities and natural processes contribute to warming, and how these patterns evolve over time.",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring_photo.jpg",
+  "themes": [
+    "air",
+    "climate",
+    "health"
+  ],
+  "tags": [
+    "Air quality",
+    "CH4",
+    "Multi-sensors",
+    "Open data"
+  ],
+  "agency": [
+    "ESA",
+    "JAXA",
+    "NASA",
+    "NIWA"
+  ],
+  "subcode": "N1_CH4",
+  "sensor": [
+    "TROPOMI",
+    "TANSO"
+  ],
+  "satellite": [
+    "Sentinel-5P",
+    "GOSAT"
+  ],
+  "insituSources": [
+    "TCCON"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      1680,
+      1980
+    ],
+    "range": [
+      "#000103",
+      "#006cd3",
+      "#00d2ff",
+      "#00ffff",
+      "#46ff96",
+      "#fffd00",
+      "#ffc100",
+      "#ff4900",
+      "#ff0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "CH4 volume mixing ratio [ppbv]"
+  },
+  "proj:epsg": 3857,
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Methane monitoring",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-04-30T00:00:00Z",
+          "2025-11-24T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus Data Space Ecosystem",
+      "url": "https://dataspace.copernicus.eu/"
+    },
+    {
+      "name": "JAXA",
+      "url": "https://earth.jaxa.jp/en/data/"
+    },
+    {
+      "name": "Caltech",
+      "url": "https://tccondata.org/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "tropomi_methane": {
+      "href": "https://www.tropomi.eu/data-products/m/methane",
+      "type": "text/html",
+      "title": "TROPOMI Methane",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

@@ -158,7 +158,7 @@
     "title": "Tropospheric NO2 [µmol/m²]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/sentinel-chart.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/chart.json",
   "title": "Air Quality (tropospheric NO2 concentrations)",
   "extent": {
     "spatial": {
