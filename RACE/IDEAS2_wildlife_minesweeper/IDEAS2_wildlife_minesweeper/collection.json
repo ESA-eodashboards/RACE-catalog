@@ -25,8 +25,30 @@
       "title": "Wildlife Biodiversity Minesweeper Game"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
   "subtitle": "Indicator 2: Wildlife Diversity Game mode",
   "shortdescription": "This interactive game lets you discover biodiversity around the world in a fun and engaging way. Using real Earth-observation and species data, the minesweeper-style challenge invites you to identify areas rich in wildlife while learning about the species that live there and their conservation status. Each day features a new location, encouraging players to explore nature, raise awareness about biodiversity, and share their scores with friends.",
+  "eodash:stories": {
+    "IDEAS": {
+      "href": "https://race.esa.int/story/?id=IDEAS",
+      "type": "text/markdown",
+      "title": "Story on Urban Indicators: Biodiversity, Heat Islands and more",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/IDEAS.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_minesweeper.png",
   "themes": [
     "land"
@@ -105,13 +127,15 @@
       "href": "https://race.esa.int/story/?id=IDEAS",
       "type": "text/markdown",
       "title": "Story on Urban Indicators: Biodiversity, Heat Islands and more",
+      "description": "Rendered page of the story",
       "alternate": {
         "raw": {
           "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/IDEAS.md",
-          "description": "Raw markdown content of the story"
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
         }
       },
-      "alternate:name": "rendered",
+      "alternate:name": "rendered story page",
       "roles": [
         "metadata",
         "story"

@@ -151,8 +151,30 @@
       "title": "RACE"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
   "subtitle": "Highest-risk areas, characterized by poor insulation or LST and a vulnerable population (elderly and economically disadvantaged)",
   "shortdescription": "This indicator highlights areas where people face the highest health risks because of a combination of poor building insulation or very high surface temperatures and a high concentration of vulnerable residents, such as older adults and economically disadvantaged communities.",
+  "eodash:stories": {
+    "IDEAS": {
+      "href": "https://race.esa.int/story/?id=IDEAS",
+      "type": "text/markdown",
+      "title": "Story on Urban Indicators: Biodiversity, Heat Islands and more",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/IDEAS.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png",
   "themes": [
     "commerce"
@@ -221,10 +243,10 @@
       "IND5_1_b2"
     ],
     "themes": [
-      "health",
-      "climate",
       "society",
-      "land"
+      "land",
+      "health",
+      "climate"
     ],
     "satellite": [
       "Landsat 9",
@@ -239,13 +261,15 @@
       "href": "https://race.esa.int/story/?id=IDEAS",
       "type": "text/markdown",
       "title": "Story on Urban Indicators: Biodiversity, Heat Islands and more",
+      "description": "Rendered page of the story",
       "alternate": {
         "raw": {
           "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/IDEAS.md",
-          "description": "Raw markdown content of the story"
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
         }
       },
-      "alternate:name": "rendered",
+      "alternate:name": "rendered story page",
       "roles": [
         "metadata",
         "story"

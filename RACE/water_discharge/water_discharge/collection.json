@@ -25,7 +25,29 @@
       "title": "Water turbidity"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
   "shortdescription": "Water discharge — the volume of water flowing through a channel, such as a river or stream, per unit of time — is a fundamental metric for managing the global water cycle, ensuring public safety, supporting water resource management - including for drinking water and agriculture - and various economic sectors, and maintaining ecosystem health.",
+  "eodash:stories": {
+    "water_turbidity_CNR_story": {
+      "href": "https://race.esa.int/story/?id=water_turbidity_CNR_story",
+      "type": "text/markdown",
+      "title": "Story on tracking the Po river from space",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/water_turbidity_CNR_story.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CNR_TUR_1_water_discharge/CNR_TUR_1_water_discharge_photo.jpg",
   "themes": [
     "water"
@@ -106,13 +128,15 @@
       "href": "https://race.esa.int/story/?id=water_turbidity_CNR_story",
       "type": "text/markdown",
       "title": "Story on tracking the Po river from space",
+      "description": "Rendered page of the story",
       "alternate": {
         "raw": {
           "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/water_turbidity_CNR_story.md",
-          "description": "Raw markdown content of the story"
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
         }
       },
-      "alternate:name": "rendered",
+      "alternate:name": "rendered story page",
       "roles": [
         "metadata",
         "story"

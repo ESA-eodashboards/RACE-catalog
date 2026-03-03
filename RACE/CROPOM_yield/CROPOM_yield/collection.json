@@ -32,8 +32,30 @@
       "title": "Crop yield"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
   "subtitle": "Yield forecast under \"what-if\" scenarios",
   "shortdescription": "Crop yield is typically a forecast or estimate of the quantity of an agricultural harvest. It is a critical metric that links climate, environment, and human activity, directly impacting global food security, the economy, and public welfare. The societal impacts of reliable crop yield indicators include Global Food Security, Market Stability and Economics, Climate Change Adaptation, Agricultural Policy and Planning, and Sustainable Resource Management. Indicators are often developed using a combination of ground based data and remote sensing data.",
+  "eodash:stories": {
+    "CropOM": {
+      "href": "https://race.esa.int/story/?id=CropOM",
+      "type": "text/markdown",
+      "title": "CropOM story on county level crop yield and water demand",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/CropOM.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_yield.png",
   "themes": [
     "agriculture",
@@ -111,13 +133,15 @@
       "href": "https://race.esa.int/story/?id=CropOM",
       "type": "text/markdown",
       "title": "CropOM story on county level crop yield and water demand",
+      "description": "Rendered page of the story",
       "alternate": {
         "raw": {
           "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/CropOM.md",
-          "description": "Raw markdown content of the story"
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
         }
       },
-      "alternate:name": "rendered",
+      "alternate:name": "rendered story page",
       "roles": [
         "metadata",
         "story"
