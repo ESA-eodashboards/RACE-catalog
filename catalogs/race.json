@@ -6,7 +6,8 @@
   "assets_endpoint": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections",
   "stories_endpoint": {
     "raw_url": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main",
-    "rendered_url": "https://race.esa.int/story/?id={id}"
+    "rendered_url": "https://race.esa.int/story/?id={id}",
+    "additional_stac_property": "eodash:stories"
   },
   "geodb_default_form": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "geodb_default_vega": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_vega_definition.json",
