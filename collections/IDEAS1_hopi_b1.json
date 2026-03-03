@@ -42,7 +42,8 @@
           "Time": "20210301T0000",
           "Assets": [
             {
-              "Identifier": "spring",
+              "Identifier": "spring_houhpi",
+              "Title": "HOUHPI Index - Spring",
               "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Spring_europe_3857_b1.tif"
             }
           ]
@@ -51,7 +52,8 @@
           "Time": "20210601T0000",
           "Assets": [
             {
-              "Identifier": "summer",
+              "Identifier": "summer_houhpi",
+              "Title": "HOUHPI Index - Summer",
               "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Summer_europe_3857_b1.tif"
             }
           ]
@@ -59,7 +61,8 @@
           "Time": "20210901T0000",
           "Assets": [
             {
-              "Identifier": "autumn",
+              "Identifier": "autumn_houhpi",
+              "Title": "HOUHPI Index - Autumn",
               "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Autumn_europe_3857_b1.tif"
             }
           ]
@@ -67,7 +70,8 @@
           "Time": "20211201T0000",
           "Assets": [
             {
-              "Identifier": "winter",
+              "Identifier": "winter_houhpi",
+              "Title": "HOUHPI Index - Winter",
               "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Winter_europe_3857_b1.tif"
             }
           ]

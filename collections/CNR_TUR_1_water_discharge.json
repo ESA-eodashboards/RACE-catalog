@@ -54,7 +54,7 @@
   "Stories": [
     {
       "Name": "Story on tracking the Po river from space",
-      "Url": "https://race.esa.int/story/?id=water_turbidity_CNR_story"
+      "Id": "water_turbidity_CNR_story"
     }
   ],
   "Resources": [

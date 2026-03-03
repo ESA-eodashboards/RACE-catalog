@@ -25,7 +25,8 @@
           "Time": "20210301T0000",
           "Assets": [
             {
-              "Identifier": "spring",
+              "Identifier": "spring_lst",
+              "Title": "Land Surface Temperature - Spring",
               "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Spring_europe_3857_b5.tif"
             }
           ]
@@ -34,7 +35,8 @@
           "Time": "20210601T0000",
           "Assets": [
             {
-              "Identifier": "summer",
+              "Identifier": "summer_lst",
+              "Title": "Land Surface Temperature - Summer",
               "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Summer_europe_3857_b5.tif"
             }
           ]
@@ -43,7 +45,8 @@
           "Time": "20210901T0000",
           "Assets": [
             {
-              "Identifier": "autumn",
+              "Identifier": "autumn_lst",
+              "Title": "Land Surface Temperature - Autumn",
               "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Autumn_europe_3857_b5.tif"
             }
           ]
@@ -52,7 +55,8 @@
           "Time": "20211201T0000",
           "Assets": [
             {
-              "Identifier": "winter",
+              "Identifier": "winter_lst",
+              "Title": "Land Surface Temperature - Winter",
               "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Winter_europe_3857_b5.tif"
             }
           ]

@@ -42,7 +42,8 @@
           "Time": "20210301T0000",
           "Assets": [
             {
-              "Identifier": "winter",
+              "Identifier": "winter_number_vulnerable",
+              "Title": "Number of people of age > 60 or <5",
               "File": "https://eox-ideas.s3.eu-central-1.amazonaws.com/indicator1/indicator1_v1_houhpi_Winter_europe_3857_b2.tif"
             }
           ]
