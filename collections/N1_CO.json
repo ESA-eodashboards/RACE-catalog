@@ -89,7 +89,7 @@
   "Process": {
     "Name": "Sentinel Hub Statistics",
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-    "VegaDefinition": "N1_CO/RACE-catalog-chart.json",
+    "VegaDefinition": "N1_CO/chart.json",
     "EndPoints": [
       {
         "Identifier": "sentinelhub-statistics",
