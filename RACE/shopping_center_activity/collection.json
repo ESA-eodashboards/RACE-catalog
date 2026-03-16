@@ -201,14 +201,14 @@
       "Milan",
       "Athens",
       "Bucharest",
-      "Rome",
       "Brussels",
+      "Rome",
       "Warsaw"
     ],
     "countries": [
+      "BE",
       "PL",
       "RO",
-      "BE",
       "IT",
       "GR"
     ],
