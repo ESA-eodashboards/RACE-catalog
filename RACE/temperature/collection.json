@@ -164,7 +164,7 @@
     "title": "Air Temperature at 2m [K]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/chart.json",
   "title": "Global temperature - ERA5",
   "extent": {
     "spatial": {
@@ -208,8 +208,8 @@
       "CDS1_temperature"
     ],
     "themes": [
-      "climate",
-      "air"
+      "air",
+      "climate"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png"

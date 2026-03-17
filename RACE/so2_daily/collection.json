@@ -153,7 +153,7 @@
     "title": "SO2 column number density [DU]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/chart.json",
   "title": "Sulfur Dioxide observed by Sentinel-5p TROPOMI",
   "extent": {
     "spatial": {
@@ -193,9 +193,9 @@
       "N1_SO2"
     ],
     "themes": [
-      "climate",
+      "air",
       "health",
-      "air"
+      "climate"
     ],
     "satellite": [
       "Sentinel-5P"

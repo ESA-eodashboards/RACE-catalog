@@ -209,31 +209,31 @@
       "climate"
     ],
     "satellite": [
-      "Other",
-      "Metop-B",
+      "JPSS-1",
       "Sentinel-3",
+      "Other",
       "Suomi NPP",
-      "JPSS-1"
+      "Metop-B"
     ],
     "sensor": [
       "VIIRS",
-      "SLSTR",
-      "AVHRR"
+      "AVHRR",
+      "SLSTR"
     ],
     "cities": [
-      "Barcelona",
-      "Marseilles",
       "Lisbon",
       "Venice Lagoon",
       "Hamburg",
-      "Constanta"
+      "Marseilles",
+      "Constanta",
+      "Barcelona"
     ],
     "countries": [
+      "RO",
+      "PT",
       "ES",
       "FR",
       "IT",
-      "RO",
-      "PT",
       "GE"
     ],
     "thumbnail": [

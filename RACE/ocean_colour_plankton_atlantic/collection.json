@@ -160,7 +160,7 @@
       "interval": [
         [
           "2026-02-26T00:00:00Z",
-          "2026-03-14T00:00:00Z"
+          "2026-03-15T00:00:00Z"
         ]
       ]
     }
@@ -181,10 +181,10 @@
       "climate"
     ],
     "satellite": [
-      "Sentinel-3",
+      "JPSS-1",
       "Aqua",
       "Suomi NPP",
-      "JPSS-1"
+      "Sentinel-3"
     ],
     "sensor": [
       "VIIRS",

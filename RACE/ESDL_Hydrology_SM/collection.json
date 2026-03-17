@@ -157,7 +157,7 @@
     "title": "[% relative saturation]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/chart.json",
   "title": "Surface Soil Moisture",
   "extent": {
     "spatial": {
@@ -200,9 +200,9 @@
       "ESDL_Hydrology_SM"
     ],
     "themes": [
+      "land",
       "agriculture",
-      "water",
-      "land"
+      "water"
     ],
     "satellite": [
       "Sentinel-1"

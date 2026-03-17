@@ -171,7 +171,7 @@
     "title": "CH4 volume mixing ratio [ppbv]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/chart.json",
   "title": "Methane monitoring",
   "extent": {
     "spatial": {
@@ -219,9 +219,9 @@
       "N1_CH4"
     ],
     "themes": [
-      "climate",
+      "air",
       "health",
-      "air"
+      "climate"
     ],
     "satellite": [
       "Sentinel-5P",

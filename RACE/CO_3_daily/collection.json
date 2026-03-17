@@ -154,7 +154,7 @@
     "title": "CO [ppbv]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/chart.json",
   "title": "Carbon Monoxide observed by Sentinel-5p TROPOMI",
   "extent": {
     "spatial": {
@@ -198,9 +198,9 @@
       "N1_CO"
     ],
     "themes": [
-      "climate",
+      "air",
       "health",
-      "air"
+      "climate"
     ],
     "satellite": [
       "Sentinel-5P"
