@@ -52,7 +52,7 @@
     },
     {
       "rel": "service",
-      "href": "https://api.earthsystemdatalab.net/api/timeseries//hydrology/precip?aggMethods=median",
+      "href": "https://api.earthsystemdatalab.net/api/timeseries/hydrology/precip?aggMethods=median",
       "type": "application/json",
       "id": "xcube_statistics",
       "method": "POST",
