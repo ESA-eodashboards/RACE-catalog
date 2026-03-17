@@ -101,7 +101,7 @@
   "VegaDefinition": "ESDL_Hydrology_Precipitation/chart.json",
   "EndPoints": [
       {
-        "Url": "https://api.earthsystemdatalab.net/api/timeseries//hydrology/precip?aggMethods=median",
+        "Url": "https://api.earthsystemdatalab.net/api/timeseries/hydrology/precip?aggMethods=median",
         "Identifier": "xcube_statistics",
         "Method": "POST",
         "Body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_body.json",
