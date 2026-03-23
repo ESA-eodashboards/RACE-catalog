@@ -74,7 +74,7 @@
   ],
   "Process": {
     "Name": "timeseries",
-    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12c_truck_detections_motorways/form.json",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12c_truck_detections_motorways/timeseries_chart.json",
     "EndPoints": [
       {
