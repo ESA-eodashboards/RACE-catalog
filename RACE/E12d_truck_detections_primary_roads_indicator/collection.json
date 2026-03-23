@@ -200,7 +200,7 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12c_truck_detections_motorways/form.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E12c_truck_detections_motorways/timeseries_chart.json",
   "title": "Truck detections primary roads indicator",
   "extent": {
@@ -258,8 +258,8 @@
   ],
   "summaries": {
     "subcode": [
-      "E12d_monthly",
       "E12d_daily",
+      "E12d_monthly",
       "E12d_detections"
     ],
     "themes": [
