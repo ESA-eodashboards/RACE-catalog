@@ -184,8 +184,8 @@
       "E200"
     ],
     "themes": [
-      "commerce",
-      "tourism"
+      "tourism",
+      "commerce"
     ],
     "satellite": [
       "Sentinel-2"
@@ -194,20 +194,20 @@
       "MSI"
     ],
     "cities": [
-      "Suez ",
-      "Genoa",
-      "Gdynia",
+      "Hamburg",
       "Dunkirk",
       "Ghent",
-      "Hamburg"
+      "Gdynia",
+      "Suez ",
+      "Genoa"
     ],
     "countries": [
       "PL",
-      "EG",
-      "IT",
+      "BE",
       "FR",
       "DE",
-      "BE"
+      "IT",
+      "EG"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg"
