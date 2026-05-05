@@ -22,7 +22,7 @@
       "wmts:dimensions": {
         "style": "cmap:rainbow,range:0.06/50,noClamp,logScale"
       },
-      "key": "d3dfd612-4035-4697-849f-7b21c84bfd71"
+      "key": "5883cd91-e565-4834-b6ee-949b14a83132"
     },
     {
       "rel": "parent",

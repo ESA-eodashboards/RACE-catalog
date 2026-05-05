@@ -220,8 +220,8 @@
       "land"
     ],
     "satellite": [
-      "Sentinel-2",
       "CLMS HR-VPP Vegetation Indices",
+      "Sentinel-2",
       "CLMS HR-VPP Seasonal Trajectory"
     ],
     "thumbnail": [
