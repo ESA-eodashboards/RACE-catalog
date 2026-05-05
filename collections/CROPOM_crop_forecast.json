@@ -99,6 +99,7 @@
           "Assets": [
             {
               "Identifier": "at",
+              "Title": "CROPOM Yield Forecast",
               "File": "https://api-staging.cropom-dev.com/proxy/crop-model/regional-forecast?country_code=AT&crs=4326"
             },
             {
