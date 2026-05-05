@@ -1,0 +1,174 @@
+{
+  "type": "Collection",
+  "id": "CROPOM_yield",
+  "stac_version": "1.1.0",
+  "description": "This indicator is provided as a service by CropOM. The data presented on this dashboard is a demonstration of the “Crop Model API” service over selected countries and regions.\n\nTo discover the full service offering please visit [ESA’s Network of Resources](https://portfolio.nor-discover.org/?textSearch=cropom&filterServiceType=Any&filterSource=Any&filterGeographicalCoverage=Any&filterTemporalPeriodStart=&filterTemporalPeriodEnd=).\n\nThe DDC (Dynamic Data Cube) Crop Model API is a web-based implementation of the state-of-the-art crop modelling algorithm, [AquaCrop](https://www.fao.org/aquacrop/en/), created by FAO.\nCrop Model API model measures the actual crop development instead of purely modelling it. Combining crop development time series, high-precision meteorological data, and soil conditions from DDC with the modelling processes of AquaCrop results in a precise crop model specific to a location.\n\nThe API takes location, crop type, crop variety, sowing date, and irrigation water application data as user inputs, HR-VPP data from [Copernicus Land Services](https://land.copernicus.eu/en), Meteorological and Soil data from DDC data sources, and retrieves daily crop development (phenology), biomass, water need, and predicted yield data.\n\n**CropOM** is a technology company (SME) that develops data integration platform services and integrated software for agriculture, insurance, and education. Read more about this technology on a [dedicated online story](https://race.esa.int/story?id=yield-forecast-crop-water-demand#section-crop-yield) for more information or go to [cropom.com](https://cropom.com/).\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/style_yield_v2.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "at",
+        "hu",
+        "ro"
+      ]
+    },
+    {
+      "rel": "license",
+      "href": "https://cropom.com/terms_and_conditions.pdf",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Crop yield"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "subtitle": "Yield forecast under \"what-if\" scenarios",
+  "shortdescription": "Crop yield is typically a forecast or estimate of the quantity of an agricultural harvest. It is a critical metric that links climate, environment, and human activity, directly impacting global food security, the economy, and public welfare. The societal impacts of reliable crop yield indicators include Global Food Security, Market Stability and Economics, Climate Change Adaptation, Agricultural Policy and Planning, and Sustainable Resource Management. Indicators are often developed using a combination of ground based data and remote sensing data.",
+  "eodash:stories": {
+    "CropOM": {
+      "href": "https://race.esa.int/story/?id=CropOM",
+      "type": "text/markdown",
+      "title": "CropOM story on county level crop yield and water demand",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/CropOM.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_yield.png",
+  "themes": [
+    "agriculture",
+    "land"
+  ],
+  "tags": [
+    "Crop",
+    "Yield",
+    "Water",
+    "Forecast"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "CROPOM_yield",
+  "satellite": [
+    "Sentinel-2",
+    "CLMS HR-VPP Vegetation Indices",
+    "CLMS HR-VPP Seasonal Trajectory"
+  ],
+  "insituSources": [
+    "Meteorological data from local Meteorological offices (AT)"
+  ],
+  "endpointtype": "GeoJSON source",
+  "title": "Crop yield",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.27,
+          46.2,
+          23.3,
+          53.2
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-05-05T00:00:00Z",
+          "2026-05-05T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "CropOM",
+      "url": "https://cropom.com"
+    },
+    {
+      "name": "Danube Data Cube",
+      "url": "https://ddc.cropom.com"
+    },
+    {
+      "name": "Copernicus Land Monitoring Service",
+      "url": "https://land.copernicus.eu/en/dataset-catalog"
+    },
+    {
+      "name": "FAO",
+      "url": "https://www.fao.org/home/en"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "CropOM": {
+      "href": "https://race.esa.int/story/?id=CropOM",
+      "type": "text/markdown",
+      "title": "CropOM story on county level crop yield and water demand",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/RACE-narratives/main/CropOM.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_yield.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://doc.cropom.com",
+      "type": "text/html",
+      "title": "Danube Data Cube documentation",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://www.fao.org/aquacrop/en/",
+      "type": "text/html",
+      "title": "AquaCrop",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

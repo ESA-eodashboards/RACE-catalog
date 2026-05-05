@@ -1,0 +1,102 @@
+{
+  "type": "Catalog",
+  "id": "RACE",
+  "stac_version": "1.1.0",
+  "description": "Rapid Action for Citizens with Earth Observation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./CROPOM_yield/collection.json",
+      "type": "application/json",
+      "title": "Crop yield",
+      "subtitle": "Yield forecast under \"what-if\" scenarios",
+      "shortdescription": "Crop yield is typically a forecast or estimate of the quantity of an agricultural harvest. It is a critical metric that links climate, environment, and human activity, directly impacting global food security, the economy, and public welfare. The societal impacts of reliable crop yield indicators include Global Food Security, Market Stability and Economics, Climate Change Adaptation, Agricultural Policy and Planning, and Sustainable Resource Management. Indicators are often developed using a combination of ground based data and remote sensing data.",
+      "code": "CROPOM_yield",
+      "id": "CROPOM_yield",
+      "themes": [
+        "agriculture",
+        "land"
+      ],
+      "providers": [
+        "CropOM",
+        "Danube Data Cube",
+        "Copernicus Land Monitoring Service",
+        "FAO"
+      ],
+      "subcode": "CROPOM_yield",
+      "satellite": [
+        "Sentinel-2",
+        "CLMS HR-VPP Vegetation Indices",
+        "CLMS HR-VPP Seasonal Trajectory"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_yield.png"
+      ],
+      "tags": [
+        "Crop",
+        "Yield",
+        "Water",
+        "Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "Meteorological data from local Meteorological offices (AT)"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./CROPOM_water_need/collection.json",
+      "type": "application/json",
+      "title": "Water demand",
+      "subtitle": "Yield forecast under \"what-if\" scenarios",
+      "shortdescription": "In agriculture, indocators of water need (often expressed as crop water requirements, irrigation demand, or evapotranspiration) provide essential data for optimizing water resource management, ensuring sustainable agriculture, and mitigating the impacts of droughts and climate change.",
+      "code": "CROPOM_water_need",
+      "id": "CROPOM_water_need",
+      "themes": [
+        "agriculture",
+        "land"
+      ],
+      "providers": [
+        "CropOM",
+        "Danube Data Cube",
+        "Copernicus Land Monitoring Service",
+        "FAO"
+      ],
+      "subcode": "CROPOM_water_need",
+      "satellite": [
+        "Sentinel-2",
+        "CLMS HR-VPP Vegetation Indices",
+        "CLMS HR-VPP Seasonal Trajectory"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_water_need.png"
+      ],
+      "tags": [
+        "Crop",
+        "Yield",
+        "Water",
+        "Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "Meteorological data from local Meteorological offices (AT)"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-eodashboards.github.io/RACE-catalog/RACE/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "RACE"
+}
