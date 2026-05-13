@@ -1,0 +1,57 @@
+{
+  "type": "Catalog",
+  "id": "RACE",
+  "stac_version": "1.1.0",
+  "description": "Rapid Action for Citizens with Earth Observation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./wind_10m_v/collection.json",
+      "type": "application/json",
+      "title": "Wind V Field Update",
+      "subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind V field",
+      "shortdescription": "The 10-meter (10m) v-component of wind velocity from the Copernicus Climate Data Store (CDS) is a fundamental meteorological variable representing the meridional wind flow (northward wind, with positive values indicating flow from south to north). When combined with the u-component (eastward wind), it allows for a complete calculation of wind speed and direction near the Earth's surface, which is critical for a wide array of societal applications.",
+      "code": "CDS4",
+      "id": "wind_10m_v",
+      "themes": [
+        "air",
+        "climate"
+      ],
+      "providers": [
+        "Copernicus Climate Change Service",
+        "Climate Data Store"
+      ],
+      "subcode": "CDS4",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS4_wind_10m_v/CDS4_wind_10m_v.png"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data",
+        "ERA5"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-eodashboards.github.io/RACE-catalog/RACE/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "RACE"
+}
