@@ -1,0 +1,80 @@
+name: Link Check
+
+on:
+  # 1) On every PR that touches JSON files (PR mode)
+  pull_request:
+    paths:
+      - "collections/**/*.json"
+      - "indicators/**/*.json"
+
+  # 2) Full audit twice a month (1st & 15th) + manual trigger
+  schedule:
+    - cron: "0 0 1,15 * *"
+  workflow_dispatch:
+
+jobs:
+  # ── PR Mode ─────────────────────────────────────────────────────────────────
+  pr-check:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # needed for changed-files action
+
+      - name: Get changed JSON files
+        id: changed-files
+        uses: tj-actions/changed-files@v45
+        with:
+          files: |
+            collections/**/*.json
+            indicators/**/*.json
+
+      - name: Set up Python
+        if: steps.changed-files.outputs.any_changed == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: pip install requests
+
+      - name: Run link checker (PR mode)
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          python link_checker.py \
+            --files ${{ steps.changed-files.outputs.all_changed_files }}
+
+      - name: Upload HTML report artifact
+        if: steps.changed-files.outputs.any_changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-pr-report
+          path: link_check_report.html
+
+  # ── Full Audit Mode ───────────────────────────────────────────────────────────
+  full-audit:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install requests
+
+      - name: Run full link audit
+        run: python link_checker.py
+
+      - name: Upload HTML report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-full-audit-report
+          path: link_check_report.html
