@@ -44,7 +44,7 @@ jobs:
       - name: Run link checker (PR mode)
         if: steps.changed-files.outputs.any_changed == 'true'
         run: |
-          python .github/link_checker_pt2.py \
+          python .github/link_checker.py \
             --files ${{ steps.changed-files.outputs.all_changed_files }}
 
       - name: Upload HTML report artifact
@@ -52,7 +52,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: link-check-pr-report
-          path: link_check_report.html
+          path: .github/link_check_report.html
 
   # ── Full Audit Mode ───────────────────────────────────────────────────────────
   full-audit:
@@ -71,10 +71,10 @@ jobs:
         run: pip install requests
 
       - name: Run full link audit
-        run: python .github/link_checker_pt2.py
+        run: python .github/link_checker.py
 
       - name: Upload HTML report artifact
         uses: actions/upload-artifact@v4
         with:
           name: link-check-full-audit-report
-          path: link_check_report.html
+          path: .github/link_check_report.html
