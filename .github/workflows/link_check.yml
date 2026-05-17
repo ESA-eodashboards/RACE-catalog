@@ -71,7 +71,7 @@ jobs:
         run: pip install requests
 
       - name: Run full link audit
-        run: python link_checker.py
+        run: python link_checker_pt2.py
 
       - name: Upload HTML report artifact
         uses: actions/upload-artifact@v4
