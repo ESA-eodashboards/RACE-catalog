@@ -44,7 +44,7 @@ jobs:
       - name: Run link checker (PR mode)
         if: steps.changed-files.outputs.any_changed == 'true'
         run: |
-          python link_checker_pt2.py \
+          python .github/link_checker_pt2.py \
             --files ${{ steps.changed-files.outputs.all_changed_files }}
 
       - name: Upload HTML report artifact
@@ -71,7 +71,7 @@ jobs:
         run: pip install requests
 
       - name: Run full link audit
-        run: python link_checker_pt2.py
+        run: python .github/link_checker_pt2.py
 
       - name: Upload HTML report artifact
         uses: actions/upload-artifact@v4
