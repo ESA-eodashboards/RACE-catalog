@@ -25,10 +25,10 @@ SCRIPT_DIR = Path(__file__).parent
 COLLECTIONS_PATH = SCRIPT_DIR / "collections"
 INDICATORS_PATH = SCRIPT_DIR / "indicators"
 
-OUTPUT_HTML = SCRIPT_DIR / "results_link_checker.html"
+OUTPUT_HTML = SCRIPT_DIR / "link_check_report.html"
 
 # ✅ file is in parent directory
-KNOWN_ISSUES_FILE = SCRIPT_DIR.parent / "extracted_links.txt"
+KNOWN_ISSUES_FILE = SCRIPT_DIR / "extracted_links.txt"
 
 TIMEOUT = 10
 MAX_WORKERS = 20
