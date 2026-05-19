@@ -91,7 +91,7 @@ jobs:
       - name: Run full link audit
         env:
           FULL_AUDIT: "1"
-        run: python .github/link_checker_pt2.py
+        run: python .github/link_checker.py
 
       - name: Commit new health report
         if: always()   # commit even if the script exited with failure
