@@ -55,26 +55,55 @@ jobs:
           path: .github/link_check_report.html
 
   # ── Full Audit Mode ───────────────────────────────────────────────────────────
-  full-audit:
-    if: github.event_name != 'pull_request'
+    full-audit:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push to results_ci_checks branch
     steps:
-      - name: Checkout repository
+      - name: Checkout main code
         uses: actions/checkout@v4
+
+      - name: Checkout history branch into health_history/
+        uses: actions/checkout@v4
+        with:
+          ref: results_ci_checks
+          path: health_history
+        continue-on-error: true   # branch may not exist on first run
+
+      - name: Create history branch if missing
+        run: |
+          if [ ! -d health_history/.git ]; then
+            mkdir -p health_history
+            cd health_history
+            git init -b results_ci_checks
+            git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          fi
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: '3.11'
 
-      - name: Install Python dependencies
-        run: pip install requests
+      - name: Install dependencies
+        run: pip install -r .github/requirements.txt   # adjust if needed
 
       - name: Run full link audit
-        run: python .github/link_checker.py
+        env:
+          FULL_AUDIT: "1"
+        run: python .github/link_checker_pt2.py
 
-      - name: Upload HTML report artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: link-check-full-audit-report
-          path: .github/link_check_report.html
+      - name: Commit new health report
+        if: always()   # commit even if the script exited with failure
+        run: |
+          cd health_history
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add health_report_*.json
+          if git diff --staged --quiet; then
+            echo "No new report to commit."
+          else
+            git commit -m "Health report: $(date -u +%Y-%m-%d)"
+            git push origin results_ci_checks
+          fi
+
