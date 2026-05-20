@@ -129,6 +129,12 @@ jobs:
           path: .github/link_check_report.html
           if-no-files-found: ignore
 
+      - name: Ensure correct branch
+        run: |
+          cd health_history
+
+          git checkout results_ci_checks || git checkout -b results_ci_checks
+
       - name: Commit new health report
         if: always()
         run: |
