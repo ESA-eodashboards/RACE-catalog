@@ -287,7 +287,7 @@ def write_new_report(
     HISTORY_DIR.mkdir(parents=True, exist_ok=True)
 
     ts = datetime.now(timezone.utc).strftime(
-        "%Y%m%dT%H%M%SZ"
+        "%Y-%m-%d_T%-H%-M%_UTC"
     )
 
     path = HISTORY_DIR / f"{HISTORY_PREFIX}{ts}.json"
