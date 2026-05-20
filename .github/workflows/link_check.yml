@@ -3,19 +3,26 @@ name: Link Checker
 on:
   pull_request:
     branches: [main]
+
   schedule:
     # Full audit on the 1st and 15th of every month at 00:00 UTC
     - cron: '0 0 1,15 * *'
-  workflow_dispatch:  # manual trigger for full audit
+
+  workflow_dispatch:
 
 jobs:
+  # -------------------------------------------------
+  # PR MODE — check only changed JSON files
+  # -------------------------------------------------
   link-check:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # changed-files needs history to diff against the base branch
+          # changed-files needs history to diff against base branch
           fetch-depth: 0
 
       - name: Set up Python
@@ -24,11 +31,11 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          pip install requests
+          
 
-      # ---------- PR MODE ----------
-      - name: Get changed JSON files (PR mode)
-        if: github.event_name == 'pull_request'
+      - name: Get changed JSON files
         id: changed
         uses: tj-actions/changed-files@v45
         with:
@@ -36,8 +43,7 @@ jobs:
             collections/**/*.json
             indicators/**/*.json
 
-      - name: Run link checker on changed files (PR mode)
-        if: github.event_name == 'pull_request'
+      - name: Run link checker on changed files
         run: |
           if [ "${{ steps.changed.outputs.any_changed }}" = "true" ]; then
             echo "Changed files: ${{ steps.changed.outputs.all_changed_files }}"
@@ -46,11 +52,6 @@ jobs:
             echo "No relevant JSON files changed — skipping link check."
           fi
 
-      # ---------- FULL AUDIT MODE ----------
-      - name: Run full audit (scheduled / manual)
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        run: python .github/link_checker.py
-
       - name: Upload HTML report
         if: always()
         uses: actions/upload-artifact@v4
@@ -58,3 +59,72 @@ jobs:
           name: link-check-report
           path: .github/results_link_checker.html
           if-no-files-found: ignore
+
+  # -------------------------------------------------
+  # FULL AUDIT MODE — scheduled/manual runs
+  # -------------------------------------------------
+  full-audit:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout main code
+        uses: actions/checkout@v4
+
+      - name: Checkout history branch into health_history/
+        uses: actions/checkout@v4
+        with:
+          ref: results_ci_checks
+          path: health_history
+        continue-on-error: true
+
+      - name: Create history branch if missing
+        run: |
+          if [ ! -d health_history/.git ]; then
+            mkdir -p health_history
+            cd health_history
+            git init -b results_ci_checks
+            git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run full link audit
+        env:
+          FULL_AUDIT: "1"
+        run: python .github/link_checker.py
+
+      - name: Upload HTML report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-link-audit-report
+          path: .github/results_link_checker.html
+          if-no-files-found: ignore
+
+      - name: Commit new health report
+        if: always()
+        run: |
+          cd health_history
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add health_report_*.json
+
+          if git diff --staged --quiet; then
+            echo "No new report to commit."
+          else
+            git commit -m "Health report: $(date -u +%Y-%m-%d)"
+            git push origin results_ci_checks
+          fi
