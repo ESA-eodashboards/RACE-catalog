@@ -41,7 +41,7 @@ jobs:
         run: |
           if [ "${{ steps.changed.outputs.any_changed }}" = "true" ]; then
             echo "Changed files: ${{ steps.changed.outputs.all_changed_files }}"
-            python link_checker.py --files ${{ steps.changed.outputs.all_changed_files }}
+            python .guthub/link_checker.py --files ${{ steps.changed.outputs.all_changed_files }}
           else
             echo "No relevant JSON files changed — skipping link check."
           fi
@@ -49,7 +49,7 @@ jobs:
       # ---------- FULL AUDIT MODE ----------
       - name: Run full audit (scheduled / manual)
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        run: python link_checker.py
+        run: python .github/link_checker.py
 
       - name: Upload HTML report
         if: always()
