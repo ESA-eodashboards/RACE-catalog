@@ -98,10 +98,12 @@ jobs:
             mkdir -p health_history
             cd health_history
 
-            git init -b results_ci_checks
+            git init
+
+            git checkout -b results_ci_checks
 
             git remote add origin \
-              "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
           fi
 
       - name: Set up Python
@@ -141,5 +143,5 @@ jobs:
             echo "No new report to commit."
           else
             git commit -m "Health report: $(date -u +%Y-%m-%d)"
-            git push origin results_ci_checks
+            git push -u origin results_ci_checks
           fi
