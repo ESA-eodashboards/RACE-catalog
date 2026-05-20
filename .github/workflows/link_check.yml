@@ -56,5 +56,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: link-check-report
-          path: results_link_checker.html
+          path: .github/results_link_checker.html
           if-no-files-found: ignore
