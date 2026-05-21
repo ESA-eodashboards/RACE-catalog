@@ -102,8 +102,9 @@ def extract_links(data, skip_key="Resources"):
 # -------------------------------------------------------------------
 # HTML writer
 # -------------------------------------------------------------------
-def write_html(groups, previous_ok=None):
-    previous_ok = previous_ok or set()
+def write_html(groups, prev_broken=None):
+
+    prev_broken = prev_broken or set()
 
     with open(OUTPUT_HTML, "w", encoding="utf-8") as f:
 
@@ -143,7 +144,11 @@ body {
 <body>
 
 <h2>Link Checker Report</h2>
-<p>Purple = regression or newly broken link</p>
+
+<p>
+Purple = newly broken link<br>
+Red = already known broken link
+</p>
 """)
 
         for file, entries in groups.items():
@@ -154,25 +159,32 @@ body {
 
                 normalized = normalize(url)
 
-                suspicious = (
+                known_broken = (
                     status != 200
-                    and normalized not in previous_ok
+                    and normalized in prev_broken
                 )
 
-                regression = (
+                newly_broken = (
                     status != 200
-                    and normalized in previous_ok
+                    and normalized not in prev_broken
                 )
 
-                if regression or suspicious:
-                    color = "purple"
-                    tag = " ⚠️"
-                elif status == 200:
+                if status == 200:
                     color = "green"
                     tag = ""
+
+                elif newly_broken:
+                    color = "purple"
+                    tag = " ⚠️ NEW"
+
+                elif known_broken:
+                    color = "red"
+                    tag = ""
+
                 elif status in (301, 302, 307, 308, 403, 405):
                     color = "gold"
                     tag = ""
+
                 else:
                     color = "red"
                     tag = ""
