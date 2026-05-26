@@ -424,7 +424,7 @@ def main():
                             f"{status} {url}"
                         )
 
-        write_html(groups, prev_ok)
+        write_html(groups, prev_broken)
 
         print("\n--- PR check summary ---")
         print(f"Regressions:      {len(regressions)}")
@@ -486,7 +486,7 @@ def main():
             else:
                 broken_links.add(normalized)
 
-    write_html(groups, prev_ok)
+    write_html(groups, prev_broken)
 
     write_new_report(
         total_checked=len(tasks),
