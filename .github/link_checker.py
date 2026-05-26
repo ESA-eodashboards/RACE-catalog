@@ -314,7 +314,7 @@ def write_new_report(
         "html_report_workflow_run": RUN_URL,
         "html_report_note": (
             "Download the colour-coded HTML report "
-            "from the workflow artifacts on this page."
+            "from the workflow artifacts on the page above."
         ),
         
         "broken_links": sorted(broken_links),
