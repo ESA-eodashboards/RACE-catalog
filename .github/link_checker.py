@@ -34,6 +34,8 @@ HISTORY_PREFIX = "health_report_"
 TIMEOUT = 10
 MAX_WORKERS = 20
 
+RUN_URL = os.environ.get("GITHUB_RUN_URL", "")
+
 
 # -------------------------------------------------------------------
 # Normalize URL
@@ -308,6 +310,13 @@ def write_new_report(
         "timestamp_utc": ts,
         "total_checked": total_checked,
         "errors": len(broken_links),
+        
+        "html_report_workflow_run": RUN_URL,
+        "html_report_note": (
+            "Download the colour-coded HTML report "
+            "from the workflow artifacts on this page."
+        ),
+        
         "broken_links": sorted(broken_links),
         "ok_links": sorted(ok_links),
     }
