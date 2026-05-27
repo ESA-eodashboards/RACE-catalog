@@ -27,6 +27,9 @@
         "Copernicus Emergency Management service",
         "Joint Research Centre"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GHS-BUILT-S-R2023A/GHS-BUILT-S-R2023A_photo.jpg"
+      ],
       "tags": [
         "Copernicus",
         "Human settlement",

@@ -28,6 +28,9 @@
       "providers": [
         "Murmuration"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"
+      ],
       "tags": [
         "real estate"
       ],
@@ -56,6 +59,9 @@
       "providers": [
         "Murmuration"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"
+      ],
       "tags": [
         "real estate"
       ],
@@ -83,6 +89,9 @@
       ],
       "providers": [
         "Murmuration"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"
       ],
       "tags": [
         "real estate"
@@ -239,14 +248,14 @@
   "summaries": {
     "subcode": [
       "IND5_1_b3",
-      "IND5_1_b2",
-      "IND5_1_b1"
+      "IND5_1_b1",
+      "IND5_1_b2"
     ],
     "themes": [
-      "climate",
       "society",
-      "land",
-      "health"
+      "health",
+      "climate",
+      "land"
     ],
     "satellite": [
       "Landsat 9",

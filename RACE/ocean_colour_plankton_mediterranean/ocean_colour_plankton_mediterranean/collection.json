@@ -22,7 +22,7 @@
       "wmts:dimensions": {
         "style": "cmap:rainbow,range:0.06/50,noClamp,logScale"
       },
-      "key": "5883cd91-e565-4834-b6ee-949b14a83132"
+      "key": "6395eb9f-d7ec-4f59-942d-93e2e8f9b149"
     },
     {
       "rel": "parent",
@@ -78,8 +78,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-04-22T00:00:00Z",
-          "2026-05-04T00:00:00Z"
+          "2026-05-19T00:00:00Z",
+          "2026-05-26T00:00:00Z"
         ]
       ]
     }

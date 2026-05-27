@@ -29,6 +29,9 @@
         "Copernicus Data Space Ecosystem",
         "Copernicus Data Space Ecosystem"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO_photo.jpg"
+      ],
       "tags": [
         "Air quality",
         "CO",
@@ -198,9 +201,9 @@
       "N1_CO"
     ],
     "themes": [
-      "climate",
       "air",
-      "health"
+      "health",
+      "climate"
     ],
     "satellite": [
       "Sentinel-5P"

@@ -42,6 +42,9 @@
         "PL",
         "RO"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg"
+      ],
       "yAxis": "Number of parked cars",
       "tags": [
         "Copernicus",
@@ -198,19 +201,19 @@
       "C-SAR"
     ],
     "cities": [
-      "Warsaw",
       "Bucharest",
-      "Rome",
-      "Athens",
       "Brussels",
-      "Milan"
+      "Milan",
+      "Athens",
+      "Warsaw",
+      "Rome"
     ],
     "countries": [
-      "IT",
-      "RO",
       "PL",
+      "IT",
+      "GR",
       "BE",
-      "GR"
+      "RO"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg"

@@ -25,6 +25,9 @@
       "providers": [
         "DLR"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.jpg"
+      ],
       "tags": [
         "Human settlement",
         "Human activities",
@@ -57,6 +60,9 @@
       ],
       "providers": [
         "DLR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.jpg"
       ],
       "tags": [
         "Human settlement",
@@ -199,8 +205,8 @@
       "Sentinel-2"
     ],
     "sensor": [
-      "C-SAR",
-      "MSI"
+      "MSI",
+      "C-SAR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.jpg"

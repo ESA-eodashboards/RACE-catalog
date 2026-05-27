@@ -30,6 +30,9 @@
         "Copernicus Land Monitoring Service",
         "FAO"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_water_need.png"
+      ],
       "tags": [
         "Crop",
         "Yield",

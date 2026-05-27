@@ -29,6 +29,9 @@
       "providers": [
         "EMODNET"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png"
+      ],
       "tags": [
         "Maritime",
         "Traffic",
@@ -196,10 +199,10 @@
       "E13o"
     ],
     "themes": [
-      "tourism",
       "society",
-      "industry",
-      "commerce"
+      "commerce",
+      "tourism",
+      "industry"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png"

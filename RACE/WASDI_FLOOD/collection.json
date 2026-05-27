@@ -27,6 +27,9 @@
       "providers": [
         "WASDI Market Place"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WASDI_FLOOD/WASDI_FLOOD.jpg"
+      ],
       "tags": [
         "Copernicus Services",
         "Flood",
@@ -193,8 +196,8 @@
       "WASDI_FLOOD"
     ],
     "themes": [
-      "water",
-      "health"
+      "health",
+      "water"
     ],
     "satellite": [
       "Sentinel-1",

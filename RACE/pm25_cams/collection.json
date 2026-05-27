@@ -120,6 +120,9 @@
         "GB",
         "XK"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1a_pm25_cams/N1a_pm25_cams_graph.png"
+      ],
       "yAxis": "PM2.5 Surface Concentration[micro g/m3]",
       "tags": [
         "Air quality",
@@ -268,8 +271,8 @@
       "N1a"
     ],
     "themes": [
-      "health",
-      "air"
+      "air",
+      "health"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1a_pm25_cams/N1a_pm25_cams_graph.png"

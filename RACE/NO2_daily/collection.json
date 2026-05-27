@@ -28,6 +28,9 @@
       "providers": [
         "Copernicus Data Space Ecosystem"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2_photo.jpg"
+      ],
       "tags": [
         "Air quality",
         "NO2",
@@ -198,9 +201,9 @@
       "N1_NO2"
     ],
     "themes": [
-      "climate",
       "air",
-      "health"
+      "health",
+      "climate"
     ],
     "satellite": [
       "Sentinel-5P"

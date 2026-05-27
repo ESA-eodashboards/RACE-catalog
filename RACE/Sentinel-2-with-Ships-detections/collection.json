@@ -25,6 +25,9 @@
       "providers": [
         "Copernicus Data Space Ecosystem"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_ship_detections_algorithm/thumbnail.png"
+      ],
       "tags": [
         "Ports",
         "Maritime",
@@ -145,7 +148,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-05-05T00:00:00Z"
+          "2026-05-27T00:00:00Z"
         ]
       ]
     }
@@ -162,8 +165,8 @@
       "E13c_ship_detections"
     ],
     "themes": [
-      "tourism",
-      "commerce"
+      "commerce",
+      "tourism"
     ],
     "satellite": [
       "Sentinel-2"

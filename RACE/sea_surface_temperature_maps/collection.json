@@ -28,6 +28,9 @@
         "Copernicus Marine Service",
         "CNR ISMAR"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_sea_surface_temperature/N3a2_sea_surface_temperature_photo.jpg"
+      ],
       "tags": [
         "Water quality",
         "Copernicus Services",
@@ -196,8 +199,8 @@
       "N3a2_SST"
     ],
     "themes": [
-      "water",
-      "climate"
+      "climate",
+      "water"
     ],
     "satellite": [
       "Sentinel-3"

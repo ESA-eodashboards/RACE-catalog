@@ -36,6 +36,9 @@
       "countries": [
         "/"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_EU_Crude_Oil_Storage_Index_photo.jpg"
+      ],
       "yAxis": "[%]",
       "tags": [
         "Copernicus",
@@ -197,17 +200,17 @@
       "OX_EU"
     ],
     "themes": [
+      "commerce",
       "energy",
-      "industry",
-      "commerce"
+      "industry"
     ],
     "satellite": [
       "Sentinel-1",
       "Sentinel-2"
     ],
     "sensor": [
-      "C-SAR",
-      "MSI"
+      "MSI",
+      "C-SAR"
     ],
     "cities": [
       "/"

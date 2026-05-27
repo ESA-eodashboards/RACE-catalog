@@ -33,6 +33,9 @@
       "countries": [
         "IT"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13m_maritime_traffic_passenger/E13m_maritime_traffic_passenger_photo.jpg"
+      ],
       "yAxis": "Number of ships in the port",
       "tags": [
         "Ports",
@@ -165,8 +168,8 @@
       "E13m"
     ],
     "themes": [
-      "tourism",
-      "society"
+      "society",
+      "tourism"
     ],
     "cities": [
       "Genoa"

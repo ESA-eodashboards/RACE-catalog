@@ -63,6 +63,9 @@
         "SK",
         "GB"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg"
+      ],
       "yAxis": "Cumulative (%)",
       "tags": [
         "Copernicus",
@@ -207,40 +210,40 @@
       "C-SAR"
     ],
     "cities": [
-      "Germany",
-      "Latvia",
-      "Denmark",
-      "Austria",
-      "Czech Republic",
+      "United Kingdom",
+      "Sweden",
+      "Slovak Republic",
       "Croatia",
       "Romania",
+      "Denmark",
       "Bulgaria",
-      "Lithuania",
-      "United Kingdom",
-      "Slovak Republic",
-      "Hungary",
       "Estonia",
+      "Germany",
+      "Austria",
+      "Hungary",
       "France",
-      "Sweden",
-      "Poland"
+      "Poland",
+      "Latvia",
+      "Czech Republic",
+      "Lithuania"
     ],
     "countries": [
-      "BG",
       "HR",
-      "DE",
-      "FR",
-      "RO",
-      "PL",
-      "EE",
-      "LV",
-      "LT",
-      "AT",
       "SE",
+      "SK",
       "CZ",
-      "DK",
-      "GB",
       "HU",
-      "SK"
+      "LV",
+      "BG",
+      "AT",
+      "PL",
+      "FR",
+      "GB",
+      "EE",
+      "DE",
+      "LT",
+      "RO",
+      "DK"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg"

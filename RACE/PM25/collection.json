@@ -27,6 +27,9 @@
       "providers": [
         "Copernicus Atmosphere Monitoring Service"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM25/N1b_PM25.png"
+      ],
       "tags": [
         "Air quality",
         "Copernicus Services",
@@ -188,8 +191,8 @@
       "N1b_PM25"
     ],
     "themes": [
-      "health",
-      "air"
+      "air",
+      "health"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM25/N1b_PM25.png"

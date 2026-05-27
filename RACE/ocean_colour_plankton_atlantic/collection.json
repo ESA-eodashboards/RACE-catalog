@@ -27,6 +27,9 @@
       "providers": [
         "Copernicus Marine Service"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_atlantic/N3c_ocean_colour_plankton_atlantic.png"
+      ],
       "tags": [
         "Water quality",
         "Copernicus Services",
@@ -159,8 +162,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-04-17T00:00:00Z",
-          "2026-05-04T00:00:00Z"
+          "2026-05-12T00:00:00Z",
+          "2026-05-26T00:00:00Z"
         ]
       ]
     }
@@ -177,8 +180,8 @@
       "N3c"
     ],
     "themes": [
-      "water",
-      "climate"
+      "climate",
+      "water"
     ],
     "satellite": [
       "Sentinel-3",
@@ -187,9 +190,9 @@
       "JPSS-1"
     ],
     "sensor": [
-      "VIIRS",
       "MODIS",
-      "OLCI"
+      "OLCI",
+      "VIIRS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_atlantic/N3c_ocean_colour_plankton_atlantic.png"

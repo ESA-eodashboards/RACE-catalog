@@ -81,6 +81,9 @@
         "GB",
         "UK"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg"
+      ],
       "yAxis": "Time series of airport throughput",
       "tags": [
         "Copernicus",
@@ -228,8 +231,8 @@
       "E13b"
     ],
     "themes": [
-      "tourism",
-      "commerce"
+      "commerce",
+      "tourism"
     ],
     "satellite": [
       "Sentinel-2"
@@ -238,25 +241,25 @@
       "MSI"
     ],
     "countries": [
-      "DE",
-      "AT",
-      "FI",
-      "NO",
-      "PT",
-      "UK",
-      "IT",
-      "NL",
       "SE",
+      "FR",
+      "ES",
+      "PT",
+      "GB",
+      "GR",
+      "NO",
+      "UK",
+      "DE",
       "DK",
       "IE",
-      "FR",
+      "IT",
+      "AT",
       "PL",
+      "CH",
       "BE",
       "TR",
-      "GR",
-      "GB",
-      "CH",
-      "ES"
+      "FI",
+      "NL"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg"

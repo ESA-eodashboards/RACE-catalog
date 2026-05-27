@@ -43,6 +43,9 @@
         "PT",
         "RO"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png"
+      ],
       "yAxis": "Sea Surface Temperature [Celsius Degree]",
       "tags": [
         "Water quality",
@@ -205,36 +208,36 @@
       "SST"
     ],
     "themes": [
-      "water",
-      "climate"
+      "climate",
+      "water"
     ],
     "satellite": [
-      "Metop-B",
       "Other",
       "Suomi NPP",
       "JPSS-1",
+      "Metop-B",
       "Sentinel-3"
     ],
     "sensor": [
-      "VIIRS",
+      "AVHRR",
       "SLSTR",
-      "AVHRR"
+      "VIIRS"
     ],
     "cities": [
-      "Constanta",
-      "Venice Lagoon",
       "Hamburg",
-      "Lisbon",
+      "Venice Lagoon",
       "Marseilles",
-      "Barcelona"
+      "Barcelona",
+      "Constanta",
+      "Lisbon"
     ],
     "countries": [
-      "IT",
-      "FR",
-      "RO",
-      "GE",
       "PT",
-      "ES"
+      "FR",
+      "IT",
+      "ES",
+      "RO",
+      "GE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SST_sea_surface_temperature/SST_sea_surface_temperature_graph.png"

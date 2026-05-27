@@ -33,6 +33,9 @@
       "countries": [
         "IT"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13h_maritime_traffic_tug/E13h_maritime_traffic_tug_photo.jpg"
+      ],
       "yAxis": "Number of ships in the port",
       "tags": [
         "Ports",
@@ -163,8 +166,8 @@
       "E13h"
     ],
     "themes": [
-      "industry",
-      "commerce"
+      "commerce",
+      "industry"
     ],
     "cities": [
       "Gioia Tauro"

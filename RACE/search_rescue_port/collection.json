@@ -33,6 +33,9 @@
       "countries": [
         "IT"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13i_maritime_traffic_search_rescue/E13i_maritime_traffic_search_rescue_photo.jpg"
+      ],
       "yAxis": "Number of ships in the port",
       "tags": [
         "Ports",

@@ -80,6 +80,9 @@
         "RU",
         "TR"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg"
+      ],
       "yAxis": "/",
       "tags": [
         "Copernicus",
@@ -238,24 +241,24 @@
       "C-SAR"
     ],
     "countries": [
-      "IT",
-      "DE",
-      "FR",
-      "RO",
-      "RU",
-      "NO",
-      "PL",
-      "EE",
       "LV",
-      "LT",
-      "BE",
-      "PT",
-      "NL",
-      "TR",
-      "GR",
-      "DK",
+      "PL",
+      "FR",
       "IE",
-      "ES"
+      "IT",
+      "GR",
+      "PT",
+      "BE",
+      "ES",
+      "EE",
+      "DE",
+      "LT",
+      "NL",
+      "RO",
+      "TR",
+      "NO",
+      "RU",
+      "DK"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg"

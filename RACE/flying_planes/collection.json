@@ -75,6 +75,9 @@
         "TR",
         "GB"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg"
+      ],
       "yAxis": "Number of flying planes",
       "tags": [
         "Copernicus",
@@ -232,8 +235,8 @@
       "E13d"
     ],
     "themes": [
-      "tourism",
-      "commerce"
+      "commerce",
+      "tourism"
     ],
     "satellite": [
       "Sentinel-2"
@@ -242,24 +245,24 @@
       "MSI"
     ],
     "countries": [
-      "IT",
-      "DE",
-      "FR",
-      "NO",
+      "SE",
+      "AT",
       "PL",
-      "GB",
+      "CH",
+      "FR",
+      "IE",
+      "GR",
+      "IT",
       "BE",
       "PT",
-      "IE",
-      "AT",
-      "NL",
-      "SE",
+      "ES",
       "TR",
-      "GR",
-      "DK",
+      "DE",
       "FI",
-      "CH",
-      "ES"
+      "NL",
+      "GB",
+      "NO",
+      "DK"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg"

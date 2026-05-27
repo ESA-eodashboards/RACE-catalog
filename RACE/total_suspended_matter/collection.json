@@ -29,6 +29,9 @@
         "Copernicus Marine Service",
         "CNR ISMAR"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter/N3a2_total_suspended_matter.png"
+      ],
       "tags": [
         "Water quality",
         "Copernicus Services",
@@ -198,9 +201,9 @@
       "N3a2_TSM"
     ],
     "themes": [
+      "climate",
       "water",
-      "sport",
-      "climate"
+      "sport"
     ],
     "satellite": [
       "Sentinel-3"

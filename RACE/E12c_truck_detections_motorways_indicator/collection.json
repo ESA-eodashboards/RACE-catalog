@@ -27,6 +27,9 @@
         "BASt",
         "Open Street Maps"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12c_truck_detections_motorways/E12c_truck_detections_motorways.png"
+      ],
       "tags": [
         "Copernicus",
         "Mobility",
@@ -62,6 +65,9 @@
         "BASt",
         "Open Street Maps"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12c_truck_detections_motorways/E12c_truck_detections_motorways.png"
+      ],
       "tags": [
         "Copernicus",
         "Mobility",
@@ -96,6 +102,9 @@
         "Copernicus Data Space Ecosystem",
         "BASt",
         "Open Street Maps"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12c_truck_detections_motorways/E12c_truck_detections_motorways.png"
       ],
       "tags": [
         "Copernicus",
@@ -259,8 +268,8 @@
   "summaries": {
     "subcode": [
       "E12c_daily",
-      "E12c_monthly",
-      "E12c_detections"
+      "E12c_detections",
+      "E12c_monthly"
     ],
     "themes": [
       "commerce"

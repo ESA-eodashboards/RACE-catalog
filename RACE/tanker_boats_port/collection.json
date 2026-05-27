@@ -35,6 +35,9 @@
       "countries": [
         "IT"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13g_tanker_boats_port/E13g_tanker_boats_port_photo.jpg"
+      ],
       "yAxis": "Number of ships in the port",
       "tags": [
         "Ports",
@@ -166,9 +169,9 @@
       "E13g"
     ],
     "themes": [
+      "commerce",
       "energy",
-      "industry",
-      "commerce"
+      "industry"
     ],
     "cities": [
       "Gioia Tauro",

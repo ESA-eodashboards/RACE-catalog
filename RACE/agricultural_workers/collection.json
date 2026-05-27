@@ -34,6 +34,9 @@
       "countries": [
         "IT"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a9_agricultural_workers/E10a9_agricultural_workers_photo.jpg"
+      ],
       "yAxis": "/",
       "tags": [
         "Land cover",
@@ -186,8 +189,8 @@
       "land"
     ],
     "satellite": [
-      "Deimos-2",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Deimos-2"
     ],
     "sensor": [
       "DMAC",

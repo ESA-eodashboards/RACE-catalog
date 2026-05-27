@@ -63,6 +63,9 @@
         "RO",
         "GB"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg"
+      ],
       "yAxis": "Normalized Radar backscatter (flattened gamma0)",
       "tags": [
         "Copernicus",
@@ -219,45 +222,45 @@
       "commerce"
     ],
     "satellite": [
-      "ICEYE SAR",
-      "Sentinel-1"
+      "Sentinel-1",
+      "ICEYE SAR"
     ],
     "sensor": [
       "C-SAR"
     ],
     "cities": [
-      "Koln",
-      "Leipzig",
-      "Dingolfing",
-      "Barcelona",
-      "Zwickau",
-      "Wolfsburg",
-      "Mioveni",
+      "Neckarsulm",
       "Saarlouis",
-      "Cassino",
+      "Emden",
+      "Swindon",
+      "Regensburg",
+      "Ingolstadt",
+      "Koln",
+      "Wolfsburg",
+      "Nosovice",
+      "Barcelona",
+      "Leipzig",
       "Sindelfingen",
       "Eisenach",
-      "Kvasiny",
-      "Ghent",
       "Bremen",
-      "Craiova",
-      "Ingolstadt",
+      "Ghent",
+      "Kvasiny",
+      "Dingolfing",
+      "Zwickau",
       "Martorell",
-      "Nosovice",
-      "Swindon",
-      "Neckarsulm",
-      "Emden",
+      "Mioveni",
+      "Craiova",
       "Russelsheim",
-      "Regensburg"
+      "Cassino"
     ],
     "countries": [
-      "IT",
-      "DE",
-      "RO",
-      "BE",
       "CZ",
       "GB",
-      "ES"
+      "IT",
+      "BE",
+      "ES",
+      "RO",
+      "DE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E8_industrial_inventory/E8_industrial_inventory_photo.jpg"

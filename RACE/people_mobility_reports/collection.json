@@ -68,6 +68,9 @@
         "Slovakia",
         "Turkey"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports_photo.jpg"
+      ],
       "yAxis": "/",
       "tags": [
         "Mobility",
@@ -199,11 +202,11 @@
       "GG"
     ],
     "themes": [
+      "society",
       "health",
       "sport",
-      "tourism",
-      "society",
-      "commerce"
+      "commerce",
+      "tourism"
     ],
     "cities": [
       "/"
