@@ -222,8 +222,8 @@
       "N1_CH4"
     ],
     "themes": [
-      "air",
       "health",
+      "air",
       "climate"
     ],
     "satellite": [
@@ -231,8 +231,8 @@
       "Sentinel-5P"
     ],
     "sensor": [
-      "TANSO",
-      "TROPOMI"
+      "TROPOMI",
+      "TANSO"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring_photo.jpg"
