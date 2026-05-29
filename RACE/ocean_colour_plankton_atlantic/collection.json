@@ -184,10 +184,10 @@
       "climate"
     ],
     "satellite": [
-      "Aqua",
       "JPSS-1",
+      "Sentinel-3",
       "Suomi NPP",
-      "Sentinel-3"
+      "Aqua"
     ],
     "sensor": [
       "VIIRS",

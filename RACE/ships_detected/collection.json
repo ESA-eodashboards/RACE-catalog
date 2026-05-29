@@ -199,18 +199,18 @@
     "cities": [
       "Genoa",
       "Gdynia",
-      "Hamburg",
-      "Dunkirk",
       "Suez ",
-      "Ghent"
+      "Ghent",
+      "Dunkirk",
+      "Hamburg"
     ],
     "countries": [
-      "BE",
-      "PL",
       "DE",
-      "FR",
+      "BE",
       "EG",
-      "IT"
+      "PL",
+      "IT",
+      "FR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg"
