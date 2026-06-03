@@ -55,7 +55,8 @@
     {
       "rel": "license",
       "href": "https://cropom.com/terms_and_conditions.pdf",
-      "type": "text/html"
+      "type": "application/pdf",
+      "title": "Commercial license"
     },
     {
       "rel": "service",
@@ -219,13 +220,13 @@
       "CROPOM_water_need"
     ],
     "themes": [
-      "land",
-      "agriculture"
+      "agriculture",
+      "land"
     ],
     "satellite": [
-      "CLMS HR-VPP Seasonal Trajectory",
+      "Sentinel-2",
       "CLMS HR-VPP Vegetation Indices",
-      "Sentinel-2"
+      "CLMS HR-VPP Seasonal Trajectory"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/CROPOM_water_need.png"

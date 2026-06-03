@@ -201,9 +201,9 @@
       "N3a2_TSM"
     ],
     "themes": [
-      "water",
       "climate",
-      "sport"
+      "sport",
+      "water"
     ],
     "satellite": [
       "Sentinel-3"

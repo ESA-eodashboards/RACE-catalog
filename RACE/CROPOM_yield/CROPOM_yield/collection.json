@@ -23,7 +23,8 @@
     {
       "rel": "license",
       "href": "https://cropom.com/terms_and_conditions.pdf",
-      "type": "text/html"
+      "type": "application/pdf",
+      "title": "Commercial license"
     },
     {
       "rel": "parent",
