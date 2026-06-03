@@ -57,7 +57,8 @@
   ],
   "License": [
     {
-      "Name": "Commercial license",
+      "Title": "Commercial license",
+      "Type": "application/pdf",
       "Url": "https://cropom.com/terms_and_conditions.pdf"
     }
   ],
