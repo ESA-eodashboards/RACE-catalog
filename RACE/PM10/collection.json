@@ -50,8 +50,8 @@
     },
     {
       "rel": "license",
-      "href": "https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
-      "type": "application/pdf",
+      "href": "https://cds.climate.copernicus.eu/licences/licence-to-use-copernicus-products",
+      "type": "text/html",
       "title": "Licence to Use Copernicus Products"
     },
     {
@@ -191,8 +191,8 @@
       "N1b_PM10"
     ],
     "themes": [
-      "health",
-      "air"
+      "air",
+      "health"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM10/N1b_PM10.png"

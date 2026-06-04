@@ -24,12 +24,12 @@
       "wms:styles": [
         "sh_OrangesTransparent40_surface_concentration"
       ],
-      "key": "aaebe7ab-3d7c-4b1e-938e-c25669d06181"
+      "key": "6ffb8907-8799-4547-8e38-dc3f30e02b1c"
     },
     {
       "rel": "license",
-      "href": "https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
-      "type": "application/pdf",
+      "href": "https://cds.climate.copernicus.eu/licences/licence-to-use-copernicus-products",
+      "type": "text/html",
       "title": "Licence to Use Copernicus Products"
     },
     {

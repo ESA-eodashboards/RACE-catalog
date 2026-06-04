@@ -21,12 +21,12 @@
       "role": [
         "data"
       ],
-      "key": "6e89d1f7-c144-4906-bfb9-1adf185a1189"
+      "key": "731a9d16-c9d3-4811-835a-d4169750b4ff"
     },
     {
       "rel": "license",
-      "href": "https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
-      "type": "application/pdf",
+      "href": "https://cds.climate.copernicus.eu/licences/licence-to-use-copernicus-products",
+      "type": "text/html",
       "title": "Licence to Use Copernicus Products"
     },
     {
