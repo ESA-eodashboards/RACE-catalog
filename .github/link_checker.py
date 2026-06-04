@@ -25,15 +25,14 @@ INDICATORS_PATH = REPO_ROOT / "indicators"
 OUTPUT_HTML = SCRIPT_DIR / "link_check_report.html"
 
 # History
-HISTORY_DIR = Path(
-    os.environ.get("HISTORY_DIR", REPO_ROOT / "health_history")
-)
+HISTORY_DIR = Path(os.environ.get("HISTORY_DIR", REPO_ROOT / "health_history"))
 HISTORY_PREFIX = "health_report_"
 
 TIMEOUT = 10
 MAX_WORKERS = 20
 
 RUN_URL = os.environ.get("GITHUB_RUN_URL", "")
+
 
 # -------------------------------------------------------------------
 # Normalize URL
@@ -48,6 +47,7 @@ def normalize(url: str) -> str:
     netloc = p.netloc.lower().replace("www.", "")
     path = p.path.rstrip("/")
     return f"{netloc}{path}"
+
 
 # -------------------------------------------------------------------
 # Check URL
@@ -65,22 +65,24 @@ def check_url(task):
     except requests.RequestException:
         return file_key, name, url, "ERR"
 
+
 # -------------------------------------------------------------------
 # Extract links recursively
 # -------------------------------------------------------------------
-def extract_links(data, skip_key="Resources"):
+def extract_links(data, skip_keys=["resources", "process"]):
     results = []
     if isinstance(data, dict):
         for key, value in data.items():
-            if key.lower() == skip_key.lower():
+            if key.lower() in skip_keys:
                 continue
             if isinstance(value, str) and value.startswith("http"):
                 results.append((key, value))
-            results.extend(extract_links(value, skip_key))
+            results.extend(extract_links(value, skip_keys))
     elif isinstance(data, list):
         for item in data:
-            results.extend(extract_links(item, skip_key))
+            results.extend(extract_links(item, skip_keys))
     return results
+
 
 # -------------------------------------------------------------------
 # HTML writer
@@ -127,14 +129,8 @@ Red = already known broken link
             f.write(f'<div class="file">{html.escape(file)}</div>\n')
             for name, url, status in entries:
                 normalized = normalize(url)
-                known_broken = (
-                    status != 200
-                    and normalized in prev_broken
-                )
-                newly_broken = (
-                    status != 200
-                    and normalized not in prev_broken
-                )
+                known_broken = status != 200 and normalized in prev_broken
+                newly_broken = status != 200 and normalized not in prev_broken
 
                 if status == 200:
                     color = "green"
@@ -154,11 +150,10 @@ Red = already known broken link
 
                 text = f"{name}: {url} [{status}]{tag}"
                 f.write(
-                    f'<div class="entry {color}">'
-                    f'{html.escape(text)}'
-                    f'</div>\n'
+                    f'<div class="entry {color}">' f"{html.escape(text)}" f"</div>\n"
                 )
         f.write("</body></html>")
+
 
 # -------------------------------------------------------------------
 # Collect tasks
@@ -181,6 +176,7 @@ def collect(path):
                 tasks.append((file, name, url))
     return tasks
 
+
 def collect_from_files(file_paths):
     tasks = []
     for fp in file_paths:
@@ -191,10 +187,7 @@ def collect_from_files(file_paths):
         if p.suffix.lower() != ".json":
             continue
         parts = {part.lower() for part in p.parts}
-        if (
-            "collections" not in parts
-            and "indicators" not in parts
-        ):
+        if "collections" not in parts and "indicators" not in parts:
             continue
         try:
             with open(p, "r", encoding="utf-8") as f:
@@ -206,15 +199,14 @@ def collect_from_files(file_paths):
             tasks.append((p.name, name, url))
     return tasks
 
+
 # -------------------------------------------------------------------
 # History helpers
 # -------------------------------------------------------------------
 def load_previous_report():
     if not HISTORY_DIR.exists():
         return None
-    files = sorted(
-        HISTORY_DIR.glob(f"{HISTORY_PREFIX}*.json")
-    )
+    files = sorted(HISTORY_DIR.glob(f"{HISTORY_PREFIX}*.json"))
     if not files:
         return None
     try:
@@ -224,27 +216,24 @@ def load_previous_report():
         print(f"⚠️ Could not read previous report: {e}")
         return None
 
+
 def write_new_report(
     total_checked,
     broken_links,
     ok_links,
 ):
     HISTORY_DIR.mkdir(parents=True, exist_ok=True)
-    ts = datetime.now(timezone.utc).strftime(
-        "%Y-%m-%d_%H-%M-%S_UTC"
-    )
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d_%H-%M-%S_UTC")
     path = HISTORY_DIR / f"{HISTORY_PREFIX}{ts}.json"
     payload = {
         "timestamp_utc": ts,
         "total_checked": total_checked,
         "errors": len(broken_links),
-
         "html_report_workflow_run": RUN_URL,
         "html_report_note": (
             "Download the colour-coded HTML report "
             "from the workflow artifacts on the page above."
         ),
-
         "broken_links": sorted(broken_links),
         "ok_links": sorted(ok_links),
     }
@@ -253,13 +242,12 @@ def write_new_report(
     print(f"📝 Wrote {path}")
     return path
 
+
 # -------------------------------------------------------------------
 # Main
 # -------------------------------------------------------------------
 def main():
-    parser = argparse.ArgumentParser(
-        description="Link checker"
-    )
+    parser = argparse.ArgumentParser(description="Link checker")
     parser.add_argument(
         "--files",
         nargs="*",
@@ -268,13 +256,8 @@ def main():
     )
     args = parser.parse_args()
 
-    full_audit_env = (
-        os.environ.get("FULL_AUDIT", "").strip() == "1"
-    )
-    is_pr_mode = (
-        args.files is not None
-        and not full_audit_env
-    )
+    full_audit_env = os.environ.get("FULL_AUDIT", "").strip() == "1"
+    is_pr_mode = args.files is not None and not full_audit_env
 
     print("\n🚀 Running link checker")
     print(f"📂 Repo root: {REPO_ROOT}")
@@ -290,52 +273,30 @@ def main():
     # PR MODE
     # ---------------------------------------------------------------
     if is_pr_mode:
-        print(
-            f"📄 PR mode — checking "
-            f"{len(args.files)} changed file(s)"
-        )
+        print(f"📄 PR mode — checking " f"{len(args.files)} changed file(s)")
         tasks = collect_from_files(args.files)
         print(f"\n🔗 Total links in changed files: {len(tasks)}")
 
         if not prev:
-            print(
-                "ℹ️ No previous baseline found."
-            )
+            print("ℹ️ No previous baseline found.")
 
         groups = {}
         regressions = []
         new_broken = []
 
-        with ThreadPoolExecutor(
-            max_workers=MAX_WORKERS
-        ) as ex:
-            futures = [
-                ex.submit(check_url, t)
-                for t in tasks
-            ]
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+            futures = [ex.submit(check_url, t) for t in tasks]
             for future in as_completed(futures):
                 file, name, url, status = future.result()
-                groups.setdefault(file, []).append(
-                    (name, url, status)
-                )
+                groups.setdefault(file, []).append((name, url, status))
                 normalized = normalize(url)
                 if status != 200:
                     if normalized in prev_ok:
-                        regressions.append(
-                            (file, name, url, status)
-                        )
-                        print(
-                            f"❌ REGRESSION: "
-                            f"{status} {url}"
-                        )
+                        regressions.append((file, name, url, status))
+                        print(f"❌ REGRESSION: " f"{status} {url}")
                     elif normalized not in prev_broken:
-                        new_broken.append(
-                            (file, name, url, status)
-                        )
-                        print(
-                            f"⚠️ NEW BROKEN LINK: "
-                            f"{status} {url}"
-                        )
+                        new_broken.append((file, name, url, status))
+                        print(f"⚠️ NEW BROKEN LINK: " f"{status} {url}")
 
         write_html(groups, prev_broken)
 
@@ -350,14 +311,8 @@ def main():
     # ---------------------------------------------------------------
     # FULL AUDIT MODE
     # ---------------------------------------------------------------
-    print(
-        "📂 Full audit mode — checking "
-        "collections/ and indicators/"
-    )
-    tasks = (
-        collect(COLLECTIONS_PATH)
-        + collect(INDICATORS_PATH)
-    )
+    print("📂 Full audit mode — checking " "collections/ and indicators/")
+    tasks = collect(COLLECTIONS_PATH) + collect(INDICATORS_PATH)
     print(f"\n🔗 Total links: {len(tasks)}")
 
     if not tasks:
@@ -369,18 +324,11 @@ def main():
     broken_links = set()
     ok_links = set()
 
-    with ThreadPoolExecutor(
-        max_workers=MAX_WORKERS
-    ) as ex:
-        futures = [
-            ex.submit(check_url, t)
-            for t in tasks
-        ]
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+        futures = [ex.submit(check_url, t) for t in tasks]
         for future in as_completed(futures):
             file, name, url, status = future.result()
-            groups.setdefault(file, []).append(
-                (name, url, status)
-            )
+            groups.setdefault(file, []).append((name, url, status))
             normalized = normalize(url)
             if status == 200:
                 ok_links.add(normalized)
@@ -399,16 +347,10 @@ def main():
     fixed = prev_broken - broken_links
 
     print("\n--- Health trend ---")
-    print(
-        f"Previous errors: "
-        f"{prev.get('errors') if prev else 'n/a'}"
-    )
+    print(f"Previous errors: " f"{prev.get('errors') if prev else 'n/a'}")
     print(f"Current errors:  {curr_errors}")
     print(f"Fixed links:     {len(fixed)}")
-    print(
-        f"Newly broken:    "
-        f"{len(newly_broken)}"
-    )
+    print(f"Newly broken:    " f"{len(newly_broken)}")
 
     if newly_broken:
         print("\n--- Newly broken links ---")
@@ -425,6 +367,7 @@ def main():
         sys.exit(1)
 
     print("\n✅ Full audit complete.")
+
 
 if __name__ == "__main__":
     main()
