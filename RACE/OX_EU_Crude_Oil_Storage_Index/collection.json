@@ -200,17 +200,17 @@
       "OX_EU"
     ],
     "themes": [
-      "commerce",
       "industry",
-      "energy"
+      "energy",
+      "commerce"
     ],
     "satellite": [
       "Sentinel-1",
       "Sentinel-2"
     ],
     "sensor": [
-      "C-SAR",
-      "MSI"
+      "MSI",
+      "C-SAR"
     ],
     "cities": [
       "/"
