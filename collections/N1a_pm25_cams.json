@@ -31,8 +31,8 @@
   ],
   "License": [
     {
-      "Url": "https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
-      "Type": "application/pdf",
+      "Url": "https://cds.climate.copernicus.eu/licences/licence-to-use-copernicus-products",
+      "Type": "text/html",
       "Title": "Licence to Use Copernicus Products"
     }
   ],
