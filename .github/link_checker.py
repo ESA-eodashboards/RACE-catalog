@@ -59,11 +59,9 @@ UAS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/126.0.0.0 Safari/537.36",
-
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/605.1.15 (KHTML, like Gecko) "
     "Version/17.5 Safari/605.1.15",
-
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) "
     "Gecko/20100101 Firefox/127.0",
 ]
@@ -90,11 +88,11 @@ def browser_headers(url: str, ua: str) -> dict:
         "Upgrade-Insecure-Requests": "1",
         "Referer": f"{parsed.scheme}://{parsed.netloc}/",
         "DNT": "1",
-
         # Only request first byte
         "Range": "bytes=0-0",
     }
-    
+
+
 def _do_request(url, ua, use_cffi=False):
     headers = browser_headers(url, ua)
 
@@ -117,6 +115,7 @@ def _do_request(url, ua, use_cffi=False):
         timeout=TIMEOUT,
         verify=False,
     )
+
 
 # -------------------------------------------------------------------
 # Check URL
@@ -143,11 +142,7 @@ def check_url(task):
 
             last_final = str(r.url)
 
-            status = (
-                200
-                if r.status_code == 206
-                else r.status_code
-            )
+            status = 200 if r.status_code == 206 else r.status_code
 
             last_status = status
 
@@ -168,9 +163,7 @@ def check_url(task):
             last_status = "ERR"
 
         if i < len(attempts) - 1:
-            time.sleep(
-                0.3 + random.random() * 0.4
-            )
+            time.sleep(0.3 + random.random() * 0.4)
 
     return (
         file_key,
@@ -183,7 +176,9 @@ def check_url(task):
 # -------------------------------------------------------------------
 # Extract links recursively
 # -------------------------------------------------------------------
-def extract_links(data, skip_keys=["resources", "process", "baselayers", "overlaylayers"]):
+def extract_links(
+    data, skip_keys=["resources", "process", "baselayers", "overlaylayers"]
+):
     results = []
     if isinstance(data, dict):
         for key, value in data.items():
