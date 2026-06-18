@@ -201,16 +201,16 @@
       "C-SAR"
     ],
     "cities": [
-      "Milan",
-      "Bucharest",
-      "Athens",
       "Warsaw",
+      "Milan",
       "Rome",
+      "Athens",
+      "Bucharest",
       "Brussels"
     ],
     "countries": [
-      "IT",
       "RO",
+      "IT",
       "PL",
       "GR",
       "BE"

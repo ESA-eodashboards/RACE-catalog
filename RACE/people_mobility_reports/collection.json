@@ -202,11 +202,11 @@
       "GG"
     ],
     "themes": [
-      "society",
       "sport",
-      "health",
       "tourism",
-      "commerce"
+      "commerce",
+      "health",
+      "society"
     ],
     "cities": [
       "/"

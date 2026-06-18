@@ -200,13 +200,13 @@
       "OX_EU"
     ],
     "themes": [
+      "industry",
       "energy",
-      "commerce",
-      "industry"
+      "commerce"
     ],
     "satellite": [
-      "Sentinel-1",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Sentinel-1"
     ],
     "sensor": [
       "MSI",
