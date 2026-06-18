@@ -241,25 +241,25 @@
       "MSI"
     ],
     "countries": [
+      "CH",
+      "NO",
+      "FR",
+      "DE",
       "IE",
-      "IT",
-      "PT",
-      "UK",
+      "BE",
       "ES",
-      "GB",
+      "DK",
+      "UK",
+      "PL",
+      "IT",
       "FI",
       "SE",
-      "NL",
-      "FR",
-      "NO",
-      "TR",
-      "DE",
-      "CH",
       "GR",
-      "BE",
-      "PL",
+      "NL",
+      "GB",
+      "TR",
       "AT",
-      "DK"
+      "PT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_parked_planes_photo.jpg"
