@@ -1,6 +1,6 @@
 {
   "Name": "wind_10m_v",
-  "Title": "Wind V Field",
+  "Title": "Wind V Field Update",
   "EodashIdentifier": "CDS4",
   "Subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind V field",
   "Description": "CDS4_wind_10m_v/CDS4_wind_10m_v.md",
@@ -44,7 +44,7 @@
     }
   ],
   "Citation": {
-    "Citation": "Mu\u00f1oz Sabater, J., (2019) was downloaded from the Copernicus Climate Change Service (2021).\nThe results contain modified Copernicus Climate Change Service information 2020. \nNeither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.\n",
+    "Citation": "Muñoz Sabater, J., (2019) was downloaded from the Copernicus Climate Change Service (2021).The results contain modified Copernicus Climate Change Service information 2020. Neither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.",
     "DOI": "10.24381/cds.68d2bb30",
     "Publication": [
       {
