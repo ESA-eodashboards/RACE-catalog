@@ -1,6 +1,6 @@
 {
   "STAC Catalogue": {
-    "Url": "https://radiantearth.github.io/stac-browser/#/external/ESA-eodashboards.github.io/RACE-catalog/RACE/catalog.json?.language=en",
+    "Url": "https://browser.moregeo.it/external/ESA-eodashboards.github.io/RACE-catalog/RACE/catalog.json?.language=en",
     "Description": "RACE indicators are provided as a STAC Catalogue - a standardized way to expose collections of spatial temporal data.",
     "Logo": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/stac.png"
   },

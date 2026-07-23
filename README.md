@@ -8,10 +8,10 @@ Deployment branches just with the changed collections in Pull Requests are gener
 
 The generated STAC catalogs are deployed through github pages.
 
-A preview of the catalogs can be seen using the [Stac Browser](https://radiantearth.github.io/stac-browser/#/)
+A preview of the catalogs can be seen using the [Stac Browser](https://browser.moregeo.it/external/)
 
 Here are preloaded preview links for the catalog available through gh-pages:
-* [RACE Instance](https://radiantearth.github.io/stac-browser/#/external/ESA-eodashboards.github.io/RACE-catalog/RACE/catalog.json)
+* [RACE Instance](https://browser.moregeo.it/external/ESA-eodashboards.github.io/RACE-catalog/RACE/catalog.json)
 
 ## Development
 
