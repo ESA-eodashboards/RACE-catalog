@@ -162,8 +162,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-06-06T00:00:00Z",
-          "2026-06-17T00:00:00Z"
+          "2026-07-12T00:00:00Z",
+          "2026-07-22T00:00:00Z"
         ]
       ]
     }
@@ -180,19 +180,19 @@
       "N3c_med"
     ],
     "themes": [
-      "water",
-      "climate"
+      "climate",
+      "water"
     ],
     "satellite": [
       "Aqua",
       "Sentinel-3",
-      "Suomi NPP",
-      "JPSS-1"
+      "JPSS-1",
+      "Suomi NPP"
     ],
     "sensor": [
       "MODIS",
-      "OLCI",
-      "VIIRS"
+      "VIIRS",
+      "OLCI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_mediterranean/N3c_ocean_colour_plankton_mediterranean.png"
