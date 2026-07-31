@@ -133,25 +133,6 @@
   "otherSources": [
     "EAC4"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      40
-    ],
-    "range": [
-      "#ffffff",
-      "#fbfdfa",
-      "#ebf7e9",
-      "#cfebce",
-      "#9ed5a8",
-      "#68b37f",
-      "#27854c",
-      "#00441b"
-    ],
-    "scaleType": "discrete",
-    "tickFormat": ".0f",
-    "title": "PM10 [µg/m³]"
-  },
   "title": "Air Quality (PM10 concentrations) map",
   "extent": {
     "spatial": {

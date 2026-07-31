@@ -109,18 +109,6 @@
     "Sentinel-1",
     "Sentinel-2"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      "Permanent water",
-      "Flooding"
-    ],
-    "range": [
-      "#0000ff",
-      "#ff0000"
-    ],
-    "scaleType": "categorical",
-    "title": "Flood events"
-  },
   "title": "Flooding in St Pölten",
   "extent": {
     "spatial": {

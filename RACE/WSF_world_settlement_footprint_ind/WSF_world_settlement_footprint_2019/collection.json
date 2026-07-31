@@ -20,8 +20,7 @@
       ],
       "role": [
         "data"
-      ],
-      "key": "ef4ba609-e157-48d1-a92d-dcbd229de5af"
+      ]
     },
     {
       "rel": "license",
@@ -59,16 +58,6 @@
     "Sentinel-1",
     "Sentinel-2"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      2019
-    ],
-    "range": [
-      "#000000"
-    ],
-    "scaleType": "categorical",
-    "title": ""
-  },
   "endpointtype": "WMS_OverwriteTimes",
   "title": "World settlement footprint 2019",
   "extent": {

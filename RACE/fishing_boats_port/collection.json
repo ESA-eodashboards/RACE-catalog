@@ -37,7 +37,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13f_fishing_boats_port/E13f_fishing_boats_port.jpg"
       ],
-      "yAxis": "Number of ships in the port",
       "tags": [
         "Ports",
         "Maritime",
@@ -171,8 +170,8 @@
       "commerce"
     ],
     "cities": [
-      "Gioia Tauro",
-      "Genoa"
+      "Genoa",
+      "Gioia Tauro"
     ],
     "countries": [
       "IT"

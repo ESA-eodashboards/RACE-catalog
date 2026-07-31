@@ -37,7 +37,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Water_Discharge_timeseries/Water_Discharge_timeseries.png"
       ],
-      "yAxis": "Water Discharge [m^3/s]",
       "tags": [
         "Water quality",
         "Marine",

@@ -37,7 +37,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a2_agricultural_production_area/E10a2_agricultural_production_area_photo.jpg"
       ],
-      "yAxis": "Cumulative Proportion of total areas under active management",
       "tags": [
         "Copernicus",
         "Open data"

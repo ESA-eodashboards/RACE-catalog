@@ -41,28 +41,6 @@
     "ESA"
   ],
   "subcode": "IND1_1_b5",
-  "eox:colorlegend": {
-    "domain": [
-      -10,
-      50
-    ],
-    "range": [
-      "#b20a1c",
-      "#c33731",
-      "#d56445",
-      "#e6915a",
-      "#dcaa84",
-      "#bebebe",
-      "#6a89f7",
-      "#5169e4",
-      "#384ad2",
-      "#1e2abf",
-      "#050aac"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "[°C]"
-  },
   "endpointtype": "COG source",
   "title": "Land Surface Temperature",
   "extent": {

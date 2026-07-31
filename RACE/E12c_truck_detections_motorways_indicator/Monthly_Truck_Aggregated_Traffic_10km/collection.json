@@ -59,25 +59,6 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      5,
-      20,
-      50,
-      90
-    ],
-    "range": [
-      "#000000",
-      "#9acd32",
-      "#32cd32",
-      "#ffa500",
-      "#ff0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Monthly average count of trucks"
-  },
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Monthly truck aggregated traffic 10km",
   "extent": {

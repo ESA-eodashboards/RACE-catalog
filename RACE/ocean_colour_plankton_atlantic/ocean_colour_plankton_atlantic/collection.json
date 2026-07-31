@@ -22,7 +22,117 @@
       "wmts:dimensions": {
         "style": "cmap:rainbow,range:0.03/50,noClamp,logScale"
       },
-      "key": "fbab40ba-3e4d-461e-b201-e6e0425c3f05"
+      "eodash:rasterform": {
+        "jsonform": {
+          "type": "object",
+          "properties": {
+            "cmap": {
+              "type": "string",
+              "title": "Colormap",
+              "enum": [
+                "algae",
+                "amp",
+                "balance",
+                "cividis",
+                "cyclic",
+                "delta",
+                "dense",
+                "gray",
+                "haline",
+                "ice",
+                "inferno",
+                "magma",
+                "matter",
+                "phase",
+                "plasma",
+                "rainbow",
+                "solar",
+                "speed",
+                "tempo",
+                "thermal",
+                "viridis"
+              ],
+              "default": "rainbow"
+            },
+            "vminmax": {
+              "type": "object",
+              "title": "Value Range",
+              "properties": {
+                "vmin": {
+                  "type": "number",
+                  "default": 0.03,
+                  "format": "range",
+                  "minimum": 0
+                },
+                "vmax": {
+                  "type": "number",
+                  "default": 50.0,
+                  "format": "range",
+                  "maximum": 75.0
+                }
+              },
+              "format": "minmax"
+            },
+            "noClamp": {
+              "type": "string",
+              "title": "Transparent outside (Min/Max)",
+              "enum": [
+                ",noClamp",
+                ""
+              ],
+              "options": {
+                "enum_titles": [
+                  "On",
+                  "Off"
+                ]
+              }
+            },
+            "logScale": {
+              "type": "string",
+              "title": "Log Scale",
+              "enum": [
+                ",logScale",
+                ""
+              ],
+              "options": {
+                "enum_titles": [
+                  "Log Scale",
+                  "Linear Scale"
+                ]
+              }
+            },
+            "style": {
+              "type": "string",
+              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}{{noClamp}}{{logScale}}",
+              "watch": {
+                "cmap": "cmap",
+                "vminmax": "vminmax",
+                "noClamp": "noClamp",
+                "logScale": "logScale"
+              },
+              "options": {
+                "hidden": true
+              }
+            }
+          },
+          "required": [
+            "vminmax",
+            "cmap",
+            "noClamp",
+            "logScale"
+          ]
+        },
+        "legend": {
+          "title": "milligram m-3",
+          "scaleType": "log10",
+          "tickFormat": ".0f",
+          "rangeProperty": "cmap",
+          "domainProperties": [
+            "vmin",
+            "vmax"
+          ]
+        }
+      }
     },
     {
       "rel": "parent",
@@ -78,8 +188,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-07-06T00:00:00Z",
-          "2026-07-21T00:00:00Z"
+          "2026-07-11T00:00:00Z",
+          "2026-07-29T00:00:00Z"
         ]
       ]
     }
@@ -98,13 +208,6 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
-      ]
-    },
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_atlantic/N3c_atlantic_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
       ]
     },
     "thumbnail": {

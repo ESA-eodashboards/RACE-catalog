@@ -20,8 +20,7 @@
       ],
       "role": [
         "data"
-      ],
-      "key": "2389c785-f00a-432d-bdbe-3ba730d8ddf3"
+      ]
     },
     {
       "rel": "license",
@@ -60,25 +59,6 @@
   "otherSources": [
     "EAC4"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      40
-    ],
-    "range": [
-      "#ffffff",
-      "#fbfdfa",
-      "#ebf7e9",
-      "#cfebce",
-      "#9ed5a8",
-      "#68b37f",
-      "#27854c",
-      "#00441b"
-    ],
-    "scaleType": "discrete",
-    "tickFormat": ".0f",
-    "title": "PM10 [µg/m³]"
-  },
   "endpointtype": "WMS_Time",
   "title": "Air Quality (PM10 concentrations) map",
   "extent": {

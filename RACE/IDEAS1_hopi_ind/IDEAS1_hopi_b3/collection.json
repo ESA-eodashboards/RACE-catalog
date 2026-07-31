@@ -40,31 +40,6 @@
     "ESA"
   ],
   "subcode": "IND1_1_b3",
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      200
-    ],
-    "range": [
-      "#ffffff",
-      "#ffffb2",
-      "#ffff65",
-      "#ffff17",
-      "#ffdb00",
-      "#ffa800",
-      "#ff7400",
-      "#ff4100",
-      "#ff0d00",
-      "#d90000",
-      "#a50000",
-      "#720000",
-      "#3e0000",
-      "#0b0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "[km]"
-  },
   "endpointtype": "COG source",
   "title": "Distance to nearest hospital or clinic",
   "extent": {

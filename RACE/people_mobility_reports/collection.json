@@ -71,7 +71,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports_photo.jpg"
       ],
-      "yAxis": "/",
       "tags": [
         "Mobility",
         "Traffic"
@@ -202,10 +201,10 @@
       "GG"
     ],
     "themes": [
-      "commerce",
-      "health",
-      "society",
       "sport",
+      "commerce",
+      "society",
+      "health",
       "tourism"
     ],
     "cities": [

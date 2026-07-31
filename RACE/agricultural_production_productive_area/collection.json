@@ -39,7 +39,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area_photo.jpg"
       ],
-      "yAxis": "Total area [ha]",
       "tags": [
         "Copernicus",
         "Open data"
@@ -187,8 +186,8 @@
       "MSI"
     ],
     "cities": [
-      "Brandenburg",
-      "Huelva (Lagunas de las Madres)"
+      "Huelva (Lagunas de las Madres)",
+      "Brandenburg"
     ],
     "countries": [
       "ES",

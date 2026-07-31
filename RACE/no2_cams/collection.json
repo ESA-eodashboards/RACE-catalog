@@ -124,7 +124,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_no2_cams/N1b_no2_cams_graph.jpg"
       ],
-      "yAxis": "Nitrogen Dioxide Surface Concentration[micro g/m3]",
       "tags": [
         "Air quality",
         "Copernicus Services",
@@ -272,8 +271,8 @@
     ],
     "themes": [
       "air",
-      "climate",
-      "health"
+      "health",
+      "climate"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_no2_cams/N1b_no2_cams_graph.jpg"

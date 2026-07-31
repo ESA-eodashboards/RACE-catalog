@@ -61,23 +61,6 @@
   "insituSources": [
     "Other"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      1,
-      10000
-    ],
-    "range": [
-      "#fff2d1",
-      "#ffdaa6",
-      "#fab855",
-      "#fd8d3c",
-      "#f03b20",
-      "#bd0026"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "[persons/km²]"
-  },
   "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Population density",

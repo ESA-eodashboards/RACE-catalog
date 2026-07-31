@@ -99,25 +99,6 @@
   "satellite": [
     "Sentinel-5P"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      40
-    ],
-    "range": [
-      "#ffffff",
-      "#fffbf7",
-      "#feeedf",
-      "#fed6b7",
-      "#fab181",
-      "#e9834d",
-      "#b85426",
-      "#7f2704"
-    ],
-    "scaleType": "discrete",
-    "tickFormat": ".0f",
-    "title": "Tropospheric NO2 [µg/m³]"
-  },
   "title": "Nicosia - city_no2",
   "extent": {
     "spatial": {

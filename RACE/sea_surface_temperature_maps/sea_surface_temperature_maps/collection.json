@@ -123,22 +123,6 @@
   "satellite": [
     "Sentinel-3"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -70,
-      70
-    ],
-    "range": [
-      "#0000ff",
-      "#0096c8",
-      "#009a5a",
-      "#fab478",
-      "#ff0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Sea Surface Temperature Anomaly [%]"
-  },
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Sea surface temperature maps",
   "extent": {

@@ -162,8 +162,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-07-06T00:00:00Z",
-          "2026-07-21T00:00:00Z"
+          "2026-07-11T00:00:00Z",
+          "2026-07-29T00:00:00Z"
         ]
       ]
     }
@@ -180,32 +180,25 @@
       "N3c"
     ],
     "themes": [
-      "climate",
-      "water"
+      "water",
+      "climate"
     ],
     "satellite": [
-      "Aqua",
-      "Sentinel-3",
       "JPSS-1",
-      "Suomi NPP"
+      "Aqua",
+      "Suomi NPP",
+      "Sentinel-3"
     ],
     "sensor": [
-      "MODIS",
+      "OLCI",
       "VIIRS",
-      "OLCI"
+      "MODIS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_atlantic/N3c_ocean_colour_plankton_atlantic.png"
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_atlantic/N3c_atlantic_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_atlantic/N3c_ocean_colour_plankton_atlantic.png",
       "type": "image/png",

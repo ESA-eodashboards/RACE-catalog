@@ -39,7 +39,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/C2_ports_people_aq/C2_ports_people_aq_photo.jpg"
       ],
-      "yAxis": "Normalized NO2 concentration & Mean number of people",
       "tags": [
         "Air quality",
         "NO2",
@@ -201,15 +200,15 @@
       "commerce"
     ],
     "satellite": [
-      "Sentinel-5P",
-      "GNSS"
+      "GNSS",
+      "Sentinel-5P"
     ],
     "sensor": [
       "TROPOMI"
     ],
     "cities": [
-      "Gioia Tauro",
-      "Genoa"
+      "Genoa",
+      "Gioia Tauro"
     ],
     "countries": [
       "IT"

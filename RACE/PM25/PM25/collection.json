@@ -20,8 +20,7 @@
       ],
       "role": [
         "data"
-      ],
-      "key": "a337f685-c3ae-4027-afe1-265c428765ae"
+      ]
     },
     {
       "rel": "license",
@@ -60,25 +59,6 @@
   "otherSources": [
     "EAC4"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      40
-    ],
-    "range": [
-      "#ffffff",
-      "#fcfcfd",
-      "#f2f2f8",
-      "#dddded",
-      "#bdbbdb",
-      "#998cc2",
-      "#6e4aa1",
-      "#3f007d"
-    ],
-    "scaleType": "discrete",
-    "tickFormat": ".0f",
-    "title": "PM2.5 [µg/m³]"
-  },
   "endpointtype": "WMS_Time",
   "title": "Air Quality (PM2.5 concentrations) map",
   "extent": {

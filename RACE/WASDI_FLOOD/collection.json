@@ -150,18 +150,6 @@
     "Sentinel-1",
     "Sentinel-2"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      "Permanent water",
-      "Flooding"
-    ],
-    "range": [
-      "#0000ff",
-      "#ff0000"
-    ],
-    "scaleType": "categorical",
-    "title": "Flood events"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "title": "Flood mapping",
   "extent": {
@@ -196,16 +184,16 @@
       "WASDI_FLOOD"
     ],
     "themes": [
-      "health",
-      "water"
+      "water",
+      "health"
     ],
     "satellite": [
       "Sentinel-2",
       "Sentinel-1"
     ],
     "sensor": [
-      "SAR",
-      "MSI"
+      "MSI",
+      "SAR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WASDI_FLOOD/WASDI_FLOOD.jpg"

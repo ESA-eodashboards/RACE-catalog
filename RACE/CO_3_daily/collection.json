@@ -136,26 +136,6 @@
   "satellite": [
     "Sentinel-5P"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      175
-    ],
-    "range": [
-      "#f8f6f4",
-      "#9e61a8",
-      "#5366b6",
-      "#3c8cc6",
-      "#51aca2",
-      "#e3a625",
-      "#eb490e",
-      "#ba0006",
-      "#74120d"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "CO [ppbv]"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/chart.json",
   "title": "Carbon Monoxide observed by Sentinel-5p TROPOMI",
@@ -202,8 +182,8 @@
     ],
     "themes": [
       "air",
-      "climate",
-      "health"
+      "health",
+      "climate"
     ],
     "satellite": [
       "Sentinel-5P"

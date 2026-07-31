@@ -135,31 +135,6 @@
   "satellite": [
     "Sentinel-5P"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      180
-    ],
-    "range": [
-      "#fff5f0",
-      "#fee8de",
-      "#fed7c7",
-      "#fcc1a9",
-      "#fca88b",
-      "#fc8f6f",
-      "#fb7656",
-      "#f75c41",
-      "#f03f2e",
-      "#dc2824",
-      "#c5171c",
-      "#ae1117",
-      "#8d0912",
-      "#67000d"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Tropospheric NO2 [µmol/m²]"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/chart.json",
   "title": "Air Quality (tropospheric NO2 concentrations)",
@@ -202,8 +177,8 @@
     ],
     "themes": [
       "air",
-      "climate",
-      "health"
+      "health",
+      "climate"
     ],
     "satellite": [
       "Sentinel-5P"

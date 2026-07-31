@@ -71,20 +71,6 @@
   "otherSources": [
     "Open Data Soft"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      "low",
-      "medium",
-      "high"
-    ],
-    "range": [
-      "#fde725",
-      "#2f918c",
-      "#440154"
-    ],
-    "scaleType": "categorical",
-    "title": "[wildlife biodiversity index]"
-  },
   "endpointtype": "COG source",
   "title": "Wildlife Biodiversity Minesweeper Game",
   "extent": {

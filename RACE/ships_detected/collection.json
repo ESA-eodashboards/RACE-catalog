@@ -46,7 +46,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg"
       ],
-      "yAxis": "Number of ships in Port",
       "tags": [
         "Multi-sensors"
       ],
@@ -187,8 +186,8 @@
       "E200"
     ],
     "themes": [
-      "tourism",
-      "commerce"
+      "commerce",
+      "tourism"
     ],
     "satellite": [
       "Sentinel-2"
@@ -198,19 +197,19 @@
     ],
     "cities": [
       "Dunkirk",
-      "Gdynia",
-      "Genoa",
-      "Suez ",
       "Hamburg",
-      "Ghent"
+      "Genoa",
+      "Ghent",
+      "Gdynia",
+      "Suez "
     ],
     "countries": [
-      "BE",
-      "FR",
-      "IT",
       "PL",
+      "BE",
+      "EG",
       "DE",
-      "EG"
+      "IT",
+      "FR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E200_ships_detected/E200_ships_detected_photo.jpg"

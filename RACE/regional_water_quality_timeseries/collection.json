@@ -50,7 +50,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg"
       ],
-      "yAxis": "Chlorophyll-a concentration [mg m-3]",
       "tags": [
         "Water quality",
         "Copernicus Services",
@@ -208,10 +207,10 @@
       "N3"
     ],
     "themes": [
-      "health",
       "sport",
-      "climate",
-      "water"
+      "water",
+      "health",
+      "climate"
     ],
     "satellite": [
       "Sentinel-3"
@@ -220,20 +219,20 @@
       "OLCI"
     ],
     "cities": [
-      "Marseilles",
-      "Barcelona",
-      "Hamburg",
-      "Venice Lagoon",
       "Lisbon",
+      "Marseilles",
+      "Hamburg",
+      "Barcelona",
+      "Venice Lagoon",
       "Constanta"
     ],
     "countries": [
-      "FR",
+      "ES",
+      "RO",
       "PT",
       "IT",
-      "ES",
       "GE",
-      "RO"
+      "FR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3_regional_water_quality_timeseries/N3_regional_water_quality_timeseries_photo.jpg"

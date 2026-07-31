@@ -64,7 +64,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg"
       ],
-      "yAxis": "Metal Density Variation [%]",
       "tags": [
         "Copernicus",
         "Open data"
@@ -219,10 +218,10 @@
       "C-SAR"
     ],
     "countries": [
+      "RO",
       "PL",
       "FI",
-      "SE",
-      "RO"
+      "SE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_steel_inventory_timeseries/E5_steel_inventory_timeseries_photo.jpg"

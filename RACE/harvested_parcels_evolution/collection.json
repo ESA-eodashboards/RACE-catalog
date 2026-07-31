@@ -46,7 +46,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution_photo.jpg"
       ],
-      "yAxis": "Cumulative (%)",
       "tags": [
         "Copernicus",
         "Sen4CAP",
@@ -199,8 +198,8 @@
     ],
     "satellite": [
       "Sentinel-2",
-      "Sentinel-1",
-      "Landsat-8"
+      "Landsat-8",
+      "Sentinel-1"
     ],
     "sensor": [
       "C-SAR",
@@ -208,17 +207,17 @@
       "OLI"
     ],
     "cities": [
-      "Comunidad de Madrid",
       "Region de Murcia",
+      "Comunidad Valenciana",
+      "Comunidad Foral de Navarra",
       "Castilla y Leon",
       "La Rioja",
-      "Castilla-La Mancha",
-      "Comunidad Foral de Navarra",
-      "Comunidad Valenciana",
-      "Aragon",
+      "Comunidad de Madrid",
       "Extremadura",
+      "Cataluna",
+      "Castilla-La Mancha",
       "Andalucia",
-      "Cataluna"
+      "Aragon"
     ],
     "countries": [
       "ES"

@@ -106,22 +106,6 @@
   "satellite": [
     "Sentinel-3"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -100,
-      100
-    ],
-    "range": [
-      "#000000",
-      "#0000ff",
-      "#009a57",
-      "#fbd063",
-      "#d68231"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Total suspended matter anomaly [%]"
-  },
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Total suspended matter maps",
   "extent": {

@@ -149,20 +149,6 @@
   "otherSources": [
     "Open Data Soft"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      "low",
-      "medium",
-      "high"
-    ],
-    "range": [
-      "#fde725",
-      "#2f918c",
-      "#440154"
-    ],
-    "scaleType": "categorical",
-    "title": "[index]"
-  },
   "title": "Wildlife Biodiversity Indicator",
   "extent": {
     "spatial": {
@@ -205,8 +191,8 @@
       "land"
     ],
     "satellite": [
-      "MODIS",
-      "Sentinel-3"
+      "Sentinel-3",
+      "MODIS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_photo.jpg"

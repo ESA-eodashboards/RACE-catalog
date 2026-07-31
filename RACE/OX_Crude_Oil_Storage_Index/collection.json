@@ -72,7 +72,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"
       ],
-      "yAxis": "[%]",
       "tags": [
         "Copernicus",
         "Human activities",
@@ -233,8 +232,8 @@
       "OX"
     ],
     "themes": [
-      "industry",
       "energy",
+      "industry",
       "commerce"
     ],
     "satellite": [
@@ -246,43 +245,43 @@
       "MSI"
     ],
     "cities": [
-      "Aspropyrgos",
-      "Godorf Wesseling",
-      "Teesport",
-      "Cork",
-      "Grangemouth",
-      "Rotterdam",
-      "Tarragona",
-      "Antwerp",
-      "Cartagena",
-      "Schwechat",
-      "Fos-Lavera",
-      "Omisalj",
-      "Sullom Voe",
       "Algeciras",
       "Sarroch",
-      "Dalmeny",
-      "Trieste",
-      "Pachi",
-      "Corinth",
-      "Wilhelmshaven",
       "Le Havre",
-      "Thessaloniki",
+      "Sullom Voe",
+      "Omisalj",
+      "Tarragona",
+      "Godorf Wesseling",
       "Elefsina",
-      "Finnart"
+      "Thessaloniki",
+      "Cork",
+      "Rotterdam",
+      "Fos-Lavera",
+      "Antwerp",
+      "Teesport",
+      "Trieste",
+      "Cartagena",
+      "Pachi",
+      "Finnart",
+      "Grangemouth",
+      "Aspropyrgos",
+      "Wilhelmshaven",
+      "Schwechat",
+      "Dalmeny",
+      "Corinth"
     ],
     "countries": [
-      "IE",
-      "BE",
-      "FR",
-      "NL",
-      "GR",
-      "AT",
-      "HR",
-      "IT",
       "ES",
+      "BE",
+      "DE",
       "GB",
-      "DE"
+      "NL",
+      "IT",
+      "FR",
+      "HR",
+      "IE",
+      "GR",
+      "AT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OX_Crude_Oil_Storage_Index/OX_Crude_Oil_Storage_Index_photo.jpg"

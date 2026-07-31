@@ -89,7 +89,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_city_no2/N1_city_no2_photo.jpg"
       ],
-      "yAxis": "Tropospheric NO2 (μmol/m2)",
       "tags": [
         "Air quality",
         "NO2",
@@ -204,25 +203,6 @@
   "satellite": [
     "Sentinel-5P"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      40
-    ],
-    "range": [
-      "#ffffff",
-      "#fffbf7",
-      "#feeedf",
-      "#fed6b7",
-      "#fab181",
-      "#e9834d",
-      "#b85426",
-      "#7f2704"
-    ],
-    "scaleType": "discrete",
-    "tickFormat": ".0f",
-    "title": "Tropospheric NO2 [µg/m³]"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N1_city_no2/chart.json",
   "title": "Air Quality (tropospheric NO2 concentrations) at city level",
@@ -259,8 +239,8 @@
     ],
     "themes": [
       "air",
-      "climate",
-      "health"
+      "health",
+      "climate"
     ],
     "satellite": [
       "Sentinel-5P"

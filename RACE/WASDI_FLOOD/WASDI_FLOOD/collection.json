@@ -89,18 +89,6 @@
     "Sentinel-1",
     "Sentinel-2"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      "Permanent water",
-      "Flooding"
-    ],
-    "range": [
-      "#0000ff",
-      "#ff0000"
-    ],
-    "scaleType": "categorical",
-    "title": "Flood events"
-  },
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Flood mapping",
   "extent": {

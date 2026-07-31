@@ -60,27 +60,6 @@
   "insituSources": [
     "AIS"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0.5,
-      2,
-      5,
-      10,
-      20,
-      150
-    ],
-    "range": [
-      "#009b8f",
-      "#00db00",
-      "#fffc00",
-      "#f49a00",
-      "#d01300",
-      "#a10000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "total ship presence time / 1 km²"
-  },
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Vessel density for cargo",
   "extent": {
