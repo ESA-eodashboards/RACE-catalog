@@ -199,8 +199,8 @@
       "E10a10_2"
     ],
     "themes": [
-      "agriculture",
-      "land"
+      "land",
+      "agriculture"
     ],
     "satellite": [
       "Sentinel-1"
@@ -209,40 +209,40 @@
       "C-SAR"
     ],
     "cities": [
-      "United Kingdom",
-      "Croatia",
+      "Estonia",
       "Czech Republic",
       "Romania",
-      "Sweden",
-      "Denmark",
-      "France",
-      "Lithuania",
-      "Austria",
-      "Latvia",
-      "Bulgaria",
       "Hungary",
+      "Sweden",
+      "Lithuania",
+      "Denmark",
+      "United Kingdom",
+      "Croatia",
+      "Austria",
       "Poland",
+      "Bulgaria",
       "Germany",
-      "Slovak Republic",
-      "Estonia"
+      "Latvia",
+      "France",
+      "Slovak Republic"
     ],
     "countries": [
-      "FR",
-      "SK",
-      "AT",
-      "CZ",
       "PL",
-      "RO",
-      "HR",
       "HU",
-      "SE",
-      "LV",
-      "DK",
-      "LT",
+      "SK",
+      "BG",
+      "FR",
       "DE",
       "GB",
-      "BG",
-      "EE"
+      "HR",
+      "AT",
+      "EE",
+      "LV",
+      "DK",
+      "SE",
+      "LT",
+      "CZ",
+      "RO"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a10_harvesting_evolution/E10a10_2_harvesting_evolution_winter_rapeseed_photo.jpg"
