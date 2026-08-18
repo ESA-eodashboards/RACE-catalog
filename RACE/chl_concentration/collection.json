@@ -122,6 +122,22 @@
   ],
   "subtitle": "Chlorophyll-a concentration description",
   "shortdescription": "This indicator maps water quality across regions by showing chlorophyll-a levels, which reflect how much algae is present in the water. While algae occur naturally, unusually high concentrations can point to pollution from sewage, industry, or agricultural fertilisers entering rivers and coastal waters. By comparing weekly satellite observations with long-term average conditions, these maps help people quickly see where water quality is better or worse than usual. They offer a clear, visual way to understand how human activities and natural processes affect the health of lakes, rivers, and coastal seas.",
+  "eox:colorlegend": {
+    "domain": [
+      -100,
+      100
+    ],
+    "range": [
+      "#000000",
+      "#0000ff",
+      "#009a57",
+      "#fbd063",
+      "#d68231"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Chl-a anomaly [%]"
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration/N3a2_chl_concentration.png",
   "themes": [
     "water",
@@ -185,9 +201,9 @@
       "N3a2"
     ],
     "themes": [
-      "water",
+      "health",
       "climate",
-      "health"
+      "water"
     ],
     "satellite": [
       "Sentinel-3"

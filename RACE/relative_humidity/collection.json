@@ -127,6 +127,22 @@
   ],
   "subtitle": "Global relative humidity",
   "shortdescription": "Relative humidity (RH), combined with temperature, determines how hot or cold air feels (the heat index).",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      100
+    ],
+    "range": [
+      "#e6a51e",
+      "#787837",
+      "#3c5ac0",
+      "#002cff",
+      "#32ff37"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Relative humidity (at 1000hPa) [%]"
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS2_relative_humidity/CDS2_relative_humidity.png",
   "themes": [
     "air",
@@ -193,8 +209,8 @@
       "CDS2_relative_humidity"
     ],
     "themes": [
-      "air",
-      "climate"
+      "climate",
+      "air"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS2_relative_humidity/CDS2_relative_humidity.png"

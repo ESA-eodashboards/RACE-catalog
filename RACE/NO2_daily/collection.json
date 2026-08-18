@@ -113,6 +113,31 @@
   ],
   "subtitle": "Daily Nitrogen Dioxide",
   "shortdescription": "This indicator shows global maps of nitrogen dioxide (NO₂) levels in the lower atmosphere, measured from space by the Copernicus Sentinel-5P satellite. NO₂ mainly comes from road traffic, power generation, and industrial activity, and high levels can harm air quality and health. By averaging satellite observations over several days, these maps help people see clear global patterns in air pollution and understand how changes in human activity—such as reduced traffic during the COVID-19 pandemic—affect the air we breathe.",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      180
+    ],
+    "range": [
+      "#fff5f0",
+      "#fee8de",
+      "#fed7c7",
+      "#fcc1a9",
+      "#fca88b",
+      "#fc8f6f",
+      "#fb7656",
+      "#f75c41",
+      "#f03f2e",
+      "#dc2824",
+      "#c5171c",
+      "#ae1117",
+      "#8d0912",
+      "#67000d"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Tropospheric NO2 [µmol/m²]"
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2_photo.jpg",
   "themes": [
     "air",
@@ -176,9 +201,9 @@
       "N1_NO2"
     ],
     "themes": [
-      "air",
       "health",
-      "climate"
+      "climate",
+      "air"
     ],
     "satellite": [
       "Sentinel-5P"

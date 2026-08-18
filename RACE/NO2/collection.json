@@ -112,6 +112,25 @@
   ],
   "subtitle": "Nitrogen dioxide in Europe - daily average",
   "shortdescription": "This indicator shows how nitrogen dioxide (NO₂) changed over time in Europe, using data from the Copernicus Atmosphere Monitoring Service (CAMS). NO₂ mainly comes from road traffic, heating, and industrial activities, and high levels can irritate the lungs and worsen asthma and other respiratory conditions. Tracking NO₂ helps us understand how everyday activities like driving affect the air we breathe.",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      40
+    ],
+    "range": [
+      "#ffffff",
+      "#fffbf7",
+      "#feeedf",
+      "#fed6b7",
+      "#fab181",
+      "#e9834d",
+      "#b85426",
+      "#7f2704"
+    ],
+    "scaleType": "discrete",
+    "tickFormat": ".0f",
+    "title": "Tropospheric NO2 [µg/m³]"
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_NO2/N1b_NO2.png",
   "themes": [
     "air",
@@ -168,9 +187,9 @@
       "N1b_NO2"
     ],
     "themes": [
-      "air",
       "health",
-      "climate"
+      "climate",
+      "air"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_NO2/N1b_NO2.png"

@@ -113,6 +113,26 @@
   ],
   "subtitle": "Global daily SO2",
   "shortdescription": "This indicator shows sulfur dioxide (SO₂) in the atmosphere, measured by the Sentinel-5P satellite. SO₂ comes from both human activities (like power plants and industry) and natural events such as volcanic eruptions. High levels can affect air quality, human health, and even climate. By mapping SO₂ at high resolution, this indicator helps people see pollution hotspots, track volcanic plumes that may impact aviation, and understand how emissions travel across regions.",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      20
+    ],
+    "range": [
+      "#f8f6f4",
+      "#9e61a8",
+      "#5366b6",
+      "#3c8cc6",
+      "#51aca2",
+      "#e3a625",
+      "#eb490e",
+      "#ba0006",
+      "#74120d"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "SO2 column number density [DU]"
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/N1_SO2_photo.jpg",
   "themes": [
     "air",
@@ -176,9 +196,9 @@
       "N1_SO2"
     ],
     "themes": [
-      "air",
       "health",
-      "climate"
+      "climate",
+      "air"
     ],
     "satellite": [
       "Sentinel-5P"

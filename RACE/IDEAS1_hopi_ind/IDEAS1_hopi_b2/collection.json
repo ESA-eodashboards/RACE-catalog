@@ -27,6 +27,31 @@
   ],
   "subtitle": "Number of people of age > 60 or <5",
   "shortdescription": "This indicator highlights areas in European cities where people may face higher health risks due to vulnerability related to age groups.",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      10000
+    ],
+    "range": [
+      "#ffffff",
+      "#ffffb2",
+      "#ffff65",
+      "#ffff17",
+      "#ffdb00",
+      "#ffa800",
+      "#ff7400",
+      "#ff4100",
+      "#ff0d00",
+      "#d90000",
+      "#a50000",
+      "#720000",
+      "#3e0000",
+      "#0b0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "[people]"
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png",
   "themes": [
     "health",

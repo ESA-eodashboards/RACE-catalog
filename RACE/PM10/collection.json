@@ -111,6 +111,25 @@
   ],
   "subtitle": "Particulate matter 10µm in Europe - daily average",
   "shortdescription": "This indicator shows changes in PM10 levels across Europe, using data from the Copernicus Atmosphere Monitoring Service (CAMS). PM10 are larger airborne particles from road dust, construction, agriculture, and natural sources like desert dust. These can irritate the airways and worsen breathing problems, especially for children and older people. Tracking PM10 helps us understand how both human activities and natural events affect air quality.",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      40
+    ],
+    "range": [
+      "#ffffff",
+      "#fbfdfa",
+      "#ebf7e9",
+      "#cfebce",
+      "#9ed5a8",
+      "#68b37f",
+      "#27854c",
+      "#00441b"
+    ],
+    "scaleType": "discrete",
+    "tickFormat": ".0f",
+    "title": "PM10 [µg/m³]"
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM10/N1b_PM10.png",
   "themes": [
     "air",
@@ -172,8 +191,8 @@
       "N1b_PM10"
     ],
     "themes": [
-      "air",
-      "health"
+      "health",
+      "air"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM10/N1b_PM10.png"

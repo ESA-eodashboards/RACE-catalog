@@ -21,119 +21,6 @@
       ],
       "wmts:dimensions": {
         "style": "cmap:rainbow,range:0.03/50,noClamp,logScale"
-      },
-      "eodash:rasterform": {
-        "jsonform": {
-          "type": "object",
-          "properties": {
-            "cmap": {
-              "type": "string",
-              "title": "Colormap",
-              "enum": [
-                "algae",
-                "amp",
-                "balance",
-                "cividis",
-                "cyclic",
-                "delta",
-                "dense",
-                "gray",
-                "haline",
-                "ice",
-                "inferno",
-                "magma",
-                "matter",
-                "phase",
-                "plasma",
-                "rainbow",
-                "solar",
-                "speed",
-                "tempo",
-                "thermal",
-                "viridis"
-              ],
-              "default": "rainbow"
-            },
-            "vminmax": {
-              "type": "object",
-              "title": "Value Range",
-              "properties": {
-                "vmin": {
-                  "type": "number",
-                  "default": 0.03,
-                  "format": "range",
-                  "minimum": 0.03,
-                  "step": 1
-                },
-                "vmax": {
-                  "type": "number",
-                  "default": 50.0,
-                  "format": "range",
-                  "maximum": 75.0,
-                  "step": 1
-                }
-              },
-              "format": "minmax"
-            },
-            "noClamp": {
-              "type": "string",
-              "title": "Transparent outside (Min/Max)",
-              "enum": [
-                ",noClamp",
-                ""
-              ],
-              "options": {
-                "enum_titles": [
-                  "On",
-                  "Off"
-                ]
-              }
-            },
-            "logScale": {
-              "type": "string",
-              "title": "Log Scale",
-              "enum": [
-                ",logScale",
-                ""
-              ],
-              "options": {
-                "enum_titles": [
-                  "Log Scale",
-                  "Linear Scale"
-                ]
-              }
-            },
-            "style": {
-              "type": "string",
-              "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}{{noClamp}}{{logScale}}",
-              "watch": {
-                "cmap": "cmap",
-                "vminmax": "vminmax",
-                "noClamp": "noClamp",
-                "logScale": "logScale"
-              },
-              "options": {
-                "hidden": true
-              }
-            }
-          },
-          "required": [
-            "vminmax",
-            "cmap",
-            "noClamp",
-            "logScale"
-          ]
-        },
-        "legend": {
-          "title": "milligram m-3",
-          "scaleType": "log10",
-          "tickFormat": ".0f",
-          "rangeProperty": "cmap",
-          "domainProperties": [
-            "vmin",
-            "vmax"
-          ]
-        }
       }
     },
     {
@@ -143,6 +30,119 @@
       "title": "Ocean colour plankton - Atlantic"
     }
   ],
+  "eodash:rasterform": {
+    "jsonform": {
+      "type": "object",
+      "properties": {
+        "cmap": {
+          "type": "string",
+          "title": "Colormap",
+          "enum": [
+            "algae",
+            "amp",
+            "balance",
+            "cividis",
+            "cyclic",
+            "delta",
+            "dense",
+            "gray",
+            "haline",
+            "ice",
+            "inferno",
+            "magma",
+            "matter",
+            "phase",
+            "plasma",
+            "rainbow",
+            "solar",
+            "speed",
+            "tempo",
+            "thermal",
+            "viridis"
+          ],
+          "default": "rainbow"
+        },
+        "vminmax": {
+          "type": "object",
+          "title": "Value Range",
+          "properties": {
+            "vmin": {
+              "type": "number",
+              "default": 0.03,
+              "format": "range",
+              "minimum": 0.03,
+              "step": 1
+            },
+            "vmax": {
+              "type": "number",
+              "default": 50.0,
+              "format": "range",
+              "maximum": 75.0,
+              "step": 1
+            }
+          },
+          "format": "minmax"
+        },
+        "noClamp": {
+          "type": "string",
+          "title": "Transparent outside (Min/Max)",
+          "enum": [
+            ",noClamp",
+            ""
+          ],
+          "options": {
+            "enum_titles": [
+              "On",
+              "Off"
+            ]
+          }
+        },
+        "logScale": {
+          "type": "string",
+          "title": "Log Scale",
+          "enum": [
+            ",logScale",
+            ""
+          ],
+          "options": {
+            "enum_titles": [
+              "Log Scale",
+              "Linear Scale"
+            ]
+          }
+        },
+        "style": {
+          "type": "string",
+          "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}{{noClamp}}{{logScale}}",
+          "watch": {
+            "cmap": "cmap",
+            "vminmax": "vminmax",
+            "noClamp": "noClamp",
+            "logScale": "logScale"
+          },
+          "options": {
+            "hidden": true
+          }
+        }
+      },
+      "required": [
+        "vminmax",
+        "cmap",
+        "noClamp",
+        "logScale"
+      ]
+    },
+    "legend": {
+      "title": "milligram m-3",
+      "scaleType": "log10",
+      "tickFormat": ".0f",
+      "rangeProperty": "cmap",
+      "domainProperties": [
+        "vmin",
+        "vmax"
+      ]
+    }
+  },
   "subtitle": "Ocean colour plankton description",
   "shortdescription": "This indicator shows maps of chlorophyll concentration in the Atlantic Ocean, using data from the Copernicus Marine Environment Monitoring Service (CMEMS). Chlorophyll reveals how much algae is present in the water: normal levels support marine life, while unusually high levels, often linked to pollution from rivers, sewage, or agriculture, can signal declining water quality and risks to biodiversity. By providing daily, gap-free maps, this indicator helps people see where marine ecosystems are under pressure and how human activities and natural processes affect the health of the sea.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_atlantic/N3c_ocean_colour_plankton_atlantic.png",
@@ -190,8 +190,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-07-26T00:00:00Z",
-          "2026-08-12T00:00:00Z"
+          "2026-07-31T00:00:00Z",
+          "2026-08-16T00:00:00Z"
         ]
       ]
     }

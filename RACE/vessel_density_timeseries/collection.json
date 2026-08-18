@@ -240,24 +240,24 @@
       "C-SAR"
     ],
     "countries": [
-      "PL",
-      "BE",
-      "IE",
-      "RU",
-      "NL",
-      "IT",
-      "ES",
-      "FR",
-      "DE",
       "LV",
-      "NO",
-      "EE",
       "PT",
       "TR",
       "DK",
-      "LT",
+      "DE",
+      "ES",
+      "PL",
+      "NL",
+      "EE",
+      "FR",
+      "RO",
+      "RU",
+      "IE",
+      "BE",
       "GR",
-      "RO"
+      "IT",
+      "NO",
+      "LT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E1b_vessel_density_timeseries/E1b_vessel_density_timeseries_photo.jpg"
