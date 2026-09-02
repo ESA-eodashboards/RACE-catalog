@@ -234,8 +234,8 @@
       "E13d"
     ],
     "themes": [
-      "commerce",
-      "tourism"
+      "tourism",
+      "commerce"
     ],
     "satellite": [
       "Sentinel-2"
@@ -244,24 +244,24 @@
       "MSI"
     ],
     "countries": [
-      "PT",
-      "TR",
       "DK",
-      "CH",
-      "DE",
-      "AT",
-      "ES",
-      "PL",
-      "NL",
-      "GB",
-      "FR",
       "IE",
       "BE",
       "GR",
       "IT",
-      "NO",
+      "PT",
       "SE",
-      "FI"
+      "NO",
+      "FI",
+      "CH",
+      "FR",
+      "DE",
+      "PL",
+      "AT",
+      "ES",
+      "GB",
+      "TR",
+      "NL"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_photo.jpg"
