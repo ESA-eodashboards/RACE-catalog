@@ -76,7 +76,7 @@ jobs:
   # FULL AUDIT MODE
   # -------------------------------------------------
   full-audit:
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    if: (github.event_name == 'schedule' && github.repository == 'ESA-eodashboards/RACE-catalog') || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
 
     permissions:
