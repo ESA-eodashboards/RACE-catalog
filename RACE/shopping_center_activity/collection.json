@@ -201,17 +201,17 @@
     ],
     "cities": [
       "Athens",
+      "Milan",
       "Brussels",
       "Rome",
-      "Warsaw",
-      "Milan",
-      "Bucharest"
+      "Bucharest",
+      "Warsaw"
     ],
     "countries": [
-      "RO",
       "BE",
-      "PL",
       "GR",
+      "PL",
+      "RO",
       "IT"
     ],
     "thumbnail": [

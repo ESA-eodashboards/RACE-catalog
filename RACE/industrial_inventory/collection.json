@@ -221,44 +221,44 @@
       "industry"
     ],
     "satellite": [
-      "Sentinel-1",
-      "ICEYE SAR"
+      "ICEYE SAR",
+      "Sentinel-1"
     ],
     "sensor": [
       "C-SAR"
     ],
     "cities": [
-      "Eisenach",
-      "Zwickau",
-      "Kvasiny",
-      "Martorell",
-      "Koln",
-      "Ingolstadt",
-      "Barcelona",
-      "Bremen",
-      "Saarlouis",
-      "Ghent",
-      "Sindelfingen",
-      "Dingolfing",
-      "Nosovice",
-      "Regensburg",
-      "Emden",
-      "Russelsheim",
-      "Leipzig",
-      "Wolfsburg",
       "Craiova",
+      "Regensburg",
+      "Wolfsburg",
+      "Kvasiny",
+      "Emden",
+      "Swindon",
+      "Bremen",
+      "Koln",
+      "Martorell",
+      "Russelsheim",
       "Mioveni",
       "Cassino",
-      "Swindon",
-      "Neckarsulm"
+      "Barcelona",
+      "Eisenach",
+      "Sindelfingen",
+      "Leipzig",
+      "Dingolfing",
+      "Saarlouis",
+      "Nosovice",
+      "Neckarsulm",
+      "Ingolstadt",
+      "Zwickau",
+      "Ghent"
     ],
     "countries": [
-      "DE",
       "BE",
-      "RO",
       "ES",
       "GB",
+      "DE",
       "CZ",
+      "RO",
       "IT"
     ],
     "thumbnail": [
