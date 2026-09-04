@@ -1,14 +1,26 @@
 {
-  "Name": "IDEAS1_hopi_b5",
+  "Name": "IND1_1_b5",
   "Title": "Land Surface Temperature",
-  "EodashIdentifier": "IND1_1_b5",
   "Subtitle": "Land Surface Temperature",
   "Description": "IDEAS1_hopi/IDEAS1_hopi.md",
   "ShortDescription": "This indicator highlights areas in European cities where people may face higher health risks due to extreme heat.",
-  "Themes": ["health","climate","land"],
-  "Tags": ["heat", "pollution"],
-  "Other": ["multiple", "HDX", "CAMS"],
-  "Agency": ["ESA"],
+  "Themes": [
+    "health",
+    "climate",
+    "land"
+  ],
+  "Tags": [
+    "heat",
+    "pollution"
+  ],
+  "Other": [
+    "multiple",
+    "HDX",
+    "CAMS"
+  ],
+  "Agency": [
+    "ESA"
+  ],
   "Provider": [
     {
       "Name": "Murmuration",
@@ -19,7 +31,12 @@
     {
       "Name": "COG source",
       "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS1_hopi/flatstyle_b5.json",
-      "Bbox": [-24, 33, 42, 71],
+      "Bbox": [
+        -24,
+        33,
+        42,
+        71
+      ],
       "TimeEntries": [
         {
           "Time": "20210301T0000",
@@ -66,7 +83,10 @@
   ],
   "Image": "IDEAS1_hopi/IDEAS1_hopi.png",
   "Colorlegend": {
-    "domain": [-10, 50],
+    "domain": [
+      -10,
+      50
+    ],
     "range": [
       "#b20a1c",
       "#c33731",
@@ -82,6 +102,6 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "[°C]"
+    "title": "[\u00b0C]"
   }
 }

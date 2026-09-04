@@ -1,10 +1,9 @@
 {
-  "Name": "so2_daily",
+  "Name": "N1_SO2",
   "Title": "Sulfur Dioxide observed by Sentinel-5p TROPOMI",
-  "EodashIdentifier": "N1_SO2",
   "Subtitle": "Global daily SO2",
   "Description": "N1_SO2/N1_SO2.md",
-  "ShortDescription": "This indicator shows sulfur dioxide (SO₂) in the atmosphere, measured by the Sentinel-5P satellite. SO₂ comes from both human activities (like power plants and industry) and natural events such as volcanic eruptions. High levels can affect air quality, human health, and even climate. By mapping SO₂ at high resolution, this indicator helps people see pollution hotspots, track volcanic plumes that may impact aviation, and understand how emissions travel across regions.",
+  "ShortDescription": "This indicator shows sulfur dioxide (SO\u2082) in the atmosphere, measured by the Sentinel-5P satellite. SO\u2082 comes from both human activities (like power plants and industry) and natural events such as volcanic eruptions. High levels can affect air quality, human health, and even climate. By mapping SO\u2082 at high resolution, this indicator helps people see pollution hotspots, track volcanic plumes that may impact aviation, and understand how emissions travel across regions.",
   "Themes": [
     "air",
     "climate",

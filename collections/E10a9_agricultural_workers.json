@@ -1,11 +1,10 @@
 {
   "Image": "E10a9_agricultural_workers/E10a9_agricultural_workers_photo.jpg",
-  "Name": "agricultural_workers",
+  "Name": "E10a9",
   "Title": "Agricultural workers",
-  "EodashIdentifier": "E10a9",
   "Subtitle": "Availability of agricultural workers",
   "Description": "E10a9_agricultural_workers/E10a9_agricultural_workers.md",
-  "ShortDescription": "This indicator shows how many people worked in tomato fields in the Apulia region of Italy, including both field preparation and harvesting. By combining satellite images with anonymised, aggregated mobile network data, it offers an overview of how many local, commuting, and foreign workers were active during the 2019–2020 seasons. This helps citizens understand how labour availability shapes essential food production and how external events, such as the COVID-19 pandemic, can affect the agricultural workforce behind everyday products such as tomatoes.",
+  "ShortDescription": "This indicator shows how many people worked in tomato fields in the Apulia region of Italy, including both field preparation and harvesting. By combining satellite images with anonymised, aggregated mobile network data, it offers an overview of how many local, commuting, and foreign workers were active during the 2019\u20132020 seasons. This helps citizens understand how labour availability shapes essential food production and how external events, such as the COVID-19 pandemic, can affect the agricultural workforce behind everyday products such as tomatoes.",
   "Themes": [
     "agriculture",
     "land"

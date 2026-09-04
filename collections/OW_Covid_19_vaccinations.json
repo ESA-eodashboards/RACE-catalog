@@ -1,8 +1,7 @@
 {
   "Image": "OW_Covid_19_vaccinations/OW_Covid_19_vaccinations_photo.jpg",
-  "Name": "OW_Covid_19_vaccinations",
+  "Name": "OW",
   "Title": "Covid-19 Vaccinations",
-  "EodashIdentifier": "OW",
   "Description": "OW_Covid_19_vaccinations/OW_Covid_19_vaccinations.md",
   "ShortDescription": "This indicator shows how COVID-19 vaccination levels changed over time in each country. By tracking the number of vaccinations administered, it helps people understand how quickly populations were protected and how vaccination campaigns progressed across different regions.",
   "Themes": [

@@ -1,8 +1,7 @@
 {
   "Image": "E13l_maritime_traffic_pleasure_craft/E13l_maritime_traffic_pleasure_craft_photo.jpg",
-  "Name": "pleasure_craft_port",
+  "Name": "E13l",
   "Title": "Pleasure craft in ports",
-  "EodashIdentifier": "E13l",
   "Subtitle": "Changes in the number of boats in ports",
   "Description": "E13l_maritime_traffic_pleasure_craft/E13l_maritime_traffic_pleasure_craft.md",
   "ShortDescription": "This indicator shows how the number of cruise ships in ports changed between 2019 and 2020. Cruise activity is closely linked to tourism, so declines highlight the strong impact of COVID-19 on travel and coastal economies.",
