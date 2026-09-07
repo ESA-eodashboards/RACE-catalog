@@ -1,7 +1,6 @@
 {
-  "Name": "Truck_daily_sentinel_2",
+  "Name": "E12c_detections",
   "Title": "Truck detections daily S2 L2A",
-  "EodashIdentifier": "E12c_detections",
   "Description": "E12c_truck_detections_motorways/E12c_truck_detections_motorways.md",
   "ShortDescription": "This indicator shows trucks moving on major European motorways detected in Sentinel-2 imagery.",
   "Themes": [
@@ -51,7 +50,7 @@
       "OverwriteBBox": [
         35.149109,
         -18.451538,
-        61.821150,
+        61.82115,
         27.910767
       ],
       "WMSIntervalsBetweenDates": true,

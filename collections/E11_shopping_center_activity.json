@@ -1,11 +1,10 @@
 {
   "Image": "E11_shopping_center_activity/E11_shopping_center_activity_photo.jpg",
-  "Name": "shopping_center_activity",
+  "Name": "E11",
   "Title": "Activity at shopping centers",
-  "EodashIdentifier": "E11",
   "Subtitle": "Occupancy of customer parking",
   "Description": "E11_shopping_center_activity/E11_shopping_center_activity.md",
-  "ShortDescription": "This indicator shows how busy customer parking areas were during different moments in 2020, using satellite images to detect either the number of parked cars or how much of the parking area was occupied. It offers an easy way to understand how people’s movements and shopping habits changed during events like the COVID-19 pandemic, giving a simple snapshot of activity around commercial areas.",
+  "ShortDescription": "This indicator shows how busy customer parking areas were during different moments in 2020, using satellite images to detect either the number of parked cars or how much of the parking area was occupied. It offers an easy way to understand how people\u2019s movements and shopping habits changed during events like the COVID-19 pandemic, giving a simple snapshot of activity around commercial areas.",
   "Themes": [
     "commerce"
   ],

@@ -1,17 +1,31 @@
 {
-  "Name": "Sentinel-2-with-Ships-detections",
+  "Name": "E13c_ship_detections",
   "Title": "Sentinel-2 Ships-detection on-the-fly",
-  "EodashIdentifier": "E13c_ship_detections",
   "Description": "E13c_ship_detections_algorithm/E13c_ship_detections_algorithm.md",
-  "Themes": ["commerce","tourism"],
-  "Tags": ["Ports", "Maritime", "Traffic", "Multi-sensors"],
+  "Themes": [
+    "commerce",
+    "tourism"
+  ],
+  "Tags": [
+    "Ports",
+    "Maritime",
+    "Traffic",
+    "Multi-sensors"
+  ],
   "DataSource": {
     "Spaceborne": {
-      "Satellite": ["Sentinel-2"],
-      "Sensor": ["MSI"]
+      "Satellite": [
+        "Sentinel-2"
+      ],
+      "Sensor": [
+        "MSI"
+      ]
     }
   },
-  "Agency": ["European Commission", "ESA"],
+  "Agency": [
+    "European Commission",
+    "ESA"
+  ],
   "Image": "E13c_ship_detections_algorithm/thumbnail.png",
   "Provider": [
     {
@@ -24,7 +38,7 @@
       "Name": "GitHub repository of vessel detection model",
       "Key": "draft_inference",
       "Url": "https://github.com/ShipDetectionExperts/draft_inference"
-    }, 
+    },
     {
       "Name": "Source code of service providing the inference on the fly",
       "Key": "service_code",

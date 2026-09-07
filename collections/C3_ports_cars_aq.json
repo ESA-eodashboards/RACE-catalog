@@ -1,8 +1,7 @@
 {
   "Image": "C3_ports_cars_aq/C3_ports_cars_aq_photo.jpg",
-  "Name": "ports_cars_aq",
+  "Name": "C3",
   "Title": "NO2 level vs Number of Cars",
-  "EodashIdentifier": "C3",
   "Subtitle": "Port Activities, sources of pollution and NO2 levels",
   "Description": "C3_ports_cars_aq/C3_ports_cars_aq.md",
   "ShortDescription": "Measuring the effect of road traffic on air pollution",

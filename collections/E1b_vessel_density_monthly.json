@@ -1,7 +1,6 @@
 {
-  "Name": "vessel_density_monthly",
+  "Name": "E1b_ts",
   "Title": "Vessel density monthly density",
-  "EodashIdentifier": "E1b_ts",
   "Subtitle": "Vessel Density based on Copernicus Sentinel-1",
   "Description": "E1b_vessel_density_timeseries/E1b_vessel_density_timeseries.md",
   "ShortDescription": "This indicator shows how many ships were present in major European ports by detecting them directly in radar images from the Copernicus Sentinel-1 satellite. By mapping vessel activity at a 1 km scale, it provides a clear picture of how busy ports were each month. This helps us understand how maritime traffic evolved during events like the COVID-19 pandemic and how port activity reflects the movement of goods, travel, and economic recovery.",
@@ -44,7 +43,7 @@
       "OverwriteBBox": [
         35.149109,
         -18.451538,
-        61.821150,
+        61.82115,
         27.910767
       ],
       "DateTimeInterval": {

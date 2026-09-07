@@ -1,10 +1,9 @@
 {
-  "Name": "IDEAS2_wildlife",
+  "Name": "IND2_1",
   "Title": "Wildlife Biodiversity Indicator",
-  "EodashIdentifier": "IND2_1",
   "Subtitle": "Identify areas of high biodiversity",
   "Description": "IDEAS2_wildlife/IDEAS2_wildlife.md",
-  "ShortDescription": "“This indicator shows patterns of wildlife biodiversity by combining observations of plants and animals with information on habitat health and human pressure. Using crowdsourced species data from the Global Biodiversity Information Facility (GBIF), together with endangered-species information and satellite-based habitat indicators, it helps people see where biodiversity is rich, where it is under threat, and why conservation matters. By exploring the map and filters, citizens can better understand how land use, vegetation health, and infrastructure affect wildlife.",
+  "ShortDescription": "\u201cThis indicator shows patterns of wildlife biodiversity by combining observations of plants and animals with information on habitat health and human pressure. Using crowdsourced species data from the Global Biodiversity Information Facility (GBIF), together with endangered-species information and satellite-based habitat indicators, it helps people see where biodiversity is rich, where it is under threat, and why conservation matters. By exploring the map and filters, citizens can better understand how land use, vegetation health, and infrastructure affect wildlife.",
   "Themes": [
     "land"
   ],
