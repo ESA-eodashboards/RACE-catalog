@@ -165,12 +165,6 @@
           14.964836415804598,
           97.6345478307898,
           86.84130057185143
-        ],
-        [
-          -87.70648392940124,
-          14.964836415804598,
-          97.6345478307898,
-          86.84130057185143
         ]
       ]
     },
@@ -195,8 +189,8 @@
       "E13q"
     ],
     "themes": [
-      "industry",
-      "commerce"
+      "commerce",
+      "industry"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13q_vessel_density_tanker/E13q_vessel_density_tanker.png"

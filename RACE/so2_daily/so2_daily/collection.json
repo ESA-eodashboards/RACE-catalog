@@ -11,19 +11,6 @@
       "title": "RACE"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Sulfur Dioxide observed by Sentinel-5p TROPOMI",
-      "wms:layers": [
-        "AWS_VIS_SO2_DAILY_DATA"
-      ],
-      "role": [
-        "data"
-      ],
-      "proj:epsg": 3857
-    },
-    {
       "rel": "example",
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/N1_SO2.js",
       "type": "application/javascript",
@@ -37,6 +24,9 @@
       "type": "application/json",
       "title": "Sulfur Dioxide observed by Sentinel-5p TROPOMI"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "subtitle": "Global daily SO2",
   "shortdescription": "This indicator shows sulfur dioxide (SO₂) in the atmosphere, measured by the Sentinel-5P satellite. SO₂ comes from both human activities (like power plants and industry) and natural events such as volcanic eruptions. High levels can affect air quality, human health, and even climate. By mapping SO₂ at high resolution, this indicator helps people see pollution hotspots, track volcanic plumes that may impact aviation, and understand how emissions travel across regions.",
@@ -117,6 +107,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 283346,
       "roles": [
         "collection-mirror"
       ]

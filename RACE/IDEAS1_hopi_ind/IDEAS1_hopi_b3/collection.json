@@ -11,19 +11,14 @@
       "title": "RACE"
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS1_hopi/flatstyle_b3.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "distance_to_hospital"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Health-Oriented Urban Heat and Pollution Index and Auxiliary layers"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "subtitle": "Distance to nearest hospital or clinic [km]",
   "shortdescription": "This indicator highlights areas in European cities where people may face higher health risks due to limited access to healthcare.",
@@ -99,6 +94,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14645,
       "roles": [
         "collection-mirror"
       ]

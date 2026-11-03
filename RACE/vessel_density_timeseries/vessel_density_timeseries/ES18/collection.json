@@ -72,6 +72,9 @@
       "title": "Vessel density time series"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E1b_vessel_density_timeseries/chart.json",
   "subcode": "E1b",
@@ -131,6 +134,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 31782,
       "roles": [
         "collection-mirror"
       ]

@@ -11,19 +11,14 @@
       "title": "RACE"
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS1_hopi/flatstyle_b2.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "winter_number_vulnerable"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Health-Oriented Urban Heat and Pollution Index and Auxiliary layers"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "subtitle": "Number of people of age > 60 or <5",
   "shortdescription": "This indicator highlights areas in European cities where people may face higher health risks due to vulnerability related to age groups.",
@@ -99,6 +94,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14639,
       "roles": [
         "collection-mirror"
       ]

@@ -11,16 +11,6 @@
       "title": "RACE"
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/style_yield_v2.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "at",
-        "hu",
-        "ro"
-      ]
-    },
-    {
       "rel": "license",
       "href": "https://cropom.com/terms_and_conditions.pdf",
       "type": "application/pdf",
@@ -34,6 +24,7 @@
     }
   ],
   "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
     "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
   "subtitle": "Yield forecast under \"what-if\" scenarios",
@@ -126,6 +117,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 17932,
       "roles": [
         "collection-mirror"
       ]

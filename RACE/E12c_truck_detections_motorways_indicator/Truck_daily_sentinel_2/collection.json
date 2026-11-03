@@ -11,23 +11,14 @@
       "title": "RACE"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/jpeg",
-      "title": "Truck detections daily S2 L2A",
-      "wms:layers": [
-        "SENTINEL-2-L2A-TRUE-COLOR"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Truck detections motorways indicator"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "shortdescription": "This indicator shows trucks moving on major European motorways detected in Sentinel-2 imagery.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12c_truck_detections_motorways/E12c_truck_detections_motorways.png",
@@ -93,6 +84,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 32340,
       "roles": [
         "collection-mirror"
       ]

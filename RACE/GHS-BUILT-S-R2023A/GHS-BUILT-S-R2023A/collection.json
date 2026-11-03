@@ -16,19 +16,6 @@
       "type": "text/html"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "GHS-BUILT-S-R2023A",
-      "wms:layers": [
-        "GHS_BUILT_S"
-      ],
-      "role": [
-        "data"
-      ],
-      "proj:epsg": 3857
-    },
-    {
       "rel": "license",
       "href": "http://creativecommons.org/licenses/by/4.0/legalcode",
       "type": "text/html"
@@ -47,6 +34,9 @@
       "type": "application/json",
       "title": "GHS-BUILT-S-R2023A"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "sci:doi": "10.2905/9F06F36F-4B11-47EC-ABB0-4F8B7B1D72EA",
   "sci:citation": "Pesaresi, Martino; Politis, Panagiotis (2023): GHS-BUILT-S R2023A - GHS built-up surface grid, derived from Sentinel2 composite and Landsat, multitemporal (1975-2030). European Commission, Joint Research Centre (JRC) [Dataset]\n",
@@ -134,6 +124,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 18799,
       "roles": [
         "collection-mirror"
       ]

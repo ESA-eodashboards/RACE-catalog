@@ -202,22 +202,22 @@
       "Sentinel-2"
     ],
     "sensor": [
-      "C-SAR",
       "MSI",
+      "C-SAR",
       "OLI"
     ],
     "cities": [
-      "Comunidad Valenciana",
-      "La Rioja",
-      "Castilla-La Mancha",
-      "Comunidad de Madrid",
-      "Comunidad Foral de Navarra",
-      "Extremadura",
-      "Castilla y Leon",
       "Cataluna",
-      "Andalucia",
+      "Aragon",
+      "Extremadura",
+      "La Rioja",
+      "Comunidad Valenciana",
+      "Comunidad Foral de Navarra",
+      "Castilla y Leon",
+      "Comunidad de Madrid",
+      "Castilla-La Mancha",
       "Region de Murcia",
-      "Aragon"
+      "Andalucia"
     ],
     "countries": [
       "ES"

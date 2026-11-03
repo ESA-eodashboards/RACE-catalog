@@ -47,18 +47,6 @@
       "name": "Total suspended matter in Danube Delta"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Total suspended matter maps",
-      "wms:layers": [
-        "AWS_N3_CUSTOM_TSMNN"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "license",
       "href": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
       "type": "text/html",

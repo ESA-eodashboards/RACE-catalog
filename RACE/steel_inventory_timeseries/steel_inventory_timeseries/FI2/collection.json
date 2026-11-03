@@ -72,6 +72,9 @@
       "title": "Steel inventory timeseries"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E5_steel_inventory_timeseries/chart.json",
   "subcode": "E5",
@@ -131,6 +134,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 17931,
       "roles": [
         "collection-mirror"
       ]

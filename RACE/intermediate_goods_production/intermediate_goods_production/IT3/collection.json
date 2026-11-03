@@ -72,6 +72,9 @@
       "title": "Intermediate goods production"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E4_intermediate_goods_production/chart.json",
   "subcode": "E4",
@@ -122,6 +125,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 15813,
       "roles": [
         "collection-mirror"
       ]

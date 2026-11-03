@@ -11,18 +11,6 @@
       "title": "RACE"
     },
     {
-      "rel": "wms",
-      "href": "https://a.geoservice.dlr.de/eoc/land/wms/",
-      "type": "image/jpeg",
-      "title": "World settlement footprint 2019",
-      "wms:layers": [
-        "WSF_2019"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "license",
       "href": "http://creativecommons.org/licenses/by/4.0/legalcode",
       "type": "text/html"
@@ -33,6 +21,9 @@
       "type": "application/json",
       "title": "World settlement footprint"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "sci:doi": "10.1553/giscience2021_01_s33",
   "sci:citation": "Marconcini, M., Metz-Marconcini, A., Esch, T., Gorelick, N. (2021). Understanding Current Trends in Global Urbanisation – The World Settlement Footprint suite. GI_Forum, 1, 33-38.\n",
@@ -102,6 +93,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14096,
       "roles": [
         "collection-mirror"
       ]

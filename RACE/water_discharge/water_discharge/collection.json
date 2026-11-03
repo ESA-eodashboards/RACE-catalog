@@ -11,14 +11,6 @@
       "title": "RACE"
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/CNR_TUR_water_discharge/cog_style.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "20220910T101827"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -26,6 +18,7 @@
     }
   ],
   "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
     "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
   "shortdescription": "Water discharge — the volume of water flowing through a channel, such as a river or stream, per unit of time — is a fundamental metric for managing the global water cycle, ensuring public safety, supporting water resource management - including for drinking water and agriculture - and various economic sectors, and maintaining ecosystem health.",
@@ -120,6 +113,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 84216,
       "roles": [
         "collection-mirror"
       ]

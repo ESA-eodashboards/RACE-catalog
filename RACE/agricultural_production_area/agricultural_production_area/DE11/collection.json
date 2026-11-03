@@ -72,6 +72,9 @@
       "title": "Agricultural production - area"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a2_agricultural_production_area/chart.json",
   "subcode": "E10a2",
@@ -132,6 +135,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 22670,
       "roles": [
         "collection-mirror"
       ]

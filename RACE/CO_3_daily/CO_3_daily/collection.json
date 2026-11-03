@@ -11,19 +11,6 @@
       "title": "RACE"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Carbon Monoxide observed by Sentinel-5p TROPOMI",
-      "wms:layers": [
-        "AWS_VIS_CO_3DAILY_DATA"
-      ],
-      "role": [
-        "data"
-      ],
-      "proj:epsg": 3857
-    },
-    {
       "rel": "example",
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.js",
       "type": "application/javascript",
@@ -37,6 +24,9 @@
       "type": "application/json",
       "title": "Carbon Monoxide observed by Sentinel-5p TROPOMI"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "subtitle": "Global 3-daily Carbon monoxide",
   "shortdescription": "This indicator shows the amount of carbon monoxide (CO) in the atmosphere, measured from space by the Sentinel-5P satellite. CO is a pollutant produced by traffic, industry, and fires, and high levels can affect air quality and health. By mapping CO worldwide, this indicator helps people see where pollution is coming from, such as cities, wildfire regions, or industrial areas, and how it changes over time. It offers a clear view of how human activities and natural events impact the air we breathe.",
@@ -121,6 +111,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 289304,
       "roles": [
         "collection-mirror"
       ]

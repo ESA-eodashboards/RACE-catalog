@@ -177,12 +177,6 @@
           -90.22495138408348,
           180.0,
           90.125
-        ],
-        [
-          -180.0,
-          -90.22495138408348,
-          180.0,
-          90.125
         ]
       ]
     },
@@ -211,8 +205,8 @@
       "CDS1_temperature"
     ],
     "themes": [
-      "air",
-      "climate"
+      "climate",
+      "air"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png"

@@ -25,18 +25,6 @@
       "dataId": "byoc-92780d01-126f-4827-80f8-4e561dd8e228"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Sea surface temperature maps",
-      "wms:layers": [
-        "AWS_VIS_SST_MAPS"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "service",
       "href": "https://services.sentinel-hub.com/api/v1/statistics",
       "type": "application/json",
@@ -104,6 +92,9 @@
       "type": "application/json",
       "title": "Sea surface temperature maps"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "subtitle": "Sea surface temperature description",
   "shortdescription": "This indicator shows maps of sea surface temperature across several European sites, using data from the Copernicus Marine Environment Monitoring Service (CMEMS). By comparing current temperatures with long-term averages, the maps help people see where the sea is warmer or cooler than usual. This is important because unusually warm waters can stress marine ecosystems, affect fisheries, and signal marine heatwaves linked to climate change.",
@@ -185,6 +176,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 50076,
       "roles": [
         "collection-mirror"
       ]

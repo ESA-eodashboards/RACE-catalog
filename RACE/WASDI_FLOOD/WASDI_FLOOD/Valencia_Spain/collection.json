@@ -11,18 +11,6 @@
       "title": "RACE"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Flood mapping",
-      "wms:layers": [
-        "WASDI_FLOOD"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -76,6 +64,9 @@
       "type": "application/json",
       "title": "Flood mapping"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "sci:doi": "10.3390/rs11020107",
   "sci:citation": "Chini, M., Pelich, R., Pulvirenti, L., Pierdicca, N., Hostache, R., Matgen, P., 2019. Sentinel-1 InSAR coherence to detect floodwater in urban areas: Houston and Hurricane Harvey as a test case. Remote Sensing, 11(2), p.107.\n",
@@ -154,6 +145,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 24296,
       "roles": [
         "collection-mirror"
       ]

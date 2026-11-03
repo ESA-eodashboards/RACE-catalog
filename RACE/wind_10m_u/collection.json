@@ -179,12 +179,6 @@
           -90.22495138408348,
           180.0,
           90.125
-        ],
-        [
-          -180.0,
-          -90.22495138408348,
-          180.0,
-          90.125
         ]
       ]
     },
@@ -213,8 +207,8 @@
       "CDS3"
     ],
     "themes": [
-      "air",
-      "climate"
+      "climate",
+      "air"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS3_wind_10m_u/CDS3_wind_10m_u.png"

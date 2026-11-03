@@ -11,19 +11,14 @@
       "title": "RACE"
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS1_hopi/flatstyle_b4.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "days_over_threshold"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Health-Oriented Urban Heat and Pollution Index and Auxiliary layers"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "subtitle": "Number of days where air pollution exceeded WHO threshold",
   "shortdescription": "This indicator highlights areas in European cities where people may face higher health risks due to air pollution.",
@@ -99,6 +94,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14627,
       "roles": [
         "collection-mirror"
       ]

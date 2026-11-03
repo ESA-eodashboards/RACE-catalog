@@ -167,12 +167,6 @@
           -90.0,
           180.0,
           90.0
-        ],
-        [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
         ]
       ]
     },
@@ -201,9 +195,9 @@
       "N1_CO"
     ],
     "themes": [
+      "climate",
       "health",
-      "air",
-      "climate"
+      "air"
     ],
     "satellite": [
       "Sentinel-5P"

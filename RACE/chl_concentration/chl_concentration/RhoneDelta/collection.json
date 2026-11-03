@@ -25,18 +25,6 @@
       "dataId": "byoc-7db8e19e-bf12-4203-bdd1-673455647354"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Chlorophyll-a concentration maps",
-      "wms:layers": [
-        "AWS_N3_CUSTOM"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "service",
       "href": "https://services.sentinel-hub.com/api/v1/statistics",
       "type": "application/json",
@@ -104,6 +92,9 @@
       "type": "application/json",
       "title": "Chlorophyll-a concentration maps"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "subtitle": "Chlorophyll-a concentration description",
   "shortdescription": "This indicator maps water quality across regions by showing chlorophyll-a levels, which reflect how much algae is present in the water. While algae occur naturally, unusually high concentrations can point to pollution from sewage, industry, or agricultural fertilisers entering rivers and coastal waters. By comparing weekly satellite observations with long-term average conditions, these maps help people quickly see where water quality is better or worse than usual. They offer a clear, visual way to understand how human activities and natural processes affect the health of lakes, rivers, and coastal seas.",
@@ -186,6 +177,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 49875,
       "roles": [
         "collection-mirror"
       ]

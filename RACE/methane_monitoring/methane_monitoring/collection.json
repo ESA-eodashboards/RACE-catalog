@@ -11,19 +11,6 @@
       "title": "RACE"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Methane monitoring",
-      "wms:layers": [
-        "AWS_CH4_WEEKLY"
-      ],
-      "role": [
-        "data"
-      ],
-      "proj:epsg": 3857
-    },
-    {
       "rel": "example",
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.js",
       "type": "application/javascript",
@@ -37,6 +24,9 @@
       "type": "application/json",
       "title": "Methane monitoring"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "subtitle": "Daily Methane Monitoring",
   "shortdescription": "This indicator shows methane (CH₄) concentrations in the atmosphere, measured from space by the Sentinel-5P satellite. Methane is a powerful greenhouse gas, and tracking where it comes from, such as agriculture, energy production, or natural sources, helps us understand its impact on climate. By mapping methane levels globally, this indicator gives a clear view of how human activities and natural processes contribute to warming, and how these patterns evolve over time.",
@@ -133,6 +123,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 59083,
       "roles": [
         "collection-mirror"
       ]

@@ -17,19 +17,6 @@
       "title": "Licence to Use Copernicus Products"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Wind U Field",
-      "wms:layers": [
-        "AWS_VIS_WIND_U_10M"
-      ],
-      "role": [
-        "data"
-      ],
-      "proj:epsg": 3857
-    },
-    {
       "rel": "license",
       "href": "https://cds.climate.copernicus.eu/licences/licence-to-use-copernicus-products",
       "type": "text/html",
@@ -49,6 +36,9 @@
       "type": "application/json",
       "title": "Wind U Field"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "sci:doi": "10.24381/cds.68d2bb30",
   "sci:citation": "Muñoz Sabater, J., (2019) was downloaded from the Copernicus Climate Change Service (2021).\nThe results contain modified Copernicus Climate Change Service information 2020. \nNeither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.\n",
@@ -140,6 +130,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 99947,
       "roles": [
         "collection-mirror"
       ]

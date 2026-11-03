@@ -72,6 +72,9 @@
       "title": "Ships detected in Sentinel-2"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E1b_vessel_density_timeseries/chart.json",
   "subcode": "E200",
@@ -127,6 +130,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 27211,
       "roles": [
         "collection-mirror"
       ]

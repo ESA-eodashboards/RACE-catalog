@@ -161,12 +161,6 @@
           -90.0,
           180.0,
           90.0
-        ],
-        [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
         ]
       ]
     },
@@ -191,8 +185,8 @@
       "N1b_PM25"
     ],
     "themes": [
-      "air",
-      "health"
+      "health",
+      "air"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM25/N1b_PM25.png"

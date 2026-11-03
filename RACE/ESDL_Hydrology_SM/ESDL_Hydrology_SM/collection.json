@@ -23,6 +23,9 @@
       "title": "Surface Soil Moisture"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "eodash:rasterform": {
     "jsonform": {
       "type": "object",
@@ -291,6 +294,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 67117,
       "roles": [
         "collection-mirror"
       ]
