@@ -17,6 +17,19 @@
       "title": "Licence to Use Copernicus Products"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Wind V Field",
+      "wms:layers": [
+        "AWS_VIS_WIND_V_10M"
+      ],
+      "role": [
+        "data"
+      ],
+      "proj:epsg": 3857
+    },
+    {
       "rel": "license",
       "href": "https://cds.climate.copernicus.eu/licences/licence-to-use-copernicus-products",
       "type": "text/html",

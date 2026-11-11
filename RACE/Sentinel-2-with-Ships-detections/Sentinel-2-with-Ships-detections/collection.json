@@ -11,6 +11,18 @@
       "title": "RACE"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Sentinel-2 Ships-detection on-the-fly",
+      "wms:layers": [
+        "SENTINEL-2-L2A-TRUE-COLOR"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -59,7 +71,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-11-03T00:00:00Z"
+          "2026-11-11T00:00:00Z"
         ]
       ]
     }
@@ -76,7 +88,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
-      "file:size": 39941,
+      "file:size": 40130,
       "roles": [
         "collection-mirror"
       ]

@@ -11,6 +11,21 @@
       "title": "RACE"
     },
     {
+      "rel": "wms",
+      "href": "https://eccharts.ecmwf.int/wms/?token=public",
+      "type": "image/png",
+      "title": "Air Quality (O3 concentrations) map",
+      "wms:layers": [
+        "composition_europe_o3_analysis_surface"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:styles": [
+        "sh_OrangesTransparent240_surface_concentration"
+      ]
+    },
+    {
       "rel": "license",
       "href": "https://cds.climate.copernicus.eu/licences/licence-to-use-copernicus-products",
       "type": "text/html",

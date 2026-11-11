@@ -157,7 +157,7 @@
       "interval": [
         [
           "2026-10-07T00:00:00Z",
-          "2026-11-02T00:00:00Z"
+          "2026-11-10T00:00:00Z"
         ]
       ]
     }
@@ -178,10 +178,10 @@
       "water"
     ],
     "satellite": [
-      "Suomi NPP",
       "Sentinel-3",
-      "JPSS-1",
-      "Aqua"
+      "Suomi NPP",
+      "Aqua",
+      "JPSS-1"
     ],
     "sensor": [
       "VIIRS",

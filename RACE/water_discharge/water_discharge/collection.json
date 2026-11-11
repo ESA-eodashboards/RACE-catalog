@@ -11,6 +11,14 @@
       "title": "RACE"
     },
     {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/CNR_TUR_water_discharge/cog_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "20220910T101827"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

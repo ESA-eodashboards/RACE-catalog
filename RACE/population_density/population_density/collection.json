@@ -16,6 +16,19 @@
       "type": "text/html"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Population density",
+      "wms:layers": [
+        "AWS_POPULATION_DENSITY"
+      ],
+      "role": [
+        "data"
+      ],
+      "proj:epsg": 3857
+    },
+    {
       "rel": "license",
       "href": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
       "type": "text/html"

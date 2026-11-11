@@ -11,6 +11,19 @@
       "title": "RACE"
     },
     {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_BLK_BGC_L4_NRT_009_152/cmems_obs-oc_blk_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202207",
+      "type": "image/png",
+      "title": "Ocean colour plankton - Black Sea",
+      "wmts:layer": "OCEANCOLOUR_BLK_BGC_L4_NRT_009_152/cmems_obs-oc_blk_bgc-plankton_nrt_l4-gapfree-multi-1km_P1D_202207/CHL",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "style": "cmap:rainbow,range:0.03/50,noClamp,logScale"
+      }
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -20,6 +33,119 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
+  "eodash:rasterform": {
+    "jsonform": {
+      "type": "object",
+      "properties": {
+        "cmap": {
+          "type": "string",
+          "title": "Colormap",
+          "enum": [
+            "algae",
+            "amp",
+            "balance",
+            "cividis",
+            "cyclic",
+            "delta",
+            "dense",
+            "gray",
+            "haline",
+            "ice",
+            "inferno",
+            "magma",
+            "matter",
+            "phase",
+            "plasma",
+            "rainbow",
+            "solar",
+            "speed",
+            "tempo",
+            "thermal",
+            "viridis"
+          ],
+          "default": "rainbow"
+        },
+        "vminmax": {
+          "type": "object",
+          "title": "Value Range",
+          "properties": {
+            "vmin": {
+              "type": "number",
+              "default": 0.03,
+              "format": "range",
+              "minimum": 0.03,
+              "step": 1
+            },
+            "vmax": {
+              "type": "number",
+              "default": 50.0,
+              "format": "range",
+              "maximum": 75.0,
+              "step": 1
+            }
+          },
+          "format": "minmax"
+        },
+        "noClamp": {
+          "type": "string",
+          "title": "Transparent outside (Min/Max)",
+          "enum": [
+            ",noClamp",
+            ""
+          ],
+          "options": {
+            "enum_titles": [
+              "On",
+              "Off"
+            ]
+          }
+        },
+        "logScale": {
+          "type": "string",
+          "title": "Log Scale",
+          "enum": [
+            ",logScale",
+            ""
+          ],
+          "options": {
+            "enum_titles": [
+              "Log Scale",
+              "Linear Scale"
+            ]
+          }
+        },
+        "style": {
+          "type": "string",
+          "template": "cmap:{{cmap}},range:{{vminmax.vmin}}/{{vminmax.vmax}}{{noClamp}}{{logScale}}",
+          "watch": {
+            "cmap": "cmap",
+            "vminmax": "vminmax",
+            "noClamp": "noClamp",
+            "logScale": "logScale"
+          },
+          "options": {
+            "hidden": true
+          }
+        }
+      },
+      "required": [
+        "vminmax",
+        "cmap",
+        "noClamp",
+        "logScale"
+      ]
+    },
+    "legend": {
+      "title": "milligram m^-3",
+      "scaleType": "log10",
+      "tickFormat": ".0f",
+      "rangeProperty": "cmap",
+      "domainProperties": [
+        "vmin",
+        "vmax"
+      ]
+    }
+  },
   "subtitle": "Ocean colour plankton description",
   "shortdescription": "This indicator shows maps of chlorophyll concentration in the Black Sea, using data from the Copernicus Marine Environment Monitoring Service (CMEMS). Chlorophyll reveals how much algae is present in the water: normal levels support marine life, while unusually high levels, often linked to pollution from rivers, sewage, or agriculture, can signal declining water quality and risks to biodiversity. By providing daily, gap-free maps, this indicator helps people see where marine ecosystems are under pressure and how human activities and natural processes affect the health of the sea.",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_black_sea/N3c_ocean_colour_plankton_black_sea.png",
@@ -68,7 +194,7 @@
       "interval": [
         [
           "2026-10-07T00:00:00Z",
-          "2026-11-02T00:00:00Z"
+          "2026-11-10T00:00:00Z"
         ]
       ]
     }
@@ -85,7 +211,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
-      "file:size": 15977,
+      "file:size": 16150,
       "roles": [
         "collection-mirror"
       ]

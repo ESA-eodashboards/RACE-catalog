@@ -11,6 +11,16 @@
       "title": "RACE"
     },
     {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/crop_forecast_CropOM/style_water_needed_v2.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "at",
+        "hu",
+        "ro"
+      ]
+    },
+    {
       "rel": "license",
       "href": "https://cropom.com/terms_and_conditions.pdf",
       "type": "application/pdf",

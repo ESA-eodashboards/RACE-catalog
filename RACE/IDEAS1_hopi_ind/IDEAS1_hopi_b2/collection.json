@@ -11,6 +11,14 @@
       "title": "RACE"
     },
     {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS1_hopi/flatstyle_b2.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "winter_number_vulnerable"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

@@ -17,6 +17,19 @@
       "title": "Licence to Use Copernicus Products"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Relative humidity - ERA5",
+      "wms:layers": [
+        "AWS_VIS_RELHUMIDITY1000HPA"
+      ],
+      "role": [
+        "data"
+      ],
+      "proj:epsg": 3857
+    },
+    {
       "rel": "license",
       "href": "https://cds.climate.copernicus.eu/licences/licence-to-use-copernicus-products",
       "type": "text/html",

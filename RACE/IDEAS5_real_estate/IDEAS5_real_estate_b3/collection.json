@@ -11,6 +11,14 @@
       "title": "RACE"
     },
     {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS5_real_estate/cog_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "spring"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

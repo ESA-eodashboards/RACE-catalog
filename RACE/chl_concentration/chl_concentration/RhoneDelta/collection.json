@@ -25,6 +25,18 @@
       "dataId": "byoc-7db8e19e-bf12-4203-bdd1-673455647354"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Chlorophyll-a concentration maps",
+      "wms:layers": [
+        "AWS_N3_CUSTOM"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
       "rel": "service",
       "href": "https://services.sentinel-hub.com/api/v1/statistics",
       "type": "application/json",

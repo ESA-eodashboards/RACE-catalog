@@ -11,6 +11,18 @@
       "title": "RACE"
     },
     {
+      "rel": "wms",
+      "href": "https://a.geoservice.dlr.de/eoc/land/wms/",
+      "type": "image/jpeg",
+      "title": "World settlement footprint 2019",
+      "wms:layers": [
+        "WSF_2019"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
       "rel": "license",
       "href": "http://creativecommons.org/licenses/by/4.0/legalcode",
       "type": "text/html"

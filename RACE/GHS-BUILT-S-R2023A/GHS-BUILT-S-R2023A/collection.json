@@ -16,6 +16,19 @@
       "type": "text/html"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "GHS-BUILT-S-R2023A",
+      "wms:layers": [
+        "GHS_BUILT_S"
+      ],
+      "role": [
+        "data"
+      ],
+      "proj:epsg": 3857
+    },
+    {
       "rel": "license",
       "href": "http://creativecommons.org/licenses/by/4.0/legalcode",
       "type": "text/html"

@@ -65,6 +65,18 @@
       "name": "Sea surface temperature in Elbe Delta"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Sea surface temperature maps",
+      "wms:layers": [
+        "AWS_VIS_SST_MAPS"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
       "rel": "license",
       "href": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
       "type": "text/html",

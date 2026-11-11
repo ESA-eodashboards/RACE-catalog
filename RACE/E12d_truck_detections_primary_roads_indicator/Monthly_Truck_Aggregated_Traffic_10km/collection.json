@@ -11,6 +11,18 @@
       "title": "RACE"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Monthly truck aggregated traffic 10km",
+      "wms:layers": [
+        "VIS_TRUCK_DETECTION_PRIMARY_NEW"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
       "rel": "example",
       "href": "https://esa-eodashboards.github.io/RACE-notebooks/notebooks/detect-trucks-sentinel2/",
       "type": "application/x-ipynb+json",

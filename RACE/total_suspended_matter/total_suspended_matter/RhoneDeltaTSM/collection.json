@@ -25,6 +25,18 @@
       "dataId": "byoc-698ade22-bc30-44d1-8751-159ee135f998"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Total suspended matter maps",
+      "wms:layers": [
+        "AWS_N3_CUSTOM_TSMNN"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
       "rel": "service",
       "href": "https://services.sentinel-hub.com/api/v1/statistics",
       "type": "application/json",

@@ -25,6 +25,18 @@
       "dataId": "byoc-92780d01-126f-4827-80f8-4e561dd8e228"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Sea surface temperature maps",
+      "wms:layers": [
+        "AWS_VIS_SST_MAPS"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
       "rel": "service",
       "href": "https://services.sentinel-hub.com/api/v1/statistics",
       "type": "application/json",

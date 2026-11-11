@@ -11,6 +11,14 @@
       "title": "RACE"
     },
     {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS2_wildlife/flatstyle_b1.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "Wildlife Biodiversity indicator"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

@@ -11,6 +11,18 @@
       "title": "RACE"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Flood mapping",
+      "wms:layers": [
+        "WASDI_FLOOD"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
